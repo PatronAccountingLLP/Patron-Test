@@ -20,11 +20,11 @@
     <meta property="og:url" content="/healthcare-sector-accounting-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-healthcare/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Healthcare Accounting in Gurugram - GST & Compliance">
     <meta name="twitter:description" content="CA-led accounting for hospitals, clinics, and doctors in Gurugram. GST exemption management, medical practice bookkeeping. Serving Sector 38, 44, 51 healthcare hubs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-healthcare/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

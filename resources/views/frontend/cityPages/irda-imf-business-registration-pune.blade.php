@@ -21,11 +21,11 @@
     <meta property="og:url" content="/irda-imf-business-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-registration/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF Registration: IRDAI License &amp; Company Setup">
     <meta name="twitter:description" content="End-to-end IMF registration in Pune from INR 24,999 - MCA incorporation plus IRDAI Insurance Marketing Firm license. Eligibility, documents, fees and timeline.">
-    <meta name="twitter:image" content="/images/imf-registration/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

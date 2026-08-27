@@ -20,11 +20,11 @@
     <meta property="og:url" content="/private-limited-company-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/private-limited-company-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Private Limited Company Compliance - ROC Filing & Due Dates">
     <meta name="twitter:description" content="Annual ROC compliance for private limited companies - AOC-4, MGT-7, board meetings, AGM. Avoid INR 100/day penalty. Starting at INR 9,999. CA and CS team.">
-    <meta name="twitter:image" content="/images/private-limited-company-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/cma-data-preparation-and-certification/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/cma-data-preparation-and-certification-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/cma-data-preparation-and-certification-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

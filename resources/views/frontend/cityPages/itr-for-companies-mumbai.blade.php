@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-companies/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-companies/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Filing for Companies Mumbai - ITR-6, MAT & AMT">
     <meta name="twitter:description" content="CA-assisted ITR-6 filing for companies in Mumbai. Pvt Ltd, public, OPC, MNC. Section 115BAA, MAT, transfer pricing, tax audit. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-companies/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

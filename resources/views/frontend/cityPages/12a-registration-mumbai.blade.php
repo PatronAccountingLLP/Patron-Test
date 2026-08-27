@@ -20,11 +20,11 @@
     <meta property="og:url" content="/12a-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/12a-registration/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A Registration in Mumbai - Form 10A & Tax Exemption">
     <meta name="twitter:description" content="CA-assisted 12A registration in Mumbai for trusts, societies, Section 8 companies. Form 10A filing, 80G bundled. Near PCIT Exemptions. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/12a-registration/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

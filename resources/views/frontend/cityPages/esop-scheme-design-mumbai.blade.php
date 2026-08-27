@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-scheme-design/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-scheme-design-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Scheme Design with SEBI-Aligned Term Sheets | Patron Accounting">
     <meta name="twitter:description" content="End-to-end ESOP drafting for BKC and Powai companies, covering vesting, leaver clauses and SEBI-aligned term sheets, delivered in 4 to 8 weeks from INR 19,999.">
-    <meta name="twitter:image" content="/images/esop-scheme-design-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

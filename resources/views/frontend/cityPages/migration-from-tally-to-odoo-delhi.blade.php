@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-tally-to-odoo/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-odoo/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to Odoo Migration Delhi 2026 | Patron Accounting">
     <meta name="twitter:description" content="Tally to Odoo ERP migration in Delhi from INR 9,999. CA-led account mapping, l10n_in GST, Inventory, Sales, and Purchase apps, and reconciled trial balance.">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-odoo/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

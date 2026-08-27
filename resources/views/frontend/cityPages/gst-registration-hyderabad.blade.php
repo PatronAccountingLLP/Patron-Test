@@ -14,10 +14,10 @@
     <meta property="og:description" content="CA-assisted GST registration in Hyderabad. State code 36, GSTIN, CGST+TGST. Call +91 945 945 6700.">
     <meta property="og:url" content="/gst-registration/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="GST Registration in Hyderabad – Online Process, Fees &amp; GSTIN">
     <meta name="twitter:description" content="CA-assisted GST registration in Hyderabad. State code 36, GSTIN. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

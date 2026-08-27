@@ -22,11 +22,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate/ahmedabad">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-ahmedabad.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificates for Ahmedabad Businesses">
     <meta name="twitter:description" content="GIFT City entities and Gujarat trade files, certified in Ahmedabad.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-ahmedabad.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

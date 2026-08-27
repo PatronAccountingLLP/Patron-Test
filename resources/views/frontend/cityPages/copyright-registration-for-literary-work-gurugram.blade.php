@@ -21,11 +21,11 @@
     <meta property="og:url" content="/copyright-registration-for-literary-work/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-registration-for-literary-work-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Literary Work Gurugram - Book & Software">
     <meta name="twitter:description" content="Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-registration-for-literary-work-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

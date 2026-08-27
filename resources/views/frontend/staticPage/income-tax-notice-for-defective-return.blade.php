@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notice-for-defective-return">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notice-for-defective-return-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Defective Return Notice u/s 139(9) - Reasons, Reply & Fix">
     <meta name="twitter:description" content="Received defective return notice u/s 139(9)? Our CAs identify the defect, file a corrected ITR on e-Proceedings within 15 days. Starting at INR 1,999.">
-    <meta name="twitter:image" content="/images/income-tax-notice-for-defective-return-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

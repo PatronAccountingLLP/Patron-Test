@@ -20,11 +20,11 @@
     <meta property="og:url" content="/roc-notice/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/roc-notice/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ROC Compliance Filing in Pune - AOC-4, MGT-7 & Returns">
     <meta name="twitter:description" content="CA and CS assisted ROC notice response in Pune. Strike-off reply, adjudication defence, CCFS 2026 filing, and company restoration. Serving Hinjewadi, Kharadi, Baner. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/roc-notice/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

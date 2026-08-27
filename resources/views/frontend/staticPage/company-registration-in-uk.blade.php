@@ -19,11 +19,11 @@
     <meta property="og:url" content="/company-registration-in-uk">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-registration-in-uk-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Registration in UK 2026 | Patron Accounting">
     <meta name="twitter:description" content="Register a UK private limited company via Companies House. No resident director needed, 100% foreign ownership, ECCTA ID verification. From GBP 499.">
-    <meta name="twitter:image" content="/images/company-registration-in-uk-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

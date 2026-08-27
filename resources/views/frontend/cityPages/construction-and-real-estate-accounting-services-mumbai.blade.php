@@ -20,11 +20,11 @@
     <meta property="og:url" content="/construction-and-real-estate-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/construction-and-real-estate-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Construction & Real Estate Accounting Mumbai - RERA & GST">
     <meta name="twitter:description" content="CA-led construction and real estate accounting in Mumbai. MahaRERA escrow, POCM, project costing for BKC, Worli, Thane developers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/construction-and-real-estate-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/convert-proprietorship-to-llp">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-proprietorship-to-llp-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Proprietorship to LLP 2026 | Patron Accounting">
     <meta name="twitter:description" content="Convert your proprietorship to an LLP in India. Limited liability, flexible partnership and lower compliance. Add a partner, transfer business. From INR 14,999.">
-    <meta name="twitter:image" content="/images/convert-proprietorship-to-llp-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

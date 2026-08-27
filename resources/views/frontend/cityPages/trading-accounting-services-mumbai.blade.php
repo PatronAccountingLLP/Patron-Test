@@ -20,11 +20,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/trading-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/trading-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Business Accounting in Mumbai - Inventory & GST">
     <meta name="twitter:description" content="CA-led wholesale and retail trading accounting in Mumbai. Multi-godown inventory, GST multi-slab, e-invoice and e-way bill for Bhuleshwar and Crawford Market.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/trading-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

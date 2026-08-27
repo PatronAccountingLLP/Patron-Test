@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-tax-for-nri-and-non-resident-employees/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-tax-for-nri-and-non-resident-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai NRI ESOP Tax Help: Form 67 & FTC Credit Claims | Patron Accounting">
     <meta name="twitter:description" content="NRI and non-resident staff at Mumbai SaaS and BKC firms get the ESOP perquisite split by India workdays plus Form 67 FTC relief, starting at Rs 9,999.">
-    <meta name="twitter:image" content="/images/esop-tax-for-nri-and-non-resident-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

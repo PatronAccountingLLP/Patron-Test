@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-corporate-filings/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-corporate-filings-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Filings: MGT-14, PAS-3 & SH-6 via RoC Pune | Patron Accounting">
     <meta name="twitter:description" content="File ESOP forms MGT-14, PAS-3 and SH-6 with RoC Pune for Hinjewadi and Kharadi SaaS teams. CS-led corporate filings at INR 9,999/filing, fully tracked.">
-    <meta name="twitter:image" content="/images/esop-corporate-filings-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/foreign-remittance-certificate-15ca-15cb/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/foreign-remittance-certificate-15ca-15cb-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Form 15CA 15CB for Foreign Remittance 2026 | Patron Accounting">
     <meta name="twitter:description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/foreign-remittance-certificate-15ca-15cb-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

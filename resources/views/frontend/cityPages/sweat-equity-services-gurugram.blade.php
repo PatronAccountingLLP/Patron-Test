@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sweat-equity-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sweat-equity-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram Sweat Equity for Cyber City SaaS Founders | Patron Accounting">
     <meta name="twitter:description" content="Grant sweat equity to your Gurugram team or Cyber City SaaS co-founders with valuer-backed pricing, special resolution and RoC filings, all from INR 24,999.">
-    <meta name="twitter:image" content="/images/sweat-equity-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-tax-for-nri-and-non-resident-employees/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-tax-for-nri-and-non-resident-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune NRI ESOP Tax: DTAA Relief & India Workday Split | Patron Accounting">
     <meta name="twitter:description" content="For NRIs at Pune IT hubs like Hinjewadi and Kharadi, we apportion the ESOP perquisite by India workdays and claim DTAA relief, starting at Rs 9,999.">
-    <meta name="twitter:image" content="/images/esop-tax-for-nri-and-non-resident-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

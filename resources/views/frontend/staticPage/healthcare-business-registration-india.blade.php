@@ -19,11 +19,11 @@
     <meta property="og:url" content="/healthcare-business-registration-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/healthcare-business-registration-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Healthcare Business Registration in India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Register your healthcare business in India: Pvt Ltd plus Clinical Establishment Act, drug licence, biomedical waste and NABH prep. From INR 14,999.">
-    <meta name="twitter:image" content="/images/healthcare-business-registration-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

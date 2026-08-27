@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-of-auditor/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-of-auditor/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Change of Auditor in Mumbai – ADT-1, ADT-3 &amp; Rotation">
     <meta name="twitter:description" content="CA-assisted change of auditor in Mumbai. Resignation ADT-3, removal ADT-2, rotation, casual vacancy, new appointment ADT-1. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-of-auditor/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

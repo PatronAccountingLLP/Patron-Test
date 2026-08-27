@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-refund/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Claim Gurugram - RFD-01, Process & Fees">
     <meta name="twitter:description" content="GST refund in Gurugram. Export refund. Inverted duty. ITC. RFD-01. Rule 89. LUT. 2-year limit. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-refund-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

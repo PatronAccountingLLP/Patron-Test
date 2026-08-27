@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-composition-scheme-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-composition-scheme-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Composition Scheme Registration 2026 | Patron Accounting">
     <meta name="twitter:description" content="Opt into GST composition scheme via Form CMP-02 under Section 10 of the CGST Act. CMP-08 quarterly, GSTR-4 annually. Flat tax 1% to 6%. Starting at Rs 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-composition-scheme-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-assignment">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-assignment-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Assignment in India - Process, Deed & TM-P Form">
     <meta name="twitter:description" content="Trademark assignment under Sections 37-45 of Trade Marks Act 1999. Form TM-P. With or without goodwill. 6-month filing deadline. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/trademark-assignment-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

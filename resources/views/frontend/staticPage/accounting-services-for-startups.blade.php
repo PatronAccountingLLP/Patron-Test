@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-startups">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup Accounting Services in India for Indian SMEs | Patron Accounting">
     <meta name="twitter:description" content="Cap table and books that agree - before a diligence finds out they do not. Avoid audit delays and free your team from the ledger. Get a fixed quote.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-startups-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

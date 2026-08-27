@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting Services in Delhi, Run by a Local CA Team | Patron Accounting">
     <meta name="twitter:description" content="Run for Delhi businesses under Delhi's nil professional tax. Save hours every month, close on time and keep audit season uneventful. See our pricing.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

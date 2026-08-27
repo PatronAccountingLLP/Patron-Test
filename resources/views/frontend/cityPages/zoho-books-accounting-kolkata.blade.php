@@ -14,10 +14,10 @@
     <meta property="og:description" content="CA-managed Zoho Books in Kolkata. Cloud bookkeeping, GST, WB PT. Call +91 945 945 6700.">
     <meta property="og:url" content="/zoho-books-accounting/kolkata">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/zoho-books-accounting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Zoho Books Accounting in Kolkata – Setup &amp; Integration">
     <meta name="twitter:description" content="Zoho Books Kolkata. Cloud bookkeeping, GST, WB PT. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/zoho-books-accounting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

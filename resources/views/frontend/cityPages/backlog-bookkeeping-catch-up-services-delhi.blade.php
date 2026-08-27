@@ -20,11 +20,11 @@
     <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/backlog-bookkeeping-catch-up-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Backlog Bookkeeping in Delhi 2026 | Patron Accounting">
     <meta name="twitter:description" content="Behind on Delhi books? CA-led catch-up bookkeeping from INR 9,999 per month-of-backlog rebuilds ledgers and clears GST for Nehru Place, Okhla firms.">
-    <meta name="twitter:image" content="/images/backlog-bookkeeping-catch-up-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/payroll-services-for-trading-industry/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-trading/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Business Payroll in Mumbai - PF, ESIC & TDS">
     <meta name="twitter:description" content="CA-led trading payroll in Mumbai. Shop staff wages, commission CTC, festival surge, PF/ESI, S&E Act, multi-branch retail for Bhuleshwar, Zaveri Bazaar, malls. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-trading/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

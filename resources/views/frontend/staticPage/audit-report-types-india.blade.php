@@ -20,11 +20,11 @@
     <meta property="og:url" content="/audit-report-types-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/audit-report-types-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit Report Types India 2026: SA 705 | Patron Accounting">
     <meta name="twitter:description" content="Complete audit report types guide - Unmodified, Qualified, Adverse and Disclaimer opinions under SA 700-705, Key Audit Matters under SA 701, Sec 145 signing.">
-    <meta name="twitter:image" content="/images/audit-report-types-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

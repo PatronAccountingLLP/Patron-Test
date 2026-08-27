@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-restructuring-underwater-options/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-restructuring-underwater-options-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Restructuring with 17(2)(vi) Tax Clarity | Patron Accounting">
     <meta name="twitter:description" content="Reprice or exchange underwater ESOPs for Delhi founders with MGT-14 MCA filing and Section 17(2)(vi) perquisite tax planning, starting at INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-restructuring-underwater-options-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

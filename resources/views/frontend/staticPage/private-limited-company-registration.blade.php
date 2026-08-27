@@ -20,11 +20,11 @@
     <meta property="og:url" content="/private-limited-company-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/private-limited-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Company Registration - SPICe+, Process & Fees">
     <meta name="twitter:description" content="Private limited company registration under Companies Act 2013. Min 2 directors, 2 shareholders. No minimum capital. SPICe+ online process. 7-10 days. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/private-limited-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

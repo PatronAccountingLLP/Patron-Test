@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Registration Online - Process, Documents & FoSCoS">
     <meta name="twitter:description" content="Apply for FSSAI Registration online. Basic Registration Rs 100/year, State Licence Rs 2,000-5,000, Central Licence Rs 7,500. 14-digit food licence number.">
-    <meta name="twitter:image" content="/images/fssai-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-tally-to-zoho/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-zoho/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to Zoho Migration in Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Tally to Zoho Books migration in Gurugram from INR 9,999. CA-led ledger mapping, opening balances, GST and e-invoicing for Cyber City and Manesar firms.">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-zoho/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

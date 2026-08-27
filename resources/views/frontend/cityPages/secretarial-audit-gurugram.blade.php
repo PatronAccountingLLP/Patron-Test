@@ -20,11 +20,11 @@
     <meta property="og:url" content="/secretarial-audit/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/secretarial-audit/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Secretarial Audit Gurugram - MR-3 & Section 204">
     <meta name="twitter:description" content="CS-assisted secretarial audit in Gurugram. Section 204, Form MR-3, SEBI LODR, listed companies, compliance, corporate governance. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/secretarial-audit/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

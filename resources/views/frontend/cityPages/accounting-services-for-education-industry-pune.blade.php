@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-education-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting Services for Schools and Colleges in Pune | Patron Accounting">
     <meta name="twitter:description" content="Run for Pune businesses under Maharashtra PTRC/PTEC. Save hours every month, close on time and keep audit season uneventful. Get a compliance review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

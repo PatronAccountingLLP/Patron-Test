@@ -20,11 +20,11 @@
     <meta property="og:url" content="/startup-registration/kolkata">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/startup-registration/kolkata-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup India Registration in Kolkata – DPIIT &amp; Tax Benefits">
     <meta name="twitter:description" content="CA-assisted startup registration in Kolkata. DPIIT recognition, Section 80-IAC, angel tax exemption. Salt Lake, New Town. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/startup-registration/kolkata-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

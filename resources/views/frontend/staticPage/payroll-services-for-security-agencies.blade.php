@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-security-agencies">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-security-agencies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Security Agency Payroll Services - ESIC, PF & Wage Register">
     <meta name="twitter:description" content="Payroll for security agencies in India: PSARA, CLRA, guard min wages, EPF, ESI, overtime, Labour Code 2025. From Rs.3,999/month.">
-    <meta name="twitter:image" content="/images/payroll-services-for-security-agencies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

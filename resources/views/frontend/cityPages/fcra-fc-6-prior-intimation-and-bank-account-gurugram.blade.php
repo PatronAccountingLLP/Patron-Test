@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fcra-fc-6-prior-intimation-and-bank-account/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fcra-fc-6-prior-intimation-and-bank-account-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FCRA FC-6 Intimations & Designated SBI Bank Account">
     <meta name="twitter:description" content="How to file FCRA Form FC-6A to FC-6E intimations within 45 days and open the mandatory designated FCRA account at SBI New Delhi Main Branch.">
-    <meta name="twitter:image" content="/images/fcra-fc-6-prior-intimation-and-bank-account-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

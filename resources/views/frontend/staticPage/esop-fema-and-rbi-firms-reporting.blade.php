@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-fema-and-rbi-firms-reporting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-fema-and-rbi-firms-reporting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP FEMA and RBI Reporting 2026: Form OPI | Patron Accounting">
     <meta name="twitter:description" content="FEMA reporting for cross-border ESOPs: Form OPI under the OI Rules 2022, filed via the AD bank twice a year, deadlines and penalty risk. From Rs 24,999.">
-    <meta name="twitter:image" content="/images/esop-fema-and-rbi-firms-reporting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

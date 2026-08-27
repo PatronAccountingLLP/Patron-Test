@@ -9,14 +9,14 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/depreciation-calculator">
-    <meta property="og:image" content="/tools/og-depreciation-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Depreciation Calculator — IT Act WDV & SLM 2026">
     <meta name="twitter:description" content="Calculate depreciation. WDV & SLM with asset-wise rates and year-wise schedule.">
-    <meta name="twitter:image" content="/tools/og-depreciation-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

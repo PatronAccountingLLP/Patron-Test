@@ -10,11 +10,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/fixed-asset-verification">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/fixed-asset-verification-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fixed Asset Verification: Physical Count and FAR Match | Patron Accounting">
     <meta name="twitter:description" content="CA-led fixed asset verification sights every asset on site. Each one is matched to the fixed asset register, ghost assets are found and CARO findings supported.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/fixed-asset-verification-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">

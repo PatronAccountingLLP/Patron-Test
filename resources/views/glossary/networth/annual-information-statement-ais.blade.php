@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/networth/annual-information-statement-ais">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-annual-information-statement-ais.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AIS: Testing Whether Your Asset List Is Complete">
     <meta name="twitter:description" content="Submitting feedback, reading the TIS summary and handling the mismatches that surface most often.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-annual-information-statement-ais.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">@include('partials.glossary-inline-assets')
 @endsection
 

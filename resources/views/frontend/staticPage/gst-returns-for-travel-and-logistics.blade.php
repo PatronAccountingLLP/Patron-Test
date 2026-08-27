@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-travel-and-logistics">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-travel-and-logistics-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Travel Logistics 2026 | Patron Accounting">
     <meta name="twitter:description" content="GST returns for travel and logistics - tour operator 5% scheme under Heading 9985, GTA 5%/12% FCM/RCM, freight forwarders. Starting from INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-travel-and-logistics-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

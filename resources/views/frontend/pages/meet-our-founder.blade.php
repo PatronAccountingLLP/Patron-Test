@@ -14,12 +14,12 @@
 <meta property="og:title" content="CA Sundram Gupta, ACCA - Founder of Patron Accounting LLP">
 <meta property="og:description" content="Chartered Accountant and ACCA with 15+ years across equity research, insurance finance and SME accounting. The story behind Patron Accounting LLP.">
 <meta property="og:url" content="https://www.patronaccounting.com/meet-our-founder">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:image:alt" content="Patron Accounting LLP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CA Sundram Gupta, ACCA - Founder of Patron Accounting LLP">
 <meta name="twitter:description" content="Chartered Accountant and ACCA with 15+ years across equity research, insurance finance and SME accounting. The story behind Patron Accounting LLP.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endpush
 @push('scripts-head')
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative

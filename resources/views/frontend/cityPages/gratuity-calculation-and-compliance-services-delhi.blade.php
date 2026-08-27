@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gratuity-calculation-and-compliance-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gratuity-calculation-and-compliance-services-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gratuity Calculation in Delhi – Formula &amp; 5-Year Rule">
     <meta name="twitter:description" content="Gratuity calculation and compliance in Delhi. Formula 15/26. Rs 20 lakh max. 5-year eligibility. New labour codes. Payroll integration. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gratuity-calculation-and-compliance-services-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

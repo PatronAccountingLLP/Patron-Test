@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-tds-section-192-and-form-24q/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP TDS under Section 192 with Form 24Q Returns | Patron Accounting">
     <meta name="twitter:description" content="Get accurate Section 192 TDS on ESOP perquisites and timely Form 24Q returns for Mumbai's BKC and Powai employers, with sell-to-cover support, from INR 4,999.">
-    <meta name="twitter:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

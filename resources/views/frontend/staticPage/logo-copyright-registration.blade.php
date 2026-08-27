@@ -20,11 +20,11 @@
     <meta property="og:url" content="/logo-copyright-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/logo-copyright-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Logo Copyright Registration India - Process, Fees & Docs">
     <meta name="twitter:description" content="Copyright your logo as artistic work under Section 2(c) of the Copyright Act, 1957. Starting at Rs 3,500. Dual copyright + trademark protection strategy.">
-    <meta name="twitter:image" content="/images/logo-copyright-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

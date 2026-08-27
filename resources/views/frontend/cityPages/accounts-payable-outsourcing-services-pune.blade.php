@@ -20,11 +20,11 @@
     <meta property="og:url" content="/accounts-payable-outsourcing-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounts-payable-outsourcing-services/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounts Payable Outsourcing Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Accounts payable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoice processing, 3-way match, TDS and vendor payment runs.">
-    <meta name="twitter:image" content="/images/accounts-payable-outsourcing-services/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

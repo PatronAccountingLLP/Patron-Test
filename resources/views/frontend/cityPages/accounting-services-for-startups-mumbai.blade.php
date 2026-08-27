@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-startups/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-startups-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup Accounting Services in Mumbai for Local SMEs | Patron Accounting">
     <meta name="twitter:description" content="For Mumbai businesses: Maharashtra PTRC/PTEC handled. Save hours every month, close on time and keep audit season uneventful. Compare your options.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-startups-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

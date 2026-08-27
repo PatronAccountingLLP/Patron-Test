@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-hotels">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-hotels-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Hotels 2026: Specified Premises | Patron Accounting">
     <meta name="twitter:description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-hotels-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

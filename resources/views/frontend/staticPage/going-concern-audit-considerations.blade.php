@@ -20,11 +20,11 @@
     <meta property="og:url" content="/going-concern-audit-considerations">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/going-concern-audit-considerations-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Going Concern Audit SA 570 India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Going concern audit guide under SA 570 - reporting outcomes, material uncertainty disclosure, CARO 3(xix), distressed company engagement and remediation.">
-    <meta name="twitter:image" content="/images/going-concern-audit-considerations-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esic-calculation-compliance/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esic-calculation-compliance-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESIC Calculation & Compliance Mumbai - Returns & Wages">
     <meta name="twitter:description" content="CA-assisted ESIC calculation and compliance in Mumbai. 3.25% employer, 0.75% employee contribution. Serving BKC, Andheri MIDC, SEEPZ businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esic-calculation-compliance-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

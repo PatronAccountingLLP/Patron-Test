@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-singapore-parent-indian-employees/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-singapore-parent-indian-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Singapore ESOP Tax: Perquisite & TDS at Exercise | Patron Accounting">
     <meta name="twitter:description" content="Pune tech employees with Singapore-parent ESOPs and RSUs: we compute India perquisite tax and handle subsidiary TDS at exercise. From INR 74,999.">
-    <meta name="twitter:image" content="/images/esop-for-singapore-parent-indian-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

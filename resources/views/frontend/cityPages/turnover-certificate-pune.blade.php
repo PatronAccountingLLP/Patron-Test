@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Certificate by CA in Pune - Format & Documents">
     <meta name="twitter:description" content="CA-certified turnover certificate in Pune with UDIN. Government tenders, GEM portal, bank loans, MSME, vendor registration. PMC/PCMC/PSU formats. Serving Pimpri-Chinchwad, Hinjewadi businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/turnover-certificate/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

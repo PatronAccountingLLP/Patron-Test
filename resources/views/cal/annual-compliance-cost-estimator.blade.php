@@ -10,13 +10,13 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">
 <meta property="og:title" content="Annual Compliance Cost Estimator — FY 2026-27">
 <meta property="og:description" content="Itemised FY 2026-27 compliance fees for Pvt Ltd / LLP / OPC / Section 8. Patron vs commodity-provider transparent comparison.">
-<meta property="og:image" content="https://www.patronaccounting.com/og/annual-compliance-cost-estimator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Annual Compliance Cost Estimator — FY 2026-27">
 <meta name="twitter:description" content="Itemised FY 2026-27 CA fees: ROC + audit + ITR + GST + TDS for Indian companies.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/og/annual-compliance-cost-estimator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

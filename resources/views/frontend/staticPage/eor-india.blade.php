@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR India 2026 - Employer of Record | Patron Accounting">
     <meta name="twitter:description" content="Hire in India without an entity. CA-led EOR with EPF, ESI, TDS, gratuity compliance. Transparent INR pricing. 48-hour onboarding.">
-    <meta name="twitter:image" content="/images/eor-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-business-loan/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-business-loan/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate Business Loan Gurugram 2026 | Patron">
     <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram business loan. UDIN, 3-year comparative. HDFC, ICICI, Tata Capital, venture debt accepted. Starting INR 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-business-loan/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

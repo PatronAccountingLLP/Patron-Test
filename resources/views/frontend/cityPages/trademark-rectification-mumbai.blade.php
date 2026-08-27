@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-rectification/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-rectification-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Rectification Mumbai - TM-O, Grounds & Process">
     <meta name="twitter:description" content="Trademark rectification in Mumbai. S.57 cancellation, S.47 non-use removal, rectification petition, Trademark Registry Antop Hill, Bombay HC. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-rectification-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

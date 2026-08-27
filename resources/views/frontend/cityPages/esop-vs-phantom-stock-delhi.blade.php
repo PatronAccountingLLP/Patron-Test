@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-phantom-stock/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-phantom-stock-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP vs Phantom Stock in Delhi: Shares or Cash Payout? | Patron Accounting">
     <meta name="twitter:description" content="Delhi startups near Nehru Place and Connaught Place: compare equity-diluting ESOPs with no-dilution phantom stock and RoC filing needs. Free guide.">
-    <meta name="twitter:image" content="/images/esop-vs-phantom-stock-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-142-1/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-notice-section-142-1/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice u/s 142(1) in Pune – Reply &amp; Inquiry">
     <meta name="twitter:description" content="CA-assisted response to IT notice under Section 142(1) in Pune. Non-filing, AIS mismatch, books production, e-proceedings reply. Faceless assessment. Serving Hinjewadi, Kharadi taxpayers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/it-notice-section-142-1/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

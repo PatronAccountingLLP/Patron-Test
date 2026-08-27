@@ -9,13 +9,13 @@
 <meta property="og:description" content="Decide how much authorised capital to set at incorporation: recommended level, paid-up headroom, and the cost of setting high now vs increasing later via SH-7.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/authorised-capital-planner">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/authorised-capital-planner-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Authorised Capital Planner — How Much to Set 2026">
 <meta name="twitter:description" content="Decide how much authorised capital to set at incorporation and compare set-high-now vs increase-later (SH-7) costs. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/authorised-capital-planner-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

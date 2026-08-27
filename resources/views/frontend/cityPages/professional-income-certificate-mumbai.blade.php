@@ -21,11 +21,11 @@
     <meta property="og:url" content="/professional-income-certificate/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/professional-income-certificate-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Income Certificate 2026: CA Proof | Patron Accounting">
     <meta name="twitter:description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/professional-income-certificate-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

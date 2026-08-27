@@ -21,11 +21,11 @@
     <meta property="og:url" content="/issue-of-shares">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/issue-of-shares-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Issue of Shares - Allotment, PAS-3, Board Resolution & ROC">
     <meta name="twitter:description" content="Issue shares via rights, bonus or private placement under Sections 42 and 62 Companies Act 2013. Board resolution, PAS-3, MGT-14 filing. From INR 4,999.">
-    <meta name="twitter:image" content="/images/issue-of-shares-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

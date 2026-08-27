@@ -14,12 +14,12 @@
 <meta property="og:title" content="Careers at Patron Accounting LLP - Join Our CA &amp; CS Team">
 <meta property="og:description" content="Build a career in accounting, audit, GST and taxation with an MCA-registered CA firm. Roles for freshers and experienced professionals in four cities.">
 <meta property="og:url" content="https://www.patronaccounting.com/career">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:image:alt" content="Patron Accounting LLP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Careers at Patron Accounting LLP - Join Our CA &amp; CS Team">
 <meta name="twitter:description" content="Build a career in accounting, audit, GST and taxation with an MCA-registered CA firm. Roles for freshers and experienced professionals in four cities.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endpush
 @push('scripts-head')
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative

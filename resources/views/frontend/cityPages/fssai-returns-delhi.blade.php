@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-returns/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-returns-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Annual Return in Delhi – Form D1, D2 &amp; Due Date">
     <meta name="twitter:description" content="FSSAI return filing in Delhi. Form D1 annual by 31 May. Form D2 half-yearly for dairy. FoSCoS portal. Rs 100/day penalty. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-returns-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

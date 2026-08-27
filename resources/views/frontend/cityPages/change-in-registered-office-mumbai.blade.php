@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-in-registered-office/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-registered-office/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Registered Office Change Mumbai - INC-22, INC-23 & ROC">
     <meta name="twitter:description" content="CA-assisted registered office change in Mumbai. INC-22, INC-23, within city, cross-ROC, cross-state. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-in-registered-office/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

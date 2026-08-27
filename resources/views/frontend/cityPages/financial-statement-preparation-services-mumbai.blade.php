@@ -20,11 +20,11 @@
     <meta property="og:url" content="/financial-statement-preparation-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/financial-statement-preparation-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Financial Statements Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="Financial statement preparation in Mumbai from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for BKC and Andheri firms.">
-    <meta name="twitter:image" content="/images/financial-statement-preparation-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-processing-services-for-education-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-processing-services-for-education-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Education Industry Payroll Services - PF, PT, TDS & ESI">
     <meta name="twitter:description" content="Payroll services for schools and colleges in India - PF, ESI, TDS, teacher salary structures, guest faculty, and statutory filings. From Rs 5,000/month.">
-    <meta name="twitter:image" content="/images/payroll-processing-services-for-education-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

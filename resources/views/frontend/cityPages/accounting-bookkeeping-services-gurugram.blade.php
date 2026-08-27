@@ -12,7 +12,7 @@
     <meta property="og:description" content="CA-led accounting and bookkeeping in Gurugram — AP/AR outsourcing, reconciliation, MIS reporting, year-end finalisation, software setup, plus Tally/Zoho/QuickBooks/Xero/Odoo and 13 industry variants. From INR 2,499/mo.">
     <meta property="og:url" content="/accounting-services/gurugram">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/images/og/accounting-bookkeeping-services-og.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting LLP">
@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting & Bookkeeping Services in Gurugram — by Process, Software & Industry | Patron LLP">
     <meta name="twitter:description" content="CA-led accounting and bookkeeping in Gurugram — AP/AR outsourcing, reconciliation, MIS reporting, year-end finalisation, software setup, plus Tally/Zoho/QuickBooks/Xero/Odoo and 13 industry variants. From INR 2,499/mo.">
-    <meta name="twitter:image" content="/images/og/accounting-bookkeeping-services-og.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:site" content="@patronaccounting">
 @endsection
 

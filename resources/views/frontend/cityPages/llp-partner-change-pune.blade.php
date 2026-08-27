@@ -21,11 +21,11 @@
     <meta property="og:url" content="/llp-partner-change/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-partner-change/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Partner Change in Pune – Form 3, Form 4 &amp; Filing">
     <meta name="twitter:description" content="CA/CS-assisted LLP partner change in Pune. Add, remove, redesignate partners. Form 3, Form 4, DPIN, supplementary agreement, Maharashtra stamp duty. Serving Hinjewadi, Kharadi LLPs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-partner-change/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

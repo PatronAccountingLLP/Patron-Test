@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-perquisite-tax-section-17-2-vi/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-perquisite-tax-section-17-2-vi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Perquisite Tax in Pune: Section 17(2)(vi) FMV | Patron Accounting">
     <meta name="twitter:description" content="Hinjewadi and Kharadi ESOP holders, we compute your Section 17(2)(vi) salary perquisite as FMV minus exercise price times shares from just INR 9,999.">
-    <meta name="twitter:image" content="/images/esop-perquisite-tax-section-17-2-vi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

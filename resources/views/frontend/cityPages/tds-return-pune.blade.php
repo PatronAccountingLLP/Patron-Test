@@ -21,11 +21,11 @@
     <meta property="og:url" content="/tds-return/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tds-return/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS Returns in Pune – 24Q, 26Q, 27Q &amp; 27EQ Guide">
     <meta name="twitter:description" content="CA-assisted TDS return filing in Pune. Form 24Q, 26Q, 27Q quarterly filing, TDS deposit by 7th, TRACES correction, Form 16/16A. Serving Hinjewadi, Kharadi IT firms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tds-return/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

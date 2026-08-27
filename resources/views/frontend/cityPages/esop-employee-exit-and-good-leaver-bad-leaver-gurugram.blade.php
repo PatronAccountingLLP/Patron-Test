@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-employee-exit-and-good-leaver-bad-leaver/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-employee-exit-and-good-leaver-bad-leaver-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Exit: Leaver Status & Exercise Window | Patron Accounting">
     <meta name="twitter:description" content="Exiting a Gurugram Cyber City SaaS firm? We resolve good vs bad leaver terms, option forfeiture, the exercise window and buyback value, from INR 14,999.">
-    <meta name="twitter:image" content="/images/esop-employee-exit-and-good-leaver-bad-leaver-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

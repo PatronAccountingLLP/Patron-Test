@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/tally-accounting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/tally-accounting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally Prime Accounting Services for Indian Companies | Patron Accounting">
     <meta name="twitter:description" content="Tally data that stays clean - masters rationalised, duplicates killed. Save hours every month and stop chasing your own paperwork. Get a fixed quote.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/tally-accounting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

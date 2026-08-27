@@ -20,11 +20,11 @@
     <meta property="og:url" content="/csr-compliance-section-135-and-csr-1-csr-2">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/csr-compliance-section-135-and-csr-1-csr-2-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CSR Compliance Section 135 and CSR-1 CSR-2 2026 | Patron Accounting">
     <meta name="twitter:description" content="Meet your Section 135 CSR obligation: 2% spend, CSR policy, CSR-1 agency check, CSR-2 filing and unspent transfer rules. Annual service from INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/csr-compliance-section-135-and-csr-1-csr-2-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

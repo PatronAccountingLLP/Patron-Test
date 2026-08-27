@@ -23,11 +23,11 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/imf-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Investment Advisors: Add Insurance Legally">
     <meta name="twitter:description" content="SEBI RIAs cannot earn insurance commission directly. Set up a compliant IRDAI Insurance Marketing Firm (IMF) to add insurance revenue.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/imf-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

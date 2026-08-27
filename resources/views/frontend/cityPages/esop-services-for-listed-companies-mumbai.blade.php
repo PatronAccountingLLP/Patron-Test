@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-services-for-listed-companies/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-services-for-listed-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Rules: SEBI SBEB Compliance for Listed Cos | Patron Accounting">
     <meta name="twitter:description" content="SEBI SBEB ESOP support for Mumbai listed firms near BKC and Powai: scheme design, Regulation 9A, LODR disclosure, insider-trading alignment and reporting.">
-    <meta name="twitter:image" content="/images/esop-services-for-listed-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

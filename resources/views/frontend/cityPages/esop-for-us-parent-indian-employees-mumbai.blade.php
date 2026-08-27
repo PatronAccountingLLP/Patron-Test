@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-us-parent-indian-employees/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-us-parent-indian-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai US-Parent ESOP Tax: 11UA FMV & Form 67 Credit | Patron Accounting">
     <meta name="twitter:description" content="For Mumbai employees with US-parent RSUs and ESOPs, we manage perquisite tax, 409A and Rule 11UA, DTAA relief via Form 67, and sale gains at INR 74,999.">
-    <meta name="twitter:image" content="/images/esop-for-us-parent-indian-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

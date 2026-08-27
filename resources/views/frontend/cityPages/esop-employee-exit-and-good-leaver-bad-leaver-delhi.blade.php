@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-employee-exit-and-good-leaver-bad-leaver/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-employee-exit-and-good-leaver-bad-leaver-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Exit Advisory: Vesting & Buyback Rights | Patron Accounting">
     <meta name="twitter:description" content="When you exit a Delhi-NCR company, we settle ESOP good vs bad leaver status, vested-option forfeiture, buyback and perquisite tax cleanly, from INR 14,999.">
-    <meta name="twitter:image" content="/images/esop-employee-exit-and-good-leaver-bad-leaver-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/first-year-statutory-audit-checklist">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/first-year-statutory-audit-checklist-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="First Year Statutory Audit Checklist India 2026 | Patron Accounting">
     <meta name="twitter:description" content="First year statutory audit guide - documents needed, SA 510 opening balances, founder-related party and share capital issues, Patron first-audit playbook.">
-    <meta name="twitter:image" content="/images/first-year-statutory-audit-checklist-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

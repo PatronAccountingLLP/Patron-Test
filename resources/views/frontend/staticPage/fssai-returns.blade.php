@@ -21,11 +21,11 @@
     <meta property="og:url" content="/fssai-returns">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-returns-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Annual Return Filing - Process, Form D & Due Date">
     <meta name="twitter:description" content="FSSAI annual return filing Form D1 by 31 May. Form D2 half-yearly for milk products. Online on FoSCoS. Penalty Rs 100/day. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/fssai-returns-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

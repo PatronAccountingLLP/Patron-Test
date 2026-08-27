@@ -21,11 +21,11 @@
     <meta property="og:url" content="/change-of-auditor/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-of-auditor/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Change of Auditor in Pune – ADT-1, ADT-3 &amp; Rotation">
     <meta name="twitter:description" content="CA/CS-assisted change of auditor in Pune. Resignation ADT-3, removal ADT-2, rotation, casual vacancy. New auditor ADT-1. ROC Pune filing. Serving Hinjewadi, Kharadi companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-of-auditor/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-insurance-agents/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/imf-for-insurance-agents-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Insurance Agents: Upgrade From Agent to IMF">
     <meta name="twitter:description" content="Insurance agent or POSP in Gurugram going independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost from INR 24,999, documents, timeline.">
-    <meta name="twitter:image" content="/images/imf-services/imf-for-insurance-agents-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

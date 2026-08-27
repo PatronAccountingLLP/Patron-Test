@@ -20,11 +20,11 @@
     <meta property="og:url" content="/company-closure/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-closure-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Closure Delhi NCR – Strike Off &amp; STK-2">
     <meta name="twitter:description" content="Company closure in Delhi. Strike off S.248 STK-2. NCLT winding up. Dormant S.455. Compliance backlog. C-PACE. Director disqualification prevention. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/company-closure-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

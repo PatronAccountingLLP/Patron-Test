@@ -20,11 +20,11 @@
     <meta property="og:url" content="/nidhi-company-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/nidhi-company-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Nidhi Company Registration in Pune - Process, Fees & Docs">
     <meta name="twitter:description" content="Register a Nidhi Company in Pune. CA-assisted incorporation at RoC Pune, NDH-4 declaration, 200-member strategy, Rs 20L NOF, deposits and loans to members. Wagholi office. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/nidhi-company-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-appeal-it-software">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-appeal-it-software-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT/Software GSTAT Appeal - Place of Supply | Patron">
     <meta name="twitter:description" content="GSTAT appeal for IT and software companies facing place of supply disputes, intermediary classification, and OIDAR issues. 10% pre-deposit. 3-month deadline. CA and CS Team, Patron Accounting LLP.">
-    <meta name="twitter:image" content="/images/gstat-appeal-it-software-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

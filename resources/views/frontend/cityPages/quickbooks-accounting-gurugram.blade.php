@@ -20,11 +20,11 @@
     <meta property="og:url" content="/quickbooks-accounting/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/quickbooks-accounting/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="QuickBooks Accounting in Gurugram - Setup & Migration">
     <meta name="twitter:description" content="QuickBooks discontinued in India. CA-led migration to Zoho Books, Tally, or Odoo in Gurugram. Legacy data recovery, GST continuity, ongoing accounting. Cyber City, Udyog Vihar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/quickbooks-accounting/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

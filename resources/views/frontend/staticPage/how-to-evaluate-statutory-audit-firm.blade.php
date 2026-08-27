@@ -20,11 +20,11 @@
     <meta property="og:url" content="/how-to-evaluate-statutory-audit-firm">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/how-to-evaluate-statutory-audit-firm-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="How to Evaluate Statutory Audit Firm 2026 | Patron">
     <meta name="twitter:description" content="Evaluating a statutory audit firm? Patron's 10-question checklist, peer review and AQMM framework, 3-tier pricing benchmark, red flags. Free workshop.">
-    <meta name="twitter:image" content="/images/how-to-evaluate-statutory-audit-firm-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

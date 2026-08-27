@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-nri-and-non-resident-employees/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-nri-and-non-resident-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Setup for NRI & Non-Resident Employees | Patron Accounting">
     <meta name="twitter:description" content="Help your Gurugram SaaS firm grant ESOPs to NRI and non-resident employees with end-to-end FEMA, NDI Rules and repatriation support for INR 19,999.">
-    <meta name="twitter:image" content="/images/esop-for-nri-and-non-resident-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

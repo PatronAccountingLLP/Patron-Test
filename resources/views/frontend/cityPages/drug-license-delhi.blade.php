@@ -20,11 +20,11 @@
     <meta property="og:url" content="/drug-license/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/drug-license/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Drug License in Delhi - Retail, Wholesale & CDSCO Process">
     <meta name="twitter:description" content="CA-assisted drug license in Delhi. Retail, wholesale and manufacturing pharmacy licence via Drugs Control Department. Serving all 4 Delhi zones. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/drug-license/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

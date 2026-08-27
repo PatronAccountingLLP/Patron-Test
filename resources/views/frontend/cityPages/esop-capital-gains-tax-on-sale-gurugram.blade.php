@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-capital-gains-tax-on-sale/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Sale Tax: FMV Cost Base & LTCG Rates | Patron Accounting">
     <meta name="twitter:description" content="Cyber City ESOP holders in Gurugram: we set the FMV cost base, split LTCG and STCG by holding period, and file your gains return from INR 4,999.">
-    <meta name="twitter:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

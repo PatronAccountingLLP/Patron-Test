@@ -20,11 +20,11 @@
     <meta property="og:url" content="/patent-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/patent-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Patent Registration in Pune - Filing, Fees & Examination">
     <meta name="twitter:description" content="File patent in Pune. Provisional and complete specification. Prior art search. IT, pharma, auto, startups. 20-year protection. CA-assisted. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/patent-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-mutual-fund-distributors">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-for-mutual-fund-distributors-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Mutual Fund Distributors 2026: ARN + IMF | Patron">
     <meta name="twitter:description" content="Add IMF to mutual fund distribution practice - single entity ARN plus IMF, trail commissions, insurer mix, NISM. From Rs 60,000.">
-    <meta name="twitter:image" content="/images/imf-for-mutual-fund-distributors-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

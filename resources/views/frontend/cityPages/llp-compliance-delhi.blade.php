@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-compliance/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pvt-llp-compliance/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Annual Compliance Delhi NCR – AOC-4, MGT-7 &amp; F-11">
     <meta name="twitter:description" content="LLP compliance in Delhi. Form 11 by 30 May. Form 8 by 30 Oct. ITR-5. DIR-3 KYC. Rs 100/day penalty. Audit. Strike-off risk. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pvt-llp-compliance/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

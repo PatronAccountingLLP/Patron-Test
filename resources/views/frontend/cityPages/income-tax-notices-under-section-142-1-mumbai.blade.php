@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-142-1/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-notice-section-142-1/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice u/s 142(1) Mumbai – Reply &amp; Inquiry">
     <meta name="twitter:description" content="CA-assisted response to IT notice Section 142(1) in Mumbai. Inquiry before assessment, documents, accounts, faceless assessment. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/it-notice-section-142-1/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

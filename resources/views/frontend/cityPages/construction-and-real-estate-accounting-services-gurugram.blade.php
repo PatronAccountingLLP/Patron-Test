@@ -20,11 +20,11 @@
     <meta property="og:url" content="/construction-and-real-estate-accounting-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-construction-and-real-estate/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Construction & Real Estate Accounting Gurugram - RERA & GST">
     <meta name="twitter:description" content="CA-led accounting for construction and real estate in Gurugram. RERA escrow audit, Ind AS 115, project accounting. Serving Dwarka Expressway, Sohna Road, New Gurugram developers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-construction-and-real-estate/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

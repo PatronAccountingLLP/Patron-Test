@@ -12,13 +12,13 @@
     <meta property="og:description" content="Generate process-wise IFC testing checklists with key controls, test methods and sample sizes. Covers P2P, O2C, R2R, Inventory, Payroll, ITGC and 6 more.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/ifc-testing-checklist">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/ifc-testing-checklist.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
     <meta name="twitter:description" content="Process-wise IFC testing templates with key controls + sample sizes. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/ifc-testing-checklist.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

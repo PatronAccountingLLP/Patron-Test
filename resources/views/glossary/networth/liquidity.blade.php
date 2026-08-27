@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/networth/liquidity">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-liquidity.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Liquidity: Solvent Today, Still Short of Cash Tomorrow">
     <meta name="twitter:description" content="Current and quick ratios Indian banks compute from audited statements alongside a certified position.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-liquidity.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">@include('partials.glossary-inline-assets')
 @endsection
 

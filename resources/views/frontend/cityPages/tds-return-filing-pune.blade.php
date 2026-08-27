@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tds-return-filing/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tds-return-filing/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS Return Filing (24Q) in Pune - Salary TDS & Form 16">
     <meta name="twitter:description" content="CA-assisted TDS return filing (Form 24Q) and Form 16 generation for employers in Pune. Quarterly filing, TRACES compliance, and penalty-free TDS. Serving Hinjewadi, Kharadi, MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tds-return-filing/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

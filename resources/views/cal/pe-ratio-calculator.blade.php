@@ -12,13 +12,13 @@
     <meta property="og:description" content="Compute P/E ratio, forward P/E, PEG ratio and earnings yield with industry benchmarks. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/pe-ratio-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/pe-ratio-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
     <meta name="twitter:description" content="P/E + Forward P/E + PEG + Earnings Yield with sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/pe-ratio-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

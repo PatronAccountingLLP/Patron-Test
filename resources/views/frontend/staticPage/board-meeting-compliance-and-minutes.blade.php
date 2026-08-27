@@ -20,11 +20,11 @@
     <meta property="og:url" content="/board-meeting-compliance-and-minutes">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/board-meeting-compliance-and-minutes-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Board Meeting Compliance and Minutes 2026 | Patron Accounting">
     <meta name="twitter:description" content="Stay compliant under Section 173: 4 board meetings a year, 7-day notice, quorum, SS-1 minutes and action tracking. Annual retainer from INR 14,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/board-meeting-compliance-and-minutes-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

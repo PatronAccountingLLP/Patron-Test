@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-multi-line-brokers/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/multi-line-brokers-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Multi-Line Brokers: IMF vs Broking Licence">
     <meta name="twitter:description" content="Comparing a broking licence with IMF registration? See net worth, fees, tie-ups, compliance and timelines for multi-line brokers, plus end-to-end IRDAI setup.">
-    <meta name="twitter:image" content="/images/imf-services/multi-line-brokers-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

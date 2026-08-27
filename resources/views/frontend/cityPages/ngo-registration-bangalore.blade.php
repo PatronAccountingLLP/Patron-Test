@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="NGO Registration in Bangalore – Trust, Society &amp; Section 8"><meta property="og:description" content="NGO Bangalore. Trust Society Section 8. Karnataka Act 1960. 12A 80G CSR-1. Rs 7,999. Call +91 945 945 6700.">
     <meta property="og:url" content="/ngo-registration/bangalore"><meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-registration-og.webp"><meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')
     <script type="application/ld+json">

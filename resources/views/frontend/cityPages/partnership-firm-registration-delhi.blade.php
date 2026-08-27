@@ -20,11 +20,11 @@
     <meta property="og:url" content="/partnership-firm-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/partnership-firm-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Partnership Firm Registration in Delhi - Deed & Process">
     <meta name="twitter:description" content="CA-assisted partnership firm registration in Delhi. Deed drafting, Form No. 1, Registrar of Firms Shastri Nagar. From Rs 2,499. 7-10 days. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/partnership-firm-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

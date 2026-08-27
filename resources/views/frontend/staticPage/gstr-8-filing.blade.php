@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gstr-8-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-8-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTR-8 Filing in 2026: E-Commerce TCS | Patron Accounting">
     <meta name="twitter:description" content="GSTR-8 is the monthly TCS return for e-commerce operators under Section 52 CGST Act. 0.5% TCS, due 10th. Patron starts at Rs 2,499/mo (Exl GST).">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gstr-8-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

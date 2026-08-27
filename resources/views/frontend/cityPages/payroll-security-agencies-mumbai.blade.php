@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-security-agencies/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-security-agencies/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Security Agency Payroll Mumbai - ESIC, PF & Wage Register">
     <meta name="twitter:description" content="CA-led security agency payroll in Mumbai. Guard wages, VDA revision, site-wise processing, PF/ESI, PSARA compliance, CLRA documentation for BKC, Andheri, Navi Mumbai. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-security-agencies/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

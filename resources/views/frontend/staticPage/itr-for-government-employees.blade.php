@@ -18,11 +18,11 @@
     <meta property="og:url" content="/itr-for-government-employees/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-government-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Govt, PSU, Defence Employees: Section 10 Guide | Patron Accounting">
     <meta name="twitter:description" content="ITR for central + state government, PSU, defence personnel. Section 10(10AA), 80CCD(1B) NPS, defence allowances, Form 10E. Starts at Rs 2,499.">
-    <meta name="twitter:image" content="/images/itr-for-government-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

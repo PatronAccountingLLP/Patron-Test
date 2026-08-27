@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-in-object-clause">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-object-clause-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Change in Object Clause - MOA Alteration, MGT-14 & Process">
     <meta name="twitter:description" content="Change object clause in MOA under Section 13 Companies Act 2013. Board meeting, EGM, special resolution and MGT-14 filing by expert CS team. From INR 4,999.">
-    <meta name="twitter:image" content="/images/change-in-object-clause-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

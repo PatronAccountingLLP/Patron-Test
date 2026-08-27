@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-tds-section-192-and-form-24q/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Perquisite TDS & Form 24Q Filing for Firms | Patron Accounting">
     <meta name="twitter:description" content="Computing ESOP perquisite TDS under Section 192 and filing Form 24Q each quarter for Pune startups across Hinjewadi and Kharadi, with Form 16, from INR 4,999.">
-    <meta name="twitter:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

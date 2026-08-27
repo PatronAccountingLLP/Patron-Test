@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-listed-companies">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-listed-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for Listed Companies, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Premium compliance for a listed company, SEBI LODR, insider trading, takeover code, ESOP, secretarial and cost audit, managed by a specialist CA and CS team.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-listed-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

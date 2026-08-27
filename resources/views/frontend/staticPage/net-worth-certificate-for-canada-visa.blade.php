@@ -20,11 +20,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-canada-visa">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-for-canada-visa-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate Canada Visa 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-certified net worth certificate for Canada study permit, PR and visitor visa. Dual currency INR and CAD, UDIN verified. Starting at INR 1,999.">
-    <meta name="twitter:image" content="/images/net-worth-certificate-for-canada-visa-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

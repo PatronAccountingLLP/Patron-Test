@@ -21,11 +21,11 @@
     <meta property="og:url" content="/convert-partnership-to-pvt-ltd-company">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-partnership-to-pvt-ltd-company-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Partnership to Pvt Ltd - Process, SPICe+ & Documents">
     <meta name="twitter:description" content="Convert partnership firm to private limited company with Form URC-1 on MCA portal. Starting at INR 3,999. CA/CS team.">
-    <meta name="twitter:image" content="/images/convert-partnership-to-pvt-ltd-company-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

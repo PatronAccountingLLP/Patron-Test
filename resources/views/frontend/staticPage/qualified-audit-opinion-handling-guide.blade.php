@@ -20,11 +20,11 @@
     <meta property="og:url" content="/qualified-audit-opinion-handling-guide">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/qualified-audit-opinion-handling-guide-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Qualified Audit Opinion Handling 2026 | Patron Accounting">
     <meta name="twitter:description" content="Complete CFO handling guide for qualified audit opinions - 7-day response, stakeholder communication, Section 134(3)(f) Board Report and AOC-4 filing.">
-    <meta name="twitter:image" content="/images/qualified-audit-opinion-handling-guide-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/provident-fund-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/provident-fund-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PF Registration in Pune - EPFO Process & 20-Employee Rule">
     <meta name="twitter:description" content="CA-assisted PF registration in Pune. EPFO employer registration, ECR filing, UAN generation, ESI integration. Serving Hinjewadi, Chakan, MIDC employers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/provident-fund-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

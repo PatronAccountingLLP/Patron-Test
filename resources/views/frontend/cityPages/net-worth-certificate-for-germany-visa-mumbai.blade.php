@@ -21,11 +21,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-germany-visa/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-germany-visa-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-germany-visa-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

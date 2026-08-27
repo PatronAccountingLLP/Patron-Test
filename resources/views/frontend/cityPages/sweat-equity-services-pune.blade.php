@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sweat-equity-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sweat-equity-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Sweat Equity Issuance under Section 54 and Rule 8 | Patron Accounting">
     <meta name="twitter:description" content="Issue sweat equity shares in Pune for your Hinjewadi or Kharadi startup: valuer pricing, caps, lock-in and Form SH-3 filing from INR 24,999.">
-    <meta name="twitter:image" content="/images/sweat-equity-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fcra-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fcra-registration-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FCRA Registration for NGOs Mumbai - MHA & Renewal">
     <meta name="twitter:description" content="FCRA registration in Mumbai. Foreign Contribution Regulation Act 2010. NGO, trust, Section 8 company. SBI New Delhi FCRA account, 2020 Amendment, Form FC-3A. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fcra-registration-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

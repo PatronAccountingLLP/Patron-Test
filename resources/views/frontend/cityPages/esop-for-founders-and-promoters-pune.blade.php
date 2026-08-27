@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-founders-and-promoters/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Founder ESOP Eligibility &amp; DPIIT Startup Route | Patron Accounting">
     <meta name="twitter:description" content="Can Pune founders and promoters hold ESOPs? We map the Rule 12 bar and DPIIT-startup 10-year exemption for Hinjewadi and Kharadi teams. From INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

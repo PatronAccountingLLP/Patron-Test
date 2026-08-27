@@ -18,11 +18,11 @@
     <meta property="og:url" content="/esop-scheme-design/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-scheme-design-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Scheme Design India: Pool, Vesting, Leaver Clauses | Patron Accounting">
     <meta name="twitter:description" content="ESOP scheme design for Indian startups - pool sizing, vesting, cliff, leaver clauses and sample term sheet. 4-8 weeks. Starting at Rs 75,000.">
-    <meta name="twitter:image" content="/images/esop-scheme-design-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

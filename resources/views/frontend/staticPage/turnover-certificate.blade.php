@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Certificate from CA - Process, Format & Documents">
     <meta name="twitter:description" content="CA-certified Turnover Certificate in India with UDIN for bank loans, tenders, MSME, visa and exports. Starting at INR 1,499.">
-    <meta name="twitter:image" content="/images/turnover-certificate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

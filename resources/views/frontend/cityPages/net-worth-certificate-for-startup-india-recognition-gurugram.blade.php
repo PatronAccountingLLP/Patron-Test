@@ -19,11 +19,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-startup-india-recognition/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-startup-india-recognition-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
     <meta name="twitter:description" content="Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-startup-india-recognition-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

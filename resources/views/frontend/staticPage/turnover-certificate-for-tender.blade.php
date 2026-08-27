@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate-for-tender">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate-for-tender-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Certificate for Tender - CA Format">
     <meta name="twitter:description" content="CA-certified Turnover Certificate for Tender with UDIN. Covers complete process, fees and documents.">
-    <meta name="twitter:image" content="/images/turnover-certificate-for-tender-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

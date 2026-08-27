@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tally-accounting/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tally-accounting/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally Prime Accounting in Delhi - Setup & Support">
     <meta name="twitter:description" content="CA-managed Tally accounting in Delhi. TallyPrime bookkeeping, GST filing, e-invoicing, and e-way bill compliance. Serving Chandni Chowk, Karol Bagh, Okhla. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tally-accounting/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

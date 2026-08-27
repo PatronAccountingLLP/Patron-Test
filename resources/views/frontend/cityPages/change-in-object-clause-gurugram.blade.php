@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-in-object-clause/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-object-clause/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Object Clause Change Gurugram - MOA Alteration & MGT-14">
     <meta name="twitter:description" content="CA/CS-assisted object clause change in Gurugram. Section 13, Special Resolution, MGT-14 filing, ROC Haryana. Add, modify, or delete business objects. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-object-clause/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

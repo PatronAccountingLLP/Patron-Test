@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-registration/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Registration in Mumbai - Process, Fees & FoSCoS">
     <meta name="twitter:description" content="CA-assisted FSSAI registration in Mumbai. Basic, State, Central food licence. Serving restaurants, cloud kitchens, food manufacturers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-registration/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

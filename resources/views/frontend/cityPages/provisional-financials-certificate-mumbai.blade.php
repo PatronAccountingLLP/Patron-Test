@@ -21,11 +21,11 @@
     <meta property="og:url" content="/provisional-financials-certificate/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/provisional-financials-certificate-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Provisional Financials Certificate 2026: CA Format | Patron Accounting">
     <meta name="twitter:description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/provisional-financials-certificate-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

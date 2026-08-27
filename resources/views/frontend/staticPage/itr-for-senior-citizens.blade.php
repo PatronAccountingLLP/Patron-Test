@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-senior-citizens">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-senior-citizens-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Senior Citizens 2026: Pension + 80TTB | Patron Accounting">
     <meta name="twitter:description" content="ITR for senior citizens - ITR-1 pension + interest, Section 80TTB INR 50,000 deduction, Section 207 advance tax exemption. Starting from INR 999.">
-    <meta name="twitter:image" content="/images/itr-for-senior-citizens-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

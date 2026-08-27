@@ -19,11 +19,11 @@
     <meta property="og:url" content="/income-certificate-by-ca">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-certificate-by-ca-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Certificate by CA 2026 | Patron Accounting">
     <meta name="twitter:description" content="Income certificate by a CA - attested annual income proof for visa, loans, and admissions, with UDIN. Distinct from ITR. From INR 1,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/income-certificate-by-ca-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

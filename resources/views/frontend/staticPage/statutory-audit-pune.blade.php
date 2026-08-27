@@ -21,11 +21,11 @@
     <meta property="og:url" content="/statutory-audit/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Statutory Audit Firm Pune 2026 - Patron HQ | Patron Accounting">
     <meta name="twitter:description" content="Patron HQ Pune statutory audit firm. CA-led audits for Hinjewadi IT/SaaS, MIDC manufacturing, FC Road service businesses. CARO 2020 + Sec 139. From Rs 35,000.">
-    <meta name="twitter:image" content="/images/statutory-audit/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

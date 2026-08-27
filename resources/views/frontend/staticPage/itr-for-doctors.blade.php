@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-doctors/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-doctors-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Doctors 2026: 44ADA + CA Filing | Patron Accounting">
     <meta name="twitter:description" content="Doctor ITR filing in India. ITR-4 (44ADA) or ITR-3 (clinic books). Starting Rs 1,499.">
-    <meta name="twitter:image" content="/images/itr-for-doctors-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

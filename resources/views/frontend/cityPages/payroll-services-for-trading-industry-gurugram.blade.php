@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-trading-industry/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-trading/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Business Payroll in Gurugram - PF, ESIC & TDS">
     <meta name="twitter:description" content="CA-led payroll for trading companies in Gurugram. Sales commission, godown workers, PF/ESI, TDS, Shops Act. Wholesale, retail, dealers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-trading/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

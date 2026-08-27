@@ -19,11 +19,11 @@
     <meta property="og:url" content="/wholly-owned-subsidiary-of-foreign-company-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/wholly-owned-subsidiary-of-foreign-company-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Wholly Owned Subsidiary in India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Set up a wholly owned subsidiary of a foreign company in India as a Pvt Ltd. 100% FDI automatic route, RBI FC-GPR filing, FEMA compliance. From INR 49,999.">
-    <meta name="twitter:image" content="/images/wholly-owned-subsidiary-of-foreign-company-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/payroll-services-for-the-hospitality-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-the-hospitality-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hospitality Payroll Services - Tips, PF, ESI & TDS India">
     <meta name="twitter:description" content="Payroll for hotels and restaurants in India: tip income, service charge, EPF, ESI, Labour Code 2025. From Rs.2,999/month.">
-    <meta name="twitter:image" content="/images/payroll-services-for-the-hospitality-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

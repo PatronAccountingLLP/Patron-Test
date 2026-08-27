@@ -20,11 +20,11 @@
     <meta property="og:url" content="/caro-2020">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/caro-2020-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CARO 2020 Applicability 2026 | Patron Accounting">
     <meta name="twitter:description" content="Companies (Auditor's Report) Order CARO 2020 applicability, 21 clauses, 4-condition Pvt Ltd exemption. Section 143(11) Companies Act. From Rs 25,000.">
-    <meta name="twitter:image" content="/images/caro-2020-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

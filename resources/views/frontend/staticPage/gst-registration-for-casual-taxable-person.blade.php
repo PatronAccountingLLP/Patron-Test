@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-registration-for-casual-taxable-person">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-registration-for-casual-taxable-person-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Casual Taxable Person Registration 2026 | Patron Accounting">
     <meta name="twitter:description" content="90 day GST registration for casual taxable persons under Section 27 of the CGST Act. Advance tax deposit. Extendable by 90 more days. Starting at Rs 999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-registration-for-casual-taxable-person-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

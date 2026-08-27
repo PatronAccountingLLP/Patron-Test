@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gst-returns-for-freelancers">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-for-freelancers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Return Filing for Freelancers - GSTR-1, 3B & Threshold">
     <meta name="twitter:description" content="Freelancers earning above Rs 20 lakh must file GSTR-1 and GSTR-3B. Know GST return types, export under LUT, ITC claims, penalties and filing process. Starts Rs 1,499.">
-    <meta name="twitter:image" content="/images/gst-returns-for-freelancers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

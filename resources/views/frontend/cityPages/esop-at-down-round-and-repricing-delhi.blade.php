@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-at-down-round-and-repricing/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-down-round-and-repricing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Repricing After a Down Round: Founder Guide | Patron Accounting">
     <meta name="twitter:description" content="Delhi founders facing a down round get clear ESOP repricing, fresh valuation and Section 62 approvals, with MCA-ready filings, starting at INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-at-down-round-and-repricing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

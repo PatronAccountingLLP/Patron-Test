@@ -14,12 +14,12 @@
 <meta property="og:title" content="Terms &amp; Conditions of Service | Patron Accounting LLP">
 <meta property="og:description" content="The terms that govern your use of this website and our accounting, tax and compliance services, including engagement scope, payment and limits of liability.">
 <meta property="og:url" content="https://www.patronaccounting.com/terms-and-conditions">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:image:alt" content="Patron Accounting LLP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Terms &amp; Conditions of Service | Patron Accounting LLP">
 <meta name="twitter:description" content="The terms that govern your use of this website and our accounting, tax and compliance services, including engagement scope, payment and limits of liability.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endpush
 @push('scripts-head')
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative

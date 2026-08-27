@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-demand-under-section-156/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-demand-section-156/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Demand u/s 156 Gurugram - Reply & Payment">
     <meta name="twitter:description" content="CA-assisted income tax demand resolution in Gurugram. Section 156 response, rectification, appeal, TDS mismatch, outstanding demand, ROC Haryana. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/it-demand-section-156/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

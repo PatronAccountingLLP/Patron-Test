@@ -12,13 +12,13 @@
     <meta property="og:description" content="Compute Expected Credit Loss under Ind AS 109. Three-stage General Approach + Provision Matrix for trade receivables. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109">
-    <meta property="og:image" content="/tools/og/ecl-calculator-ind-as-109.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ECL Calculator (Ind AS 109) — FY 2025-26">
     <meta name="twitter:description" content="Three-stage ECL + Provision Matrix for trade receivables. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="/tools/og/ecl-calculator-ind-as-109.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 @endsection

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns-for-e-commerce-operator/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-ecommerce-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for E-Commerce in Mumbai - GSTR-8 & TCS">
     <meta name="twitter:description" content="CA-assisted GSTR-8 TCS filing for e-commerce operators in Mumbai. Section 52 TCS and Section 9(5) compliance. Serving BKC, Powai, Andheri platforms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-ecommerce-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

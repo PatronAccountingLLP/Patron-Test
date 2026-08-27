@@ -12,13 +12,13 @@
     <meta property="og:description" content="Verify your RFD-01 application is complete before filing. Category-specific checklist, statement requirements, limitation tracker, deficiency-memo prevention. Free CA tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/rfd-01-filing-checklist.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
     <meta name="twitter:description" content="10 categories. Statements 1A-7. Limitation tracker. Provisional refund eligibility under Instruction 06/2025. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/rfd-01-filing-checklist.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

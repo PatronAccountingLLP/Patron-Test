@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-tech-startups/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Plans for Cyber City Enterprise SaaS | Patron Accounting">
     <meta name="twitter:description" content="Design enterprise-SaaS ESOPs for your Cyber City startup with role-based grants, performance vesting and change-of-control acceleration, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ben-4-notice-from-non-compliant-shareholders">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/ben-4-notice-from-non-compliant-shareholders-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="BEN-4 Notice for Non-Compliant Shareholders 2026 | Patron Accounting">
     <meta name="twitter:description" content="Issue a BEN-4 notice under Section 90(5) when a shareholder will not declare SBO, and apply to the NCLT to restrict the shares. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/ben-4-notice-from-non-compliant-shareholders-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -8,7 +8,7 @@
     <meta property="og:description" content="Check MSME eligibility. Micro, Small, Medium classification by investment and turnover.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/msme-udyam-eligibility">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-msme-eligibility.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MSME/Udyam Eligibility Checker &mdash; Free 2026">

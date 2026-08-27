@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-importers">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-importers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Importers 2026: IGST | Patron Accounting">
     <meta name="twitter:description" content="GST returns for importers - IGST on imports, ICEGATE Bill of Entry matching, GSTR-2B reconciliation, ITC claim in GSTR-3B. Starting from INR 2,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-importers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

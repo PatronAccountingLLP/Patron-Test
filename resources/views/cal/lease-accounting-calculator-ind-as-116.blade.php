@@ -12,13 +12,13 @@
     <meta property="og:description" content="Calculate ROU asset &amp; lease liability under Ind AS 116. Year-wise schedule, journal entries, vs old AS 17 comparison. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116">
-    <meta property="og:image" content="/tools/og/lease-accounting-calculator-ind-as-116.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Lease Accounting Calculator (Ind AS 116 ROU) — FY 2025-26">
     <meta name="twitter:description" content="ROU asset + lease liability + year-wise schedule + journal entries. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="/tools/og/lease-accounting-calculator-ind-as-116.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 @endsection

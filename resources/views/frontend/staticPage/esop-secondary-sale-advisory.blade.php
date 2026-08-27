@@ -18,11 +18,11 @@
     <meta property="og:url" content="/esop-secondary-sale-advisory/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-secondary-sale-advisory-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Secondary Sale India: Tender Offer, Buyback, Tax | Patron Accounting">
     <meta name="twitter:description" content="ESOP secondary sale, buyback and tender offer advisory for Indian startups - capital gains tax, FEMA NDI Rule 21, FC-TRS filing. From Rs 2,00,000.">
-    <meta name="twitter:image" content="/images/esop-secondary-sale-advisory-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

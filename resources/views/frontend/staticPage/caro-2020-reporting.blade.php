@@ -20,11 +20,11 @@
     <meta property="og:url" content="/caro-2020-reporting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/caro-2020-reporting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CARO 2020 Reporting - 21 Clauses 2026 | Patron Accounting">
     <meta name="twitter:description" content="Complete CARO 2020 guide - applicability matrix, all 21 clauses walkthrough with practitioner depth, Pvt Ltd and small company exemption, common qualifications.">
-    <meta name="twitter:image" content="/images/caro-2020-reporting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

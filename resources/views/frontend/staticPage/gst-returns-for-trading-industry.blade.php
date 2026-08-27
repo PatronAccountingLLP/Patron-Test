@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-trading-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-trading-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Trading Industry 2026 | Patron Accounting">
     <meta name="twitter:description" content="GST returns for traders - wholesale/retail B2B vs B2C, stock transfer Rule 28, B2CL INR 1 lakh threshold. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-trading-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

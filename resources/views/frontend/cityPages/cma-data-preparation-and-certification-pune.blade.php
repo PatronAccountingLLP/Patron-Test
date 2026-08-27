@@ -19,11 +19,11 @@
     <meta property="og:url" content="/cma-data-preparation-and-certification/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/cma-data-preparation-and-certification/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/cma-data-preparation-and-certification/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

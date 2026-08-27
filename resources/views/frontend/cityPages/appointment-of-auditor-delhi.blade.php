@@ -20,11 +20,11 @@
     <meta property="og:url" content="/appointment-of-auditor/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/appointment-of-auditor-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Appointment of Auditor Delhi NCR – Section 139 &amp; ADT-1">
     <meta name="twitter:description" content="Appointment of auditor in Delhi. S.139. First auditor 30 days. Subsequent 5-year AGM. ADT-1 15 days. Rotation. Eligibility S.141. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/appointment-of-auditor-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

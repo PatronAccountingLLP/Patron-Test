@@ -19,11 +19,11 @@
     <meta property="og:url" content="/dpiit-startup-recognition">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/dpiit-startup-recognition-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DPIIT Startup Recognition 2026 | Patron Accounting">
     <meta name="twitter:description" content="Get DPIIT startup recognition under Startup India. Gateway to the Section 80-IAC tax holiday, ESOP tax deferral and IPR rebates. From INR 4,499.">
-    <meta name="twitter:image" content="/images/dpiit-startup-recognition-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

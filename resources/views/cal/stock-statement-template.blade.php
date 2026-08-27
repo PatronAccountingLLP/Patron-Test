@@ -11,13 +11,13 @@
 <meta property="og:description" content="Enter stock, creditors, debtors and margins to compute drawing power and CC headroom, and copy a bank-ready stock statement format (Parts A–E).">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/stock-statement-template">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/stock-statement-template-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Stock Statement Template & Drawing Power Calculator">
 <meta name="twitter:description" content="Compute drawing power and CC headroom from stock, creditors and debtors, and copy a bank-ready stock statement format. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/stock-statement-template-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

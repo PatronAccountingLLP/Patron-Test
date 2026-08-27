@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-annual-returns/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-annual-returns-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Annual Return Gurugram - GSTR-9, GSTR-9C & Due Date">
     <meta name="twitter:description" content="GST annual return GSTR-9 GSTR-9C in Gurugram. Rs 2 crore+. 4-way reconciliation. DRC-03. December 31 deadline. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-annual-returns-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

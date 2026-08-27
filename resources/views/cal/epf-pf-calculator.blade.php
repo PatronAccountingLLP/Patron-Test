@@ -8,7 +8,7 @@
     <meta property="og:description" content="Calculate monthly EPF contribution and project retirement corpus at 8.25% interest for FY 2025-26.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/epf-pf-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/epf-pf-calculator/og-image.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EPF Calculator India &mdash; PF Contribution & Maturity 2026">
     <meta name="twitter:description" content="Monthly EPF split + retirement corpus projection at 8.25%. FY 2025-26 updated!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/epf-pf-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

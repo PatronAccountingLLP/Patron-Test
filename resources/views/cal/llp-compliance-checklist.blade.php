@@ -8,7 +8,7 @@
     <meta property="og:description" content="LLP compliance checklist. Form 8, Form 11, DIR-3 KYC, ITR, GST with due dates and penalties.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/llp-compliance-checklist">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-llp-compliance.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="LLP Compliance Checklist &mdash; Free 2026">
     <meta name="twitter:description" content="Track all LLP compliance filings with progress.">

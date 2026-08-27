@@ -20,11 +20,11 @@
     <meta property="og:url" content="/startup-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/startup-registration/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup India Registration Gurugram - DPIIT Benefits">
     <meta name="twitter:description" content="CA-managed Startup India DPIIT recognition in Gurugram. Zero fee. Tax exemption Section 80IAC. SaaS, fintech, deeptech. Serving Cyber City, Sohna Rd. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/startup-registration/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

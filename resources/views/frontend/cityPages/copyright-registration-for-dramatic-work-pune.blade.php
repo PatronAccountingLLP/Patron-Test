@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-dramatic-work/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-for-dramatic-work-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Dramatic Work in Pune - Script & Play">
     <meta name="twitter:description" content="CA-assisted dramatic work copyright in Pune. Scripts, screenplays, choreography, stage plays - all protected via Form XIV. Serving FTII alumni, theatre groups. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-for-dramatic-work-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

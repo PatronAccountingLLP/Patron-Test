@@ -20,11 +20,11 @@
     <meta property="og:url" content="/appointment-of-director/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/appointment-of-director/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Appointment of Director Mumbai – DIN, DIR-12 &amp; Resolution">
     <meta name="twitter:description" content="CA-assisted director appointment in Mumbai. DIN, DIR-12, additional, independent, women, resident director. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/appointment-of-director/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

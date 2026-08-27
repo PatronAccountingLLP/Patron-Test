@@ -14,10 +14,10 @@
     <meta property="og:description" content="CA-assisted IEC import export code in Hyderabad. DGFT, Rs 500, lifetime validity. Pharma, IT exports. Call +91 945 945 6700.">
     <meta property="og:url" content="/iec-registration/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iec-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="IEC Registration in Hyderabad – DGFT Process, Fees &amp; Export">
     <meta name="twitter:description" content="IEC import export code in Hyderabad. DGFT portal, Rs 500. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/iec-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

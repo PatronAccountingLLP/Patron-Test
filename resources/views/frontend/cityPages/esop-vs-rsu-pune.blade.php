@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-rsu/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-rsu-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP vs RSU for Pune SaaS Startups: Which Fits Best | Patron Accounting">
     <meta name="twitter:description" content="Compare ESOP and RSU for Pune startups in Hinjewadi and Kharadi, and learn which equity plan suits your stage. Get our free, plain-English guide today.">
-    <meta name="twitter:image" content="/images/esop-vs-rsu-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

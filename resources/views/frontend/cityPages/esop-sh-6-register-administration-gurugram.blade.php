@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-sh-6-register-administration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-sh-6-register-administration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram SH-6 ESOP Register for Cyber City SaaS Teams | Patron Accounting">
     <meta name="twitter:description" content="Run an investor-ready SH-6 ESOP register in Gurugram for Cyber City enterprise-SaaS firms, with real-time grant tracking and RoC Delhi filings at INR 9,999/yr.">
-    <meta name="twitter:image" content="/images/esop-sh-6-register-administration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

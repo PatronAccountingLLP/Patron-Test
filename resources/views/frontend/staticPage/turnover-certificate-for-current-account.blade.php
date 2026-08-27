@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate-for-current-account">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate-for-current-account-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Certificate for Current Account - CA Format">
     <meta name="twitter:description" content="Get a CA turnover certificate for current account opening - with UDIN, starting at Rs 1,499. Get expert CA help today.">
-    <meta name="twitter:image" content="/images/turnover-certificate-for-current-account-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-it-service-firms/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-it-service-firms-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT Services ITR 2026: Sec 10AA SEZ, LUT | Patron Accounting">
     <meta name="twitter:description" content="ITR for IT services and software firms. Section 10AA SEZ deduction, LUT for export of services, FIRC, Schedule FSI, transfer pricing. Starts at Rs 7,999.">
-    <meta name="twitter:image" content="/images/itr-for-it-service-firms-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

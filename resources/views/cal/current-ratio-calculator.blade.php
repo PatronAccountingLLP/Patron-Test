@@ -12,13 +12,13 @@
     <meta property="og:description" content="Compute current ratio, quick ratio, cash ratio and working capital from Schedule III components. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/current-ratio-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/current-ratio-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Current Ratio Calculator — Free 2026">
     <meta name="twitter:description" content="Current ratio + quick ratio + cash ratio + working capital. Schedule III aligned. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/current-ratio-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

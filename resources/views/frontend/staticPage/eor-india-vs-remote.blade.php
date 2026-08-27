@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-vs-remote">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-vs-remote-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Remote Alternative India 2026: CA-Led EOR Service | Patron">
     <meta name="twitter:description" content="Remote.com EOR is $599 monthly with 100% owned entities. Patron Accounting LLP is a CA-led India alternative offering integrated payroll and compliance.">
-    <meta name="twitter:image" content="/images/eor-india-vs-remote-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

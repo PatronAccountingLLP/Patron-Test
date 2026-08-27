@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-salary/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-filing-for-salary-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Salaried Delhi NCR – Form 16, ITR-1 &amp; HRA">
     <meta name="twitter:description" content="Salary ITR filing in Delhi. ITR-1/ITR-2. Form 16. New vs old regime. HRA. 80C 80D deductions. Due 31 July. Refund tracking. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-filing-for-salary-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

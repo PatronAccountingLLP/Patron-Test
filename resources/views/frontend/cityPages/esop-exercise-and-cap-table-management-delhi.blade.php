@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-exercise-and-cap-table-management/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Exercise & Cap Table Compliance Service | Patron Accounting">
     <meta name="twitter:description" content="Run ESOP exercises and keep an audit-ready cap table for Delhi founders near Nehru Place and Connaught Place, filed at RoC Delhi, for just INR 14,999/yr.">
-    <meta name="twitter:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-at-acquisition-and-change-of-control/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-acquisition-and-change-of-control-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Deal Advisory: Acceleration and Rollover | Patron Accounting">
     <meta name="twitter:description" content="For Pune SaaS teams in Hinjewadi and Kharadi, we structure ESOP acceleration, unvested-option treatment and rollover at acquisition from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-at-acquisition-and-change-of-control-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

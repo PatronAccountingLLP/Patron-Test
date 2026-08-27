@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-restructuring-underwater-options/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-restructuring-underwater-options-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Exchange Programs After a Down Round Hit | Patron Accounting">
     <meta name="twitter:description" content="Mumbai startups can swap underwater options for fresh grants with full SEBI and Section 62(1)(b) compliance, handled end to end from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-restructuring-underwater-options-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

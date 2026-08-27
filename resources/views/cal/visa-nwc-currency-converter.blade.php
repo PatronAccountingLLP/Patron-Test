@@ -10,13 +10,13 @@
 <meta property="og:description" content="Convert your INR net worth to USD, CAD, GBP, EUR or AUD at the reference rate for a dual-currency visa net worth certificate. Free, instant, no signup.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="/tools/visa-nwc-currency-converter">
-<meta property="og:image" content="/tools/visa-nwc-currency-converter-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Visa NWC Currency Converter — INR to USD/CAD/GBP">
 <meta name="twitter:description" content="Convert INR net worth to USD/CAD/GBP/EUR/AUD at the reference rate for a dual-currency visa net worth certificate. Free & instant.">
-<meta name="twitter:image" content="/tools/visa-nwc-currency-converter-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">

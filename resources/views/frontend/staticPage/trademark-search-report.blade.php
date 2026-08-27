@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-search-report">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-search-report-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Search Report - Availability Check & Class Search">
     <meta name="twitter:description" content="Trademark search report before filing. IP India public search, wordmark, phonetic, Vienna Code. NICE 45 classes. Form TM-C search certificate. Expert CA team.">
-    <meta name="twitter:image" content="/images/trademark-search-report-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

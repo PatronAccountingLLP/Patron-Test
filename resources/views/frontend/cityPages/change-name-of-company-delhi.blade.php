@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-name-of-company/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-name-of-company-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Name Change Delhi NCR – INC-24, INC-25 &amp; ROC">
     <meta name="twitter:description" content="Company name change in Delhi. Section 13. RUN name approval. Special Resolution. MGT-14 INC-24. Fresh COI. 15-20 days. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-in-name-of-company-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

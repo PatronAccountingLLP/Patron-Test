@@ -12,13 +12,13 @@
     <meta property="og:description" content="Decide whether a GST refund is worth pursuing. Computes expected recovery, total costs, time-money loss, ROI & break-even probability. Decision verdict.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/refund-pursuit-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/refund-pursuit-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
     <meta name="twitter:description" content="Should you pursue this refund? ROI verdict, break-even probability, time-money cost analysis. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/refund-pursuit-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

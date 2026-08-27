@@ -20,11 +20,11 @@
     <meta property="og:url" content="/inc-20a-commencement-of-business">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/inc-20a-commencement-of-business-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="INC-20A Commencement of Business 2026 | Patron Accounting">
     <meta name="twitter:description" content="File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/inc-20a-commencement-of-business-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

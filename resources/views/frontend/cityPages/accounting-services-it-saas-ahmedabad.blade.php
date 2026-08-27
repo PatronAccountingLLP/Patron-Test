@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-it-saas/ahmedabad">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-it-saas-ahmedabad-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SaaS Accounting Services in Ahmedabad for Local SMEs | Patron Accounting">
     <meta name="twitter:description" content="For Ahmedabad businesses: Gujarat professional tax handled. Fewer auditor queries, a faster sign-off and no surprises at year end. Talk to a local CA.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-it-saas-ahmedabad-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

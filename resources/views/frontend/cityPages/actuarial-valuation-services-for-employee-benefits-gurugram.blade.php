@@ -20,11 +20,11 @@
     <meta property="og:url" content="/actuarial-valuation-services-for-employee-benefits/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/actuarial-valuation/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Actuarial Valuation in Gurugram - AS 15 & Ind AS 19 Reports">
     <meta name="twitter:description" content="CA-coordinated actuarial valuation in Gurugram. Gratuity, leave encashment, pension. Ind AS 19, AS 15, Social Security Code 2020 impact. Cyber City, Manesar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/actuarial-valuation/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/nidhi-company-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/nidhi-company-registration/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Nidhi Company Registration Mumbai - Process, Fees & Docs">
     <meta name="twitter:description" content="Register Nidhi Company in Mumbai. SPICe+ at RoC Mumbai, NDH-4 declaration, 200-member strategy, NOF Rs 20 lakh, ongoing NDH-1/NDH-3 compliance. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/nidhi-company-registration/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

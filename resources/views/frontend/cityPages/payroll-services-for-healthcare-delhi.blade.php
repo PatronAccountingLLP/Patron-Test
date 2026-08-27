@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-healthcare/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-healthcare/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Healthcare Accounting in Delhi - GST & Compliance">
     <meta name="twitter:description" content="CA-led hospital and clinic payroll in Delhi. 24/7 shift processing, PF/ESI, TDS, visiting doctor compliance. Serving AIIMS zone, Saket, Rohini. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-healthcare/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

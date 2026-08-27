@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/networth/form-15cb">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-form-15cb.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Form 15CB: The CA Sign Off Behind a Foreign Remittance">
     <meta name="twitter:description" content="Income tax portal filing, treaty positions and withholding rates a CA verifies before a payment leaves India.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-form-15cb.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">@include('partials.glossary-inline-assets')
 @endsection
 

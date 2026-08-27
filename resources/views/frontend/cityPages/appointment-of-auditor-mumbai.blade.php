@@ -20,11 +20,11 @@
     <meta property="og:url" content="/appointment-of-auditor/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/appointment-of-auditor/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Appointment of Auditor Mumbai – Section 139 &amp; ADT-1">
     <meta name="twitter:description" content="CA-assisted auditor appointment in Mumbai. First auditor, ADT-1, rotation, AGM, eligibility Section 141. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/appointment-of-auditor/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

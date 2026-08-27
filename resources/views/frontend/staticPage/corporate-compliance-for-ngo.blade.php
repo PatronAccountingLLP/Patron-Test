@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-ngo">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-ngo-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for NGO, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Annual compliance for an NGO, Section 8 company filings plus 12A, 80G and FCRA, across MCA, Income Tax and MHA, managed end to end. From INR 9,999 a year.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-ngo-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/bank-credit-card-reconciliation-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/bank-credit-card-reconciliation-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bank Reconciliation in Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="Signed monthly BRS per account for Mumbai firms from INR 2,499/mo (Exl GST and Govt. Charges). CA team clears gateway and cheque gaps fast.">
-    <meta name="twitter:image" content="/images/bank-credit-card-reconciliation-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/xero-accounting/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/xero-accounting/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Xero Accounting in Gurugram - Setup, Support & Cloud">
     <meta name="twitter:description" content="CA-supervised Xero accounting in Gurugram. Cloud setup, multi-currency, Indian GST bridge, TDS, e-invoicing. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/xero-accounting/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

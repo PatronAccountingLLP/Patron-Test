@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-143-3/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notices-under-section-143-3/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT Notice u/s 143(3) Delhi NCR – Scrutiny &amp; Reply">
     <meta name="twitter:description" content="CA-assisted scrutiny assessment representation under Section 143(3) in Delhi. Limited and complete scrutiny defence. Serving Connaught Place, Nehru Place, Okhla businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/income-tax-notices-under-section-143-3/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

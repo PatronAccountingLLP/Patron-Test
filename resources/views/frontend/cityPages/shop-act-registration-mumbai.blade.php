@@ -20,11 +20,11 @@
     <meta property="og:url" content="/shop-act-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/shop-act-registration-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Shop Act Registration in Mumbai - Gumasta & Process">
     <meta name="twitter:description" content="Shop Act registration in Mumbai. Gumasta license, Maharashtra Shops & Establishments Act 2017, Form A/F, MCGM portal, lifetime validity. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/shop-act-registration-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

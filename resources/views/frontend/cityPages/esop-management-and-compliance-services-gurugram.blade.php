@@ -21,11 +21,11 @@
     <meta property="og:url" content="/esop-management-and-compliance-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esops-management-and-compliance/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Management - Vesting, Tax & Cap Table in Gurugram | Patron Accounting">
     <meta name="twitter:description" content="CA-led ESOP management in Gurugram. Scheme design, Ind AS 102, perquisite TDS, DPIIT deferral, foreign ESOPs, RoC filings. Startups, MNCs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esops-management-and-compliance/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

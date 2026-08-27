@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tax-planning-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tax-planning-services/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tax Planning Gurugram - 80C, 80D & Old vs New Regime">
     <meta name="twitter:description" content="CA-assisted tax planning in Gurugram. New vs old regime, 80C, NPS, HRA, ESOP, home loan, business tax. Serving Cyber City, Golf Course Road professionals. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tax-planning-services/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

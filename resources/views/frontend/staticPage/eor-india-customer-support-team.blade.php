@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-customer-support-team">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-customer-support-team-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR India Customer Support Team 2026 | Patron Accounting">
     <meta name="twitter:description" content="Hire 24/7 customer support teams in India via EOR. Night shift compliance, multilingual agents, PF, ESI, TDS handled. Starts at Rs 8,000/agent/month.">
-    <meta name="twitter:image" content="/images/eor-india-customer-support-team-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

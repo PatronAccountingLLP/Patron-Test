@@ -20,11 +20,11 @@
     <meta property="og:url" content="/secretarial-audit">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/secretarial-audit-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Secretarial Audit - MR-3 Report, Process & Companies Act">
     <meta name="twitter:description" content="Expert secretarial audit services under Section 204, Companies Act 2013. We handle Form MR-3, SEBI LODR Reg. 24A. Starting at INR 9,999.">
-    <meta name="twitter:image" content="/images/secretarial-audit-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

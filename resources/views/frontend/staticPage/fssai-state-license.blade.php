@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-state-license">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-state-license-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI State License - Eligibility, Documents & Fees India">
     <meta name="twitter:description" content="FSSAI state license for turnover Rs 12 lakh to Rs 20 crore. Fee Rs 2,000-5,000/year. Form B on FoSCoS portal. Restaurants, manufacturers, retailers. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/fssai-state-license-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

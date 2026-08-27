@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/bank-credit-card-reconciliation-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/bank-credit-card-reconciliation-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bank Reconciliation Services for Indian Businesses | Patron Accounting">
     <meta name="twitter:description" content="Every line matched - no suspense account carrying last year's differences. See the numbers while they can still change something. Get a fixed quote.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/bank-credit-card-reconciliation-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

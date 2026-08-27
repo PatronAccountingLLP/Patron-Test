@@ -14,10 +14,10 @@
     <meta property="og:description" content="Free Udyam MSME registration Hyderabad. CGTMSE loans, GeM, EMD exemption. Call +91 945 945 6700.">
     <meta property="og:url" content="/udyam-registration/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/msme-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Udyam Registration in Hyderabad – MSME Certificate">
     <meta name="twitter:description" content="Free Udyam MSME registration Hyderabad. CGTMSE, GeM, EMD exemption. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/msme-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

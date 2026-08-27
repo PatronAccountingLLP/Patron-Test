@@ -12,13 +12,13 @@
     <meta property="og:description" content="Restructure CTC under the 50% basic rule. Compare old vs new salary structure — PF, gratuity, take-home, employer cost.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/ctc-structure-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/ctc-structure-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CTC Structure Calculator — Code on Wages 2025">
     <meta name="twitter:description" content="Restructure CTC under 50% basic rule. Old vs new comparison. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/ctc-structure-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

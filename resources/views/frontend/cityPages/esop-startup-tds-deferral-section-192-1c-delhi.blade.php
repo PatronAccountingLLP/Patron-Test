@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-startup-tds-deferral-section-192-1c/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-startup-tds-deferral-section-192-1c-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi Startup ESOP TDS Deferral Under Section 192(1C) | Patron Accounting">
     <meta name="twitter:description" content="Nehru Place startups can legally defer ESOP TDS to 48 months, sale, or exit under Section 192(1C), filed via RoC Delhi and MCA. Structuring from Rs 14,999.">
-    <meta name="twitter:image" content="/images/esop-startup-tds-deferral-section-192-1c-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

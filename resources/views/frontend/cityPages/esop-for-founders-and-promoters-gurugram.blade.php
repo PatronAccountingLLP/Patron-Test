@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-founders-and-promoters/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram Founder ESOP Structuring for SaaS Startups | Patron Accounting">
     <meta name="twitter:description" content="We help Cyber City enterprise-SaaS founders navigate the Rule 12 ESOP bar with DPIIT exemptions and sweat equity, filed at RoC Delhi. From INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

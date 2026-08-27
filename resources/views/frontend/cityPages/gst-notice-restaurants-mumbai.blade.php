@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-notice-restaurants/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-notice-restaurants/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Notice Restaurants Mumbai 2026: CA Reply | Patron Accounting">
     <meta name="twitter:description" content="GST notice for your Mumbai restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
-    <meta name="twitter:image" content="/images/gst-notice-restaurants/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

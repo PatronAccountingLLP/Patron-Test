@@ -20,11 +20,11 @@
     <meta property="og:url" content="/private-limited-company-compliance/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/private-limited-company-compliance/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Compliance in Mumbai – AOC-4, MGT-7 &amp; Due Dates">
     <meta name="twitter:description" content="CA-assisted Pvt Ltd compliance in Mumbai. AGM, AOC-4, MGT-7, ITR-6, Board meetings, DPT-3, DIR-3 KYC. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/private-limited-company-compliance/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

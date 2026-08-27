@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-at-down-round-and-repricing/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-down-round-and-repricing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Repricing & Make-Whole Grant Advisory | Patron Accounting">
     <meta name="twitter:description" content="Gurugram Cyber City SaaS teams hit by a down round get ESOP repricing, make-whole grants and impact modelling from INR 49,999, with RoC Delhi filings.">
-    <meta name="twitter:image" content="/images/esop-at-down-round-and-repricing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

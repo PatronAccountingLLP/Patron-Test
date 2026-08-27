@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/networth/encumbrance-certificate">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-encumbrance-certificate.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Encumbrance Certificate: Reading the Charges on a Title">
     <meta name="twitter:description" content="Sub registrar applications, Form 15 and Form 16 outputs, and how state portals differ in practice.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-encumbrance-certificate.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">@include('partials.glossary-inline-assets')
 @endsection
 

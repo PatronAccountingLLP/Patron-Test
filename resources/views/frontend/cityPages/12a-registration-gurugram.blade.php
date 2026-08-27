@@ -20,11 +20,11 @@
     <meta property="og:url" content="/12a-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/registration-for-12a-80g-certificate/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A Registration Gurugram - Form 10A & Tax Exemption">
     <meta name="twitter:description" content="CA-managed 12A registration in Gurugram for trusts, societies, Section 8 companies. NGO income tax exemption. Form 10A/10AB. CSR ready. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/registration-for-12a-80g-certificate/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

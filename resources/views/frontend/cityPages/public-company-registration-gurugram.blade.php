@@ -20,11 +20,11 @@
     <meta property="og:url" content="/public-company-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/public-limited-company-registration/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Public Ltd Company Registration Gurugram - Fees & ROC">
     <meta name="twitter:description" content="Register public limited company in Gurugram. 7 shareholders, 3 directors, IPO ready. CA-led SPICe+ filing with RoC Delhi. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/public-limited-company-registration/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

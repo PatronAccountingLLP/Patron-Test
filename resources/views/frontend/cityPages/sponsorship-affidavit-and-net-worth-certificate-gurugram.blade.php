@@ -19,11 +19,11 @@
     <meta property="og:url" content="/sponsorship-affidavit-and-net-worth-certificate/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/sponsorship-affidavit-and-net-worth-certificate-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/sponsorship-affidavit-and-net-worth-certificate-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-perquisite-tax-section-17-2-vi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-perquisite-tax-section-17-2-vi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Perquisite Tax 2026: Section 17(2)(vi) Computation | Patron Accounting">
     <meta name="twitter:description" content="ESOP perquisite tax equals FMV on exercise minus exercise price times shares, taxed as salary. Expert computation from Rs 9,999. Section 17(2)(vi).">
-    <meta name="twitter:image" content="/images/esop-perquisite-tax-section-17-2-vi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

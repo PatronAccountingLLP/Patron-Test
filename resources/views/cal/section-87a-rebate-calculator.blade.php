@@ -12,7 +12,7 @@
     <meta property="og:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation for FY 2025-26.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/section-87a-rebate-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 87A Rebate Calculator — Old &amp; New Regime FY 2025-26">
     <meta name="twitter:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/section-87a-rebate-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">

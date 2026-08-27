@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tally-accounting/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tally-accounting/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally Prime Accounting in Gurugram - Setup & Support">
     <meta name="twitter:description" content="CA-led Tally accounting in Gurugram. TallyPrime setup, GST configuration, e-invoicing, bookkeeping. Serving Cyber City, Udyog Vihar, Manesar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tally-accounting/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

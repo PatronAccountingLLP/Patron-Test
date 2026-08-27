@@ -20,11 +20,11 @@
     <meta property="og:url" content="/hospitality-sector-accounting-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/hospitality-sector-accounting-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hotel & Restaurant Accounting in Delhi - POS, OTA & GST">
     <meta name="twitter:description" content="CA-assisted accounting for hotels and restaurants in Delhi. GST compliance, food cost tracking, payroll, and FSSAI support. Serving Aerocity, Connaught Place, Hauz Khas. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/hospitality-sector-accounting-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

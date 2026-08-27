@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-saas-companies/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-saas-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Valuation for SaaS: Rule 11UA FMV Reports | Patron Accounting">
     <meta name="twitter:description" content="Get defensible Rule 11UA FMV valuations and SEBI-aligned ESOP scheme design for Mumbai SaaS firms in BKC and Powai, with RoC Mumbai filings, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-saas-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

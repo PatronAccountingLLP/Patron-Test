@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ngo-services-for-healthcare/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-services-for-healthcare-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CA Services for Healthcare NGOs &amp; Charitable Hospitals">
     <meta name="twitter:description" content="Expert CA services for healthcare NGOs and charitable hospitals: 12A/80G, Section 10(23C)(via) approval, FCRA, Form 10B/10BB audit and full compliance.">
-    <meta name="twitter:image" content="/images/ngo-services-for-healthcare-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

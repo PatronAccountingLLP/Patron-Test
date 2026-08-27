@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-irdai-registration-process/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IRDAI IMF Registration Process: Step-by-Step Guide">
     <meta name="twitter:description" content="IRDAI IMF registration process for existing entities in Mumbai - NOC, Form A, documents, fees and timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
-    <meta name="twitter:image" content="/images/imf-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

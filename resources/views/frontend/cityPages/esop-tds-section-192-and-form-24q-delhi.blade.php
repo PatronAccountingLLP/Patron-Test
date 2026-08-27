@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-tds-section-192-and-form-24q/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP TDS Compliance: Section 192 & Form 24Q Done | Patron Accounting">
     <meta name="twitter:description" content="We handle ESOP salary perquisite TDS under Section 192 and quarterly Form 24Q filing for Delhi employers, issuing reconciled Form 16 to staff, from INR 4,999.">
-    <meta name="twitter:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

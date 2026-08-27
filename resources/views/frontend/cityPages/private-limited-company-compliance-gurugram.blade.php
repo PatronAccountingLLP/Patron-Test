@@ -20,11 +20,11 @@
     <meta property="og:url" content="/private-limited-company-compliance/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/annual-compliance/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Compliance Gurugram - AOC-4, MGT-7 & Due Dates">
     <meta name="twitter:description" content="CA/CS-assisted Pvt Ltd compliance in Gurugram. AOC-4, MGT-7A, ADT-1, AGM, board meetings, audit, DIR-3 KYC, ROC Haryana. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/annual-compliance/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

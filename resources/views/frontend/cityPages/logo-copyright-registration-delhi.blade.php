@@ -20,11 +20,11 @@
     <meta property="og:url" content="/logo-copyright-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/logo-copyright-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Logo Copyright Registration in Delhi - Form XIV & Fees">
     <meta name="twitter:description" content="Register logo copyright in Delhi. Artistic work Section 2(c), TM-60 from Dwarka. Serving Connaught Place, Aerocity, Nehru Place. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/logo-copyright-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

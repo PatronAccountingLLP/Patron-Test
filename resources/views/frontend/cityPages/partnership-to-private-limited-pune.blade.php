@@ -21,11 +21,11 @@
     <meta property="og:url" content="/partnership-to-private-limited/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/partnership-to-private-limited/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Partnership to Pvt Ltd Pune – URC-1 &amp; SPICe+">
     <meta name="twitter:description" content="CA and CS assisted partnership to Pvt Ltd conversion in Pune. URC-1, SPICe+, newspaper ad, ROC approval, fresh COI, auto-transfer. Family businesses, Camp traders, MIDC manufacturers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/partnership-to-private-limited/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

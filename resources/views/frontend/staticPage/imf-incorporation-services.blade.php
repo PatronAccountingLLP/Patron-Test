@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-incorporation-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-incorporation-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF Incorporation India 2026: Pvt Ltd + IRDAI | Patron">
     <meta name="twitter:description" content="MCA Pvt Ltd plus IRDAI IMF registration in one engagement - Rs 10 lakh net worth, MoA/AoA, DIN/DSC, ISP training. 120-day fixed-fee. From Rs 50,000.">
-    <meta name="twitter:image" content="/images/imf-incorporation-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

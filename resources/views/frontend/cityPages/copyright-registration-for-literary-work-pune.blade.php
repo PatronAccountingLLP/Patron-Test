@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-literary-work/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-for-literary-work-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Literary Work in Pune - Book & Software">
     <meta name="twitter:description" content="Register copyright for literary work in Pune. Books, software, databases, research papers, blogs, manuscripts. Section 2(o) coverage. CA-assisted. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-for-literary-work-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

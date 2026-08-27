@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gstr-9c-reconciliation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-9c-reconciliation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTR-9C in 2026: GST Reconciliation | Patron Accounting">
     <meta name="twitter:description" content="GSTR-9C is the self-certified GST reconciliation for turnover above Rs 5 crore under Section 44 CGST Act. Starting Rs 9,999. Due 31 December.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gstr-9c-reconciliation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

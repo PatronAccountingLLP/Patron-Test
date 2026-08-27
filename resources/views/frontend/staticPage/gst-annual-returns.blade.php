@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-annual-returns">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-annual-returns-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Annual Return Filing - GSTR-9, GSTR-9C & Due Date">
     <meta name="twitter:description" content="File GST annual returns GSTR-9 and GSTR-9C with expert CA assistance. Starts at Rs 2,999. Reconciliation, ITC verification, and on-time filing for FY 2025-26.">
-    <meta name="twitter:image" content="/images/gst-annual-returns-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

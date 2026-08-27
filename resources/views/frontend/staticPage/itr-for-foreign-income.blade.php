@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-foreign-income/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-foreign-income-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Foreign Income ITR 2026: Sec 5, DTAA, FA | Patron Accounting">
     <meta name="twitter:description" content="ITR for resident Indians earning abroad. Schedule FA, DTAA Form 67, Black Money Act. Starts at Rs 6,499.">
-    <meta name="twitter:image" content="/images/itr-for-foreign-income-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-perquisite-tax-section-17-2-vi/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-perquisite-tax-section-17-2-vi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Perquisite Tax: 17(2)(vi) FMV Computation | Patron Accounting">
     <meta name="twitter:description" content="From BKC to Powai, get your listed or foreign-parent ESOP perquisite under Section 17(2)(vi) computed and TDS-aligned by experts, starting at INR 9,999.">
-    <meta name="twitter:image" content="/images/esop-perquisite-tax-section-17-2-vi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

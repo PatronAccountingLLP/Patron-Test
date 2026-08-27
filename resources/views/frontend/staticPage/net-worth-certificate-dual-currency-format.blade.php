@@ -21,11 +21,11 @@
     <meta property="og:url" content="/net-worth-certificate-dual-currency-format">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-dual-currency-format-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate Dual-Currency Format 2026 | Patron Accounting">
     <meta name="twitter:description" content="Net worth certificate in dual-currency format (INR plus USD, EUR, GBP, CAD, AUD) for embassies and visas. CA-certified, FBIL rate, UDIN. From INR 2,499.">
-    <meta name="twitter:image" content="/images/net-worth-certificate-dual-currency-format-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

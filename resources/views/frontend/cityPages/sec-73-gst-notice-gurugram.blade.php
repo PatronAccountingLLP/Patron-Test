@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sec-73-gst-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sec-73-gst-notice/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 73 GST Notice Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 73 GST notice in Gurugram? Patron CA team files DRC-06 reply and defends before CGST Gurugram and Haryana SGST. Starting Rs 2,999. Call today.">
-    <meta name="twitter:image" content="/images/sec-73-gst-notice/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

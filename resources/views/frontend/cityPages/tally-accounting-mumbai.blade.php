@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tally-accounting/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tally-accounting/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally Prime Accounting in Mumbai - Setup & Support">
     <meta name="twitter:description" content="CA-led Tally accounting in Mumbai. TallyPrime setup, GST e-invoice, e-way bill, inventory, payroll, GSTR filing, multi-godown for BKC, Andheri, Thane firms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tally-accounting/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

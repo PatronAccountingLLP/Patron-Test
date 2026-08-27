@@ -21,11 +21,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/financial-ratios">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/financial-ratios-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Financial Ratios Analysis 2026 - Patron | Patron Accounting">
     <meta name="twitter:description" content="Financial ratios analysis under Schedule III for Indian companies. Liquidity, solvency, profitability ratios. Dashboards from Rs 25,000.">
-    <meta name="twitter:image" content="/images/financial-ratios-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

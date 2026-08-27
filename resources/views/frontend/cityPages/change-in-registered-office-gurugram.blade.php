@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-in-registered-office/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-registered-office/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Registered Office Change Gurugram - INC-22 & INC-23">
     <meta name="twitter:description" content="CA/CS-assisted registered office change in Gurugram. INC-22, INC-23, within city, inter-state. ROC Haryana Chandigarh. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-in-registered-office/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

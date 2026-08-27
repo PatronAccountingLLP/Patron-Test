@@ -19,11 +19,11 @@
     <meta property="og:url" content="/income-certificate-by-ca/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/income-certificate-by-ca/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Certificate by CA for Visa and Loans 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/income-certificate-by-ca/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -22,11 +22,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/solvency-certificate/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/solvency-certificate-gurugram.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Solvency Certificates for HSVP and NCR Bids">
     <meta name="twitter:description" content="Municipal and infrastructure bids in Gurugram, certified to your deadline.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/solvency-certificate-gurugram.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

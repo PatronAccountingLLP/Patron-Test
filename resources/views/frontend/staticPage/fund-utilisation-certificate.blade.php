@@ -19,11 +19,11 @@
     <meta property="og:url" content="/fund-utilisation-certificate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fund-utilisation-certificate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
     <meta name="twitter:description" content="Fund utilisation certificate by a CA for NGO grants, CSR, tenders, and R and D - funds verified against sanction terms, with UDIN. From INR 3,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/fund-utilisation-certificate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

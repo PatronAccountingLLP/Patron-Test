@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-contribution-change">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-contribution-change-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Contribution Change - Capital Increase, Form 3 & Process">
     <meta name="twitter:description" content="Change LLP contribution with Form LLP-3 on MCA portal. Starting at INR 2,499. Expert CA/CS team. 7-10 day turnaround.">
-    <meta name="twitter:image" content="/images/llp-contribution-change-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

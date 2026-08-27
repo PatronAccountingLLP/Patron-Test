@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-interest-section-56/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-interest-section-56-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Interest Under Section 56 — 6% and 9% Rates">
     <meta name="twitter:description" content="Section 56 GST refund interest 6 percent default and 9 percent appellate. 60-day start. Notification 13/2017-CT. Mandatory per SC plus HC rulings. Rs 8,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-interest-section-56-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

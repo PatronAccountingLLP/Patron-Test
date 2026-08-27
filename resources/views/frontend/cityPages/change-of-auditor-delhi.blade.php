@@ -19,11 +19,11 @@
     <meta property="og:url" content="/change-of-auditor/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-of-auditor-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Change of Auditor Delhi NCR – ADT-1, ADT-3 &amp; Rotation">
     <meta name="twitter:description" content="Change of auditor in Delhi. Resignation ADT-3. Removal S.140 ADT-2. Rotation S.139(2). Non-reappointment. ADT-1 15 days. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-of-auditor-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

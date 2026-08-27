@@ -20,11 +20,11 @@
     <meta property="og:url" content="/posh-compliance-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/posh-compliance-service-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="POSH Compliance in Pune - ICC Formation, Policy & Training">
     <meta name="twitter:description" content="CA-assisted POSH compliance in Pune. ICC formation, POSH policy, annual return to District Officer, Board Report disclosure. For IT, startups, manufacturing. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/posh-compliance-service-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

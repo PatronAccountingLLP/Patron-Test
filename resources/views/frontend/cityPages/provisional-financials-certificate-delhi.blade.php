@@ -19,11 +19,11 @@
     <meta property="og:url" content="/provisional-financials-certificate/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/provisional-financials-certificate-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Provisional Financials Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="Provisional Financials Certificate by a CA with UDIN. Unaudited balance sheet and P and L for bank loans, tenders, and board meetings. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/provisional-financials-certificate-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

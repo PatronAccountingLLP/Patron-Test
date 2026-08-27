@@ -20,11 +20,11 @@
     <meta property="og:url" content="/removal-of-director/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/removal-of-director/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Removal of Director Gurugram - Sec 169, DIR-12 & ROC">
     <meta name="twitter:description" content="CA/CS-assisted director removal in Gurugram. Section 169 removal, resignation, vacation, DIR-12, special notice, co-founder exit. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/removal-of-director/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

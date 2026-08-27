@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/sop-drafting-and-implementation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/sop-drafting-and-implementation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting SOP Drafting and Implementation in India | Patron Accounting">
     <meta name="twitter:description" content="SOPs written from your actual process, then tested against it. Clean books every month, filings on time and no scramble at year end. See our pricing.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/sop-drafting-and-implementation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

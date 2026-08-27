@@ -20,11 +20,11 @@
     <meta property="og:url" content="/odoo-accounting/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/odoo-accounting/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Odoo Accounting in Gurugram - Setup, Training & ERP">
     <meta name="twitter:description" content="CA-supervised Odoo accounting in Gurugram. ERP setup, Indian GST localization, e-invoicing, e-way bill, GSTR filing, ongoing bookkeeping. Serving Cyber City, Udyog Vihar, Manesar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/odoo-accounting/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

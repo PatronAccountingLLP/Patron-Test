@@ -10,13 +10,13 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/nof-calculator">
 <meta property="og:title" content="Check Your NBFC Against the NOF Threshold">
 <meta property="og:description" content="A free calculator that applies the RBI net owned fund formula step by step.">
-<meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/tools-nof-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Check Your NBFC Against the NOF Threshold">
 <meta name="twitter:description" content="A free calculator that applies the RBI net owned fund formula step by step.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/tools-nof-calculator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 

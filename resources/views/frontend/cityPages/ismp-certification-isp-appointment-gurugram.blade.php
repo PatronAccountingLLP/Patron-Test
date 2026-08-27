@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ismp-certification-isp-appointment/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/isp-appointment-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ISP Appointment & IMF Certification: Training, Exam & Rules">
     <meta name="twitter:description" content="Get your ISPs and Principal Officer IMF-certified - 50hr/25hr IRDAI training, Insurance Institute of India exam, and end-to-end ISP appointment from INR 24,999.">
-    <meta name="twitter:image" content="/images/imf-services/isp-appointment-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/networth/net-worth-erosion">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-net-worth-erosion.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Erosion: When Losses Eat the Owners Funds">
     <meta name="twitter:description" content="Erosion triggers that draw the attention of Indian lenders, auditors and insolvency proceedings.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/glossary-networth-net-worth-erosion.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">@include('partials.glossary-inline-assets')
 @endsection
 

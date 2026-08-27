@@ -20,11 +20,11 @@
     <meta property="og:url" content="/80g-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/80g-registration/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="80G Registration in Mumbai - Form 10A & Donor Deduction">
     <meta name="twitter:description" content="CA-assisted 80G registration in Mumbai for trusts, societies, Section 8 companies. Donor tax deduction. 12A bundled. Near PCIT Exemptions. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/80g-registration/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/inventory-accounting-costing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/inventory-accounting-costing-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Inventory Accounting and Costing Services in India | Patron Accounting">
     <meta name="twitter:description" content="Valuation you can defend - lot, batch or weighted average, applied consistently. Less time in the ledger, more time on decisions. Book a consultation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/inventory-accounting-costing-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

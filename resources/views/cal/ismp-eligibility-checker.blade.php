@@ -11,13 +11,13 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/ismp-eligibility-checker">
 <meta property="og:title" content="ISMP Eligibility Checker — IRDAI ISP / IMF Tool 2026">
 <meta property="og:description" content="12-question decision tree for ISP eligibility under IRDAI Insurance Marketing Firm Regulations 2015.">
-<meta property="og:image" content="https://www.patronaccounting.com/og/ismp-eligibility-checker.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ISMP Eligibility Checker — IRDAI ISP / IMF Tool 2026">
 <meta name="twitter:description" content="12-question IRDAI decision tree for ISP eligibility, ISMP training, fit-and-proper.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/og/ismp-eligibility-checker.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

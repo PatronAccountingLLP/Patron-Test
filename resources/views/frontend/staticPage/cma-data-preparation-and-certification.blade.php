@@ -19,11 +19,11 @@
     <meta property="og:url" content="/cma-data-preparation-and-certification">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/cma-data-preparation-and-certification-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CMA Data Preparation Certification 2026 | Patron Accounting">
     <meta name="twitter:description" content="CMA data preparation and certification - CA-led IBA-format report with MPBF, ratio analysis, and multi-year projections for bank loans. From INR 9,999.">
-    <meta name="twitter:image" content="/images/cma-data-preparation-and-certification-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

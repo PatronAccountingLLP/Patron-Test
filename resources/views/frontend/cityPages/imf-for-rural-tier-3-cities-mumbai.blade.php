@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-rural-tier-3-cities/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf/rural-tier-3-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Rural &amp; Tier-3 Cities in Mumbai">
     <meta name="twitter:description" content="Set up an Insurance Marketing Firm from Mumbai for a Tier-3 city or aspirational district with net worth as low as INR 5 lakh. Eligibility, cost &amp; process explained.">
-    <meta name="twitter:image" content="/images/imf/rural-tier-3-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

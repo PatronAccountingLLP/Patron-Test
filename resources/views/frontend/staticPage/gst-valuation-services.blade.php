@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-valuation-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-valuation-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Valuation Services 2026: Section 15 | Patron Accounting">
     <meta name="twitter:description" content="Expert GST valuation under Section 15 and Rules 27 to 35 for related-party, barter, free supplies, and discount cases by CA/CS. Starting from INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-valuation-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

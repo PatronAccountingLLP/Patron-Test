@@ -20,11 +20,11 @@
     <meta property="og:url" content="/statutory-audit-for-real-estate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-for-real-estate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Statutory Audit for Real Estate 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led statutory audit for real estate developers and construction firms - Ind AS 115 revenue, RERA escrow, JDA, project-wise P and L. From Rs 1,25,000.">
-    <meta name="twitter:image" content="/images/statutory-audit-for-real-estate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

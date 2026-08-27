@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-sh-6-register-administration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-sh-6-register-administration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Form SH-6 Register Administration 2026: ESOP Compliance | Patron Accounting">
     <meta name="twitter:description" content="Form SH-6 is the mandatory ESOP register under Rule 12(10), maintained at the registered office on every grant and exercise. Expert upkeep from Rs 9,999/year.">
-    <meta name="twitter:image" content="/images/esop-sh-6-register-administration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

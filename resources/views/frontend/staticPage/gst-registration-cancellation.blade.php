@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-registration-cancellation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-registration-cancellation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Registration Cancellation 2026 Guide | Patron Accounting">
     <meta name="twitter:description" content="Cancel GST registration via Form REG-16 and file final return GSTR-10 within 3 months. Stops late fee accrual on inactive GSTINs. Starting at Rs 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-registration-cancellation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

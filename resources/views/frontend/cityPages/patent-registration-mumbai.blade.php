@@ -20,11 +20,11 @@
     <meta property="og:url" content="/patent-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/patent-registration-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Patent Registration in Mumbai - Filing, Fees & Exam">
     <meta name="twitter:description" content="Patent registration in Mumbai. Patents Act 1970, provisional + complete specification, Patent Office Mumbai, FER response, startup expedited exam, 20-year term. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/patent-registration-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

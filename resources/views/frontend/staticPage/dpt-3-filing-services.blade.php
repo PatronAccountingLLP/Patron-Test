@@ -20,11 +20,11 @@
     <meta property="og:url" content="/dpt-3-filing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/dpt-3-filing-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DPT-3 Filing Services 2026 | Patron Accounting">
     <meta name="twitter:description" content="DPT-3 return of deposits filing under Rule 16. Due 30 June 2026. Mandatory for all companies (even nil deposit). From Rs 3,000 standalone or Rs 35,000 bundled.">
-    <meta name="twitter:image" content="/images/dpt-3-filing-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

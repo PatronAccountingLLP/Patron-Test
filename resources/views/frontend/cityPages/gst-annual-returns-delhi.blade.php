@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-annual-returns/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-annual-returns-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Annual Return in Delhi – GSTR-9, GSTR-9C &amp; Due Date">
     <meta name="twitter:description" content="GST annual return filing in Delhi. GSTR-9 by 31 Dec (>Rs 2 cr). GSTR-9C reconciliation (>Rs 5 cr). Self-certified. Patron +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-annual-returns-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

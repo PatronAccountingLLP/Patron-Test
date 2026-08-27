@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-influencers/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-influencers/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Influencers Mumbai - Brand Deals, TDS 194R & GST">
     <meta name="twitter:description" content="CA-assisted ITR filing for influencers in Mumbai. Brand deals, AdSense, freebies TDS, profession code 16021, GST. Bandra, Andheri, Film City. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-influencers/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

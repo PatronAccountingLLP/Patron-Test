@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-restaurants/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-restaurants-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Restaurant Business 2026: 269ST, 9(5) | Patron Accounting">
     <meta name="twitter:description" content="File ITR for restaurants, cafes and cloud kitchens. GST composition, Sec 269ST cash, kitchen depreciation, audit. Starts at Rs 7,500.">
-    <meta name="twitter:image" content="/images/itr-for-restaurants-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

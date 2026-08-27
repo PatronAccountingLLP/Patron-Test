@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-for-sez-units/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-for-sez-units-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund for SEZ Units and DTA Suppliers in India">
     <meta name="twitter:description" content="GST refund for SEZ units and DTA suppliers via zero-rated supply under Section 16 IGST Act and Rule 89 — monthly cycle, CA-led. Starts at Rs 11,999.">
-    <meta name="twitter:image" content="/images/gst-refund-for-sez-units-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

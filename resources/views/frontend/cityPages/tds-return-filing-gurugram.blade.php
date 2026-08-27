@@ -21,11 +21,11 @@
     <meta property="og:url" content="/tds-return-filing/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tds-return-filing-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS Return Filing 24Q Gurugram - Salary TDS & Form 16">
     <meta name="twitter:description" content="TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tds-return-filing-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

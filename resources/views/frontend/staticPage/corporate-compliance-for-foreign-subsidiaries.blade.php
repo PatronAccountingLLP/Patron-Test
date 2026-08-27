@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-foreign-subsidiaries">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-foreign-subsidiaries-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for Foreign Subsidiaries 2026 | Patron Accounting">
     <meta name="twitter:description" content="Compliance for an Indian subsidiary of a foreign parent, the ROC filings plus the FEMA overlay, FC-GPR and the FLA return, managed end to end. From INR 19,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-foreign-subsidiaries-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

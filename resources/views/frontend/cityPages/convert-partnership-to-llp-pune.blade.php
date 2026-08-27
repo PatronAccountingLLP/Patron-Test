@@ -21,11 +21,11 @@
     <meta property="og:url" content="/convert-partnership-to-llp/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/partnership-to-llp/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Partnership to LLP in Pune – Form 17 &amp; FiLLiP">
     <meta name="twitter:description" content="CA/CS-assisted partnership to LLP conversion in Pune. Section 55, Form 17, FiLLiP, tax-neutral transfer, LLP agreement, Form 14. ROC Pune + Registrar of Firms. Serving Pimpri-Chinchwad, Baner firms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/partnership-to-llp/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

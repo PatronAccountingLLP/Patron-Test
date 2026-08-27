@@ -20,11 +20,11 @@
     <meta property="og:url" content="/removal-of-director/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/removal-of-director/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Removal of Director in Pune - Section 169, DIR-12 & ROC">
     <meta name="twitter:description" content="CA/CS-assisted director removal in Pune. Section 169 ordinary resolution, special notice, Form DIR-12, vacation of office, EGM filing, replacement director. Serving Hinjewadi, Kharadi companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/removal-of-director/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -9,14 +9,14 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-penalty-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-gst-penalty-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Penalty Calculator &mdash; Late Fee &amp; Interest 2026">
     <meta name="twitter:description" content="Calculate GST late fee and interest for delayed filings. Free online tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og-gst-penalty-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -8,7 +8,7 @@
     <meta property="og:description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
     <meta property="og:url" content="/gst-services">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/gst-services-og.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting LLP">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Services - Registration, Returns, ITC, Refunds & Audits | Patron LLP">
     <meta name="twitter:description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/gst-services-og.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:site" content="@patronaccounting">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 @endsection

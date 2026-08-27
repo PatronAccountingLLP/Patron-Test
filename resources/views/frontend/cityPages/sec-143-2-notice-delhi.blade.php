@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sec-143-2-notice/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sec-143-2-notice/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 143(2) Notice Delhi 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 143(2) scrutiny notice in Delhi? Patron CA team files e-Proceedings reply via NaFAC and defends your case before 143(3) order. Starting Rs 4,999.">
-    <meta name="twitter:image" content="/images/sec-143-2-notice/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

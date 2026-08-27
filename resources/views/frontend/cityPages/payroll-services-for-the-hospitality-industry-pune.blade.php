@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-the-hospitality-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-the-hospitality-industry-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hotel & Restaurant Payroll in Pune - Tips, PF, ESI & TDS">
     <meta name="twitter:description" content="CA-managed payroll for hotels and restaurants in Pune. Shift wages, TDS, EPF, ESIC - all handled. Serving Koregaon Park, Viman Nagar, Camp properties. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-the-hospitality-industry-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

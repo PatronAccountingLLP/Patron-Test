@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-construction-firms/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-construction-firms-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Construction Firms 2026: 43CB, 194C | Patron Accounting">
     <meta name="twitter:description" content="File ITR for construction contractors, sub-contractors. Sec 43CB POCM, Sec 194C TDS, Sec 44AD vs 44ADA, labour cash. Starts at Rs 9,500.">
-    <meta name="twitter:image" content="/images/itr-for-construction-firms-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

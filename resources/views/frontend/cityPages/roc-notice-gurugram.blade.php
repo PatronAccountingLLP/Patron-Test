@@ -21,11 +21,11 @@
     <meta property="og:url" content="/roc-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/roc-notice-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ROC Compliance Filing Gurugram - AOC-4 & MGT-7">
     <meta name="twitter:description" content="ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/roc-notice-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

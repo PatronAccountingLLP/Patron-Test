@@ -11,14 +11,14 @@
     <meta property="og:description" content="Decision wizard for ITR-1 to ITR-7 selection for FY 2025-26 (AY 2026-27) — covers individuals, HUF, firms, companies, trusts with reasoning and alternatives.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/itr-form-selector">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/itr-form-selector.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Form Selector — Pick the Right ITR Form FY 2025-26">
     <meta name="twitter:description" content="7-step wizard picks the right ITR form (1 to 7) for FY 2025-26 with reasoning and alternatives.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/itr-form-selector.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/egm-extraordinary-general-meeting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/egm-extraordinary-general-meeting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EGM Convening and Compliance Section 100 2026 | Patron Accounting">
     <meta name="twitter:description" content="Convene an extraordinary general meeting under Section 100: 21-day notice, explanatory statement, proxies, voting and minutes. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/egm-extraordinary-general-meeting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

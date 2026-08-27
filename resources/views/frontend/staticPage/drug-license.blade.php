@@ -19,11 +19,11 @@
     <meta property="og:url" content="/drug-license">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/drug-license-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Drug License in India - Types, Process & CDSCO Application">
     <meta name="twitter:description" content="Apply for drug license under the Drugs and Cosmetics Act, 1940. Retail (Form 20/21), Wholesale (Form 20B/21B), Manufacturing. Fees from Rs 1,500. Valid perpetually.">
-    <meta name="twitter:image" content="/images/drug-license-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

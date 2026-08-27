@@ -21,11 +21,11 @@
     <meta property="og:url" content="/trademark-hearing/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-hearing-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Hearing Gurugram - Process, Prep & Order Copy">
     <meta name="twitter:description" content="Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-hearing-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

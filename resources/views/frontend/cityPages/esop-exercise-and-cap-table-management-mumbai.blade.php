@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-exercise-and-cap-table-management/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Exercise & Cap Table Filing with PAS-3 | Patron Accounting">
     <meta name="twitter:description" content="End-to-end ESOP exercise and cap table upkeep for Mumbai startups from BKC to Powai, with FMV reports and PAS-3 at RoC Mumbai. Fixed fee INR 14,999/yr.">
-    <meta name="twitter:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

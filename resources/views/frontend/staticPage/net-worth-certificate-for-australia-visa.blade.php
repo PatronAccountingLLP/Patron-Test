@@ -20,11 +20,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-australia-visa">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-for-australia-visa-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate for Australia Visa 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-certified Net Worth Certificate for Australia Visa (Subclass 500, 600) in INR plus AUD with UDIN. From INR 1,999. 24-hour delivery PAN India.">
-    <meta name="twitter:image" content="/images/net-worth-certificate-for-australia-visa-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

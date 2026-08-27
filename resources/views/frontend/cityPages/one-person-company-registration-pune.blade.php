@@ -20,11 +20,11 @@
     <meta property="og:url" content="/one-person-company-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/one-person-company-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="OPC (One Person Company) Registration in Pune - Fees">
     <meta name="twitter:description" content="CA-assisted OPC registration in Pune. SPICe+ filing, nominee setup, statutory audit, GST, ITR - all handled. Serving Hinjewadi, Kharadi, Baner founders. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/one-person-company-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/double-currency-networth/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/double-currency-networth-certificate/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Double Currency Net Worth Certificate Mumbai – INR/USD">
     <meta name="twitter:description" content="CA-issued double currency net worth certificate in Mumbai with UDIN. INR + USD/CAD/GBP/EUR/AUD at RBI rate. Same-day from Marine Lines office. Visa, SEBI, NBFC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/double-currency-networth-certificate/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-sez-supplies/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-sez-supplies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund on SEZ Supplies — Section 16 IGST and Rule 89">
     <meta name="twitter:description" content="Claim GST refund on SEZ supplies under Section 16 IGST + Rule 89(2)(f). Specified officer endorsement via DSPF. Authorised operations focus. Rs 8,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-sez-supplies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

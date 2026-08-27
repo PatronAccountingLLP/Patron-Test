@@ -20,11 +20,11 @@
     <meta property="og:url" content="/rights-issue-of-shares-section-62-1-a">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/rights-issue-of-shares-section-62-1-a-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Rights Issue of Shares Section 62 in 2026 | Patron Accounting">
     <meta name="twitter:description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/rights-issue-of-shares-section-62-1-a-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

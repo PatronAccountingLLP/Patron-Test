@@ -21,11 +21,11 @@
     <meta property="og:url" content="/private-limited-company-compliance/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/private-limited-company-compliance/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Compliance in Pune – AOC-4, MGT-7 &amp; Due Dates">
     <meta name="twitter:description" content="CA and CS managed Pvt Ltd company compliance in Pune. AGM, AOC-4, MGT-7, statutory audit, board meetings, DIR-3 KYC, GST, IT returns, PT. Annual calendar with deadlines. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/private-limited-company-compliance/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

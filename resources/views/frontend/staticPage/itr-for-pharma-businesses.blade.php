@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-pharma-businesses/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-pharma-businesses-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Pharma Business 2026: 35(2AB), 54(3) | Patron Accounting">
     <meta name="twitter:description" content="File ITR for pharma manufacturers, traders and chemists. R and D deduction, inverted duty refund, CDSCO costs, audit. Starts at Rs 7,500.">
-    <meta name="twitter:image" content="/images/itr-for-pharma-businesses-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

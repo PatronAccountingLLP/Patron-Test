@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-appeal-filing/surat">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-appeal-filing/surat-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Appeal Filing in Surat 2026 | Patron Accounting">
     <meta name="twitter:description" content="File your GSTAT appeal at the Surat bench covering 9 South Gujarat districts and UT of Dadra Nagar Haveli Daman Diu. Patron's CA team and of-counsel specialists handle proceedings.">
-    <meta name="twitter:image" content="/images/gstat-appeal-filing/surat-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

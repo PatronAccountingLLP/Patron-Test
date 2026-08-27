@@ -21,11 +21,11 @@
     <meta property="og:url" content="/trademark-opposition">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-opposition-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Opposition in India - Process, TM-O & Timeline">
     <meta name="twitter:description" content="Trademark opposition is a legal challenge under Section 21 of the Trade Marks Act, 1999. File or defend via Form TM-O. Govt fee Rs 2,700 per class.">
-    <meta name="twitter:image" content="/images/trademark-opposition-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

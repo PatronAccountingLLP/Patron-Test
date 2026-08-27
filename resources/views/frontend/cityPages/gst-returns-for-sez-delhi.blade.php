@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns-for-sez/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-for-sez-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST for SEZ Units in Delhi – Zero-Rated, LUT &amp; Refund">
     <meta name="twitter:description" content="GST returns for SEZ in Delhi. Zero-rated supply. LUT or IGST route. ITC refund RFD-01. 90% provisional. Endorsed invoice. Patron +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-for-sez-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

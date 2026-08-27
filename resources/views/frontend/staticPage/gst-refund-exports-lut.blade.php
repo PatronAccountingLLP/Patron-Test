@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-exports-lut/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-exports-lut-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund on Exports Under LUT — Rule 96A & Rule 89">
     <meta name="twitter:description" content="Claim GST refund on LUT exports under Rule 96A and Rule 89. Form RFD-11, BRC/FIRC, RFD-01 filing for IT services and goods exporters. From Rs 8,000.">
-    <meta name="twitter:image" content="/images/gst-refund-exports-lut-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

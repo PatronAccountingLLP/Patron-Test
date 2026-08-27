@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-founders-and-promoters/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Founder ESOP &amp; SEBI Reg 9A for IPO-Bound Cos | Patron Accounting">
     <meta name="twitter:description" content="Planning a Mumbai listing from BKC or Powai? We structure founder ESOPs around the Rule 12 bar and SEBI Regulation 9A, near the SEBI HQ. From INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

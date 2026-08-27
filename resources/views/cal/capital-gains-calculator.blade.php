@@ -9,14 +9,14 @@
     <meta property="og:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5% above ₹1.25L, property grandfathering option. Free tool for FY 2025-26.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/capital-gains-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/capital-gains-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Capital Gains Tax Calculator — STCG & LTCG FY 2025-26">
     <meta name="twitter:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5%, property grandfathering option.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/capital-gains-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">

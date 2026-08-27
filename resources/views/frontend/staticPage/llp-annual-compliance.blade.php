@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-annual-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-annual-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Annual Compliance 2026 | Patron Accounting">
     <meta name="twitter:description" content="LLP annual compliance package for FY 2025-26 in India. Form 11, Form 8, audit (if applicable), DIR-3 KYC, ITR-5 bundled. Fixed fee Rs 25,000.">
-    <meta name="twitter:image" content="/images/llp-annual-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

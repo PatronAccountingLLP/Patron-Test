@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-grant-letter-and-employee-communication-templates">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-grant-letter-and-employee-communication-templates-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Grant Letter and Template Pack 2026 | Patron Accounting">
     <meta name="twitter:description" content="Get CA-attested ESOP grant letter templates, an employee communication pack, an ESOP FAQ and a vesting tracker, compliant and ready to use. From Rs 9,999.">
-    <meta name="twitter:image" content="/images/esop-grant-letter-and-employee-communication-templates-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

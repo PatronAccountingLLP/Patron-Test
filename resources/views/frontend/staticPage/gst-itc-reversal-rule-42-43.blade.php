@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-itc-reversal-rule-42-43">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-itc-reversal-rule-42-43-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Rule 42 and 43 ITC Reversal 2026 | Patron Accounting">
     <meta name="twitter:description" content="Rule 42 and Rule 43 CGST Rules reverse ITC on common credit for taxable plus exempt supplies under Section 17(1) and 17(2). Patron from Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-itc-reversal-rule-42-43-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

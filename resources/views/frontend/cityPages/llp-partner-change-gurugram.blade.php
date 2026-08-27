@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-partner-change/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-partner-change/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Partner Change Gurugram - Form 3, Form 4 & ROC">
     <meta name="twitter:description" content="CA/CS-assisted LLP partner change in Gurugram. Add, remove, designated partner, Form 4, DPIN, consent, NRI partner, ROC Haryana. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-partner-change/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

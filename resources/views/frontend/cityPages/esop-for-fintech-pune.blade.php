@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-fintech/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-fintech-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Fintech ESOP Design: RBI NBFC Compensation Rules | Patron Accounting">
     <meta name="twitter:description" content="Plan ESOPs for your Pune fintech in Hinjewadi or Kharadi with RBI-aligned NBFC compensation policy and timely RoC Pune filings, starting at INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-fintech-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/healthcare-sector-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/healthcare-sector-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting for Hospitals and Healthcare, CA Managed | Patron Accounting">
     <meta name="twitter:description" content="TPA receivables aged by payer - not one undifferentiated debtors figure. Clean books every month, without adding headcount. Get a compliance review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/healthcare-sector-accounting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-processing-and-management-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-processing-and-management-services-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Processing & Management in Pune - PF, ESI & TDS">
     <meta name="twitter:description" content="CA-managed payroll processing in Pune. Salary, TDS, EPF, ESIC, PT, LWF - end-to-end. Serving Hinjewadi, Kharadi, Chakan businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-processing-and-management-services-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

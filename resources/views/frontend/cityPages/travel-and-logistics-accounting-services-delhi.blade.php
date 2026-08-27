@@ -20,11 +20,11 @@
     <meta property="og:url" content="/travel-and-logistics-accounting-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/travel-and-logistics-accounting-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Travel & Logistics Accounting in Delhi - Freight & GST">
     <meta name="twitter:description" content="CA-assisted accounting for logistics and transport companies in Delhi. E-way bill compliance, fleet tracking, freight GST, and TDS. Serving Okhla, Narela, Bawana. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/travel-and-logistics-accounting-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

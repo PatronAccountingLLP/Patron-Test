@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-due-diligence-prep-for-funding-and-ma/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-due-diligence-prep-for-funding-and-ma-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP M&A Diligence Prep in Mumbai: SEBI-Ready Records | Patron Accounting">
     <meta name="twitter:description" content="A BKC or Powai investor opening diligence? We build a clean, SEBI-aware ESOP data room in Mumbai with MGT-14, PAS-3 and valuation history for INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-due-diligence-prep-for-funding-and-ma-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-artistic-work/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-artistic-work-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Artistic Work Mumbai - Logos & Paintings">
     <meta name="twitter:description" content="Copyright for artistic work in Mumbai. Logos, paintings, photographs, drawings, sculptures, architecture. S.2(c), Form XIV, TM-C certificate, S.15 design overlap. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-artistic-work-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

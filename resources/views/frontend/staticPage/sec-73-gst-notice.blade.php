@@ -19,11 +19,11 @@
     <meta property="og:url" content="/sec-73-gst-notice">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/sec-73-gst-notice-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 73 GST Notice 2026: DRC-01 SCN | Patron Accounting">
     <meta name="twitter:description" content="Section 73 CGST Act SCN reply - non-fraud demand, 3-year limitation, DRC-01, DRC-03, DRC-06, 10% penalty cap. Patron from Rs 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/sec-73-gst-notice-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

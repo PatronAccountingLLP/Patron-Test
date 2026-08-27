@@ -20,11 +20,11 @@
     <meta property="og:url" content="/asmt-10-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/asmt-10-notice/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ASMT-10 Gurugram 2026: ASMT-11 Reply | Patron Accounting">
     <meta name="twitter:description" content="ASMT-10 GST scrutiny notice in Gurugram? Patron's CA team files ASMT-11 reply in 30 days and closes via ASMT-12. Starting Rs 2,499. Call today.">
-    <meta name="twitter:image" content="/images/asmt-10-notice/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-crypto-traders">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-crypto-traders-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Crypto Income - Section 115BBH, Schedule VDA & 30%">
     <meta name="twitter:description" content="File ITR for crypto traders in India. 30% VDA tax under Section 115BBH, 1% TDS under Section 194S. CA-assisted Schedule VDA filing from Rs. 1,499.">
-    <meta name="twitter:image" content="/images/itr-for-crypto-traders-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

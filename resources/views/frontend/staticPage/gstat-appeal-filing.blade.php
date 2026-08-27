@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-appeal-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-appeal-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Appeal Filing Services in India | Patron">
     <meta name="twitter:description" content="File your GSTAT appeal under Section 112 CGST Act within 3 months. 10% pre-deposit capped at Rs 20 crore. Expert representation by Patron Accounting.">
-    <meta name="twitter:image" content="/images/gstat-appeal-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

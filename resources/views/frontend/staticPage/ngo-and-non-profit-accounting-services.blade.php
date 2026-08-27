@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/ngo-and-non-profit-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO Accounting Services in India: Monthly CA Support | Patron Accounting">
     <meta name="twitter:description" content="Grant-wise books with every donor restriction tracked to its condition. Fewer queries from your auditor, and a faster sign-off. Compare your options.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/ngo-and-non-profit-accounting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pf-return">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pf-return-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PF Return Filing Online - ECR, Process & Monthly Due Date">
     <meta name="twitter:description" content="File monthly PF returns via ECR on EPFO portal. EPF, EPS, EDLI contributions at 12%. Expert compliance services from Rs 1,499 per month. Avoid Section 14B penalties.">
-    <meta name="twitter:image" content="/images/pf-return-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/fund-utilisation-certificate/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/fund-utilisation-certificate-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fund Utilisation Certificate 2026: CA UC Format | Patron Accounting">
     <meta name="twitter:description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/fund-utilisation-certificate-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

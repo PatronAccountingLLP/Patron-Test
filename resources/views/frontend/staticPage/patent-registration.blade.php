@@ -20,11 +20,11 @@
     <meta property="og:url" content="/patent-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/patent-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Patent Registration in India - Filing, Fees & Examination">
     <meta name="twitter:description" content="File your patent application under the Patents Act, 1970. Government fees from Rs 1,600 for individuals/startups. 20-year protection. Expert drafting and prosecution by CA/CS team.">
-    <meta name="twitter:image" content="/images/patent-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

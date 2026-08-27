@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-flip-structures/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Scheme Design for Delaware-Flipped Startups | Patron Accounting">
     <meta name="twitter:description" content="Get MCA-compliant ESOP design and reverse-flip migration for Delhi founders flipped to Delaware or Cayman, covering FEMA and US 409A, from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

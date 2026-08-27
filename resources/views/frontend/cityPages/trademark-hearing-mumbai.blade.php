@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-hearing/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-hearing-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Hearing in Mumbai - Process, Preparation & Order">
     <meta name="twitter:description" content="Trademark hearing in Mumbai. Show cause hearing, TLA Hearing Board, S.9/S.11 arguments, evidence, VC/physical hearing at Antop Hill. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-hearing-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

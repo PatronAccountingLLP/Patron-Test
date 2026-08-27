@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-policy-drafting-and-scheme-document/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-policy-drafting-and-scheme-document-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Scheme & Policy Drafting, RoC Delhi Ready | Patron Accounting">
     <meta name="twitter:description" content="Get your Delhi ESOP scheme and policy drafted near Nehru Place and Connaught Place, MCA and Rule 12 compliant, RoC Delhi ready, attested from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-policy-drafting-and-scheme-document-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

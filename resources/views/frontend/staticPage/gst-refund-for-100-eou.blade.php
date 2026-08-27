@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-for-100-eou/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-for-100-eou-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund for 100% Export Oriented Units in India">
     <meta name="twitter:description" content="GST refund for 100% EOUs — covers LUT exports without IGST, inverted duty refunds on DTA sales, and deemed export refunds. CA-led. Starts at Rs 12,999.">
-    <meta name="twitter:image" content="/images/gst-refund-for-100-eou-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

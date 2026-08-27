@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-at-down-round-and-repricing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-down-round-and-repricing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP at a Down Round 2026: Repricing and Fixes | Patron Accounting">
     <meta name="twitter:description" content="What a down round does to your ESOP: anti-dilution on preference shares, underwater options, repricing and re-grants, structured in India. From Rs 49,999.">
-    <meta name="twitter:image" content="/images/esop-at-down-round-and-repricing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/travel-and-logistics-accounting-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-logistics-and-transport/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Travel & Logistics Accounting in Gurugram - Freight & GST">
     <meta name="twitter:description" content="CA-led accounting for logistics and transport in Gurugram. GTA GST, RCM, e-way bill, fleet management, warehousing. Serving Bilaspur, Manesar, NH-48 corridor. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-logistics-and-transport/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

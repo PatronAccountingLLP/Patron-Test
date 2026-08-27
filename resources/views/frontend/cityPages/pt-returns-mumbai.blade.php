@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pt-returns/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pt-returns-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Tax Return in Mumbai - Filing & Slabs">
     <meta name="twitter:description" content="CA-assisted professional tax return filing in Mumbai. PTRC monthly/annual returns, PTEC compliance, Maharashtra PT slab. Serving BKC, Powai, MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pt-returns-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

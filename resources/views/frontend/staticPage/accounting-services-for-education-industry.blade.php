@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-education-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting Services for Schools and Colleges in India | Patron Accounting">
     <meta name="twitter:description" content="Fund-based books - fees, grants and corpus never mixed in one pot. Reduce compliance risk and know your numbers before month end. Get a fixed quote.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

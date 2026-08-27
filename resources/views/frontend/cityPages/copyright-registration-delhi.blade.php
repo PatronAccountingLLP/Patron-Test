@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Registration in Delhi - Form XIV, Fees & Process">
     <meta name="twitter:description" content="CA-assisted Copyright Registration in Delhi. Books, software, logos, music, films from Rs 500. Serving Nehru Place, Saket. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

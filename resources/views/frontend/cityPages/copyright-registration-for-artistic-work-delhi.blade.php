@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-artistic-work/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-for-artistic-work/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Artistic Work in Delhi - Logos & Paintings">
     <meta name="twitter:description" content="CA-assisted Copyright for Artistic Work in Delhi. Paintings, photos, logos, designs. No quality test. TM-60 for logos. Rs 500. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-for-artistic-work/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

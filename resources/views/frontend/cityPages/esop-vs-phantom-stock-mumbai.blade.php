@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-phantom-stock/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-phantom-stock-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP vs Phantom Stock: Pick the Right Plan Now | Patron Accounting">
     <meta name="twitter:description" content="BKC finance and Powai SaaS founders: weigh real-share ESOPs against cash-settled phantom stock on dilution and tax. Free Mumbai comparison guide inside.">
-    <meta name="twitter:image" content="/images/esop-vs-phantom-stock-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

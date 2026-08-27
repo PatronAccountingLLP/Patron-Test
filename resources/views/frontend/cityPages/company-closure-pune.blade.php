@@ -21,11 +21,11 @@
     <meta property="og:url" content="/company-closure/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-closure/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Closure in Pune – Strike Off, STK-2 &amp; Winding Up">
     <meta name="twitter:description" content="CA and CS assisted company closure in Pune. Strike off Section 248, STK-2 via C-PACE, voluntary winding up, dormant status. Pre-closure GST/IT compliance. Director DQ protection. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/company-closure/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

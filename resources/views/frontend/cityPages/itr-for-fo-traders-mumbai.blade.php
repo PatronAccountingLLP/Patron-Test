@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-fo-traders/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-fo-traders/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for F&O Traders in Mumbai - ITR-3 & Turnover Audit">
     <meta name="twitter:description" content="CA-assisted F&amp;O trading ITR filing in Mumbai. Turnover computation, tax audit, ITR-3, loss carry-forward, slab rates. BSE/NSE traders. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-fo-traders/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

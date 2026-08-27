@@ -21,11 +21,11 @@
     <meta property="og:url" content="/posh-compliance-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/posh-compliance-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="POSH Compliance Services - ICC Formation, Policy & Training">
     <meta name="twitter:description" content="Full POSH Act compliance - IC constitution, POSH policy drafting, employee training, annual reporting, Board Report disclosures. Penalty up to Rs 50,000 + licence cancellation.">
-    <meta name="twitter:image" content="/images/posh-compliance-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

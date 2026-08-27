@@ -19,11 +19,11 @@
     <meta property="og:url" content="/foreign-remittance-certificate-15ca-15cb/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/foreign-remittance-certificate-15ca-15cb/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="15CA 15CB Foreign Remittance Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA 15CB certificate and 15CA filing for foreign remittance in Pune (now Form 146 and 145). Section 195 and DTAA compliant. From INR 2,499 per remittance.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/foreign-remittance-certificate-15ca-15cb/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

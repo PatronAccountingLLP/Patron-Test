@@ -20,11 +20,11 @@
     <meta property="og:url" content="/80g-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-registration/80g-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="80G Registration in Delhi - Form 10A & Donor Deduction">
     <meta name="twitter:description" content="CA-assisted 80G registration in Delhi for NGOs. Donor tax deduction certificate via Form 10A. Serving ITO, Civil Lines, Saket NGOs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ngo-registration/80g-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

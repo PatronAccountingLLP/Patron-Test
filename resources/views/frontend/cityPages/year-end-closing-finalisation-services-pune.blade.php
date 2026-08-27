@@ -20,11 +20,11 @@
     <meta property="og:url" content="/year-end-closing-finalisation-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/year-end-closing-finalisation-services/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Year-End Closing in Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Year-end book closing and finalisation in Pune from INR 14,999/yr. CA-led closing entries, depreciation, and audit-ready 31 March FY close.">
-    <meta name="twitter:image" content="/images/year-end-closing-finalisation-services/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

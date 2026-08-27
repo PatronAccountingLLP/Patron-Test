@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-appeal-filing/jalandhar">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-appeal-filing/jalandhar-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Appeal Filing in Jalandhar 2026 | Patron Accounting">
     <meta name="twitter:description" content="File your GSTAT appeal at the Jalandhar bench covering 6 northern Punjab districts including Amritsar, Pathankot, and Hoshiarpur. CA team handles proceedings end-to-end.">
-    <meta name="twitter:image" content="/images/gstat-appeal-filing/jalandhar-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

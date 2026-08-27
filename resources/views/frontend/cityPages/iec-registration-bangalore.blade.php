@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IEC Registration in Bangalore – DGFT Process, Fees &amp; Export"><meta property="og:description" content="IEC Bangalore. Import Export Code. DGFT. Rs 500. 1-3 days. Call +91 945 945 6700.">
     <meta property="og:url" content="/iec-registration/bangalore"><meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iec-registration-og.webp"><meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')
     <script type="application/ld+json">

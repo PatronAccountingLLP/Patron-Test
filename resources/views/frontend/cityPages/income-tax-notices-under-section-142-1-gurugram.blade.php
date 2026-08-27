@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-142-1/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-notice-142/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT Notice u/s 142(1) Gurugram - Inquiry & Reply">
     <meta name="twitter:description" content="CA-assisted response to income tax notice Section 142(1) in Gurugram. Inquiry, documents, penalty avoidance, e-Proceedings, AIS mismatch, capital gains. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/it-notice-142/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

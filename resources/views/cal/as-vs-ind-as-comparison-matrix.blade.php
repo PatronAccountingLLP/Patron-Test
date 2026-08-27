@@ -12,13 +12,13 @@
     <meta property="og:description" content="30 Indian GAAP (AS) vs Ind AS standards mapped with key differences. Searchable matrix. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/as-vs-ind-as-comparison-matrix">
-    <meta property="og:image" content="/tools/og/as-vs-ind-as-comparison-matrix.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AS vs Ind AS Comparison Matrix — FY 2025-26">
     <meta name="twitter:description" content="30 standards mapped with key differences. Searchable, filterable. Free CA-reviewed reference tool.">
-    <meta name="twitter:image" content="/tools/og/as-vs-ind-as-comparison-matrix.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 @endsection

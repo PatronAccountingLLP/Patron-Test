@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-central-license/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-central-license-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Central License in Mumbai - Eligibility & Fees">
     <meta name="twitter:description" content="FSSAI central license in Mumbai. Turnover above Rs 50 crore (2026 threshold), importers, exporters, multi-state FBOs. Perpetual validity. FoSCoS Form B. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-central-license-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

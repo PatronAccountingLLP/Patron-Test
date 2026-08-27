@@ -11,13 +11,13 @@
 <meta property="og:description" content="Check whether your unclaimed shares or dividends were transferred to the IEPF after 7 years, and get the Form IEPF-5 claim process, documents and where to search officially.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="/tools/iepf-unclaimed-shares-checker">
-<meta property="og:image" content="/tools/iepf-unclaimed-shares-checker-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IEPF Unclaimed Shares & Dividend Checker — Form IEPF-5">
 <meta name="twitter:description" content="See if your unclaimed shares/dividends moved to the IEPF after 7 years and get the Form IEPF-5 claim steps. Free & instant.">
-<meta name="twitter:image" content="/tools/iepf-unclaimed-shares-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">

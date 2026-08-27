@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-insurance-agents">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-for-insurance-agents-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Insurance Agents 2026: Agent to Firm | Patron">
     <meta name="twitter:description" content="Graduate from LIC or private insurer agent to IMF - multi-insurer model, 30-60 percent income lift, succession planning. From Rs 50,000.">
-    <meta name="twitter:image" content="/images/imf-for-insurance-agents-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

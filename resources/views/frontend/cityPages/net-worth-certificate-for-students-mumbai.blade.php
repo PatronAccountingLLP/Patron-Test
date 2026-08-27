@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-students/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-students/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate for Students in Mumbai 2026 | Patron">
     <meta name="twitter:description" content="CA-certified net worth certificate for Mumbai students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-students/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-influencers">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-influencers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Filing for Influencers - Income Sources, TDS & ITR-3">
     <meta name="twitter:description" content="File ITR for social media influencers in India. Brand deals, freebies under Section 194R, YouTube AdSense, profession code 16021. From Rs. 1,499.">
-    <meta name="twitter:image" content="/images/itr-for-influencers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

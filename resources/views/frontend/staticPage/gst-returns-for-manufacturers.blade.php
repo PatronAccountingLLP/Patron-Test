@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-manufacturers">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-manufacturers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Manufacturers 2026: ITC | Patron Accounting">
     <meta name="twitter:description" content="GST returns for manufacturers - ITC-04 job work, Rule 43 capital goods ITC, inverted duty refund under Section 54(3). Starting from INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-manufacturers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

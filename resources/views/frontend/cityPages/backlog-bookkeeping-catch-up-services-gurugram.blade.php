@@ -20,11 +20,11 @@
     <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/backlog-bookkeeping-catch-up-services/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Backlog Bookkeeping in Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Behind on books in Gurugram? Patron rebuilds Cyber City and Manesar ledgers, clears GST returns and Haryana SGST from INR 9,999 per month-of-backlog.">
-    <meta name="twitter:image" content="/images/backlog-bookkeeping-catch-up-services/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

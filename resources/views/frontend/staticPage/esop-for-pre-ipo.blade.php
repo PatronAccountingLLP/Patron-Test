@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-pre-ipo/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pre-IPO ESOP Conversion India: SEBI SBEB and ICDR Lock-In">
     <meta name="twitter:description" content="Pre-IPO ESOP scheme conversion to SEBI SBEB 2021 - trust route setup, ICDR Regulation 167 lock-in, DRHP disclosure, BRLM coordination. From Rs 3,00,000.">
-    <meta name="twitter:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

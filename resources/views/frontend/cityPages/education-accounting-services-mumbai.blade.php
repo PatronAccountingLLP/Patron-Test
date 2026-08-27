@@ -20,11 +20,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/education-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/education-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="School & College Accounting in Mumbai - Fees, GST & TDS">
     <meta name="twitter:description" content="CA-led accounting for schools and colleges in Mumbai. Trust audit, Form 10B and Charity Commissioner filing for South Mumbai and Andheri institutions.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/education-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

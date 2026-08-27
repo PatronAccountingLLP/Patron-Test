@@ -19,11 +19,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-nbfc-rbi-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-for-nbfc-rbi-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate NBFC RBI 2026 | Patron Accounting">
     <meta name="twitter:description" content="Net worth certificate for NBFC RBI registration - CA-certified NOF certificate evidencing the INR 10 crore Net Owned Funds. From INR 14,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/net-worth-certificate-for-nbfc-rbi-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

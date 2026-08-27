@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-processing-and-management-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-processing-and-management/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Processing & Management Gurugram - PF & ESI">
     <meta name="twitter:description" content="CA-led payroll processing in Gurugram. Salary, PF, ESI, TDS, CTC structuring, 50% wage rule, compliance. All industries. 10,000+ businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-processing-and-management/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

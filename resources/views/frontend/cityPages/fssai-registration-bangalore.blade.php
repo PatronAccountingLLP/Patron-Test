@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-registration/bangalore">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-registration/bangalore-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Registration in Bangalore – Process, Fees &amp; FoSCoS">
     <meta name="twitter:description" content="CA-assisted FSSAI registration in Bangalore. Basic, state, central food licence. Serving Koramangala, Indiranagar, HSR Layout food businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-registration/bangalore-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/private-limited-company-registration/chennai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/private-limited-company-registration-in-india/chennai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Company Registration in Chennai – SPICe+, Fees &amp; ROC">
     <meta name="twitter:description" content="CA-assisted private limited company registration in Chennai. SPICe+ filing with RoC Chennai, MOA, AOA, DSC, DIN. Serving OMR, MEPZ businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/private-limited-company-registration-in-india/chennai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-vs-deel">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-vs-deel-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Deel Alternative India 2026: CA-Led EOR Service | Patron">
     <meta name="twitter:description" content="Deel India EOR lists at $599 per employee per month. Patron Accounting LLP is a CA-led India alternative offering integrated payroll and compliance.">
-    <meta name="twitter:image" content="/images/eor-india-vs-deel-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

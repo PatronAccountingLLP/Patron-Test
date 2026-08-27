@@ -20,11 +20,11 @@
     <meta property="og:url" content="/removal-of-director/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/removal-of-director/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Removal of Director Mumbai – Section 169, DIR-12 &amp; ROC">
     <meta name="twitter:description" content="CA-assisted removal of director in Mumbai. Section 169, special notice, ordinary/special resolution, DIR-12. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/removal-of-director/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

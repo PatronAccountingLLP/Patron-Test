@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-scheme-design/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-scheme-design-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Scheme Design for Funded Startup Companies | Patron Accounting">
     <meta name="twitter:description" content="Get a compliant ESOP scheme drafted and filed with RoC Delhi, with MCA-ready resolutions, vesting and leaver clauses, in 4 to 8 weeks starting at INR 19,999.">
-    <meta name="twitter:image" content="/images/esop-scheme-design-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

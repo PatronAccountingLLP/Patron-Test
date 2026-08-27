@@ -19,11 +19,11 @@
     <meta property="og:url" content="/certificate-under-section-281-income-tax/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/certificate-under-section-281-income-tax-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 281 Income Tax NOC Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/certificate-under-section-281-income-tax-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

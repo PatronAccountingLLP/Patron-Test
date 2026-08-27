@@ -20,11 +20,11 @@
     <meta property="og:url" content="/public-limited-company-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/public-limited-company-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Public Limited Company Registration in Delhi - Fees & ROC">
     <meta name="twitter:description" content="CA-assisted Public Limited Company Registration in Delhi. From Rs 50,000. Serving Connaught Place, Nehru Place, Okhla. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/public-limited-company-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

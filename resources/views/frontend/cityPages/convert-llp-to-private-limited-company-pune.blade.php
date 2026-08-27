@@ -19,11 +19,11 @@
     <meta property="og:url" content="/convert-llp-to-private-limited-company/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-to-private-limited-conversion/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert LLP to Pvt Ltd in Pune - URC-1 & ROC Filing">
     <meta name="twitter:description" content="CA and CS assisted LLP to Pvt Ltd conversion in Pune. URC-1, SPICe+, newspaper ad, ROC approval, fresh COI. Tax-neutral. Startup funding, ESOP, growth. Baner, Kharadi, Hinjewadi. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-to-private-limited-conversion/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

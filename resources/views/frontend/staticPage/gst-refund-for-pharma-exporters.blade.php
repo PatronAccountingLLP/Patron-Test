@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-for-pharma-exporters/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-for-pharma-exporters-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund for Pharma Exporters — LUT, IGST, IDS Routes">
     <meta name="twitter:description" content="GST refund for pharma exporters under LUT and Rule 89(5). API 18% to formulation 5% IDS. CDSCO certification. CGST Instruction 6/2025. Rs 25,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-for-pharma-exporters-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

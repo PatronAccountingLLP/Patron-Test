@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns-for-oidar/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-for-oidar-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST for OIDAR in Delhi – Foreign Digital &amp; GSTR-5A">
     <meta name="twitter:description" content="GSTR-5A for OIDAR providers serving Delhi consumers. 18% IGST. No threshold. Simplified registration REG-10. No ITC. Patron +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-for-oidar-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

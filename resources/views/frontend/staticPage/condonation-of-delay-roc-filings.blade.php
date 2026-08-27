@@ -20,11 +20,11 @@
     <meta property="og:url" content="/condonation-of-delay-roc-filings">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/condonation-of-delay-roc-filings-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Condonation of Delay ROC Filings 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 460 condonation of delay + Section 441 compounding for ROC backlog. 1-5+ year defaults rectified. Fixed-fee Rs 50,000 to Rs 2,00,000. CA + CS handled.">
-    <meta name="twitter:image" content="/images/condonation-of-delay-roc-filings-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

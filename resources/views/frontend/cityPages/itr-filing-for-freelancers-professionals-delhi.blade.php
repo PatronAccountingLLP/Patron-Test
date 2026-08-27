@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-filing-for-freelancers-professionals/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-filing-for-freelancers-professionals-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Freelancers Delhi NCR – 44ADA, ITR-4 &amp; TDS">
     <meta name="twitter:description" content="ITR for freelancers and professionals in Delhi. S.44ADA 50% presumptive. ITR-3/ITR-4. Tax audit. Expenses. CAs lawyers doctors. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-filing-for-freelancers-professionals-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

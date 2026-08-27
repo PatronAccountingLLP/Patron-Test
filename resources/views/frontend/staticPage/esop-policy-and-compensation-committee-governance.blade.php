@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-policy-and-compensation-committee-governance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-policy-and-compensation-committee-governance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Policy and Compensation Committee Governance 2026 | Patron Accounting">
     <meta name="twitter:description" content="A Section 178 committee owns your ESOP and pay policy. We draft the charter, policy framework and decision rights. Governance advisory from Rs 24,999.">
-    <meta name="twitter:image" content="/images/esop-policy-and-compensation-committee-governance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

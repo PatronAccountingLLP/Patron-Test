@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-itc-time-limit-section-16-4">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-itc-time-limit-section-16-4-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 16(4) ITC Time Limit 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 16(4) CGST Act caps ITC claim at 30 November of next FY or GSTR-9 date. Section 16(5)/(6) retrospective relief. Patron from Rs 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-itc-time-limit-section-16-4-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

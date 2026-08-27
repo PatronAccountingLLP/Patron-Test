@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-assignment/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-assignment/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Assignment Delhi NCR – TM-P, Deed &amp; Stamp Duty">
     <meta name="twitter:description" content="CA-assisted trademark assignment in Delhi. TM-P filing, assignment deed, ownership transfer. Serving CP, South Delhi, Nehru Place brands. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-assignment/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

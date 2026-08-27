@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-sh-6-register-administration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-sh-6-register-administration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi SH-6 ESOP Register Maintenance Under Rule 12(10) | Patron Accounting">
     <meta name="twitter:description" content="Keep your SH-6 ESOP register MCA-compliant in Delhi under Rule 12(10), with CS-authenticated grant and exercise entries filed to RoC Delhi at INR 9,999/yr.">
-    <meta name="twitter:image" content="/images/esop-sh-6-register-administration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

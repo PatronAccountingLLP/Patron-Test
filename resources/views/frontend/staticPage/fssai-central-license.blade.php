@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-central-license">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-central-license-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Central License - Eligibility, Fees & Application">
     <meta name="twitter:description" content="FSSAI central license for turnover above Rs 20 crore. Fee Rs 7,500/year. Form B on FoSCoS portal. Import-export, multi-state. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/fssai-central-license-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

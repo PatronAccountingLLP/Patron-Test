@@ -19,11 +19,11 @@
     <meta property="og:url" content="/capital-account-certificate/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/capital-account-certificate-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Capital Account Certificate under FEMA 2026 | Patron Accounting">
     <meta name="twitter:description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/capital-account-certificate-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/startup-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/startup-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup India Registration in Delhi - DPIIT & Tax Benefits">
     <meta name="twitter:description" content="CA-assisted startup registration in Delhi. DPIIT recognition, tax exemptions and Startup India benefits for founders. Serving CP, Okhla, Nehru Place. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/startup-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

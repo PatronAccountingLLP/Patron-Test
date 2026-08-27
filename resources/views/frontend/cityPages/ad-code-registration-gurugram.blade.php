@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ad-code-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ad-code-registration-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AD Code Registration Gurugram - Customs & ICEGATE Process">
     <meta name="twitter:description" content="Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ad-code-registration-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

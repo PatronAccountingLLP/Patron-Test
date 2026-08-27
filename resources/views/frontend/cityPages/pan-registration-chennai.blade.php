@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pan-registration/chennai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pan-card-registration/chennai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PAN Card Registration in Chennai – Form 49A &amp; Process">
     <meta name="twitter:description" content="CA-assisted PAN card registration in Chennai. New Form 93/95, individual and company PAN, NRI PAN. Serving OMR, T. Nagar, Adyar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pan-card-registration/chennai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

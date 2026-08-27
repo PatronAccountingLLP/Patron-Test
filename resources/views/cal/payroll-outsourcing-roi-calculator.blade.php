@@ -12,13 +12,13 @@
     <meta property="og:description" content="Decide between in-house payroll team and outsourced vendor. Computes total cost both ways, net savings, ROI multiple, break-even employee count, decision verdict.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-outsourcing-roi-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/payroll-outsourcing-roi-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Outsourcing ROI Calculator — In-House vs Vendor">
     <meta name="twitter:description" content="In-house payroll cost vs vendor cost. Net savings, ROI, break-even. Free CA tool for Indian SMEs.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/payroll-outsourcing-roi-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

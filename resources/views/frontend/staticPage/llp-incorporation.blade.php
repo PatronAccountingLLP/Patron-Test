@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-incorporation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-incorporation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Registration in India - Process, Documents & Fees">
     <meta name="twitter:description" content="Register your LLP in India under the LLP Act, 2008 with expert CA and CS assistance. MCA fees starting from Rs 500. 10,000+ businesses served across Pune, Mumbai, Delhi and Gurugram.">
-    <meta name="twitter:image" content="/images/llp-incorporation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

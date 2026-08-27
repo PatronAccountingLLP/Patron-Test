@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-notice-restaurants">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-notice-restaurants-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Notice Restaurants India 2026 | Patron Accounting">
     <meta name="twitter:description" content="GST notice for restaurants India 2026: 5 vs 18 percent disputes, Section 17(5) ITC, composition, Zomato Swiggy 9(5). CA-led, Rs 15K-50K per notice.">
-    <meta name="twitter:image" content="/images/gst-notice-restaurants-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

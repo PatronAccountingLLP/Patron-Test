@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-refund/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Claim in Pune - RFD-01, Process & Fees">
     <meta name="twitter:description" content="CA-assisted GST refund in Pune. Export IGST refund, inverted duty ITC refund, excess cash ledger claims. Serving Hinjewadi, Kharadi, Chakan MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-refund/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

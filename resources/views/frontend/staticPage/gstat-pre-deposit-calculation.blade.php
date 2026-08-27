@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-pre-deposit-calculation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-pre-deposit-calculation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Pre-Deposit Calculation Advisory | Patron">
     <meta name="twitter:description" content="Calculate your GSTAT pre-deposit under Section 112(8) CGST Act. 10% of disputed tax capped at Rs 20 crore. Expert advisory by Patron Accounting.">
-    <meta name="twitter:image" content="/images/gstat-pre-deposit-calculation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

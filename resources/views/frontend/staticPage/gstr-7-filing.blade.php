@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gstr-7-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-7-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTR-7 Filing in 2026: GST TDS Return | Patron Accounting">
     <meta name="twitter:description" content="GSTR-7 is the monthly GST TDS return under Section 51 CGST Act for government, PSU and notified deductors. Starting at Rs 1,499/mo. Due 10th every month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gstr-7-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

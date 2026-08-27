@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-investment-advisors/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/investment-advisors-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Investment Advisors: Add Insurance Legally">
     <meta name="twitter:description" content="SEBI RIAs cannot earn insurance commission directly. A compliant IRDAI Insurance Marketing Firm (IMF) adds insurance revenue. Eligibility, cost, timeline.">
-    <meta name="twitter:image" content="/images/imf-services/investment-advisors-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

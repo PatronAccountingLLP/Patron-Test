@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-processing-and-management-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-processing-and-management-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Processing & Management Services - PF, ESI & TDS">
     <meta name="twitter:description" content="End-to-end payroll processing and management services in India - salary computation, PF, ESI, TDS, statutory filings, and payslips. From Rs 3,000/month.">
-    <meta name="twitter:image" content="/images/payroll-processing-and-management-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-restructuring-underwater-options/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-restructuring-underwater-options-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Repricing to Fix Underwater Stock Options | Patron Accounting">
     <meta name="twitter:description" content="Restore value for Pune IT and SaaS teams by repricing underwater ESOPs to current FMV with Ind AS 102 modification accounting, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-restructuring-underwater-options-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

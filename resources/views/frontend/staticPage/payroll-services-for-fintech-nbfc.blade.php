@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-fintech-nbfc">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-fintech-nbfc-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll for Fintech NBFC India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Fintech NBFC payroll India 2026: ESOP Section 17(2)(vi), RBI compliance, ITR-3 complexity, cross-border. Rs 149-249/emp. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-fintech-nbfc-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

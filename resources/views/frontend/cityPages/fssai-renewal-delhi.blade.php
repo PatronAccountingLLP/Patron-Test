@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-renewal/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI License Renewal in Delhi - Process, Fees & Expiry">
     <meta name="twitter:description" content="CA-assisted FSSAI Renewal in Delhi. Basic, State, Central licenses renewed online. Serving Chandni Chowk, Connaught Place, Okhla. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

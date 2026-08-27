@@ -20,11 +20,11 @@
     <meta property="og:url" content="/statutory-audit/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-service/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Statutory Audit in Pune - CARO 2020 & Ind AS Reporting">
     <meta name="twitter:description" content="CA firm for statutory audit in Pune. Pvt Ltd, OPC, LLP, Section 8. Auditor appointment, CARO 2020, SA standards, audit report, ADT-1. MIDC, Hinjewadi, Camp. First-year startup audit. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/statutory-audit-service/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

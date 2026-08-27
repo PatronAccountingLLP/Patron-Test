@@ -20,11 +20,11 @@
     <meta property="og:url" content="/actuarial-valuation-services-for-employee-benefits/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/actuarial-valuation-services-for-employee-benefits/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Actuarial Valuation in Mumbai - AS 15 & Ind AS 19 Reports">
     <meta name="twitter:description" content="CA-led actuarial valuation in Mumbai. Gratuity, leave encashment, pension under Ind AS 19/AS 15. PUCM reports for BKC, Nariman Point, Powai, Andheri companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/actuarial-valuation-services-for-employee-benefits/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-manufacturing/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-manufacturing-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Manufacturing Accounting Services for Local Companies | Patron Accounting">
     <meta name="twitter:description" content="Haryana's zero professional tax with Labour Welfare Fund still payable handled for Gurugram businesses. Cost every job accurately. See what it costs.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-manufacturing-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

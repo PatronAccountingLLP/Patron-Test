@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-vs-sweat-equity">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-sweat-equity-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP vs Sweat Equity 2026: Section 62 vs Section 54 | Patron Accounting">
     <meta name="twitter:description" content="ESOP is an option under Section 62; sweat equity issues real shares under Section 54, allows promoters and has a 3-year lock-in. A clear, free comparison guide.">
-    <meta name="twitter:image" content="/images/esop-vs-sweat-equity-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

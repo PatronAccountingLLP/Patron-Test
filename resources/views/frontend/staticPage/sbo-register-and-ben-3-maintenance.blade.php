@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sbo-register-and-ben-3-maintenance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/sbo-register-and-ben-3-maintenance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SBO Register and BEN-3 Maintenance 2026 | Patron Accounting">
     <meta name="twitter:description" content="Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/sbo-register-and-ben-3-maintenance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

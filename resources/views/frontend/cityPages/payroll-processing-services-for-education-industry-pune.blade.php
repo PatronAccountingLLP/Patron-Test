@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-processing-services-for-education-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-processing-services-for-education-industry-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="School & College Payroll in Pune - PF, PT, TDS & ESI">
     <meta name="twitter:description" content="CA-managed payroll for schools and colleges in Pune. Teacher salary, TDS, EPF, ESIC - all handled. Serving Deccan, Kothrud, Hadapsar institutions. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-processing-services-for-education-industry-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-llp-partnership/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-llp-partnership-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP and Firm ITR 2026: ITR-5, Sec 40(b) | Patron Accounting">
     <meta name="twitter:description" content="ITR-5 for LLP and partnership firm. Section 40(b) Finance Act 2025, LLP audit Rs 40L/Rs 25L, Form 11 + 8 MCA. Starts at Rs 7,999.">
-    <meta name="twitter:image" content="/images/itr-for-llp-partnership-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

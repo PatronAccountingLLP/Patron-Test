@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sec-148-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sec-148-notice/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 148 Notice Gurugram 2026: Reply | Patron Accounting">
     <meta name="twitter:description" content="Section 148 reassessment notice in Gurugram? Patron CA team responds at 148A stage and files writ before P&H HC. Starting Rs 3,499. Call today.">
-    <meta name="twitter:image" content="/images/sec-148-notice/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

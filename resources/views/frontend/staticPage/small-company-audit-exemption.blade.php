@@ -20,11 +20,11 @@
     <meta property="og:url" content="/small-company-audit-exemption">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/small-company-audit-exemption-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Small Company Audit Exemption 2026 Rules | Patron Accounting">
     <meta name="twitter:description" content="Statutory audit stays mandatory for small companies under Section 139. CARO 2020, ICFR and auditor rotation do not apply. Fees from Rs 12,000.">
-    <meta name="twitter:image" content="/images/small-company-audit-exemption-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

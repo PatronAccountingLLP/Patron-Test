@@ -14,7 +14,7 @@
     content="Full-stack ESOP advisory — scheme design, Rule 11UA valuation, Ind AS 102 accounting, Sec 17(2)(vi) tax, SEBI SBEB. Route by lifecycle stage or buyer scenario.">
 <meta property="og:url" content="/esop-services">
 <meta property="og:type" content="website">
-<meta property="og:image" content="/images/og/esop-services-og.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="Patron Accounting LLP">
@@ -24,7 +24,7 @@
 <meta name="twitter:title" content="ESOP Services — Scheme Design, Tax, Valuation & Compliance | Patron LLP">
 <meta name="twitter:description"
     content="Full-stack ESOP advisory — scheme design, Rule 11UA valuation, Ind AS 102 accounting, Sec 17(2)(vi) tax, SEBI SBEB. Route by lifecycle stage or buyer scenario.">
-<meta name="twitter:image" content="/images/og/esop-services-og.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta name="twitter:site" content="@patronaccounting">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">

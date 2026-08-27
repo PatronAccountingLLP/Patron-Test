@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-itc-on-capital-goods">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-itc-on-capital-goods-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Capital Goods ITC 2026: Plant Machinery | Patron Accounting">
     <meta name="twitter:description" content="GST ITC on capital goods under Section 16 CGST Act. Plant and machinery availment, Rule 43 reversal, Section 18(6) sale rules. Patron from Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-itc-on-capital-goods-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-services-for-listed-companies/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-services-for-listed-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Compliance & Regulation 9A for Listed Firms | Patron Accounting">
     <meta name="twitter:description" content="End-to-end ESOP work for Delhi-listed firms under SEBI SBEB: scheme design, approvals, Regulation 9A founder ESOPs, LODR disclosure and MCA filings.">
-    <meta name="twitter:image" content="/images/esop-services-for-listed-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

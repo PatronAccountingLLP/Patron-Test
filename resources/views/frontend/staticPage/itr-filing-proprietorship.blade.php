@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-filing-proprietorship">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-filing-proprietorship-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Filing for Proprietorship 2026: ITR-3/ITR-4 | Patron Accounting">
     <meta name="twitter:description" content="ITR filing for proprietorship - ITR-3 vs ITR-4 (Sugam), Section 44AD/44ADA presumptive, new vs old regime via Form 10-IEA. Starting from INR 3,499.">
-    <meta name="twitter:image" content="/images/itr-filing-proprietorship-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

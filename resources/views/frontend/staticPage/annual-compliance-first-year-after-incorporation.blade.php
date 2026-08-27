@@ -20,11 +20,11 @@
     <meta property="og:url" content="/annual-compliance-first-year-after-incorporation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/annual-compliance-first-year-after-incorporation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="First Year Compliance 2026: Pvt Ltd | Patron Accounting">
     <meta name="twitter:description" content="New pvt ltd first year compliance: first auditor in 30 days, INC-20A in 180 days, first AGM in 9 months. Patron pack from Rs 30,000.">
-    <meta name="twitter:image" content="/images/annual-compliance-first-year-after-incorporation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate-for-current-account/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate-for-current-account/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Certificate - Current Account Pune, CA Format">
     <meta name="twitter:description" content="CA certified turnover certificate for current account opening in Pune. Proprietorship, partnership, company. GST alternative for sub-threshold. UDIN. SBI, HDFC, ICICI. Same-day. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/turnover-certificate-for-current-account/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

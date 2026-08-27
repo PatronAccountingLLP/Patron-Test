@@ -12,13 +12,13 @@
     <meta property="og:description" content="Composite 0-100 financial health score with Altman Z / Z' / Z'' Score, IBC distress check and Schedule III ratios. Free CA tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-health-score">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/financial-health-score.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
     <meta name="twitter:description" content="Composite 0-100 score + Altman Z / Z' / Z'' Score + IBC distress check + Schedule III ratios. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/financial-health-score.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

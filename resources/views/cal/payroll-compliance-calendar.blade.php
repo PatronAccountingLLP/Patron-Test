@@ -12,13 +12,13 @@
     <meta property="og:description" content="All India payroll compliance deadlines: TDS, PF, ESI, PT, LWF, Form 16, statutory bonus. State-wise filtering, urgency colour coding, late penalty info.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-compliance-calendar">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/payroll-compliance-calendar.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
     <meta name="twitter:description" content="All payroll compliance deadlines for India. TDS, PF, ESI, PT, LWF, Form 16, bonus. State-wise. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/payroll-compliance-calendar.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

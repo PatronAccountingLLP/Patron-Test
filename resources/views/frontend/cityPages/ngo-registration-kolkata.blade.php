@@ -14,7 +14,7 @@
     <meta property="og:description" content="NGO registration Kolkata. Trust, Society, Section 8. 12A 80G FCRA. Rs 4,999. Call +91 945 945 6700.">
     <meta property="og:url" content="/ngo-registration/kolkata">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')

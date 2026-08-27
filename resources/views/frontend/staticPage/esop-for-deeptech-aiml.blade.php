@@ -18,11 +18,11 @@
     <meta property="og:url" content="/esop-for-deeptech-aiml/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Design Guide for Deeptech and AI/ML Startups in India | Patron Accounting">
     <meta name="twitter:description" content="ESOP design for Indian AI/ML and deeptech startups - research milestone vesting, IP-creator pool, Section 80-IAC tax deferral. From Rs 1,00,000.">
-    <meta name="twitter:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

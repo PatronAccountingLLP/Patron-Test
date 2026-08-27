@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fla-returns">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fla-returns-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FLA Return Filing with RBI - Process, Deadline & Documents">
     <meta name="twitter:description" content="File FLA Return by 15 July on RBI FLAIR portal. Mandatory for companies/LLPs with FDI or ODI. Late fee Rs 7,500. FEMA penalty up to 3x amount.">
-    <meta name="twitter:image" content="/images/fla-returns-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

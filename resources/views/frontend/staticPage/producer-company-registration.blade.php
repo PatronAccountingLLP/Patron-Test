@@ -20,11 +20,11 @@
     <meta property="og:url" content="/producer-company-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/producer-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Producer Company Registration India - FPO, Process & Fees">
     <meta name="twitter:description" content="Register a Producer Company under Part IXA of the Companies Act. Min 10 members, 5 directors, Rs 5 lakh capital. Starting at Rs 15,000. Expert CA and CS support.">
-    <meta name="twitter:image" content="/images/producer-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

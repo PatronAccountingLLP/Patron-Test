@@ -20,11 +20,11 @@
     <meta property="og:url" content="/convert-partnership-to-llp/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-partnership-to-llp/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Partnership to LLP Delhi NCR – Form 17 &amp; FiLLiP">
     <meta name="twitter:description" content="CA-assisted partnership to LLP conversion in Delhi. Limited liability with zero asset transfer tax. Serving Connaught Place, Nehru Place, Okhla businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/convert-partnership-to-llp/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-services-for-family-business/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Advisory for Family-Owned SaaS Firms | Patron Accounting">
     <meta name="twitter:description" content="Cyber City family businesses retain enterprise-SaaS talent without losing family control, using ESOPs and sweat equity valued and filed from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

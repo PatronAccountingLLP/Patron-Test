@@ -20,11 +20,11 @@
     <meta property="og:url" content="/msme-1-half-yearly-return">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/msme-1-half-yearly-return-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MSME-1 Half-Yearly Return Filing 2026 | Patron Accounting">
     <meta name="twitter:description" content="File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/msme-1-half-yearly-return-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

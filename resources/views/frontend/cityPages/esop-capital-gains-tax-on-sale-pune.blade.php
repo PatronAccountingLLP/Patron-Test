@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-capital-gains-tax-on-sale/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Share Sale: LTCG & STCG Tax Computations | Patron Accounting">
     <meta name="twitter:description" content="Sold ESOP shares from a Pune startup? We compute 12.5% LTCG above Rs 1.25 lakh or 20% STCG using FMV at exercise as cost base, from INR 4,999.">
-    <meta name="twitter:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

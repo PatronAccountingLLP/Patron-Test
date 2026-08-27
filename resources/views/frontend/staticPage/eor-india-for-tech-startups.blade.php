@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-for-tech-startups">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-for-tech-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR India for Tech Startups 2026: CA-Led Service | Patron">
     <meta name="twitter:description" content="Series A-C tech startup hiring in India - engineers, CS, growth, ESOP-aware compliance. Patron Accounting LLP CA-led service from contractor to subsidiary.">
-    <meta name="twitter:image" content="/images/eor-india-for-tech-startups-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

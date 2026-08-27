@@ -20,11 +20,11 @@
     <meta property="og:url" content="/irda-imf-business-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/irda-imf-business-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IRDAI Insurance Agent Registration - IMF, Process & Docs">
     <meta name="twitter:description" content="IRDA-IMF business registration under IRDAI Regulations 2015. Net worth Rs 5-10 lakh. Application fee Rs 5,000. 7-10 week process. Expert CA and CS team support.">
-    <meta name="twitter:image" content="/images/irda-imf-business-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

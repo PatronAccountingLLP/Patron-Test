@@ -19,11 +19,11 @@
     <meta property="og:url" content="/sponsorship-affidavit-and-net-worth-certificate/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/sponsorship-affidavit-and-net-worth-certificate/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sponsor Affidavit and Net Worth Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="Sponsorship affidavit drafting, notarisation guidance and CA net worth certificate for visa sponsors in Pune. UDIN-verified, dual currency. From INR 2,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/sponsorship-affidavit-and-net-worth-certificate/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

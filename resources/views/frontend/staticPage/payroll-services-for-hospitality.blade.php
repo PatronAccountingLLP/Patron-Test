@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-hospitality">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-hospitality-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll for Hospitality India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Hospitality payroll India 2026: hotel multi-shift, FnB daily wages, service charge rules, ESI, 2-day FnF. Rs 149-249/emp. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-hospitality-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

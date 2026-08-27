@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-renewal/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-renewal-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Renewal in Mumbai - Process, Fees & 10-Year">
     <meta name="twitter:description" content="Trademark renewal in Mumbai. Form TM-R, S.25, 10-year cycle, Rs 9,000/class, grace period, restoration. Trademark Registry Antop Hill. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-renewal-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

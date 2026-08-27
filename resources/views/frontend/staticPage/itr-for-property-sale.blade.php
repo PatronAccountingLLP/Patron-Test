@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-property-sale">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-property-sale-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Property Sale - Capital Gains, Sec 54 & TDS 194IA">
     <meta name="twitter:description" content="File ITR for property sale in India. LTCG at 12.5% or 20% with indexation, Section 54 and 54EC exemptions, TDS under Section 194IA. CA help from Rs. 1,499.">
-    <meta name="twitter:image" content="/images/itr-for-property-sale-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

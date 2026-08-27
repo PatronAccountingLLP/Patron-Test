@@ -20,11 +20,11 @@
     <meta property="og:url" content="/small-company-compliance-section-2-85-definition">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/small-company-compliance-section-2-85-definition-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Small Company Definition 2026: Section 2(85) | Patron Accounting">
     <meta name="twitter:description" content="Small company definition under Section 2(85): paid-up up to Rs 10 crore and turnover up to Rs 100 crore. Self-check tool, MGT-7A benefits, from Rs 4,500.">
-    <meta name="twitter:image" content="/images/small-company-compliance-section-2-85-definition-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services/bangalore">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services/bengaluru-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Services in Bangalore – Salary, PF, ESI &amp; TDS">
     <meta name="twitter:description" content="CA-assisted payroll services in Bangalore. PF, ESI, PT compliance for IT and startup firms. Serving Electronic City, Whitefield, Manyata businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services/bengaluru-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

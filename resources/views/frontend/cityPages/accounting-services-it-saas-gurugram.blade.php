@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-it-saas/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-it-saas-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SaaS Accounting Services in Gurugram for Local SMEs | Patron Accounting">
     <meta name="twitter:description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Stay investor-ready all year. Compare your options.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-it-saas-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

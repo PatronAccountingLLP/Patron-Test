@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-at-acquisition-and-change-of-control/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-acquisition-and-change-of-control-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Acquisition Treatment and Tax Structuring | Patron Accounting">
     <meta name="twitter:description" content="Delhi startups facing acquisition get clear ESOP treatment: trigger terms, rollover, and perquisite plus capital-gains tax handled for INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-at-acquisition-and-change-of-control-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

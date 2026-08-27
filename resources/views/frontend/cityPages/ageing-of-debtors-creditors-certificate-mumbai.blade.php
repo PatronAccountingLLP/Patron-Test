@@ -21,11 +21,11 @@
     <meta property="og:url" content="/ageing-of-debtors-creditors-certificate/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/ageing-of-debtors-creditors-certificate-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-certified ageing of debtors and creditors: receivables and payables by 0-30, 31-60, 61-90 and 90+ day buckets for due diligence and lenders. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/ageing-of-debtors-creditors-certificate-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-private-limited-vs-llp/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF Private Limited vs LLP: Which Entity to Choose">
     <meta name="twitter:description" content="Compare Private Limited vs LLP for your IRDAI Insurance Marketing Firm in Pune: net worth, audit, tax, funding & compliance. Expert IMF setup from INR 24,999.">
-    <meta name="twitter:image" content="/images/imf-services/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

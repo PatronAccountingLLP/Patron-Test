@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-retail">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-retail-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Retail Accounting Services in India: What Is Included | Patron Accounting">
     <meta name="twitter:description" content="POS reconciled to the ledger daily - shrinkage found in week one, not at audit. Get clean books, on time, without adding headcount. Get a fixed quote.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-retail-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/posh-compliance-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/posh-compliance-service-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="POSH Compliance Gurugram - ICC Formation & Training">
     <meta name="twitter:description" content="POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/posh-compliance-service-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

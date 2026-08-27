@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-tax-for-nri-and-non-resident-employees">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-tax-for-nri-and-non-resident-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NRI ESOP Tax 2026: DTAA and Residency Rules in India | Patron Accounting">
     <meta name="twitter:description" content="NRI and non-resident employees are taxed in India on the India-services portion of ESOPs, with DTAA relief. Expert cross-border advisory from Rs 9,999.">
-    <meta name="twitter:image" content="/images/esop-tax-for-nri-and-non-resident-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

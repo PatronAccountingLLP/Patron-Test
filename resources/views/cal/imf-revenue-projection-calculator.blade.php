@@ -9,14 +9,14 @@
 <meta property="og:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India. Free, instant, India-specific.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="theme-color" content="#15365f">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IMF Revenue Projection Calculator — Free Forecast Tool 2026">
 <meta name="twitter:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">

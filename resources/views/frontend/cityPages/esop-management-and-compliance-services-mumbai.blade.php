@@ -21,11 +21,11 @@
     <meta property="og:url" content="/esop-management-and-compliance-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esops-management/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Management - Vesting, Tax & Cap Table in Mumbai | Patron Accounting">
     <meta name="twitter:description" content="CA-led ESOP management and compliance in Mumbai. Scheme design, valuation, perquisite tax S.17(2)(vi), Ind AS 102, TDS, RoC for Powai, BKC, Nariman Point companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esops-management/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

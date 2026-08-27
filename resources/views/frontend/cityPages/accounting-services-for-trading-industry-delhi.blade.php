@@ -20,11 +20,11 @@
     <meta property="og:url" content="/accounting-services-for-trading-industry/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-trading-industry/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Business Accounting in Delhi - Inventory & GST">
     <meta name="twitter:description" content="CA-led wholesale and retail accounting in Delhi. GST multi-slab, inventory valuation, e-way bill, e-invoicing. Serving Chandni Chowk, Sadar Bazar, Karol Bagh. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-trading-industry/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

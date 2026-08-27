@@ -12,13 +12,13 @@
     <meta property="og:description" content="Instantly check Ind AS mandatory applicability for your company or NBFC. Phase I/II/III/IV roadmap, group company test, voluntary adoption — CA-reviewed.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/ind-as-applicability-checker">
-    <meta property="og:image" content="/tools/og/ind-as-applicability-checker.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Ind AS Applicability Checker — Companies &amp; NBFCs FY 2026-27">
     <meta name="twitter:description" content="Check if your company or NBFC must adopt Ind AS — net worth, listing status, group rule, voluntary adoption. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="/tools/og/ind-as-applicability-checker.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 @endsection

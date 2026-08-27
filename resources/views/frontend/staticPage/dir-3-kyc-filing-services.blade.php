@@ -20,11 +20,11 @@
     <meta property="og:url" content="/dir-3-kyc-filing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/dir-3-kyc-filing-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DIR-3 KYC Filing Services 2026 | Patron Accounting">
     <meta name="twitter:description" content="DIR-3 KYC under new triennial regime (G.S.R. 943(E)). Unified DIR-3 KYC Web form. DIN reactivation Rs 5,000. From Rs 2,000 per director.">
-    <meta name="twitter:image" content="/images/dir-3-kyc-filing-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

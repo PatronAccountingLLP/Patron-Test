@@ -21,11 +21,11 @@
     <meta property="og:url" content="/change-in-name-of-company/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-name-of-company/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Name Change in Pune – INC-24, INC-25 &amp; ROC">
     <meta name="twitter:description" content="CA/CS-assisted company name change in Pune. RUN reservation, special resolution, Form MGT-14/INC-24, ROC Pune approval, PAN/GST update. Serving Hinjewadi, Kharadi startups. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-in-name-of-company/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

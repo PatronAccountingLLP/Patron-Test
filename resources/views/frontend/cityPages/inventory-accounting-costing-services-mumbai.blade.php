@@ -20,11 +20,11 @@
     <meta property="og:url" content="/inventory-accounting-costing-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/inventory-accounting-costing-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Inventory Accounting in Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led stock valuation, multi-godown reconciliation, BOM costing and COGS for Mumbai traders, Bhiwandi 3PL and Tarapur factories. Plans from INR 7,499/mo.">
-    <meta name="twitter:image" content="/images/inventory-accounting-costing-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

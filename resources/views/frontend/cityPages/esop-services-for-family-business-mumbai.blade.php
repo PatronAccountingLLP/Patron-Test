@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-services-for-family-business/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP & Sweat Equity for Family-Owned Companies | Patron Accounting">
     <meta name="twitter:description" content="Mumbai family businesses balance family control with executive retention through Section 62 ESOPs and SEBI-aware sweat equity, valued and filed from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

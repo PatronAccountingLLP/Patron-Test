@@ -21,11 +21,11 @@
     <meta property="og:url" content="/appointment-of-auditor">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/appointment-of-auditor-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Appointment of Auditor - Section 139, ADT-1 & ROC Filing">
     <meta name="twitter:description" content="Appoint your statutory auditor under Section 139 of Companies Act 2013. Board appoints within 30 days. ADT-1 filing included. Starting at INR 1,999.">
-    <meta name="twitter:image" content="/images/appointment-of-auditor-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

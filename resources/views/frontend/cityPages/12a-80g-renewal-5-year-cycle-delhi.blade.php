@@ -20,11 +20,11 @@
     <meta property="og:url" content="/12a-80g-renewal-5-year-cycle/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/12a-80g-renewal-5-year-cycle-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A & 80G Renewal: Form 10AB 5-Year Cycle Guide">
     <meta name="twitter:description" content="Renew 12A & 80G registration via Form 10AB. Learn the 3-year provisional and 5-year regular cycle, six-month deadline, CBDT extensions and lapse risks.">
-    <meta name="twitter:image" content="/images/12a-80g-renewal-5-year-cycle-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

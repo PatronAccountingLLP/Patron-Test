@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-rsu/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-rsu-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP vs RSU for Gurugram Cyber City SaaS Teams Explained | Patron Accounting">
     <meta name="twitter:description" content="For Gurugram's Cyber City SaaS teams, understand how ESOPs and RSUs work, differ in tax and vesting, and which to grant. Download our free guide now.">
-    <meta name="twitter:image" content="/images/esop-vs-rsu-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

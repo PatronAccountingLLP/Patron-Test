@@ -19,11 +19,11 @@
     <meta property="og:url" content="/migration-from-zoho-to-quickbooks">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-zoho-to-quickbooks-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zoho to QuickBooks Migration in 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led Zoho Books to QuickBooks migration with zero data loss and verified opening balances, ideal for global operations. From INR 9,999. Get a free quote.">
-    <meta name="twitter:image" content="/images/migration-from-zoho-to-quickbooks-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/itr-for-fando-traders/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-fo-traders/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for F&amp;O Traders in Pune – ITR-3, Turnover &amp; Audit">
     <meta name="twitter:description" content="CA-assisted ITR-3 filing for F&O traders in Pune. Turnover calculation, tax audit, loss carry-forward, and advance tax. Serving salaried IT professionals and full-time traders. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-fo-traders/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

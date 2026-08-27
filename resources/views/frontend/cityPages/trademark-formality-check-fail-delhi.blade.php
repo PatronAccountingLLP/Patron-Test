@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-formality-check-fail/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-formality-check-fail/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Formality Check Fail Delhi NCR – Reply">
     <meta name="twitter:description" content="Trademark formality check fail in Delhi? Reply within 30 days via MIS-F on IP India portal. Fix wrong class, missing POA, docs. Call Patron +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-formality-check-fail/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-grant-letter-and-employee-communication-templates/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-grant-letter-and-employee-communication-templates-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Grant Letter & Employee Communication Kit | Patron Accounting">
     <meta name="twitter:description" content="Roll out employee stock options in Delhi with CA-attested grant letters, a communication pack and a vesting tracker, MCA-compliant, all for just INR 9,999.">
-    <meta name="twitter:image" content="/images/esop-grant-letter-and-employee-communication-templates-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

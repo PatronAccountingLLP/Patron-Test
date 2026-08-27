@@ -21,11 +21,11 @@
     <meta property="og:url" content="/it-notice-it-companies/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-notice-it-companies/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT Notice for IT Companies Gurugram 2026: CA Reply | Patron Accounting">
     <meta name="twitter:description" content="Income tax notice for your Gurugram IT/software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta name="twitter:image" content="/images/it-notice-it-companies/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

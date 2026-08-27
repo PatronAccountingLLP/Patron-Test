@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trustee-appointment-and-replacement">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trustee-appointment-and-replacement-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trustee Appointment, Retirement & Replacement in India | Patron">
     <meta name="twitter:description" content="Appoint, retire or replace a trustee of a charitable trust, society or Section 8 company in India, with change report, deed and FCRA updates.">
-    <meta name="twitter:image" content="/images/trustee-appointment-and-replacement-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

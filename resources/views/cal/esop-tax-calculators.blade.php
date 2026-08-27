@@ -9,14 +9,14 @@
     <meta property="og:description" content="Compute ESOP perquisite tax at exercise plus capital gains at sale for FY 2025-26 with startup deferral handling and post-July-2024 capital gains rates.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tax-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/esop-tax-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Tax Calculator — Perquisite + Capital Gains FY 2025-26">
     <meta name="twitter:description" content="Two-stage ESOP tax: perquisite at exercise + capital gains at sale, with startup deferral handling for FY 2025-26.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/esop-tax-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/one-person-company-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/one-person-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="OPC Registration in India - Process, Documents & Benefits">
     <meta name="twitter:description" content="Register your One Person Company (OPC) under the Companies Act, 2013 with expert CA and CS support. Govt fees from Rs 0 for authorised capital up to Rs 15 lakh. 10,000+ businesses served.">
-    <meta name="twitter:image" content="/images/one-person-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

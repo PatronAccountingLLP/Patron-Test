@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-exercise-and-cap-table-management">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Exercise and Cap Table Management 2026: PAS-3 | Patron Accounting">
     <meta name="twitter:description" content="End-to-end ESOP exercise: eligibility checks, FMV report, share allotment and PAS-3 filing within 30 days, plus cap table updates. Expert help from Rs 14,999.">
-    <meta name="twitter:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

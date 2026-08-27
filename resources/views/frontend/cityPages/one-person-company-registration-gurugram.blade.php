@@ -20,11 +20,11 @@
     <meta property="og:url" content="/one-person-company-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/opc-registration/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="OPC Registration in Gurugram - Process, Fees & Benefits">
     <meta name="twitter:description" content="Register One Person Company (OPC) in Gurugram. Single owner, limited liability, no turnover limit. CA-led SPICe+ filing, RoC Delhi. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/opc-registration/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

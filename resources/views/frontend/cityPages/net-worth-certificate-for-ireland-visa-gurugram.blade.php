@@ -19,11 +19,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-ireland-visa/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-ireland-visa-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate for Ireland Visa 2026: CA Report | Patron Accounting">
     <meta name="twitter:description" content="Net Worth Certificate for Ireland visa by a CA in INR and EUR, with UDIN. Supports proof of funds for the D Study Visa and sponsors. Starting from INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-ireland-visa-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

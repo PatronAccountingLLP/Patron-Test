@@ -19,11 +19,11 @@
     <meta property="og:url" content="/huf-formation-and-pan-application">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/huf-formation-and-pan-application-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HUF Formation and PAN Application 2026 | Patron Accounting">
     <meta name="twitter:description" content="HUF formation with deed drafting and PAN application in India. Separate tax entity with own PAN and ITR. Starting from INR 3,999. Expert CA help.">
-    <meta name="twitter:image" content="/images/huf-formation-and-pan-application-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-opc">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-opc-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for OPC, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Annual compliance for a One Person Company, AOC-4, MGT-7A, audit and KYC, with no AGM and lighter board rules, managed end to end. From INR 4,999 a year.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-opc-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

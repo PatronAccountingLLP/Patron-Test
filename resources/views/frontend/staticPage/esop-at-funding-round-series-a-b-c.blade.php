@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-at-funding-round-series-a-b-c">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-funding-round-series-a-b-c-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP at Funding Round 2026: Series A, B, C Pools | Patron Accounting">
     <meta name="twitter:description" content="ESOP pool top-ups at Series A, B and C: pre-money vs post-money sizing, the option pool shuffle and term-sheet negotiation, structured in India. From Rs 49,999.">
-    <meta name="twitter:image" content="/images/esop-at-funding-round-series-a-b-c-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

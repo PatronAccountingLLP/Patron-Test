@@ -19,11 +19,11 @@
     <meta property="og:url" content="/cross-border-esop-dtaa-implications">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/cross-border-esop-dtaa-implications-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Cross-Border ESOP DTAA Implications 2026 Guide | Patron Accounting">
     <meta name="twitter:description" content="DTAA on cross-border ESOPs: source vs residence tax, foreign tax credit under Section 90 and Form 67, relief at exercise and sale, for India. From Rs 19,999.">
-    <meta name="twitter:image" content="/images/cross-border-esop-dtaa-implications-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

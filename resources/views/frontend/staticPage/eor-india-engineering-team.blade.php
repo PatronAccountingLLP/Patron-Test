@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-engineering-team">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-engineering-team-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR India Engineering Team 2026 | Patron Accounting">
     <meta name="twitter:description" content="Hire engineering teams in India via EOR without entity setup. CA-led PF, ESI, TDS compliance for foreign companies. Starts at Rs 8,000/employee/month.">
-    <meta name="twitter:image" content="/images/eor-india-engineering-team-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

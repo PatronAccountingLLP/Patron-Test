@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/odoo-accounting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/odoo-accounting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Odoo Accounting Services: Fees, Process and Documents | Patron Accounting">
     <meta name="twitter:description" content="Odoo accounting configured against your inventory and manufacturing flow. Save hours every month and stop chasing your own paperwork. See our pricing.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/odoo-accounting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

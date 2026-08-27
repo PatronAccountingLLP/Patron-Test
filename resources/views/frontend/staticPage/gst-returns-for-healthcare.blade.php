@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-healthcare">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-healthcare-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Healthcare 2026: Exempt | Patron Accounting">
     <meta name="twitter:description" content="GST returns for hospitals - Entry 74 exemption, 5% room rent above INR 5000, pharmacy, food, TPA insurance reconciliation. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-healthcare-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

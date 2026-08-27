@@ -8,7 +8,7 @@
     <meta property="og:description" content="Calculate Professional Tax for all Indian states with correct slabs, gender rules, and special months.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/professional-tax-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/professional-tax-calculator/og-image.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Tax Calculator &mdash; State-Wise PT Slabs 2026">
     <meta name="twitter:description" content="Monthly & annual Professional Tax for all Indian states. Gender slabs, special months. Free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/professional-tax-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

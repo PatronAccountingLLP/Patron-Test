@@ -19,11 +19,11 @@
     <meta property="og:url" content="/liaison-office-of-foreign-company-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/liaison-office-of-foreign-company-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Liaison Office of Foreign Company in India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Set up a liaison office of a foreign company in India with RBI approval (Form FNC). Market-exploration only, no income, 3-year validity. From INR 79,999.">
-    <meta name="twitter:image" content="/images/liaison-office-of-foreign-company-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

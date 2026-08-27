@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-disclaimer/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-disclaimer/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Disclaimer in Delhi - Draft, Format & Template">
     <meta name="twitter:description" content="CA-drafted Copyright Disclaimer for Delhi businesses. Website, video, software. Section 52 fair dealing. Nehru Place, Saket. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-disclaimer/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

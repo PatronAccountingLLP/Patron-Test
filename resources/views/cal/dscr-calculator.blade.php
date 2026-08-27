@@ -12,13 +12,13 @@
     <meta property="og:description" content="Compute DSCR per ICAI Schedule III Guidance Note. Bank covenant comparison (1.25 / 1.5 / 2.0), project finance DSCR, sample disclosure format. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/dscr-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/dscr-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DSCR Calculator — Schedule III India FY 2025-26">
     <meta name="twitter:description" content="DSCR with bank covenant benchmarks (1.25 / 1.5 / 2.0), Schedule III disclosure format, project finance views. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/dscr-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

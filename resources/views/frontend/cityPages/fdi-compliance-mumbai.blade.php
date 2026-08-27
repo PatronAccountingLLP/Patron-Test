@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fdi-compliance/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fdi-compliance/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FDI Compliance in Mumbai - FEMA, FC-GPR & FC-TRS">
     <meta name="twitter:description" content="CA-assisted FDI compliance in Mumbai. FC-GPR, FLA return, FEMA reporting, FIRMS portal, AD bank coordination. BKC, Powai, SEEPZ. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fdi-compliance/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

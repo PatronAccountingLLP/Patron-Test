@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-professionals">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-professionals-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Freelancers & Professionals - 44ADA, ITR-4 & TDS">
     <meta name="twitter:description" content="File ITR-3 or ITR-4 for freelance and professional income in 2026. Expert CA support for 44ADA, TDS refund, and tax audit. Starting from Rs. 1,499.">
-    <meta name="twitter:image" content="/images/itr-for-professionals-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

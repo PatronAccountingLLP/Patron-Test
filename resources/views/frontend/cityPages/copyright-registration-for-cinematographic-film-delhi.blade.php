@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-cinematographic-film/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-registration-for-cinematographic-film/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Cinematograph Film in Delhi - OTT & Fees">
     <meta name="twitter:description" content="Register copyright for cinematographic film in Delhi. Rs 5,000 fee. NOC bundle, Form XIV. Serving NFDC, Doordarshan, OTT producers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-registration-for-cinematographic-film/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

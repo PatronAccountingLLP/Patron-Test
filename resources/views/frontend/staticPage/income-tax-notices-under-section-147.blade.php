@@ -21,11 +21,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-147">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notices-under-section-147-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice u/s 147 - Reassessment, Reply & Process">
     <meta name="twitter:description" content="Received IT notice u/s 147 for income escaping assessment? Our CAs handle 148A objections to reassessment proceedings. Starting at INR 3,999.">
-    <meta name="twitter:image" content="/images/income-tax-notices-under-section-147-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

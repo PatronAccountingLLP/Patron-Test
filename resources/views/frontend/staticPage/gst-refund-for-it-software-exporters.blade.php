@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-for-it-software-exporters/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-for-it-software-exporters-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund for IT & Software Exporters — LUT and FIRC">
     <meta name="twitter:description" content="GST refund for IT, SaaS, software exporters under LUT. Circular 161/17/2021 group concern. Finance Act 2026 intermediary fix. FIRC, BSR. Rs 18,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-for-it-software-exporters-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

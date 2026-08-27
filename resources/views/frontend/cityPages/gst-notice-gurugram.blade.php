@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gst-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-notice-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Notice Reply Gurugram - SCN, ASMT, DRC Forms">
     <meta name="twitter:description" content="GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-notice-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

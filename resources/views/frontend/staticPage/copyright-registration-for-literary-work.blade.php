@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-literary-work">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-for-literary-work-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Literary Work - Book, Software & Database">
     <meta name="twitter:description" content="Copyright for literary work in India costs Rs 500 per work under the Copyright Act, 1957. Learn the online registration process, documents, and timeline.">
-    <meta name="twitter:image" content="/images/copyright-for-literary-work-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

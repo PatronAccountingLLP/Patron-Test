@@ -21,11 +21,11 @@
     <meta property="og:url" content="/income-certificate-by-ca/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/income-certificate-by-ca-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Certificate by CA 2026: Format, Uses, Cost | Patron Accounting">
     <meta name="twitter:description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/income-certificate-by-ca-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

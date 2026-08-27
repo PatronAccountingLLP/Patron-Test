@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-vesting-and-forfeiture-tracking">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vesting-and-forfeiture-tracking-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Vesting and Forfeiture Tracking 2026 | Patron Accounting">
     <meta name="twitter:description" content="Ongoing ESOP vesting milestone tracking, forfeiture recording in SH-6, vesting alerts and employee notifications by a CA and CS firm. From Rs 9,999 per year.">
-    <meta name="twitter:image" content="/images/esop-vesting-and-forfeiture-tracking-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

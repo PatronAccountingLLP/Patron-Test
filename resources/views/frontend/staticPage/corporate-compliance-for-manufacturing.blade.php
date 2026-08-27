@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-manufacturing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-manufacturing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for Manufacturing, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Compliance for a manufacturing company, the Factories Act, labour codes, environmental and cost audit overlay on the ROC stack. From INR 14,999 a year.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-manufacturing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-flip-structures/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Reverse-Flip ESOP Migration for IPO-Bound Firms | Patron Accounting">
     <meta name="twitter:description" content="Plan ESOP-safe reverse flips for Mumbai startups bound for SEBI-regulated IPOs, with NCLT scheme of arrangement and Section 47 relief, from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

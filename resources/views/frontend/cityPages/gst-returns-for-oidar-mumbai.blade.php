@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns-for-oidar/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-oidar-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST for OIDAR in Mumbai - Foreign Digital & GSTR-5A">
     <meta name="twitter:description" content="CA-assisted OIDAR GST return filing in Mumbai. GSTR-5A for non-resident providers, GSTR-1/3B for Indian OIDAR. Serving Powai SaaS, Andheri AdTech. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-oidar-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -14,7 +14,7 @@
     <meta property="og:description" content="Pvt Ltd registration Kolkata. SPICe+. RoC Nizam Palace. Rs 7,999. 7-15 days. Call +91 945 945 6700.">
     <meta property="og:url" content="/private-limited-company-registration/kolkata">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pvt-ltd-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')

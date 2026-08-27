@@ -19,11 +19,11 @@
     <meta property="og:url" content="/joint-venture-jv-structure-and-shareholders-agreement">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/joint-venture-jv-structure-and-shareholders-agreement-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Joint Venture (JV) Structure and SHA in India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Form a joint venture in India: equity vs contractual JV, company or LLP structuring and Shareholders Agreement drafting. Premium support. From INR 99,999.">
-    <meta name="twitter:image" content="/images/joint-venture-jv-structure-and-shareholders-agreement-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

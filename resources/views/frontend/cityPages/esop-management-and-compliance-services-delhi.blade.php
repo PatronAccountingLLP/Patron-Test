@@ -21,11 +21,11 @@
     <meta property="og:url" content="/esop-management-and-compliance-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-management-and-compliance-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Management - Vesting, Tax & Cap Table in Delhi | Patron Accounting">
     <meta name="twitter:description" content="CA-led ESOP management in Delhi. Perquisite tax Sec 17(2), vesting tracking, payroll TDS, Ind AS 102, cap table, Sec 80-IAC deferral. Serving CP, Nehru Place, Rohini. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esop-management-and-compliance-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-147/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-notice-147/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT Notice u/s 147 Gurugram - Reassessment & Reply">
     <meta name="twitter:description" content="CA-assisted defence against Section 147/148 reassessment notice in Gurugram. Income escaping, 148A procedure, objection rights, time limits, CIT(A) appeal. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/it-notice-147/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

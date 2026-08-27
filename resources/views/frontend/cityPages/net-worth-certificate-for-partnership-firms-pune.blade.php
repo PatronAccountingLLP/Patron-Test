@@ -20,11 +20,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-partnership-firms/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-for-partnership-firms/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Cert. - Partnership Firms Pune, CA Format">
     <meta name="twitter:description" content="CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/net-worth-certificate-for-partnership-firms/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

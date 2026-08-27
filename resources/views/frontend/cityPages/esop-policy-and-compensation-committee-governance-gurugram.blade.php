@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-policy-and-compensation-committee-governance/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-policy-and-compensation-committee-governance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP & Remuneration Committee Charter Setup | Patron Accounting">
     <meta name="twitter:description" content="Gurugram Cyber City SaaS teams get a Section 178 committee, ESOP and remuneration policy and a board-ready charter, expertly drafted from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-policy-and-compensation-committee-governance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

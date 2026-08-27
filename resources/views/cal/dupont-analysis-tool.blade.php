@@ -12,13 +12,13 @@
     <meta property="og:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step and 5-step DuPont analysis. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/dupont-analysis-tool">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/dupont-analysis-tool.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
     <meta name="twitter:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step + 5-step. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/dupont-analysis-tool.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-llp">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-llp-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for LLP, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Annual compliance for an LLP under the LLP Act, Form 11, Form 8, audit and partner KYC, managed end to end. Distinct from company filings. From INR 7,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-llp-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

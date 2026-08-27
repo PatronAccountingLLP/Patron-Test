@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-deeptech-aiml/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Plans for Deeptech and AI/ML Startups | Patron Accounting">
     <meta name="twitter:description" content="Build a Gurugram ESOP for enterprise-SaaS and AI/ML teams - milestone vesting, IP-creator pool and 80-IAC tax deferral, scheme design from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

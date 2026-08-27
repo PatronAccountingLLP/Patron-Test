@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pas-3-return-of-allotment">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/pas-3-return-of-allotment-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PAS-3 Return of Allotment Filing 2026 | Patron Accounting">
     <meta name="twitter:description" content="File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/pas-3-return-of-allotment-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/trademark-rectification">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-rectification-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Rectification - Process, Grounds & TM-O Filing">
     <meta name="twitter:description" content="Trademark rectification under Sections 47 and 57 of Trade Marks Act 1999. Form TM-O. Non-use, error, fraud grounds. Registrar or High Court. Expert help.">
-    <meta name="twitter:image" content="/images/trademark-rectification-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

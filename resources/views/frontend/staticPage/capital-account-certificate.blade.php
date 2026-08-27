@@ -19,11 +19,11 @@
     <meta property="og:url" content="/capital-account-certificate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/capital-account-certificate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Capital Account Certificate ECB 2026 | Patron Accounting">
     <meta name="twitter:description" content="Capital account certificate for ECB and FEMA - CA-certified Form ECB-2 and capital account transaction reporting, with UDIN. From INR 2,499 (Exl GST).">
-    <meta name="twitter:image" content="/images/capital-account-certificate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

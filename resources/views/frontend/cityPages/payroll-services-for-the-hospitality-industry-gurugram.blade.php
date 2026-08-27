@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-the-hospitality-industry/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-hospitality/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hotel & Restaurant Payroll Gurugram - Tips, PF & ESI">
     <meta name="twitter:description" content="CA-led payroll for hotels and restaurants in Gurugram. Service charge, tips, shifts, PF/ESI, seasonal staff. Cyber Hub, Sector 29, NH-8 hotels. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-hospitality/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gstr-4-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-4-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTR-4 Filing 2026: Composition Annual | Patron Accounting">
     <meta name="twitter:description" content="Annual GSTR-4 return filing for composition dealers by 30 June under Notification 12/2024-CT. Consolidates CMP-08. Starting at Rs 1,499 per year.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gstr-4-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

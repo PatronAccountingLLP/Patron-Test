@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-dramatic-work">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-for-dramatic-work-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Dramatic Work - Script, Play & Choreography">
     <meta name="twitter:description" content="Register copyright for dramatic works in India from Rs 499. Covers plays, scripts, choreography under Section 2(h) of the Copyright Act, 1957.">
-    <meta name="twitter:image" content="/images/copyright-for-dramatic-work-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

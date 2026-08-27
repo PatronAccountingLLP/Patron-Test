@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tan-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tan-registration/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TAN Registration in Mumbai - Form 49B, Process & Fees">
     <meta name="twitter:description" content="CA-assisted TAN registration in Mumbai. Form 49B, correct AO code. TDS return filing, TRACES setup. Bundled with PAN, GST. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tan-registration/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

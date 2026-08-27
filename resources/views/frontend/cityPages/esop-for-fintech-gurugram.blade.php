@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-fintech/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-fintech-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram Fintech ESOP Plans for Cyber City SaaS Teams | Patron Accounting">
     <meta name="twitter:description" content="ESOP scheme design for Gurugram and Cyber City enterprise-SaaS fintechs, covering NBFC compensation rules and RoC Delhi filings, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-fintech-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

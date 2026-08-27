@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-startup-tds-deferral-section-192-1c/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-startup-tds-deferral-section-192-1c-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP TDS Deferral, Section 192(1C) Startups | Patron Accounting">
     <meta name="twitter:description" content="Cyber City enterprise-SaaS startups can defer ESOP TDS to the earliest of 48 months, sale, or exit under Section 192(1C). Expert structuring from Rs 14,999.">
-    <meta name="twitter:image" content="/images/esop-startup-tds-deferral-section-192-1c-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

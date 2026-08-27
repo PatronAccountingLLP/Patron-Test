@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-in-authorised-capital/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-authorised-capital/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Authorised Capital Change Mumbai - SH-7 & MGT-14">
     <meta name="twitter:description" content="CA-assisted authorised capital change in Mumbai. Form SH-7, MOA alteration, ROC fees, Maharashtra stamp duty. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-in-authorised-capital/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

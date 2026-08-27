@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-directors-fit-and-proper/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NWC Director Fit and Proper Gurugram 2026 | Patron">
     <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-directors-fit-and-proper/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

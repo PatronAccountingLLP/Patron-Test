@@ -20,11 +20,11 @@
     <meta property="og:url" content="/quickbooks-accounting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/quickbooks-accounting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="QuickBooks Accounting Services India - Setup & Migration">
     <meta name="twitter:description" content="Expert QuickBooks accounting for businesses in India. CA-managed bookkeeping, GST compliance, payroll and MIS on QuickBooks Online. From Rs. 1,500/month.">
-    <meta name="twitter:image" content="/images/quickbooks-accounting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

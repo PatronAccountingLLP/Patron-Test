@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-classification-and-hsn-sac-advisory">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-classification-and-hsn-sac-advisory-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HSN/SAC Classification Advisory 2026 | Patron Accounting">
     <meta name="twitter:description" content="Expert HSN/SAC classification opinion and GST rate determination by CA/CS to defuse rate disputes, demand notices, and ITC risk. Starting from INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-classification-and-hsn-sac-advisory-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

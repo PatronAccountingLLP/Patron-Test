@@ -20,11 +20,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/hospitality-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/hospitality-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hotel & Restaurant Accounting in Mumbai - POS, OTA & GST">
     <meta name="twitter:description" content="CA-led hotel and restaurant accounting in Mumbai. GST compliance, ITC Rule 42, F&B costing for Colaba, BKC, Andheri, Bandra outlets. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/hospitality-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

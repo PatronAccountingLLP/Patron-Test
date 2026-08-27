@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-investment-advisors/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf/investment-advisors-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Investment Advisors: Add Insurance Legally">
     <meta name="twitter:description" content="SEBI RIAs cannot earn insurance commission directly. Set up a compliant IRDAI IMF in Gurugram to add insurance revenue - eligibility, cost, timeline.">
-    <meta name="twitter:image" content="/images/imf/investment-advisors-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

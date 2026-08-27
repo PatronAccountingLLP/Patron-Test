@@ -20,11 +20,11 @@
     <meta property="og:url" content="/convert-partnership-to-llp/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/partnership-to-llp-conversion/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Partnership to LLP Mumbai – Form 17 &amp; FiLLiP">
     <meta name="twitter:description" content="CA-assisted partnership to LLP conversion in Mumbai. Section 55, Form 17, FiLLiP, Form 3, tax neutral, limited liability. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/partnership-to-llp-conversion/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

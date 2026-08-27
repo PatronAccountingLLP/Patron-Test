@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-vs-g-p">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-vs-g-p-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="G-P Alternative India 2026: CA-Led EOR Service | Patron">
     <meta name="twitter:description" content="G-P EOR India lists at $800+ per employee per month. Patron Accounting LLP offers India compliance depth at mid-market CA-led pricing.">
-    <meta name="twitter:image" content="/images/eor-india-vs-g-p-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/odoo-accounting/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/odoo-accounting/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Odoo Accounting in Delhi - Setup, Training & ERP">
     <meta name="twitter:description" content="CA-led Odoo accounting in Delhi. GST l10n_in setup, e-invoicing, GSTR filing, TDS configuration, multi-branch ERP. Serving Okhla, Nehru Place, Rohini. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/odoo-accounting/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

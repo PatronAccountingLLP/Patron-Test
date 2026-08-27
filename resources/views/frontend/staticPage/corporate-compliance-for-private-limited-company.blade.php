@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-private-limited-company">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-private-limited-company-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for Private Limited Co, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Complete corporate compliance for a private limited company, AOC-4, MGT-7, audit, board meetings, KYC and event filings, managed end to end. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-private-limited-company-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-bank-employees-retirees/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Bank Employees and Retirees: Eligibility & Setup">
     <meta name="twitter:description" content="Retired banker? Use your finance experience to start an IRDAI Insurance Marketing Firm from INR 24,999 (Exl GST). Eligibility, documents and setup explained.">
-    <meta name="twitter:image" content="/images/imf-services/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

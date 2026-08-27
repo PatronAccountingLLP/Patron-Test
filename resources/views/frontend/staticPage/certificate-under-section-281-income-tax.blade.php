@@ -19,11 +19,11 @@
     <meta property="og:url" content="/certificate-under-section-281-income-tax">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/certificate-under-section-281-income-tax-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 281 Income Tax Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="Certificate under Section 281 of the Income Tax Act - CA-assisted NOC and Form 34A for property transfer with pending tax dues. From INR 4,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/certificate-under-section-281-income-tax-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

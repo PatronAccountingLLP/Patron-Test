@@ -21,11 +21,11 @@
     <meta property="og:url" content="/change-in-authorised-capital">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-authorised-capital-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Change in Authorised Capital - ROC Process, Fees & SH-7 Form">
     <meta name="twitter:description" content="Increase your company's authorised capital in India in 2026. File Form SH-7 and MGT-14 with ROC under Section 61. CA and CS service starting at INR 3,999.">
-    <meta name="twitter:image" content="/images/change-in-authorised-capital-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

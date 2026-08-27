@@ -8,7 +8,7 @@
     <meta property="og:description" content="Calculate gratuity payout per Payment of Gratuity Act using the 15/26 formula. Check eligibility and tax exemption.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/gratuity-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/gratuity-calculator/og-image.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gratuity Calculator India &mdash; Eligibility & Payout 2026">
     <meta name="twitter:description" content="Gratuity payout calculator per Payment of Gratuity Act 1972. 15/26 formula. Try now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/gratuity-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

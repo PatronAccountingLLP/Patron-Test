@@ -20,11 +20,11 @@
     <meta property="og:url" content="/form-10b-audit-report-section-12a-trust/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/form-10b-audit-report-section-12a-trust-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Form 10B Audit Report for Section 12A Trusts | Patron">
     <meta name="twitter:description" content="Form 10B audit report for Section 12A/12AB trusts: when it applies vs Form 10BB, the Rs 5 crore threshold, due date and non-filing consequences. Expert CA help.">
-    <meta name="twitter:image" content="/images/form-10b-audit-report-section-12a-trust-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

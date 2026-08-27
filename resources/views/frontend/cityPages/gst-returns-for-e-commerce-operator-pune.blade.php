@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gst-returns-for-e-commerce-operator/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-ecommerce-operator/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for E-Commerce in Pune – GSTR-8 &amp; TCS">
     <meta name="twitter:description" content="CA-assisted GSTR-8 and TCS compliance for e-commerce operators in Pune. Monthly return by 10th, TCS at 0.5%. Serving Hinjewadi, Kharadi, Pimpri-Chinchwad platforms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-ecommerce-operator/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

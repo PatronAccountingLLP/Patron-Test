@@ -14,7 +14,7 @@
     <meta property="og:description" content="LLP registration Kolkata. RoC Nizam Palace. Rs 7,499. 10-15 days. Call +91 945 945 6700.">
     <meta property="og:url" content="/llp-incorporation/kolkata">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-incorporation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')

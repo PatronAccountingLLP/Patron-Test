@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-audit/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-audit/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Audit in Delhi – GSTR-9C, Reconciliation &amp; ₹5Cr">
     <meta name="twitter:description" content="CA-assisted GST audit services in Delhi. GSTR-9C reconciliation, Section 65 departmental audit defence. Multi-GSTIN NCR expertise. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-audit/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

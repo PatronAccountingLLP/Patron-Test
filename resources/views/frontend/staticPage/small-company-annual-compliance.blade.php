@@ -20,11 +20,11 @@
     <meta property="og:url" content="/small-company-annual-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/small-company-annual-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Small Company Annual Compliance 2026 | Patron Accounting">
     <meta name="twitter:description" content="Small company annual compliance package for FY 2025-26 in India. ROC filings (MGT-7A, AOC-4, ADT-1), audit, ITR, statutory registers. Starts at Rs 35,000.">
-    <meta name="twitter:image" content="/images/small-company-annual-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

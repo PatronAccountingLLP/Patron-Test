@@ -9,14 +9,14 @@
     <meta property="og:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility check, audit triggers, regime comparison for FY 2025-26.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/section-44ada-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/section-44ada-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 44ADA Calculator — Presumptive Tax FY 2025-26">
     <meta name="twitter:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility, audit triggers, regime comparison.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/section-44ada-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">

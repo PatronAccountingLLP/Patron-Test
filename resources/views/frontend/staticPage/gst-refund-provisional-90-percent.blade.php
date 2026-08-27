@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-provisional-90-percent/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-provisional-90-percent-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST 90 Percent Provisional Refund — Section 54(6) Rule 91">
     <meta name="twitter:description" content="Section 54(6) + Rule 91 90 percent provisional GST refund. 7-day timeline. Zero-rated and inverted duty. CGST Instruction 6/2025. Rs 8,000+ fees.">
-    <meta name="twitter:image" content="/images/gst-refund-provisional-90-percent-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -22,11 +22,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-visa/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-visa-mumbai.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Visa Certificates for Mumbai Consulates">
     <meta name="twitter:description" content="BKC and Nariman Point missions, business and sponsored files, certified locally.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-visa-mumbai.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

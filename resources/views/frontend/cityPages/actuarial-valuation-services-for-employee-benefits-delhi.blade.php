@@ -20,11 +20,11 @@
     <meta property="og:url" content="/actuarial-valuation-services-for-employee-benefits/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/Actuarial-valuation/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Actuarial Valuation in Delhi - AS 15 & Ind AS 19 Reports">
     <meta name="twitter:description" content="CA-led actuarial valuation in Delhi. Gratuity, leave encashment, pension under AS 15, Ind AS 19. Social Security Code 2020 impact. Serving CP, Okhla, Rohini. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/Actuarial-valuation/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

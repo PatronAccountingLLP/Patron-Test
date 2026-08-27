@@ -19,11 +19,11 @@
     <meta property="og:url" content="/nbfc-registration-rbi-applicability-and-process">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/nbfc-registration-rbi-applicability-and-process-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NBFC Registration with RBI 2026: Process and NOF | Patron Accounting">
     <meta name="twitter:description" content="NBFC registration with RBI under Section 45-IA: CoR, INR 10 crore NOF, SBR layers and the full process. Premium specialised support. From INR 4,99,999.">
-    <meta name="twitter:image" content="/images/nbfc-registration-rbi-applicability-and-process-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

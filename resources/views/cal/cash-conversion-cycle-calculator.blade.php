@@ -12,13 +12,13 @@
     <meta property="og:description" content="Compute CCC, DIO, DSO, DPO per ICAI Schedule III. Industry benchmarks, MSMED Act 45-day rule check, working capital impact. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/cash-conversion-cycle-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Cash Conversion Cycle Calculator — Schedule III FY 2025-26">
     <meta name="twitter:description" content="CCC = DIO + DSO − DPO with Schedule III ratios, MSMED Act check, working capital impact. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/cash-conversion-cycle-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

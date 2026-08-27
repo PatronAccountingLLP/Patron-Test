@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-infringement/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-infringement/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Infringement Delhi NCR – Suit &amp; Damages">
     <meta name="twitter:description" content="Facing trademark infringement in Delhi? Civil suits, criminal complaints, Customs enforcement. Delhi HC IP jurisdiction. Patron Accounting +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-infringement/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

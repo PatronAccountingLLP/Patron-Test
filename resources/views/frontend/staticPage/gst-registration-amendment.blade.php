@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-registration-amendment">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-registration-amendment-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Registration Amendment 2026: REG-14 | Patron Accounting">
     <meta name="twitter:description" content="Amend GST registration through Form REG-14 for address, partner, signatory and trade name changes. Core fields need officer approval. Starting at Rs 999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-registration-amendment-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

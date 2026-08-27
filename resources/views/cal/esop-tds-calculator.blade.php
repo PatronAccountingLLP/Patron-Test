@@ -10,13 +10,13 @@
 <meta property="og:description" content="Compute the employer's Section 192 TDS on the ESOP perquisite at exercise using the average rate of tax, and the Section 192(1C) startup deferral trigger date.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tds-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-tds-calculator-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP TDS Calculator — Section 192 on Perquisite 2026">
 <meta name="twitter:description" content="Employer's Section 192 TDS on the ESOP perquisite at exercise, plus the 192(1C) startup deferral trigger date. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-tds-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

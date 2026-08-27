@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tds-return-filing/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tds-return-filing-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS Return Filing (24Q) Delhi NCR – Salary TDS &amp; Form 16">
     <meta name="twitter:description" content="TDS return filing in Delhi. Form 24Q salary + 26Q non-salary. Quarterly by 31 Jul/Oct/Jan/May. Form 16 by 15 Jun. TRACES. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tds-return-filing-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

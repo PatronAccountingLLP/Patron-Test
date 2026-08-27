@@ -11,7 +11,7 @@
     <meta property="og:description" content="IMF services in Mumbai, Maharashtra. IRDAI Insurance Marketing Firm setup, Principal Officer &amp; ISP certification, returns and renewals by CAs. From INR 24,999.">
     <meta property="og:url" content="/imf-services/mumbai">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/images/og/imf-services-og.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting LLP">
@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF Services in Mumbai: IRDAI Setup &amp; Compliance">
     <meta name="twitter:description" content="IMF services in Mumbai, Maharashtra. IRDAI Insurance Marketing Firm setup, certification, returns and renewals by CAs. From INR 24,999.">
-    <meta name="twitter:image" content="/images/og/imf-services-og.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:site" content="@patronaccounting">
 
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">

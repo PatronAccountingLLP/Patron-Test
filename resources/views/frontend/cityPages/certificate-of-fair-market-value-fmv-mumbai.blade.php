@@ -21,11 +21,11 @@
     <meta property="og:url" content="/certificate-of-fair-market-value-fmv/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/certificate-of-fair-market-value-fmv-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Certificate of Fair Market Value 2026: Rule 11UA | Patron Accounting">
     <meta name="twitter:description" content="CA certificate of fair market value of unquoted shares under Rule 11UA, for Section 50CA, 56(2)(x), ESOP and FEMA use. UDIN-verified. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/certificate-of-fair-market-value-fmv-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

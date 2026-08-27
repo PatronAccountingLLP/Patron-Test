@@ -20,11 +20,11 @@
     <meta property="og:url" content="/statutory-audit-private-limited-company">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-private-limited-company-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Statutory Audit 2026: Sec 139 | Patron Accounting">
     <meta name="twitter:description" content="Pvt Ltd statutory audit under Section 139 Companies Act 2013. First auditor 30 days, ADT-1, CARO 2020, IFC rules. Fixed-fee from Rs 35,000.">
-    <meta name="twitter:image" content="/images/statutory-audit-private-limited-company-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

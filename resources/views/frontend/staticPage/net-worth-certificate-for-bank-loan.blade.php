@@ -22,11 +22,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-bank-loan.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Net Worth Certificate Credit Teams Ask For">
     <meta name="twitter:description" content="Prepared for credit appraisal, covering guarantors, co-applicants and joint owners the way lenders expect.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-bank-loan.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

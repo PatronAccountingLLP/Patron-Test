@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Return Filing in Mumbai - GSTR-1, 3B & ITC">
     <meta name="twitter:description" content="CA-assisted GST return filing in Mumbai. GSTR-1, GSTR-3B, QRMP monthly and quarterly filings. Serving BKC, Andheri MIDC, SEEPZ. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

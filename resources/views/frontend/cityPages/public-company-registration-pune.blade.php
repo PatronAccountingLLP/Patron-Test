@@ -20,11 +20,11 @@
     <meta property="og:url" content="/public-company-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/public-limited-company-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Public Limited Company Registration in Pune - Fees & ROC">
     <meta name="twitter:description" content="CA-assisted public limited company registration in Pune. 7 members, 3 directors, company secretary, statutory audit - all handled. Serving Hinjewadi, Kharadi, PCMC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/public-limited-company-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/income-tax-demand-under-section-156">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-demand-under-section-156-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Demand u/s 156 - Notice & Reply">
     <meta name="twitter:description" content="Received an income tax demand notice under Section 156? Know what it means, how to respond in 30 days, and options to dispute. Starting at INR 2,999.">
-    <meta name="twitter:image" content="/images/income-tax-demand-under-section-156-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

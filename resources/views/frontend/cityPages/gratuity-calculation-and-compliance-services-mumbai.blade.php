@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gratuity-calculation-and-compliance-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gratuity-calculations-compliance-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gratuity Calculation in Mumbai - Formula & 5-Year Rule">
     <meta name="twitter:description" content="CA-assisted gratuity calculation and compliance in Mumbai. Payment of Gratuity Act, new labour codes, fixed-term eligibility. Serving BKC, Powai, MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gratuity-calculations-compliance-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

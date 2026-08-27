@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tally-to-zoho-migration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-zoho/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to Zoho Migration in Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-zoho/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

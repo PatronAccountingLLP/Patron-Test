@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-tally-to-quickbooks/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-quickbooks/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to QuickBooks Migration Delhi 2026 | Patron Accounting">
     <meta name="twitter:description" content="Move from Tally to QuickBooks Online in Delhi from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Nehru Place and Okhla firms.">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-quickbooks/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

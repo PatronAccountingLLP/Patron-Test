@@ -20,11 +20,11 @@
     <meta property="og:url" content="/internal-financial-controls-audit">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/internal-financial-controls-audit-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Internal Financial Controls Audit 2026 - Sec 143 | Patron">
     <meta name="twitter:description" content="Complete IFC audit guide under Sec 143(3)(i) - COSO 2013 framework, RCM, Test of Design and Operating Effectiveness, common deficiencies, Patron methodology.">
-    <meta name="twitter:image" content="/images/internal-financial-controls-audit-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

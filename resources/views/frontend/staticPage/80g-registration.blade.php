@@ -20,11 +20,11 @@
     <meta property="og:url" content="/80g-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/80g-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="80G Registration for NGOs - Form 10A & Donor Tax Deduction">
     <meta name="twitter:description" content="80G registration enables donors to claim 50% tax deduction on donations to your NGO. CA-managed Form 10A filing from INR 7,499. No government fee.">
-    <meta name="twitter:image" content="/images/80g-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iec-registration/chennai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/import-export-code/chennai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IEC Registration in Chennai – DGFT Process, Fees &amp; Export">
     <meta name="twitter:description" content="CA-assisted IEC import export code registration in Chennai via DGFT. Lifetime validity. Serving MEPZ, Chennai Port, OMR exporters. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/import-export-code/chennai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

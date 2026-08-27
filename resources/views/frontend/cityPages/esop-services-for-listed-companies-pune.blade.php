@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-services-for-listed-companies/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-services-for-listed-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP SBEB Compliance for Listed Tech Companies | Patron Accounting">
     <meta name="twitter:description" content="End-to-end SEBI SBEB ESOP compliance for Pune-listed IT and SaaS firms: scheme design, approvals, Regulation 9A, LODR disclosure and reporting. On quote.">
-    <meta name="twitter:image" content="/images/esop-services-for-listed-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

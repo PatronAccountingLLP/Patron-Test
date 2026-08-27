@@ -19,11 +19,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-ireland-visa">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-for-ireland-visa-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate Ireland Visa 2026 | Patron Accounting">
     <meta name="twitter:description" content="Net worth certificate for Ireland visa - CA-certified, dual-currency INR and EUR with UDIN, supports Stamp 2 evidence of funds. From INR 1,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/net-worth-certificate-for-ireland-visa-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

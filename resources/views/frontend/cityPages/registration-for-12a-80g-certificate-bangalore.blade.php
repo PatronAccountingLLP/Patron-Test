@@ -20,11 +20,11 @@
     <meta property="og:url" content="/registration-for-12a-80g-certificate/bangalore">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/80g-registration/bengaluru-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A &amp; 80G Registration in Bangalore – Form 10A &amp; NGO Tax">
     <meta name="twitter:description" content="CA-assisted 80G registration in Bangalore. Donor tax exemption for NGOs, trusts, Section 8 companies. Serving Electronic City, Whitefield, Manyata nonprofits. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/80g-registration/bengaluru-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

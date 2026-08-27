@@ -12,13 +12,13 @@
     <meta property="og:description" content="Compute 30+ financial ratios in one dashboard. Schedule III mandatory ratios tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-ratios-dashboard">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/financial-ratios-dashboard.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
     <meta name="twitter:description" content="30+ ratios in one dashboard. Schedule III tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/financial-ratios-dashboard.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

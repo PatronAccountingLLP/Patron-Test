@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-security-agencies/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-security-agencies/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Security Agency Payroll Gurugram - ESIC, PF & Register">
     <meta name="twitter:description" content="CA-led payroll for security agencies in Gurugram. Guard shifts, PF/ESI, VDA minimum wages, PSARA compliance, client billing. Cyber City, residential. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-security-agencies/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

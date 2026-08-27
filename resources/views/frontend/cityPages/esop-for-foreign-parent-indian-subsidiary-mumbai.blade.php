@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-foreign-parent-indian-subsidiary/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-foreign-parent-indian-subsidiary-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Cross-Border RSU & ESOP Tax for Subsidiaries | Patron Accounting">
     <meta name="twitter:description" content="From BKC to Powai, we handle foreign parent ESOP perquisite TDS, transfer pricing recharge and Schedule FA filing for Mumbai subsidiaries from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-foreign-parent-indian-subsidiary-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

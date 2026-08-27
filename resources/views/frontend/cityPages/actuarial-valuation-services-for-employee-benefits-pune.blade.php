@@ -20,11 +20,11 @@
     <meta property="og:url" content="/actuarial-valuation-services-for-employee-benefits/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-actuarial-valuation-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Actuarial Valuation in Pune - AS 15 & Ind AS 19 Reports">
     <meta name="twitter:description" content="CA-assisted payroll services for actuarial valuation in Pune. Gratuity, leave and pension valuations under AS 15 and Ind AS 19. Serving Hinjewadi, Kharadi, Chakan businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-actuarial-valuation-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

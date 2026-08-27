@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/migration-from-tally-to-zoho">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/migration-from-tally-to-zoho-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to Zoho Books Migration Services: How It Works | Patron Accounting">
     <meta name="twitter:description" content="Masters, balances and history moved - not just an opening trial balance. Save hours every month and stop chasing your own paperwork. See our pricing.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/migration-from-tally-to-zoho-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

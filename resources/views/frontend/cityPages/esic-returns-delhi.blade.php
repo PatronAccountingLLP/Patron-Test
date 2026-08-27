@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esic-returns/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esic-return/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESIC Return Filing in Delhi – Process, Due Date &amp; Fees">
     <meta name="twitter:description" content="ESIC return filing in Delhi. Half-yearly by 11 Nov & 11 May. Monthly by 15th. Self-certification. CA certificate for 40+ staff. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esic-return/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

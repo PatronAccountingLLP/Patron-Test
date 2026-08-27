@@ -20,11 +20,11 @@
     <meta property="og:url" content="/transfer-of-shares">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/transfer-of-shares-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Transfer of Shares - SH-4, Stamp Duty, Process & Valuation">
     <meta name="twitter:description" content="Transfer shares via Form SH-4 under Section 56 Companies Act 2013. Stamp duty at 0.015%, board approval, and new certificate within 1 month. From INR 2,999.">
-    <meta name="twitter:image" content="/images/transfer-of-shares-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

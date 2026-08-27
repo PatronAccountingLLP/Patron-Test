@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-registration/chennai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-registration/chennai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Registration in Chennai – Online Process, Fees &amp; GSTIN">
     <meta name="twitter:description" content="CA-assisted GST registration in Chennai. Free govt portal filing for GSTIN. Regular and composition scheme. Serving OMR, T. Nagar, MEPZ businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-registration/chennai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

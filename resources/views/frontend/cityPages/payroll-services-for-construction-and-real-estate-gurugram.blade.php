@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-construction-and-real-estate/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-construction-and-real-estate/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Construction & Real Estate Accounting Gurugram - RERA & GST">
     <meta name="twitter:description" content="CA-led payroll for construction and real estate in Gurugram. BOCW cess, EPF/ESI, contractor compliance, Haryana wages. Dwarka Expressway, New Gurugram. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-construction-and-real-estate/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

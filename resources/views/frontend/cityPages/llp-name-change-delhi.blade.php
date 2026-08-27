@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-name-change/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-name-change-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Name Change Delhi NCR – Form 5, RUN-LLP &amp; ROC">
     <meta name="twitter:description" content="LLP name change in Delhi. RUN-LLP name reservation. Form 5 within 30 days. Fresh certificate. PAN GST bank updates. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-name-change-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

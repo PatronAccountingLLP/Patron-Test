@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-crypto-traders/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-crypto-traders-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Crypto Income Delhi NCR – 115BBH, 30% &amp; VDA">
     <meta name="twitter:description" content="Crypto ITR filing in Delhi. 30% flat tax S.115BBH. 1% TDS S.194S. Schedule VDA. No loss set-off. Exchange data import. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-crypto-traders-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

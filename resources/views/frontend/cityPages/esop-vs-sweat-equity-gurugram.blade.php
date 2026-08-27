@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-sweat-equity/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-sweat-equity-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP vs Sweat Equity: Decode Section 62 & 54 | Patron Accounting">
     <meta name="twitter:description" content="For Gurugram startups: ESOPs grant Section 62 options; sweat equity issues real Section 54 shares to promoters. Read our free guide to pick the right one.">
-    <meta name="twitter:image" content="/images/esop-vs-sweat-equity-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

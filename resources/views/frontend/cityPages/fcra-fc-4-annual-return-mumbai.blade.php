@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fcra-fc-4-annual-return/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fcra-fc-4-annual-return-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FCRA Annual Return (Form FC-4): Due Date & Filing Guide">
     <meta name="twitter:description" content="File FCRA Form FC-4 by 31 December every year. Learn the nil return rule, CA certificate, attachments and late-filing penalty. Expert CA help.">
-    <meta name="twitter:image" content="/images/fcra-fc-4-annual-return-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-mutual-fund-distributors/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/mutual-fund-distributors-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Mutual Fund Distributors: ARN to Insurance">
     <meta name="twitter:description" content="Mutual fund distributor in Pune? Add insurance + MF + pension under one IRDAI Insurance Marketing Firm. Eligibility, net worth, docs & cost from INR 24,999.">
-    <meta name="twitter:image" content="/images/imf-services/mutual-fund-distributors-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

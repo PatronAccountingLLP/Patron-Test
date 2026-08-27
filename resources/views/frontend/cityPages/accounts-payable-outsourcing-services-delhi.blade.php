@@ -20,11 +20,11 @@
     <meta property="og:url" content="/accounts-payable-outsourcing-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounts-payable-outsourcing-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounts Payable Outsourcing Delhi 2026 | Patron Accounting">
     <meta name="twitter:description" content="Delhi accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and sign-off-ready vendor payouts.">
-    <meta name="twitter:image" content="/images/accounts-payable-outsourcing-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

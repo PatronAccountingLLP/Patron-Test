@@ -21,11 +21,11 @@
     <meta property="og:url" content="/shop-act-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/shop-act-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Shop Act Registration - Gumasta License, Process & Documents">
     <meta name="twitter:description" content="Apply for Shop and Establishment Act registration online. Gumasta licence for shops, offices, restaurants. Fees Rs 500-5,000. State labour department.">
-    <meta name="twitter:image" content="/images/shop-act-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

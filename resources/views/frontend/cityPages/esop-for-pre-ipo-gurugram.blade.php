@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-pre-ipo/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram Pre-IPO ESOP: Trust Setup & Grant Cleanup">
     <meta name="twitter:description" content="Cyber City enterprise-SaaS firms get ESOP trust route setup, legacy grant cleanup and SEBI SBEB 2021 conversion for a confident IPO run, priced from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

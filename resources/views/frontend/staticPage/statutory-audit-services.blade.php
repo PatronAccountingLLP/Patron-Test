@@ -21,11 +21,11 @@
     <meta property="og:url" content="/statutory-audit-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Statutory Audit Firm 2026: CARO 2020 - Patron | Patron Accounting">
     <meta name="twitter:description" content="Statutory audit services under Section 139 Companies Act 2013. CARO 2020 reporting, ICAI SA-compliant methodology, senior CA review. Patron from Rs 35,000.">
-    <meta name="twitter:image" content="/images/statutory-audit-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

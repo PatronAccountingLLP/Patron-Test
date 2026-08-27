@@ -20,11 +20,11 @@
     <meta property="og:url" content="/restore-struck-off-company-mca">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/restore-struck-off-company-mca-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Restore Struck-Off Company NCLT 2026 | Patron Accounting">
     <meta name="twitter:description" content="Revive your struck-off company via NCLT under Section 252(3) within 20 years. Form NCLT-9, INC-28. 4 to 12 month timeline. Patron from Rs 75,000.">
-    <meta name="twitter:image" content="/images/restore-struck-off-company-mca-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

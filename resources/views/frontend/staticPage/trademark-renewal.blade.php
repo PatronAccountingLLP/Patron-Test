@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-renewal">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-renewal-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Renewal in India - Process, Fees & 10-Year Rule">
     <meta name="twitter:description" content="Renew your trademark every 10 years under Section 25 of the Trade Marks Act, 1999. File Form TM-R online. Govt fee Rs 9,000 per class.">
-    <meta name="twitter:image" content="/images/trademark-renewal-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

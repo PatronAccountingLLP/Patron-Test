@@ -20,11 +20,11 @@
     <meta property="og:url" content="/zoho-books-accounting/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/zoho-books-accounting/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zoho Books Accounting in Mumbai - Setup & Integration">
     <meta name="twitter:description" content="CA-assisted Zoho Books accounting in Mumbai. GST-ready setup, migration and bookkeeping. Serving BKC, Andheri MIDC, SEEPZ businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/zoho-books-accounting/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

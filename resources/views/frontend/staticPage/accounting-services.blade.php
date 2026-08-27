@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting Services in India for Indian Businesses | Patron Accounting">
     <meta name="twitter:description" content="Books that close, not books that lag - month-end shut on a fixed date. Save hours every month and stop chasing your own paperwork. Request a proposal.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

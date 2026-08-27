@@ -20,11 +20,11 @@
     <meta property="og:url" content="/company-closure/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-closure/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Closure Gurugram - Strike Off & STK-2 Form">
     <meta name="twitter:description" content="CA/CS-assisted company closure in Gurugram. Section 248 strike off, STK-2, winding up, ROC Haryana. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/company-closure/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-excess-cash-ledger/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-excess-cash-ledger-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund of Excess Cash Ledger Balance — Sec 49(6)">
     <meta name="twitter:description" content="Claim excess cash ledger refund under Section 49(6). No 2-year limit. No unjust enrichment. Form RFD-01. TDS, TCS, overpayment recovery. Rs 6,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-excess-cash-ledger-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/migration-from-tally-to-quickbooks">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-quickbooks-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to QuickBooks Migration 2026 | Patron Accounting">
     <meta name="twitter:description" content="Tally to QuickBooks migration for global editions - CA-led chart of accounts mapping, opening balances, and ledger reconciliation. From INR 9,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-quickbooks-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

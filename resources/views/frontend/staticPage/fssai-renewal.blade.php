@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-renewal">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-renewal-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI License Renewal - Process, Fees & Deadline Rules">
     <meta name="twitter:description" content="Renew your FSSAI licence online via FoSCoS portal. Fees from Rs 100/year (Basic) to Rs 7,500/year (Central). Late fee Rs 100/day. Apply 30 days before expiry.">
-    <meta name="twitter:image" content="/images/fssai-renewal-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

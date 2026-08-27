@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-tds-section-192-and-form-24q">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP TDS 2026: Section 192 and Form 24Q for Employers | Patron Accounting">
     <meta name="twitter:description" content="Employers deduct TDS on the ESOP perquisite at slab rate under Section 192 and report it in Form 24Q. Expert filing from Rs 4,999 per quarter.">
-    <meta name="twitter:image" content="/images/esop-tds-section-192-and-form-24q-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

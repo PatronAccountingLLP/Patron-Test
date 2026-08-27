@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-143-3/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-notice-section-143-3/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice u/s 143(3) Mumbai – Scrutiny &amp; Reply">
     <meta name="twitter:description" content="CA-assisted scrutiny assessment Section 143(3) in Mumbai. Notice 143(2), faceless assessment, additions, appeal to CIT(A). Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/it-notice-section-143-3/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-services-for-family-business">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Services for Family Business 2026: Succession | Patron Accounting">
     <meta name="twitter:description" content="ESOPs to retain non-family executives plus sweat equity for family: a hybrid that keeps family ownership while professionalising management. From Rs 24,999.">
-    <meta name="twitter:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

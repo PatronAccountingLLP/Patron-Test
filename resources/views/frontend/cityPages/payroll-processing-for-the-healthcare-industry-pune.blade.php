@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-processing-for-the-healthcare-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-healthcare-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hospital & Clinic Payroll in Pune - PF, ESI, TDS & Shifts">
     <meta name="twitter:description" content="CA-assisted payroll for hospitals and clinics in Pune. Shift differential, PF, ESIC, PT compliance for doctors, nurses, and paramedics. Serving Sassoon Road, Kothrud, Hadapsar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-healthcare-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

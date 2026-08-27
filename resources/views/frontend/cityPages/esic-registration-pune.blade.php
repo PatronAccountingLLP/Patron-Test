@@ -22,11 +22,11 @@
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="language" content="en-IN">
-    <meta property="og:image" content="/images/esic-registration/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESIC Registration in Pune - Process, Threshold & Wages">
     <meta name="twitter:description" content="CA-assisted ESIC registration in Pune. 10+ employee threshold, 3.25% employer contribution. Serving Chakan MIDC, Hinjewadi, Kharadi. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esic-registration/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

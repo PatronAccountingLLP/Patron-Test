@@ -21,11 +21,11 @@
     <meta property="og:url" content="/e-commerce-sector-payroll-processing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/e-commerce-sector-payroll-processing-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Commerce Payroll Processing Services - PF, ESI & TDS">
     <meta name="twitter:description" content="Ecommerce payroll in India: EPF, ESI, TDS, gig worker compliance and Labour Code 2025. From Rs.2,999/month. CA-managed.">
-    <meta name="twitter:image" content="/images/e-commerce-sector-payroll-processing-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

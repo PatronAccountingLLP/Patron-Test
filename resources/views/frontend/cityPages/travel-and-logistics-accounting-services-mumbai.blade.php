@@ -20,11 +20,11 @@
     <meta property="og:url" content="/travel-and-logistics-accounting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/logistics-transport-accounting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Travel & Logistics Accounting in Mumbai - Freight & GST">
     <meta name="twitter:description" content="CA-led logistics and transport accounting in Mumbai. GTA GST, e-way bill, fleet management, JNPT customs for Bhiwandi, Navi Mumbai operators. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/logistics-transport-accounting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-due-diligence-prep-for-funding-and-ma/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-due-diligence-prep-for-funding-and-ma-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Diligence Prep: SH-6 & Cap Table Cleanup | Patron Accounting">
     <meta name="twitter:description" content="Hinjewadi and Kharadi SaaS team raising a round? We make your Pune ESOP records deal-ready: SH-6, MGT-14, valuations and cap table, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-due-diligence-prep-for-funding-and-ma-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

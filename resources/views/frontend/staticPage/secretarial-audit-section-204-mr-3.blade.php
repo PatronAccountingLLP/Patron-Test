@@ -20,11 +20,11 @@
     <meta property="og:url" content="/secretarial-audit-section-204-mr-3">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/secretarial-audit-section-204-mr-3-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/secretarial-audit-section-204-mr-3-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

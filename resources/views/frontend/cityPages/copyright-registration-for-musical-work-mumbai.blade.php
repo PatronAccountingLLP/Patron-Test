@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-musical-work/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-musical-work-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Musical Work Mumbai - Lyrics & Composition">
     <meta name="twitter:description" content="Copyright for musical work in Mumbai. Melody, harmony, notation, background score. S.2(p), Form XIV, 2012 composer royalty, IPRS, four-layer song IP. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-musical-work-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

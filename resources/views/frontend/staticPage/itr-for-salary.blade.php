@@ -18,11 +18,11 @@
     <meta property="og:url" content="/itr-for-salary/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-salary-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Filing for Salary India: ITR-1, ITR-2, ESOP, Form 16 | Patron Accounting">
     <meta name="twitter:description" content="ITR-1 and ITR-2 filing for salaried AY 2026-27. Multi-Form-16, ESOP perquisite, capital gains, old vs new regime, Section 87A rebate. From Rs 999.">
-    <meta name="twitter:image" content="/images/itr-for-salary-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

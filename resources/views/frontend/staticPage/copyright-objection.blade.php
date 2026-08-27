@@ -21,11 +21,11 @@
     <meta property="og:url" content="/copyright-objection">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-objection-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Objection Reply - Process, Timeline & Hearing">
     <meta name="twitter:description" content="Copyright objection reply in India starts at Rs 499. Learn procedure, documents, 30-day deadline and how our CA and CS team helps protect your creative work.">
-    <meta name="twitter:image" content="/images/copyright-objection-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-real-estate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-real-estate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Real Estate 2026: 1%/5% | Patron Accounting">
     <meta name="twitter:description" content="GST returns for real estate developers - 1%/5% new scheme, ITC restrictions under Section 17(5)(c)/(d), 80% rule, JDA RCM. Starting from INR 2,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-real-estate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

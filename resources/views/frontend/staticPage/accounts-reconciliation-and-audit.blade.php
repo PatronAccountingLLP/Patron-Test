@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounts-reconciliation-and-audit">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounts-reconciliation-and-audit-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounts Reconciliation Services and Audit Support | Patron Accounting">
     <meta name="twitter:description" content="Every control account reconciled - GST, TDS, inter-company, bank, stock. Books you can hand to a lender or an investor. Start with a books review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounts-reconciliation-and-audit-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

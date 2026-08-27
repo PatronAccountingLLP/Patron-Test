@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-secondary-sale-advisory/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-secondary-sale-advisory-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Buyback & Liquidity Structuring for Startups | Patron Accounting">
     <meta name="twitter:description" content="Delhi founders structure compliant ESOP buybacks and secondary sales under Companies Act Section 68, with capital gains and FC-TRS support from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-secondary-sale-advisory-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

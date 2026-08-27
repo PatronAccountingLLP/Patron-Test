@@ -8,7 +8,7 @@
     <meta property="og:description" content="Calculate leave encashment and tax exemption under Section 10(10AA) for retirement.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/leave-encashment-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/leave-encashment-calculator/og-image.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Leave Encashment Calculator &mdash; Tax Exemption u/s 10(10AA)">
     <meta name="twitter:description" content="Leave encashment + tax exemption under Section 10(10AA). Govt & private. Calculate!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/leave-encashment-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

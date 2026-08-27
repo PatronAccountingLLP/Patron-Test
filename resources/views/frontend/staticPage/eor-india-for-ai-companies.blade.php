@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-for-ai-companies">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-for-ai-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR India for AI Companies 2026: Research + GPU | Patron">
     <meta name="twitter:description" content="AI/ML hiring in India - research engineers, GPU cluster setup, foundation model IP assignment. Patron Accounting LLP CA-led service for AI companies.">
-    <meta name="twitter:image" content="/images/eor-india-for-ai-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-ngonon-profit-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-ngonon-profit-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO & Non-Profit Payroll Services - FCRA & TDS Compliance">
     <meta name="twitter:description" content="Payroll for NGOs, trusts and Section 8 companies in India: EPF, ESI, TDS, FCRA, 12A compliance. From INR 149 per employee per month.">
-    <meta name="twitter:image" content="/images/payroll-services-for-ngonon-profit-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/asmt-10-notice/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/asmt-10-notice/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ASMT-10 Pune 2026: ASMT-11 Reply | Patron Accounting">
     <meta name="twitter:description" content="ASMT-10 notice CA in Pune: Form GST ASMT-10 reply via ASMT-11, hearing rep, prevent DRC-01 escalation. Rs 15K-30K. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/asmt-10-notice/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

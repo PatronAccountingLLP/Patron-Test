@@ -19,11 +19,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-startup-india-recognition">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/net-worth-certificate-for-startup-india-recognition-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate Startup India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Net worth certificate for Startup India recognition - CA-certified financials and turnover proof for DPIIT and Section 80-IAC. From INR 3,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/net-worth-certificate-for-startup-india-recognition-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

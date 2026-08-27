@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ageing-of-debtors-creditors-certificate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Ageing of Debtors and Creditors 2026 | Patron Accounting">
     <meta name="twitter:description" content="Ageing of debtors and creditors certificate - CA-certified receivables and payables ageing with UDIN for bank and due diligence. From INR 2,499 (Exl GST).">
-    <meta name="twitter:image" content="/images/ageing-of-debtors-creditors-certificate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

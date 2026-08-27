@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-itc-advisory-and-optimization">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-itc-advisory-and-optimization-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST ITC Advisory and Optimization 2026 | Patron Accounting">
     <meta name="twitter:description" content="Premium GST ITC advisory and optimization covering Section 16-18, Rule 36(4), 37, 42, 43, audit defence, vendor vetting. Patron from Rs 9,999 one-time.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-itc-advisory-and-optimization-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gst-audit">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-audit-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Audit Services India - GSTR-9C, Reconciliation & Process">
     <meta name="twitter:description" content="Expert GST audit services in India. We handle GSTR-9C reconciliation, departmental audit (Sec 65), ITC verification. Starting at INR 9,999.">
-    <meta name="twitter:image" content="/images/gst-audit-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

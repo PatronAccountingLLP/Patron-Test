@@ -20,11 +20,11 @@
     <meta property="og:url" content="/private-limited-company-compliance/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/private-limited-company-compliance-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Compliance Delhi NCR – AOC-4, MGT-7 &amp; Due Dates">
     <meta name="twitter:description" content="Pvt Ltd compliance in Delhi. AOC-4 + MGT-7. AGM by 30 Sept. Statutory audit. ITR-6. DIR-3 KYC. Rs 100/day no cap. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/private-limited-company-compliance-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

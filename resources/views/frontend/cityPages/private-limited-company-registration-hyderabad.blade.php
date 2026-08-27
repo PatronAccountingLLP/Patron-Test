@@ -14,11 +14,11 @@
     <meta property="og:description" content="CA-assisted Pvt Ltd company registration in Hyderabad via SPICe+. RoC Hyderabad, low Telangana stamp duty. Serving HITEC City, T-Hub. Call +91 945 945 6700.">
     <meta property="og:url" content="/private-limited-company-registration/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/private-limited-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd Company Registration in Hyderabad – SPICe+, Fees">
     <meta name="twitter:description" content="CA-assisted Pvt Ltd company registration in Hyderabad via SPICe+. RoC Hyderabad, low Telangana stamp duty. Serving HITEC City, T-Hub. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/private-limited-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

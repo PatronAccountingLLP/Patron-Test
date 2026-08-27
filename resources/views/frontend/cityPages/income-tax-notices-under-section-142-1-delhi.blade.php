@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-142-1/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notices-under-section-142-1/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT Notice u/s 142(1) Delhi NCR – Inquiry &amp; Reply">
     <meta name="twitter:description" content="CA-assisted response to income tax notice under Section 142(1) in Delhi. Inquiry before assessment. Faceless + Delhi AO. Rs 10,000 penalty risk. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/income-tax-notices-under-section-142-1/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

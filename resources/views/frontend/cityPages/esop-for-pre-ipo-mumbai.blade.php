@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-pre-ipo/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Pre-IPO ESOP: DRHP Disclosure & BRLM Support">
     <meta name="twitter:description" content="BKC and Powai firms get DRHP Schedule VI Part E ESOP disclosure, SEBI SBEB conversion and BRLM coordination for a clean BSE or NSE listing, from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

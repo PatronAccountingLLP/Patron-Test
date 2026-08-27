@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-exports-with-igst/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-exports-with-igst-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund on Exports With IGST Payment — Rule 96 CGST">
     <meta name="twitter:description" content="Claim IGST refund on exports under Rule 96. Shipping bill = application. ICEGATE auto-refund in 7-15 days. SB005 SB003 EGM fixes. From Rs 8,000.">
-    <meta name="twitter:image" content="/images/gst-refund-exports-with-igst-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

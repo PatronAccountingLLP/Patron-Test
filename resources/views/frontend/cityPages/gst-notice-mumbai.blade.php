@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-notice/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-notice-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Notice Reply in Mumbai - SCN, ASMT, DRC Forms">
     <meta name="twitter:description" content="CA-assisted GST notice reply and representation in Mumbai. SCN, scrutiny, demand notices handled. Serving BKC, Andheri MIDC, SEEPZ. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-notice-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

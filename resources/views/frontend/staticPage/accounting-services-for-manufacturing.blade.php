@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-manufacturing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-manufacturing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Manufacturing Accounting Services in India, CA Managed | Patron Accounting">
     <meta name="twitter:description" content="BOM-level costing and WIP valuation, not a single factory-overhead lump. Avoid audit delays and free your team from the ledger. Ask for a scope call.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-manufacturing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

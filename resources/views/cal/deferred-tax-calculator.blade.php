@@ -12,13 +12,13 @@
     <meta property="og:description" content="Calculate deferred tax assets and liabilities for Indian companies. Auto-effective rate (base + surcharge + cess), multi-line timing differences, journal entries.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/deferred-tax-calculator">
-    <meta property="og:image" content="/tools/og/deferred-tax-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Deferred Tax Calculator (DTA/DTL) — AS 22 & Ind AS 12 — FY 2025-26">
     <meta name="twitter:description" content="Auto-effective rate, multi-line timing differences, journal entries — for Indian companies under AS 22 / Ind AS 12.">
-    <meta name="twitter:image" content="/tools/og/deferred-tax-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 @endsection

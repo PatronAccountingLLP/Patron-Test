@@ -20,11 +20,11 @@
     <meta property="og:url" content="/agm-conducting-and-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/agm-conducting-and-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AGM Conducting and Compliance 2026 | Patron Accounting">
     <meta name="twitter:description" content="Conduct your AGM under Section 96 on time: 21-day notice, agenda, minutes and resolution filing, with ROC extension help if missed. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/agm-conducting-and-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

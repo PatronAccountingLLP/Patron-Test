@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-audit/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-audit-service/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Audit in Pune - GSTR-9C, Reconciliation & ₹5Cr">
     <meta name="twitter:description" content="CA assisted GST audit and GSTR-9C reconciliation for Pune businesses. Turnover >Rs 5 crore, self-certified, ITC reconciliation, DRC-03, departmental audit defence. MIDC, Hinjewadi, Camp. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-audit-service/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

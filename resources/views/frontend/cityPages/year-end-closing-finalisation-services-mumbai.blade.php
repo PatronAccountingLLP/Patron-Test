@@ -20,11 +20,11 @@
     <meta property="og:url" content="/year-end-closing-finalisation-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/year-end-closing-finalisation-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Year-End Closing in Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="Mumbai 31 March FY finalisation from INR 14,999/yr. CA-supervised ledger scrutiny, Schedule III schedules, and audit liaison for BKC and Bhiwandi firms.">
-    <meta name="twitter:image" content="/images/year-end-closing-finalisation-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-incorporation/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-incorporation/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Registration in Gurugram - Process, Fees & Documents">
     <meta name="twitter:description" content="CA-assisted LLP registration in Gurugram. DPIN, DSC, FiLLiP filing with RoC Delhi. Serving Cyber City, Udyog Vihar, Sohna Road businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-incorporation/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

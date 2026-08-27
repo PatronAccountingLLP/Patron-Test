@@ -20,11 +20,11 @@
     <meta property="og:url" content="/brand-copyright-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/brand-copyright-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Brand Copyright Registration India - Process, Fees & Docs">
     <meta name="twitter:description" content="Brand copyright registration in India starts at Rs 500 per work under the Copyright Act, 1957. Know the online process, fees, and documents needed.">
-    <meta name="twitter:image" content="/images/brand-copyright-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

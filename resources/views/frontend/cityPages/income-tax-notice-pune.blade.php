@@ -21,11 +21,11 @@
     <meta property="og:url" content="/income-tax-notice/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notice/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice in Pune – 143(1), 139(9) &amp; Reply">
     <meta name="twitter:description" content="CA-assisted income tax notice response in Pune. Intimation 143(1), scrutiny 143(2), reassessment 148, defective return 139(9). AIS mismatch and demand resolution. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/income-tax-notice/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

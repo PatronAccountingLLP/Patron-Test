@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns-for-restaurants-food-businesses/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-for-restaurants-food-businesses-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Restaurants in Delhi – 5% &amp; Composition">
     <meta name="twitter:description" content="GST returns for restaurants in Delhi. 5% no ITC or 18% with ITC. Section 9(5) Zomato/Swiggy. Cloud kitchen. Composition scheme. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-for-restaurants-food-businesses-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

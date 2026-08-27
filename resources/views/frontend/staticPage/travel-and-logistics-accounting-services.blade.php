@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/travel-and-logistics-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/travel-and-logistics-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Travel Agency and Logistics: Scope, Fees and Process | Patron Accounting">
     <meta name="twitter:description" content="Trip-wise and lane-wise margin, not a single freight revenue line. See the numbers while they can still change something. Download the checklist.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/travel-and-logistics-accounting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

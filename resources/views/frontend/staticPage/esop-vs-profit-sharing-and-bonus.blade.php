@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-vs-profit-sharing-and-bonus">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-profit-sharing-and-bonus-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP vs Profit-Sharing and Bonus in India 2026 Guide | Patron Accounting">
     <meta name="twitter:description" content="ESOP gives equity taxed at exercise and sale; profit-sharing and bonus pay cash fully taxed as salary, with no dilution. A clear, free comparison guide.">
-    <meta name="twitter:image" content="/images/esop-vs-profit-sharing-and-bonus-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

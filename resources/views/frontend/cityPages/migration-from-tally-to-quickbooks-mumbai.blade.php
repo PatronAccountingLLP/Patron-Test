@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-tally-to-quickbooks/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-quickbooks/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="QuickBooks Migration Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="Shift from Tally to QuickBooks Online in Mumbai from INR 9,999. Ledger mapping, masters import, GST config, and reconciled balances for BKC and Andheri teams.">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-quickbooks/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

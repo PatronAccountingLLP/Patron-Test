@@ -8,7 +8,7 @@
     <meta property="og:description" content="Calculate import duty to India. BCD, Social Welfare Surcharge, IGST, and landed cost.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/import-duty-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-import-duty-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Import Duty Calculator &mdash; Free Customs Duty 2026">

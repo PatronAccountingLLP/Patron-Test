@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-inverted-duty-structure/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-inverted-duty-structure-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Under Inverted Duty Structure — Rule 89(5)">
     <meta name="twitter:description" content="Claim GST inverted duty refund under Section 54(3)(ii) and Rule 89(5). 90% provisional refund from Oct 2025. Textile, pharma, footwear support. Rs 8,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-inverted-duty-structure-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

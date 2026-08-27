@@ -20,11 +20,11 @@
     <meta property="og:url" content="/resignation-of-director/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/resignation-of-director/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Resignation of Director Mumbai – DIR-11, DIR-12 &amp; ROC">
     <meta name="twitter:description" content="CA-assisted director resignation in Mumbai. Section 168, DIR-11, DIR-12, effective date, post-resignation liability. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/resignation-of-director/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

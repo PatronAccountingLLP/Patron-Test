@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-contribution-change/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-contribution-change/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Capital Contribution in Pune - Form 3 & Deed">
     <meta name="twitter:description" content="CA/CS-assisted LLP contribution change in Pune. Capital increase/decrease, supplementary agreement, Form 3, Maharashtra stamp duty, audit threshold. Serving Hinjewadi, Kharadi LLPs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-contribution-change/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/trademark-rectification/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-rectification-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Rectification Gurugram - TM-O & Grounds">
     <meta name="twitter:description" content="Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-rectification-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

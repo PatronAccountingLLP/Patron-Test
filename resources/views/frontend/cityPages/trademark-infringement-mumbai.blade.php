@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-infringement/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-infringement-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Infringement Mumbai - Remedies, Suit & Damages">
     <meta name="twitter:description" content="Trademark infringement in Mumbai. S.29 enforcement, Bombay HC IP Division, injunction, damages, criminal prosecution, passing off, counterfeit seizure. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-infringement-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

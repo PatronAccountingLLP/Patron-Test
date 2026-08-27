@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-policy-and-compensation-committee-governance/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-policy-and-compensation-committee-governance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP & Pay Policy: NRC Charter & Decision Rights | Patron Accounting">
     <meta name="twitter:description" content="Pune startups in Hinjewadi and Kharadi can constitute a Section 178 committee with a clear ESOP and pay policy, charter and decision rights from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-policy-and-compensation-committee-governance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

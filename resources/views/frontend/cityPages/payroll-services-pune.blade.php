@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Services in Pune - Salary, PF, ESI & TDS | Patron">
     <meta name="twitter:description" content="CA-managed payroll services in Pune. EPF, ESIC, TDS, PTRC compliance included. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/sebi-sbeb-regulations-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sebi-sbeb-regulations-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SEBI SBEB Regulations Compliance 2026: Fully Managed | Patron Accounting">
     <meta name="twitter:description" content="SBEB compliance for listed companies, fully managed: scheme, shareholder approval, pre-IPO ratification, annual disclosures and filings. From Rs 49,999.">
-    <meta name="twitter:image" content="/images/sebi-sbeb-regulations-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

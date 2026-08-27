@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Return Filing in Bangalore – ITR Forms &amp; Due"><meta property="og:description" content="ITR Bangalore. AIS. Regime choice. ESOP. Rs 999. Due 31 July. Call +91 945 945 6700.">
     <meta property="og:url" content="/income-tax-return/bangalore"><meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-return-og.webp"><meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')
     <script type="application/ld+json">

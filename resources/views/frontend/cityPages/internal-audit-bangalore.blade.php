@@ -20,11 +20,11 @@
     <meta property="og:url" content="/internal-audit/bangalore">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/internal-audit/bangalore-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Internal Audit in Bangalore – Scope, IFC, Risk &amp; Reporting">
     <meta name="twitter:description" content="CA-managed internal audit in Bangalore. Section 138 compliance, risk-based audit, SOC 2 readiness. Serving Electronic City, Whitefield, Koramangala companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/internal-audit/bangalore-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

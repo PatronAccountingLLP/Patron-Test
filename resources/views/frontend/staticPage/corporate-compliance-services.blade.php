@@ -8,7 +8,7 @@
     <meta property="og:description" content="Annual compliance, director changes, share capital, SBO, charges, CSR, MSME, mergers and conversions — full ROC/MCA secretarial coverage across the corporate lifecycle.">
     <meta property="og:url" content="/corporate-compliance-services">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/corporate-compliance-services-og.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting LLP">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ROC, MCA & Corporate Compliance Services | Patron LLP">
     <meta name="twitter:description" content="Annual compliance, director changes, share capital, SBO, charges, CSR, MSME, mergers and conversions — full ROC/MCA secretarial coverage across the corporate lifecycle.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/corporate-compliance-services-og.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:site" content="@patronaccounting">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 @endsection

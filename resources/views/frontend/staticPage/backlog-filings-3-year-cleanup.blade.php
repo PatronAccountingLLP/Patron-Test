@@ -20,11 +20,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/backlog-filings-3-year-cleanup">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/backlog-filings-3-year-cleanup-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ROC Backlog Filing 2026: CCFS Cleanup | Patron Accounting">
     <meta name="twitter:description" content="Clear 2 to 5 year ROC backlog under CCFS-2026: 90% fee waiver until 15 July 2026. AOC-4, MGT-7, ADT-1. Patron cleanup from Rs 50,000.">
-    <meta name="twitter:image" content="/images/backlog-filings-3-year-cleanup-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

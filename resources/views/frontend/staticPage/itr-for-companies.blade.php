@@ -18,11 +18,11 @@
     <meta property="og:url" content="/itr-for-companies/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR-6 Filing for Companies India: Pvt Ltd, OPC, MAT Guide | Patron Accounting">
     <meta name="twitter:description" content="ITR-6 filing for companies AY 2026-27. CA-assisted ITR for Pvt Ltd, OPC, MAT, 115BAA, 115BAB, transfer pricing, and 80-IAC startup tax holiday. From Rs 2,999.">
-    <meta name="twitter:image" content="/images/itr-for-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

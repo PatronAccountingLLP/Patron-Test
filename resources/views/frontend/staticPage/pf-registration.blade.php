@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pf-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pf-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PF Registration Online - EPFO Process, Documents & Threshold">
     <meta name="twitter:description" content="PF registration mandatory for 20+ employees under EPF and MP Act 1952. Employee 12% + employer 13%. Online on USSP/EPFO portal. Free registration. Expert CA team.">
-    <meta name="twitter:image" content="/images/pf-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

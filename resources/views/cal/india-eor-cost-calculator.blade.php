@@ -12,13 +12,13 @@
     <meta property="og:description" content="Computes the all-in cost of hiring an employee in India through an Employer of Record. Statutory + provider fees + insurance + EOR vs subsidiary break-even.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/india-eor-cost-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/india-eor-cost-calculator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
     <meta name="twitter:description" content="Total India hiring cost: statutory + EOR fees + insurance. EOR vs subsidiary break-even. Updated for 4 Labour Codes 2025.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/india-eor-cost-calculator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

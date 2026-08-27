@@ -19,11 +19,11 @@
     <meta property="og:url" content="/certificate-of-fair-market-value-fmv/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/certificate-of-fair-market-value-fmv-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Certificate of Fair Market Value (FMV) 2026 | Patron Accounting">
     <meta name="twitter:description" content="Fair Market Value certificate under Rule 11UA for unlisted shares, ESOP, and Section 56 or 50CA. NAV method by CA; merchant banker for DCF. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/certificate-of-fair-market-value-fmv-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

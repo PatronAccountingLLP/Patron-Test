@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-disclaimer">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-disclaimer-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Disclaimer in India - How to Draft & File One">
     <meta name="twitter:description" content="Draft a legally sound copyright disclaimer under Section 52 of the Copyright Act, 1957. Starting at Rs 1,999. Protect your creative work with expert guidance.">
-    <meta name="twitter:image" content="/images/copyright-disclaimer-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

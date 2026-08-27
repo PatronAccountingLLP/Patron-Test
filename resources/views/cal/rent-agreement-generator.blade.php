@@ -6,7 +6,7 @@
     <link rel="canonical" href="https://www.patronaccounting.com/tools/rent-agreement-generator">
     <meta property="og:title" content="Rent Agreement Generator &mdash; Free 2026 | Patron Accounting"><meta property="og:description" content="Generate rent agreement with all clauses. Stamp duty, TDS, registration info.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN"><meta property="og:url" content="https://www.patronaccounting.com/tools/rent-agreement-generator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-rent-agreement.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Rent Agreement Generator &mdash; Free 2026"><meta name="twitter:description" content="Generate rent agreement with all standard clauses.">
 @endsection
 @section('schema')

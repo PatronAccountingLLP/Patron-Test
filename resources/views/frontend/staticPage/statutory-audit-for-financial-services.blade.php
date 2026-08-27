@@ -19,11 +19,11 @@
     <meta property="og:url" content="/statutory-audit-for-financial-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-for-financial-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit for Financial Services 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led statutory audit for NBFCs, fintech lenders and AIFs - RBI prudential norms, NPA classification, CARO 3(xvi), CRAR, Ind AS 109. From Rs 1,50,000.">
-    <meta name="twitter:image" content="/images/statutory-audit-for-financial-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

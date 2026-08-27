@@ -19,11 +19,11 @@
     <meta property="og:url" content="/e-invoicing-for-erp-and-billing-software-integration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/e-invoicing-for-erp-and-billing-software-integration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Invoicing ERP API Integration 2026 | Patron Accounting">
     <meta name="twitter:description" content="E-invoicing ERP and billing software integration via IRP/GSP API. Tally, SAP, Zoho, Oracle, Busy, custom. JSON schema, sandbox testing. From Rs 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/e-invoicing-for-erp-and-billing-software-integration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

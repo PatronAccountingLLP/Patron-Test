@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-appeal-importers">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-appeal-importers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Importer GSTAT Appeal - IGST Valuation | Patron">
     <meta name="twitter:description" content="GSTAT appeal for importers facing IGST valuation disputes, Customs-GST interface issues, and anti-dumping duty stacking. 10% pre-deposit. Patron Accounting.">
-    <meta name="twitter:image" content="/images/gstat-appeal-importers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

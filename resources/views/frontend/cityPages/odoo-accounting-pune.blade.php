@@ -20,11 +20,11 @@
     <meta property="og:url" content="/odoo-accounting/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/odoo-accounting-services-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Odoo Accounting in Pune - Setup, Training & ERP">
     <meta name="twitter:description" content="CA-managed Odoo accounting in Pune. GST-compliant ERP setup, bookkeeping, e-invoicing, and returns for Hinjewadi, Kharadi, Chakan businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/odoo-accounting-services-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

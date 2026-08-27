@@ -20,11 +20,11 @@
     <meta property="og:url" content="/transfer-of-shares/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/transfer-of-shares-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Transfer of Shares Delhi NCR – SH-4 &amp; Stamp Duty">
     <meta name="twitter:description" content="Transfer of shares in Delhi. SH-4. Stamp duty 0.25%. Board approval. FC-TRS for FEMA. Capital gains. Rule 9B demat. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/transfer-of-shares-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

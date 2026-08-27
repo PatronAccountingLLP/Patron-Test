@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns-for-oidar/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-oidar/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST for OIDAR in Pune - Foreign Digital & GSTR-5A">
     <meta name="twitter:description" content="CA-assisted GST returns for OIDAR services in Pune. GSTR-5A for foreign providers, reverse charge for Pune IT companies. Serving Hinjewadi, Kharadi SaaS firms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-oidar/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

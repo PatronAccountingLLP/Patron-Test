@@ -20,11 +20,11 @@
     <meta property="og:url" content="/hospitality-sector-accounting-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-hospitality/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Hotel & Restaurant Accounting in Gurugram - POS, OTA & GST">
     <meta name="twitter:description" content="CA-led accounting for hotels, restaurants, and bars in Gurugram. GST multi-rate compliance, Haryana excise accounting, F&B bookkeeping. Serving CyberHub, Sector 29, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-hospitality/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

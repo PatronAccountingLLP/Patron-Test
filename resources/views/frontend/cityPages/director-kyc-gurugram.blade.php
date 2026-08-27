@@ -20,11 +20,11 @@
     <meta property="og:url" content="/director-kyc/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/director-kyc/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Director KYC Gurugram - DIR-3 KYC & Sep 30 Deadline">
     <meta name="twitter:description" content="CA-assisted DIR-3 KYC filing in Gurugram. 2026 triennial amendment, DIN reactivation, Rs 5000 penalty, foreign director KYC. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/director-kyc/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

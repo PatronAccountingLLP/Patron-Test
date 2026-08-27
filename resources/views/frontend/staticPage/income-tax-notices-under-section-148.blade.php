@@ -21,11 +21,11 @@
     <meta property="og:url" content="/income-tax-notices-under-section-148">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notices-under-section-148-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice u/s 148 - Reopening of Assessment & Reply">
     <meta name="twitter:description" content="Received income tax notice u/s 148? Know time limits, the 148A pre-notice procedure, how to respond, and when to challenge. CA help from INR 3,499.">
-    <meta name="twitter:image" content="/images/income-tax-notices-under-section-148-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gem-government-e-marketplace-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gem-government-e-marketplace-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GeM Registration: Government e-Marketplace 2026 | Patron Accounting">
     <meta name="twitter:description" content="Register as a seller on GeM (Government e-Marketplace) to sell to government buyers. MSME and startup benefits, catalog and vendor help. From INR 4,999.">
-    <meta name="twitter:image" content="/images/gem-government-e-marketplace-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

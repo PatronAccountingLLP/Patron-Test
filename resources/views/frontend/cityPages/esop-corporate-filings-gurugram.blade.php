@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-corporate-filings/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-corporate-filings-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Filings for Cyber City SaaS Companies | Patron Accounting">
     <meta name="twitter:description" content="Cyber City enterprise-SaaS companies get ESOP grants filed via RoC Delhi with PAS-3, MGT-14 and SH-6 prepared by a CS in Gurugram at INR 9,999/filing.">
-    <meta name="twitter:image" content="/images/esop-corporate-filings-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

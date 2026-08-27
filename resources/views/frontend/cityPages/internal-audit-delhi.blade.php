@@ -20,11 +20,11 @@
     <meta property="og:url" content="/internal-audit/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/internal-audit/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Internal Audit in Delhi - Scope, IFC, Risk & Reporting">
     <meta name="twitter:description" content="CA-led internal audit services in Delhi. Section 138 compliance, risk-based audit, ICFR and process review for companies and MNCs. Serving CP, Okhla, Nehru Place. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/internal-audit/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

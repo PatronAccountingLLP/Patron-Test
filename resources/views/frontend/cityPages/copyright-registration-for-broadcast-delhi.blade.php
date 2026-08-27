@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-broadcast/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-for-broadcast/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Broadcast Rights in Delhi - TV, Radio & OTT">
     <meta name="twitter:description" content="CA-assisted Copyright for Broadcast in Delhi. Section 37 rights filed online. Serving Connaught Place, Nehru Place, Okhla. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-for-broadcast/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

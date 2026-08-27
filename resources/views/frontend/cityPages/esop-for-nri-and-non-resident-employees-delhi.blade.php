@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-nri-and-non-resident-employees/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-nri-and-non-resident-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Compliance for NRI & Overseas Employees | Patron Accounting">
     <meta name="twitter:description" content="Roll out ESOPs to NRI and non-resident employees from your Delhi company with MCA-aligned Form ESOP filing and FEMA pricing rules, from INR 19,999.">
-    <meta name="twitter:image" content="/images/esop-for-nri-and-non-resident-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

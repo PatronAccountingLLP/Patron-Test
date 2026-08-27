@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sop-drafting-and-implementation/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sop-drafting-and-implementation/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SOP Drafting in Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Finance SOP drafting and implementation in Pune from INR 24,999 one-time. CA-led maker-checker controls, IFC, and close checklists for Hinjewadi SMEs.">
-    <meta name="twitter:image" content="/images/sop-drafting-and-implementation/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

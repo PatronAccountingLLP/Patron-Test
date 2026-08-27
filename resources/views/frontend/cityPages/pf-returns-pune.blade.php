@@ -21,11 +21,11 @@
     <meta property="og:url" content="/pf-returns/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pf-returns/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PF Return Filing in Pune – ECR, UAN &amp; Due Date">
     <meta name="twitter:description" content="CA-assisted PF return filing in Pune. Monthly ECR, UAN management, Section 7Q/14B compliance, EPFO coordination. Serving Hinjewadi, Kharadi, Pimpri-Chinchwad employers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pf-returns/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

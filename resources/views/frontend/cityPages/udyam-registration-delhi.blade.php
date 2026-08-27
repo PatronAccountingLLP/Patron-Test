@@ -20,11 +20,11 @@
     <meta property="og:url" content="/udyam-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/udyam-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Udyam Registration in Delhi - MSME Certificate & Benefits">
     <meta name="twitter:description" content="CA-assisted Udyam registration in Delhi. Free MSME certificate for traders, manufacturers and services. Serving Okhla, Chandni Chowk, CP. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/udyam-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-due-diligence-prep-for-funding-and-ma">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-due-diligence-prep-for-funding-and-ma-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Due Diligence Prep for Funding 2026 | Patron Accounting">
     <meta name="twitter:description" content="Term sheet signed? Get your ESOP records deal-ready: pre-DD audit and remediation of SH-6, MGT-14, valuations, resolutions and cap table. From Rs 24,999.">
-    <meta name="twitter:image" content="/images/esop-due-diligence-prep-for-funding-and-ma-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

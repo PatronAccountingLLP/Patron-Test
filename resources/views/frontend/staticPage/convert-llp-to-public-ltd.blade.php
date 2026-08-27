@@ -19,11 +19,11 @@
     <meta property="og:url" content="/convert-llp-to-public-ltd">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-llp-to-public-ltd-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert LLP to Public Ltd 2026 | Patron Accounting">
     <meta name="twitter:description" content="Convert your LLP to a public limited company under Section 366 with Form URC-1. Needs 7 members and 3 directors. MOA and AOA filing. From INR 49,999.">
-    <meta name="twitter:image" content="/images/convert-llp-to-public-ltd-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -10,14 +10,14 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-registration-eligibility-checker">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-gst-registration-eligibility-checker.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Registration Eligibility Checker &mdash; Free 2026">
     <meta name="twitter:description" content="Check if your business needs GST registration for FY 2025-26.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og-gst-registration-eligibility-checker.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

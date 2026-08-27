@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ad-code-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ad-code-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AD Code Registration - Process for Customs & Export India">
     <meta name="twitter:description" content="Register your AD Code (Authorised Dealer Code) for customs clearance. 14-digit code from RBI-authorised bank. One-time process, lifetime validity. ICEGATE portal registration.">
-    <meta name="twitter:image" content="/images/ad-code-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

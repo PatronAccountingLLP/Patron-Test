@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gst-returns-for-oidar">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-for-oidar-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST for OIDAR Services - Registration, Returns & Compliance">
     <meta name="twitter:description" content="OIDAR service providers must file GSTR-5A monthly by the 20th. Know OIDAR GST registration via REG-10, 18% IGST rate, place of supply rules and penalties. Starts Rs 4,999.">
-    <meta name="twitter:image" content="/images/gst-returns-for-oidar-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

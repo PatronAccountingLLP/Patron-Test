@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-advance-ruling-aar-and-aaar">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-advance-ruling-aar-and-aaar-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Advance Ruling 2026: AAR and AAAR | Patron Accounting">
     <meta name="twitter:description" content="Section 97 GST Advance Ruling and Section 100 AAAR appeal filing by CA/CS with Form ARA-01/02 drafting and hearing representation. Starting from INR 49,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-advance-ruling-aar-and-aaar-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

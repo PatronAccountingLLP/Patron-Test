@@ -20,11 +20,11 @@
     <meta property="og:url" content="/convert-llp-to-private-limited-company/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-llp-to-private-limited-company/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert LLP to Pvt Ltd Delhi NCR – URC-1 &amp; ROC">
     <meta name="twitter:description" content="LLP to Pvt Ltd conversion in Delhi. URC-1 + SPICe+. MOA AOA. Tax neutral S.47(xiiib). New PAN. GST migration. 30-60 days. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/convert-llp-to-private-limited-company/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

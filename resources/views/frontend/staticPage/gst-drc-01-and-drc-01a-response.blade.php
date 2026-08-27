@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-drc-01-and-drc-01a-response">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-drc-01-and-drc-01a-response-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DRC-01 and DRC-01A Reply 2026: GST SCN | Patron Accounting">
     <meta name="twitter:description" content="DRC-01 SCN and DRC-01A pre-notice intimation response - 30-day window, DRC-03 payment, penalty optimization, DRC-06 reply. Patron from Rs 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-drc-01-and-drc-01a-response-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

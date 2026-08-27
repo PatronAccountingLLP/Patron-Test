@@ -20,11 +20,11 @@
     <meta property="og:url" content="/aoc-4-filing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/aoc-4-filing-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AOC-4 Filing Services 2026 | Patron Accounting">
     <meta name="twitter:description" content="AOC-4 filing service for FY 2025-26. Section 137 financial statements within 30 days of AGM. CA-reviewed. From Rs 8,000 standalone or Rs 35,000 bundled.">
-    <meta name="twitter:image" content="/images/aoc-4-filing-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

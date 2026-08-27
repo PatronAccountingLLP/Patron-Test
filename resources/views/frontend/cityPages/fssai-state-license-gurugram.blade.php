@@ -21,11 +21,11 @@
     <meta property="og:url" content="/fssai-state-license/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-state-license-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI State License Gurugram - Eligibility, Docs & Fees">
     <meta name="twitter:description" content="Get FSSAI state license in Gurugram. Restaurants, cloud kitchens, manufacturers. Rs 1.5 Cr - Rs 50 Cr. Perpetual validity. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-state-license-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

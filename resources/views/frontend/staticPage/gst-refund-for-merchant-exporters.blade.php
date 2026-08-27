@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-for-merchant-exporters/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-for-merchant-exporters-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund for Merchant Exporters — 0.1% Concessional">
     <meta name="twitter:description" content="GST refund for merchant exporters via 0.1% concessional rate or deemed export route under Notification 40/2017 and Rule 89(4B). Starts at Rs 9,999.">
-    <meta name="twitter:image" content="/images/gst-refund-for-merchant-exporters-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

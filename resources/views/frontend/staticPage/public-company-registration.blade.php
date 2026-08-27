@@ -20,11 +20,11 @@
     <meta property="og:url" content="/public-company-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/public-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Public Limited Company Registration - Process & Fees India">
     <meta name="twitter:description" content="Register your Public Limited Company under Companies Act, 2013 with expert CA/CS support. Min 7 shareholders, 3 directors. 10,000+ businesses served across India.">
-    <meta name="twitter:image" content="/images/public-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

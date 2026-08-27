@@ -21,11 +21,11 @@
     <meta property="og:url" content="/trademark-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-notice-reply-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Cease & Desist Gurugram - Drafting & Reply">
     <meta name="twitter:description" content="Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-notice-reply-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-ireland-visa/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-ireland-visa-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate for Ireland Visa 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-ireland-visa-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

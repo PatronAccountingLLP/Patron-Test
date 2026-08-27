@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gstr-1-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-1-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTR-1 Filing 2026: Outward Supplies | Patron Accounting">
     <meta name="twitter:description" content="File GSTR-1 by 11th monthly or 13th quarterly under QRMP. Bundled with GSTR-3B in our Monthly GST Returns retainer from Rs 999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gstr-1-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

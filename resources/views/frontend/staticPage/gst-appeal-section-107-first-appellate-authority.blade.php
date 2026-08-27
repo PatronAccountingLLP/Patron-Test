@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-appeal-section-107-first-appellate-authority">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-appeal-section-107-first-appellate-authority-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 107 GST Appeal 2026: First Appeal | Patron Accounting">
     <meta name="twitter:description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-appeal-section-107-first-appellate-authority-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

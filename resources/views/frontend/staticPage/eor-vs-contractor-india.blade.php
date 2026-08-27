@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-vs-contractor-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-vs-contractor-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR vs Contractor India 2026: Misclassification | Patron">
     <meta name="twitter:description" content="Misclassification of Indian contractors triggers backdated PF, ESI, taxes, and PE risk. Patron Accounting LLP runs the conversion path under one CA team.">
-    <meta name="twitter:image" content="/images/eor-vs-contractor-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

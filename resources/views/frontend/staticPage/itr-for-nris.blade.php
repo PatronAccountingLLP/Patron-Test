@@ -18,11 +18,11 @@
     <meta property="og:url" content="/itr-for-nris/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-nris-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for NRIs and OCIs India: Section 6, DTAA, Schedule FA | Patron Accounting">
     <meta name="twitter:description" content="NRI and OCI ITR filing under Section 6 for AY 2026-27. ITR-2, NRO TDS recovery, DTAA Form 67, Schedule FA, Black Money Act compliance. From Rs 2,499.">
-    <meta name="twitter:image" content="/images/itr-for-nris-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

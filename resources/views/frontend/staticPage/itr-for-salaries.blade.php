@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-salaries">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-salary-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Salary 2026: CA-Assisted Filing | Patron Accounting">
     <meta name="twitter:description" content="File income tax return for salary income in 2026. CA support for Form 16, old vs new regime, TDS refund, and multiple employers. From Rs. 499.">
-    <meta name="twitter:image" content="/images/itr-for-salary-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vesting-and-forfeiture-tracking/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vesting-and-forfeiture-tracking-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Vesting Tracking & SH-6 Forfeiture Logs | Patron Accounting">
     <meta name="twitter:description" content="Delhi startups get reconciled ESOP records: vesting milestones tracked, forfeitures filed in Form SH-6 and vesting alerts sent, from INR 9,999/yr.">
-    <meta name="twitter:image" content="/images/esop-vesting-and-forfeiture-tracking-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

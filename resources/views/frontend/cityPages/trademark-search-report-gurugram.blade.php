@@ -21,11 +21,11 @@
     <meta property="og:url" content="/trademark-search-report/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-search-report-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Search Gurugram - Availability & Class Check">
     <meta name="twitter:description" content="Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-search-report-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-sound-recording/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-sound-recording-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Sound Recording Mumbai - Podcast & Audio">
     <meta name="twitter:description" content="Copyright for sound recording in Mumbai. Master recordings, music tracks, podcasts. S.2(xx), S.14(e), Form XIV, PPL licensing, 60-year protection, anti-piracy. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-sound-recording-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

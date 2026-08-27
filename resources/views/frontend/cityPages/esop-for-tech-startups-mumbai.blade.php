@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-tech-startups/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Design & Rule 11UA FMV Valuation Reports | Patron Accounting">
     <meta name="twitter:description" content="From BKC to Powai, get a SEBI-aware ESOP scheme with Rule 11UA FMV reports, vesting, acceleration and RoC Mumbai filings for startups, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

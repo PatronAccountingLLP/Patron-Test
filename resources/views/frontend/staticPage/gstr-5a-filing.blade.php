@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gstr-5a-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-5a-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTR-5A Filing in 2026: OIDAR Return | Patron Accounting">
     <meta name="twitter:description" content="GSTR-5A is the monthly OIDAR return for foreign digital service providers under Section 14 IGST Act. Starting at Rs 4,999/mo. Due 20th every month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gstr-5a-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

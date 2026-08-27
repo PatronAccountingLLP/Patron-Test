@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ngo-registration/chennai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-registration/chennai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO Registration in Chennai – Trust, Society &amp; Section 8 Co.">
     <meta name="twitter:description" content="CA-assisted NGO registration in Chennai. Trust, society, Section 8 company with 12A, 80G filing. Serving Anna Salai, OMR, Adyar areas. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ngo-registration/chennai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

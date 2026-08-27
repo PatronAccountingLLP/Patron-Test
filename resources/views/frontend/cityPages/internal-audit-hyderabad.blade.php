@@ -14,10 +14,10 @@
     <meta property="og:description" content="CA-led internal audit Hyderabad. Section 138, IFC, risk-based. HITEC City, pharma. Call +91 945 945 6700.">
     <meta property="og:url" content="/internal-audit/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/internal-audit-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Internal Audit in Hyderabad – Scope, IFC, Risk &amp; Reporting">
     <meta name="twitter:description" content="Internal audit Hyderabad. Section 138. Risk-based. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/internal-audit-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

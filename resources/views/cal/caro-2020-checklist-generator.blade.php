@@ -12,13 +12,13 @@
     <meta property="og:description" content="Check CARO 2020 applicability for your company & generate the 21-clause auditor reporting checklist instantly. Standalone & consolidated covered.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/caro-2020-checklist-generator.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
     <meta name="twitter:description" content="Instant CARO 2020 applicability + 21-clause auditor reporting checklist. Pvt Ltd, Public, Foreign Cos. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/caro-2020-checklist-generator.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

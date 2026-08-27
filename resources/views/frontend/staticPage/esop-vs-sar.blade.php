@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-vs-sar">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-sar-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP vs SAR in India 2026: Stock Appreciation Rights | Patron Accounting">
     <meta name="twitter:description" content="SAR gives the share appreciation with no exercise price, settled in cash or equity, with distinct Ind AS 102 accounting. A clear, free ESOP comparison guide.">
-    <meta name="twitter:image" content="/images/esop-vs-sar-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

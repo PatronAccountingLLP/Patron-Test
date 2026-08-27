@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-exercise-and-cap-table-management/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Exercise & Cap Table Management for SaaS | Patron Accounting">
     <meta name="twitter:description" content="Manage ESOP exercises and a clean cap table for Pune SaaS teams in Hinjewadi and Kharadi, with PAS-3 filed at RoC Pune. Done-for-you at INR 14,999/yr.">
-    <meta name="twitter:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

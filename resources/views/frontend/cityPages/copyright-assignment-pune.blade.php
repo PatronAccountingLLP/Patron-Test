@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-assignment/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-assignment-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Assignment in Pune - Deed & Stamp Duty">
     <meta name="twitter:description" content="CA-assisted copyright assignment in Pune. Deed drafting per Section 19, recordal with Copyright Office, royalty structuring, moral rights, stamp duty. IT software to film rights. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-assignment-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

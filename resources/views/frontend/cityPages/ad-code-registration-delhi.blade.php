@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ad-code-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ad-code-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AD Code Registration in Delhi - Customs & ICEGATE Process">
     <meta name="twitter:description" content="Register AD Code in Delhi for IGI Airport, ICD Tughlakabad, ICD Okhla. ICEGATE portal, lifetime validity. Exporters - Karol Bagh, Chandni Chowk. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ad-code-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

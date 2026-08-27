@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sec-143-2-notice/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sec-143-2-notice/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 143(2) Notice Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 143(2) notice CA in Pune: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Pune. Rs 25K-50K. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/sec-143-2-notice/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

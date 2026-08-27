@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-fo-traders">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-fo-traders-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="F and O Trader ITR 2026: ITR-3 + Audit | Patron Accounting">
     <meta name="twitter:description" content="F and O traders file ITR-3 with PGBP income under Section 43(5). Audit above Rs 10 crore turnover. 8-year loss carry. Starts at Rs 2,499.">
-    <meta name="twitter:image" content="/images/itr-for-fo-traders-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

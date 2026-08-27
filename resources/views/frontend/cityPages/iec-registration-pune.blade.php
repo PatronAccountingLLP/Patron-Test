@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iec-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iec-registration/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IEC Registration in Pune - DGFT Process, Fees & Export Code">
     <meta name="twitter:description" content="CA-assisted IEC registration in Pune. Import Export Code via DGFT in 1-3 days. RCMC, AD Code, GST export setup included. Serving Chakan, Hinjewadi exporters. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/iec-registration/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/it-sector-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/it-sector-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IT Accounting Services for Software Companies in India | Patron Accounting">
     <meta name="twitter:description" content="Export turnover you can prove - every invoice matched to its FIRC/BRC. Save hours every month and stop chasing your own paperwork. See our pricing.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/it-sector-accounting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

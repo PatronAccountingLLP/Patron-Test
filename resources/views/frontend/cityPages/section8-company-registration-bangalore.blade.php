@@ -20,11 +20,11 @@
     <meta property="og:url" content="/section8-company-registration/bangalore">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/section8-company-registration/bengaluru-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 8 Company Registration in Bangalore – MOA, AOA">
     <meta name="twitter:description" content="CA-assisted Section 8 company registration in Bangalore. NGO incorporation with 12A, 80G, CSR-1 support. Serving Electronic City, Whitefield, Manyata nonprofits. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/section8-company-registration/bengaluru-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

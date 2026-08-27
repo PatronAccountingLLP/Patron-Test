@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/chart-of-accounts-setup-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/chart-of-accounts-setup-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Chart of Accounts Setup Services: Monthly CA Support | Patron Accounting">
     <meta name="twitter:description" content="A COA built for the reports you need, not copied from a default template. Predictable monthly reporting you can plan against. Book a consultation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/chart-of-accounts-setup-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

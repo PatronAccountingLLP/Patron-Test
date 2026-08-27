@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-foreign-parent-indian-subsidiary/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-foreign-parent-indian-subsidiary-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi Foreign Parent ESOP Tax, TDS & FEMA Compliance | Patron Accounting">
     <meta name="twitter:description" content="Delhi subsidiaries of US, UK and Singapore parents get RSU and ESOP perquisite TDS, FEMA OI Rules and Form 67 DTAA credit support from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-foreign-parent-indian-subsidiary-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

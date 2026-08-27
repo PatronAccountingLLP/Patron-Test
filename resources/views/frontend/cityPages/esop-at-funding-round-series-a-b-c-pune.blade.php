@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-at-funding-round-series-a-b-c/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-funding-round-series-a-b-c-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Pool Sizing for Series A, B and C Rounds | Patron Accounting">
     <meta name="twitter:description" content="Get your Pune startup's ESOP pool sized right for each Series A, B or C round, with cap-table and dilution modelling for Hinjewadi teams from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-at-funding-round-series-a-b-c-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

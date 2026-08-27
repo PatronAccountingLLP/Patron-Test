@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-services-for-family-business/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Family Business ESOPs: Retain Key SaaS Talent | Patron Accounting">
     <meta name="twitter:description" content="Keep your Pune family business in family hands while rewarding non-family SaaS leaders with structured ESOPs and sweat equity, RoC-compliant from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-services-for-family-business-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

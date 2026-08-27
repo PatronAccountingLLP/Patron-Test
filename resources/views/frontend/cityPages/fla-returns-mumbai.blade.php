@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fla-returns/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fla-returns-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FLA Return Filing with RBI Mumbai - July 15 Deadline">
     <meta name="twitter:description" content="CA-assisted FLA return filing in Mumbai. Annual RBI compliance for FDI/ODI companies. Serving BKC, Nariman Point, Powai MNC subsidiaries. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fla-returns-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

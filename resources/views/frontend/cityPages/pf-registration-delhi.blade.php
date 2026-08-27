@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pf-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pf-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PF Registration in Delhi – EPFO Process &amp; 20-Employee Rule">
     <meta name="twitter:description" content="CA-assisted PF registration in Delhi. EPF compliance for 20+ employees under EPF Act 1952. Serving Okhla, Nehru Place, Naraina employers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pf-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

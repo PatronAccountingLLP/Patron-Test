@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tax-audit">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tax-audit-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tax Audit Services - Section 44AB, Form 3CD & Due Date India">
     <meta name="twitter:description" content="Tax audit under Section 44AB mandatory if business turnover exceeds INR 1 crore or professional receipts exceed INR 50 lakh. Expert CAs. Fee from INR 7,499.">
-    <meta name="twitter:image" content="/images/tax-audit-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

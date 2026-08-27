@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-cinematographic-film">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-registration-for-cinematographic-film-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Cinematograph Film - Process, Fees & Filing">
     <meta name="twitter:description" content="Copyright registration for cinematographic film under Section 2(f), Copyright Act 1957. 60-year protection. Producer is first owner. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/copyright-registration-for-cinematographic-film-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

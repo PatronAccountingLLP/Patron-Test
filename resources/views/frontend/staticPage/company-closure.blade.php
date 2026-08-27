@@ -20,11 +20,11 @@
     <meta property="og:url" content="/company-closure">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-closure-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Closure in India - Strike Off, STK-2 & Winding Up">
     <meta name="twitter:description" content="Close your company via STK-2 under Section 248 Companies Act 2013. C-PACE now processes strike-off in under 2 months. Nil liabilities required. From INR 4,999.">
-    <meta name="twitter:image" content="/images/company-closure-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

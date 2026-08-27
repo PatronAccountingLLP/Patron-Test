@@ -19,11 +19,11 @@
     <meta property="og:url" content="/e-way-bill-for-transporters-and-gta">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/e-way-bill-for-transporters-and-gta-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Way Bill Transporters and GTA 2026 | Patron Accounting">
     <meta name="twitter:description" content="E-way bill compliance for transporters and GTA - TRANSIN, Part B updates, consolidated EWB-02, RCM and FCM. Patron from Rs 4,999 per engagement.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/e-way-bill-for-transporters-and-gta-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

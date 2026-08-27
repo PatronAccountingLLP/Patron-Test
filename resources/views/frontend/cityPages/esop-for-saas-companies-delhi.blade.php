@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-saas-companies/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-saas-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Scheme Design & Filings for SaaS Startups | Patron Accounting">
     <meta name="twitter:description" content="MCA-compliant ESOP scheme design for Delhi SaaS founders near Nehru Place and Connaught Place, covering grants, vesting and RoC Delhi filings, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-saas-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

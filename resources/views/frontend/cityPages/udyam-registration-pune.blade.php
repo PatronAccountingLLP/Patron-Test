@@ -20,11 +20,11 @@
     <meta property="og:url" content="/udyam-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/udyam-registration/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Udyam Registration in Pune - MSME Certificate & Benefits">
     <meta name="twitter:description" content="Free Udyam/MSME registration in Pune. CA-assisted portal filing. CGTMSE loans, GeM access, Section 43B(h) protection. Serving MIDC, Hinjewadi MSMEs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/udyam-registration/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

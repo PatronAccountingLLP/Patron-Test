@@ -20,11 +20,11 @@
     <meta property="og:url" content="/internal-audit/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/internal-audit/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Internal Audit in Mumbai - Scope, IFC & Reporting">
     <meta name="twitter:description" content="CA-managed internal audit in Mumbai under Section 138. COSO framework, IFC reporting, risk-based audit. Near RoC Mumbai, SEBI, RBI. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/internal-audit/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-musical-work">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-registration-for-musical-work-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Musical Work - Composition, Lyrics & Tune">
     <meta name="twitter:description" content="Copyright registration for musical work under Section 2(p), Copyright Act 1957. Lifetime + 60 years protection. Composer is first owner. Expert CA team.">
-    <meta name="twitter:image" content="/images/copyright-registration-for-musical-work-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

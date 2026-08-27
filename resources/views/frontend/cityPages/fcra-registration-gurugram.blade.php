@@ -21,11 +21,11 @@
     <meta property="og:url" content="/fcra-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fcra-registration-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FCRA Registration for NGOs Gurugram - MHA & Renewal">
     <meta name="twitter:description" content="FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fcra-registration-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

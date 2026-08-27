@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-textile-manufacturers/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-textile-manufacturers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Textile ITR 2026: Sec 145A, RoDTEP, GST Refund | Patron Accounting">
     <meta name="twitter:description" content="File ITR for textile manufacturers and traders. Section 145A inventory, inverted duty GST refund, RoDTEP, machinery depreciation. Starts at Rs 7,999.">
-    <meta name="twitter:image" content="/images/itr-for-textile-manufacturers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

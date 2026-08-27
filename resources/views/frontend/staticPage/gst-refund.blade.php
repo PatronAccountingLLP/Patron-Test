@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-refund">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Claim - Process, Documents & RFD-01 Filing India">
     <meta name="twitter:description" content="Claim GST refunds for exports, inverted duty structure, and excess ITC. Expert CA filing from Rs 4,999. Section 54 CGST Act - Form RFD-01 assistance.">
-    <meta name="twitter:image" content="/images/gst-refund-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

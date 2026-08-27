@@ -19,11 +19,11 @@
     <meta property="og:url" content="/regulation-9a-founder-esop-treatment">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/regulation-9a-founder-esop-treatment-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Regulation 9A Founder ESOP Treatment 2026: Pre-IPO | Patron Accounting">
     <meta name="twitter:description" content="SEBI Regulation 9A (8 Sep 2025) lets promoter-classified founders keep ESOPs granted a year before the DRHP. We structure and defend it. From Rs 49,999.">
-    <meta name="twitter:image" content="/images/regulation-9a-founder-esop-treatment-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

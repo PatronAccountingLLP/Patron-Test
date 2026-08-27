@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-notice/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-notice-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Notice Reply in Delhi – SCN, ASMT, DRC Forms">
     <meta name="twitter:description" content="Received GST notice in Delhi? ASMT-10, DRC-01, Section 73/74/74A reply. CA-assisted response. 500+ notices handled. Patron +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-notice-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

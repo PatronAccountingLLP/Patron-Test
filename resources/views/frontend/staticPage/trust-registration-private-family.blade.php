@@ -19,11 +19,11 @@
     <meta property="og:url" content="/trust-registration-private-family">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trust-registration-private-family-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Private Family Trust Registration 2026 | Patron Accounting">
     <meta name="twitter:description" content="Set up a private family trust in India under the Indian Trusts Act 1882 for succession, wealth and asset protection. Discretionary or specific. From INR 24,999.">
-    <meta name="twitter:image" content="/images/trust-registration-private-family-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

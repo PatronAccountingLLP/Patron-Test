@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate-for-current-account/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate-for-current-account/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Cert. - Current Account Gurugram, CA Format">
     <meta name="twitter:description" content="CA turnover certificate for opening current account in Gurugram. Open without GST, all banks accepted, UDIN. Freelancers, traders, businesses. Same-day. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/turnover-certificate-for-current-account/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

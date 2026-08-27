@@ -14,11 +14,11 @@
     <meta property="og:description" content="CA-assisted Section 8 company registration in Hyderabad. NPL licence, RoC filing, 12A/80G, CSR-1. Serving HITEC City CSR projects. Call +91 945 945 6700.">
     <meta property="og:url" content="/section8-company-registration/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/section-8-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 8 Company Registration in Hyderabad – MOA, AOA">
     <meta name="twitter:description" content="CA-assisted Section 8 company registration in Hyderabad. NPL licence, RoC filing, 12A/80G, CSR-1. Serving HITEC City CSR projects. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/section-8-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

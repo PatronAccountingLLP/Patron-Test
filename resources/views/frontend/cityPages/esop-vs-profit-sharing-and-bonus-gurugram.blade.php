@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-profit-sharing-and-bonus/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-profit-sharing-and-bonus-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP or Bonus Plan: Reward Without Dilution | Patron Accounting">
     <meta name="twitter:description" content="Cyber City enterprise-SaaS firms in Gurugram balance ESOP equity against cash bonuses. Our free guide compares dilution, tax and Bonus Act rules.">
-    <meta name="twitter:image" content="/images/esop-vs-profit-sharing-and-bonus-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

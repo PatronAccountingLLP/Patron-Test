@@ -21,11 +21,11 @@
     <meta property="og:url" content="/appointment-of-auditor/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/appointment-of-auditor/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Appointment of Auditor in Pune – Section 139 &amp; ADT-1">
     <meta name="twitter:description" content="CA/CS-assisted auditor appointment in Pune. First auditor, subsequent auditor, Form ADT-1, Section 139/141, auditor rotation, casual vacancy. ROC Pune filing. Serving Hinjewadi, Kharadi companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/appointment-of-auditor/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

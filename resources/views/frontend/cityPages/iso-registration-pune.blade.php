@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iso-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iso-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ISO Certification in Pune - 9001, 14001 & 27001 Standards">
     <meta name="twitter:description" content="CA-assisted ISO registration in Pune. ISO 9001, 14001, 27001, 45001, 22000 certification with NABCB-accredited bodies. Serving Chakan, Hinjewadi, MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/iso-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

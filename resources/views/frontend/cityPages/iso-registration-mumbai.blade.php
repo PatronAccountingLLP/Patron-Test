@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iso-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iso-registration-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ISO Certification in Mumbai - 9001, 14001 & 27001">
     <meta name="twitter:description" content="ISO registration in Mumbai. ISO 9001, 14001, 27001, 45001, 22000 certification. NABCB-accredited. Gap analysis, implementation, audit support. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/iso-registration-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

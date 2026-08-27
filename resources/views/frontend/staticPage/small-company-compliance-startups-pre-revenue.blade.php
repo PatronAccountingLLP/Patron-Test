@@ -20,11 +20,11 @@
     <meta property="og:url" content="/small-company-compliance-startups-pre-revenue">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/small-company-compliance-startups-pre-revenue-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pre-Revenue Startup Compliance 2026 | Patron Accounting">
     <meta name="twitter:description" content="Pre-revenue startup compliance under Companies Act 2013. INC-20A 180 days. Section 139 audit despite nil revenue. Patron from Rs 30,000. CCFS 2026 active.">
-    <meta name="twitter:image" content="/images/small-company-compliance-startups-pre-revenue-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

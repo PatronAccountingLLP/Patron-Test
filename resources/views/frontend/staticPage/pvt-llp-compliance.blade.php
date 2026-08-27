@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pvt-llp-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pvt-llp-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pvt Ltd & LLP Annual Compliance - ROC, AOC-4 & MGT-7 Filing">
     <meta name="twitter:description" content="File LLP Form 11 by 30 May, Form 8 by 30 Oct, and ITR-5 for your LLP under Section 34 of LLP Act 2008. Starting at INR 4,999.">
-    <meta name="twitter:image" content="/images/pvt-llp-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

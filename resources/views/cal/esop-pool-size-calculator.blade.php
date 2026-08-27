@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-pool-size-calculator">
 <meta property="og:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
 <meta property="og:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios and founder vs employee-friendly variants.">
-<meta property="og:image" content="https://www.patronaccounting.com/og/esop-pool-size-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 
@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
 <meta name="twitter:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/og/esop-pool-size-calculator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <!-- Favicons -->
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">

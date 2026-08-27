@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-agreement-change/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-agreement-change-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Agreement Amendment Delhi NCR – Deed &amp; Form 3">
     <meta name="twitter:description" content="LLP agreement change in Delhi. Supplementary deed. Form 3 within 30 days. Delhi stamp duty. Partner consent. Rs 100/day penalty. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-agreement-change-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

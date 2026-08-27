@@ -22,11 +22,11 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/virtual-cfo-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Virtual CFO in 2026: Startups and SMEs | Patron Accounting">
     <meta name="twitter:description" content="Patron Accounting offers Virtual CFO services for Indian startups and SMEs - MIS, cash flow, fundraising and compliance. From Rs 35,000 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/virtual-cfo-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

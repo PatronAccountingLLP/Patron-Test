@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-tally-to-quickbooks/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-quickbooks/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to QuickBooks Migration Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Tally to QuickBooks Online migration in Pune from INR 9,999. CA-led chart mapping, masters, GST setup, and trial balance reconciliation for Hinjewadi firms.">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-quickbooks/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

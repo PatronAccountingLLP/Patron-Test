@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-accounting-ind-as-102/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-accounting-ind-as-102-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Accounting Under Ind AS 102 & ICAI Note | Patron Accounting">
     <meta name="twitter:description" content="Ind AS 102 ESOP accounting for Delhi Nehru Place and Connaught Place firms: fair valuation, expense schedules and RoC Delhi disclosures from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-accounting-ind-as-102-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

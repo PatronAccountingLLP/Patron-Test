@@ -21,11 +21,11 @@
     <meta property="og:url" content="/tan-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tan-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TAN Registration Online - Process, Form 49B & Application">
     <meta name="twitter:description" content="TAN registration via Form 49B under Section 203A. Fee Rs 77. Mandatory for TDS/TCS deductors. Online on Protean portal. 7-10 days. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/tan-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

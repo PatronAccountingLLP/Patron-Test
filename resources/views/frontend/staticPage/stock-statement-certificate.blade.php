@@ -19,11 +19,11 @@
     <meta property="og:url" content="/stock-statement-certificate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/stock-statement-certificate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Stock Statement Certificate CC OD 2026 | Patron Accounting">
     <meta name="twitter:description" content="Stock statement certificate for CC/OD - CA-certified monthly stock and book-debts statement for bank drawing power, with UDIN. From INR 1,999/mo (Exl GST).">
-    <meta name="twitter:image" content="/images/stock-statement-certificate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

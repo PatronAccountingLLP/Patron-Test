@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-trading-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-trading-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Industry Payroll Services - PF, ESIC & TDS India">
     <meta name="twitter:description" content="Patron Accounting offers payroll services for trading companies in India starting at Rs 1,500 per month. PF, ESI, TDS, PT compliance with zero errors.">
-    <meta name="twitter:image" content="/images/payroll-services-for-trading-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

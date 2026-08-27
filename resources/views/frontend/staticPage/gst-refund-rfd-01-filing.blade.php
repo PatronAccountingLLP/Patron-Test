@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-rfd-01-filing/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-rfd-01-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST RFD-01 Filing — Step-by-Step Across 8 Categories">
     <meta name="twitter:description" content="Step-by-step GST Form RFD-01 filing across 8 refund categories. Statements 1A to 7 mapping. Pre-application form. CA-led portal walkthrough. Rs 6,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-rfd-01-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

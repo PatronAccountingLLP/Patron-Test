@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fcra-quarterly-receipt-declaration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fcra-quarterly-receipt-declaration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FCRA Quarterly Receipt Declaration: Rule 13 Status">
     <meta name="twitter:description" content="Is the FCRA quarterly website declaration of foreign contribution still required? Rule 13(b) was omitted in 2022 - see what NGOs must now disclose.">
-    <meta name="twitter:image" content="/images/fcra-quarterly-receipt-declaration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

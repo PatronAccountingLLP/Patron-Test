@@ -9,13 +9,13 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/notice-section-identifier">
 <meta property="og:title" content="Notice Section Identifier — GST/IT Notice Decoder 2026">
 <meta property="og:description" content="Identify Income Tax or GST notice section (143(2), 148, 73, 74) with urgency, reply window, CA tier.">
-<meta property="og:image" content="https://www.patronaccounting.com/og/notice-section-identifier.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Notice Section Identifier — GST/IT Notice Decoder 2026">
 <meta name="twitter:description" content="GST &amp; IT notice section decoder. 8-question decision tree.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/og/notice-section-identifier.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

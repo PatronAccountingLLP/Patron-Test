@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-hearing/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-hearing/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Hearing Delhi NCR – Process, Prep &amp; Order">
     <meta name="twitter:description" content="Trademark show cause hearing in Delhi? Patron provides hearing representation at Trade Marks Registry Delhi. Preparation, evidence, attendance. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-hearing/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

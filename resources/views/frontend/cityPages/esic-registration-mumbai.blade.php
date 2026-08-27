@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esic-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esic-registration-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESIC Registration in Mumbai - Process, Threshold & Wages">
     <meta name="twitter:description" content="ESIC registration in Mumbai. ESI Act 1948, 10+ employees, Rs 21,000 wage ceiling, employer 3.25% + employee 0.75%, ESIC portal, Pehchan card, 6 benefits. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esic-registration-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

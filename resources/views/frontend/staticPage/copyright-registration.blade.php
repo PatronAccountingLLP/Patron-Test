@@ -19,11 +19,11 @@
     <meta property="og:url" content="/copyright-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Registration India - Form XIV, Fees & Process">
     <meta name="twitter:description" content="Register copyright for literary, artistic, musical, dramatic works, software and films under the Copyright Act, 1957. Fees from Rs 500. Expert filing via Form XIV.">
-    <meta name="twitter:image" content="/images/copyright-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

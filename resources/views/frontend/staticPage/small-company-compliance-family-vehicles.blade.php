@@ -20,11 +20,11 @@
     <meta property="og:url" content="/small-company-compliance-family-vehicles">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/small-company-compliance-family-vehicles-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Family Company MGT-7A AOC-4 2026 | Patron Accounting">
     <meta name="twitter:description" content="Family company compliance covers MGT-7A, AOC-4, board meetings, share transfers, and director KYC. Starting at Rs 18,000 per year.">
-    <meta name="twitter:image" content="/images/small-company-compliance-family-vehicles-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

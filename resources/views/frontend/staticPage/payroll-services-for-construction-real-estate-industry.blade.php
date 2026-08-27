@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-construction-real-estate-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-construction-real-estate-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Construction & Real Estate Payroll - PF, ESI, TDS & Wages">
     <meta name="twitter:description" content="Expert payroll services for construction and real estate companies in India. PF, ESI, BOCW compliance, salary processing from Rs 5,999/month. CA-managed.">
-    <meta name="twitter:image" content="/images/payroll-services-for-construction-real-estate-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

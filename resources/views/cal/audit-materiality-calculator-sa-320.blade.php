@@ -12,13 +12,13 @@
     <meta property="og:description" content="Compute overall materiality, performance materiality & clearly trivial threshold per SA 320. Benchmark guidance + working paper text.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/audit-materiality-calculator-sa-320.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit Materiality Calculator (SA 320) — FY 2025-26">
     <meta name="twitter:description" content="Overall + performance materiality + clearly trivial threshold per SA 320. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/audit-materiality-calculator-sa-320.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

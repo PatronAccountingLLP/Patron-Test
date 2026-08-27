@@ -20,11 +20,11 @@
     <meta property="og:url" content="/construction-and-real-estate-accounting-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/construction-and-real-estate-accounting-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Construction & Real Estate Accounting Delhi - RERA & GST">
     <meta name="twitter:description" content="CA-assisted construction and real estate accounting in Delhi. RERA escrow, WIP tracking, and IND AS 115 compliance. Serving Connaught Place, Okhla, Dwarka. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/construction-and-real-estate-accounting-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

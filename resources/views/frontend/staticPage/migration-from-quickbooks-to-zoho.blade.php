@@ -19,11 +19,11 @@
     <meta property="og:url" content="/migration-from-quickbooks-to-zoho">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-quickbooks-to-zoho-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="QuickBooks to Zoho Books Migration 2026 | Patron Accounting">
     <meta name="twitter:description" content="QuickBooks India shut down in 2023. Move to Zoho Books with zero data loss, verified balances and GST setup. CA-led migration from INR 9,999.">
-    <meta name="twitter:image" content="/images/migration-from-quickbooks-to-zoho-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

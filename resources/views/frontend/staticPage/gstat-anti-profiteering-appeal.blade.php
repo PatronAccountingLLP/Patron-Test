@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-anti-profiteering-appeal">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-anti-profiteering-appeal-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Anti-Profiteering Appeal - Section 171 | Patron">
     <meta name="twitter:description" content="Expert defence against anti-profiteering under Section 171 CGST Act before GSTAT Principal Bench. DGAP investigation response, 10% penalty challenge, Consumer Welfare Fund.">
-    <meta name="twitter:image" content="/images/gstat-anti-profiteering-appeal-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

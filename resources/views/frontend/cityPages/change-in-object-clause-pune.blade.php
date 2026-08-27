@@ -21,11 +21,11 @@
     <meta property="og:url" content="/change-in-object-clause/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-object-clause/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Object Clause Change in Pune – MOA Alteration &amp; MGT-14">
     <meta name="twitter:description" content="CA and CS assisted change in object clause of MOA for Pune companies. Special resolution, Form MGT-14, ROC Pune filing. IT pivots, MIDC expansion, startup diversification. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-in-object-clause/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

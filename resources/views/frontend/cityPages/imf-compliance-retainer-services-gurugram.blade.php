@@ -19,11 +19,11 @@
     <meta property="og:url" content="/imf-compliance-retainer-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf/compliance-retainer-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF Compliance Retainer: IRDAI Returns &amp; Accounting">
     <meta name="twitter:description" content="Annual IMF compliance retainer from INR 24,999 (Exl GST & Govt. Charges): IRDAI returns, net worth certificate, PI renewal, ISP records & premium accounting in Gurugram.">
-    <meta name="twitter:image" content="/images/imf/compliance-retainer-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

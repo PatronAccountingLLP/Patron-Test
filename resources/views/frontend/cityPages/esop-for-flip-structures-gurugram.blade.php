@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-flip-structures/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram Flip ESOP Setup for Enterprise-SaaS Teams | Patron Accounting">
     <meta name="twitter:description" content="Structure mirror-grant ESOPs for Gurugram Cyber City enterprise-SaaS firms under offshore holdcos, with FEMA OI Rules and 409A pricing, from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

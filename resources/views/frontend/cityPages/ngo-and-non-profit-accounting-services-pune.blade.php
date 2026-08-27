@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ngo-and-non-profit-accounting-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-accounting-services-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO & Non-Profit Accounting in Pune - Bookkeeping & Audit">
     <meta name="twitter:description" content="CA-assisted NGO and non-profit accounting in Pune. 12A, 80G, FCRA compliance, fund accounting, trust audit. Serving Deccan, Kothrud, Hadapsar organisations. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ngo-accounting-services-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

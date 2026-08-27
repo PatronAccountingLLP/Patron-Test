@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-travel-and-logistics-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-travel-and-logistics-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Travel & Logistics Payroll Services - PF, ESI & Multi-PT">
     <meta name="twitter:description" content="Payroll for logistics, transport and warehousing companies. EPF, ESI, TDS, CLRA compliance, driver allowances and multi-state wages. From INR 500 per employee.">
-    <meta name="twitter:image" content="/images/payroll-services-for-travel-and-logistics-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

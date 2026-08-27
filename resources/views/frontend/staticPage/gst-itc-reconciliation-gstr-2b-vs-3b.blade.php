@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-itc-reconciliation-gstr-2b-vs-3b">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-itc-reconciliation-gstr-2b-vs-3b-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITC Reconciliation 2026: GSTR-2B vs 3B | Patron Accounting">
     <meta name="twitter:description" content="Monthly GSTR-2B vs GSTR-3B reconciliation under Section 16 CGST Act. Catch ITC mismatches before hard-locking. Patron from Rs 4,999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-itc-reconciliation-gstr-2b-vs-3b-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-renewal/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-renewal/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Renewal Delhi NCR – Process, Fees &amp; 10-Year">
     <meta name="twitter:description" content="Trademark renewal in Delhi via Form TM-R. Rs 9,000 e-filing. 6-month grace period. Portfolio renewal management. Patron Accounting +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-renewal/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

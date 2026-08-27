@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-travel-and-logistics-industry/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-travel-and-logistics-industry/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Travel & Logistics Accounting in Mumbai - Freight & GST">
     <meta name="twitter:description" content="CA-led logistics payroll in Mumbai. Driver wages, warehouse shifts, JNPT CHA staff, PF/ESI, fleet TDS, Bhiwandi 3PL, multi-state compliance. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-travel-and-logistics-industry/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

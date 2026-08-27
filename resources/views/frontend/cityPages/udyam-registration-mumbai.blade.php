@@ -20,11 +20,11 @@
     <meta property="og:url" content="/udyam-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/udyam-registration/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Udyam Registration in Mumbai - MSME Certificate & Benefits">
     <meta name="twitter:description" content="Free Udyam/MSME registration in Mumbai. Collateral-free loans, tender benefits, Maharashtra PSI. CA-managed NIC code. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/udyam-registration/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

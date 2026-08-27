@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-financial-advisors">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-for-financial-advisors-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Financial Advisors 2026: RIA + IMF | Patron">
     <meta name="twitter:description" content="Add IMF to financial advisory or RIA practice - operating model, RIA-IMF segregation, tax planning, insurer strategy. From Rs 75,000. Free scoping call.">
-    <meta name="twitter:image" content="/images/imf-for-financial-advisors-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

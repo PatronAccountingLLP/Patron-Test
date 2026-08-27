@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-founders-and-promoters/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi Founder ESOP &amp; Sweat Equity Under Section 54 | Patron Accounting">
     <meta name="twitter:description" content="Promoters in Delhi are barred from ESOPs by Rule 12, so we design Section 54 sweat equity and DPIIT-startup routes with RoC Delhi filings. From INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-founders-and-promoters-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

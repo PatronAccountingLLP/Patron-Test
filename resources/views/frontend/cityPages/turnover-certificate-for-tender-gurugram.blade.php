@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate-for-tender/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate-for-tender/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Cert. for Tender Gurugram – GeM &amp; CA Format">
     <meta name="twitter:description" content="CA-issued turnover certificate for tender in Gurugram with UDIN. Same-day delivery from our Golf Course Road office. GeM, Haryana tenders. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/turnover-certificate-for-tender/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

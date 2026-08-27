@@ -20,11 +20,11 @@
     <meta property="og:url" content="/roc-notice/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/registrar-of-companies-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ROC Compliance Filing Delhi NCR – AOC-4 &amp; MGT-7">
     <meta name="twitter:description" content="ROC notice response for Delhi companies. Annual return, financial statement filing. Director disqualification defence. CCFS 2026. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/registrar-of-companies-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

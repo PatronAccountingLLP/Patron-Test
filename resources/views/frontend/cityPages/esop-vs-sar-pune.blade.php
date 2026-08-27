@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-sar/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-sar-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP vs SAR: Equity or Cash-Settled Employee Rewards | Patron Accounting">
     <meta name="twitter:description" content="Weighing ESOP equity against cash-settled SARs for your Pune SaaS team in Hinjewadi or Kharadi? Get a free guide on dilution, tax and Ind AS 102.">
-    <meta name="twitter:image" content="/images/esop-vs-sar-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

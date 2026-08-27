@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/construction-and-real-estate-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting for Construction and Real Estate Companies | Patron Accounting">
     <meta name="twitter:description" content="Project-wise books - every cost traceable to a tower, wing and unit. Know where you stand before your accountant tells you. Get a compliance review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

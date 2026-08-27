@@ -11,13 +11,13 @@
 <meta property="og:description" content="Check whether your startup qualifies to defer ESOP TDS under Section 192(1C): DPIIT recognition, 80-IAC IMB certificate, incorporation window and turnover test.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP TDS Deferral Checker — Section 192(1C) 2026">
 <meta name="twitter:description" content="Check if your startup can defer ESOP TDS under Section 192(1C): DPIIT, 80-IAC IMB certificate, incorporation window and turnover. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

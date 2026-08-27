@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-appeal-to-gstat-section-112">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-appeal-to-gstat-section-112-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 112 GST Appeal to GSTAT 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 112 CGST Act GSTAT appeal - 3-month window, 20% pre-deposit. Bridge to industry, bench, and city-specific GSTAT services at Patron Accounting.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-appeal-to-gstat-section-112-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

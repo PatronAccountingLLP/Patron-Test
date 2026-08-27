@@ -20,11 +20,11 @@
     <meta property="og:url" content="/bonus-issue-of-shares-section-63">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/bonus-issue-of-shares-section-63-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bonus Issue of Shares Section 63 in 2026 | Patron Accounting">
     <meta name="twitter:description" content="Issue bonus shares under Section 63 by capitalising free reserves or securities premium. Board resolution, MGT-14 and PAS-3 handled. From INR 19,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/bonus-issue-of-shares-section-63-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

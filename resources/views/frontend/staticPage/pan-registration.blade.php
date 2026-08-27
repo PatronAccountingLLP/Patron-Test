@@ -21,11 +21,11 @@
     <meta property="og:url" content="/pan-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pan-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PAN Card Registration Online - Process, Form 49A & Documents">
     <meta name="twitter:description" content="PAN registration for individuals, companies, LLPs, trusts. Form 49A/49AA under Section 139A. Fee Rs 107. Instant e-PAN via Aadhaar. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/pan-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

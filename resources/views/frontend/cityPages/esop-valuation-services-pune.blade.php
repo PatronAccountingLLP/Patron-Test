@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-valuation-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-valuation-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Valuation: Rule 11UA FMV for SaaS Startups | Patron Accounting">
     <meta name="twitter:description" content="ESOP valuation for Pune's Hinjewadi and Kharadi tech startups - DCF, NAV and SEBI merchant banker FMV reports under Rule 11UA, starting at INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-valuation-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

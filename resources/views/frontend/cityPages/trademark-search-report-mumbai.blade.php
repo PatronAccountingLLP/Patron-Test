@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-search-report/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-search-report-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Search in Mumbai - Availability & Class Check">
     <meta name="twitter:description" content="CA-assisted trademark search report in Mumbai. Wordmark, phonetic, Vienna Code clearance. Serving BKC, SEEPZ, Powai businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-search-report-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

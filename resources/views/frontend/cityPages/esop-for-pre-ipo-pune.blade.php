@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-pre-ipo/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Pre-IPO ESOP: SEBI SBEB Conversion & ICDR Lock-In | Patron Accounting">
     <meta name="twitter:description" content="Convert your Pune startup's ESOP to SEBI SBEB 2021 with ICDR Regulation 167 lock-in and DRHP disclosure, built for Hinjewadi listings, from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-pre-ipo-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

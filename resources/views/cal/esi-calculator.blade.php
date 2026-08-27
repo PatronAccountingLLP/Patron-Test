@@ -8,7 +8,7 @@
     <meta property="og:description" content="Calculate ESI contributions &mdash; 0.75% employee + 3.25% employer on wages up to &#8377;21,000 ceiling.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/esi-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/esi-calculator/og-image.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESI Calculator &mdash; ESIC Contribution & Eligibility 2026">
     <meta name="twitter:description" content="ESI employee 0.75% + employer 3.25% on wages up to &#8377;21,000. Calculate instantly!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/esi-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

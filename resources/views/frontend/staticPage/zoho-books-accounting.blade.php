@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/zoho-books-accounting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/zoho-books-accounting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zoho Books Accounting Services: Fixed Monthly Fee Today | Patron Accounting">
     <meta name="twitter:description" content="Zoho configured for Indian statutory reporting, not the global default. Save hours every month and stop chasing your own paperwork. Get a fixed quote.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/zoho-books-accounting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

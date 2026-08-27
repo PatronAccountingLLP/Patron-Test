@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-reverse-charge-mechanism-rcm-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-reverse-charge-mechanism-rcm-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST RCM Compliance 2026: Sec 9(3)/(4) | Patron Accounting">
     <meta name="twitter:description" content="Expert GST Reverse Charge Mechanism compliance under Section 9(3) and 9(4) - GTA, legal, director, sponsorship, import of services. Starting from INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-reverse-charge-mechanism-rcm-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

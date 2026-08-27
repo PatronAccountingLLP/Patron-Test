@@ -20,11 +20,11 @@
     <meta property="og:url" content="/qualified-vs-unqualified-audit-opinion">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/qualified-vs-unqualified-audit-opinion-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Qualified vs Unqualified Audit 2026 | Patron Accounting">
     <meta name="twitter:description" content="Complete guide - qualified vs unqualified audit opinion, qualification triggers, lender and investor impact, removal roadmap, Patron prevention methodology.">
-    <meta name="twitter:image" content="/images/qualified-vs-unqualified-audit-opinion-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

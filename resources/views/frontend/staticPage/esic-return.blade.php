@@ -21,11 +21,11 @@
     <meta property="og:url" content="/esic-return">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esic-return-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESIC Return Filing Online - Process, Due Date & Documents">
     <meta name="twitter:description" content="File ESIC monthly contribution by 15th and half-yearly return (Form 5) by 11 May/12 Nov. Late payment: 12% interest + 5-25% damages. Expert filing.">
-    <meta name="twitter:image" content="/images/esic-return-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

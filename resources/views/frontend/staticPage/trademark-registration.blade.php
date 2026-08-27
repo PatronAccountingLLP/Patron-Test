@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Registration India - Process, Fees & TM-A Filing">
     <meta name="twitter:description" content="Register your trademark online. Govt fee Rs 4,500 (individual/startup) or Rs 9,000 per class. 10-year validity. 45 NICE classes. Form TM-A on IP India.">
-    <meta name="twitter:image" content="/images/trademark-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

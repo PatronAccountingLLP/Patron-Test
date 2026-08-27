@@ -20,11 +20,11 @@
     <meta property="og:url" content="/convert-partnership-to-pvt-ltd-company/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/partnership-to-pvt-ltd/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Partnership to Pvt Ltd Gurugram - URC-1 Process">
     <meta name="twitter:description" content="CA/CS-assisted partnership firm to Pvt Ltd conversion in Gurugram. Section 366, URC-1, tax-neutral, limited liability, ROC Haryana. Serving Udyog Vihar, Cyber City. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/partnership-to-pvt-ltd/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

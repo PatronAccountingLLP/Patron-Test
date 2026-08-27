@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-influencers/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-influencers-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Influencers Delhi NCR – Brand Deals &amp; TDS 194R">
     <meta name="twitter:description" content="ITR for influencers in Delhi. AdSense, brand deals, freebies S.194R. PGBP income. ITR-3/ITR-4. GST 18%. Expense deductions. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-influencers-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

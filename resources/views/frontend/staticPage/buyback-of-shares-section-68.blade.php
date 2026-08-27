@@ -20,11 +20,11 @@
     <meta property="og:url" content="/buyback-of-shares-section-68">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/buyback-of-shares-section-68-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Buyback of Shares Section 68 in 2026 | Patron Accounting">
     <meta name="twitter:description" content="Complete a share buyback under Section 68 with SH-8, SH-9, SH-10 and SH-11, the 25 percent and 2:1 limits and full compliance. From INR 49,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/buyback-of-shares-section-68-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

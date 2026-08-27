@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-for-uk-companies">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-for-uk-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR India for UK Companies in 2026 | Patron Accounting">
     <meta name="twitter:description" content="Hire Indian talent without entity. CA-led EOR with PE-risk firewall, UK-India DTAA, UK GDPR + DPDP alignment. Starting GBP 159/employee.">
-    <meta name="twitter:image" content="/images/eor-india-for-uk-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

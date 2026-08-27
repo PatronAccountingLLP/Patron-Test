@@ -19,11 +19,11 @@
     <meta property="og:url" content="/inward-remittance-certificate-firc/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/inward-remittance-certificate-firc/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Inward Remittance Certificate FIRC 2026 | Patron Accounting">
     <meta name="twitter:description" content="FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/inward-remittance-certificate-firc/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iec-renewal">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iec-renewal-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IEC Code Renewal Online - DGFT Process, Fees & Documents">
     <meta name="twitter:description" content="IEC renewal (annual updation) mandatory April 1-June 30 on DGFT portal. Free if no changes. Rs 200 for modifications. Avoid deactivation. Expert CA and CS team.">
-    <meta name="twitter:image" content="/images/iec-renewal-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

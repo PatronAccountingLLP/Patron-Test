@@ -22,11 +22,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-visa/ahmedabad">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-visa-ahmedabad.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Visa Certificates for Gujarat Applicants">
     <meta name="twitter:description" content="Student and business visitor files, certified in Ahmedabad.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-worth-certificate-for-visa-ahmedabad.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

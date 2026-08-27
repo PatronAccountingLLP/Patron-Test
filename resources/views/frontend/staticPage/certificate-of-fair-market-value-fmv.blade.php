@@ -19,11 +19,11 @@
     <meta property="og:url" content="/certificate-of-fair-market-value-fmv">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/certificate-of-fair-market-value-fmv-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fair Market Value Certificate FMV 2026 | Patron Accounting">
     <meta name="twitter:description" content="Certificate of fair market value under Rule 11UA - CA valuation of unlisted shares for ESOP, share transfer 50CA, and 56(2)(x). From INR 9,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/certificate-of-fair-market-value-fmv-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

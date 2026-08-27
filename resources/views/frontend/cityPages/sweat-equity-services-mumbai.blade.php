@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sweat-equity-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sweat-equity-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Sweat Equity Shares: Valuation to PAS-3 Filing | Patron Accounting">
     <meta name="twitter:description" content="Reward founders and key talent with sweat equity in Mumbai, from BKC to Powai SaaS firms: registered-valuer FMV, MGT-14 and PAS-3, all from INR 24,999.">
-    <meta name="twitter:image" content="/images/sweat-equity-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

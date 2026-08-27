@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounts-payable-outsourcing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounts-payable-outsourcing-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounts Payable Outsourcing Services for Indian SMEs | Patron Accounting">
     <meta name="twitter:description" content="Three-way match on every invoice - PO, GRN and bill before payment. Stop month-end running into the middle of the next one. Download the checklist.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounts-payable-outsourcing-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

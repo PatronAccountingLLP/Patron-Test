@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-returns-for-sez">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-for-sez-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for SEZ Units - Zero-Rated Supply, LUT & Refund">
     <meta name="twitter:description" content="GST returns for SEZ units and developers require separate GSTIN filing. Expert SEZ return filing services from Rs 1,499/month. CA-assisted compliance.">
-    <meta name="twitter:image" content="/images/gst-returns-for-sez-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-real-estate-developers/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-real-estate-developers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Real Estate Developers in 2026 | Patron Accounting">
     <meta name="twitter:description" content="File ITR for builders, developers, brokers. POCM vs PCM, Sec 43CA, Sec 80-IBA, Sec 194H, RERA, JDA. Starting Rs 12,500.">
-    <meta name="twitter:image" content="/images/itr-for-real-estate-developers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

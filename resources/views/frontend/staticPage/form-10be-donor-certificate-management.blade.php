@@ -20,11 +20,11 @@
     <meta property="og:url" content="/form-10be-donor-certificate-management">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/form-10be-donor-certificate-management-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Form 10BE: Certificate of Donation for 80G Claims">
     <meta name="twitter:description" content="Form 10BE is the 80G donation certificate NGOs must issue to donors by 31 May after filing Form 10BD. Learn due dates, download steps and corrections.">
-    <meta name="twitter:image" content="/images/form-10be-donor-certificate-management-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

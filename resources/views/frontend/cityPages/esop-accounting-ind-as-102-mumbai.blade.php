@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-accounting-ind-as-102/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-accounting-ind-as-102-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Ind AS 102 ESOP Share-Based Payment Reports | Patron Accounting">
     <meta name="twitter:description" content="ESOP share-based payment accounting for Mumbai BKC and Powai firms under Ind AS 102, with Schedule III notes and RoC Mumbai filings, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-accounting-ind-as-102-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

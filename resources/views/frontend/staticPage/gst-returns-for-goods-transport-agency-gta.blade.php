@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-goods-transport-agency-gta">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-goods-transport-agency-gta-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting">
     <meta name="twitter:description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-goods-transport-agency-gta-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

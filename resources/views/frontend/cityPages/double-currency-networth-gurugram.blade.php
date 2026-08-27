@@ -20,11 +20,11 @@
     <meta property="og:url" content="/double-currency-networth/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/double-currency-networth/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Double Currency Net Worth Cert. Gurugram - INR & USD">
     <meta name="twitter:description" content="CA-certified double currency networth certificate in Gurugram. INR + USD/CAD/GBP/EUR/AUD. VISA, immigration, PR, student visa. Same-day. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/double-currency-networth/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

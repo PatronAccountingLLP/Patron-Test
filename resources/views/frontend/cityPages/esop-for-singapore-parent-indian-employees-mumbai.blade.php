@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-singapore-parent-indian-employees/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-singapore-parent-indian-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Singapore ESOP: DTAA Credit & Form 67 Filing | Patron Accounting">
     <meta name="twitter:description" content="Mumbai staff with Singapore-parent RSUs: claim the India-Singapore DTAA foreign tax credit via Form 67 and avoid double taxation. From INR 74,999.">
-    <meta name="twitter:image" content="/images/esop-for-singapore-parent-indian-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

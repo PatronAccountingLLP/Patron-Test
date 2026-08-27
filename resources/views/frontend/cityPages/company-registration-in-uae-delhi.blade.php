@@ -20,11 +20,11 @@
     <meta property="og:url" content="/company-registration-in-uae/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-registration-in-uae/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="UAE Company Registration from Delhi - Freezone & Mainland">
     <meta name="twitter:description" content="CA-assisted UAE company setup from Delhi. Free Zone from AED 12,500. FEMA-compliant. Serving Nehru Place, Connaught Place, Okhla. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/company-registration-in-uae/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

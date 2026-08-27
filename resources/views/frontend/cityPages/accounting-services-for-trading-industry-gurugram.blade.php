@@ -20,11 +20,11 @@
     <meta property="og:url" content="/accounting-services-for-trading-industry/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/accounting-services-for-trading/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Business Accounting in Gurugram - Inventory & GST">
     <meta name="twitter:description" content="CA-led accounting for wholesale and retail traders in Gurugram. GST multi-rate, inventory, e-way bill, S44AD. Serving Udyog Vihar, Manesar, Sohna Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/accounting-services-for-trading/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

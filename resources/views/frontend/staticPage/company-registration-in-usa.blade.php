@@ -20,11 +20,11 @@
     <meta property="og:url" content="/company-registration-in-usa">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-registration-in-usa-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Registration in USA - LLC, C-Corp, EIN & Process">
     <meta name="twitter:description" content="Register a company in USA from India. LLC from USD 100, C-Corp in Delaware or Wyoming. EIN, bank account, FEMA compliance. Starting from $149.">
-    <meta name="twitter:image" content="/images/company-registration-in-usa-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

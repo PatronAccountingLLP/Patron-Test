@@ -21,11 +21,11 @@
     <meta property="og:url" content="/pvt-llp-compliance/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pvt-llp-compliance/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Annual Compliance in Pune – AOC-4, MGT-7 &amp; Form 11">
     <meta name="twitter:description" content="CA/CS-assisted LLP compliance in Pune. Form 8, Form 11, ITR-5, audit, DIR-3 KYC, partner changes, LLP agreement amendment. Annual and event-based filings. Serving Hinjewadi, Kharadi LLPs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pvt-llp-compliance/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

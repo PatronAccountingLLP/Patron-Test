@@ -19,11 +19,11 @@
     <meta property="og:url" content="/convert-public-ltd-to-pvt-ltd">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-public-ltd-to-pvt-ltd-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Public Ltd to Pvt Ltd 2026 | Patron Accounting">
     <meta name="twitter:description" content="Convert your public limited company to a private limited company under Section 14 with Regional Director approval. MoA and AoA alteration. From INR 49,999.">
-    <meta name="twitter:image" content="/images/convert-public-ltd-to-pvt-ltd-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

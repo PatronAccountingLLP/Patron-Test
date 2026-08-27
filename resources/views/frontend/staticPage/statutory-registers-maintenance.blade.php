@@ -20,11 +20,11 @@
     <meta property="og:url" content="/statutory-registers-maintenance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/statutory-registers-maintenance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Statutory Registers Maintenance 2026 | Patron Accounting">
     <meta name="twitter:description" content="Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/statutory-registers-maintenance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

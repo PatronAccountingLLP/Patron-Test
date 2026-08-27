@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-notice-reply/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-notice/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Cease &amp; Desist Delhi NCR – Drafting &amp; Reply">
     <meta name="twitter:description" content="Received a trademark cease-and-desist notice in Delhi? Professional reply drafting. Defence strategy, negotiation, counter-action. Call Patron +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-notice/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

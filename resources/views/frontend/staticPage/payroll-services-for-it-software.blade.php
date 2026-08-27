@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-it-software">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-it-software-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll for IT and SaaS India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Payroll for IT and SaaS companies India: ESOP perquisite TDS, multi-state, Code on Wages 2025. Rs 149-249 per employee. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-it-software-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

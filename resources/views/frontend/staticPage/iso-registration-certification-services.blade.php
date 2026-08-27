@@ -19,11 +19,11 @@
     <meta property="og:url" content="/iso-registration-certification-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iso-registration-certification-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ISO Certification India - 9001, 14001, 27001 Registration">
     <meta name="twitter:description" content="Get ISO 9001, 14001, 27001, 22000, 45001 certification. 3-year validity with annual surveillance audits. Accredited certification bodies. From Rs 20,000 for small businesses.">
-    <meta name="twitter:image" content="/images/iso-registration-certification-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

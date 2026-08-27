@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-capital-gains-tax-on-sale/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai ESOP Capital Gains Tax on Share Sale Filing | Patron Accounting">
     <meta name="twitter:description" content="Mumbai ESOP holders: get capital gains computed correctly on share sale, with FMV-at-exercise cost base and accurate LTCG or STCG rates, from INR 4,999.">
-    <meta name="twitter:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

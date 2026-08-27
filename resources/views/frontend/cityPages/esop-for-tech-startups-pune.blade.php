@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-tech-startups/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Scheme Design & Vesting for SaaS Startups | Patron Accounting">
     <meta name="twitter:description" content="Structure a compliant ESOP for your Hinjewadi or Kharadi SaaS startup with stage-wise pools, vesting and acceleration, RoC Pune-ready, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

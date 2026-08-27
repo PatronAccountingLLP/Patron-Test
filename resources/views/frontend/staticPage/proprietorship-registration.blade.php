@@ -20,11 +20,11 @@
     <meta property="og:url" content="/proprietorship-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/proprietorship-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Proprietorship Registration - Process, Documents, GST & MSME">
     <meta name="twitter:description" content="Proprietorship registration in India. PAN, Aadhaar, GST, Udyam, Shop Act license. No minimum capital. 10-15 day process. Expert CA and CS team support.">
-    <meta name="twitter:image" content="/images/proprietorship-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

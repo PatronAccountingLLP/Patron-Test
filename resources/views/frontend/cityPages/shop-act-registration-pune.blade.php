@@ -20,11 +20,11 @@
     <meta property="og:url" content="/shop-act-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/shopact-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Shop Act Registration in Pune - Gumasta License & Process">
     <meta name="twitter:description" content="CA-assisted shop act / gumasta license in Pune and PCMC. Form F intimation or Form A license on Aaple Sarkar. Same-day filing. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/shopact-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/12a-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/og/12a-registration-delhi.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A Registration in Delhi - Form 10A & Tax Exemption">
     <meta name="twitter:description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/og/12a-registration-delhi.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

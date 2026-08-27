@@ -20,11 +20,11 @@
     <meta property="og:url" content="/director-kyc/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/director-kyc-dir-3/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Director KYC in Mumbai – DIR-3 KYC &amp; Sep 30 Deadline">
     <meta name="twitter:description" content="CA-assisted DIR-3 KYC in Mumbai. Annual to triennial (2026 rule), DIN reactivation, Rs 5,000 penalty, e-Form and Web. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/director-kyc-dir-3/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

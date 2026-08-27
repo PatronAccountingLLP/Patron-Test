@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sbo-declaration-and-ben-2-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/sbo-declaration-and-ben-2-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SBO Declaration and BEN-2 Filing 2026 | Patron Accounting">
     <meta name="twitter:description" content="Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/sbo-declaration-and-ben-2-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

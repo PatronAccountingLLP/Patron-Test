@@ -14,10 +14,10 @@
     <meta property="og:description" content="CA-managed payroll Kolkata. PF, ESI, WB PT, LWF, TDS. From Rs 1,500/month. Call +91 945 945 6700.">
     <meta property="og:url" content="/payroll-services/kolkata">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Payroll Services in Kolkata – Salary, PF, ESI &amp; TDS | Patron">
     <meta name="twitter:description" content="Payroll Kolkata. PF ESI WB PT TDS. Rs 1,500/month. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

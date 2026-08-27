@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-capital-gains-tax-on-sale">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Capital Gains Tax 2026: Section 112A on Sale | Patron Accounting">
     <meta name="twitter:description" content="Selling ESOP shares triggers capital gains: 12.5% LTCG above Rs 1.25 lakh, 20% STCG on listed shares. Cost base is FMV at exercise. Advisory from Rs 4,999.">
-    <meta name="twitter:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

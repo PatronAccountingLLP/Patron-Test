@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-service-sector/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-service-sector/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Service Sector Accounting Delhi - Project Billing & GST">
     <meta name="twitter:description" content="CA-managed payroll for IT, consulting, BPO, and professional services in Delhi. CTC structuring, TDS dual regime, ESOP, PF/ESI, and multi-state NCR payroll. No Professional Tax. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-service-sector/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

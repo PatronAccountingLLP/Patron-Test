@@ -19,11 +19,11 @@
     <meta property="og:url" content="/listed-company-esop-annual-disclosure-and-reporting">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/listed-company-esop-annual-disclosure-and-reporting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Listed Company ESOP Annual Disclosure 2026: SBEB | Patron Accounting">
     <meta name="twitter:description" content="Recurring SBEB Regulation 14 annual ESOP disclosure for listed companies: annual report, secretarial-auditor certificate and filings. From Rs 49,999/yr.">
-    <meta name="twitter:image" content="/images/listed-company-esop-annual-disclosure-and-reporting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

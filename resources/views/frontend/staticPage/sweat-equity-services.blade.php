@@ -19,11 +19,11 @@
     <meta property="og:url" content="/sweat-equity-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sweat-equity-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sweat Equity Shares 2026: Section 54 Issue Services | Patron Accounting">
     <meta name="twitter:description" content="Issue sweat equity shares under Section 54: registered-valuer pricing, 15% and 25% caps, 3-year lock-in and Form SH-3 register. Expert help from Rs 24,999.">
-    <meta name="twitter:image" content="/images/sweat-equity-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-bank-nbfc-employees/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Bank & NBFC Employees: Plan Before You Resign">
     <meta name="twitter:description" content="Bankers and NBFC staff: turn financial-services experience into an IRDAI Insurance Marketing Firm. Plan eligibility, cost and a smart pre-resignation setup.">
-    <meta name="twitter:image" content="/images/imf/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-deeptech-aiml/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mumbai Deeptech ESOP: Vesting and 80-IAC Tax Plans | Patron Accounting">
     <meta name="twitter:description" content="Mumbai AI/ML founders get ESOP schemes with milestone vesting, IP-creator carve-outs and 80-IAC perquisite tax deferral, expertly built from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-audit/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-audit-service/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Audit in Mumbai – GSTR-9C, Reconciliation &amp; ₹5Cr">
     <meta name="twitter:description" content="CA-assisted GST audit service in Mumbai. GSTR-9, GSTR-9C reconciliation, departmental audit defence Section 65, special audit Section 66. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-audit-service/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

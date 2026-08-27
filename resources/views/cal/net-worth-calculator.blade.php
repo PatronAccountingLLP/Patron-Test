@@ -9,13 +9,13 @@
 <meta property="og:url" content="/tools/net-worth-calculator">
 <meta property="og:title" content="Net Worth Calculator — Visa &amp; Immigration Tool 2026">
 <meta property="og:description" content="Compute net worth in INR + 5-currency FX. Visa-ready preview with 5 critical adjustments.">
-<meta property="og:image" content="/og/net-worth-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Net Worth Calculator — Visa &amp; Immigration Tool 2026">
 <meta name="twitter:description" content="Personal net worth statement with INR + USD/CAD/GBP/EUR/AUD conversion. CA-certified upgrade path.">
-<meta name="twitter:image" content="/og/net-worth-calculator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 @endsection

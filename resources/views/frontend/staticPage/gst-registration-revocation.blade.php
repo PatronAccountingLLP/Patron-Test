@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-registration-revocation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-registration-revocation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Registration Revocation 2026: REG-21 | Patron Accounting">
     <meta name="twitter:description" content="Revoke an officer cancelled GSTIN through Form REG-21 within 90 days (extendable to 270). Returns, dues and late fees cleared. Starting at Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-registration-revocation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

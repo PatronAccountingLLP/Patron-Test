@@ -18,11 +18,11 @@
     <meta property="og:url" content="/esop-for-tech-startups/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP for Tech Startups India: Pool, Vesting, Acceleration | Patron Accounting">
     <meta name="twitter:description" content="ESOP scheme design for Indian tech and SaaS startups - pool sizing, refresh grants, acceleration, performance vesting. Starting at Rs 75,000.">
-    <meta name="twitter:image" content="/images/esop-for-tech-startups-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

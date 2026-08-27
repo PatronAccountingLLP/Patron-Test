@@ -19,11 +19,11 @@
     <meta property="og:url" content="/statutory-audit-for-listed-companies">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-for-listed-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Listed Company Statutory Audit 2026 | Patron Accounting">
     <meta name="twitter:description" content="Statutory audit of Indian listed companies under Section 139, SEBI LODR Regulation 33, NFRA Rules. Quarterly reviews, KAM, IFC, CARO. From Rs 5,00,000.">
-    <meta name="twitter:image" content="/images/statutory-audit-for-listed-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

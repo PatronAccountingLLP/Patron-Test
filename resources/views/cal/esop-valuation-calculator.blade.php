@@ -10,13 +10,13 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-valuation-calculator">
 <meta property="og:title" content="ESOP Valuation Calculator — DCF + Comparables Tool 2026">
 <meta property="og:description" content="DCF, Comparables, or Hybrid weighted FMV per share. 5-year FCF, terminal value, sensitivity table. Rule 11UA aware.">
-<meta property="og:image" content="https://www.patronaccounting.com/og/esop-valuation-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Valuation Calculator — DCF + Comparables Tool 2026">
 <meta name="twitter:description" content="DCF + Comparables FMV per share. 5-year FCF, terminal value, sensitivity table.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/og/esop-valuation-calculator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

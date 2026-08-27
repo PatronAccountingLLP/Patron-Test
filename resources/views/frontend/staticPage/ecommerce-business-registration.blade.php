@@ -19,11 +19,11 @@
     <meta property="og:url" content="/ecommerce-business-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ecommerce-business-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Ecommerce Business Registration in India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Register your ecommerce business in India: Pvt Ltd plus mandatory GST under Section 24, with IEC and DPIIT. Built for marketplace sellers. From INR 9,999.">
-    <meta name="twitter:image" content="/images/ecommerce-business-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

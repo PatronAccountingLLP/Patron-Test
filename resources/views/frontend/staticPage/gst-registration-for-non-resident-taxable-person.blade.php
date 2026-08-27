@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-registration-for-non-resident-taxable-person">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-registration-for-non-resident-taxable-person-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Non-Resident GST Registration 2026 Guide | Patron Accounting">
     <meta name="twitter:description" content="Form GST REG-09 registration for foreign businesses operating in India temporarily. Indian authorised signatory plus advance tax. Starting at Rs 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-registration-for-non-resident-taxable-person-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

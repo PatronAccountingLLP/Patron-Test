@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-notice">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-notice-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Cease & Desist Notice - Drafting, Reply & Process">
     <meta name="twitter:description" content="Reply to trademark objection under Section 9 or 11 within 30 days. Examination report response drafted by IP experts. Starting Rs 2,999.">
-    <meta name="twitter:image" content="/images/trademark-notice-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

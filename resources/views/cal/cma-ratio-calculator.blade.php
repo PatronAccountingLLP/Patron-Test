@@ -11,13 +11,13 @@
 <meta property="og:description" content="Enter your balance sheet and P&L figures to compute the key CMA ratios — current ratio, DSCR, ISCR, TOL/TNW, debt-equity — and MPBF, each benchmarked to bank norms.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/cma-ratio-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/cma-ratio-calculator-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CMA Ratio Calculator — Bank Loan Ratios & MPBF">
 <meta name="twitter:description" content="Compute current ratio, DSCR, ISCR, TOL/TNW, debt-equity and MPBF for your CMA data, each benchmarked to bank norms. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/cma-ratio-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

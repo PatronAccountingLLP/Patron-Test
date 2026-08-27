@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-trading-businesses/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-trading-businesses-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Trading Business in 2026 | Patron Accounting">
     <meta name="twitter:description" content="File ITR for wholesale, retail, commodity traders. Sec 44AD, Sec 269ST cash, ICDS-II FIFO, branch transfer, audit. Starting Rs 7,500.">
-    <meta name="twitter:image" content="/images/itr-for-trading-businesses-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

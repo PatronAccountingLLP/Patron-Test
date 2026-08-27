@@ -19,11 +19,11 @@
     <meta property="og:url" content="/statutory-audit-for-manufacturing-companies">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-for-manufacturing-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit for Manufacturing Companies 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led statutory audit for manufacturing companies in India - SA 501 inventory verification, Section 148 cost records, CARO 3(ii). Fees from Rs 60,000.">
-    <meta name="twitter:image" content="/images/statutory-audit-for-manufacturing-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

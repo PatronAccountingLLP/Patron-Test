@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-assignment/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-assignment-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Assignment in Mumbai - Deed & Stamp Duty">
     <meta name="twitter:description" content="Copyright assignment deed in Mumbai. S.18/19 compliant, rights/duration/territory/royalty clauses, 2012 Amendment protections, Copyright Office recordal, enforcement. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-assignment-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

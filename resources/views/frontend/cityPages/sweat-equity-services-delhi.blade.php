@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sweat-equity-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sweat-equity-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi Sweat Equity Compliance Done End to End by CAs | Patron Accounting">
     <meta name="twitter:description" content="From Nehru Place to Connaught Place, issue sweat equity shares in Delhi with full RoC compliance, the 3-year lock-in and SH-3 register, starting at INR 24,999.">
-    <meta name="twitter:image" content="/images/sweat-equity-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

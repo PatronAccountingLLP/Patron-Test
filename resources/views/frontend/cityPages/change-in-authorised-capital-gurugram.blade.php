@@ -20,11 +20,11 @@
     <meta property="og:url" content="/change-in-authorised-capital/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-authorised-capital/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Authorised Capital Change Gurugram - SH-7 & MGT-14">
     <meta name="twitter:description" content="CA/CS-assisted authorised capital change in Gurugram. Section 61, Form SH-7, e-MOA, Haryana stamp duty, ROC Haryana. Serving Cyber City, Golf Course Road companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/change-in-authorised-capital/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

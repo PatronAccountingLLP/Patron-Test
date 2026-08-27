@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-tracking-status/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-tracking-status-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund Status Tracking — ARN and RFD-02 to RFD-06">
     <meta name="twitter:description" content="Track GST refund status by ARN. RFD-02, RFD-04, RFD-05, RFD-06 form lifecycle. Portal walkthrough. PFMS bank validation. Escalation. Rs 5,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-tracking-status-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

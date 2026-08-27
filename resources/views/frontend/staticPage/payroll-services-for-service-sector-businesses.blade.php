@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-service-sector-businesses">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-service-sector-businesses-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Service Sector Payroll - CTC, TDS & Professional Tax India">
     <meta name="twitter:description" content="Payroll for service sector businesses in India - hotels, restaurants, retail, BPO, PF, ESI, TDS, service charge, and statutory compliance. From Rs 4,000/month.">
-    <meta name="twitter:image" content="/images/payroll-services-for-service-sector-businesses-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

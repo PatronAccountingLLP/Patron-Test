@@ -20,11 +20,11 @@
     <meta property="og:url" content="/nidhi-company-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/nidhi-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Nidhi Company Registration Online - Process, Fees & Docs">
     <meta name="twitter:description" content="Nidhi company registration under Section 406, Companies Act 2013. Min capital Rs 10 lakh. 7 members, 3 directors needed. 15-30 day process. Expert CA and CS support.">
-    <meta name="twitter:image" content="/images/nidhi-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-vs-phantom-stock/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-vs-phantom-stock-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP vs Phantom Stock: Equity or Cash Payout? | Patron Accounting">
     <meta name="twitter:description" content="For Pune SaaS teams in Hinjewadi and Kharadi, see how ESOPs dilute equity while phantom stock pays cash with no Section 62 filing. Free comparison guide.">
-    <meta name="twitter:image" content="/images/esop-vs-phantom-stock-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

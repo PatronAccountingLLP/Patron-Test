@@ -20,11 +20,11 @@
     <meta property="og:url" content="/section-11-12-13-income-application-accumulation/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/section-11-12-13-income-application-accumulation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 11, 12 & 13: Income Application for NGOs | Patron">
     <meta name="twitter:description" content="Understand the 85% application rule, 15% accumulation, Form 9A/Form 10, and Section 13 specified-person rules that protect a charitable trust's tax exemption.">
-    <meta name="twitter:image" content="/images/section-11-12-13-income-application-accumulation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

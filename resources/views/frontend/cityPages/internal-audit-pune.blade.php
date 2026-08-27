@@ -20,11 +20,11 @@
     <meta property="og:url" content="/internal-audit/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/internal-audit/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Internal Audit in Pune - Scope, IFC, Risk & Reporting">
     <meta name="twitter:description" content="CA-led internal audit services in Pune. Risk-based audit, COSO framework, IFC assessment, Section 138 compliance. Serving Chakan, Hinjewadi companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/internal-audit/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

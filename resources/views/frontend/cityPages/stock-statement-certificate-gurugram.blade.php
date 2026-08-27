@@ -19,11 +19,11 @@
     <meta property="og:url" content="/stock-statement-certificate/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/stock-statement-certificate-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Stock Statement Certificate for CC and OD 2026 | Patron Accounting">
     <meta name="twitter:description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/stock-statement-certificate-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

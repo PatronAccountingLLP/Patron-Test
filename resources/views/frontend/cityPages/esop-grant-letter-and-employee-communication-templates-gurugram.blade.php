@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-grant-letter-and-employee-communication-templates/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-grant-letter-and-employee-communication-templates-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Grant Letters & Vesting Tracker Pack | Patron Accounting">
     <meta name="twitter:description" content="Give Cyber City and Gurugram startups CA-attested ESOP grant letters, an employee FAQ and a vesting tracker, compliant and ready to use, for INR 9,999.">
-    <meta name="twitter:image" content="/images/esop-grant-letter-and-employee-communication-templates-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

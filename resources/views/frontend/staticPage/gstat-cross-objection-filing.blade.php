@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-cross-objection-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-cross-objection-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Cross Objection Filing - Section 112(5) | Patron">
     <meta name="twitter:description" content="File GSTAT cross objections under Section 112(5) CGST Act within 45 days using Form GST APL-06. Patron Accounting handles respondent defence at all GSTAT benches.">
-    <meta name="twitter:image" content="/images/gstat-cross-objection-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

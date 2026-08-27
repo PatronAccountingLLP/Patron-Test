@@ -20,11 +20,11 @@
     <meta property="og:url" content="/mis-reporting-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/mis-reporting-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MIS Reporting Services in Delhi 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led MIS reporting for Nehru Place and Okhla firms from INR 4,999/mo. Get monthly margin, cash and KPI dashboards built on your own ledgers.">
-    <meta name="twitter:image" content="/images/mis-reporting-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

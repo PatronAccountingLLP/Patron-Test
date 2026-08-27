@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-trading-industry">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-trading-industry-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting for Trading Businesses in India, CA Managed | Patron Accounting">
     <meta name="twitter:description" content="Lot-wise stock valued on a consistent cost-or-NRV basis, every close. Fewer surprises at year end and a shorter audit. Start with a books review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-trading-industry-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

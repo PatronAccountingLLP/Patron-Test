@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-agreement-change">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-agreement-change-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Agreement Amendment - Supplementary Deed, Form 3 & ROC">
     <meta name="twitter:description" content="Change your LLP agreement via MCA Form 3 in 2026. Update activities, profit ratios, rights. Starting at INR 1,499. Expert CS team.">
-    <meta name="twitter:image" content="/images/llp-agreement-change-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sec-143-2-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sec-143-2-notice/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 143(2) Notice Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Section 143(2) scrutiny notice in Gurugram? Patron CA team files e-Proceedings reply via NaFAC and defends before 143(3) order. Starting Rs 4,999.">
-    <meta name="twitter:image" content="/images/sec-143-2-notice/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

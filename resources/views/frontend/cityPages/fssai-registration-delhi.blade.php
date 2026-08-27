@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Registration in Delhi - Process, Fees & FoSCoS">
     <meta name="twitter:description" content="CA-assisted FSSAI registration in Delhi. Basic, State and Central food licence via FoSCoS. Serving Chandni Chowk, Connaught Place, Okhla FBOs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

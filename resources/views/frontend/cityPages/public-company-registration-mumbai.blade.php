@@ -20,11 +20,11 @@
     <meta property="og:url" content="/public-company-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/public-limited-company-registration-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Public Limited Company Registration Mumbai - Fees & ROC">
     <meta name="twitter:description" content="Register public limited company in Mumbai. SPICe+ at RoC Mumbai, 7 members, 3 directors, MOA/AOA, independent directors, SEBI listing readiness, annual compliance. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/public-limited-company-registration-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

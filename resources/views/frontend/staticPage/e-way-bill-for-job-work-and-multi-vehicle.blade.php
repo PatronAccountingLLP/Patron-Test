@@ -19,11 +19,11 @@
     <meta property="og:url" content="/e-way-bill-for-job-work-and-multi-vehicle">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/e-way-bill-for-job-work-and-multi-vehicle-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Job Work E-Way Bill 2026: Multi-Vehicle | Patron Accounting">
     <meta name="twitter:description" content="Job work delivery challan e-way bill under Section 143. Multi-vehicle transhipment, consolidated EWB-02, Bill-To/Ship-To. Patron from Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/e-way-bill-for-job-work-and-multi-vehicle-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

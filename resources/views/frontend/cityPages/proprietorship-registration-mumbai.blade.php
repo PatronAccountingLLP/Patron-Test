@@ -20,11 +20,11 @@
     <meta property="og:url" content="/proprietorship-registration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sole-proprietorship-registration-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Proprietorship Registration in Mumbai - GST & MSME">
     <meta name="twitter:description" content="Register sole proprietorship in Mumbai. Gumasta from BMC, GST registration, Udyam/MSME, bank account, S.44AD/44ADA tax planning, ITR filing. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/sole-proprietorship-registration-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

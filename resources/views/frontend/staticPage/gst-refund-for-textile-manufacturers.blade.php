@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-for-textile-manufacturers/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-for-textile-manufacturers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund for Textile Manufacturers — Inverted Duty">
     <meta name="twitter:description" content="GST refund for textile manufacturers under Rule 89(5). Cotton, MMF, denim cluster coverage. Notification 20/2018, CGST Instruction 6/2025. Rs 22,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-for-textile-manufacturers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-saas-companies/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-saas-companies-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Design for SaaS Startups: ARR-Linked Vesting | Patron Accounting">
     <meta name="twitter:description" content="Design ARR-linked ESOPs for your Hinjewadi or Kharadi SaaS startup in Pune, with quota-acceleration grants and RoC Pune filings, from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-saas-companies-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

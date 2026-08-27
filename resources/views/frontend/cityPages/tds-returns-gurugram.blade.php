@@ -21,11 +21,11 @@
     <meta property="og:url" content="/tds-returns/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tds-returns-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS Returns Gurugram - 24Q, 26Q, 27Q & 27EQ Guide">
     <meta name="twitter:description" content="TDS returns in Gurugram. 24Q salary. 26Q non-salary. 27Q NRI. 27EQ TCS. S194C S194J S195. Form 143 from Apr 2026. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tds-returns-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-manufacturing/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-manufacturing-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Manufacturing Accounting Services in Mumbai, CA Managed | Patron Accounting">
     <meta name="twitter:description" content="Maharashtra PTRC/PTEC handled for Mumbai businesses. Save hours every month, close on time and keep audit season uneventful. Get a compliance review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-manufacturing-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

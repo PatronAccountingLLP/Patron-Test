@@ -21,11 +21,11 @@
     <meta property="og:url" content="/foreign-remittance-certificate-15ca-15cb/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/foreign-remittance-certificate-15ca-15cb-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Form 15CA 15CB Foreign Remittance Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-certified Form 15CB and 15CA filing for foreign remittances under Section 195 and Rule 37BB. Required above INR 5 lakh. From INR 2,499 per remittance.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/foreign-remittance-certificate-15ca-15cb-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

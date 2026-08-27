@@ -21,11 +21,11 @@
     <meta property="og:url" content="/double-currency-networth-format">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/double-currency-networth-format-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Double Currency Net Worth Certificate - INR & USD Format">
     <meta name="twitter:description" content="Get a CA-certified Double Currency Networth Certificate in INR and your visa country currency - starting at INR 1,999. FBIL rate, UDIN.">
-    <meta name="twitter:image" content="/images/double-currency-networth-format-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

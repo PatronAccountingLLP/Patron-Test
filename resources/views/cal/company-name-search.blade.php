@@ -9,13 +9,13 @@
 <meta property="og:description" content="Test a proposed company or LLP name against MCA Rule 8 / 8A naming guidelines, then run the live availability check on the official MCA and IPIndia portals.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/company-name-search">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/company-name-search-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Company Name Search — MCA Rule 8 Name Checker 2026">
 <meta name="twitter:description" content="Test a proposed company name against MCA Rule 8 / 8A naming rules, then check live on MCA & IPIndia. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/company-name-search-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">

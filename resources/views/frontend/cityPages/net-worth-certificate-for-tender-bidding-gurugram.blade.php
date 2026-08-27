@@ -19,11 +19,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-tender-bidding/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-tender-bidding/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate Tender Bidding Gurugram 2026 | Patron">
     <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram tender bidding. UDIN, tender-format ready. HSIIDC, HSVP, MCG, GeM, CPPP formats accepted. Starting INR 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-tender-bidding/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

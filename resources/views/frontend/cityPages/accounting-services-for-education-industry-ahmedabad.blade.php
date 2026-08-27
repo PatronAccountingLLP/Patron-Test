@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/accounting-services-for-education-industry/ahmedabad">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-ahmedabad-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting Services for Schools for Local Companies | Patron Accounting">
     <meta name="twitter:description" content="For Ahmedabad businesses: Gujarat professional tax handled. Reduce compliance risk, shorten your audit and stop chasing paperwork. Request a proposal.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/accounting-services-for-education-industry-ahmedabad-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

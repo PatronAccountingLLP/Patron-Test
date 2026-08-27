@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fdi-compliance/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fdi-compliance-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FDI Compliance Delhi NCR – FEMA, FC-GPR &amp; FC-TRS">
     <meta name="twitter:description" content="FDI compliance in Delhi. FEMA. FC-GPR within 30 days. FLA return. Pricing guidelines. Sectoral caps. RBI FIRMS portal. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fdi-compliance-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

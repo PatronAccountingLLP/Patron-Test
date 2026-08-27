@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-renewal/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-renewal-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI License Renewal in Pune - Process, Fees & Expiry">
     <meta name="twitter:description" content="Renew FSSAI licence in Pune. Basic, State, Central. FoSCoS portal. Avoid Rs 100/day late fee. Restaurants, cloud kitchens, manufacturers. CA-assisted. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-renewal-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

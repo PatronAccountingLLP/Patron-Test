@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ismp-certification-isp-appointment">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ismp-certification-isp-appointment-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ISMP Certification and ISP Appointment India 2026 | Patron">
     <meta name="twitter:description" content="ISMP Principal Officer and ISP appointment for IMF - 50-hour PO training, 25-hour ISP training, IRDAI exam, Fit and Proper. From Rs 15,000.">
-    <meta name="twitter:image" content="/images/ismp-certification-isp-appointment-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

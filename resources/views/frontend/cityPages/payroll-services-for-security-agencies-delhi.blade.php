@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-security-agencies/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-security-agencies/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Security Agency Payroll in Delhi - ESIC, PF & Wage Register">
     <meta name="twitter:description" content="CA-led security agency payroll in Delhi. Guard wages, PF/ESI, site-wise tracking, VDA, PSARA compliance. Serving CP, Aerocity, Dwarka, Rohini. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-security-agencies/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

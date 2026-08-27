@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-ngo/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-ngo/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO & Non-Profit Accounting in Delhi - Bookkeeping & Audit">
     <meta name="twitter:description" content="CA-led NGO and non-profit payroll in Delhi. FCRA compliance, PF/ESI, TDS, donor reporting, volunteer classification. Serving Lodhi Road, CP, Rohini. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-ngo/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

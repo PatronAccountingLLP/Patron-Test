@@ -20,11 +20,11 @@
     <meta property="og:url" content="/sec-148-notice/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/sec-148-notice/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 148 Notice Pune 2026: Reply | Patron Accounting">
     <meta name="twitter:description" content="Section 148 notice CA in Pune: Section 148A reply, reassessment defence, CIT(A) appeal, ITAT Pune, Bombay HC writ. Rs 35K-75K. Call now.">
-    <meta name="twitter:image" content="/images/sec-148-notice/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

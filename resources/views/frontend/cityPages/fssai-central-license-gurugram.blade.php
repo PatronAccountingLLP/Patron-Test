@@ -21,11 +21,11 @@
     <meta property="og:url" content="/fssai-central-license/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-central-license-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI Central License Gurugram - Eligibility & Fees">
     <meta name="twitter:description" content="Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-central-license-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-capital-gains/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-capital-gains-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Capital Gains 2026: STCG, LTCG | Patron Accounting">
     <meta name="twitter:description" content="ITR-2 for capital gains - Section 111A 20% STCG, 112A 12.5% LTCG, property grandfathering, VDA 30%. Starts at Rs 1,499.">
-    <meta name="twitter:image" content="/images/itr-for-capital-gains-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

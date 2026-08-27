@@ -20,11 +20,11 @@
     <meta property="og:url" content="/conversion-opc-to-private-limited">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/conversion-opc-to-private-limited-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert OPC to Private Limited, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Convert your One Person Company to a private limited company to add shareholders, raise funds and issue ESOPs. Section 18, Form INC-6. From INR 14,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/conversion-opc-to-private-limited-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

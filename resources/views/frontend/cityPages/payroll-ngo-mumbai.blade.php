@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-ngo/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-ngo/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit">
     <meta name="twitter:description" content="CA-led NGO payroll in Mumbai. FCRA 20% admin cap, 12A/80G 85% application, Charity Commissioner IX-C, project-wise allocation, PF/ESI for Colaba, Andheri NGOs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-ngo/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

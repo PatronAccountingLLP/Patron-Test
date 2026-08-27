@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-filing-for-freelancers-professionals/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-professionals-freelancers/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Freelancers in Mumbai - 44ADA, ITR-4 & TDS">
     <meta name="twitter:description" content="CA-assisted ITR filing for professionals and freelancers in Mumbai. 44ADA, 44AD, ITR-3, ITR-4, expenses, GST. Fort, Powai, BKC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-professionals-freelancers/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

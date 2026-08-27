@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-education">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-education-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll for Education Sector India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Education payroll India 2026: schools, trusts, ed-tech, 12A/80G, GST Entry 66 exemption, contract teaching. Rs 99-199/emp. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-education-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

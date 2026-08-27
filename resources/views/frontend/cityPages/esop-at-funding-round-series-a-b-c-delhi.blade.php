@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-at-funding-round-series-a-b-c/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-at-funding-round-series-a-b-c-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Scheme Design for Funded Startup Rounds | Patron Accounting">
     <meta name="twitter:description" content="Plan Section 62 ESOP top-ups for your Delhi startup at Series A, B and C, with dilution-aware cap-table modelling and RoC Delhi filings from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-at-funding-round-series-a-b-c-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

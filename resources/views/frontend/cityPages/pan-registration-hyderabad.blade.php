@@ -14,10 +14,10 @@
     <meta property="og:description" content="CA-assisted PAN registration in Hyderabad. New Forms 93/94/95/96. Instant e-PAN free. Call +91 945 945 6700.">
     <meta property="og:url" content="/pan-registration/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pan-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="PAN Card Registration in Hyderabad – Form 49A &amp; Process">
     <meta name="twitter:description" content="PAN registration in Hyderabad. New Forms 93/94/95/96. Instant e-PAN. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pan-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/schedule-iii-compliance-companies-act">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/schedule-iii-compliance-companies-act-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Schedule III Companies Act 2013 2026 | Patron Accounting">
     <meta name="twitter:description" content="Complete Schedule III guide - Division I (AS) vs Division II (Ind AS) vs Division III (NBFC), 2021 ageing and ARI disclosures, common errors, Patron checklist.">
-    <meta name="twitter:image" content="/images/schedule-iii-compliance-companies-act-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

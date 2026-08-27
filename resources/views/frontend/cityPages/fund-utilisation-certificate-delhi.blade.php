@@ -19,11 +19,11 @@
     <meta property="og:url" content="/fund-utilisation-certificate/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/fund-utilisation-certificate-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
     <meta name="twitter:description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/fund-utilisation-certificate-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

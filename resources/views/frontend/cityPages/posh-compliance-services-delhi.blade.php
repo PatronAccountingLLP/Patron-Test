@@ -20,11 +20,11 @@
     <meta property="og:url" content="/posh-compliance-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/posh-compliance-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="POSH Compliance Delhi NCR – ICC Formation &amp; Training">
     <meta name="twitter:description" content="CA-assisted POSH compliance in Delhi. ICC formation, training, annual report filing. Serving Connaught Place, Nehru Place, Aerocity employers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/posh-compliance-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

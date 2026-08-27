@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-secondary-sale-advisory/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-secondary-sale-advisory-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Secondary Sale & Employee Liquidity Plans | Patron Accounting">
     <meta name="twitter:description" content="Gurugram Cyber City SaaS firms design ESOP secondary sales and tender offers with defensible FMV, cross-border FEMA pricing and tax clarity from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-secondary-sale-advisory-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

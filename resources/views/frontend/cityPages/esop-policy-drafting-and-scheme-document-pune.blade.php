@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-policy-drafting-and-scheme-document/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-policy-drafting-and-scheme-document-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Scheme Drafting for Hinjewadi IT Startups | Patron Accounting">
     <meta name="twitter:description" content="Rule 12-compliant ESOP scheme and policy documents for Pune SaaS teams in Hinjewadi and Kharadi, RoC Pune ready, CA and CS attested from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-policy-drafting-and-scheme-document-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

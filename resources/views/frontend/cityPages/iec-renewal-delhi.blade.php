@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iec-renewal/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iec-renewal/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IEC Code Renewal in Delhi - DGFT Process, Fees & Deadline">
     <meta name="twitter:description" content="CA-assisted IEC renewal in Delhi. Annual DGFT update by June 30. Avoid deactivation. Serving Okhla, Nehru Place, Chandni Chowk exporters. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/iec-renewal/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

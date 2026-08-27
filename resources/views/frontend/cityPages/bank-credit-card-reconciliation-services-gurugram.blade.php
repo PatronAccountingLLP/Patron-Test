@@ -20,11 +20,11 @@
     <meta property="og:url" content="/bank-credit-card-reconciliation-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/bank-credit-card-reconciliation-services/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bank Reconciliation in Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Cyber City to Manesar bank and credit card reconciliation from INR 2,499/mo (Exl GST and Govt. Charges). CA-checked BRS per account, Haryana GST ready.">
-    <meta name="twitter:image" content="/images/bank-credit-card-reconciliation-services/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

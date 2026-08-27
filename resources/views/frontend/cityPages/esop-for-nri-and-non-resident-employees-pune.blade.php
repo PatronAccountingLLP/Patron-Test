@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-for-nri-and-non-resident-employees/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-nri-and-non-resident-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune ESOP Plans for NRI Employees - FEMA & RBI Filing | Patron Accounting">
     <meta name="twitter:description" content="Grant ESOPs to NRI and non-resident staff from your Pune company with full FEMA, NDI Rules and Form ESOP filing support, priced at INR 19,999.">
-    <meta name="twitter:image" content="/images/esop-for-nri-and-non-resident-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

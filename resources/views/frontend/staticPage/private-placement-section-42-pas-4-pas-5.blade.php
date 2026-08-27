@@ -20,11 +20,11 @@
     <meta property="og:url" content="/private-placement-section-42-pas-4-pas-5">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/private-placement-section-42-pas-4-pas-5-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Private Placement of Shares Section 42 in 2026 | Patron Accounting">
     <meta name="twitter:description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/private-placement-section-42-pas-4-pas-5-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

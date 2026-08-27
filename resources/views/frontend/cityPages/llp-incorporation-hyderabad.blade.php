@@ -16,11 +16,11 @@
     <meta property="og:url" content="/llp-incorporation/hyderabad">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-incorporation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Registration Online in Hyderabad – Process, Fees">
     <meta name="twitter:description" content="CA-assisted LLP registration in Hyderabad via FiLLiP. RoC Hyderabad filing, LLP Agreement, PAN/TAN. Serving HITEC City, Gachibowli. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-incorporation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

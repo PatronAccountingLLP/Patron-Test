@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/hospitality-sector-accounting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/hospitality-sector-accounting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Accounting for Hotels and Restaurants for Indian SMEs | Patron Accounting">
     <meta name="twitter:description" content="Outlet-wise food cost and wastage, not a single kitchen expense head. Stop month-end running into the middle of the next one. Request a proposal.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/hospitality-sector-accounting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

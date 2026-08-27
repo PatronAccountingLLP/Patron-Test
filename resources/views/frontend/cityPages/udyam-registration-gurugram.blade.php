@@ -20,11 +20,11 @@
     <meta property="og:url" content="/udyam-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/udyam-registration/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Udyam Registration Gurugram - MSME Certificate & Benefits">
     <meta name="twitter:description" content="CA-assisted Udyam MSME registration in Gurugram. Zero fee. Revised 2025 limits. GeM access, priority lending, govt tenders. Serving Cyber City, Manesar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/udyam-registration/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

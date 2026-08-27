@@ -20,11 +20,11 @@
     <meta property="og:url" content="/issue-of-shares/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/issue-of-shares-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Issue of Shares Delhi NCR – PAS-3 &amp; Private Placement">
     <meta name="twitter:description" content="Issue of shares in Delhi. Rights issue, preferential allotment, bonus, ESOP. PAS-3. Valuation. Angel tax removed. FC-GPR. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/issue-of-shares-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

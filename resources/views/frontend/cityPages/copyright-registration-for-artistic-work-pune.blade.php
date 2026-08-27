@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-artistic-work/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-for-artistic-work-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Artistic Work in Pune - Logos & Paintings">
     <meta name="twitter:description" content="Register copyright for artistic work in Pune. Paintings, sculptures, photographs, architecture, design. Section 2(c) coverage. CA-assisted. Artists to architects. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-for-artistic-work-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

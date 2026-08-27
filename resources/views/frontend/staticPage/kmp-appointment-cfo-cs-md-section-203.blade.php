@@ -20,11 +20,11 @@
     <meta property="og:url" content="/kmp-appointment-cfo-cs-md-section-203">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/kmp-appointment-cfo-cs-md-section-203-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="KMP Appointment under Section 203 in 2026 | Patron Accounting">
     <meta name="twitter:description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/kmp-appointment-cfo-cs-md-section-203-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

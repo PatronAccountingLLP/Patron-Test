@@ -20,11 +20,11 @@
     <meta property="og:url" content="/12a-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/12a-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A Registration for NGOs - Form 10A & Income Tax Exemption">
     <meta name="twitter:description" content="12A registration exempts NGO income from tax under the Income Tax Act. CA-managed Form 10A filing from INR 7,499. Trusts, societies, Section 8 companies.">
-    <meta name="twitter:image" content="/images/12a-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

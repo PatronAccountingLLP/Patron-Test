@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iec-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iec-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IEC Registration Online - DGFT Process, Fees & Documents">
     <meta name="twitter:description" content="Apply for Import Export Code (IEC) online at dgft.gov.in. Govt fee Rs 500. 10-digit code. Lifetime validity. Issued in 1-3 days by DGFT.">
-    <meta name="twitter:image" content="/images/iec-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

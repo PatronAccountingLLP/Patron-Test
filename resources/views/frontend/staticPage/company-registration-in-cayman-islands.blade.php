@@ -19,11 +19,11 @@
     <meta property="og:url" content="/company-registration-in-cayman-islands">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-registration-in-cayman-islands-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Registration in Cayman Islands 2026 | Patron Accounting">
     <meta name="twitter:description" content="Set up a Cayman Islands exempted company, the VC-preferred tax-neutral holding structure. No resident director, fast incorporation, ODI support. From USD 5,999.">
-    <meta name="twitter:image" content="/images/company-registration-in-cayman-islands-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

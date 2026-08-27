@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esic-returns/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esic-returns-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESIC Return Filing in Mumbai - Process, Due Date & Fees">
     <meta name="twitter:description" content="CA-assisted ESIC return filing in Mumbai. Half-yearly returns, monthly e-Challan, penalty-free compliance. Serving BKC, Andheri MIDC, Powai. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esic-returns-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

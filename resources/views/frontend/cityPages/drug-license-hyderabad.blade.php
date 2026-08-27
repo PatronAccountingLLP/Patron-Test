@@ -14,11 +14,11 @@
     <meta property="og:description" content="CA-assisted drug license in Hyderabad. Retail, wholesale, manufacturing. DCA Telangana, ONDLS portal. Call +91 945 945 6700.">
     <meta property="og:url" content="/drug-license/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/drug-license-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Drug License in Hyderabad – Retail, Wholesale &amp; CDSCO">
     <meta name="twitter:description" content="CA-assisted drug license in Hyderabad. Retail, wholesale, manufacturing. DCA Telangana, ONDLS portal. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/drug-license-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 @section('schema')
     <script type="application/ld+json">

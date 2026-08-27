@@ -21,11 +21,11 @@
     <meta property="og:url" content="/startup-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/startup-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup India Registration - DPIIT Recognition & Benefits">
     <meta name="twitter:description" content="Get DPIIT-recognised as a startup under the 2026 framework (G.S.R. 108(E)). Free registration. Tax holiday under Sec 80-IAC, angel tax exemption, IPR rebates, GeM access.">
-    <meta name="twitter:image" content="/images/startup-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gst-returns-for-education">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gst-returns-for-education-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for Education 2026: Entry 66 | Patron Accounting">
     <meta name="twitter:description" content="GST returns for schools, ed-tech, coaching - Entry 66 exemption under Notification 12/2017, commercial coaching distinction. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gst-returns-for-education-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

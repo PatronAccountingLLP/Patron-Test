@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Internal Audit in Kolkata – Scope, IFC, Risk &amp; Reporting"><meta property="og:description" content="Internal audit Kolkata. Section 138. Controls risk compliance. Call +91 945 945 6700.">
     <meta property="og:url" content="/internal-audit/kolkata"><meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/internal-audit-og.webp"><meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')
     <script type="application/ld+json">

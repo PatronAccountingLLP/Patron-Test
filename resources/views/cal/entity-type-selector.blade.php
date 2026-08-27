@@ -11,13 +11,13 @@
 <meta property="og:description" content="Answer five quick questions and get a ranked recommendation of the best Indian business structure — Private Limited, LLP, OPC, Partnership or Proprietorship.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/entity-type-selector">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/entity-type-selector-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Entity Type Selector — Best Business Structure India 2026">
 <meta name="twitter:description" content="Answer 5 questions and get a ranked recommendation of the best Indian business structure for you. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/entity-type-selector-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

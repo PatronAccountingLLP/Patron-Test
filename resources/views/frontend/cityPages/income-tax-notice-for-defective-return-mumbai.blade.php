@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notice-for-defective-return/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/defective-return-notice/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Defective Return u/s 139(9) Mumbai – Reply &amp; Rectify">
     <meta name="twitter:description" content="CA-assisted defective return notice response in Mumbai. Section 139(9), 15-day deadline, corrected return, TDS mismatch, ITR form error. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/defective-return-notice/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

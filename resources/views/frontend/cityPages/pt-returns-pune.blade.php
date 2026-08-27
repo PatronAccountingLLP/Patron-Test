@@ -21,11 +21,11 @@
     <meta property="og:url" content="/pt-returns/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pt-returns/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Tax Return in Pune – Filing, Slabs &amp; Rates">
     <meta name="twitter:description" content="CA-assisted professional tax return filing in Pune. PTRC monthly and annual returns on mahagst.gov.in. Updated Feb 2026 due dates. Serving Hinjewadi, Kharadi, MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pt-returns/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

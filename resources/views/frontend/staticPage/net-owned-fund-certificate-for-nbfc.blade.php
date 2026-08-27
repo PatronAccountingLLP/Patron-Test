@@ -22,11 +22,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/net-owned-fund-certificate-for-nbfc">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-owned-fund-certificate-for-nbfc.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Owned Fund, Certified to the RBI Formula">
     <meta name="twitter:description" content="NOF computed with the right deductions and certified for your RBI registration or annual filing.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/net-owned-fund-certificate-for-nbfc.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

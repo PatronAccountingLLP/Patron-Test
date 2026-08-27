@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-vs-india-entity-setup">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-vs-india-entity-setup-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EOR vs Pvt Ltd India 2026: Decision Framework | Patron">
     <meta name="twitter:description" content="When to choose EOR vs setting up an Indian Pvt Ltd? Decision tree by team size, time horizon, and India strategy. Patron Accounting LLP offers both.">
-    <meta name="twitter:image" content="/images/eor-india-vs-india-entity-setup-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/convert-llp-to-private-limited-company">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-llp-to-private-limited-company-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert LLP to Pvt Ltd - Process, Documents & ROC Filing">
     <meta name="twitter:description" content="Convert LLP to Pvt Ltd via Section 366 and URC-1. Capital gains exempt under Section 47 IT Act. CA and CS support. Starting INR 4,999.">
-    <meta name="twitter:image" content="/images/convert-llp-to-private-limited-company-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

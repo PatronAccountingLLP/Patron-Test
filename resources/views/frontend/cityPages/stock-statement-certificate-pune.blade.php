@@ -19,11 +19,11 @@
     <meta property="og:url" content="/stock-statement-certificate/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/stock-statement-certificate/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Stock Statement Certificate for Bank CC OD 2026 | Patron Accounting">
     <meta name="twitter:description" content="Monthly stock statement certificate for CC and OD borrowers in Pune. CA-prepared for bank drawing power, RBI-compliant. From INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/stock-statement-certificate/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

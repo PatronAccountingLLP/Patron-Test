@@ -21,11 +21,11 @@
     <meta property="og:url" content="/fraud-detection-audit-section-143-12">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fraud-detection-audit-section-143-12-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fraud Detection Audit Section 143(12) India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Fraud detection audit guide Sec 143(12) - Rs 1 crore threshold, ADT-4 procedure, SA 240, CARO 3(xi), forensic audit, and Patron's seven-step playbook.">
-    <meta name="twitter:image" content="/images/fraud-detection-audit-section-143-12-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

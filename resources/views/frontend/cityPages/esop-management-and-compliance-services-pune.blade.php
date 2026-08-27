@@ -21,11 +21,11 @@
     <meta property="og:url" content="/esop-management-and-compliance-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-management-and-compliance-services-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Management - Vesting, Tax & Cap Table in Pune | Patron Accounting">
     <meta name="twitter:description" content="CA-assisted ESOP management and compliance in Pune. Vesting, TDS, cap table - all handled. Serving Hinjewadi, Kharadi, Chakan businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esop-management-and-compliance-services-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

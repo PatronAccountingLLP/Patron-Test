@@ -20,11 +20,11 @@
     <meta property="og:url" content="/one-person-company-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/one-person-company-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="OPC (One Person Company) Registration in Delhi - Fees">
     <meta name="twitter:description" content="CA-assisted One Person Company registration in Delhi. From Rs 9,499 in 7-10 days. Serving Rohini, Nehru Place, Saket businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/one-person-company-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

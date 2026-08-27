@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gratuity-calculation-and-compliance-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gratuity-calculation-and-compliance-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gratuity Calculation & Compliance - Rules, Formula & Payout">
     <meta name="twitter:description" content="Gratuity calculation using 15/26 formula under Payment of Gratuity Act. Compliance, actuarial valuation, and payout services from Rs 4,999. New Labour Code updates.">
-    <meta name="twitter:image" content="/images/gratuity-calculation-and-compliance-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

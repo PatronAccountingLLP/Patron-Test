@@ -21,11 +21,11 @@
     <meta property="og:url" content="/copyright-assignment">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-assignment-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright Assignment in India - Process, Deed & Documents">
     <meta name="twitter:description" content="Transfer copyright ownership under Sections 18 and 19 of the Copyright Act, 1957. Complete, partial, and territorial assignment. Expert agreement drafting by CA/CS team.">
-    <meta name="twitter:image" content="/images/copyright-assignment-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

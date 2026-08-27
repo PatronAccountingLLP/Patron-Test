@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-financial-advisors/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-services/financial-advisors-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Financial Advisors: Add Insurance Distribution">
     <meta name="twitter:description" content="Are you a wealth or RIA advisor? Add IRDAI insurance distribution via an IMF — tie up with 6 insurers, 5-10 lakh net worth. Patron sets it up from INR 24,999.">
-    <meta name="twitter:image" content="/images/imf-services/financial-advisors-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

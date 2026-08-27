@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notice-for-defective-return/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/notice-defective-return/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Defective Return Notice u/s 139(9) Pune - Reply & Fix">
     <meta name="twitter:description" content="CA-assisted response to defective return notice Section 139(9) in Pune. 15-day rectification, JSON upload, Form 26AS/AIS mismatch, wrong ITR form. Serving Hinjewadi, Kharadi taxpayers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/notice-defective-return/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

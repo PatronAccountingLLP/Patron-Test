@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-ecommerce/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-ecommerce/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Commerce Accounting in Delhi - GST, TDS & Bookkeeping">
     <meta name="twitter:description" content="CA-led ecommerce payroll in Delhi. PF, ESI, TDS for D2C brands, warehouse staff, gig workers. Labour Code 2025 compliant. Serving CP, Okhla, Rohini. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-ecommerce/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

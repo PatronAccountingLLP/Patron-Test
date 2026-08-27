@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-principal-bench-representation">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-principal-bench-representation-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Principal Bench Representation, Delhi | Patron">
     <meta name="twitter:description" content="Expert representation at GSTAT Principal Bench, New Delhi for place of supply, anti-profiteering, and NAAR matters. 10% pre-deposit. CA and CS Team, Patron Accounting LLP.">
-    <meta name="twitter:image" content="/images/gstat-principal-bench-representation-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

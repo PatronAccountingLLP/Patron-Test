@@ -21,11 +21,11 @@
     <meta property="og:url" content="/e-way-bill-generation-and-compliance">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/e-way-bill-generation-and-compliance-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Way Bill Generation 2026: Rule 138 | Patron Accounting">
     <meta name="twitter:description" content="E-way bill generation and compliance for Rs 50K+ goods movement. Part A, Part B, Rule 138, validity, extension, cancellation. Patron from Rs 999/month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/e-way-bill-generation-and-compliance-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

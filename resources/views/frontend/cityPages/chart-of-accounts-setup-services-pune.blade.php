@@ -20,11 +20,11 @@
     <meta property="og:url" content="/chart-of-accounts-setup-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/chart-of-accounts-setup-services/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Chart of Accounts Setup in Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Chart of accounts setup in Pune from INR 4,999 one-time. CA-led ledger grouping per Schedule III, GST ledgers, and cost centres in Tally, Zoho, QuickBooks.">
-    <meta name="twitter:image" content="/images/chart-of-accounts-setup-services/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

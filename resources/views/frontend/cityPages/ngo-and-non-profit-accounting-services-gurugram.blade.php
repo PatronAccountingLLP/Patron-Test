@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/ngo-and-non-profit-accounting-services-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO Accounting Services in Gurugram: What Is Included | Patron Accounting">
     <meta name="twitter:description" content="Gurugram books kept to Haryana's zero professional tax with Labour Welfare Fund still payable. Protect your registrations. Download the checklist.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/ngo-and-non-profit-accounting-services-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

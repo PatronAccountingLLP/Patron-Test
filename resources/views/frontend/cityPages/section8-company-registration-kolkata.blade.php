@@ -9,7 +9,7 @@
     <meta property="og:description" content="Section 8 registration Kolkata. Non-profit. 12A 80G FCRA CSR-1. Rs 12,999. Call +91 945 945 6700.">
     <meta property="og:url" content="/section8-company-registration/kolkata">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/section8-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')

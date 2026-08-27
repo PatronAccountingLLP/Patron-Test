@@ -20,11 +20,11 @@
     <meta property="og:url" content="/scheme-of-arrangement-section-230-232">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/scheme-of-arrangement-section-230-232-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/scheme-of-arrangement-section-230-232-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

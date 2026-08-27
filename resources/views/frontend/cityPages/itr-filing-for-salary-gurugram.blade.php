@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-filing-for-salary/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-filing-for-salary/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Salaried Gurugram - Form 16, ITR-1 & HRA">
     <meta name="twitter:description" content="CA-assisted salary ITR filing in Gurugram. New vs old regime, HRA, 80C, Form 16, ESOP taxation. Serving Cyber City, Golf Course Road professionals. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-filing-for-salary/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

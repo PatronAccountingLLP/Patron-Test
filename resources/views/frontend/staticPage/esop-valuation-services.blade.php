@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-valuation-services/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-valuation-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESOP Valuation Services in India: DCF, NAV, FMV Report">
     <meta name="twitter:description" content="ESOP and share valuation under Rule 11UA for Indian startups - DCF, NAV, CCA and merchant banker FMV reports. Annual cycle. Starting Rs 50,000.">
-    <meta name="twitter:image" content="/images/esop-valuation-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

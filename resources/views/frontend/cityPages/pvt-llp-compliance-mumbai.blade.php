@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pvt-llp-compliance/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pvt-llp-compliance/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Annual Compliance Mumbai – AOC-4, MGT-7 &amp; Form 11">
     <meta name="twitter:description" content="CA-assisted LLP compliance in Mumbai. Form 8, Form 11, ITR-5, audit, GST, PT, partner changes. Rs 100/day penalty. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pvt-llp-compliance/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

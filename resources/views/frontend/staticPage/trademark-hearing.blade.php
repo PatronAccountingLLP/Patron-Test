@@ -21,11 +21,11 @@
     <meta property="og:url" content="/trademark-hearing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-hearing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Hearing in India - Process, Preparation & Outcome">
     <meta name="twitter:description" content="Trademark hearing is a formal proceeding before the Registrar under the Trade Marks Act, 1999. Expert TM attorneys represent your case. Starting at Rs 7,999.">
-    <meta name="twitter:image" content="/images/trademark-hearing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

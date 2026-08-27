@@ -19,11 +19,11 @@
     <meta property="og:url" content="/gstr-3b-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/gstr-3b-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTR-3B Filing 2026: Hard-Locked Returns | Patron Accounting">
     <meta name="twitter:description" content="File GSTR-3B by 20th monthly under Section 39 with auto-populated hard-locked values from July 2025. Bundled with GSTR-1 in our retainer from Rs 999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/gstr-3b-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

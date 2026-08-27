@@ -20,11 +20,11 @@
     <meta property="og:url" content="/director-kyc/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/director-kyc-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Director KYC Delhi NCR – DIR-3 KYC &amp; Sep 30 Deadline">
     <meta name="twitter:description" content="Director KYC DIR-3 in Delhi. DIN KYC filing. e-Form vs Web. 2026 amendment 3-year cycle. DIN reactivation Rs 5000. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/director-kyc-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

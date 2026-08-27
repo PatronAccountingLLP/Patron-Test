@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-scheme-design/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-scheme-design-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Scheme Design for Enterprise SaaS Teams | Patron Accounting">
     <meta name="twitter:description" content="Build a scalable ESOP pool for your Cyber City SaaS team, with vesting, cliffs and leaver matrices filed via RoC Delhi, in 4 to 8 weeks from INR 19,999.">
-    <meta name="twitter:image" content="/images/esop-scheme-design-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

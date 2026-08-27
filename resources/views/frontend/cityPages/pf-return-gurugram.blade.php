@@ -21,11 +21,11 @@
     <meta property="og:url" content="/pf-return/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pf-return-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PF Return Filing Gurugram - ECR, UAN & Due Date">
     <meta name="twitter:description" content="PF return filing in Gurugram. ECR monthly by 15th. 12% employer + 12% employee. UAN. EPFO Sector 44. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pf-return-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

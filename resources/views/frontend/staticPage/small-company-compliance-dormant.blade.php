@@ -20,11 +20,11 @@
     <meta property="og:url" content="/small-company-compliance-dormant">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/small-company-compliance-dormant-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dormant Company Compliance Sec 455 2026 | Patron Accounting">
     <meta name="twitter:description" content="Dormant company compliance under Section 455 with MSC-1, MSC-3, MSC-4 filings. CCFS-2026 amnesty 50% MSC-1 fee. Patron annual package Rs 25,000 to Rs 35,000.">
-    <meta name="twitter:image" content="/images/small-company-compliance-dormant-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

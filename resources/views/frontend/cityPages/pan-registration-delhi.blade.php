@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pan-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pan-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="PAN Card Registration in Delhi - Form 49A & Process">
     <meta name="twitter:description" content="CA-assisted PAN registration in Delhi. Individual and business PAN via Form 49A, instant ePAN. Serving Rohini, CP, Nehru Place businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pan-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/migration-from-tally-to-zoho">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-tally-to-zoho-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to Zoho Books Migration 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led Tally to Zoho Books migration with zero data loss and 100% trial balance reconciliation. Starting from INR 9,999. Chart of accounts, GST setup, training.">
-    <meta name="twitter:image" content="/images/migration-from-tally-to-zoho-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

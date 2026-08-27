@@ -21,11 +21,11 @@
     <meta property="og:url" content="/payroll-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Services in India - Salary, PF, ESI & TDS Filing">
     <meta name="twitter:description" content="Managed payroll services in India covering EPF, ESI, TDS, PT, LWF and labour law compliance. CA-managed, from INR 500 per employee per month. All industries.">
-    <meta name="twitter:image" content="/images/payroll-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/form-10bd-donor-wise-donation-statement/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/form-10bd-donor-wise-donation-statement-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Form 10BD: Donor-Wise Statement of Donations Filing Guide">
     <meta name="twitter:description" content="Form 10BD is the annual donor-wise statement filed by 80G and Section 35 institutions by 31 May. Learn who files, due dates, penalties, and Form 10BE link.">
-    <meta name="twitter:image" content="/images/form-10bd-donor-wise-donation-statement-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

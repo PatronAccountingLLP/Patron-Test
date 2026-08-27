@@ -6,7 +6,7 @@
     <link rel="canonical" href="https://www.patronaccounting.com/tools/percentage-calculator">
     <meta property="og:title" content="Percentage Calculator &mdash; Free 2026 | Patron Accounting"><meta property="og:description" content="All percentage calculations in one tool. Increase, decrease, reverse.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN"><meta property="og:url" content="https://www.patronaccounting.com/tools/percentage-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og-percentage-calculator.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Percentage Calculator &mdash; Free 2026"><meta name="twitter:description" content="All percentage operations in one free tool.">
 @endsection
 @section('schema')

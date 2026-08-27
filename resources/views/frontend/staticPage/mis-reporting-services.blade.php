@@ -18,11 +18,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/mis-reporting-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og/mis-reporting-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Monthly MIS Reporting Services for Indian Businesses | Patron Accounting">
     <meta name="twitter:description" content="The three numbers your board actually asks for, not a 40-tab pack. No scramble at year end and no surprises in the audit. Start with a books review.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og/mis-reporting-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

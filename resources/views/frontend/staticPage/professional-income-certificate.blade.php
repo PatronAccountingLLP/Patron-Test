@@ -19,11 +19,11 @@
     <meta property="og:url" content="/professional-income-certificate">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/professional-income-certificate-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Income Certificate 2026 | Patron Accounting">
     <meta name="twitter:description" content="Professional income certificate for doctors, lawyers, and consultants - CA-attested practice income on a 44ADA basis, with UDIN. From INR 1,999 (Exl GST).">
-    <meta name="twitter:image" content="/images/professional-income-certificate-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

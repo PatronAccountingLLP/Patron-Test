@@ -12,13 +12,13 @@
     <meta property="og:description" content="Track payroll across multiple Indian states — professional tax slabs, minimum wages, employer cost, compliance flags.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/og/multi-state-payroll-dashboard.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Multi-State Payroll Dashboard 2026">
     <meta name="twitter:description" content="Track multi-state payroll: PT, min wage, employer cost. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/og/multi-state-payroll-dashboard.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

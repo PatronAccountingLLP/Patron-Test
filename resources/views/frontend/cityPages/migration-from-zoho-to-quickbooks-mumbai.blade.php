@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-zoho-to-quickbooks/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-zoho-to-quickbooks/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zoho to QuickBooks Migration Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="Switch from Zoho Books to QuickBooks Online in Mumbai from INR 9,999. CA-supervised COA re-map, GST setup, trial balance match for BKC and Andheri.">
-    <meta name="twitter:image" content="/images/migration-from-zoho-to-quickbooks/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

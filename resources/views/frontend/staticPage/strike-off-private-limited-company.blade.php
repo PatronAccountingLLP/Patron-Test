@@ -20,11 +20,11 @@
     <meta property="og:url" content="/strike-off-private-limited-company">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/strike-off-private-limited-company-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Strike Off Pvt Ltd Company 2026 | Patron Accounting">
     <meta name="twitter:description" content="Strike off Pvt Ltd company under Section 248 via STK-2 to C-PACE. Timeline 3-6 months. Fixed-fee Rs 15,000 to 25,000 incl. govt fee. CA reviewed end-to-end.">
-    <meta name="twitter:image" content="/images/strike-off-private-limited-company-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

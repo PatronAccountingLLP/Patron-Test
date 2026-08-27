@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-corporate-filings/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-corporate-filings-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Filings: PAS-3 & MGT-14 via the RoC Delhi | Patron Accounting">
     <meta name="twitter:description" content="Nehru Place and Connaught Place startups file every ESOP form with RoC Delhi, near the MCA HQ. CS-led PAS-3, MGT-14 and SH-6 filings at INR 9,999/filing.">
-    <meta name="twitter:image" content="/images/esop-corporate-filings-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

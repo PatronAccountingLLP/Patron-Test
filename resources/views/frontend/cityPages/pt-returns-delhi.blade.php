@@ -20,11 +20,11 @@
     <meta property="og:url" content="/pt-returns/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/pt-return-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Tax Return in Delhi – Filing, Slabs &amp; Rates">
     <meta name="twitter:description" content="Professional tax returns for Delhi employers. Delhi does not levy PT. Multi-state PT compliance for Delhi-HQ companies. State-wise filing. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/pt-return-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

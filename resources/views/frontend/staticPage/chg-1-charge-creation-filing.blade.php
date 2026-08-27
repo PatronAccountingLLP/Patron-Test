@@ -20,11 +20,11 @@
     <meta property="og:url" content="/chg-1-charge-creation-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/chg-1-charge-creation-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CHG-1 Charge Creation Filing 2026 | Patron Accounting">
     <meta name="twitter:description" content="Register your charge in Form CHG-1 under Section 77 within 30 days of creation to keep it valid and avoid penalties. ROC filing from INR 2,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/chg-1-charge-creation-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

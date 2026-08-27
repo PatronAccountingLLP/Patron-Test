@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fssai-state-license/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/fssai-state-license/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FSSAI State License in Delhi - Eligibility, Docs & Fees">
     <meta name="twitter:description" content="CA-assisted FSSAI State License in Delhi. Form B via FoSCoS for restaurants, bakeries, manufacturers. Serving CP, Karol Bagh, Okhla. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/fssai-state-license/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

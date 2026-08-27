@@ -20,11 +20,11 @@
     <meta property="og:url" content="/audit-rotation-transition-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/audit-rotation-transition-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Auditor Rotation India 2026: Sec 139 | Patron Accounting">
     <meta name="twitter:description" content="Audit rotation guide under Sec 139(2) - applicability thresholds, cooling-off period, network firm restrictions, transition process, Patron's rotation playbook.">
-    <meta name="twitter:image" content="/images/audit-rotation-transition-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

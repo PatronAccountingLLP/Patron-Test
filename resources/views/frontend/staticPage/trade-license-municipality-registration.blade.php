@@ -19,11 +19,11 @@
     <meta property="og:url" content="/trade-license-municipality-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trade-license-municipality-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trade License Municipality Registration 2026 | Patron Accounting">
     <meta name="twitter:description" content="Get your municipal trade license (BMC, MCD, PMC and more) before starting a commercial business in India. Activity-based, online, annual. From INR 4,999.">
-    <meta name="twitter:image" content="/images/trade-license-municipality-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

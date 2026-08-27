@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notice/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notice/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice in Mumbai - 143(1), 139(9) & Reply">
     <meta name="twitter:description" content="CA-assisted income tax notice response in Mumbai. Section 143, 148, 139(9), scrutiny, demand. AIS mismatch, e-Proceedings, ITAT appeal. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/income-tax-notice/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-nbfc">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-nbfc-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for NBFC, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Annual compliance for an NBFC, the RBI returns and Net Owned Fund overlay on top of the ROC stack, run by a specialist CA and CS team. From INR 99,999 a year.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-nbfc-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/esic-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esic-registration-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ESIC Registration Gurugram - Process, Threshold & Wages">
     <meta name="twitter:description" content="ESIC registration in Gurugram. 10+ employees mandatory. Medical, maternity, sickness benefits. 3.25% employer + 0.75% employee. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/esic-registration-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/net-worth-certificate-for-nbfc-rbi-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-nbfc-rbi-registration-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Net Worth Certificate for NBFC RBI Registration 2026 | Patron Accounting">
     <meta name="twitter:description" content="Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/net-worth-certificate-for-nbfc-rbi-registration-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

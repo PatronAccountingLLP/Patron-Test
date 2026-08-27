@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-fema-and-rbi-firms-reporting/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-fema-and-rbi-firms-reporting-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Cross-Border ESOP FEMA Form OPI Filing & Fixes | Patron Accounting">
     <meta name="twitter:description" content="Filing Form OPI for cross-border ESOPs in Pune's Hinjewadi and Kharadi tech firms, with AD bank submission and RBI compounding from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-fema-and-rbi-firms-reporting-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/drug-license/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/drug-license/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Drug License Gurugram - Retail, Wholesale & CDSCO Process">
     <meta name="twitter:description" content="CA-assisted drug license in Gurugram. Retail, wholesale, pharmacy license. Form 20/21/20B/21B. FDA Haryana filing. Serving Sohna Rd, MG Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/drug-license/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

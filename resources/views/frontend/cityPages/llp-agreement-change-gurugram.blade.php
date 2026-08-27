@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-agreement-change/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-agreement-change/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Agreement Amendment Gurugram - Deed & Form 3">
     <meta name="twitter:description" content="CA/CS-assisted LLP agreement amendment in Gurugram. Form 3, supplementary deed, profit sharing, partner changes, stamp duty, ROC Haryana. Serving Cyber City, Sohna Road. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-agreement-change/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

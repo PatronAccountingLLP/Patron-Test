@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-deeptech-aiml/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Deeptech ESOP Design with 80-IAC Tax Deferral | Patron Accounting">
     <meta name="twitter:description" content="Design a deeptech ESOP in Pune with research-milestone vesting, an IP-creator pool and Section 80-IAC tax deferral - structured from INR 24,999.">
-    <meta name="twitter:image" content="/images/esop-for-deeptech-aiml-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

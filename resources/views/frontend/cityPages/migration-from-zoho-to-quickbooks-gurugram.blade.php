@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-zoho-to-quickbooks/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-zoho-to-quickbooks/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zoho-QuickBooks Migration Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Zoho Books to QuickBooks Online migration in Gurugram from INR 9,999. CA-led re-map, GST rebuild, trial balance match for Cyber City and Manesar.">
-    <meta name="twitter:image" content="/images/migration-from-zoho-to-quickbooks/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

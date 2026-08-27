@@ -20,11 +20,11 @@
     <meta property="og:url" content="/fast-track-merger-section-233">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/fast-track-merger-section-233-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting">
     <meta name="twitter:description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/fast-track-merger-section-233-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

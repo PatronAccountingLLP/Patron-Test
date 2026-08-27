@@ -20,11 +20,11 @@
     <meta property="og:url" content="/company-registration-in-uae">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-registration-in-uae-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Registration in UAE - Freezone, Cost & Documents">
     <meta name="twitter:description" content="Register a company in UAE from India. Mainland, Free Zone, Offshore setup from AED 4,999. 100% foreign ownership. CA-managed process. Call now.">
-    <meta name="twitter:image" content="/images/company-registration-in-uae-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

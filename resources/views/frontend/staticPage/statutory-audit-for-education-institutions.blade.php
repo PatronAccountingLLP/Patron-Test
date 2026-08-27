@@ -19,11 +19,11 @@
     <meta property="og:url" content="/statutory-audit-for-education-institutions">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit-for-education-institutions-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Audit for Education Institutions 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-led statutory audit for schools, colleges, coaching and edtech - Section 10(23C), 12A trust, Form 10B, tuition fee recognition. From Rs 1,00,000.">
-    <meta name="twitter:image" content="/images/statutory-audit-for-education-institutions-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

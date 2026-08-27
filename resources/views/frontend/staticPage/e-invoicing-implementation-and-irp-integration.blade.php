@@ -19,11 +19,11 @@
     <meta property="og:url" content="/e-invoicing-implementation-and-irp-integration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/e-invoicing-implementation-and-irp-integration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Invoicing 2026: IRP Integration | Patron Accounting">
     <meta name="twitter:description" content="E-invoicing implementation and IRP integration for B2B turnover above Rs 5 crore. IRN, QR code, ERP setup, 30-day rule. Patron from Rs 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/e-invoicing-implementation-and-irp-integration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

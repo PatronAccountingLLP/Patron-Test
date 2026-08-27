@@ -20,11 +20,11 @@
     <meta property="og:url" content="/trademark-rectification/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/trademark-rectification/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trademark Rectification Delhi NCR – TM-O &amp; Grounds">
     <meta name="twitter:description" content="Trademark rectification in Delhi under Section 57. Cancel or remove marks via TM Registry or Delhi HC. Filing + defence. Patron Accounting +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/trademark-rectification/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

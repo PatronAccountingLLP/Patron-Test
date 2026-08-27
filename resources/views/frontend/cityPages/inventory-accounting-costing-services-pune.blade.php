@@ -20,11 +20,11 @@
     <meta property="og:url" content="/inventory-accounting-costing-services/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/inventory-accounting-costing-services/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Inventory Accounting in Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Inventory valuation and costing in Pune from INR 7,499/mo. CA-led FIFO, weighted average, stock reconciliation, and COGS for Chakan and MIDC firms.">
-    <meta name="twitter:image" content="/images/inventory-accounting-costing-services/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

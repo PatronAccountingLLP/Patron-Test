@@ -20,11 +20,11 @@
     <meta property="og:url" content="/financial-statement-preparation-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/financial-statement-preparation-services/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Financial Statements Gurugram 2026 | Patron Accounting">
     <meta name="twitter:description" content="Financial statement preparation in Gurugram from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Cyber City and Manesar firms.">
-    <meta name="twitter:image" content="/images/financial-statement-preparation-services/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

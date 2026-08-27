@@ -19,11 +19,11 @@
     <meta property="og:url" content="/eor-india-vs-multiplier">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/eor-india-vs-multiplier-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Multiplier Alternative India 2026: CA-Led Service | Patron">
     <meta name="twitter:description" content="Multiplier EOR India lists at $400 per employee per month. Patron Accounting LLP is a CA-led alternative with integrated India services and compliance.">
-    <meta name="twitter:image" content="/images/eor-india-vs-multiplier-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

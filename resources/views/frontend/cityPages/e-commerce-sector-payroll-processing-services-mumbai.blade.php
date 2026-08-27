@@ -20,11 +20,11 @@
     <meta property="og:url" content="/e-commerce-sector-payroll-processing-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/e-commerce-sector-payroll-processing-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-Commerce Accounting in Mumbai - GST, TDS & Bookkeeping">
     <meta name="twitter:description" content="CA-led ecommerce payroll in Mumbai. D2C brands, warehouse staff, delivery workers, tech teams, PF/ESI, gig worker compliance, incentive CTC for Powai, BKC, Bhiwandi. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/e-commerce-sector-payroll-processing-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

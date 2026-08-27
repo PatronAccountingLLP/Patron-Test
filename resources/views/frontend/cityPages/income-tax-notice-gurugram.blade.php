@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-notice/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-notice/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Notice Gurugram - 143(1), 139(9) & Reply">
     <meta name="twitter:description" content="CA-assisted income tax notice response in Gurugram. Scrutiny 143(2), demand 156, AIS mismatch, defective return 139(9), faceless assessment. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/income-tax-notice/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

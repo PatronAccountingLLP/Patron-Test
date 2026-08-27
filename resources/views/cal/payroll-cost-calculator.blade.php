@@ -8,7 +8,7 @@
     <meta property="og:description" content="See the true cost of hiring &mdash; CTC, EPF, ESI, gratuity, bonus, and professional tax in one calculator.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-cost-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/tools/payroll-cost-calculator/og-image.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Patron Accounting">
@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Cost Calculator &mdash; Employer Cost India 2026">
     <meta name="twitter:description" content="True cost of hiring in India: CTC + EPF + ESI + gratuity + bonus + PT. Plan now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/tools/payroll-cost-calculator/og-image.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

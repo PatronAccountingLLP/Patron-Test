@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-audit/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-audit/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Audit Gurugram - GSTR-9C, Reconciliation & ₹5Cr">
     <meta name="twitter:description" content="CA-assisted GST audit service in Gurugram. GSTR-9C reconciliation, annual return, Section 65/66, ITC verification, DRC-03, departmental audit. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-audit/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

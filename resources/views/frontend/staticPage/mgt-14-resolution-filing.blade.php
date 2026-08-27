@@ -20,11 +20,11 @@
     <meta property="og:url" content="/mgt-14-resolution-filing">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/mgt-14-resolution-filing-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MGT-14 Resolution Filing Services in 2026 | Patron Accounting">
     <meta name="twitter:description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/mgt-14-resolution-filing-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

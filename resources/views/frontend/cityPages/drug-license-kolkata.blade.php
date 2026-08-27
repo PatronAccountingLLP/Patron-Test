@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Drug License in Kolkata – Retail, Wholesale &amp; CDSCO Process"><meta property="og:description" content="Drug license Kolkata. Retail wholesale pharmacy. Drugs Act 1940. Rs 3,000. Call +91 945 945 6700.">
     <meta property="og:url" content="/drug-license/kolkata"><meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/drug-license-og.webp"><meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')
     <script type="application/ld+json">

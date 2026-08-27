@@ -20,11 +20,11 @@
     <meta property="og:url" content="/partnership-firm-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/partnership-firm-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Partnership Firm Registration in Pune - Deed & Process">
     <meta name="twitter:description" content="Register your partnership firm in Pune. CA-assisted deed drafting, Maharashtra stamp duty, Form A on RoF portal, PAN, GST, and bank account. Peth traders to IT professionals. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/partnership-firm-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

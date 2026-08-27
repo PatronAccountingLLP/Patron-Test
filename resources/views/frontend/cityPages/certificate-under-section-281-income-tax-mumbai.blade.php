@@ -21,11 +21,11 @@
     <meta property="og:url" content="/certificate-under-section-281-income-tax/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/certificate-under-section-281-income-tax-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
     <meta name="twitter:description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/certificate-under-section-281-income-tax-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

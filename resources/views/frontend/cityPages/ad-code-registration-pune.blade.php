@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ad-code-registration/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ad-code-registration-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AD Code Registration in Pune - Customs & ICEGATE Process">
     <meta name="twitter:description" content="CA-assisted AD code registration in Pune. Bank AD code letter, ICEGATE port registration for ICD Dighi, ICD Talegaon, Pune Airport. Export-ready in 3-5 days. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ad-code-registration-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gst-returns-for-e-commerce-operator/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-for-e-commerce-operator-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Returns for E-Commerce Gurugram - GSTR-8 & TCS">
     <meta name="twitter:description" content="GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-for-e-commerce-operator-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

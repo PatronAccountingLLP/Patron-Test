@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-service-exports/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-service-exports-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund on Service Exports — Section 2(6) IGST Act">
     <meta name="twitter:description" content="Claim GST refund on service exports under Section 2(6) IGST Act. FIRC, FIRA, eBRC accepted. IT, SaaS, consulting workflows. Circular 161/2021. Rs 8,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-service-exports-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

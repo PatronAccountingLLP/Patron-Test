@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-for-insurance-agents/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf-for-insurance-agents/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IMF for Insurance Agents: Upgrade From Agent to IMF">
     <meta name="twitter:description" content="Insurance agent or POSP in Delhi ready to go independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost, documents, timeline and setup help.">
-    <meta name="twitter:image" content="/images/imf-for-insurance-agents/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

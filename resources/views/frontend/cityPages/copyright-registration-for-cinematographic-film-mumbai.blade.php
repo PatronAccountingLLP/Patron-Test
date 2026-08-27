@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-cinematographic-film/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-cinematograph-film-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Cinematograph Film Mumbai - OTT & Fees">
     <meta name="twitter:description" content="Copyright for cinematograph film in Mumbai. Producer ownership S.17(b), underlying works, 2012 author royalty, Form XIV, anti-piracy, OTT licensing. CA-led. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-cinematograph-film-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/itr-for-esop-employees/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-esop-employees-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for ESOP Employees 2026: RSU + DTAA | Patron Accounting">
     <meta name="twitter:description" content="ITR-2 for Indian and foreign ESOPs. Perquisite at exercise, LTCG on sale, DTAA Form 67, Schedule FA. From Rs 4,999.">
-    <meta name="twitter:image" content="/images/itr-for-esop-employees-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

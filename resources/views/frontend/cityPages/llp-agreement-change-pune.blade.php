@@ -21,11 +21,11 @@
     <meta property="og:url" content="/llp-agreement-change/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-agreement-change/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Agreement Amendment in Pune – Deed &amp; Form 3 Filing">
     <meta name="twitter:description" content="CA and CS assisted LLP agreement change for Pune LLPs. Supplementary agreement, Form 3, profit sharing, capital, partner changes, object clause. Maharashtra stamp duty. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-agreement-change/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

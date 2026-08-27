@@ -20,11 +20,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/tally-to-zoho-migration/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/tally-to-zoho-migration/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tally to Zoho Books Migration in Mumbai - Steps & Pricing">
     <meta name="twitter:description" content="CA-led Tally to Zoho Books migration in Mumbai. ETL data transfer, GST reconfiguration and opening balance matching for BKC, Andheri and Powai firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/tally-to-zoho-migration/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

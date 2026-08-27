@@ -19,11 +19,11 @@
     <meta property="og:url" content="/esop-for-flip-structures/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pune Flip-Structure ESOP Design with Mirror Grants | Patron Accounting">
     <meta name="twitter:description" content="Set up mirror-grant ESOPs for Pune Hinjewadi and Kharadi SaaS firms flipped to Delaware or Singapore, aligned with FEMA OI Rules and 409A, from INR 49,999.">
-    <meta name="twitter:image" content="/images/esop-for-flip-structures-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

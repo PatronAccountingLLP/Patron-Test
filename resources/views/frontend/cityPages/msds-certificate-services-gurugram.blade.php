@@ -20,11 +20,11 @@
     <meta property="og:url" content="/msds-certificate-services/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/msds-certificate-services/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MSDS Certificate Gurugram - Material Safety Data Sheet">
     <meta name="twitter:description" content="MSDS/SDS certificate preparation in Gurugram. GHS 16-section format, OSHA, REACH, chemical export compliance, hazard classification. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/msds-certificate-services/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

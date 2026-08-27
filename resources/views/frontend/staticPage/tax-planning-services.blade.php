@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tax-planning-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tax-planning-services-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tax Planning Services - Deductions, Exemptions & 80C India">
     <meta name="twitter:description" content="Expert CA-assisted tax planning for salaried employees, businesses, and professionals in India 2026. Covers 80C, NPS, HRA, and advance tax. From Rs. 2,499.">
-    <meta name="twitter:image" content="/images/tax-planning-services-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

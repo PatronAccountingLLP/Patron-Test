@@ -10,13 +10,13 @@
     <meta property="og:url" content="/gstat-appeal-ecommerce">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gstat-appeal-ecommerce-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="E-commerce GSTAT Appeal - TCS & Marketplace | Patron">
     <meta name="twitter:description" content="GSTAT appeal services for e-commerce TCS and marketplace GST disputes. 10% pre-deposit under Section 112(8). 3-month deadline. Patron Accounting.">
-    <meta name="twitter:image" content="/images/gstat-appeal-ecommerce-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

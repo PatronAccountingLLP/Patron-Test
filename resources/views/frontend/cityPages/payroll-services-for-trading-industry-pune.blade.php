@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-trading-industry/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-trading-pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Trading Business Payroll in Pune - PF, ESIC & TDS">
     <meta name="twitter:description" content="CA-assisted payroll for trading companies in Pune. Shops Act, bonus, PF, ESIC, PT, LWF, and seasonal staff compliance for wholesalers, retailers, and commodity brokers. Market Yard to peth shops. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-trading-pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

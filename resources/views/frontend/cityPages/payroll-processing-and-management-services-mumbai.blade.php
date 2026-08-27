@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-processing-and-management-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Payroll Processing & Management Mumbai - PF, ESI & TDS">
     <meta name="twitter:description" content="CA-led payroll processing in Mumbai. CTC structuring, PF/ESI, TDS dual regime, Maharashtra PT, 50% basic rule, multi-industry for BKC, Powai, Andheri companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

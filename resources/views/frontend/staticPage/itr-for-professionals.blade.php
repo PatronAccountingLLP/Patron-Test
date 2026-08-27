@@ -18,11 +18,11 @@
     <meta property="og:url" content="/itr-for-professionals/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-professionals-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Filing for Professionals India: Doctors, Lawyers, CAs | Patron Accounting">
     <meta name="twitter:description" content="ITR-3 and ITR-4 filing for professionals AY 2026-27. Section 44ADA, FIRC, GST LUT for doctors, lawyers, CAs, architects, freelancers. From Rs 1,499.">
-    <meta name="twitter:image" content="/images/itr-for-professionals-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

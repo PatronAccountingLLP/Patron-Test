@@ -20,11 +20,11 @@
     <meta property="og:url" content="/convert-partnership-to-private-limited/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-partnership-to-pvt-ltd-company/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Partnership to Pvt Ltd Delhi NCR – URC-1">
     <meta name="twitter:description" content="CA-assisted partnership to private limited company conversion in Delhi. Section 366 + URC-1 + SPICe+. Tax neutral S.47(xiii). 30-45 days. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/convert-partnership-to-pvt-ltd-company/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

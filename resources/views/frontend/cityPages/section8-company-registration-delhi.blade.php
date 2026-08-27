@@ -20,11 +20,11 @@
     <meta property="og:url" content="/section8-company-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-registration/section-8-company/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 8 Company Registration in Delhi - MOA, AOA & Fees">
     <meta name="twitter:description" content="CA-assisted Section 8 company registration in Delhi. Non-profit licence, SPICe+ filing, 12A, 80G and FCRA. Serving ITO, Civil Lines, Saket NGOs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ngo-registration/section-8-company/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

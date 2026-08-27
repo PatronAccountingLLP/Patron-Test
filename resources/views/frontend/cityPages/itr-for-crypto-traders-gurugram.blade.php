@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-crypto-traders/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-crypto-traders/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Crypto Income Gurugram - 115BBH, 30% & VDA">
     <meta name="twitter:description" content="CA-assisted crypto ITR filing in Gurugram. 30% VDA tax, 1% TDS, Schedule VDA, multi-exchange reconciliation. Serving Cyber City, Golf Course Road crypto traders. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-crypto-traders/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

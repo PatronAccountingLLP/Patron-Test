@@ -20,11 +20,11 @@
     <meta property="og:url" content="/section8-company-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/section8-company-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 8 Company Registration - Process, MOA, AOA & Fees">
     <meta name="twitter:description" content="Register a Section 8 Company under the Companies Act, 2013 for non-profit objectives. No minimum capital. Starting at Rs 15,000. Expert CA and CS support.">
-    <meta name="twitter:image" content="/images/section8-company-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

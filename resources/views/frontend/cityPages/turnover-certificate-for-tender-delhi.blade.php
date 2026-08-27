@@ -20,11 +20,11 @@
     <meta property="og:url" content="/turnover-certificate-for-tender/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/turnover-certificate-for-tender/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Cert. for Tender Delhi NCR – GeM &amp; CA Format">
     <meta name="twitter:description" content="CA-conducted turnover certificate for tender under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/turnover-certificate-for-tender/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

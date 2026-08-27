@@ -21,11 +21,11 @@
     <meta property="og:url" content="/gratuity-calculations-and-compliance/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gratuity-calculations-and-compliance-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gratuity Calculation Gurugram - Formula & 5-Year Rule">
     <meta name="twitter:description" content="Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gratuity-calculations-and-compliance-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

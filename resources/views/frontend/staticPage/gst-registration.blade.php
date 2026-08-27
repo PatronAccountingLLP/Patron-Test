@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Registration Online India - Process, Documents & GSTIN">
     <meta name="twitter:description" content="Apply for GST registration online at gst.gov.in. Threshold: Rs 40 lakh (goods) / Rs 20 lakh (services). No govt fee. 15-digit GSTIN. 3-day processing.">
-    <meta name="twitter:image" content="/images/gst-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/imf-irdai-registration-process/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/imf/imf-irdai-registration-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="IRDAI IMF Registration Process: Step-by-Step Guide">
     <meta name="twitter:description" content="Complete IRDAI IMF registration for existing entities - NOC, Form A, documents, fees, timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
-    <meta name="twitter:image" content="/images/imf/imf-irdai-registration-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

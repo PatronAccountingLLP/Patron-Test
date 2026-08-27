@@ -20,11 +20,11 @@
     <meta property="og:url" content="/statutory-audit/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/statutory-audit/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Statutory Audit Gurugram - CARO 2020 & Ind AS Reports">
     <meta name="twitter:description" content="Statutory audit by experienced CA firm in Gurugram. Section 139, CARO 2020, Ind AS, AOC-4, Pvt Ltd, LLP, OPC. Serving Cyber City, Manesar. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/statutory-audit/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

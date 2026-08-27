@@ -20,11 +20,11 @@
     <meta property="og:url" content="/payroll-services-for-service-sector-businesses/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/payroll-services-for-service-sector-businesses/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Service Sector Accounting Mumbai - Project Billing & GST">
     <meta name="twitter:description" content="CA-led service sector payroll in Mumbai. Professional CTC, consultant 194J, BPO shifts, partner draw, flexi-benefits, staffing compliance for Nariman Point, BKC firms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/payroll-services-for-service-sector-businesses/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

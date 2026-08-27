@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tax-audit/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tax-audit/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tax Audit Gurugram - Sec 44AB, Form 3CD & 3CA/3CB">
     <meta name="twitter:description" content="CA-conducted tax audit under Section 44AB in Gurugram. Form 3CA/3CB/3CD, turnover Rs 1Cr/10Cr, professionals Rs 50L, presumptive opt-out. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tax-audit/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

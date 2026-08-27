@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-demand-under-section-156/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/it-demand-under-section-156/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Demand u/s 156 in Pune - Reply & Payment">
     <meta name="twitter:description" content="CA assisted response to income tax demand notice under Section 156 for Pune taxpayers. Verify demand, rectification S.154, appeal S.246A, stay, Challan 280. Salaried, business, NRI. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/it-demand-under-section-156/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

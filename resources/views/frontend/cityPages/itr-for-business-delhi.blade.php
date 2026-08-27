@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-business/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-business-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Business Delhi NCR – ITR-3, ITR-4 &amp; 44AD">
     <meta name="twitter:description" content="ITR filing for Delhi businesses. ITR-3, ITR-4, ITR-5, ITR-6. Proprietorship, partnership, company. Tax audit. Presumptive 44AD. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/itr-for-business-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

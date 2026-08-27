@@ -19,11 +19,11 @@
     <meta property="og:url" content="/project-office-of-foreign-company-india">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/project-office-of-foreign-company-india-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Project Office of Foreign Company in India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Set up a project office of a foreign company in India for a specific contract. RBI general permission via AD bank (Form FNC), FC-1 filing. From INR 84,999.">
-    <meta name="twitter:image" content="/images/project-office-of-foreign-company-india-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

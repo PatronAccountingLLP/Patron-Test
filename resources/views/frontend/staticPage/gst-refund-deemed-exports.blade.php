@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-deemed-exports/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-deemed-exports-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST Refund on Deemed Exports — Section 147 & Notif 48">
     <meta name="twitter:description" content="Deemed export refund under Section 147 CGST + Notification 48/2017. Advance Authorisation, EPCG, EOU recovery. Form RFD-01. Rs 10,000+ fees.">
-    <meta name="twitter:image" content="/images/gst-refund-deemed-exports-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

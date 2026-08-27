@@ -20,11 +20,11 @@
     <meta property="og:url" content="/gst-return-filing-for-freelancers/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-returns-freelancers-mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST for Freelancers in Mumbai - GSTR-1, 3B & ₹20L">
     <meta name="twitter:description" content="CA-assisted GST return filing for freelancers in Mumbai. GSTR-1, GSTR-3B, LUT for export services. Serving Powai, Andheri, BKC freelancers. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/gst-returns-freelancers-mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

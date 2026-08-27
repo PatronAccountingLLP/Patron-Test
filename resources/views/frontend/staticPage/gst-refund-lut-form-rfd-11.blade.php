@@ -18,11 +18,11 @@
     <meta property="og:url" content="/gst-refund-lut-form-rfd-11/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/gst-refund-lut-form-rfd-11-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GST LUT Filing — Form RFD-11 Annual Renewal Rule 96A">
     <meta name="twitter:description" content="Annual GST LUT filing in Form RFD-11 under Rule 96A. 31 March renewal. Eligibility, Bond alternative, cancellation. Deemed approval. Rs 4,000+.">
-    <meta name="twitter:image" content="/images/gst-refund-lut-form-rfd-11-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

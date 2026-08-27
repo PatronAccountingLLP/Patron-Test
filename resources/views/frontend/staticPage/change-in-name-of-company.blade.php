@@ -21,11 +21,11 @@
     <meta property="og:url" content="/change-in-name-of-company">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/change-in-name-of-company-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Name Change - INC-24 & ROC Process">
     <meta name="twitter:description" content="Change your company name in India via MCA in 2026. File RUN, MGT-14 and INC-24 with ROC. CA and CS assisted service starting at INR 2,999.">
-    <meta name="twitter:image" content="/images/change-in-name-of-company-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

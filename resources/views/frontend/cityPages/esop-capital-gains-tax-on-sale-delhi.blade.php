@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-capital-gains-tax-on-sale/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Delhi ESOP Capital Gains Filing After a Share Sale | Patron Accounting">
     <meta name="twitter:description" content="Selling ESOP shares in Delhi? We classify long and short-term gains, apply listed or unlisted rates, and file your return accurately from INR 4,999.">
-    <meta name="twitter:image" content="/images/esop-capital-gains-tax-on-sale-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

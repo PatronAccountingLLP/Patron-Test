@@ -20,11 +20,11 @@
     <meta property="og:url" content="/copyright-registration-for-dramatic-work/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/copyright-registration-for-dramatic-work-gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Copyright for Dramatic Work Gurugram - Script & Play">
     <meta name="twitter:description" content="Register dramatic work copyright in Gurugram. Scripts, plays, screenplays, choreography, mime. Section 2(h). Lifetime + 60 years. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/copyright-registration-for-dramatic-work-gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -18,11 +18,11 @@
     <meta property="og:url" content="/income-tax-return/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-return-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Return Filing India: Forms, Deadlines, ITR Guide | Patron Accounting">
     <meta name="twitter:description" content="AY 2026-27 ITR filing - all 7 forms (ITR-1 to ITR-7), due dates, new vs old regime, AIS reconciliation, NRI Schedule FA. From Rs 1,499 onwards.">
-    <meta name="twitter:image" content="/images/income-tax-return-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

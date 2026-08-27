@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-exercise-and-cap-table-management/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Exercise, Cap Table and PAS-3 Filing | Patron Accounting">
     <meta name="twitter:description" content="Cap table and ESOP exercise support for Gurugram enterprise-SaaS firms in Cyber City, with FMV-backed PAS-3 at RoC Delhi. Flat INR 14,999/yr, fully managed.">
-    <meta name="twitter:image" content="/images/esop-exercise-and-cap-table-management-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

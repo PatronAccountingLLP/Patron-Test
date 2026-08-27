@@ -20,11 +20,11 @@
     <meta property="og:url" content="/income-tax-return/chennai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/income-tax-return/chennai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Income Tax Return Filing in Chennai – ITR Forms &amp; Due Dates">
     <meta name="twitter:description" content="CA-assisted income tax return filing in Chennai. ITR-1 to ITR-7 on e-filing portal. HRA optimisation, capital gains, NRI returns. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/income-tax-return/chennai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

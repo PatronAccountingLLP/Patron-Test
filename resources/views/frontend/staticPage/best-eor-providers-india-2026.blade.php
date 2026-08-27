@@ -19,11 +19,11 @@
     <meta property="og:url" content="/best-eor-providers-india-2026">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/best-eor-providers-india-2026-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Best EOR Providers India 2026: 9 Picks Compared | Patron">
     <meta name="twitter:description" content="Honest 2026 roundup of 9 leading EOR providers for India hiring. Pricing, India compliance depth, methodology, and disclosure included. Published by Patron.">
-    <meta name="twitter:image" content="/images/best-eor-providers-india-2026-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

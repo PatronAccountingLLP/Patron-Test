@@ -20,11 +20,11 @@
     <meta property="og:url" content="/tds-returns/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/tds-return-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="TDS Returns Delhi NCR – 24Q, 26Q, 27Q &amp; 27EQ Guide">
     <meta name="twitter:description" content="TDS returns for Delhi businesses. 24Q salary, 26Q non-salary, 27Q NRI, 26QB property, 26QC rent. Quarterly + monthly. TRACES. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/tds-return-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -19,11 +19,11 @@
     <meta property="og:url" content="/company-registration-in-mauritius">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/company-registration-in-mauritius-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Company Registration in Mauritius 2026 | Patron Accounting">
     <meta name="twitter:description" content="Set up a Mauritius Global Business Company (GBC) for treaty-based, holding and FDI structuring. FSC licence, substance and ODI support. From USD 4,999.">
-    <meta name="twitter:image" content="/images/company-registration-in-mauritius-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -21,11 +21,11 @@
     <meta property="og:url" content="/appointment-of-director/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/appointment-of-director/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Appointment of Director in Pune - DIN, DIR-12 & Resolution">
     <meta name="twitter:description" content="CA and CS assisted appointment of director for Pune companies. DIN application, DIR-2 consent, DIR-12 filing, additional director, nominee director. Startup boards, MNC compliance. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/appointment-of-director/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ngo-services-for-rural-development/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-services-for-rural-development-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CA Services for Rural Development NGOs | Patron">
     <meta name="twitter:description" content="Registration, 12A/80G, FCRA, CSR-1 and grant-audit compliance for rural development, livelihood and agriculture NGOs. Expert CA support from Patron Accounting.">
-    <meta name="twitter:image" content="/images/ngo-services-for-rural-development-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

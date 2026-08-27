@@ -19,11 +19,11 @@
     <meta property="og:url" content="/turnover-certificate-for-msme-classification/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/turnover-certificate-for-msme-classification-delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Turnover Certificate for MSME Classification 2026 | Patron Accounting">
     <meta name="twitter:description" content="Turnover Certificate for MSME classification by a CA with UDIN. CA-certified turnover for Udyam reclassification and mismatch resolution. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/turnover-certificate-for-msme-classification-delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

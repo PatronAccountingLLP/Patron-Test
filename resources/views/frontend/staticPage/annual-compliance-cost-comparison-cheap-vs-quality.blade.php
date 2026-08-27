@@ -20,11 +20,11 @@
     <meta property="og:url" content="/annual-compliance-cost-comparison-cheap-vs-quality">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/annual-compliance-cost-comparison-cheap-vs-quality-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Annual Compliance: Cheap vs Quality 2026 | Patron Accounting">
     <meta name="twitter:description" content="Rs 15k vs Rs 35-50k annual compliance: real differences in CA review, MCA query rate, deadline tracking. Honest comparison + when each tier is the right fit.">
-    <meta name="twitter:image" content="/images/annual-compliance-cost-comparison-cheap-vs-quality-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

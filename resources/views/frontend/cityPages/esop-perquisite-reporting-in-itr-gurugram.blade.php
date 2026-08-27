@@ -20,11 +20,11 @@
     <meta property="og:url" content="/esop-perquisite-reporting-in-itr/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/esop-perquisite-reporting-in-itr-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Perquisite Reporting for ITR Returns | Patron Accounting">
     <meta name="twitter:description" content="Cyber City SaaS staff: report your ESOP perquisite, capital gains and foreign-held shares correctly in ITR-2 or ITR-3 with expert Gurugram help from INR 2,499.">
-    <meta name="twitter:image" content="/images/esop-perquisite-reporting-in-itr-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

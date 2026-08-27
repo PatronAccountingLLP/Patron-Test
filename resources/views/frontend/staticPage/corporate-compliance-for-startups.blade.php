@@ -20,11 +20,11 @@
     <meta property="og:url" content="/corporate-compliance-for-startups">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-startups-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Corporate Compliance for Startups, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Annual compliance for a startup, ROC filings plus DPIIT recognition, the 80-IAC tax holiday, angel tax relief and ESOP support, end to end. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/corporate-compliance-for-startups-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

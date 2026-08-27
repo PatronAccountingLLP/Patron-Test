@@ -20,11 +20,11 @@
     <meta property="og:url" content="/migration-from-quickbooks-to-zoho/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/migration-from-quickbooks-to-zoho/pune-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="QuickBooks to Zoho Migration Pune 2026 | Patron Accounting">
     <meta name="twitter:description" content="Move from QuickBooks Online to Zoho Books in Pune from INR 9,999. CA-led QBO data export, GST re-mapping, and trial balance tie-out for Hinjewadi firms.">
-    <meta name="twitter:image" content="/images/migration-from-quickbooks-to-zoho/pune-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

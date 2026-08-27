@@ -11,13 +11,13 @@
 <meta property="og:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with industry benchmarks for Indian businesses. Free, no signup.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator-og.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Inventory Turnover Calculator — Ratio & Days Outstanding">
 <meta name="twitter:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with India industry benchmarks. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator-og.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

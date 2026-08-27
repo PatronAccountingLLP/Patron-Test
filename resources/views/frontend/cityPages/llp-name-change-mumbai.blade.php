@@ -20,11 +20,11 @@
     <meta property="og:url" content="/llp-name-change/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/llp-name-change/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LLP Name Change in Mumbai – Form 5, RUN-LLP &amp; ROC">
     <meta name="twitter:description" content="CA-assisted LLP name change in Mumbai. RUN-LLP, Form 5, Form 3, supplementary deed, new certificate, PAN/GST update. ROC Everest House. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/llp-name-change/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

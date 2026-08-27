@@ -19,11 +19,11 @@
     <meta property="og:url" content="/freelancer-business-registration">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/freelancer-business-registration-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Freelancer Business Registration in India 2026 | Patron Accounting">
     <meta name="twitter:description" content="Register as a freelancer in India: proprietorship setup, Udyam, GST and IEC, plus 44ADA tax guidance. One simple bundle for freelancers. From INR 2,499.">
-    <meta name="twitter:image" content="/images/freelancer-business-registration-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

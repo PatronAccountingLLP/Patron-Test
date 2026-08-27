@@ -22,11 +22,11 @@
     <meta property="og:url" content="https://www.patronaccounting.com/solvency-certificate/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/networth-cluster/og/solvency-certificate-delhi.jpg">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Solvency Certificates for CPWD and MCD Bids">
     <meta name="twitter:description" content="Government supply tenders and court sureties, certified from Rohini.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/networth-cluster/og/solvency-certificate-delhi.jpg">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

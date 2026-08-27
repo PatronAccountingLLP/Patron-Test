@@ -19,11 +19,11 @@
     <meta property="og:url" content="/convert-proprietorship-to-pvt-ltd">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/convert-proprietorship-to-pvt-ltd-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Convert Proprietorship to Pvt Ltd 2026 | Patron Accounting">
     <meta name="twitter:description" content="Convert your proprietorship to a private limited company in India. Limited liability, funding access, tax-neutral under Section 47(xiv). From INR 19,999.">
-    <meta name="twitter:image" content="/images/convert-proprietorship-to-pvt-ltd-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

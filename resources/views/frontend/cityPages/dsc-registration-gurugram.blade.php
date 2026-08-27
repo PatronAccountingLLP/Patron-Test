@@ -20,11 +20,11 @@
     <meta property="og:url" content="/dsc-registration/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/digital-signature-certificate/gurugram-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DSC Registration in Gurugram - Class 3 Digital Signature">
     <meta name="twitter:description" content="Get Class 3 Digital Signature Certificate in Gurugram. For MCA, Income Tax, GST, e-tendering. Directors, partners, CAs. Same-day issuance. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/digital-signature-certificate/gurugram-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

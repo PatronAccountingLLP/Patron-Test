@@ -20,11 +20,11 @@
     <meta property="og:url" content="/cost-audit-companies-cost-records-rules-2014">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/cost-audit-companies-cost-records-rules-2014-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Cost Audit, Cost Records Rules 2014, 2026 | Patron Accounting">
     <meta name="twitter:description" content="Cost audit under Section 148 for regulated and non-regulated sectors crossing turnover limits. CRA-1, CRA-2, CRA-3 and CRA-4 handled. From INR 49,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/cost-audit-companies-cost-records-rules-2014-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

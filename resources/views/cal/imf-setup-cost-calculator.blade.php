@@ -10,13 +10,13 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/imf-setup-cost-calculator">
 <meta property="og:title" content="IMF Setup Cost Calculator — IRDAI Registration Tool 2026">
 <meta property="og:description" content="Estimate IMF setup costs: MCA + IRDAI fees + ISMP training + audit + PI insurance. Pvt Ltd vs LLP.">
-<meta property="og:image" content="https://www.patronaccounting.com/og/imf-setup-cost-calculator.jpg">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IMF Setup Cost Calculator — IRDAI Registration Tool 2026">
 <meta name="twitter:description" content="End-to-end IMF setup cost estimator: MCA, IRDAI, ISMP training, audit, PI insurance.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/og/imf-setup-cost-calculator.jpg">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 @endsection

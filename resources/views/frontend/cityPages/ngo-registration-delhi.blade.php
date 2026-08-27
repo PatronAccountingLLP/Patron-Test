@@ -20,11 +20,11 @@
     <meta property="og:url" content="/ngo-registration/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/ngo-registration/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NGO Registration in Delhi - Trust, Society & Section 8 Co.">
     <meta name="twitter:description" content="CA-assisted NGO registration in Delhi. Trust, Society or Section 8 Company with 12A, 80G and FCRA. Serving ITO, Civil Lines, Saket NGOs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/ngo-registration/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

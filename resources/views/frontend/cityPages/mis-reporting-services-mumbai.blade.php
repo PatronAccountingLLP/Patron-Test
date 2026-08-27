@@ -20,11 +20,11 @@
     <meta property="og:url" content="/mis-reporting-services/mumbai">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/mis-reporting-services/mumbai-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MIS Reporting Services in Mumbai 2026 | Patron Accounting">
     <meta name="twitter:description" content="CA-built MIS dashboards for BKC and Andheri firms from INR 4,999/mo. Monthly, quarterly profit, cash flow and KPI packs across Mumbai.">
-    <meta name="twitter:image" content="/images/mis-reporting-services/mumbai-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

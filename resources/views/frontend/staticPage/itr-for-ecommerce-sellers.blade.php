@@ -20,11 +20,11 @@
     <meta property="og:url" content="/itr-for-ecommerce-sellers/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/itr-for-ecommerce-sellers-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR for Ecommerce Sellers 2026: 194-O, 52 | Patron Accounting">
     <meta name="twitter:description" content="File ITR for Amazon, Flipkart, Meesho, D2C sellers. Multi-platform reconciliation, Sec 194-O, Sec 194R, returns. Starts at Rs 9,500.">
-    <meta name="twitter:image" content="/images/itr-for-ecommerce-sellers-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

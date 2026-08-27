@@ -20,11 +20,11 @@
     <meta property="og:url" content="/iso-registration-certification-services/delhi">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="/images/iso-registration-certification-services/delhi-og.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ISO Certification Delhi NCR – 9001, 14001 &amp; 27001">
     <meta name="twitter:description" content="CA-assisted ISO registration in Delhi. ISO 9001, 14001, 45001, 27001 certification. Serving Okhla, Nehru Place, Naraina businesses. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="/images/iso-registration-certification-services/delhi-og.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
 @endsection
 
 @section('schema')

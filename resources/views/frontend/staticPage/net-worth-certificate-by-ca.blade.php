@@ -565,43 +565,17 @@ body.is-hub{background:#F4F7FB}
     <div class="hub-form">
       <div class="hub-form__t">Get a Free Quote</div>
       <div class="hub-form__s">Talk to a CA / CS expert &mdash; no obligation.</div>
-      <iframe name="hubFormFrame" style="display:none" title="submit target"></iframe>
-      <form action="https://bigin.zoho.in/crm/WebToRecordForm" name="BiginWebToRecordForm2"
-            method="POST" target="hubFormFrame" accept-charset="UTF-8"
-            onsubmit="var cc=this.querySelector('.cc-select').value;this.querySelector('.mob').value=cc+this.querySelector('.ph').value;">
-        <input type="text" style="display:none" name="xnQsjsdp" value="e400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79">
-        <input type="hidden" name="zc_gad" value="">
-        <input type="text" style="display:none" name="xmIwtLD" value="2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843">
-        <input type="text" style="display:none" name="actionType" value="UG90ZW50aWFscw==">
-        <input type="hidden" name="rmsg" value="true">
-        <input type="text" style="display:none" name="returnURL" value="null">
-        <input type="hidden" name="Potential Name" value="Website Enquiry - Net Worth Certificate by CA">
-        <input type="hidden" name="Pipeline" value="Sales Pipeline Standard">
-        <input type="hidden" name="Stage" value="Qualification">
-        <input type="hidden" name="Contacts.Lead Source" value="Website Enquiry - Net Worth Certificate by CA">
-        <input name="Contacts.Last Name" type="text" maxlength="80" placeholder="Full name" required>
-        <div class="hub-form__row">
-          <select class="cc-select"><option value="+91">IN +91</option><option value="+1">US +1</option><option value="+44">UK +44</option><option value="+971">AE +971</option></select>
-          <input class="ph" type="tel" maxlength="15" placeholder="Phone number" required>
-        </div>
-        <input type="hidden" name="Contacts.Mobile" class="mob" value="">
-        <input name="Contacts.Mailing City" type="text" maxlength="100" placeholder="City">
-        <select name="Contacts.Description">
-          <option value="" disabled selected>Certificate needed</option>
-        <option>Net Worth Certificate</option>
-        <option>Net Worth Certificate for Company</option>
-        <option>Net Worth Certificate for Partnership Firm</option>
-        <option>CA Certificate for Proprietorship Firm</option>
-        <option>Net Worth Certificate for Visa</option>
-        <option>Net Worth Certificate for Bank Loan</option>
-        <option>CA Certificate for RERA</option>
-        <option>Net Worth Statement for Divorce</option>
-        <option>Solvency Certificate</option>
-        <option>Minimum Net Owned Fund for NBFC</option>
-          <option>Other</option>
-        </select>
-        <button type="submit">Get Free Quote &rarr;</button>
-      </form>
+      <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
+      @include('partials.lead-form', [
+          'deal'    => 'Website Enquiry - Net Worth Certificate by CA',
+          'options' => [
+              ['value' => 'net-worth-certificate-by-ca', 'label' => 'Net Worth Certificate', 'selected' => true, 'disabled' => false],
+              ['value' => 'turnover-certificate', 'label' => 'Turnover Certificate', 'selected' => false, 'disabled' => false],
+              ['value' => 'solvency-certificate', 'label' => 'Solvency Certificate', 'selected' => false, 'disabled' => false],
+              ['value' => 'financial-certificates-services', 'label' => 'Other CA Certificate', 'selected' => false, 'disabled' => false],
+              ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
+          ],
+      ])
       <p class="hub-form__note">100% secure &middot; No spam &middot; Quick response</p>
     </div>
 

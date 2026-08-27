@@ -19,11 +19,14 @@
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/networth/mortgage">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mortgage: How a Charged Property Is Stated and Netted">
     <meta name="twitter:description" content="Title deeds, sub registrar records and sanction letters a CA reviews before certifying mortgaged property.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">@include('partials.glossary-inline-assets')
 @endsection
 

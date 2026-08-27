@@ -736,7 +736,7 @@
                     <li><a href="/ngo-registration">NGO Registration in India</a> - National NGO registration services</li>
                     <li><a href="#">12A and 80G Registration</a> - Tax exemption for NGOs and donor deduction</li>
                     <li><a href="/section8-company-registration">Section 8 Company Registration</a> - Non-profit company incorporation</li>
-                    <li><a href="/society-registration">Society Registration</a> - Membership-based organisation formation</li>
+                    <li>Society Registration - Membership-based organisation formation</li>
                     <li><a href="/fcra-registration">FCRA Registration</a> - Foreign contribution registration</li>
                     <li><a href="/accounting-services">Accounting Services</a> - Financial management for NGOs</li></ul>
 

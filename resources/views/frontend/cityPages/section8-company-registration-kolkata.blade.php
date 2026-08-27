@@ -423,7 +423,7 @@
                     <p>Section 8 company registration in Kolkata incorporates a non-profit under Section 8 of the Companies Act, 2013. Requires licence from Regional Director (Eastern Region) via INC-12 before incorporation through SPICe+ with RoC Kolkata Nizam Palace. Most structured NGO form - preferred for CSR funding and FCRA. Post-registration: 12A, 80G, FCRA, CSR-1.</p>
                 </div>
                 <p>Kolkata has one of India's most vibrant non-profit ecosystems - education in South Kolkata, healthcare near EM Bypass, Sundarbans conservation, and CSR arms of Salt Lake IT companies. Section 8 provides the highest credibility, governance, and funding access. Learn more about <a href="/section8-company-registration">Section 8 Company Registration across India</a>.</p>
-                <p>RoC Kolkata at Nizam Palace handles filings. Regional Director (Eastern Region) processes the licence. CA-managed registration ensures licence, MOA/AOA, and incorporation are filed correctly. Same CA handles <a href="/ngo-registration/kolkata">NGO registration</a>, <a href="/registration-for-12a-80g-certificate/kolkata">12A/80G</a>, and <a href="/society-registration/kolkata">Society registration</a> in Kolkata.</p>
+                <p>RoC Kolkata at Nizam Palace handles filings. Regional Director (Eastern Region) processes the licence. CA-managed registration ensures licence, MOA/AOA, and incorporation are filed correctly. Same CA handles <a href="/ngo-registration/kolkata">NGO registration</a>, 12A/80G, and Society registration in Kolkata.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -733,8 +733,8 @@
                 <ul>
 <li><a href="/section8-company-registration">Section 8 Company in India</a> - National services</li>
 <li><a href="/ngo-registration/kolkata">NGO Registration in Kolkata</a> - Trust/Society/Section 8</li>
-<li><a href="/registration-for-12a-80g-certificate/kolkata">12A/80G Registration in Kolkata</a> - Tax exemption</li>
-<li><a href="/society-registration/kolkata">Society Registration in Kolkata</a> - WB Act 1961</li>
+<li>12A/80G Registration in Kolkata - Tax exemption</li>
+<li>Society Registration in Kolkata - WB Act 1961</li>
 <li><a href="/private-limited-company-registration/kolkata">Pvt Ltd Registration in Kolkata</a> - For-profit alternative</li>
 <li><a href="/accounting-services">Accounting Services</a> - Non-profit bookkeeping</li>
 </ul>
@@ -879,8 +879,6 @@
 <div class="pa-city-card" style="opacity:0.6;pointer-events:none;border:2px solid var(--orange);position:relative;"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="pa-card-title">Kolkata</div><div class="pa-card-sub">West Bengal</div></div><span style="position:absolute;top:6px;right:8px;font-size:10px;color:var(--orange);font-weight:700;text-transform:uppercase;letter-spacing:0.5px;">You're here</span></div>
 </div></div>
 <div class="pa-city-block"><div class="pa-block-title">Related Services in Kolkata</div><div class="pa-block-sub">End-to-end non-profit registration and compliance</div><div class="pa-cross-grid"><a href="/ngo-registration/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NGO Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
-<a href="/registration-for-12a-80g-certificate/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">12A/80G Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
-<a href="/society-registration/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Society Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
 <a href="/private-limited-company-registration/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Pvt Ltd Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
 <a href="/gst-registration/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">Kolkata</div></div></a>
 <a href="/income-tax-return/kolkata" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Kolkata</div></div></a>

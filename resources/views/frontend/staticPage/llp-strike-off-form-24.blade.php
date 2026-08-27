@@ -2144,7 +2144,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <p>LLP strike-off connects naturally to several Patron service lines:</p>
                 <ul>
                     <li><a href="/strike-off-private-limited-company"><strong>Strike Off Pvt Ltd Company (STK-2)</strong></a> - parallel strike-off service for Private Limited Companies under Section 248 of Companies Act 2013, with CCFS-2026 path option.</li>
-                    <li><a href="/llp-compliance"><strong>LLP Compliance Hub</strong></a> - broader LLP compliance hub for active LLPs not yet ready for closure.</li>
+                    <li>LLP Compliance Hub - broader LLP compliance hub for active LLPs not yet ready for closure.</li>
                     <li><a href="/llp-annual-compliance"><strong>LLP Annual Compliance</strong></a> - full annual cycle (Form 11 + Form 8 + ITR-5 + DIR-3 KYC) for LLPs deferring closure.</li>
                     <li><a href="/llp-form-11-form-8-filing"><strong>LLP Form 11 + Form 8 Filing</strong></a> - combined backlog cleanup service before Form 24 strike-off.</li>
                     <li><a href="/llp-registration"><strong>LLP Incorporation</strong></a> - starting point for founders considering whether to register, run, or close an LLP.</li>
@@ -2366,10 +2366,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     <a href="/strike-off-private-limited-company" class="pa-cross-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div><div class="pa-card-title">Pvt Ltd Strike-Off (STK-2)</div><div class="pa-card-sub">CCFS-2026 Path Available</div></div>
-                    </a>
-                    <a href="/llp-compliance" class="pa-cross-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-                        <div><div class="pa-card-title">LLP Compliance Hub</div><div class="pa-card-sub">For Active LLPs</div></div>
                     </a>
                     <a href="/llp-annual-compliance" class="pa-cross-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>

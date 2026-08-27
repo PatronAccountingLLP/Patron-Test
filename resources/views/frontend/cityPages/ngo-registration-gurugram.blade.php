@@ -991,7 +991,7 @@
                 <p>Explore related registration and compliance services for Gurugram organisations:</p>
                 <ul>
                     <li><a href="/ngo-registration">NGO Registration in India</a> - National-level NGO registration services covering all states</li>
-                    <li><a href="/society-registration">Society Registration</a> - Society registration services across India including state-specific requirements</li>
+                    <li>Society Registration - Society registration services across India including state-specific requirements</li>
                     <li><a href="/section8-company-registration">Section 8 Company Registration</a> - Non-profit company incorporation under Companies Act, 2013</li>
                     
                     <li><a href="/fcra-registration">FCRA Registration</a> - Foreign Contribution Regulation Act registration for receiving international donations</li>
@@ -1158,7 +1158,6 @@
                 <div class="pa-block-title">Related Services in Gurugram</div>
                 <div class="pa-block-sub">End-to-end support for NGO Registration</div>
                 <div class="pa-cross-grid">
-                    <a href="/society-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div><div><div class="pa-card-title">Society Registration</div><div class="pa-card-sub">Gurugram</div></div></a>
                     <a href="/section8-company-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Section 8 Company Registration</div><div class="pa-card-sub">Gurugram</div></div></a>
                     <a href="/80g-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">12A and 80G Registration</div><div class="pa-card-sub">Gurugram</div></div></a>
                     <a href="/private-limited-company-registration/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><div><div class="pa-card-title">Private Limited Company Registration</div><div class="pa-card-sub">Gurugram</div></div></a>

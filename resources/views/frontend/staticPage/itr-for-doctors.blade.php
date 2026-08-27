@@ -1031,7 +1031,7 @@
 <li><a href="/itr-for-property-sale">ITR for Property Sale</a> - Form 26QB and Form 141 Schedule B filing for doctors buying clinic premises or flats</li>
 <li><a href="/tax-planning-services">Tax Planning Services</a> - regime selection, advance tax, deductions strategy for doctors</li>
 <li><a href="/income-tax-notice-for-defective-return">Defective Return Notice (Sec 139(9))</a> - response for ITR-1/ITR-2 misclassification by hospital-employed doctors</li>
-<li><a href="/registration-for-12a-80g-certificate">12A / 80G Registration</a> - for medical charitable trusts and not-for-profit hospitals</li>
+<li>12A / 80G Registration - for medical charitable trusts and not-for-profit hospitals</li>
 </ul>
 
             </div>

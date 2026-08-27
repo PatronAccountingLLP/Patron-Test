@@ -2064,7 +2064,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <li><a href="/tax-audit"><strong>Tax Audit (Section 44AB):</strong></a> Tax audit for taxable coaching institutes and edtech Pvt Ltds above Rs 1 crore turnover (Rs 10 crore digital); bundled with statutory audit to share workpapers</li>
 <li><a href="/internal-audit"><strong>Internal Audit (Section 138):</strong></a> Internal audit for large school trusts, university trusts, and edtech companies above prescribed thresholds; uses SIAs (Standards on Internal Audit)</li>
 <li><a href="/trust-registration"><strong>Trust Registration:</strong></a> Public charitable trust deed drafting and registration under Indian Trusts Act 1882 for new school promoter trusts</li>
-<li><a href="/society-registration"><strong>Society Registration:</strong></a> Society MOA and Rules drafting under Societies Registration Act 1860 for college and university management societies</li>
+<li>Society Registration: Society MOA and Rules drafting under Societies Registration Act 1860 for college and university management societies</li>
 <li><a href="/12a-registration"><strong>Section 12A Registration:</strong></a> Provisional and permanent registration in Form 10A / 10AB for Section 11 / 12 exemption claim</li>
 <li><a href="/80g-registration"><strong>Section 80G Registration:</strong></a> Donor tax-benefit registration enabling 50 percent / 100 percent deduction for donors</li>
 <li><a href="/private-limited-company-compliance"><strong>Private Limited Company Compliance:</strong></a> Annual compliance retainer for Section 8 educational companies, coaching Pvt Ltds, and edtech Pvt Ltds</li>

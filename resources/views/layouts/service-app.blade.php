@@ -169,8 +169,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         @yield('content')
     </main>
 
-    {{-- Site-wide enquiry form: one source, pulled in like the footer. --}}
-    @include('partials.site-enquiry-form')
     @include('partials.footer')
 
     <!-- Bootstrap 5 JS -->

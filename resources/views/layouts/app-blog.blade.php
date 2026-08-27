@@ -85,8 +85,6 @@
         @yield('content')
     </main>
 
-    {{-- Site-wide enquiry form: one source, pulled in like the footer. --}}
-    @include('partials.site-enquiry-form')
     @include('partials.footer')
 
     {{-- JS --}}

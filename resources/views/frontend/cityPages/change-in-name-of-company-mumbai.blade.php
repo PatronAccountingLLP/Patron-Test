@@ -693,7 +693,7 @@
                     <li><a href="/change-in-authorised-capital">Change in Authorised Capital</a></li>
                     <li><a href="/roc-notice">ROC Notice</a></li>
                     <li><a href="/accounting-services">Accounting Services</a></li>
-                    <li>LLP Compliance</li>
+                    <li><a href="/pvt-llp-compliance">LLP Compliance</a></li>
                 </ul>
 
             </div>

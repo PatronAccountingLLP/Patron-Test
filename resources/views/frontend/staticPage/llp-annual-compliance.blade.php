@@ -2188,7 +2188,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 
                 <p>LLP annual compliance is the core recurring cycle. Adjacent services that often pair with it:</p>
                 <ul>
-                    <li>LLP Compliance (Broader Hub) - event-based filings, Form 3 / Form 4 partner changes, LLP Agreement amendments.</li>
+                    <li><a href="/pvt-llp-compliance"><strong>LLP Compliance (Broader Hub)</strong></a> - event-based filings, Form 3 / Form 4 partner changes, LLP Agreement amendments.</li>
                     <li><a href="/pvt-llp-compliance"><strong>Pvt Ltd vs LLP Compliance</strong></a> - structural comparison and ongoing-obligations matrix for founders evaluating entity choice.</li>
                     <li><a href="/private-limited-company-annual-compliance"><strong>Private Limited Company Annual Compliance</strong></a> - parallel package for Pvt Ltd structures (Rs 35-50k tier).</li>
                     <li><a href="/roc-notice"><strong>ROC Notice Response</strong></a> - handling MCA notices, adjudication under Section 76A, and condonation requests.</li>
@@ -2428,6 +2428,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <div class="pa-block-title">Related Patron Services</div>
                 <div class="pa-block-sub">Adjacent services for LLPs and designated partners</div>
                 <div class="pa-cross-grid">
+                    <a href="/pvt-llp-compliance" class="pa-cross-card">
+                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+                        <div><div class="pa-card-title">LLP Compliance Hub</div><div class="pa-card-sub">Event-Based Filings</div></div>
+                    </a>
                     <a href="/pvt-llp-compliance" class="pa-cross-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div><div class="pa-card-title">Pvt Ltd vs LLP Comparison</div><div class="pa-card-sub">Entity Choice</div></div>

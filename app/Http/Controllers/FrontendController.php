@@ -81,7 +81,7 @@ class FrontendController extends Controller
      */
     public function showPost($slug)
     {
-            if (  preg_match('/^drug[- ]?licen[cs]e/i', $slug) ||  $slug === 'llp-compliance' ||  $slug === 'society-registration' ||  $slug === 'registration-for-12a-80g-certificate'  || $slug === 'trademark-renewal-in-india' ||$slug === 'tds-return-filing') {
+            if (  preg_match('/^drug[- ]?licen[cs]e/i', $slug) ||  $slug === 'society-registration' ||  $slug === 'registration-for-12a-80g-certificate'  || $slug === 'trademark-renewal-in-india' ||$slug === 'tds-return-filing') {
                 abort(410, 'This page has been permanently removed.');
             }
         // 1️⃣ Static page check

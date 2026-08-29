@@ -124,3 +124,16 @@ Route::get('/llp-compliance/{city}', function (string $city) {
 
     return redirect($target, 301);
 })->where('city', '[a-z0-9-]+');
+
+/*
+ * The LLP Compliance India page follows its own cities.
+ *
+ * It answered 410 while its city pages redirected, which said two different
+ * things about one service: the cities treated it as renamed, the India page
+ * treated it as withdrawn. It is renamed - pvt-llp-compliance sells the same
+ * work and is live - so the India page redirects there like everything else.
+ *
+ * The matching 410 condition has been taken out of FrontendController, so the
+ * code no longer contradicts this rule.
+ */
+Route::permanentRedirect('/llp-compliance', '/pvt-llp-compliance');

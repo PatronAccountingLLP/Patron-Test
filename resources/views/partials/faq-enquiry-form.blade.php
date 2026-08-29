@@ -1,28 +1,25 @@
 {{--
-    Mini FAQ enquiry form — REMOVED 2026-08-29. Renders a placeholder box.
+  Compatibility shim. The real form is partials/bigin-form, compact variant.
 
-    NOTE this one was never a Bigin form. It AJAX-POSTed to the internal Laravel
-    route frontend.company-registration (POST /company-registration), which
-    validated name/email/mobile/location and emailed both admin and client. It
-    is removed anyway, on instruction, so that no page carries any form.
+  2,144 pages call this. Most pass 'enquiryService' and 'enquiryLocation'; 704
+  pass no service at all. bigin-form maps these across and, where the service is
+  missing, picks up the one an earlier form on the same page already resolved
+  (701 pages) or derives it from the URL (the remaining 3).
 
-    The route and its controller are untouched and still exist — only this
-    caller was removed.
+  This slot used to POST to the internal route frontend.company-registration and
+  email the team. It now goes to Zoho Bigin like every other form on the site, so
+  all leads land in one pipeline. That route and its controller still exist and
+  are simply no longer called from here.
 
-    Call sites are UNCHANGED and still pass their old arguments; they are
-    accepted and ignored, so the 2,144 pages including this partial — directly
-    or through partials/faq-section — keep working without edits.
-
-    The .faq-enquiry wrapper class is kept so the FAQ left column keeps the
-    width and spacing css/faq-enquiry-form.css gives it.
+  New pages should include partials.bigin-form with 'variant' => 'compact'.
 --}}
-{{-- Kept so the site-wide enquiry band still stands down on these pages. --}}
-@php
-    config(['pa.enquiry_form_rendered' => true]);
-@endphp
-<div class="faq-enquiry">
-    @include('partials.form-placeholder', [
-        'phTitle' => 'Form placeholder',
-        'phNote'  => 'The callback form has been removed from this page.',
-    ])
-</div>
+{{-- Forwarded as 'enquiryService', NOT as 'service': 'service' is the deliberate
+     per-call override and outranks the page-level value, which would stop the
+     hero form's service from carrying down to this one. --}}
+@include('partials.bigin-form', [
+    'variant'         => 'compact',
+    'enquiryService'  => $enquiryService  ?? null,
+    'city'            => $enquiryLocation ?? null,
+    'title'           => $enquiryTitle    ?? 'Get a free callback',
+    'subtitle'        => $enquirySub      ?? 'Talk to a CA/CS expert today - no charge, no spam.',
+])

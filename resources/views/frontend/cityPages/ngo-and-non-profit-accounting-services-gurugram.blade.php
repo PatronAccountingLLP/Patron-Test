@@ -420,7 +420,7 @@
                 @include('partials.enquiry-form', [
                     'selected' => 'ngo-and-non-profit-accounting-services/gurugram',
                     'options'  => [
-                        'ngo-and-non-profit-accounting-services/gurugram' => 'Startup Accounting',
+                        'ngo-and-non-profit-accounting-services/gurugram' => 'NGO and Non-Profit Accounting in Gurugram',
                         'accounting-services' => 'Accounting Services (All)',
                         'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
                         'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',

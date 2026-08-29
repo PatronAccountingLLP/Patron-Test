@@ -409,7 +409,7 @@
                 @include('partials.enquiry-form', [
                     'selected' => 'tally-accounting/ahmedabad',
                     'options'  => [
-                        'tally-accounting/ahmedabad' => 'Startup Accounting',
+                        'tally-accounting/ahmedabad' => 'Tally Accounting in Ahmedabad',
                         'accounting-services' => 'Accounting Services (All)',
                         'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
                         'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',

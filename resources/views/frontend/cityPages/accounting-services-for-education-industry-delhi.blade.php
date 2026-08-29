@@ -416,7 +416,7 @@
                 @include('partials.enquiry-form', [
                     'selected' => 'accounting-services-for-education-industry/delhi',
                     'options'  => [
-                        'accounting-services-for-education-industry/delhi' => 'Startup Accounting',
+                        'accounting-services-for-education-industry/delhi' => 'Education Accounting in Delhi',
                         'accounting-services' => 'Accounting Services (All)',
                         'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
                         'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',

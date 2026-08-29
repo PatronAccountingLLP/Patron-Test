@@ -1,29 +1,20 @@
 {{--
-  Zoho Bigin lead form — REMOVED 2026-08-29. Renders a placeholder box.
+  Compatibility shim. The real form is partials/bigin-form.
 
-  The <form>, its Bigin hidden fields, the country dropdown, the phone / city /
-  service inputs and the submit button are all gone. Nothing posts to Zoho.
+  1,787 pages call this with 'deal' plus an 'options' list, and some with 'city'
+  and 'cta'. Rather than edit all of them, the parameters are forwarded:
+  bigin-form reads 'deal' and the selected 'options' row to work out the page's
+  service, so every lead is still tagged with the service of its page.
 
-  Call sites are UNCHANGED and still pass their old arguments:
+  Forwarded explicitly rather than with get_defined_vars(), which would also
+  hand over Blade's own __env / app / errors and let them shadow the real ones.
 
-      @include('partials.lead-form', [
-          'deal' => '...', 'city' => '...', 'cta' => '...', 'options' => [...],
-      ])
-
-  Those arguments are accepted and ignored, so the ~1,787 pages that include
-  this partial keep working without edits. The page still supplies its own
-  .form-card wrapper, so hero layout and spacing are intact.
-
-  enquiry-form-scripts is still included: it now ships only the stylesheet, so
-  the page's .form-card keeps its styling. Both <script> tags were removed.
+  New pages should include partials.bigin-form directly.
 --}}
-{{-- Kept so the site-wide enquiry band still stands down on these pages. --}}
-@php
-    config(['pa.enquiry_form_rendered' => true]);
-@endphp
-@include('partials.form-placeholder', [
-    'phTitle' => 'Form placeholder',
-    'phNote'  => 'The consultation form has been removed from this page.',
+@include('partials.bigin-form', [
+    'deal'     => $deal     ?? null,
+    'city'     => $city     ?? null,
+    'cta'      => $cta      ?? null,
+    'options'  => $options  ?? null,
+    'selected' => $selected ?? null,
 ])
-
-@include('partials.enquiry-form-scripts')

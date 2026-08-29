@@ -140,7 +140,7 @@
         <div style="font-size:17px;font-weight:800;color:#1B365D">Get a Free Quote</div>
         <div style="font-size:12.5px;color:#8A8F99;margin-bottom:14px">Talk to a CA / CS expert &mdash; no obligation.</div>
         @include('partials.lead-form', [
-            'deal'    => 'Website Enquiry - Ind AS Hub',
+            'deal'    => 'Website Enquiry - Ind AS',
             'options' => [
                 ['value' => 'ind-as-advisory', 'label' => 'Ind AS Advisory &amp; Implementation', 'selected' => true, 'disabled' => false],
                 ['value' => 'accounting-standards', 'label' => 'Accounting Standards (AS) Support', 'selected' => false, 'disabled' => false],

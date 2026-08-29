@@ -420,7 +420,7 @@
                 @include('partials.enquiry-form', [
                     'selected' => 'accounting-services-for-e-commerce-industry/gurugram',
                     'options'  => [
-                        'accounting-services-for-e-commerce-industry/gurugram' => 'Startup Accounting',
+                        'accounting-services-for-e-commerce-industry/gurugram' => 'E-Commerce Accounting in Gurugram',
                         'accounting-services' => 'Accounting Services (All)',
                         'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
                         'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',

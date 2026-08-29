@@ -409,7 +409,7 @@
                 @include('partials.enquiry-form', [
                     'selected' => 'xero-accounting/ahmedabad',
                     'options'  => [
-                        'xero-accounting/ahmedabad' => 'Startup Accounting',
+                        'xero-accounting/ahmedabad' => 'Xero Accounting in Ahmedabad',
                         'accounting-services' => 'Accounting Services (All)',
                         'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
                         'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',

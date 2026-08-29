@@ -153,3 +153,29 @@
 @media (prefers-reduced-motion: reduce) {
     .form-card { animation: none; opacity: 1; }
 }
+
+/* ===========================================================================
+   Compact variant  (partials/bigin-form.blade.php)
+   ---------------------------------------------------------------------------
+   The service is fixed to the page and is NOT displayed - it travels to Bigin
+   in hidden fields only, so there is no service control to style.
+   =========================================================================== */
+
+/* Compact variant - FAQ column and other narrow slots. Same form, less air. */
+.bigin-form--compact { padding: 20px 18px; }
+.bigin-form--compact .form-title    { font-size: 17px; }
+.bigin-form--compact .form-subtitle { font-size: 12px; }
+.bigin-form--compact .form-header   { margin-bottom: 14px; }
+.bigin-form--compact .form-group    { margin-bottom: 12px; }
+.bigin-form--compact .form-label    { font-size: 12px; }
+.bigin-form--compact .form-input    { padding: 10px 12px; font-size: 14px; }
+.bigin-form--compact .btn-submit    { padding: 11px 16px; font-size: 14px; }
+.bigin-form--compact .form-footer   { gap: 10px; font-size: 11px; }
+
+/* Inline per-field error text created by js/enquiry-form.js */
+.field-error-msg {
+    margin-top: 4px;
+    padding-left: 2px;
+    font-size: 12px;
+    color: #FD6B6D;
+}

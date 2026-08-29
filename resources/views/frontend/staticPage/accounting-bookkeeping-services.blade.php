@@ -157,7 +157,7 @@
         <div style="font-size:17px;font-weight:800;color:#1B365D">Get a Free Quote</div>
         <div style="font-size:12.5px;color:#8A8F99;margin-bottom:14px">Talk to a CA / CS expert &mdash; no obligation.</div>
         @include('partials.lead-form', [
-            'deal'    => 'Website Enquiry - Accounting &amp; Bookkeeping Hub',
+            'deal'    => 'Website Enquiry - Accounting &amp; Bookkeeping',
             'options' => [
                 ['value' => 'accounting-services', 'label' => 'Accounting &amp; Bookkeeping', 'selected' => true, 'disabled' => false],
                 ['value' => 'backlog-bookkeeping-catch-up-services', 'label' => 'Backlog Bookkeeping Catch-up', 'selected' => false, 'disabled' => false],

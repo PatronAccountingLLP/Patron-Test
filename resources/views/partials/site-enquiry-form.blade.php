@@ -64,9 +64,10 @@
             <a class="site-enquiry__phone" href="tel:+919459456700">Prefer to call? +91 94594 56700</a>
         </div>
         <div class="site-enquiry__form">
-            @include('partials.form-placeholder', [
-                'phTitle' => 'Form placeholder',
-                'phNote'  => 'The callback form has been removed from this page.',
+            @include('partials.bigin-form', [
+                'variant'  => 'compact',
+                'title'    => 'Request a callback',
+                'subtitle' => 'A CA from the team will call you back, usually the same working day.',
             ])
         </div>
     </div>

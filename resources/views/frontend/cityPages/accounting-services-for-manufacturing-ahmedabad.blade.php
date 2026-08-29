@@ -409,7 +409,7 @@
                 @include('partials.enquiry-form', [
                     'selected' => 'accounting-services-for-manufacturing/ahmedabad',
                     'options'  => [
-                        'accounting-services-for-manufacturing/ahmedabad' => 'Startup Accounting',
+                        'accounting-services-for-manufacturing/ahmedabad' => 'Manufacturing Accounting in Ahmedabad',
                         'accounting-services' => 'Accounting Services (All)',
                         'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
                         'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',

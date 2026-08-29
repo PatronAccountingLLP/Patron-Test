@@ -416,7 +416,7 @@
                 @include('partials.enquiry-form', [
                     'selected' => 'xero-accounting/delhi',
                     'options'  => [
-                        'xero-accounting/delhi' => 'Startup Accounting',
+                        'xero-accounting/delhi' => 'Xero Accounting in Delhi',
                         'accounting-services' => 'Accounting Services (All)',
                         'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
                         'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',

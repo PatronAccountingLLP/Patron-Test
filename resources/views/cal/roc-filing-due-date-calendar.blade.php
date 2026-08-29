@@ -8,8 +8,8 @@
     <meta property="og:description" content="All MCA filing due dates for companies and LLPs. AOC-4, MGT-7A, DIR-3 KYC with penalties.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/roc-filing-due-date-calendar">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
-    <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ROC Filing Due Date Calendar &mdash; Free 2026">
     <meta name="twitter:description" content="MCA filing calendar for Pvt Ltd, LLP. All due dates and penalties.">

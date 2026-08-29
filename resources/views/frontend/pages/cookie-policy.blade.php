@@ -14,12 +14,17 @@
 <meta property="og:title" content="Cookie Policy &amp; Your Choices | Patron Accounting LLP">
 <meta property="og:description" content="What cookies patronaccounting.com sets for analytics, preferences and site performance, what each does, and how to manage or switch them off.">
 <meta property="og:url" content="https://www.patronaccounting.com/cookie-policy">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
 <meta property="og:image:alt" content="Patron Accounting LLP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Cookie Policy &amp; Your Choices | Patron Accounting LLP">
 <meta name="twitter:description" content="What cookies patronaccounting.com sets for analytics, preferences and site performance, what each does, and how to manage or switch them off.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endpush
 @push('scripts-head')
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative

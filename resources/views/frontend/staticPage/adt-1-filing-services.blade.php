@@ -20,14 +20,16 @@
     <meta property="og:url" content="/adt-1-filing-services">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ADT-1 Filing Services 2026 | Patron Accounting">
     <meta name="twitter:description" content="ADT-1 auditor appointment filing under Section 139 within 15 days of board meeting or AGM. CA reviewed. From Rs 3,000 standalone or bundled with audit.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

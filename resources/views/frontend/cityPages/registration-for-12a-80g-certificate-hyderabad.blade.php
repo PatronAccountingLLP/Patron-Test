@@ -14,14 +14,16 @@
     <meta property="og:description" content="CA-filed 12A registration for Hyderabad NGOs. Form 10A/10AB, income tax exemption, 85% rule compliance. IT Act 2025 RNPO. Call +91 945 945 6700.">
     <meta property="og:url" content="/registration-for-12a-80g-certificate/hyderabad">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="12A &amp; 80G Registration in Hyderabad – Form 10A &amp; NGO Tax">
     <meta name="twitter:description" content="CA-filed 12A registration for Hyderabad NGOs. Form 10A/10AB, income tax exemption, 85% rule compliance. IT Act 2025 RNPO. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 @section('schema')
     <script type="application/ld+json">

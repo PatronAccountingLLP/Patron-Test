@@ -19,14 +19,16 @@
     <meta property="og:url" content="/trust-registration-public-charitable">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Public Charitable Trust Registration 2026 | Patron Accounting">
     <meta name="twitter:description" content="Register a public charitable trust in India under Indian Trusts Act 1882 with trust deed, Charity Commissioner and 12A/80G (Section 332 RNPO). From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

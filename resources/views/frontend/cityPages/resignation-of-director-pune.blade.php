@@ -20,14 +20,16 @@
     <meta property="og:url" content="/resignation-of-director/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Resignation of Director in Pune - DIR-11, DIR-12 & ROC">
     <meta name="twitter:description" content="CA and CS assisted director resignation for Pune companies. Section 168, resignation notice, DIR-11, DIR-12, effective date, continuing liability. Startup exits, dormant companies. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

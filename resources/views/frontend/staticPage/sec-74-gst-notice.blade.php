@@ -21,14 +21,16 @@
     <meta property="og:url" content="/sec-74-gst-notice">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Section 74 GST Notice 2026: Fraud SCN | Patron Accounting">
     <meta name="twitter:description" content="Section 74 CGST Act fraud SCN defence - 5-year limitation, 100% penalty, Section 132 prosecution risk, Section 75(2) downgrade. Patron from Rs 14,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

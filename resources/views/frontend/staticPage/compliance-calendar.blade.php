@@ -16,13 +16,13 @@
 <meta property="og:locale" content="en_IN">
 <meta property="og:url" content="/compliance-calendar">
 <meta property="og:site_name" content="Patron Accounting">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 <meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:height" content="1200">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="India Compliance Calendar 2025-26 | Free | Patron Accounting">
 <meta name="twitter:description" content="109 compliances across GST, Income Tax, TDS, MCA, SEBI, FEMA. Filter by industry, turnover, employees.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 @section('schema')
     <script type="application/ld+json">

@@ -8,8 +8,8 @@
     <meta property="og:description" content="Check Startup India DPIIT recognition eligibility. Age, turnover, entity type, innovation criteria.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/startup-india-eligibility">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
-    <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Startup India Eligibility Checker &mdash; Free 2026">
     <meta name="twitter:description" content="Check DPIIT recognition eligibility for Startup India benefits.">

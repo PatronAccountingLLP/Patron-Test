@@ -10,10 +10,12 @@
     <meta property="og:title" content="Ind AS 102 Share-based Payment: Meaning and Example | Patron Accounting">
     <meta property="og:description" content="ESOP cost measured at grant-date fair value and spread over vesting. The meaning, the treatment and the disclosure it feeds. With worked examples.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/ind-as-102-share-based-payment">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

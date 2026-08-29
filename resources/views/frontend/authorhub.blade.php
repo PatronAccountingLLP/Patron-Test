@@ -14,9 +14,9 @@
     <meta property="og:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
     <meta property="og:url" content="https://www.patronaccounting.com/authorhub/ca-sundram-gupta">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:site_name" content="Patron Accounting LLP">
     <meta property="og:locale" content="en_IN">
     <meta property="profile:first_name" content="Sundram">
@@ -26,7 +26,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CA Sundram Gupta — Founder, Patron Accounting LLP">
     <meta name="twitter:description" content="Chartered Accountant (ICAI), DipIFR (ACCA, UK). 15+ years guiding 25,000+ Indian businesses on tax, audit, GST, payroll, ROC and Virtual CFO services.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta name="twitter:site" content="@patronaccounting">
 
     {{-- SEO --}}

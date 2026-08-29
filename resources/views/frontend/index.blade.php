@@ -14,12 +14,17 @@
 <meta property="og:title" content="Patron Accounting - Accounting, Tax &amp; Compliance for Indian SMEs">
 <meta property="og:description" content="One in-house CA &amp; CS team covering everything from day-to-day books to GST litigation, for startups and SMEs across India. Est. 2019, offices in four cities.">
 <meta property="og:url" content="https://www.patronaccounting.com/">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
 <meta property="og:image:alt" content="Patron Accounting LLP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Patron Accounting - Accounting, Tax &amp; Compliance for Indian SMEs">
 <meta name="twitter:description" content="One in-house CA &amp; CS team covering everything from day-to-day books to GST litigation, for startups and SMEs across India. Est. 2019, offices in four cities.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endpush
 @push('scripts-head')
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative

@@ -9,14 +9,14 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/cash-flow-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Cash Flow Statement Calculator — Free Tool 2026">
     <meta name="twitter:description" content="Generate cash flow statements per AS-3 / Ind AS 7 for Indian businesses. Free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

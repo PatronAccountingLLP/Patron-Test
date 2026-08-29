@@ -20,14 +20,16 @@
     <meta property="og:url" content="/esop-vesting-and-forfeiture-tracking/gurugram">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gurugram ESOP Option Pool & Vesting Milestone Tracking | Patron Accounting">
     <meta name="twitter:description" content="For Cyber City SaaS teams in Gurugram, we keep the ESOP pool reconciled with vesting tracking, SH-6 forfeiture logs and alerts, from INR 9,999/yr.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')    <script type="application/ld+json">{

@@ -10,13 +10,18 @@
 <meta property="og:description" content="Compute capital gains tax when you sell ESOP shares: gain = sale price minus FMV at exercise, with post-July-2024 LTCG and STCG rates for listed and unlisted shares.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Capital Gains Calculator — LTCG & STCG 2026">
 <meta name="twitter:description" content="Capital gains tax on selling ESOP shares: gain = sale price minus FMV at exercise, post-July-2024 LTCG/STCG rates. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

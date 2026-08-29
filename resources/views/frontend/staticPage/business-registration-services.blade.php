@@ -14,9 +14,9 @@
     content="Pvt Ltd, LLP, OPC, Section 8, Producer Co, partnership, proprietorship, HUF, foreign-co India setup, post-incorporation registrations, conversions and international incorporation.">
 <meta property="og:url" content="/business-registration-services">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 <meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:height" content="1200">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 
@@ -24,7 +24,7 @@
 <meta name="twitter:title" content="Business Registration in India — Company, LLP, Startup, NGO & Global | Patron LLP">
 <meta name="twitter:description"
     content="Pvt Ltd, LLP, OPC, Section 8, Producer Co, partnership, proprietorship, HUF, foreign-co India setup, post-incorporation registrations, conversions and international incorporation.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 <meta name="twitter:site" content="@patronaccounting">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">

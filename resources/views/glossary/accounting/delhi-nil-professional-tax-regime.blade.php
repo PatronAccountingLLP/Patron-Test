@@ -10,10 +10,12 @@
     <meta property="og:title" content="Delhi Nil Professional Tax Regime: Meaning and Example | Patron Accounting">
     <meta property="og:description" content="Delhi levies no professional tax, unlike most neighbouring states. A plain-English definition with a worked example. From our accounting glossary.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/delhi-nil-professional-tax-regime">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

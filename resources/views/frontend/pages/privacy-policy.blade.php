@@ -14,12 +14,17 @@
 <meta property="og:title" content="Privacy Policy | Data We Collect | Patron Accounting LLP">
 <meta property="og:description" content="How we collect, use, store and protect the personal and financial data you share with Patron Accounting LLP, and the rights and choices available to you.">
 <meta property="og:url" content="https://www.patronaccounting.com/privacy-policy">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
 <meta property="og:image:alt" content="Patron Accounting LLP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Privacy Policy | Data We Collect | Patron Accounting LLP">
 <meta name="twitter:description" content="How we collect, use, store and protect the personal and financial data you share with Patron Accounting LLP, and the rights and choices available to you.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endpush
 @push('scripts-head')
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative

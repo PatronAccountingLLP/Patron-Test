@@ -10,10 +10,12 @@
     <meta property="og:title" content="Remote Tally Access: Meaning and Example | Patron Accounting">
     <meta property="og:description" content="Reaching a Tally company from outside the office without copying data. The meaning, the treatment and the disclosure it feeds. See related terms.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/remote-tally-access">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

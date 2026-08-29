@@ -8,8 +8,8 @@
     <meta property="og:description" content="Free Business Structure Comparison — Compare Pvt Ltd, OPC, LLP, Partnership, Sole Proprietorship side-by-side. Lia">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/business-structure-comparison">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
-    <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Business Structure Comparison — Free Tool 2026">

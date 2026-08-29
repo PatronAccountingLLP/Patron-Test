@@ -18,14 +18,16 @@
     <meta property="og:url" content="/esop-for-foreign-parent-indian-subsidiary/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Foreign Parent ESOP and RSU for Indian Subsidiary Employees | Patron Accounting">
     <meta name="twitter:description" content="ESOP and RSU from US, UK, Singapore parents to Indian subsidiary employees - perquisite TDS, Schedule FA, Form 67 DTAA, transfer pricing. From Rs 1,50,000.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

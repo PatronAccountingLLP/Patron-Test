@@ -10,10 +10,12 @@
     <meta property="og:title" content="Monthly Recurring Revenue (MRR): Meaning and Example | Patron Accounting">
     <meta property="og:description" content="The normalised subscription revenue a business earns each month. Explained simply, with the ledger entry that goes with it. With the numbers set out.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/monthly-recurring-revenue-mrr">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

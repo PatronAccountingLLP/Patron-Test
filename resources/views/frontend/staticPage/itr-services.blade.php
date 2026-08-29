@@ -13,16 +13,16 @@
     <meta property="og:description" content="24+ specialized ITR filing services across every filer type, profession and industry. From salary ITR-1 to complex F&O, NRI and company filings.">
     <meta property="og:url" content="/itr-services">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:site_name" content="Patron Accounting LLP">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ITR Services Directory - Find Your Form | Patron LLP">
     <meta name="twitter:description" content="24+ specialized ITR filing services across every filer type, profession and industry. From salary ITR-1 to complex F&O, NRI and company filings.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta name="twitter:site" content="@patronaccounting">
 
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">

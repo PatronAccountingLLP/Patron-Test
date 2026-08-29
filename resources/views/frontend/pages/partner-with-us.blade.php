@@ -14,12 +14,17 @@
 <meta property="og:title" content="Partner With Patron Accounting - Referral &amp; White-Label Programs">
 <meta property="og:description" content="Grow your practice by referring or white-labelling GST, ITR, payroll and registration work to our CA &amp; CS team. Built for CAs, lawyers and consultants.">
 <meta property="og:url" content="https://www.patronaccounting.com/partner-with-us">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
 <meta property="og:image:alt" content="Patron Accounting LLP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Partner With Patron Accounting - Referral &amp; White-Label Programs">
 <meta name="twitter:description" content="Grow your practice by referring or white-labelling GST, ITR, payroll and registration work to our CA &amp; CS team. Built for CAs, lawyers and consultants.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endpush
 @push('scripts-head')
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative

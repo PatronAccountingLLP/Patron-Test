@@ -18,9 +18,9 @@
     <meta property="og:description" content="Chartered Accountant (ICAI), Finance & Business Manager. 4+ years across statutory audit, income tax litigation, valuation, GST and international taxation.">
     <meta property="og:url" content="https://www.patronaccounting.com/authorhub/ca-puja-pradhan">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:site_name" content="Patron Accounting LLP">
     <meta property="og:locale" content="en_IN">
     <meta property="profile:first_name" content="Puja">
@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CA Puja Pradhan - Finance & Business Manager, Patron Accounting LLP">
     <meta name="twitter:description" content="Chartered Accountant (ICAI), Finance & Business Manager. 4+ years across statutory audit, income tax litigation, valuation, GST and international taxation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta name="twitter:site" content="@patronaccounting">
 
     <!-- Additional SEO Meta Tags -->

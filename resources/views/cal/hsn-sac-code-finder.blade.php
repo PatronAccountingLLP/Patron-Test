@@ -8,15 +8,15 @@
     <meta property="og:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services under India's GST regime. Find 4, 6, or 8-digit codes free!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/hsn-sac-code-finder">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HSN Code Finder India &mdash; Free HSN & SAC Code Search 2026">
     <meta name="twitter:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services. Find 4, 6, or 8-digit codes free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

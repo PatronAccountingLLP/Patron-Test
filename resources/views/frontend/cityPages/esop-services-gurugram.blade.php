@@ -14,9 +14,9 @@
     content="ESOP advisory for Gurugram startups: scheme design, Rule 11UA valuation, Sec 17(2)(vi) tax, SEBI SBEB and RoC Delhi filings. Route by stage. From INR 7,499/yr.">
 <meta property="og:url" content="/esop-services/gurugram">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 <meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:height" content="1200">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 
@@ -24,7 +24,7 @@
 <meta name="twitter:title" content="ESOP Services in Gurugram | Scheme Design, Tax and Valuation">
 <meta name="twitter:description"
     content="ESOP advisory for Gurugram startups: scheme design, Rule 11UA valuation, Sec 17(2)(vi) tax, SEBI SBEB and RoC Delhi filings. Route by stage. From INR 7,499/yr.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 <meta name="twitter:site" content="@patronaccounting">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">

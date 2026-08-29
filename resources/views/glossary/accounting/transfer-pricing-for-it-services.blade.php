@@ -10,10 +10,12 @@
     <meta property="og:title" content="Transfer Pricing for IT Services: Meaning and Example | Patron Accounting">
     <meta property="og:description" content="Pricing services to a related overseas party at arm&#x27;s length. The definition, the entry it drives and the mistake to avoid. Before your next close.">
     <meta property="og:url" content="https://www.patronaccounting.com/glossary/accounting/transfer-pricing-for-it-services">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

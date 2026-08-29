@@ -12,13 +12,18 @@
     <meta property="og:description" content="Compute EBITDA margin with Ind AS 116 lease reconciliation, sector benchmarks, operating margin, net profit margin, EV/EBITDA valuation. Free CA-reviewed tool.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.patronaccounting.com/tools/ebitda-margin-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
     <meta name="twitter:description" content="EBITDA margin with Ind AS 116 reconciliation, EV/EBITDA valuation, sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
     <meta name="theme-color" content="#15365f">

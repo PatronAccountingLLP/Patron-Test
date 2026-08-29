@@ -10,16 +10,18 @@
     <meta property="og:url" content="/gstat-appeal-filing/bengaluru">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:height" content="1200">
     <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
     <meta property="og:locale" content="en_IN">
     <meta property="og:locale" content="en_IN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GSTAT Appeal Filing in Bengaluru 2026 | Patron Accounting">
     <meta name="twitter:description" content="File your GSTAT appeal at Bengaluru bench covering Bengaluru, Ramanagara, Tumkur, Kolar, Mysuru, Mandya, Hassan. Patron's CA team and of-counsel specialists handle Karnataka proceedings.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-v2.png">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
 @section('schema')

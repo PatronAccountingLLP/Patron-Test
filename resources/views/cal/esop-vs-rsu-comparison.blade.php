@@ -10,13 +10,18 @@
 <meta property="og:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand, using India's post-July-2024 rates.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
 <meta property="og:site_name" content="Patron Accounting">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP vs RSU Comparison — Tax & Net In-Hand 2026">
 <meta name="twitter:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 
 <link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
 <link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">

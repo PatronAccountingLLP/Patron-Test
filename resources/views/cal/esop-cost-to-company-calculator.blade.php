@@ -11,7 +11,12 @@
 <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">
 <meta property="og:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
 <meta property="og:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, separate-grant vs straight-line, year-by-year working.">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
 <meta property="og:site_name" content="Patron Accounting LLP">
 <meta property="og:locale" content="en_IN">
 
@@ -19,7 +24,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
 <meta name="twitter:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, year-by-year working.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default.webp">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 
 <!-- Favicons -->
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">

@@ -6,7 +6,7 @@
     <link rel="canonical" href="https://www.patronaccounting.com/tools/word-character-counter">
     <meta property="og:title" content="Word &amp; Character Counter &mdash; Free 2026 | Patron Accounting"><meta property="og:description" content="Count words, characters, sentences, paragraphs. Real-time as you type.">
     <meta property="og:type" content="website"><meta property="og:locale" content="en_IN"><meta property="og:url" content="https://www.patronaccounting.com/tools/word-character-counter">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:site_name" content="Patron Accounting">
     <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Word Counter &mdash; Free 2026"><meta name="twitter:description" content="Real-time word and character counting.">
 @endsection
 @section('schema')

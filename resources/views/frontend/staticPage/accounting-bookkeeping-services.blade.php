@@ -156,7 +156,6 @@
       <div style="background:#fff;border:1px solid #E7E8EC;border-radius:18px;padding:24px;box-shadow:0 24px 50px -30px rgba(27,54,93,0.3)">
         <div style="font-size:17px;font-weight:800;color:#1B365D">Get a Free Quote</div>
         <div style="font-size:12.5px;color:#8A8F99;margin-bottom:14px">Talk to a CA / CS expert &mdash; no obligation.</div>
-        <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
         @include('partials.lead-form', [
             'deal'    => 'Website Enquiry - Accounting &amp; Bookkeeping Hub',
             'options' => [

@@ -1921,7 +1921,6 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
                         <p class="form-subtitle">Talk to a CA/CS expert today</p>
                     </div>
 
-                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
 
                     @endverbatim
                     @include('partials.lead-form', [

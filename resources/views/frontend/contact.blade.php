@@ -47,84 +47,13 @@
                     </div>
                     
                     <div class="card-body">
-                        <form action="{{ route('contact.store') }}" method="POST" class="contact-form">
-                            @csrf
-                            
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
-                                    <input type="text" 
-                                           class="form-control @error('name') is-invalid @enderror" 
-                                           id="name" 
-                                           name="name" 
-                                           value="{{ old('name') }}" 
-                                           required>
-                                    @error('name')
-                                        <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                </div>
-                                
-                                <div class="col-md-6 mb-3">
-                                    <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
-                                    <input type="email" 
-                                           class="form-control @error('email') is-invalid @enderror" 
-                                           id="email" 
-                                           name="email" 
-                                           value="{{ old('email') }}" 
-                                           required>
-                                    @error('email')
-                                        <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                </div>
-                            </div>
-                            
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="phone" class="form-label">Phone Number</label>
-                                    <input type="tel" 
-                                           class="form-control @error('phone') is-invalid @enderror" 
-                                           id="phone" 
-                                           name="phone" 
-                                           value="{{ old('phone') }}">
-                                    @error('phone')
-                                        <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                </div>
-                                
-                                <div class="col-md-6 mb-3">
-                                    <label for="subject" class="form-label">Subject <span class="text-danger">*</span></label>
-                                    <input type="text" 
-                                           class="form-control @error('subject') is-invalid @enderror" 
-                                           id="subject" 
-                                           name="subject" 
-                                           value="{{ old('subject') }}" 
-                                           required>
-                                    @error('subject')
-                                        <div class="invalid-feedback">{{ $message }}</div>
-                                    @enderror
-                                </div>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
-                                <textarea class="form-control @error('message') is-invalid @enderror" 
-                                          id="message" 
-                                          name="message" 
-                                          rows="6" 
-                                          placeholder="Tell us how we can help you..."
-                                          required>{{ old('message') }}</textarea>
-                                @error('message')
-                                    <div class="invalid-feedback">{{ $message }}</div>
-                                @enderror
-                            </div>
-                            
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary btn-lg px-5">
-                                    <i class="bi bi-send me-2"></i>
-                                    Send Message
-                                </button>
-                            </div>
-                        </form>
+                        {{-- Enquiry form REMOVED 2026-08-29 — replaced by a placeholder.
+                             Was: POST to route('contact.store') - name/email/phone/subject/message.
+                             Route and controller untouched; restore with a git revert. --}}
+                        @include('partials.form-placeholder', [
+                            'phTitle' => 'Form placeholder',
+                            'phNote'  => 'The enquiry form has been removed from this page.',
+                        ])
                     </div>
                 </div>
             </div>

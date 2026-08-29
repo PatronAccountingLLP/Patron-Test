@@ -13,7 +13,9 @@
     pages that already have a form.
 --}}
 {{--
-    Site-wide enquiry form band.
+    Site-wide enquiry form band - form REMOVED 2026-08-29, renders a placeholder.
+    Still included by no layout, so this shows on 0 pages; stubbed anyway so
+    re-enabling the band can never put a live form back on the site.
 
     This is the "pull it like the header and footer" copy: the layouts render it
     on every page, so a page needs no markup of its own to have an enquiry form.
@@ -62,9 +64,9 @@
             <a class="site-enquiry__phone" href="tel:+919459456700">Prefer to call? +91 94594 56700</a>
         </div>
         <div class="site-enquiry__form">
-            @include('partials.faq-enquiry-form', [
-                'enquiryTitle' => 'Request a callback',
-                'enquirySub'   => 'A CA from the team will call you back, usually the same working day.',
+            @include('partials.form-placeholder', [
+                'phTitle' => 'Form placeholder',
+                'phNote'  => 'The callback form has been removed from this page.',
             ])
         </div>
     </div>

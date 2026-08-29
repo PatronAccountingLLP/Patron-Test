@@ -4229,7 +4229,6 @@ section ul li:not(.nav-item)::before {
                        <h2 class="form-title">Request a Call Back</h2>
                         <p class="form-subtitle">Get expert advice within 30 minutes</p>
                      </div>
-    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
 
                     @include('partials.lead-form', [
                         'deal'    => 'Website Enquiry - GSTAT Appeal Filing',

@@ -1172,7 +1172,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <h2 class="form-title">Get Free Consultation</h2>
 <p class="form-subtitle">Talk to a CA/CS expert today</p>
 </div>
-<iframe id="hidden208810000001209168Frame" name="hidden208810000001209168Frame" src="about:blank" style="display:none;"></iframe>
 @include('partials.lead-form', [
     'deal'    => 'Website Enquiry - Real Estate Investor ITR',
     'cta'     => 'Get Free Quote →',

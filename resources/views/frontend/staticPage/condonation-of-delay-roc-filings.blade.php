@@ -304,7 +304,6 @@
                         <p class="form-subtitle">Talk to a CA/CS expert today</p>
                     </div>
 
-                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
 
                                         @include('partials.lead-form', [
                         'deal' => 'Website Enquiry - Condonation of Delay ROC Filings',

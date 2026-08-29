@@ -567,7 +567,6 @@ body.is-hub{background:#F4F7FB}
     <div class="hub-form">
       <div class="hub-form__t">Get a Free Quote</div>
       <div class="hub-form__s">Talk to a CA / CS expert &mdash; no obligation.</div>
-      <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
       @include('partials.lead-form', [
           'deal'    => 'Website Enquiry - Net Worth Certificate by CA',
           'options' => [

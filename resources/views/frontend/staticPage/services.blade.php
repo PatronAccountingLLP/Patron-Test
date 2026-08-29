@@ -1,12 +1,6 @@
 @extends('layouts.service-app')
 
-@section('content')
-<!DOCTYPE html>
-<html lang="en-IN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+@section('meta')
     <!-- Page Title -->
     <title>ITR Services Directory - Find Your Form | Patron LLP</title>
     
@@ -38,6 +32,9 @@
       </svg>
     </template>
 
+@endsection
+
+@section('schema')
     <!-- Minimal Menu Page Schema -->
     <script type="application/ld+json">
     {
@@ -65,13 +62,14 @@
         }
     }
     </script>
+@endsection
 
+@push('styles')
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
     /* ====================================================
        PATRON ITR HUB — VARIATION C: HUB WITH SIDEBAR FORM
@@ -1225,9 +1223,9 @@
         box-shadow: 0 0 0 3px rgba(37,211,102,0.1);
     }
     </style>
-</head>
-<body>
+@endpush
 
+@section('content')
 <main>
 
 <!-- ============ STATUS BAR ============ -->
@@ -1841,7 +1839,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
-
-</body>
-</html>
 @endsection

@@ -287,7 +287,6 @@
         }
 </style>
 
-<body>
 <main>
 
 

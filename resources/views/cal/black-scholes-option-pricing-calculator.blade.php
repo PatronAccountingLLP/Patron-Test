@@ -1105,6 +1105,4 @@ a:focus-visible {
         navLinks.forEach(function(link){ link.classList.toggle('active', link.getAttribute('href') === '#' + current); });
     });
 </script>
-</body>
-</html>
 @endsection

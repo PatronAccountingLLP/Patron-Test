@@ -315,8 +315,6 @@
         "parentOrganization": { "@id": "https://www.patronaccounting.com/#organization" }
     }
     </script>
-</head>
-<body>
 <main>
 
 

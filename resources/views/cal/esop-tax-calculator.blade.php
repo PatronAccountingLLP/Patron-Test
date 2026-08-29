@@ -1,11 +1,6 @@
 @extends('layouts.service-app')
 
-@section('content')
-<!DOCTYPE html>
-<html lang="en-IN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@section('meta')
     <meta name="theme-color" content="#15365f">
     <title>ESOP Tax Calculator FY 2025-26 | Perquisite + Gains</title>
     <meta name="description" content="ESOP tax calculator for FY 2025-26 (AY 2026-27): perquisite tax at exercise plus capital gains at sale, with startup deferral check. Free CA-reviewed tool!">
@@ -27,7 +22,9 @@
 
     <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
 
+@section('schema')
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -64,7 +61,6 @@
       "provider": {"@id": "https://patronaccounting.com/#organization"}
     }
     </script>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -76,7 +72,6 @@
       ]
     }
     </script>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -181,11 +176,12 @@
       ]
     }
     </script>
+@endsection
 
+@push('styles')
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
     <style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
@@ -433,9 +429,9 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
-</head>
-<body>
+@endpush
 
+@section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>
@@ -1211,7 +1207,4 @@ function pickPositive(parsed, fallback) {
         });
     });
 </script>
-
-</body>
-</html>
 @endsection

@@ -300,8 +300,6 @@
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"Person","@id":"https://www.patronaccounting.com/gstat-appeal-filing/dehradun/#attorney","name":"Subham Jhunjhunwala","jobTitle":"Accounting and Tax Professional","description":"CA Finalist and Accounting and Tax Professional at Patron Accounting LLP, working on accounting, taxation, and compliance.","image":"https://www.patronaccounting.com/images/team/subham-jhunjhunwala.png","worksFor":{"@id":"https://www.patronaccounting.com/#organization"},"knowsAbout":["GST","GSTAT Appeal","Accounting","Taxation","Compliance"]}
     </script>
-</head>
-<body>
 <main>
 
 <!-- HERO SECTION -->

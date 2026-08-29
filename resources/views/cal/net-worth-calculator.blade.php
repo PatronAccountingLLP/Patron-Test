@@ -989,6 +989,4 @@ window.addEventListener('scroll',()=>{const s=document.querySelectorAll('section
 })();
 </script>
 
-</body>
-</html>
 @endsection

@@ -279,8 +279,6 @@
             .oc-name { font-size: 19px; }
         }
 </style>
-</head>
-<body>
 <main>
 
 <!-- HERO SECTION -->

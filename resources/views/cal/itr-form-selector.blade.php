@@ -1246,6 +1246,4 @@ function pickPositive(parsed, fallback) {
     });
 </script>
 
-</body>
-</html>
 @endsection

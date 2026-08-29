@@ -280,7 +280,6 @@
         }
 </style>
 
-<body>
 <main>
 
 <!-- HERO SECTION -->

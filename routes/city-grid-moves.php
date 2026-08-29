@@ -97,3 +97,30 @@ $cityGridMoves = [
 foreach ($cityGridMoves as $__m) {
     Route::permanentRedirect($__m[0], $__m[1]);
 }
+
+/*
+ * LLP Compliance was renamed, not retired.
+ *
+ * The India page /llp-compliance answers 410, which is correct - that address is
+ * finished. Its city pages are a different matter: the same service is still sold
+ * as pvt-llp-compliance, and four cities have a page of their own. Sending those
+ * to a 410 would hand a reader an error for a service we still provide, and throw
+ * away whatever the old URL had earned.
+ *
+ * So every /llp-compliance/{city} goes to the city's own page where one exists,
+ * and to the service's India page where it does not - a reader after LLP
+ * compliance in Chennai lands on LLP compliance rather than on nothing.
+ *
+ * The check is made against the view rather than a fixed list, so a city page
+ * added later is picked up without this rule being touched.
+ *
+ * The four explicit rules above already cover delhi, gurugram, mumbai and pune;
+ * they are registered first and win. This catches every other city.
+ */
+Route::get('/llp-compliance/{city}', function (string $city) {
+    $target = view()->exists('frontend.cityPages.pvt-llp-compliance-'.$city)
+        ? '/pvt-llp-compliance/'.$city
+        : '/pvt-llp-compliance';
+
+    return redirect($target, 301);
+})->where('city', '[a-z0-9-]+');

@@ -1050,8 +1050,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/cash-flow-ratios-complete-guide" class="sidebar-link">Cash Flow Ratios: Complete Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/cash-flow-margin" class="sidebar-link">Understanding Cash Flow Margin <span class="arrow">→</span></a>
+            Cash Flow Ratios: Complete Guide →
+            Understanding Cash Flow Margin →
             <a href="https://www.patronaccounting.com/blog/startup-registrations-trends-in-india" class="sidebar-link">Startup Registration Trends in India <span class="arrow">→</span></a>
         </div>
     </aside>

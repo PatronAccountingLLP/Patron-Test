@@ -835,7 +835,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>The Two-Stage ESOP Tax — and No Double Tax</h2>
             <p>ESOPs are taxed at two points. <strong>Stage 1, at exercise:</strong> the gap between the exercise price and the FMV is a salary <strong>perquisite</strong>. <strong>Stage 2, at sale:</strong> any appreciation above that exercise FMV is a <strong>capital gain</strong>.</p>
-            <p>The key link is that the <strong>FMV at exercise becomes your cost of acquisition</strong> for stage 2. So the perquisite covers the gain up to exercise, and capital gains cover only the gain after exercise — the same rupee is never taxed twice. Patron's <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale">exercise-vs-sale guide</a> and <a href="https://www.patronaccounting.com/blog/esop-capital-gains-tax-india">ESOP capital gains guide</a> walk through this.</p>
+            <p>The key link is that the <strong>FMV at exercise becomes your cost of acquisition</strong> for stage 2. So the perquisite covers the gain up to exercise, and capital gains cover only the gain after exercise — the same rupee is never taxed twice. Patron's exercise-vs-sale guide and ESOP capital gains guide walk through this.</p>
             <div class="formula-box">
                 <span class="label">Capital gain</span> = (Sale price − FMV at exercise) × Shares<br>
                 <span class="label">Holding period</span> = Exercise date → Sale date
@@ -853,7 +853,7 @@ a:focus-visible {
                     <tr><td>Unlisted / foreign</td><td>&gt; 24 months</td><td>Slab rate</td><td>12.5% (no indexation)</td></tr>
                 </tbody>
             </table>
-            <p>These reflect the Finance (No. 2) Act 2024, effective for transfers on or after <strong>23 July 2024</strong> — STCG on listed rose from 15% to 20%, LTCG from 10% to 12.5%, the LTCG exemption rose from ₹1 lakh to ₹1.25 lakh, and indexation was removed for unlisted shares. Earlier sales used the old rates; see Patron's <a href="https://www.patronaccounting.com/blog/capital-gains-tax-changes-budget-2024-impact">Budget 2024 capital-gains changes</a>. A 4% health & education cess applies on the tax. The concessional listed-equity rates require Securities Transaction Tax to have been paid, per the <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a>-regulated exchange framework, and the charge is administered through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>.</p>
+            <p>These reflect the Finance (No. 2) Act 2024, effective for transfers on or after <strong>23 July 2024</strong> — STCG on listed rose from 15% to 20%, LTCG from 10% to 12.5%, the LTCG exemption rose from ₹1 lakh to ₹1.25 lakh, and indexation was removed for unlisted shares. Earlier sales used the old rates; see Patron's Budget 2024 capital-gains changes. A 4% health & education cess applies on the tax. The concessional listed-equity rates require Securities Transaction Tax to have been paid, per the <a href="https://www.sebi.gov.in/" target="_blank" rel="noopener">SEBI</a>-regulated exchange framework, and the charge is administered through the <a href="https://www.incometax.gov.in/" target="_blank" rel="noopener">income-tax portal</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -884,7 +884,7 @@ a:focus-visible {
                 <li><strong>Cross the long-term line</strong> — 12 months (listed) or 24 months (unlisted) shifts you to the 12.5% rate.</li>
                 <li><strong>Spread sales across financial years</strong> to use the ₹1.25 lakh listed-LTCG exemption more than once.</li>
                 <li><strong>Harvest losses</strong> — set off capital losses against gains within the rules.</li>
-                <li><strong>Reinvestment</strong> — long-term gains may qualify under Sections 54F or 54EC; see Patron's <a href="https://www.patronaccounting.com/blog/section-54-vs-54f-vs-54ec-property-reinvestment">54/54F/54EC guide</a>.</li>
+                <li><strong>Reinvestment</strong> — long-term gains may qualify under Sections 54F or 54EC; see Patron's 54/54F/54EC guide.</li>
                 <li><strong>Foreign shares</strong> — disclose in Schedule FA and claim foreign tax credit via Form 67.</li>
             </ul>
             <p>For the sale process on private-company shares, see <a href="https://www.patronaccounting.com/esop-secondary-sale-advisory">ESOP secondary sale advisory</a>; for filing, <a href="https://www.patronaccounting.com/itr-for-capital-gains">ITR for capital gains</a>.</p>
@@ -991,9 +991,9 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/esop-capital-gains-tax-india" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/capital-gains-tax-changes-budget-2024-impact" class="sidebar-link">Budget 2024 CG Changes <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale" class="sidebar-link">Exercise vs Sale Tax <span class="arrow">→</span></a>
+            ESOP Capital Gains →
+            Budget 2024 CG Changes →
+            Exercise vs Sale Tax →
         </div>
     </aside>
 </div>

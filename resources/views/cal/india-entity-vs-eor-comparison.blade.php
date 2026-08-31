@@ -781,7 +781,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/wholly-owned-subsidiary-registration" class="sidebar-link">WOS Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/llp-registration" class="sidebar-link">LLP Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/fema-compliance" class="sidebar-link">FEMA &amp; FDI Compliance<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/transfer-pricing" class="sidebar-link">Transfer Pricing Study<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>

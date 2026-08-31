@@ -485,7 +485,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">&rarr;</span></a>
             
             <a href="https://www.patronaccounting.com/accounting-bookkeeping-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/payroll-management" class="sidebar-link">Payroll Management <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Management <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Tools</h3>

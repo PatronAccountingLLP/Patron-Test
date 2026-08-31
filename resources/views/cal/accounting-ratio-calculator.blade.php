@@ -881,11 +881,11 @@ a:focus-visible {
             <h2>The Four Categories of Accounting Ratios</h2>
             <p>Most accounting ratios fall into four families. This calculator covers the most widely used ratio in each group.</p>
             <h3>1. Liquidity Ratios</h3>
-            <p>These measure short-term solvency — whether a business can meet obligations due within a year. The <a href="https://www.patronaccounting.com/blog/current-ratio">current ratio</a> and the stricter <a href="https://www.patronaccounting.com/blog/quick-ratio-acid-test">quick (acid-test) ratio</a> are the headline measures. A quick ratio above 1 suggests a firm can cover immediate liabilities without selling stock.</p>
+            <p>These measure short-term solvency — whether a business can meet obligations due within a year. The current ratio and the stricter quick (acid-test) ratio are the headline measures. A quick ratio above 1 suggests a firm can cover immediate liabilities without selling stock.</p>
             <h3>2. Solvency & Leverage Ratios</h3>
-            <p>These assess long-term stability and reliance on borrowing. The <a href="https://www.patronaccounting.com/blog/debt-to-equity-ratio">debt-to-equity ratio</a> compares borrowed funds with owners' funds, while the <a href="https://www.patronaccounting.com/blog/interest-coverage-ratio">interest coverage ratio</a> checks whether operating profit comfortably covers interest. Higher leverage means higher financial risk.</p>
+            <p>These assess long-term stability and reliance on borrowing. The debt-to-equity ratio compares borrowed funds with owners' funds, while the interest coverage ratio checks whether operating profit comfortably covers interest. Higher leverage means higher financial risk.</p>
             <h3>3. Profitability Ratios</h3>
-            <p>These measure the ability to generate profit. Gross and <a href="https://www.patronaccounting.com/blog/net-profit-margin">net profit margins</a> express profit as a percentage of sales, while <a href="https://www.patronaccounting.com/blog/return-on-equity-roe">return on equity</a> and return on assets measure profit relative to the capital and assets deployed.</p>
+            <p>These measure the ability to generate profit. Gross and net profit margins express profit as a percentage of sales, while return on equity and return on assets measure profit relative to the capital and assets deployed.</p>
             <h3>4. Activity / Turnover Ratios</h3>
             <p>These show how efficiently assets are used. Inventory turnover measures how fast stock is sold and replaced; asset turnover measures revenue generated per rupee of assets. Faster turnover usually means tighter working capital and stronger cash flow.</p>
         </section>
@@ -1062,9 +1062,9 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/liquidity-ratios-complete-guide" class="sidebar-link">Liquidity Ratios: Complete Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/profitability-ratios-complete-guide" class="sidebar-link">Profitability Ratios Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/solvency-leverage-ratios-complete-guide" class="sidebar-link">Solvency & Leverage Ratios Guide <span class="arrow">→</span></a>
+            Liquidity Ratios: Complete Guide →
+            Profitability Ratios Guide →
+            Solvency & Leverage Ratios Guide →
         </div>
     </aside>
 </div>

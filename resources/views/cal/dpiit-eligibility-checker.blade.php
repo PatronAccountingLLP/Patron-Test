@@ -868,7 +868,7 @@ a:focus-visible {
                 <li><strong>Public procurement</strong> — GeM access and relaxed tender norms.</li>
                 <li><strong>Fund of Funds</strong> and other scheme access.</li>
             </ul>
-            <p>See Patron's notes on <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC</a> and <a href="https://www.patronaccounting.com/blog/section-56-refund-interest-calculation">Section 56</a>.</p>
+            <p>See Patron's notes on <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC</a> and Section 56.</p>
         </section>
 
         <section class="content-section" id="changes">

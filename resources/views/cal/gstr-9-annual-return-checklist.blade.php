@@ -449,12 +449,12 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
         </div>
         <div class="sidebar-card">
             <h3>GST Services</h3>
-            <a href="https://www.patronaccounting.com/gst-annual-return-filing" class="sidebar-link">GST Annual Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-annual-returns" class="sidebar-link">GST Annual Return Filing <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/gst-cancellation" class="sidebar-link">GST Cancellation <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-registration-cancellation" class="sidebar-link">GST Cancellation <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Tools</h3>

@@ -629,7 +629,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit (Section 44AB) <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/gst-return-filing" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>

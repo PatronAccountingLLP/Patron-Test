@@ -1047,7 +1047,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/stock-audit" class="sidebar-link">Stock Audit<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/msme-registration" class="sidebar-link">MSME Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/udyam-registration" class="sidebar-link">MSME Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return<span class="arrow">→</span></a>
         </div>
 

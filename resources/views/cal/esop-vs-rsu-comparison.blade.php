@@ -840,7 +840,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>ESOP vs RSU — The Core Difference</h2>
             <p>An <strong>ESOP</strong> gives you the right to <em>buy</em> shares at a fixed <strong>exercise (strike) price</strong> after vesting. You profit only if the share value rises above that price, and you must pay cash to exercise — so it carries <strong>leverage and risk</strong>. An <strong>RSU</strong> converts into actual shares <strong>for free</strong> once vesting conditions are met — no exercise price, so it always has value as long as the share price is positive, behaving like a <strong>deferred stock bonus</strong>.</p>
-            <p>Patron's deep-dives compare these from both sides: <a href="https://www.patronaccounting.com/blog/us-rsu-vs-indian-esop-employee-perspective">US RSU vs Indian ESOP</a>, <a href="https://www.patronaccounting.com/blog/esop-vs-sar-vs-phantom-stock">ESOP vs SAR vs phantom stock</a>, and <a href="https://www.patronaccounting.com/blog/india-equity-compensation-foreign-employees">India equity comp for foreign employers</a>.</p>
+            <p>Patron's deep-dives compare these from both sides: US RSU vs Indian ESOP, ESOP vs SAR vs phantom stock, and India equity comp for foreign employers.</p>
             <div class="formula-box">
                 <span class="label">ESOP perquisite</span> = (FMV − exercise price) × shares<br>
                 <span class="label">RSU perquisite</span> = FMV × shares &nbsp;(no exercise price)<br>
@@ -986,8 +986,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/us-rsu-vs-indian-esop-employee-perspective" class="sidebar-link">US RSU vs Indian ESOP <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/esop-vs-sar-vs-phantom-stock" class="sidebar-link">ESOP vs SAR vs Phantom <span class="arrow">→</span></a>
+            US RSU vs Indian ESOP →
+            ESOP vs SAR vs Phantom →
         </div>
     </aside>
 </div>

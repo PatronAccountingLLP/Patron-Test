@@ -947,7 +947,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <a href="https://www.patronaccounting.com/payroll-management-services" class="sidebar-link">Payroll Management<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/pf-registration" class="sidebar-link">PF Registration<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/esi-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/esic-registration" class="sidebar-link">ESI Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/professional-tax-registration" class="sidebar-link">Professional Tax<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/payroll-services-for-it-and-software-industry" class="sidebar-link">IT/SaaS Payroll<span class="arrow">→</span></a>
         </div>

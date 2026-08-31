@@ -969,13 +969,13 @@
             <div class="sec-head-right"><span class="sec-counter">4 services</span></div>
         </div>
         <div class="grid-cp is-4">
-            <a href="/company-registration" class="tile-cp">
+            <a href="/private-limited-company-registration" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>05.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Company Registration</h3>
                 <p class="tile-cp-blurb">Incorporate the Pvt Ltd that becomes your IMF &mdash; with the mandatory "IMF" in the name handled correctly.</p>
                 <div class="tile-cp-foot"><span>From INR 6,999<span class="ast">*</span></span><span class="arrow">&#8599;</span></div>
             </a>
-            <a href="/llp-registration" class="tile-cp">
+            <a href="/llp-incorporation" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>05.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">LLP Registration</h3>
                 <p class="tile-cp-blurb">Set up the LLP route to an IMF when a lighter compliance load suits your plan better than a company.</p>

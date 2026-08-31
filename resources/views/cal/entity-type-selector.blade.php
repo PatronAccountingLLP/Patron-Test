@@ -978,7 +978,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/how-to-register-llp-in-india-and-its-benefits" class="sidebar-link">How to Register an LLP <span class="arrow">→</span></a>
+            How to Register an LLP →
             <a href="https://www.patronaccounting.com/blog/how-to-convert-opc-to-private-limited-company-in-india" class="sidebar-link">Convert OPC to Pvt Ltd <span class="arrow">→</span></a>
         </div>
     </aside>

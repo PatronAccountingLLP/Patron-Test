@@ -574,10 +574,10 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 
 <div class="sidebar-card"><h3>Related Services</h3>
 <a href="https://www.patronaccounting.com/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/gst-notice-reply" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/gst-litigation" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" class="sidebar-link">GST Litigation &amp; Appeals <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>

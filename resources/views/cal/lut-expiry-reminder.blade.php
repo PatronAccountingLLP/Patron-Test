@@ -737,7 +737,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <a href="https://www.patronaccounting.com/lut-filing" class="sidebar-link">LUT Filing Service<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/gst-return-filing" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/iec-code-registration" class="sidebar-link">IEC Code Registration<span class="arrow">→</span></a>
         </div>

@@ -182,9 +182,13 @@
         <input type="hidden" name="Description" value="{{ $paMsg }}"/>
         <input type="hidden" name="Contacts.Description" value="{{ $paMsg }}"/>
 
-        {{-- City on the deal as well as the contact, so a city page's leads can be
-             filtered without opening each record. --}}
-        <input type="hidden" name="City" value="{{ $paCity }}"/>
+        {{-- City on the deal as well as the contact. The visible input below is
+             named Contacts.Mailing City, which lands on the CONTACT record - the
+             deal has its own City field and would otherwise stay empty, which is
+             what the team sees first. Seeded with the page's city so a city page
+             is right even without JavaScript, then overwritten on submit with
+             whatever the visitor actually typed. --}}
+        <input type="hidden" name="City" data-deal-city value="{{ $paCity }}"/>
 
         <input type="hidden" name="Contacts.Lead Source" data-page-url value=""/>
 
@@ -218,7 +222,7 @@
             <label class="form-label" for="city{{ $uid }}">City</label>
             <input class="form-input" id="city{{ $uid }}" name="Contacts.Mailing City" type="text"
                    maxlength="100" placeholder="Enter your city" autocomplete="address-level2"
-                   value="{{ $paCity }}" data-req="City is required"/>
+                   value="{{ $paCity }}" data-city data-req="City is required"/>
         </div>
 
         <button type="submit" class="btn-submit" data-submit>{!! $paCta !!}</button>

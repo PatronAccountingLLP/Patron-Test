@@ -1237,10 +1237,6 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
                     <div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">Gurugram</div></div>
                 </a>
-                <a href="/income-tax-return/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
-                    <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
                 <a href="/backlog-bookkeeping-catch-up-services/gurugram" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
                     <div><div class="pa-card-title">Backlog Bookkeeping</div><div class="pa-card-sub">Gurugram</div></div>

@@ -947,8 +947,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/dtaa-form-67-foreign-tax-credit" class="sidebar-link">DTAA & Form 67 FTC <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/residential-status-determination-flowchart" class="sidebar-link">NRI Residential Status <span class="arrow">→</span></a>
+            DTAA & Form 67 FTC →
+            NRI Residential Status →
         </div>
     </aside>
 </div>

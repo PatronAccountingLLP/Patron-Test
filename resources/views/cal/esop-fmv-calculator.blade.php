@@ -840,7 +840,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What Is FMV for ESOPs?</h2>
             <p>When you exercise a stock option, the gap between what the share is worth and what you paid is a benefit from employment — a <strong>perquisite</strong> taxed as salary under <strong>Section 17(2)(vi)</strong>. The "what the share is worth" figure is the <strong>fair market value (FMV)</strong> on the <strong>exercise date</strong>, determined under Rule 3(8) of the Income-tax Rules (carried into the 2026 Rules).</p>
-            <p>FMV is measured at <strong>exercise</strong>, not grant or vesting. It drives two things: the perquisite taxed now, and the <strong>cost of acquisition</strong> for capital gains when you eventually sell. This is the two-stage ESOP tax — perquisite at exercise, capital gains at sale — explained in Patron's <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale">exercise-vs-sale guide</a>.</p>
+            <p>FMV is measured at <strong>exercise</strong>, not grant or vesting. It drives two things: the perquisite taxed now, and the <strong>cost of acquisition</strong> for capital gains when you eventually sell. This is the two-stage ESOP tax — perquisite at exercise, capital gains at sale — explained in Patron's exercise-vs-sale guide.</p>
         </section>
 
         <section class="content-section" id="rules">
@@ -986,8 +986,8 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax (S.17) <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-exercise-vs-sale" class="sidebar-link">Exercise vs Sale Tax <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/esop-capital-gains-tax-india" class="sidebar-link">ESOP Capital Gains <span class="arrow">→</span></a>
+            Exercise vs Sale Tax →
+            ESOP Capital Gains →
         </div>
     </aside>
 </div>

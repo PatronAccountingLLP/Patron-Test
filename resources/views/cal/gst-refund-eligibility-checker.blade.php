@@ -616,10 +616,10 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/gst-refund" class="sidebar-link">GST Refund Services<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/gst-return-filing" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gstat-appeal-filing" class="sidebar-link">GSTAT Appeal Filing<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/gst-litigation" class="sidebar-link">GST Litigation<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" class="sidebar-link">GST Litigation<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

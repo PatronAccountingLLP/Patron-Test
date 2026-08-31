@@ -240,6 +240,15 @@
             if (mobile) { mobile.value = selected.code + r.digits; }
             if (pageUrl) { pageUrl.value = window.location.href; }
 
+            // The visible city input is named Contacts.Mailing City and lands on
+            // the contact. Copy it to the deal's own City field too, or the deal
+            // shows no city at all on a national page.
+            var typedCity = form.querySelector('[data-city]');
+            var dealCity  = form.querySelector('[data-deal-city]');
+            if (typedCity && dealCity && typedCity.value.trim()) {
+                dealCity.value = typedCity.value.trim();
+            }
+
             // The iframe fires 'load' once for about:blank before any submit.
             // This flag is what separates that from Zoho's actual answer.
             form.__paSubmitted = true;

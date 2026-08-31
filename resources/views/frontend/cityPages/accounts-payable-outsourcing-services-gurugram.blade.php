@@ -1240,10 +1240,6 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
                     <div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Gurugram</div></div>
                 </a>
-                <a href="/income-tax-return/gurugram" class="pa-cross-card">
-                    <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
-                    <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Gurugram</div></div>
-                </a>
             </div>
         </div>
     </div>

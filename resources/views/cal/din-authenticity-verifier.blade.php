@@ -1321,7 +1321,7 @@ a:focus-visible {
                     <tr><td>Surrendered / Cancelled</td><td>Given up via DIR-5 or cancelled by MCA</td></tr>
                 </tbody>
             </table>
-            <p>Annual <strong>DIR-3 KYC</strong> by 30 September keeps a DIN active, as administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>. Non-filing is the most common cause of a deactivated DIN. See our guides on <a href="https://www.patronaccounting.com/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors">DIR-3 KYC filing</a> and <a href="https://www.patronaccounting.com/blog/dir-3-kyc-din-deactivation-reactivation">DIN deactivation and reactivation</a>.</p>
+            <p>Annual <strong>DIR-3 KYC</strong> by 30 September keeps a DIN active, as administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>. Non-filing is the most common cause of a deactivated DIN. See our guides on <a href="https://www.patronaccounting.com/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors">DIR-3 KYC filing</a> and DIN deactivation and reactivation.</p>
         </section>
 
         <section class="content-section" id="red-flags">

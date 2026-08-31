@@ -557,7 +557,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="https://www.patronaccounting.com/imf-private-limited-vs-llp" class="sidebar-link">IMF Pvt Ltd vs LLP <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/imf-irdai-registration-process" class="sidebar-link">IRDAI Registration Process <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Company Registration <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/llp-registration" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>

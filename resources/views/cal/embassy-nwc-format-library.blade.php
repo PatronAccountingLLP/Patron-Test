@@ -824,7 +824,7 @@ a:focus-visible {
                     <tr><td>12</td><td>18-digit UDIN (generated at udin.icai.org)</td></tr>
                 </tbody>
             </table>
-            <p>A missing UDIN is the single most common rejection reason across embassies, banks and tender authorities — see <a href="/blog/udin-verification-net-worth-certificate">UDIN verification</a> for how officers check it.</p>
+            <p>A missing UDIN is the single most common rejection reason across embassies, banks and tender authorities — for how officers check it.</p>
         </section>
 
         <div class="body-cta">
@@ -874,7 +874,7 @@ a:focus-visible {
                 <li><strong>Stale reference date</strong> — get a fresh certificate close to the application date.</li>
                 <li><strong>Omitted liabilities</strong> — show the full liability schedule; net worth must net them off.</li>
             </ul>
-            <p>For the full list and fixes, see Patron's guide to <a href="/blog/net-worth-certificate-rejection-reasons">net worth certificate rejection reasons</a>. Country-specific service pages are linked in the sidebar.</p>
+            <p>For the full list and fixes, see Patron's guide to net worth certificate rejection reasons. Country-specific service pages are linked in the sidebar.</p>
         </section>
 
         <section class="content-section" id="faqs">
@@ -970,8 +970,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="/blog/udin-verification-net-worth-certificate" class="sidebar-link">UDIN Verification <span class="arrow">→</span></a>
-            <a href="/blog/net-worth-certificate-rejection-reasons" class="sidebar-link">Rejection Reasons <span class="arrow">→</span></a>
+            UDIN Verification →
+            Rejection Reasons →
         </div>
     </aside>
 </div>

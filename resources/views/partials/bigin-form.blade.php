@@ -124,7 +124,7 @@
     <form data-bigin-form
           data-uid="{{ $uid }}"
           id="biginForm{{ $uid }}"
-          action="https://bigin.zoho.in/crm/WebToRecordForm"
+          action="https://bigin.zoho.in/crm/WebForm"
           method="POST"
           enctype="multipart/form-data"
           target="biginFrame{{ $uid }}"
@@ -204,12 +204,21 @@
 </div>
 @endunless
 
-{{-- Scripts, once per page however many forms it renders. The stylesheet is NOT
-     here: css/enquiry-form.css is linked by the layouts next to the header and
-     footer, so it loads on every page. wf_script is Zoho's own loader and only
-     sets the zc_gad click id; the record is created from the POST body, so a
-     lead is still captured if it is blocked. --}}
+{{-- Our own JS, once per page however many forms it render. The stylesheet is
+     NOT here: css/enquiry-form.css is linked by the layouts next to the header
+     and footer, so it loads on every page.
+
+     Zoho's wf_script loader is deliberately NOT included. All it did was find
+     the form by its name attribute and rewrite the action:
+
+         var formname = document.BiginWebToRecordForm208810000001209168;
+         formname.action = 'https://bigin.zoho.in/crm/WebForm';
+
+     WebToRecordForm - the action Zoho's generated markup ships with, and which
+     production still carries - is only a placeholder; posting to it returns
+     HTTP 400 and creates nothing. We set the real /crm/WebForm action above, so
+     the loader has nothing left to do, and it could not work here anyway: it
+     looks the form up by a single fixed name and a page renders two of them. --}}
 @once
 <script src="{{ asset('js/enquiry-form.js') }}?v={{ @filemtime(base_path('js/enquiry-form.js')) ?: '1' }}" defer></script>
-<script id="wf_script" src="https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79"></script>
 @endonce

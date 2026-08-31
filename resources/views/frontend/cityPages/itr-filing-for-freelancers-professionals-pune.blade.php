@@ -13,11 +13,11 @@
 @section('meta')
     <title>ITR for Professionals & Freelancers in Pune | Patron</title>
     <meta name="description" content="CA-assisted ITR filing for professionals and freelancers in Pune. 44ADA presumptive, ITR-3/ITR-4, tax audit, and expense claims. CAs, doctors, lawyers, IT consultants. Call +91 945 945 6700.">
-    <link rel="canonical" href="/itr-filingfor-freelancers-professionals/pune">
+    <link rel="canonical" href="/itr-filing-for-freelancers-professionals/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Professionals & Freelancers in Pune | Patron">
     <meta property="og:description" content="CA-assisted ITR filing for professionals and freelancers in Pune. 44ADA presumptive, ITR-3/ITR-4, tax audit, and expense claims. CAs, doctors, lawyers, IT consultants. Call +91 945 945 6700.">
-    <meta property="og:url" content="/itr-filingfor-freelancers-professionals/pune">
+    <meta property="og:url" content="/itr-filing-for-freelancers-professionals/pune">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Patron Accounting">
     <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
@@ -40,7 +40,7 @@
       "@type": "Service",
       "name": "ITR for Professionals & Freelancers in Pune",
       "description": "CA-assisted ITR filing for professionals and freelancers in Pune. 44ADA presumptive, ITR-3/ITR-4, tax audit, and expense claims. CAs, doctors, lawyers, IT consultants. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/itr-filingfor-freelancers-professionals/pune",
+      "url": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals/pune",
       "serviceType": "ITR for Professionals & Freelancers in Pune",
       "areaServed": {
         "@type": "City",
@@ -60,7 +60,7 @@
         "@type": "Offer",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/itr-filingfor-freelancers-professionals/pune",
+        "url": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals/pune",
         "priceSpecification": {
           "@type": "PriceSpecification",
           "minPrice": "50",
@@ -82,13 +82,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Itr Filingfor Freelancers Professionals",
-          "item": "https://www.patronaccounting.com/itr-filingfor-freelancers-professionals"
+          "item": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "ITR for Professionals & Freelancers in Pune",
-          "item": "https://www.patronaccounting.com/itr-filingfor-freelancers-professionals/pune"
+          "item": "https://www.patronaccounting.com/itr-filing-for-freelancers-professionals/pune"
         }
       ]
     },

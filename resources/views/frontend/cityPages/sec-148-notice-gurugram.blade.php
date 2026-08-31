@@ -2090,7 +2090,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
     <li><strong><a href="/income-tax-notices-under-section-143-3/gurugram">Section 143(3) Scrutiny Order Services</a>:</strong> Contextual companion for Section 143(3) faceless assessment orders in Gurugram.</li>
     <li><strong><a href="/income-tax-demand-under-section-156/gurugram">Section 156 Demand Notice Services in Gurugram</a>:</strong> Gurugram-specific Section 156 demand notice handling - the downstream demand mechanism following reassessment under Section 147.</li>
     <li><strong><a href="/income-tax-notice/gurugram">Income Tax Notice Services in Gurugram</a>:</strong> Parent Gurugram city hub covering all income-tax notices including Section 143(2), Section 148 and Section 156.</li>
-    <li><strong><a href="/income-tax-return/gurugram">ITR Filing in Gurugram</a>:</strong> Original ITR filing - clean ITR reduces Section 148 / 148A trigger probability.</li>
+    <li><strong>ITR Filing in Gurugram:</strong> Original ITR filing - clean ITR reduces Section 148 / 148A trigger probability.</li>
     <li><strong><a href="/sec-148-notice/delhi">Section 148 Notice Delhi</a>:</strong> Sibling Delhi city page - Delhi HC has DIFFERENT (concurrent JAO) jurisprudence vs P&amp;H HC pro-taxpayer line.</li>
 </ul>
 
@@ -2297,7 +2297,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
         <a href="/sec-143-2-notice/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div><div><div class="pa-card-title">Sec 143(2) Gurugram</div><div class="pa-card-sub">Scrutiny Selection</div></div></a>
         <a href="/income-tax-notices-under-section-143-3/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div><div><div class="pa-card-title">Section 143(3) Gurugram</div><div class="pa-card-sub">Scrutiny Order</div></div></a>
         <a href="/income-tax-demand-under-section-156/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><div><div class="pa-card-title">Section 156 Gurugram</div><div class="pa-card-sub">Demand Notice</div></div></a>
-        <a href="/income-tax-return/gurugram" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><div><div class="pa-card-title">ITR Filing Gurugram</div><div class="pa-card-sub">Original Return</div></div></a>
     </div>
 </div>
 

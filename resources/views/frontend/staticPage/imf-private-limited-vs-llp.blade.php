@@ -2274,7 +2274,7 @@ function toggleTestiVideo(area){
                     <li><a href="/imf-for-mutual-fund-distributors">IMF for Mutual Fund Distributors</a> - MFD persona vertical.</li>
                     <li><a href="/imf-for-bank-employees-retirees">IMF for Bank Employees and Retirees</a> - bank retiree persona vertical.</li>
                     <li><a href="/private-limited-company-registration">Private Limited Company Registration</a> - general Pvt Ltd incorporation.</li>
-                    <li><a href="/llp-registration">LLP Registration</a> - general LLP incorporation.</li>
+                    <li><a href="/llp-incorporation">LLP Registration</a> - general LLP incorporation.</li>
                     <li><a href="/imf-compliance-retainer-services">IMF Compliance Retainer Services</a> - ongoing annual compliance post setup.</li>
                     <li><a href="/statutory-audit">Statutory Audit</a> - annual audit (mandatory for Pvt Ltd; conditional for LLP above turnover threshold).</li>
                     <li><a href="/income-tax-return">Income Tax Return Filing</a> - ITR-6 for Pvt Ltd; ITR-5 for LLP.</li>

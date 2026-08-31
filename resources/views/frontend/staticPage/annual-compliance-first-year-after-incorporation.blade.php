@@ -1450,22 +1450,6 @@
                 <div class="pa-block-title">City-Wise First-Year Compliance Pages</div>
                 <div class="pa-block-sub">Local CA + CS team for newly incorporated companies</div>
                 <div class="pa-city-grid">
-                    <a href="/annual-compliance-first-year-after-incorporation/pune" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">First-Year Compliance in Pune</div><div class="pa-card-sub">Maharashtra</div></div>
-                    </a>
-                    <a href="/annual-compliance-first-year-after-incorporation/mumbai" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">First-Year Compliance in Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
-                    </a>
-                    <a href="/annual-compliance-first-year-after-incorporation/delhi" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">First-Year Compliance in Delhi</div><div class="pa-card-sub">NCT Delhi</div></div>
-                    </a>
-                    <a href="/annual-compliance-first-year-after-incorporation/gurugram" class="pa-city-card">
-                        <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-                        <div><div class="pa-card-title">First-Year Compliance in Gurugram</div><div class="pa-card-sub">Haryana</div></div>
-                    </a>
                 </div>
             </div>
             <div class="pa-city-block">

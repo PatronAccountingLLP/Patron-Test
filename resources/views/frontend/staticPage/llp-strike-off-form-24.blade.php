@@ -2138,7 +2138,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     <li><a href="/pvt-llp-compliance"><strong>LLP Compliance Hub</strong></a> - broader LLP compliance hub for active LLPs not yet ready for closure.</li>
                     <li><a href="/llp-annual-compliance"><strong>LLP Annual Compliance</strong></a> - full annual cycle (Form 11 + Form 8 + ITR-5 + DIR-3 KYC) for LLPs deferring closure.</li>
                     <li><a href="/llp-form-11-form-8-filing"><strong>LLP Form 11 + Form 8 Filing</strong></a> - combined backlog cleanup service before Form 24 strike-off.</li>
-                    <li><a href="/llp-registration"><strong>LLP Incorporation</strong></a> - starting point for founders considering whether to register, run, or close an LLP.</li>
+                    <li><a href="/llp-incorporation"><strong>LLP Incorporation</strong></a> - starting point for founders considering whether to register, run, or close an LLP.</li>
                     <li><a href="/pvt-llp-compliance"><strong>Pvt Ltd vs LLP Compliance</strong></a> - structural comparison for groups running both LLPs and Pvt Ltds before any closure decision.</li>
                     <li><a href="/compliance-calendar"><strong>Compliance Calendar</strong></a> - month-by-month tracker for LLPs still active to avoid future strike-off scenarios.</li>
                 </ul>

@@ -171,23 +171,28 @@
         <input type="hidden" name="rmsg" value="true"/>
         <input type="hidden" name="zc_gad" value=""/>
 
-        {{-- The service tagging. This is what makes the form service-level. --}}
-        <input type="hidden" name="Potential Name" value="Website Enquiry - {{ $paSvc }}"/>
+        {{-- The service tagging. This is what makes the form service-level.
+
+             Potential Name is the ONLY deal field this webform accepts, so it
+             carries everything the team must see without opening the contact:
+             the service, and the city appended on submit. Bigin silently drops
+             any field the form was not built with, which is why the deal's own
+             Description and City stay empty (see the note below). --}}
+        <input type="hidden" name="Potential Name" data-deal-name value="Website Enquiry - {{ $paSvc }}"/>
         <input type="hidden" name="Pipeline" value="Sales Pipeline Standard"/>
         <input type="hidden" name="Stage" value="Qualification"/>
 
-        {{-- The readable message, sent to both the deal and the contact. Zoho
-             silently drops field names its webform does not know, so naming both
-             costs nothing and covers whichever one this form exposes. --}}
-        <input type="hidden" name="Description" value="{{ $paMsg }}"/>
-        <input type="hidden" name="Contacts.Description" value="{{ $paMsg }}"/>
+        {{-- The readable message. This reaches the CONTACT record, not the deal.
 
-        {{-- City on the deal as well as the contact. The visible input below is
-             named Contacts.Mailing City, which lands on the CONTACT record - the
-             deal has its own City field and would otherwise stay empty, which is
-             what the team sees first. Seeded with the page's city so a city page
-             is right even without JavaScript, then overwritten on submit with
-             whatever the visitor actually typed. --}}
+             "Description" and "City" below are the DEAL's own fields. Webform
+             208810000001209168 was not built with them, and Bigin discards any
+             field it does not know, so today they do nothing - verified against a
+             live submission where both stayed empty. They are left in place so
+             that adding those two fields in Bigin's form builder is all it takes
+             to populate them; no code change would be needed. Until then the deal
+             carries its context in Potential Name above. --}}
+        <input type="hidden" name="Contacts.Description" value="{{ $paMsg }}"/>
+        <input type="hidden" name="Description" value="{{ $paMsg }}"/>
         <input type="hidden" name="City" data-deal-city value="{{ $paCity }}"/>
 
         <input type="hidden" name="Contacts.Lead Source" data-page-url value=""/>

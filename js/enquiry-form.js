@@ -240,13 +240,29 @@
             if (mobile) { mobile.value = selected.code + r.digits; }
             if (pageUrl) { pageUrl.value = window.location.href; }
 
-            // The visible city input is named Contacts.Mailing City and lands on
-            // the contact. Copy it to the deal's own City field too, or the deal
-            // shows no city at all on a national page.
+            // Where the city goes.
+            //
+            // The visible input is named Contacts.Mailing City, so it lands on the
+            // CONTACT. The deal's own City field is not part of this Zoho webform
+            // and is discarded, so the only way to show a city ON THE DEAL is to
+            // put it in Potential Name - the one deal field the form accepts.
+            //
+            //   Website Enquiry - PAN Registration - Mumbai
+            //
+            // Skipped when the service already names the city, so a city page does
+            // not read "Stock Audit in Mumbai - Mumbai".
             var typedCity = form.querySelector('[data-city]');
             var dealCity  = form.querySelector('[data-deal-city]');
-            if (typedCity && dealCity && typedCity.value.trim()) {
-                dealCity.value = typedCity.value.trim();
+            var dealName  = form.querySelector('[data-deal-name]');
+            var city      = typedCity ? typedCity.value.trim() : '';
+
+            if (dealCity && city) { dealCity.value = city; }
+
+            if (dealName && city) {
+                var base = dealName.value;
+                if (base.toLowerCase().indexOf(city.toLowerCase()) === -1) {
+                    dealName.value = base + ' - ' + city;
+                }
             }
 
             // The iframe fires 'load' once for about:blank before any submit.

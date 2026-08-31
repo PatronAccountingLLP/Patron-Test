@@ -97,22 +97,54 @@
     // page never shows "&amp;amp;".
     $paSvc = trim(html_entity_decode($paSvc, ENT_QUOTES | ENT_HTML5, 'UTF-8'));
 
+    // The message the sales team reads on the deal. Bigin's Lead Source is a
+    // picklist, so a URL cannot be stored in it - it comes back as "Websites"
+    // whatever we send. The page address therefore goes in the message body,
+    // which is the only free-text field we control. Built server-side so it is
+    // right even if JavaScript never runs.
+    $paUrl = url()->current();
+    // The deal name is prefixed on pages that are not service pages ("Glossary -
+    // General Ledger", "Blog - ...") so they are filterable in the pipeline. The
+    // message is written in the client's voice, so it uses the plain topic.
+    $paTopic = preg_replace('/^(?:Glossary|Blog) - /', '', $paSvc);
+    $paMsg = 'Hi, I would like to know about '.$paTopic.'.';
+    // Most city pages already name the city in the service ("Stock Audit in
+    // Mumbai"), so only add it when it is not already in there.
+    if ($paCity !== '' && stripos($paSvc, $paCity) === false) {
+        $paMsg .= ' I am looking for this in '.$paCity.'.';
+    }
+    $paMsg .= ' (Enquiry submitted from '.$paUrl.')';
+    // Extra context for pages that are not service pages - a blog post or a
+    // glossary term - where the sales team has to ask what the client actually
+    // wants rather than assume the page topic is the service.
+    if (!empty($note)) {
+        $paMsg .= ' NOTE FOR THE TEAM: '.trim($note);
+    }
+
     $paTitle = $title    ?? ($paCompact ? 'Get a free callback' : 'Get Free Consultation');
     $paSub   = $subtitle ?? ($paCompact
                     ? 'Talk to a CA/CS expert today — no charge, no spam.'
                     : 'Talk to a CA/CS expert today');
     $paCta   = $cta      ?? 'Get Free Quote &rarr;';
 
+    // Legacy anchor. 45 pages carry a "Get a Callback" button pointing at
+    // #consultationFormCard; 1,776 of them define that id on their own hero card
+    // (the 'bare' pages), but 25 relied on the old partials/enquiry-form to
+    // render it. Only the first full card on a page takes the id, so a page can
+    // never end up with two elements sharing it.
+    $paLegacyId = (!$paBare && !$paCompact && !config('pa.bigin_legacy_id_used'));
+
     // Publish for any later form on this page, and let layouts know a form is here.
     config([
         'pa.enquiry_form_rendered' => true,
         'pa.enquiry_service'       => $paSvc,
         'pa.enquiry_city'          => $paCity,
+        'pa.bigin_legacy_id_used'  => config('pa.bigin_legacy_id_used') || $paLegacyId,
     ]);
 @endphp
 
 @unless ($paBare)
-<div class="form-card bigin-form{{ $paCompact ? ' bigin-form--compact' : '' }}" id="formCard{{ $uid }}">
+<div class="form-card bigin-form{{ $paCompact ? ' bigin-form--compact' : '' }}" id="{{ $paLegacyId ? 'consultationFormCard' : 'formCard'.$uid }}">
     <div class="form-header">
         <h2 class="form-title">{{ $paTitle }}</h2>
         <p class="form-subtitle">{{ $paSub }}</p>
@@ -141,9 +173,19 @@
 
         {{-- The service tagging. This is what makes the form service-level. --}}
         <input type="hidden" name="Potential Name" value="Website Enquiry - {{ $paSvc }}"/>
-        <input type="hidden" name="Contacts.Description" value="{{ $paSvc }}"/>
         <input type="hidden" name="Pipeline" value="Sales Pipeline Standard"/>
         <input type="hidden" name="Stage" value="Qualification"/>
+
+        {{-- The readable message, sent to both the deal and the contact. Zoho
+             silently drops field names its webform does not know, so naming both
+             costs nothing and covers whichever one this form exposes. --}}
+        <input type="hidden" name="Description" value="{{ $paMsg }}"/>
+        <input type="hidden" name="Contacts.Description" value="{{ $paMsg }}"/>
+
+        {{-- City on the deal as well as the contact, so a city page's leads can be
+             filtered without opening each record. --}}
+        <input type="hidden" name="City" value="{{ $paCity }}"/>
+
         <input type="hidden" name="Contacts.Lead Source" data-page-url value=""/>
 
         <div class="form-group">

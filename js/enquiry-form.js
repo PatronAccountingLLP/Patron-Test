@@ -111,7 +111,10 @@
         if (form.__paBound) { return; }
         form.__paBound = true;
 
-        var card       = document.getElementById('formCard' + form.getAttribute('data-uid'));
+        // Found by class, not id: the first full card on a page is given the
+        // legacy id "consultationFormCard" so old "Get a Callback" anchors still
+        // land, and a 'bare' instance has no wrapper at all.
+        var card       = form.closest('.bigin-form');
         var ccWrap     = form.querySelector('[data-cc]');
         var ccFlag     = form.querySelector('[data-cc-flag]');
         var ccCode     = form.querySelector('[data-cc-code]');

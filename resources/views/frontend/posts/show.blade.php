@@ -1166,9 +1166,14 @@
           <aside class="faq-expanded__aside">
             <h2 class="faq-expanded__title" id="pbdFaqHeading">{{ $post->faq_title ?: 'Frequently asked questions' }}</h2>
             <p class="faq-expanded__lead">{{ $post->faq_subtitle ?: 'Answers to the questions we hear most from clients on this topic.' }}</p>
+            {{-- Blog leads are not service leads: the reader was on an article,
+                 not a service page. Carry the post title so the team knows what
+                 they were reading, and say plainly that the service still has to
+                 be asked for. --}}
             @include('partials.bigin-form', [
                 'variant'  => 'compact',
-                'service'  => 'Show',
+                'service'  => 'Blog - '.\Illuminate\Support\Str::limit($post->title, 60),
+                'note'     => 'This enquiry came from the blog post "'.$post->title.'", not from a service page - please ask the client which service they are looking for.',
             ])
           </aside>
           <div class="faq-expanded__list">

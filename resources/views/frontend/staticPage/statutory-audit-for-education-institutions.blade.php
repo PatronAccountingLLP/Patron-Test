@@ -1171,23 +1171,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Education Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'statutory-audit-for-education-institutions', 'label' => 'Statutory Audit (Education Institutions)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trust-registration', 'label' => 'Trust Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration', 'label' => 'Society Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => 'Section 12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => 'Section 80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Education Audit',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2124,7 +2111,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Education Institution Audit</h2>
                     <p class="faq-expanded__lead">Common questions on audit applicability for schools and colleges, Section 10(23C) vs Section 12A exemption, tuition fee recognition, government grant accounting, 85 percent application rule, edtech tax status, Form 10B vs Form 10BB, and CARO applicability to Section 8 companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Education Institution Audit'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Education Audit',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

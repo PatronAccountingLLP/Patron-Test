@@ -289,19 +289,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - CSR Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'csr-compliance-section-135-and-csr-1-csr-2', 'label' => 'CSR Compliance (Section 135)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'secretarial-audit', 'label' => 'Secretarial Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-registration', 'label' => 'NGO Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'compliance-calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'Pvt and LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'CSR Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1032,7 +1023,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on CSR applicability under Section 135, the 2 percent spend, Forms CSR-1 and CSR-2, unspent amounts, the CSR committee, Schedule VII, impact assessment and the penalty.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'CSR Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

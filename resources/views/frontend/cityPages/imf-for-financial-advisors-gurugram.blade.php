@@ -830,19 +830,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF for Financial Advisors in Gurugram',
-                        'city' => 'Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'imf-for-financial-advisors/gurugram', 'label' => 'IMF for Financial Advisors in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration', 'label' => 'IRDA IMF Business Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process', 'label' => 'IMF IRDAI Registration Process', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification &amp; ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF for Financial Advisors in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1430,7 +1422,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF for Financial Advisors in Gurugram</h2>
                     <p class="faq-expanded__lead">Answers to the questions Gurugram advisors ask most before setting up an IMF.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'IMF for Financial Advisors in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF for Financial Advisors in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

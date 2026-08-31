@@ -297,18 +297,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Proprietorship Registration in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'proprietorship-registration/delhi', 'label' => 'Proprietorship in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration/delhi', 'label' => 'Udyam Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'one-person-company-registration/delhi', 'label' => 'OPC Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Proprietorship Registration in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -707,7 +700,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Proprietorship in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about proprietorship registration, GST, Udyam, Shop Act, and compliance in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Proprietorship in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Proprietorship Registration in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

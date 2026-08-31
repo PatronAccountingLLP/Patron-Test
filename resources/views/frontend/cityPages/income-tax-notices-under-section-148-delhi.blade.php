@@ -257,18 +257,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Notice S.148 in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-notices-under-section-148/delhi', 'label' => 'IT Notice S.148 in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3/delhi', 'label' => 'Scrutiny S.143(3) in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-142-1/delhi', 'label' => 'IT Notice S.142(1) in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156/delhi', 'label' => 'IT Demand S.156 in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Notice S.148 in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -751,7 +744,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Section 147 Reassessment in Delhi</h2>
                     <p class="faq-expanded__lead">Expert answers about income tax reassessment under Section 147/148 in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Section 147 Reassessment in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Notice S.148 in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

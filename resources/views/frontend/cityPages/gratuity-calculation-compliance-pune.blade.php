@@ -297,20 +297,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Gratuity Compliance in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gratuity-calculation-compliance/pune', 'label' => 'Gratuity Compliance in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services/pune', 'label' => 'Payroll Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-calculation-compliance/pune', 'label' => 'ESIC Compliance in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/pune', 'label' => 'GST Returns in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/pune', 'label' => 'Pvt Ltd Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/pune', 'label' => 'Trademark Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Gratuity Compliance in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -720,7 +711,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Gratuity Calculations & Compliance in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to the most common questions about gratuity compliance in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Gratuity Calculations & Compliance in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Gratuity Compliance in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

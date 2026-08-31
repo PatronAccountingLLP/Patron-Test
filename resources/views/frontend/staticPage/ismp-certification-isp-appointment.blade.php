@@ -1114,23 +1114,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ISMP Certification and ISP Appointment',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification and ISP Appointment', 'selected' => true, 'disabled' => false],
-                            ['value' => 'insurance-marketing-firm-registration', 'label' => 'IMF Registration (Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-incorporation-services', 'label' => 'IMF Incorporation Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process', 'label' => 'IRDAI IMF Registration Process', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-registration', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return-filing', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-and-bookkeeping', 'label' => 'Accounting and Bookkeeping', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ISMP Certification and ISP Appointment',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2381,7 +2368,10 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - ISMP and ISP</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions on ISMP / Principal Officer certification and ISP / Insurance Sales Person appointment - 50-hour and 25-hour training programmes, IRDAI-approved institutes, sectoral specialisations (Life / General / Health), eligibility criteria, Patron coordination scope, and certification validity.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'ISMP and ISP'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ISMP Certification and ISP Appointment',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

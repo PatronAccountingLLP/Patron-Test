@@ -274,19 +274,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Defective Return Notice',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-notice-for-defective-return', 'label' => 'Defective Return Notice u/s 139(9)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice', 'label' => 'Income Tax Notice Assistance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-142-1', 'label' => 'Section 142(1) Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3', 'label' => 'Section 143(3) Scrutiny', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Defective Return Notice',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -774,7 +765,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Section 139(9) Defective Return</h2>
                     <p class="faq-expanded__lead">Get answers to the most common questions about defective return notices, how to respond, deadlines, penalties, and the e-Proceedings process.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Section 139(9) Defective Return'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Defective Return Notice',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

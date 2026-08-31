@@ -295,21 +295,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Restaurants',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-restaurants', 'label' => 'ITR for Restaurants (current)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return (overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-restaurants-food-businesses', 'label' => 'GST for Restaurants', 'selected' => false, 'disabled' => false],
-                            ['value' => 'hospitality-sector-accounting-services', 'label' => 'Hospitality Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-registration', 'label' => 'FSSAI Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Restaurants',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1297,7 +1286,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on ITR form selection for restaurants and cloud kitchens, Section 44AD presumptive eligibility, Section 44AB tax audit threshold, service charge versus tip taxability, Section 32 kitchen equipment depreciation rates, cloud kitchen ITC eligibility, Section 9(5) CGST aggregator treatment for Swiggy and Zomato, and Section 269ST cash receipt limits for AY 2026-27.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Restaurants',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

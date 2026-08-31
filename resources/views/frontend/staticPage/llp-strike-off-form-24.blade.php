@@ -1172,20 +1172,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Strike-Off (Form 24)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-strike-off-form-24', 'label' => 'LLP Strike-Off Form 24 (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'strike-off-private-limited-company', 'label' => 'Pvt Ltd Strike-Off (STK-2)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-compliance', 'label' => 'LLP Compliance Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-annual-compliance', 'label' => 'LLP Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-form-11-form-8-filing', 'label' => 'Form 11 + Form 8 Backlog', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'Pvt Ltd vs LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'compliance-calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Strike-Off (Form 24)',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2214,7 +2204,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on the Form 24 voluntary strike-off procedure under Section 75 of LLP Act 2008, the C-PACE 2024 amendment (G.S.R. 475(E)), CCFS-2026 LLP exclusion, the Form 24 vs STK-2 distinction, 12-month inactivity rule, NIL CA statement 30-day window, STK-3/STK-4 format practice, and Patron's fixed-fee Rs 12,000-Rs 20,000 pricing structure.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Strike-Off (Form 24)',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

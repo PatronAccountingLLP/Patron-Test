@@ -840,19 +840,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF IRDAI Registration in Mumbai',
-                        'city' => 'Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'imf-irdai-registration-process/mumbai', 'label' => 'IRDAI IMF Registration Process in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration/mumbai', 'label' => 'IRDA IMF Business Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment/mumbai', 'label' => 'ISMP Certification &amp; ISP Appointment in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services/mumbai', 'label' => 'IMF Compliance Retainer in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-services', 'label' => 'IMF Services (All)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF IRDAI Registration in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1415,7 +1407,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IRDAI IMF Registration in Mumbai</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about the IRDAI IMF registration process for existing entities in Mumbai.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'IRDAI IMF Registration Process in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF IRDAI Registration in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

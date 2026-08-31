@@ -297,20 +297,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Service Sector Payroll in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-service-sector/delhi', 'label' => 'Service Sector Payroll in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-processing-and-management/delhi', 'label' => 'Payroll Processing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/delhi', 'label' => 'Accounting Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit/delhi', 'label' => 'Statutory Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing/delhi', 'label' => 'TDS Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Service Sector Payroll in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -709,7 +700,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Service Sector Payroll in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about CTC structuring, dual TDS, ESOP, and service sector compliance in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Service Sector Payroll in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Service Sector Payroll in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

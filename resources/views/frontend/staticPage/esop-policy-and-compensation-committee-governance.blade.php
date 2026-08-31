@@ -325,19 +325,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP Governance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ESOP Governance', 'label' => 'ESOP Governance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Management and Compliance', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Corporate Filings', 'label' => 'ESOP Corporate Filings', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd Company Compliance', 'label' => 'Pvt Ltd Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Services', 'label' => 'ESOP Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP Governance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1004,7 +995,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the Nomination and Remuneration Committee, who must constitute it, composition, chairing, meetings and penalties.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP Governance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

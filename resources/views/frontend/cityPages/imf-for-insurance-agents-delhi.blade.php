@@ -852,19 +852,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF for Insurance Agents in Delhi',
-                        'city' => 'Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'imf-for-insurance-agents/delhi', 'label' => 'IMF for Insurance Agents in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'imf-services/delhi', 'label' => 'IMF Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration', 'label' => 'IRDA IMF Business Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process/delhi', 'label' => 'IMF IRDAI Registration Process in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF for Insurance Agents in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1454,7 +1446,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF for Insurance Agents in Delhi</h2>
                     <p class="faq-expanded__lead">Answers to the questions agents and POSPs ask most before upgrading to an IMF.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'IMF for Insurance Agents in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF for Insurance Agents in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

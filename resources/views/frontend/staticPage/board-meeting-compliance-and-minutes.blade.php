@@ -289,20 +289,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Board Meeting Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'board-meeting-compliance-and-minutes', 'label' => 'Board Meeting Compliance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'secretarial-audit', 'label' => 'Secretarial Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'compliance-calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'Pvt and LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'Director KYC (DIR-3)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Board Meeting Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1033,7 +1023,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on board meeting frequency, the 120-day gap, notice, quorum, SS-1 minutes and video conferencing.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Board Meeting Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

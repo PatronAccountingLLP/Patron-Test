@@ -1154,18 +1154,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-companies',
-                    'options'  => [
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'net-worth-certificate-for-directors-fit-and-proper' => 'Net Worth Certificate for Directors',
-                        'turnover-certificate-for-tender' => 'Turnover Certificate for Tender',
-                        'statutory-audit' => 'Statutory Audit',
-                        'tax-audit' => 'Tax Audit',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Companies',
+                    'city'     => 'Delhi',
                 ])
             </div>
         </div>
@@ -1938,7 +1929,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on who can issue, the Section 2(57) computation, cost, UDIN, SEBI use, and validity.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Companies',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

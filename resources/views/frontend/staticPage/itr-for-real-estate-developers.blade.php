@@ -243,21 +243,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Real Estate Developers',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-real-estate-developers', 'label' => 'ITR for Real Estate Developers', 'selected' => true, 'disabled' => false],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-property-sale', 'label' => 'ITR for Property Sale', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'construction-and-real-estate-accounting-services', 'label' => 'Real Estate Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Real Estate Developers',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1245,7 +1234,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions real estate developers and builders ask before filing ITR.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Real Estate Developers',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1114,22 +1114,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Hospitality Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-hospitality', 'label' => 'Payroll Services for Hospitality', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services (Overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-restaurants-food-businesses', 'label' => 'GST Returns for Restaurants', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pt-returns', 'label' => 'Professional Tax Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Hospitality Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2080,7 +2068,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Hospitality Payroll FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on CCPA service charge rules, F&B GST regime, multi-shift differentials, daily-wage EPF / ESI, ESI ceiling and the 2-day FnF SLA - answered by the Patron CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Hospitality Payroll FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Hospitality Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

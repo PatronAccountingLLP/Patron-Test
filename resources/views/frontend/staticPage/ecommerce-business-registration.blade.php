@@ -278,21 +278,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Ecommerce Business Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ecommerce-business-registration', 'label' => 'Ecommerce Business Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'iec-registration', 'label' => 'IEC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration', 'label' => 'Startup (DPIIT) Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-e-commerce-operator', 'label' => 'GST Returns for E-Commerce', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services-for-e-commerce-industry', 'label' => 'E-Commerce Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Ecommerce Business Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -998,7 +987,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about registering an e-commerce business, mandatory GST under Section 24, TCS and the right structure.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Ecommerce Business Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

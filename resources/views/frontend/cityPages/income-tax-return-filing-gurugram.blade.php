@@ -297,20 +297,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR Filing in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-return-filing/gurugram', 'label' => 'ITR Filing in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/gurugram', 'label' => 'GST Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/gurugram', 'label' => 'Payroll Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tan-registration/gurugram', 'label' => 'TAN Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pan-registration/gurugram', 'label' => 'PAN Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/gurugram', 'label' => 'Pvt Ltd Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR Filing in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -715,7 +706,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ITR Filing in Gurugram</h2>
                     <p class="faq-expanded__lead">Answers to common questions about income tax return filing in Gurugram. Call +91 945 945 6700.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'ITR Filing in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR Filing in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

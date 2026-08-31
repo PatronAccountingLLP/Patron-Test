@@ -972,22 +972,9 @@
                     </div>
 
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - GSTAT Appeal Filing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing', 'label' => 'GSTAT Appeal Filing', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GST Notice Response', 'label' => 'GST Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Returns Filing', 'label' => 'GST Returns Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Notice', 'label' => 'Income Tax Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return Filing', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Company Registration', 'label' => 'Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Annual Compliance (ROC Filing)', 'label' => 'Annual Compliance (ROC Filing)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Accounting & Bookkeeping', 'label' => 'Accounting &amp; Bookkeeping', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'GSTAT Appeal Filing',
                     ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>

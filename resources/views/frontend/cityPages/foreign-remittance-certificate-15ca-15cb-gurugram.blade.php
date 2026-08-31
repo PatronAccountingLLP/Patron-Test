@@ -1162,18 +1162,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Foreign Remittance Certificate (15CA / 15CB)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'foreign-remittance-certificate-15ca-15cb', 'label' => 'Foreign Remittance Certificate (15CA / 15CB)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fdi-compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fla-returns', 'label' => 'FLA Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return', 'label' => 'TDS Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Foreign Remittance Certificate (15CA / 15CB)',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1966,7 +1959,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on when 15CB is required, the Rs 5 lakh threshold, Rule 37BB exemptions, the 2026 forms, and DTAA.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Foreign Remittance Certificate (15CA / 15CB)',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

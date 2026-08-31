@@ -1155,18 +1155,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-startup-india-recognition',
-                    'options'  => [
-                        'net-worth-certificate-for-startup-india-recognition' => 'Net Worth Certificate for Startup India Recognition',
-                        'startup-registration' => 'Startup Registration',
-                        'statutory-audit' => 'Statutory Audit',
-                        'itr-for-companies' => 'ITR for Companies',
-                        'private-limited-company-registration' => 'Private Limited Company Registration',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-business-loan' => 'Net Worth Certificate for Business Loan',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Startup India Recognition',
+                    'city'     => 'Gurugram',
                 ])
             </div>
         </div>
@@ -1941,7 +1932,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on whether DPIIT needs a net worth certificate, the 80-IAC documents and tax holiday, investor due diligence, and SISFS.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Startup India Recognition',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

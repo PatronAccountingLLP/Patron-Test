@@ -291,20 +291,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Copyright Objection in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-objection/pune', 'label' => 'Copyright Objection in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-assignment/pune', 'label' => 'Copyright Assignment in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/pune', 'label' => 'Trademark Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration/pune', 'label' => 'Company Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/pune', 'label' => 'Accounting Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-filing/pune', 'label' => 'Income Tax Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/pune', 'label' => 'Startup Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Copyright Objection in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -687,7 +678,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Copyright Objection in Pune</h2>
                     <p class="faq-expanded__lead">Answers about discrepancy letter reply, 30-day deadline, hearing, third-party objection, costs, and resolution for Pune copyright applicants.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Copyright Objection in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Copyright Objection in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

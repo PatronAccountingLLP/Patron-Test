@@ -375,22 +375,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - E-Way Bill',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'E-Way Bill Generation and Compliance', 'label' => 'E-Way Bill Generation and Compliance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GST Returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Annual Returns', 'label' => 'GST Annual Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Refund', 'label' => 'GST Refund', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Notice', 'label' => 'GST Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tally Accounting', 'label' => 'Tally Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Zoho Books Accounting', 'label' => 'Zoho Books Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'E-Way Bill',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1409,7 +1397,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions on thresholds, Part A and B, validity, extension, cancellation, the 180-day rule, Section 129 penalties, and the e-way bill portals.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'E-Way Bill',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

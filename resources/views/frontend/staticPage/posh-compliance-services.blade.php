@@ -271,20 +271,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - POSH Compliance Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'posh-compliance-services', 'label' => 'POSH Compliance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Pvt Ltd Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration', 'label' => 'Startup Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-processing-and-management-services', 'label' => 'Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'POSH Compliance Services',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -663,7 +653,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - POSH Compliance</h2>
                     <p class="faq-expanded__lead">Expert answers to common questions about POSH Act compliance, IC constitution, training, and 2025 amendments.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'POSH Compliance'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'POSH Compliance Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

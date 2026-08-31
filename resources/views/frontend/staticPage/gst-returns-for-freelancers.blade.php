@@ -280,20 +280,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Returns for Freelancers',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-returns-for-freelancers', 'label' => 'GST Returns (Freelancers)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns (All)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice', 'label' => 'GST Notice Reply', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return-filing', 'label' => 'Income Tax Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'bookkeeping', 'label' => 'Bookkeeping', 'selected' => false, 'disabled' => false],
-                            ['value' => 'iec-registration', 'label' => 'IEC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Returns for Freelancers',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -671,7 +661,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Freelancer GST Returns</h2>
                     <p class="faq-expanded__lead">Expert answers about GST return filing for freelancers, export LUT, ITC claims, and compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Freelancer GST Returns'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Returns for Freelancers',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

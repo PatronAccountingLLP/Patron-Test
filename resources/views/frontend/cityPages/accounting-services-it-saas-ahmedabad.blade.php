@@ -406,18 +406,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'accounting-services-it-saas/ahmedabad',
-                    'options'  => [
-                        'accounting-services-it-saas/ahmedabad' => 'SaaS Accounting in Ahmedabad',
-                        'accounting-services' => 'Accounting Services (All)',
-                        'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
-                        'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',
-                        'backlog-bookkeeping-catch-up-services' => 'Backlog Bookkeeping Catch-up',
-                        'financial-statement-preparation-services' => 'Financial Statement Preparation',
-                        'mis-reporting-services' => 'MIS Reporting',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'SaaS Accounting in Ahmedabad',
+                    'city'     => 'Ahmedabad',
                 ])
             </div>
         </div>
@@ -930,10 +921,12 @@
                     <h2 class="faq-expanded__title">SaaS Accounting in Ahmedabad FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on saas accounting for Ahmedabad businesses - scope, local compliance, documents and pricing.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
-                    @include('partials.faq-enquiry-form', [
-                        'enquiryTitle'   => 'Ask about your books in Ahmedabad',
-                        'enquirySub'     => 'Send your requirement for a scoped quote.',
-                        'enquiryService' => 'SaaS Accounting in Ahmedabad',
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'SaaS Accounting in Ahmedabad',
+                        'city'     => 'Ahmedabad',
+                        'title'    => 'Ask about your books in Ahmedabad',
+                        'subtitle' => 'Send your requirement for a scoped quote.',
                     ])
                 </aside>
                 <div class="faq-expanded__list">

@@ -417,18 +417,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'ngo-and-non-profit-accounting-services/gurugram',
-                    'options'  => [
-                        'ngo-and-non-profit-accounting-services/gurugram' => 'NGO and Non-Profit Accounting in Gurugram',
-                        'accounting-services' => 'Accounting Services (All)',
-                        'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
-                        'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',
-                        'backlog-bookkeeping-catch-up-services' => 'Backlog Bookkeeping Catch-up',
-                        'financial-statement-preparation-services' => 'Financial Statement Preparation',
-                        'mis-reporting-services' => 'MIS Reporting',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'NGO and Non-Profit Accounting in Gurugram',
+                    'city'     => 'Gurugram',
                 ])
             </div>
         </div>
@@ -937,10 +928,12 @@
                     <h2 class="faq-expanded__title">NGO and Non-Profit Accounting in Gurugram FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on ngo and non-profit accounting for Gurugram businesses - scope, local compliance, documents and pricing.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
-                    @include('partials.faq-enquiry-form', [
-                        'enquiryTitle'   => 'Ask about your books in Gurugram',
-                        'enquirySub'     => 'Send your requirement for a scoped quote.',
-                        'enquiryService' => 'NGO and Non-Profit Accounting in Gurugram',
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'NGO and Non-Profit Accounting in Gurugram',
+                        'city'     => 'Gurugram',
+                        'title'    => 'Ask about your books in Gurugram',
+                        'subtitle' => 'Send your requirement for a scoped quote.',
                     ])
                 </aside>
                 <div class="faq-expanded__list">

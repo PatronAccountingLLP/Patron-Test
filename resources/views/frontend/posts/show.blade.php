@@ -1166,7 +1166,10 @@
           <aside class="faq-expanded__aside">
             <h2 class="faq-expanded__title" id="pbdFaqHeading">{{ $post->faq_title ?: 'Frequently asked questions' }}</h2>
             <p class="faq-expanded__lead">{{ $post->faq_subtitle ?: 'Answers to the questions we hear most from clients on this topic.' }}</p>
-            @include('partials.faq-enquiry-form', ['enquiryService' => ($primaryCategory->name ?? 'Accounting & Bookkeeping')])
+            @include('partials.bigin-form', [
+                'variant'  => 'compact',
+                'service'  => 'Show',
+            ])
           </aside>
           <div class="faq-expanded__list">
             @foreach($post->faq_items as $faq)

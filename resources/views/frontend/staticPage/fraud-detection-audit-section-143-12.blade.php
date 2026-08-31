@@ -1059,22 +1059,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Fraud Detection Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Fraud Detection Audit', 'label' => 'Fraud Detection Audit / Section 143(12)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Statutory Audit', 'label' => 'Statutory Audit (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Internal Audit', 'label' => 'Internal Audit (Section 138)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IFC Audit', 'label' => 'Internal Financial Controls Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'CARO 2020 Reporting', 'label' => 'CARO 2020 Reporting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Forensic Audit', 'label' => 'Forensic Audit Engagement', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ADT-4 Reporting', 'label' => 'Section 143(12) ADT-4 Reporting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Vigil Mechanism', 'label' => 'Vigil Mechanism Setup (Sec 177(9))', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Due Diligence', 'label' => 'Due Diligence', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Fraud Detection Audit',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1651,7 +1639,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Fraud Detection Audit Section 143(12)</h2>
                     <p class="faq-expanded__lead">Common questions on Section 143(12) reporting, the Rs 1 crore threshold, Form ADT-4, CARO 3(xi), whistleblower handling, forensic audit, and Section 447 consequences.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Fraud Detection Audit Section 143(12)'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Fraud Detection Audit',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

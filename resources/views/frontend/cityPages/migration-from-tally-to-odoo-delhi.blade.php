@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Tally to Odoo Migration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'migration-from-tally-to-odoo/delhi', 'label' => 'Tally to Odoo Migration in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'odoo-accounting/delhi', 'label' => 'Odoo Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/delhi', 'label' => 'Tally Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/delhi', 'label' => 'Accounting Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/delhi', 'label' => 'GST Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'backlog-bookkeeping-catch-up-services/delhi', 'label' => 'Backlog Bookkeeping in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Tally to Odoo Migration',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1282,7 +1274,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Tally to Odoo Migration in Delhi</h2>
                     <p class="faq-expanded__lead">Real questions from Delhi founders and finance teams about moving from Tally to the Odoo ERP.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Tally to Odoo Migration in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Tally to Odoo Migration',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

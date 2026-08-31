@@ -1165,21 +1165,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Small Company Audit Exemption',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Small Company Audit Exemption', 'label' => 'Small Company Audit Exemption', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Statutory Audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Internal Audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Secretarial Audit', 'label' => 'Secretarial Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Small Company Audit Exemption',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1966,7 +1955,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions on Small Company Audit Exemption</h2>
                     <p class="faq-expanded__lead">Pulled from live People Also Ask boxes for the primary keyword. Answers 40 to 80 words for FAQPage schema parity.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Small Company Audit Exemption'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Small Company Audit Exemption',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

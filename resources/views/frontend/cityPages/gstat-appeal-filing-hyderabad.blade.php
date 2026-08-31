@@ -395,29 +395,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Hyderabad',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Hyderabad', 'label' => 'GSTAT Appeal Filing in Hyderabad', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Zoho Books Accounting in Hyderabad', 'label' => 'Zoho Books Accounting in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Hyderabad', 'label' => 'Payroll Services in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Hyderabad', 'label' => 'LLP Incorporation in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NGO Registration in Hyderabad', 'label' => 'NGO Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Hyderabad', 'label' => 'Private Limited Company Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Hyderabad', 'label' => 'FSSAI Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Hyderabad', 'label' => 'GST Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IEC Registration in Hyderabad', 'label' => 'IEC Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Hyderabad', 'label' => 'PAN Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Hyderabad', 'label' => 'Startup Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Hyderabad', 'label' => 'Udyam Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Hyderabad', 'label' => 'Trademark Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Hyderabad', 'label' => 'Income Tax Return in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Internal Audit in Hyderabad', 'label' => 'Internal Audit in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Hyderabad', 'label' => 'Stock Audit in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Hyderabad',
+                                            'city'     => 'Hyderabad',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -829,7 +811,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Hyderabad'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Hyderabad',
+                        'city'     => 'Hyderabad',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

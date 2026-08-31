@@ -274,18 +274,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Demand Section 156',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-demand-under-section-156', 'label' => 'IT Demand Section 156', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3', 'label' => 'IT Notice Section 143(3)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-148', 'label' => 'IT Notice Section 148', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice', 'label' => 'Other IT Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Demand Section 156',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -774,7 +766,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Section 156 Demand Notice</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about income tax demand notices under Section 156, payment timelines, interest, penalties, and dispute options.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Section 156 Demand Notice'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Demand Section 156',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

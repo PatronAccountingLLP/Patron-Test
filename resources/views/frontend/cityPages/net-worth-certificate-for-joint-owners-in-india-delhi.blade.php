@@ -1083,15 +1083,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-joint-owners-in-india/delhi',
-                    'options'  => [
-                        'net-worth-certificate-for-joint-owners-in-india/delhi' => 'Net Worth Certificate for Joint Owners in Delhi',
-                        'secretarial-audit/delhi' => 'Secretarial Audit in Delhi',
-                        'annual-return-filing/delhi' => 'Annual Return Filing in Delhi',
-                        'roc-compliance/delhi' => 'ROC Compliance in Delhi',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Joint Owners in Delhi',
+                    'city'     => 'Delhi',
                 ])
             </div>
         </div>
@@ -1554,7 +1548,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Net Worth Certificate for Joint Owners in Delhi</h2>
                     <p class="faq-expanded__lead">Expert answers about net worth certificate for joint owners under Companies Act in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Net Worth Certificate for Joint Owners in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Joint Owners in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

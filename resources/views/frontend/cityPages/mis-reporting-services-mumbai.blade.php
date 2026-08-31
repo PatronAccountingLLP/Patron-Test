@@ -823,19 +823,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - MIS Reporting',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'mis-reporting-services/mumbai', 'label' => 'MIS Reporting in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/mumbai', 'label' => 'Accounting Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/mumbai', 'label' => 'GST Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/mumbai', 'label' => 'Income Tax Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/mumbai', 'label' => 'Tally Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/mumbai', 'label' => 'Zoho Books Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'MIS Reporting',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1296,7 +1288,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: MIS Reporting in Mumbai</h2>
                     <p class="faq-expanded__lead">Common questions from Mumbai promoters, finance heads, and teams about monthly and quarterly MIS reporting.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'MIS Reporting in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'MIS Reporting',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -280,20 +280,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Director Resignation in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'resignation-of-director/pune', 'label' => 'Director Resignation in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'appointment-of-director/pune', 'label' => 'Director Appointment in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc/pune', 'label' => 'Director KYC in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'transfer-of-shares/pune', 'label' => 'Transfer of Shares in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-roc-filing/pune', 'label' => 'Annual ROC Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/pune', 'label' => 'Startup Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Director Resignation in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -703,7 +694,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Resignation of Director in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to the most common questions about director resignation in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Resignation of Director in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Director Resignation in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

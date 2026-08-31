@@ -212,18 +212,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Legal Drafting',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'legal-drafting-service', 'label' => 'Legal Drafting Service', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-india-registration', 'label' => 'Startup India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fdi-compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Legal Drafting',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -715,7 +707,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Legal Drafting Service</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about legal drafting, contract enforceability, stamp duty, electronic contracts, and breach remedies in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Legal Drafting Service'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Legal Drafting',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

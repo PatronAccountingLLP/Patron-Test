@@ -280,20 +280,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Public Limited Company',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'public-limited-company-registration/mumbai', 'label' => 'Public Ltd Company in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/mumbai', 'label' => 'Pvt Ltd in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-registration/mumbai', 'label' => 'LLP Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/mumbai', 'label' => 'Income Tax Return in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-roc-filing/mumbai', 'label' => 'Annual RoC Filing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'opc-registration/mumbai', 'label' => 'OPC Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Public Limited Company',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -883,7 +874,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Public Limited Company Registration in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about public company formation, requirements, governance, SEBI compliance, fundraising, costs, and the difference from private limited for Mumbai businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Public Limited Company Registration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Public Limited Company',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

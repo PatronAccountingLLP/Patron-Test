@@ -274,19 +274,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Opposition',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-opposition/mumbai', 'label' => 'Trademark Opposition in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-objection/mumbai', 'label' => 'Trademark Objection in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-hearing/mumbai', 'label' => 'Trademark Hearing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-infringement/mumbai', 'label' => 'Trademark Infringement in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-notice-reply/mumbai', 'label' => 'Trademark Notice Reply in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Opposition',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -866,7 +858,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Trademark Opposition in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about trademark opposition, who can file, deadlines, grounds, counter-statement, and appeals for Mumbai brand owners and applicants.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Trademark Opposition in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Opposition',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

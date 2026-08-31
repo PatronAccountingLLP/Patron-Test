@@ -1079,18 +1079,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Healthcare NGO Services in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ngo-services-for-healthcare', 'label' => 'Healthcare NGO &amp; Charitable Hospital Services', 'selected' => true, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-and-non-profit-accounting-services', 'label' => 'NGO &amp; Non-Profit Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Healthcare NGO Services in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1926,7 +1919,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from charitable hospitals and medical-relief NGOs evaluating tax exemption, 80G, FCRA, CSR and annual compliance.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Healthcare NGO Services in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

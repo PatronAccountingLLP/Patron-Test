@@ -322,9 +322,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'serviceSlug'  => 'accounting-services-for-startups',
-                    'serviceLabel' => 'Startup Accounting',
+                @include('partials.bigin-form', [
+                    'service'  => 'Startup Accounting',
                 ])
             </div>
         </div>
@@ -1042,10 +1041,11 @@
                     <h2 class="faq-expanded__title">Startup Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on startup accounting scope, process, documents and pricing for Indian businesses.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
-                    @include('partials.faq-enquiry-form', [
-                        'enquiryTitle'   => 'Ask about your books',
-                        'enquirySub'     => 'Send your requirement for a scoped quote.',
-                        'enquiryService' => 'Startup Accounting',
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Startup Accounting',
+                        'title'    => 'Ask about your books',
+                        'subtitle' => 'Send your requirement for a scoped quote.',
                     ])
                 </aside>
                 <div class="faq-expanded__list">

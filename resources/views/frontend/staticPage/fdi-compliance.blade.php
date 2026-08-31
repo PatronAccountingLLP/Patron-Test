@@ -286,18 +286,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FDI Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fdi-compliance', 'label' => 'FDI Compliance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'issue-of-shares', 'label' => 'Issue of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'transfer-of-shares', 'label' => 'Transfer of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-india-registration', 'label' => 'Startup India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FDI Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -789,7 +781,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - FDI Compliance India</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about FC-GPR, FLA return, FEMA penalties, valuation, Press Note 3, and FIRMS portal filing.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'FDI Compliance India'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FDI Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -303,21 +303,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Handicraft Exporter Refund',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-refund-for-handicraft-exporters', 'label' => 'Handicraft Exporter Refund', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-refund', 'label' => 'GST Refund', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-exporters', 'label' => 'GSTAT Appeal - Exporters', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-filing', 'label' => 'GSTAT Appeal Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-annual-returns', 'label' => 'GST Annual Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Handicraft Exporter Refund',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1139,7 +1128,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about GST refund for Indian handicraft exporters - covering Notification 3/2018-IT exemption for sub-threshold artisans, Notification 21/2018-CTR handicraft HSN list, Rule 89(5) IDS refund for 5 and 12 percent output rates, EPCH RCMC integration, and cluster-specific patterns across Moradabad, Jodhpur, Jaipur, Saharanpur, Bhuj, and Srinagar.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Handicraft Exporter Refund',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

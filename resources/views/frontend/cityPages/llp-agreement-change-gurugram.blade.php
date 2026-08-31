@@ -291,20 +291,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Agreement Change in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-agreement-change/gurugram', 'label' => 'LLP Agreement Change in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-registration/gurugram', 'label' => 'LLP Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-compliance/gurugram', 'label' => 'LLP Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'legal-drafting/gurugram', 'label' => 'Legal Drafting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fdi-compliance/gurugram', 'label' => 'FDI Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc/gurugram', 'label' => 'Director KYC in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Agreement Change in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -703,7 +694,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - LLP Agreement Change in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about LLP agreement amendment, supplementary deed, Form 3, stamp duty, and foreign partner admission for Gurugram LLPs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'LLP Agreement Change in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Agreement Change in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

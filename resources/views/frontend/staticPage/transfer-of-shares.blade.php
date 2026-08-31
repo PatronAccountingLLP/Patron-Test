@@ -267,18 +267,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Transfer of Shares',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'transfer-of-shares', 'label' => 'Transfer of Shares', 'selected' => true, 'disabled' => false],
-                            ['value' => 'issue-of-shares', 'label' => 'Issue of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'increase-in-authorised-share-capital', 'label' => 'Increase in Share Capital', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Transfer of Shares',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -763,7 +755,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Transfer of Shares</h2>
                     <p class="faq-expanded__lead">Get answers about Form SH-4, stamp duty, transfer vs transmission, FEMA compliance, and share transfer deadlines.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Transfer of Shares'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Transfer of Shares',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

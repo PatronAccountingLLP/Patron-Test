@@ -1172,20 +1172,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Pre-Revenue Startup Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'small-company-compliance-startups-pre-revenue', 'label' => 'Pre-Revenue Startup Compliance (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'startup-registration', 'label' => 'Startup Registration (Predecessor)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance (Graduation)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-compliance-dormant', 'label' => 'Dormant Company Section 455', 'selected' => false, 'disabled' => false],
-                            ['value' => 'strike-off-private-limited-company', 'label' => 'Strike Off Pvt Ltd (STK-2)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'condonation-of-delay-roc-filings', 'label' => 'Condonation of Delay (Recovery)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-annual-compliance', 'label' => 'Small Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Pre-Revenue Startup Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2316,7 +2306,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real founder objections on pre-revenue startup compliance: the 'no revenue means no compliance' misconception, INC-20A 180-day deadline under Section 10A, mandatory audit at zero revenue under Section 139, Section 446B 50% penalty reduction (not audit waiver), three optionality paths (active / dormant / strike off), the cumulative cost of ignoring compliance, CCFS-2026 amnesty window leverage, and graduation to standard active compliance when revenue starts.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Pre-Revenue Startup Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

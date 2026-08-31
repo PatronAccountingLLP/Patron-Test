@@ -1114,22 +1114,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Retail Chain Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-retail-chains', 'label' => 'Payroll Services for Retail Chains', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services (Overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-restaurants-food-businesses', 'label' => 'GST for Restaurants &amp; F&amp;B', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pt-returns', 'label' => 'Professional Tax Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Retail Chain Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2068,7 +2056,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Retail Chain Payroll FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 17(2) Code on Wages 2-day FnF rule, state Shops and Establishments Acts, multi-state minimum wage variance, Code on Wages 50 percent basic and gratuity for fixed-term employees - answered by the Patron CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Retail Chain Payroll FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Retail Chain Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

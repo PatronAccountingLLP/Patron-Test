@@ -296,18 +296,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Brand Copyright in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'brand-copyright-registration/delhi', 'label' => 'Brand Copyright in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration/delhi', 'label' => 'Trademark Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'design-registration/delhi', 'label' => 'Design Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'patent-registration/delhi', 'label' => 'Patent Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/delhi', 'label' => 'Pvt Ltd Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Brand Copyright in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -706,7 +699,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Brand Copyright in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about copyright registration, logo protection, software copyright, and enforcement in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Brand Copyright in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Brand Copyright in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

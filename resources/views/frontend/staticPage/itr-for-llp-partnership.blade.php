@@ -294,21 +294,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for LLP and Partnership Firm',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-llp-partnership', 'label' => 'ITR for LLP and Partnership Firm (current)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return (overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business (Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Incorporation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'partnership-firm-registration', 'label' => 'Partnership Firm Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for LLP and Partnership Firm',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1301,7 +1290,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on LLP statutory audit Rs 40 lakh / Rs 25 lakh threshold under Section 34(4) of LLP Act 2008, the difference between LLP audit and Section 44AB tax audit, ITR-5 due dates for AY 2026-27, Section 40(b) Finance Act 2025 amended slabs, LLP exclusion from Section 44AD presumptive, Form 11 / Form 8 penalty regime, DIR-3 KYC requirement, and partnership-to-LLP tax-neutral conversion under Section 47(xiiib).</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for LLP and Partnership Firm',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

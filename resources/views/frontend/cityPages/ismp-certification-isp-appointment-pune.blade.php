@@ -507,18 +507,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ISMP Certification and ISP Appointment in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ismp-certification-isp-appointment/pune', 'label' => 'ISMP Certification &amp; ISP Appointment in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration/pune', 'label' => 'IMF Business Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process/pune', 'label' => 'IMF IRDAI Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services/pune', 'label' => 'IMF Compliance Retainer in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-for-insurance-agents/pune', 'label' => 'IMF for Insurance Agents in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ISMP Certification and ISP Appointment in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1114,7 +1107,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ISMP Certification &amp; ISP Appointment in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about ISMP certification and ISP appointment in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'ISMP Certification and ISP Appointment in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ISMP Certification and ISP Appointment in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

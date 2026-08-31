@@ -284,19 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - PF Returns',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pf-returns/mumbai', 'label' => 'PF Returns Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-calculation-compliance', 'label' => 'ESIC Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gratuity-calculations-compliance', 'label' => 'Gratuity Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'PF Returns',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -859,7 +851,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: PF Returns in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about EPFO office, ECR due date, contribution rates, late penalties, mandatory coverage, revamped ECR system, annual return, and voluntary registration for Mumbai employers.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'PF Returns in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'PF Returns',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

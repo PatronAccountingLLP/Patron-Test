@@ -275,21 +275,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Hospitality Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-the-hospitality-industry', 'label' => 'Hospitality Payroll', 'selected' => true, 'disabled' => false],
-                            ['value' => 'hospitality-sector-accounting-services', 'label' => 'Hospitality Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services (All Sectors)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-registration', 'label' => 'FSSAI Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Hospitality Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -701,7 +690,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Hospitality Payroll</h2>
                     <p class="faq-expanded__lead">Get answers about tip income TDS, service charge distribution, accommodation perquisite, EPF/ESI rates, Labour Code 2025 impact, seasonal staff, and night-shift compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Hospitality Payroll'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Hospitality Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

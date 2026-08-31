@@ -290,21 +290,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - 80G Registration Kolkata',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => '80g-registration/kolkata', 'label' => '80G Registration in Kolkata', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration/kolkata', 'label' => 'NGO Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration/kolkata', 'label' => 'Section 8 Company Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration/kolkata', 'label' => 'Society Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/kolkata', 'label' => 'Private Limited Company Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/kolkata', 'label' => 'Trademark Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/kolkata', 'label' => 'GST Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/kolkata', 'label' => 'Startup Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => '80G Registration Kolkata',
+                                            'city'     => 'Kolkata',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -991,7 +981,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - 80G Registration in Kolkata</h2>
                     <p class="faq-expanded__lead">Common questions about 80G registration for Kolkata NGOs, trusts, and Section 8 companies</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Kolkata', 'enquiryService' => '80G Registration in Kolkata'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '80G Registration Kolkata',
+                        'city'     => 'Kolkata',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -871,19 +871,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF Entity Setup in Delhi',
-                        'city' => 'Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'imf-private-limited-vs-llp/delhi', 'label' => 'IMF Entity Advisory (Pvt Ltd vs LLP) in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration/delhi', 'label' => 'IRDA IMF Business Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process/delhi', 'label' => 'IMF IRDAI Registration Process in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services/delhi', 'label' => 'IMF Compliance Retainer in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-services', 'label' => 'IMF Services (All)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF Entity Setup in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1449,7 +1441,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF Private Limited vs LLP in Delhi</h2>
                     <p class="faq-expanded__lead">Answers to common questions about choosing between a Private Limited Company and an LLP for your IMF.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'IMF Entity Advisory (Pvt Ltd vs LLP) in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF Entity Setup in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

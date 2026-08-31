@@ -249,20 +249,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Company Registration in USA',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'company-registration-in-usa', 'label' => 'Company Registration in USA', 'selected' => true, 'disabled' => false],
-                            ['value' => 'company-registration-in-uae', 'label' => 'Company Registration in UAE', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'us-bank-account-opening', 'label' => 'US Bank Account Opening', 'selected' => false, 'disabled' => false],
-                            ['value' => 'iec-registration', 'label' => 'Import Export Code (IEC)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration', 'label' => 'Startup Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Company Registration in USA',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -731,7 +721,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - US Company Registration</h2>
                     <p class="faq-expanded__lead">Expert answers on registering an LLC or C-Corp in the USA from India, costs, EIN, banking, and Form 5472 compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'US Company Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Company Registration in USA',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

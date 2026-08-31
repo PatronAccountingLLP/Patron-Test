@@ -288,20 +288,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - OPC Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'corporate-compliance-for-opc', 'label' => 'OPC Compliance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'one-person-company-registration', 'label' => 'OPC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'Director KYC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'compliance-calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'OPC Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1014,7 +1004,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on OPC annual compliance, the AGM exemption, AOC-4 and MGT-7A, the mandatory audit, the filing deadlines and dormant OPCs.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'OPC Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

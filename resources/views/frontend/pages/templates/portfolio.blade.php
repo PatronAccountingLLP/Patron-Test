@@ -986,12 +986,8 @@
                     <div class="card-body p-4">
                         <h4 class="registration-heading mb-4">Register your Pvt. Ltd Company with us.</h4>
 
-                        {{-- Enquiry form REMOVED 2026-08-29 — replaced by a placeholder.
-                             Was: POST to route('frontend.company-registration') - the same internal lead endpoint faq-enquiry-form used.
-                             Route and controller untouched; restore with a git revert. --}}
-                        @include('partials.form-placeholder', [
-                            'phTitle' => 'Form placeholder',
-                            'phNote'  => 'The enquiry form has been removed from this page.',
+                        @include('partials.bigin-form', [
+                            'service' => 'Private Limited Company Registration',
                         ])
                     </div>
                 </div>

@@ -289,20 +289,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FSSAI Registration in Bangalore',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fssai-registration/bangalore', 'label' => 'FSSAI Registration in Bangalore', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/bangalore', 'label' => 'GST Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/bangalore', 'label' => 'Trademark Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/bangalore', 'label' => 'Pvt Ltd Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/bangalore', 'label' => 'Startup Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration/bangalore', 'label' => 'Udyam Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/bangalore', 'label' => 'Zoho Books Accounting in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FSSAI Registration in Bangalore',
+                                            'city'     => 'Bangalore',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -784,7 +775,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - FSSAI Registration in Bangalore</h2>
                     <p class="faq-expanded__lead">Common questions about food licence and FSSAI registration for Bangalore food businesses</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bangalore', 'enquiryService' => 'FSSAI Registration in Bangalore'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FSSAI Registration in Bangalore',
+                        'city'     => 'Bangalore',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Inventory Accounting and Costing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'inventory-accounting-costing-services/delhi', 'label' => 'Inventory Accounting and Costing in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/delhi', 'label' => 'Accounting Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/delhi', 'label' => 'GST Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/delhi', 'label' => 'Tally Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/delhi', 'label' => 'Zoho Books Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/delhi', 'label' => 'Tax Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Inventory Accounting and Costing',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1283,7 +1275,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Inventory Accounting in Delhi</h2>
                     <p class="faq-expanded__lead">The things Delhi founders, traders, and finance teams genuinely ask us about valuing, costing, and reconciling their stock.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Inventory Accounting in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Inventory Accounting and Costing',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

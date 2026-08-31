@@ -1160,18 +1160,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP vs Phantom Stock',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ESOP vs Phantom Stock', 'label' => 'ESOP vs Phantom Stock', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Management and Compliance', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Salary', 'label' => 'ITR for Salary', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Processing', 'label' => 'Payroll Processing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Services', 'label' => 'ESOP Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP vs Phantom Stock',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1773,7 +1766,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on how ESOPs and phantom stock differ, dilution, taxation, legality and the two phantom types.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP vs Phantom Stock',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

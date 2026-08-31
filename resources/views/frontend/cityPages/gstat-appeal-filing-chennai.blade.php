@@ -402,34 +402,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Chennai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Chennai', 'label' => 'GSTAT Appeal Filing in Chennai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Drug License in Chennai', 'label' => 'Drug License in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Chennai', 'label' => 'FSSAI Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Chennai', 'label' => 'GST Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IEC Registration in Chennai', 'label' => 'IEC Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Chennai', 'label' => 'Income Tax Return in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Internal Audit in Chennai', 'label' => 'Internal Audit in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Chennai', 'label' => 'LLP Incorporation in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NGO Registration in Chennai', 'label' => 'NGO Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Chennai', 'label' => 'PAN Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Chennai', 'label' => 'Payroll Services in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Chennai', 'label' => 'Private Limited Company Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Registration for 12A 80G Certificate in Chennai', 'label' => 'Registration for 12A 80G Certificate in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 8 Company Registration in Chennai', 'label' => 'Section 8 Company Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Society Registration in Chennai', 'label' => 'Society Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Chennai', 'label' => 'Startup Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Chennai', 'label' => 'Stock Audit in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'TAN Registration in Chennai', 'label' => 'TAN Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Chennai', 'label' => 'Trademark Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Chennai', 'label' => 'Udyam Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Zoho Books Accounting in Chennai', 'label' => 'Zoho Books Accounting in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Chennai',
+                                            'city'     => 'Chennai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -859,7 +836,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Chennai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Chennai',
+                        'city'     => 'Chennai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

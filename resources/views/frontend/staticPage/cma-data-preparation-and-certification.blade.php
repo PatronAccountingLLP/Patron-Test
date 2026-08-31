@@ -277,18 +277,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - CMA Data Preparation and Certification',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'cma-data-preparation-and-certification', 'label' => 'CMA Data Preparation and Certification', 'selected' => true, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-business-loan', 'label' => 'Net Worth Certificate for Business Loan', 'selected' => false, 'disabled' => false],
-                            ['value' => 'financial-statement-preparation-services', 'label' => 'Financial Statement Preparation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'CMA Data Preparation and Certification',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -949,7 +941,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions borrowers ask about CMA data, whether it is mandatory, MPBF, what the report contains, CMA vs a project report, software vs CA, projections, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'CMA Data Preparation and Certification',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

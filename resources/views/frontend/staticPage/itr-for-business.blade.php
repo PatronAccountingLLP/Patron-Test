@@ -294,21 +294,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Business',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business (current)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return (overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-professionals', 'label' => 'ITR for Professionals', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-filing-for-freelancers-professionals', 'label' => 'ITR for Freelancers', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-capital-gains', 'label' => 'ITR for Capital Gains', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services', 'label' => 'Tax Planning Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Business',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1278,7 +1267,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on Section 44AD presumptive eligibility, ITR form selection, partnership taxation, LLP exclusions, and AOP/BOI Section 167B treatment for AY 2026-27 (FY 2025-26).</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Business',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

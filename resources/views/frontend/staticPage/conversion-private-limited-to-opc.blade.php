@@ -288,19 +288,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Private to OPC Conversion',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'conversion-private-limited-to-opc', 'label' => 'Private to OPC Conversion', 'selected' => true, 'disabled' => false],
-                            ['value' => 'one-person-company-registration', 'label' => 'OPC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Pvt Ltd Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-llp-to-private-limited-company', 'label' => 'Convert LLP to Pvt Ltd', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'Pvt and LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Private to OPC Conversion',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1013,7 +1004,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on private to OPC conversion, the removed 2021 threshold, the forms, the single-member and nominee conditions and the reverse route.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Private to OPC Conversion',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

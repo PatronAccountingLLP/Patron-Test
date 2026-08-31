@@ -274,18 +274,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - NGO Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ngo-registration/bangalore', 'label' => 'NGO Registration in Bangalore', 'selected' => true, 'disabled' => false],
-                            ['value' => 'society-registration/bangalore', 'label' => 'Society Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-registration/bangalore', 'label' => '12A Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration/bangalore', 'label' => 'Section 8 in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/bangalore', 'label' => 'GST Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'NGO Registration',
+                                            'city'     => 'Bangalore',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -770,7 +763,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - NGO Registration in Bangalore</h2>
                     <p class="faq-expanded__lead">Common questions about Trust, Society (Karnataka Act 1960), Section 8, 12A/80G, CSR-1, and compliance for Bangalore NGOs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bangalore', 'enquiryService' => 'NGO Registration in Bangalore'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'NGO Registration',
+                        'city'     => 'Bangalore',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

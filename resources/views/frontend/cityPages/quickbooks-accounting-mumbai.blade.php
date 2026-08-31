@@ -277,19 +277,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - QuickBooks Accounting in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'quickbooks-accounting/mumbai', 'label' => 'QuickBooks Migration in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting', 'label' => 'Zoho Books Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting', 'label' => 'Tally Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'odoo-accounting', 'label' => 'Odoo Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/mumbai', 'label' => 'Accounting Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'QuickBooks Accounting in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -694,7 +686,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - QuickBooks Migration in Mumbai</h2>
                     <p class="faq-expanded__lead">Answers to common questions. Call +91 945 945 6700.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'QuickBooks Migration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'QuickBooks Accounting in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

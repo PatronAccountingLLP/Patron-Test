@@ -1124,18 +1124,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-rera-registration',
-                    'options'  => [
-                        'net-worth-certificate-for-rera-registration' => 'Net Worth Certificate for RERA Registration',
-                        'statutory-audit' => 'Statutory Audit',
-                        'statutory-audit-for-real-estate' => 'Statutory Audit for Real Estate',
-                        'construction-and-real-estate-accounting-services' => 'Construction and Real Estate Accounting',
-                        'itr-for-real-estate-developers' => 'ITR for Real Estate Developers',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for RERA Registration',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1756,7 +1747,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about RERA promoter net worth, the 70 percent rule, and MahaRERA forms in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for RERA Registration',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

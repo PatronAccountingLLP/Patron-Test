@@ -279,19 +279,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Salary ITR',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-salary', 'label' => 'Salary ITR', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-professionals', 'label' => 'Professional ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-capital-gains', 'label' => 'Capital Gains ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice', 'label' => 'Income Tax Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Salary ITR',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -824,7 +815,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Salary ITR</h2>
                     <p class="faq-expanded__lead">Answers about ITR form, tax-free income, regime comparison, HRA, multiple employers, due dates, and Form 10E.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Salary ITR'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Salary ITR',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1114,22 +1114,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Real Estate Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-real-estate', 'label' => 'Payroll Services for Real Estate', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services (Overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pt-returns', 'label' => 'Professional Tax Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'roc-notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Real Estate Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2077,7 +2065,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Real Estate Developer Payroll FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on RERA Section 4 project escrow, Section 194H broker TDS at 2 percent, CLRA principal-employer liability, Code on Wages 50 percent basic and RERA Section 11 quarterly disclosure - answered by the Patron CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Real Estate Developer Payroll FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Real Estate Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

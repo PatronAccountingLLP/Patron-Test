@@ -299,21 +299,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ROC Backlog Cleanup',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'backlog-filings-3-year-cleanup', 'label' => 'ROC Backlog Cleanup (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'Pvt LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'roc-notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'Director KYC (DIR-3)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-closure', 'label' => 'Company Closure (STK-2 / MSC-1)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'aoc-4-filing-services', 'label' => 'AOC-4 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ROC Backlog Cleanup',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1308,7 +1297,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on CCFS-2026 scope, the 90% fee waiver mechanics, Section 164(2) director disqualification, NCLT revival under Section 252, DIR-10 DIN reactivation, and 3-tier cleanup pricing.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ROC Backlog Cleanup',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

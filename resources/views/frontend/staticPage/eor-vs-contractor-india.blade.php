@@ -246,21 +246,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - EOR vs Contractor India',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'eor-vs-contractor-india', 'label' => 'EOR vs Contractor India (Conversion)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'best-eor-providers-india-2026', 'label' => 'EOR Vendor Selection (9-Provider Roundup)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-engineering-team', 'label' => 'EOR India Engineering Team', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-for-saas-companies', 'label' => 'EOR India for SaaS Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-for-fintechs', 'label' => 'EOR India for Fintech', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-for-ai-companies', 'label' => 'EOR India for AI Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-for-tech-startups', 'label' => 'EOR India for Tech Startups', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'EOR vs Contractor India',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1047,7 +1036,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions from foreign founders, CFOs, and GCs running Indian contractors. Drawn from Google PAA and Patron client mandates.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'EOR vs Contractor India',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

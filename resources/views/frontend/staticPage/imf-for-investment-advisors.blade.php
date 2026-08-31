@@ -993,19 +993,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF for Investment Advisors',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'IMF for Investment Advisors', 'label' => 'IMF for Investment Advisors', 'selected' => true, 'disabled' => false],
-                            ['value' => 'IRDA IMF Business Registration', 'label' => 'IRDA IMF Business Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IMF IRDAI Registration Process', 'label' => 'IMF IRDAI Registration Process', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ISMP Certification and ISP Appointment', 'label' => 'ISMP Certification and ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IMF Compliance Retainer Services', 'label' => 'IMF Compliance Retainer Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IMF for Financial Advisors', 'label' => 'IMF for Financial Advisors', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF for Investment Advisors',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 

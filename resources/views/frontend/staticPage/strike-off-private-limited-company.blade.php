@@ -1147,21 +1147,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Strike Off Private Limited Company',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Strike Off Private Limited Company', 'label' => 'Strike Off Private Limited Company', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Company Closure', 'label' => 'Company Closure', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt and LLP Compliance', 'label' => 'Pvt and LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Resignation of Director', 'label' => 'Resignation of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Removal of Director', 'label' => 'Removal of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Director KYC', 'label' => 'Director KYC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Strike Off Private Limited Company',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1966,7 +1955,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about Section 248 strike off, the STK-2 process, C-PACE timelines, and director liability.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Strike Off Private Limited Company'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Strike Off Private Limited Company',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

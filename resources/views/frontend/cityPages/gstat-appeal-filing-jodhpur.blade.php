@@ -401,24 +401,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Jodhpur',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Jodhpur', 'label' => 'GSTAT Appeal Filing in Jodhpur', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Jodhpur', 'label' => 'FSSAI Registration in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Jodhpur', 'label' => 'GST Registration in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Jodhpur', 'label' => 'Income Tax Return in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Jodhpur', 'label' => 'LLP Incorporation in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Jodhpur', 'label' => 'PAN Registration in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Jodhpur', 'label' => 'Payroll Services in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Jodhpur', 'label' => 'Private Limited Company Registration in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Jodhpur', 'label' => 'Startup Registration in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Jodhpur', 'label' => 'Trademark Registration in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Jodhpur', 'label' => 'Udyam Registration in Jodhpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Jodhpur',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1146,7 +1132,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Jodhpur',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

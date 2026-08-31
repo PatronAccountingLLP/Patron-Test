@@ -1140,21 +1140,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Healthcare Business Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'healthcare-business-registration-india', 'label' => 'Healthcare Business Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'healthcare-sector-accounting-services', 'label' => 'Healthcare Sector Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-processing-for-the-healthcare-industry', 'label' => 'Healthcare Payroll Processing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-llp-to-private-limited-company', 'label' => 'Convert LLP to Private Limited', 'selected' => false, 'disabled' => false],
-                            ['value' => 'one-person-company-registration', 'label' => 'One Person Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Healthcare Business Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1860,7 +1849,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about registering a healthcare business and the licences a hospital, clinic, diagnostic centre or pharmacy needs.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Healthcare Business Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

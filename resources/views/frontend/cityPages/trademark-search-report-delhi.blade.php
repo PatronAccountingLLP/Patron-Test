@@ -288,20 +288,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Search Report in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-search-report/delhi', 'label' => 'Trademark Search Report in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration/delhi', 'label' => 'Trademark Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/delhi', 'label' => 'Private Limited Company Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/delhi', 'label' => 'Startup Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/delhi', 'label' => 'LLP Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition/delhi', 'label' => 'Trademark Opposition in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Search Report in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -733,7 +724,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Trademark Search Report in Delhi</h2>
                     <p class="faq-expanded__lead">Expert answers on trademark search, phonetic analysis, Nice Classification, and registrability for Delhi businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Trademark Search Report in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Search Report in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

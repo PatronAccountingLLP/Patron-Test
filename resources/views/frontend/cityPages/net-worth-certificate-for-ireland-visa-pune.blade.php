@@ -1124,18 +1124,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-ireland-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-ireland-visa' => 'Net Worth Certificate for Ireland Visa',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'double-currency-networth-format' => 'Double Currency Net Worth Format',
-                        'net-worth-certificate-for-students' => 'Net Worth Certificate for Students',
-                        'net-worth-certificate-for-uk-visa' => 'Net Worth Certificate for UK Visa',
-                        'net-worth-certificate-for-schengen-visa' => 'Net Worth Certificate for Schengen Visa',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Ireland Visa',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1755,7 +1746,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about Ireland student-visa proof of funds and the CA net worth certificate in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Ireland Visa',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

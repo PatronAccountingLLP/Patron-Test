@@ -269,20 +269,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FCRA Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration', 'label' => 'NGO Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration', 'label' => 'Section 8 Company', 'selected' => false, 'disabled' => false],
-                            ['value' => 'registration-for-12a-80g-certificate', 'label' => '12A/80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-and-non-profit-accounting-services', 'label' => 'NGO Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration', 'label' => 'Society Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services-for-ngonon-profit-industry', 'label' => 'Payroll for NGO', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FCRA Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -661,7 +651,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - FCRA Registration</h2>
                     <p class="faq-expanded__lead">Expert answers to common questions about FCRA registration, foreign contributions, and compliance in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'FCRA Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FCRA Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -275,18 +275,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Notice Section 148',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-notices-under-section-148', 'label' => 'IT Notice Section 148 (Reassessment)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-147', 'label' => 'IT Notice Section 147', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3', 'label' => 'IT Notice Section 143(3)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156', 'label' => 'IT Demand Section 156', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Notice Section 148',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -780,7 +772,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Section 148 Reassessment Notice</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about income tax reassessment notice under Section 148, the Section 148A pre-notice procedure, time limits, and legal defences.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Section 148 Reassessment Notice'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Notice Section 148',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

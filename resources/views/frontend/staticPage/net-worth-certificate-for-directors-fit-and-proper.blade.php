@@ -1233,19 +1233,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-directors-fit-and-proper',
-                    'options'  => [
-                        'net-worth-certificate-for-directors-fit-and-proper' => 'Net Worth Certificate for Directors (Fit and Proper)',
-                        'appointment-of-director' => 'Appointment of Director',
-                        'director-kyc' => 'Director KYC',
-                        'private-limited-company-compliance' => 'Private Limited Company Compliance',
-                        'irda-imf-business-registration' => 'IRDA IMF Business Registration',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-joint-owners-in-india' => 'Net Worth Certificate for Joint Owners',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Directors (Fit and Proper)',
                 ])
             </div>
         </div>
@@ -2021,7 +2010,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Eight questions Indian compliance officers, company secretaries and directors of regulated entities ask Patron Accounting most often - answered with Nomination-Committee-grade, ICAI-compliant detail.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Directors (Fit and Proper)',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

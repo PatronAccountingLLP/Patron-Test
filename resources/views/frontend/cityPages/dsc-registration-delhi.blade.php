@@ -289,18 +289,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - DSC in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'digital-signature-certificate/delhi', 'label' => 'DSC in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/delhi', 'label' => 'Pvt Ltd Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'import-export-code/delhi', 'label' => 'Import Export Code in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc/delhi', 'label' => 'Director KYC in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'DSC in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -699,7 +692,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - DSC in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about Digital Signature Certificate types, fees, timeline, and Delhi portal requirements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'DSC in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'DSC in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

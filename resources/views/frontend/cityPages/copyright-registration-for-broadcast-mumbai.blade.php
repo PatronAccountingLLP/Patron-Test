@@ -269,20 +269,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Broadcast Copyright',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-broadcast/mumbai', 'label' => 'Broadcast Copyright in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-registration/mumbai', 'label' => 'Copyright Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment/mumbai', 'label' => 'Copyright Assignment in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-disclaimer/mumbai', 'label' => 'Copyright Disclaimer in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection/mumbai', 'label' => 'Copyright Objection in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration/mumbai', 'label' => 'Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Broadcast Copyright',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -850,7 +841,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Copyright for Broadcast in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about broadcast reproduction right, duration, infringement, signal vs content copyright, statutory licence, and OTT platform rights for Mumbai broadcasters.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Copyright for Broadcast in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Broadcast Copyright',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

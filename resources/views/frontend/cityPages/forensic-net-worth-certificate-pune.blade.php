@@ -1131,21 +1131,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Forensic Net Worth Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'forensic-net-worth-certificate', 'label' => 'Forensic Net Worth Certificate', 'selected' => true, 'disabled' => false],
-                            ['value' => 'net-worth-certificate', 'label' => 'Net Worth Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-partnership-firms', 'label' => 'Net Worth Certificate for Partnership Firms', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-sole-proprietorship', 'label' => 'Net Worth Certificate for Sole Proprietorship', 'selected' => false, 'disabled' => false],
-                            ['value' => 'turnover-certificate', 'label' => 'Turnover Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Forensic Net Worth Certificate',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1909,7 +1899,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about forensic net worth certificates for divorce, inheritance, and asset disputes in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Forensic Net Worth Certificate',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

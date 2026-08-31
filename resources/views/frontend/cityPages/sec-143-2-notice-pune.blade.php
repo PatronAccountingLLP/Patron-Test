@@ -1167,21 +1167,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 143(2) Notice Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-143-2-notice/pune', 'label' => 'Section 143(2) Notice Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice/pune', 'label' => 'Income Tax Notice Pune (Parent City Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/mumbai', 'label' => 'Section 143(2) Notice Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/delhi', 'label' => 'Section 143(2) Notice Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/gurugram', 'label' => 'Section 143(2) Notice Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice/pune', 'label' => 'GST Notice Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 143(2) Notice Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2132,7 +2122,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 143(2) Notice Pune FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 143(2) scrutiny selection notices in Pune, the 3-month time-bar proviso, Section 144B faceless framework with NaFAC Delhi allocation to FAU anywhere in India, Pune sector-specific patterns (Hinjewadi IT ESOP / RSU, Pune real-estate Section 50C, PCMC SME, Pune professional Section 44ADA), ITAT Pune Bench at Plot No. 5 Akurdi physical hearing and Bombay HC at Mumbai Principal Seat (150 km inter-city) time-bar writ jurisdiction - answered by the Patron Pune CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Section 143(2) Notice Pune FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 143(2) Notice Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

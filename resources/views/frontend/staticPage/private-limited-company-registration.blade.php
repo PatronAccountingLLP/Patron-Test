@@ -282,20 +282,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Private Limited Company Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'one-person-company-registration', 'label' => 'OPC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration', 'label' => 'Startup Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'dsc-registration', 'label' => 'Digital Signature Certificate (DSC)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Private Limited Company Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1865,7 +1855,10 @@ window.addEventListener('scroll', function() {
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Private Limited Company Registration</h2>
                     <p class="faq-expanded__lead">Expert answers to the most common questions about Pvt Ltd registration, eligibility, fees, process, and compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Private Limited Company Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Private Limited Company Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

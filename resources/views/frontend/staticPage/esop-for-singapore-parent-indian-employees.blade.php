@@ -320,21 +320,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Singapore Parent ESOP',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Singapore Parent ESOP', 'label' => 'Singapore Parent ESOP', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Management and Compliance', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'EOR India for Singapore Companies', 'label' => 'EOR India for Singapore Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'FDI Compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for ESOP Employees', 'label' => 'ITR for ESOP Employees', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Capital Gains', 'label' => 'ITR for Capital Gains', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Salary', 'label' => 'ITR for Salary', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Services', 'label' => 'ESOP Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Singapore Parent ESOP',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -979,7 +968,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on Singapore-parent ESOP and RSU tax in India, the no-capital-gains position, the deemed-exercise rule and Schedule FA.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Singapore Parent ESOP',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

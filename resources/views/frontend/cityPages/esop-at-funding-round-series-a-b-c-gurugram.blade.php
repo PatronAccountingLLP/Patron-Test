@@ -1175,21 +1175,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP at a Funding Round',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ESOP at a Funding Round', 'label' => 'ESOP at a Funding Round', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Management and Compliance', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Scheme Design', 'label' => 'ESOP Scheme Design', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Valuation Services', 'label' => 'ESOP Valuation Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Issue of Shares', 'label' => 'Issue of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration', 'label' => 'Startup Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd Company Compliance', 'label' => 'Pvt Ltd Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Transfer of Shares', 'label' => 'Transfer of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP at a Funding Round',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1806,7 +1796,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on ESOP pool sizing, the option pool shuffle, and the India approvals at a funding round.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP at a Funding Round',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

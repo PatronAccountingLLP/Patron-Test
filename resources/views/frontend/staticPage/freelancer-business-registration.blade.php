@@ -1141,21 +1141,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Freelancer Business Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'freelancer-business-registration', 'label' => 'Freelancer Business Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'proprietorship-registration', 'label' => 'Proprietorship Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration', 'label' => 'Udyam Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'iec-registration', 'label' => 'IEC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-freelancers', 'label' => 'GST Returns for Freelancers', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-filing-for-freelancers-professionals', 'label' => 'ITR for Freelancers', 'selected' => false, 'disabled' => false],
-                            ['value' => 'turnover-certificate-for-current-account', 'label' => 'Turnover Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Freelancer Business Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1860,7 +1849,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about registering as a freelancer, GST, IEC, Udyam and freelancer tax under Section 44ADA.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Freelancer Business Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -311,20 +311,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Audit Report Types India',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'audit-report-types-india', 'label' => 'Audit Report Types Reference (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit Engagement', 'selected' => false, 'disabled' => false],
-                            ['value' => 'caro-2020-reporting', 'label' => 'CARO 2020 Reporting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-financial-controls-audit', 'label' => 'Internal Financial Controls Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'schedule-iii-compliance-companies-act', 'label' => 'Schedule III Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Audit Report Types India',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1200,7 +1190,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Audit Report Types in India</h2>
                     <p class="faq-expanded__lead">Practitioner-level Q&A on SA 700-706 framework, KAM, going concern, modified opinions, Section 145 signing, and reading audit reports as an investor or lender.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Audit Report Types in India'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Audit Report Types India',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

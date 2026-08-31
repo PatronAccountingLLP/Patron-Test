@@ -281,20 +281,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - PF Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'pf-return', 'label' => 'PF Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-calculation-and-compliance-services', 'label' => 'ESIC Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-processing-and-management-services', 'label' => 'Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-calculator', 'label' => 'PF Calculator', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'PF Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -813,7 +803,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - PF Registration</h2>
                     <p class="faq-expanded__lead">Answers about PF registration applicability, contribution rates, voluntary coverage, penalties, UAN, and the EPF system.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'PF Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'PF Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

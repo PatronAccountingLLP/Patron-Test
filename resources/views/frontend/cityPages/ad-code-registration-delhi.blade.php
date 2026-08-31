@@ -284,19 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - AD Code Registration in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ad-code-registration/delhi', 'label' => 'AD Code Registration in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'iec-registration/delhi', 'label' => 'IEC Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-central-license/delhi', 'label' => 'FSSAI Central License in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/delhi', 'label' => 'Company Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/delhi', 'label' => 'Trademark Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'AD Code Registration in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -707,7 +699,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - AD Code Registration in Delhi</h2>
                     <p class="faq-expanded__lead">Expert answers about AD Code, ICEGATE registration, Delhi customs ports, and export compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'AD Code Registration in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'AD Code Registration in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

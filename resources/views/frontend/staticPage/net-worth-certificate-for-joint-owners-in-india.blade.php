@@ -1099,17 +1099,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-joint-owners-in-india',
-                    'options'  => [
-                        'net-worth-certificate-for-joint-owners-in-india' => 'Net Worth Certificate for Joint Owners',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'double-currency-networth-format' => 'Double Currency Networth Format',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'net-worth-certificate-sole-proprietorship' => 'Net Worth Certificate for Proprietorship',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Joint Owners',
                 ])
             </div>
         </div>
@@ -1582,7 +1573,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions About Joint Owners Net Worth Certificates</h2>
                     <p class="faq-expanded__lead">Get answers to the most common questions about CA-certified net worth certificates for joint property owners, proportionate share treatment, UDIN, and the issuance process.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'About Joint Owners Net Worth Certificates'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Joint Owners',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -567,15 +567,8 @@ body.is-hub{background:#F4F7FB}
     <div class="hub-form">
       <div class="hub-form__t">Get a Free Quote</div>
       <div class="hub-form__s">Talk to a CA / CS expert &mdash; no obligation.</div>
-      @include('partials.lead-form', [
-          'deal'    => 'Website Enquiry - Net Worth Certificate by CA',
-          'options' => [
-              ['value' => 'net-worth-certificate-by-ca', 'label' => 'Net Worth Certificate', 'selected' => true, 'disabled' => false],
-              ['value' => 'turnover-certificate', 'label' => 'Turnover Certificate', 'selected' => false, 'disabled' => false],
-              ['value' => 'solvency-certificate', 'label' => 'Solvency Certificate', 'selected' => false, 'disabled' => false],
-              ['value' => 'financial-certificates-services', 'label' => 'Other CA Certificate', 'selected' => false, 'disabled' => false],
-              ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-          ],
+      @include('partials.bigin-form', [
+          'service'  => 'Net Worth Certificate by CA',
       ])
       <p class="hub-form__note">100% secure &middot; No spam &middot; Quick response</p>
     </div>

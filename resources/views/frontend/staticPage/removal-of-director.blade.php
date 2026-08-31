@@ -274,18 +274,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Removal of Director',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'removal-of-director', 'label' => 'Removal of Director', 'selected' => true, 'disabled' => false],
-                            ['value' => 'resignation-of-director', 'label' => 'Resignation of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'Director KYC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Removal of Director',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -780,7 +772,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Removal of Director in India</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about removing a director under Section 169, DIR-12 filing, representation rights, and penalties.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Removal of Director in India'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Removal of Director',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

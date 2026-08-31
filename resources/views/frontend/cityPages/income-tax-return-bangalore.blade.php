@@ -274,18 +274,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Income Tax Return',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-return/bengaluru', 'label' => 'ITR Filing in Bangalore', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services/bengaluru', 'label' => 'Payroll in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tan-registration/bengaluru', 'label' => 'TAN in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/bengaluru', 'label' => 'GST in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pan-registration/bengaluru', 'label' => 'PAN in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Income Tax Return',
+                                            'city'     => 'Bangalore',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -766,7 +759,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ITR Filing in Bangalore</h2>
                     <p class="faq-expanded__lead">Common questions about ITR filing, AIS, regime choice, ESOP/RSU, due dates, and CPC processing for Bangalore taxpayers.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bangalore', 'enquiryService' => 'ITR Filing in Bangalore'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Income Tax Return',
+                        'city'     => 'Bangalore',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

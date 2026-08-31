@@ -296,20 +296,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Drug License in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'drug-license/mumbai', 'label' => 'Drug License in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-registration/mumbai', 'label' => 'FSSAI Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/mumbai', 'label' => 'Private Limited Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/mumbai', 'label' => 'Startup Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration/mumbai', 'label' => 'Udyam Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Drug License in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1045,7 +1036,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Drug License in Mumbai</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about obtaining a drug licence in Mumbai from FDA Maharashtra.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Drug License in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Drug License in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

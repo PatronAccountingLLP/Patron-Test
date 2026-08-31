@@ -258,20 +258,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 8 Company Registration in Bangalore',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'section8-company-registration/bengaluru', 'label' => 'Section 8 Company Registration in Bangalore', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration/bengaluru', 'label' => 'NGO Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/bengaluru', 'label' => 'GST Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/bengaluru', 'label' => 'Pvt Ltd Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/bengaluru', 'label' => 'Income Tax Return in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/bengaluru', 'label' => 'Startup Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/bengaluru', 'label' => 'Trademark Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 8 Company Registration in Bangalore',
+                                            'city'     => 'Bangalore',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -710,7 +701,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Section 8 Company Registration in Bangalore</h2>
                     <p class="faq-expanded__lead">Answers to common questions about Section 8 company registration in Bangalore, covering NGO structure, fees, CSR funding, and compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bangalore', 'enquiryService' => 'Section 8 Company Registration in Bangalore'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 8 Company Registration in Bangalore',
+                        'city'     => 'Bangalore',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

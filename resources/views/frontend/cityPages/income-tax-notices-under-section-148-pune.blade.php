@@ -217,18 +217,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Notice Under Section 148 in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'it-notice-under-section-148/pune', 'label' => 'Section 148 Reassessment in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-returns/pune', 'label' => 'Income Tax Returns in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice/pune', 'label' => 'Income Tax Notice in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Notice Under Section 148 in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -697,7 +690,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IT Notice Under Section 148 in Pune</h2>
                     <p class="faq-expanded__lead">Common questions about Section 148 reassessment, 148A procedure, time limits, and validity challenges for Pune taxpayers</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'IT Notice Under Section 148 in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Notice Under Section 148 in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

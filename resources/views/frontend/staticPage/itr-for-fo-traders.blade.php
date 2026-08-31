@@ -1079,12 +1079,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for F&amp;O Traders',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for F&amp;O Traders',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1807,7 +1805,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Section 43(5)(d) classification, ICAI 8th Edition turnover, Section 44AD(4) trap, one-way set-off rule - the eight questions F&amp;O traders ask before filing ITR</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for F&amp;O Traders',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

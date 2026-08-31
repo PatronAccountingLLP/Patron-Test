@@ -277,19 +277,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 281 Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'certificate-under-section-281-income-tax', 'label' => 'Certificate under Section 281 (NOC)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'itr-for-property-sale', 'label' => 'ITR for a Property Sale', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156', 'label' => 'Income Tax Demand under Section 156', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice', 'label' => 'Income Tax Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services', 'label' => 'Tax Planning Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 281 Certificate',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -951,7 +942,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions buyers and sellers ask about Section 281, Form 34A, who issues the NOC, timelines, buyer protection, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 281 Certificate',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

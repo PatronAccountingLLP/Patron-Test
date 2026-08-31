@@ -864,19 +864,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF Entity Setup in Pune',
-                        'city' => 'Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'imf-private-limited-vs-llp/pune', 'label' => 'IMF Entity Setup (Pvt Ltd vs LLP) in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration/pune', 'label' => 'IRDA IMF Business Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process/pune', 'label' => 'IMF IRDAI Registration Process in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment/pune', 'label' => 'ISMP Certification &amp; ISP Appointment in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services/pune', 'label' => 'IMF Compliance Retainer in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF Entity Setup in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1444,7 +1436,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF Private Limited vs LLP in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about choosing between a Private Limited Company and an LLP for your IMF.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'IMF Entity Setup in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF Entity Setup in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -754,21 +754,10 @@
                     <h2 class="form-title">Get Personalised Accounting Guidance</h2>
                     <p class="form-subtitle">Route to the right service for your situation</p>
                 </div>
-                @include('partials.lead-form', [
-                    'deal'    => 'Website Enquiry - Get Personalised Accounting Guidance',
-                    'cta'     => 'Find My Accounting Plan &rarr;',
-                    'options' => [
-                        ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Monthly accounting & bookkeeping', 'label' => 'Monthly accounting & bookkeeping', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Backlog / catch-up bookkeeping', 'label' => 'Backlog / catch-up bookkeeping', 'selected' => false, 'disabled' => false],
-                        ['value' => 'AP / AR outsourcing', 'label' => 'AP / AR outsourcing', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Bank reconciliation', 'label' => 'Bank reconciliation', 'selected' => false, 'disabled' => false],
-                        ['value' => 'MIS reporting', 'label' => 'MIS reporting', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Year-end closing & finalisation', 'label' => 'Year-end closing & finalisation', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Accounting software setup / migration', 'label' => 'Accounting software setup / migration', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Industry-specific accounting', 'label' => 'Industry-specific accounting', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Accounting Bookkeeping Services in Delhi',
+                    'city'     => 'Delhi',
+                    'cta'      => 'Find My Accounting Plan &rarr;',
                 ])
             </div>
         </div>
@@ -1225,7 +1214,11 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Delhi questions, answered.</h2>
                 <p class="faq-expanded__lead">Five things Delhi business owners ask before picking a spoke from this directory.</p>
-                @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Accounting Bookkeeping Services in Delhi'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'Accounting Bookkeeping Services in Delhi',
+                    'city'     => 'Delhi',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

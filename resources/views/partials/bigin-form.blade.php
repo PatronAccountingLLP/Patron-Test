@@ -1,185 +1,123 @@
 {{--
-    THE enquiry form. One partial, used in every form slot on the site.
+    THE enquiry form. The only one on the site.
 
     Every lead goes to Zoho Bigin webform 208810000001209168, tagged with the
-    service of the page it was submitted from -- fill it in on /gst-registration
-    and the deal lands in Bigin as "Website Enquiry - GST Registration"; do it on
-    /itr-services and it lands as "Website Enquiry - ITR Services".
+    service of the page it was submitted from. Fill it in on /gst-registration
+    and the deal reaches Bigin as "Website Enquiry - GST Registration".
 
-    The service is LOCKED to the page and shown read-only. There is no service
-    picker, so there is no per-page options list to maintain: the markup is
-    identical everywhere and only the resolved service differs.
+    Use it like this - the service is the only thing worth passing:
 
-    ---------------------------------------------------------------- parameters
+        @include('partials.bigin-form', ['service' => 'GST Registration'])
 
-      $service   the service to tag the lead with. Everything else is fallback.
-      $city      prefills and tags the city.
-      $variant   'card'    hero / right-hand column (default)
-                 'compact' FAQ column and other narrow slots
-      $title     heading above the form
-      $subtitle  supporting line
-      $cta       submit button text
+        @include('partials.bigin-form', [
+            'service' => 'Stock Audit in Pune',
+            'city'    => 'Pune',
+            'variant' => 'compact',
+        ])
 
-    Nothing is required. Called with no arguments at all it still resolves a
-    sensible service from the URL.
+    Parameters, all optional:
 
-    -------------------------------------------------- how the service resolves
+        service   what the lead is filed under in Bigin. Omit it and the page's
+                  URL is de-slugged instead, so a new page still tags correctly.
+        city      prefills the City field and travels to Bigin as Mailing City.
+        variant   'card' for the hero column (default), 'compact' for the FAQ
+                  column and other narrow slots.
+        title     heading. Defaults per variant.
+        subtitle  supporting line. Defaults per variant.
+        cta       submit button text.
 
-    First hit wins:
+    A page usually renders this twice, hero and FAQ. Pass the SAME service to
+    both: one page should file under one service, or the pipeline report splits
+    in two. Every id here is suffixed per instance and each form gets its own
+    hidden response frame, so the two never collide.
 
-      1  $service              explicit, from the call site
-      2  $enquiryService       faq-enquiry-form's old parameter
-      3  $serviceLabel         enquiry-form's old parameter
-      4  $deal                 lead-form's old parameter, prefix stripped
-      5  $options + $selected  either old options shape, including the
-                               ['selected' => true] row lead-form used
-      6  pa.enquiry_service    resolved by an earlier form on this page
-      7  the URL slug          de-slugged and title-cased
-
-    Steps 2-5 are why no page template needed editing: the 4,109 existing call
-    sites already pass their service, in four different shapes, and all four are
-    understood here. Step 6 covers the 701 pages whose FAQ form passes nothing
-    but whose hero form above it does. Step 7 covers the remaining 3.
-
-    ------------------------------------------------------------------ instances
-
-    A page usually renders this twice (hero + FAQ), so every id is suffixed with
-    a per-instance counter and each form gets its own hidden iframe. The JS in
-    js/enquiry-form.js scopes itself to each <form data-bigin-form> instead of
-    reaching for document.getElementById, so instances never collide.
+    The service is written into hidden fields server-side, so a lead is tagged
+    correctly even if JavaScript never runs. js/enquiry-form.js only adds the
+    country picker, validation and the thank-you state.
 --}}
 @php
-    // ---- unique instance -------------------------------------------------
-    // Counter lives in config, not a static: a compiled Blade view is include()d
-    // inside the view engine's method, so a static there is shared in ways that
-    // are hard to reason about. Config is per-request and explicit.
     $paSeq = ((int) config('pa.bigin_seq', 0)) + 1;
     config(['pa.bigin_seq' => $paSeq]);
     $uid = 'bg'.$paSeq;
 
-    // ---- the URL-derived name, always computed ---------------------------
-    // Used both as the last-resort service and as a sanity check on $deal.
-    $paCityList = ['delhi','mumbai','pune','gurugram','gurgaon','bangalore','bengaluru','chennai',
-                   'kolkata','hyderabad','ahmedabad','noida','jaipur','surat','lucknow','indore',
-                   'chandigarh','coimbatore','kochi','thane','nagpur','bhopal','patna','vadodara'];
+    $paVariant = $variant ?? 'card';
+    $paCompact = ($paVariant === 'compact');
+    // 'bare' renders the <form> and nothing around it, for the ~1,787 pages that
+    // already build their own .form-card and heading in the hero column. Without
+    // it they get a card inside a card and "Get Free Consultation" twice.
+    $paBare    = ($paVariant === 'bare');
+    $paCity    = trim((string) ($city ?? ''));
+    $paSvc     = trim((string) ($service ?? ''));
 
-    // City pages come in two shapes and both have to be understood:
-    //   /12a-registration-delhi      city as the last hyphen token
-    //   /accounting-services/delhi   city as its own path segment
-    $paPath = trim((string) (parse_url(request()->getRequestUri(), PHP_URL_PATH) ?: ''), '/');
-    $paSegs = array_values(array_filter(explode('/', strtolower($paPath))));
-    $paTailCity = null;
-    if ($paSegs && in_array(end($paSegs), $paCityList, true)) { $paTailCity = array_pop($paSegs); }
-    $paSeg = $paSegs ? end($paSegs) : '';
-    $paSeg = preg_replace('/\.(html?|php)$/i', '', $paSeg);
-    $paParts = array_values(array_filter(explode('-', $paSeg)));
-    if ($paTailCity === null && $paParts && in_array(end($paParts), $paCityList, true)) {
-        $paTailCity = array_pop($paParts);
-    }
-    $paSlugWords = $paParts;
-    $paAcr = ['gst','itr','tds','tcs','roc','llp','opc','msme','iec','esop','fssai','fcra','pan','tan',
-              'ngo','aoa','moa','ca','cs','imf','epf','esic','nic','hsn','ifsc','caro','aoc','adt','chg',
-              'stk','egm','agm','ncd','rpt','posh','fmv','cma','mis','ind','usa','uk','uae','din','kyc',
-              'ppf','nps','sez','stpi','edf','qrmp','gstr','gstat','mca','sebi','rbi','fema','ohsas'];
-    $paSmall = ['for','of','in','and','to','the','a','an','vs','by','on','with'];
-    $paWords = [];
-    foreach ($paParts as $n => $w) {
-        if (preg_match('/^\d+[a-z]$/i', $w))             { $paWords[] = strtoupper($w); }   // 12a -> 12A
-        elseif (in_array($w, $paAcr, true))              { $paWords[] = strtoupper($w); }
-        elseif ($n > 0 && in_array($w, $paSmall, true))  { $paWords[] = $w; }
-        else                                             { $paWords[] = ucfirst($w); }
-    }
-    $paUrlSvc = trim(implode(' ', $paWords));
-    if ($paUrlSvc !== '' && $paTailCity) { $paUrlSvc .= ' in '.ucfirst($paTailCity); }
+    // Nothing passed? Reuse whatever the first form on this page settled on.
+    // partials/faq-section renders this without a service on pages that do not
+    // hand one down, and those pages must not file two spellings of themselves
+    // ("Ind AS" from the hero, "IND As" de-slugged from the URL here).
+    if ($paSvc === '') { $paSvc = trim((string) config('pa.enquiry_service', '')); }
+    if ($paCity === '') { $paCity = trim((string) config('pa.enquiry_city', '')); }
 
-    // ---- resolve the service --------------------------------------------
-    // One page = one service. The first form to render decides it and every
-    // later form on the same page reuses it, so a page never sends two spellings
-    // of itself to Bigin ("Copyright for Literary Work" from the hero and
-    // "Literary Work Copyright" from the FAQ column would split the pipeline
-    // report in two). It also means a typo in one slot's parameter cannot
-    // surface if another slot got it right.
-    // An explicit 'service' still overrides, so a page can deliberately differ.
-    $paSvc = null;
-    if (!empty($service) && is_string($service) && trim($service) !== '') {
-        $paSvc = trim($service);
-    }
-    if ($paSvc === null) { $paSvc = config('pa.enquiry_service') ?: null; }
-    if ($paSvc === null) {
-        foreach ([$enquiryService ?? null, $serviceLabel ?? null] as $cand) {
-            if (is_string($cand) && trim($cand) !== '') { $paSvc = trim($cand); break; }
+    if ($paSvc === '') {
+        // Still nothing, and no earlier form to borrow from. De-slug the URL so
+        // the lead is filed under something meaningful. Handles both
+        // /12a-registration-delhi and /accounting-services/delhi.
+        $paCityList = ['delhi','mumbai','pune','gurugram','gurgaon','bangalore','bengaluru','chennai',
+                       'kolkata','hyderabad','ahmedabad','noida','jaipur','surat','lucknow','indore',
+                       'chandigarh','coimbatore','kochi','thane','nagpur','bhopal','patna','vadodara'];
+        $paAcr = ['gst','itr','tds','tcs','roc','llp','opc','msme','iec','esop','fssai','fcra','pan','tan',
+                  'ngo','aoa','moa','ca','cs','imf','epf','esic','nic','hsn','ifsc','caro','aoc','adt','chg',
+                  'stk','egm','agm','ncd','rpt','posh','fmv','cma','mis','ind','usa','uk','uae','din','kyc',
+                  'ppf','nps','sez','stpi','edf','qrmp','gstr','gstat','mca','sebi','rbi','fema'];
+        $paSmall = ['for','of','in','and','to','the','a','an','vs','by','on','with'];
+
+        $paSegs = array_values(array_filter(explode('/', strtolower(
+            trim((string) (parse_url(request()->getRequestUri(), PHP_URL_PATH) ?: ''), '/')
+        ))));
+        $paTailCity = null;
+        if ($paSegs && in_array(end($paSegs), $paCityList, true)) { $paTailCity = array_pop($paSegs); }
+        $paSeg   = preg_replace('/\.(html?|php)$/i', '', $paSegs ? end($paSegs) : '');
+        $paParts = array_values(array_filter(explode('-', $paSeg)));
+        if ($paTailCity === null && $paParts && in_array(end($paParts), $paCityList, true)) {
+            $paTailCity = array_pop($paParts);
         }
-    }
-
-    // $deal is right on ~1,250 pages but a handful carry a stale template value
-    // ("Legal Drafting" on the ESOP pages) or a call to action ("Get Personalised
-    // Accounting Guidance"). The old JS overwrote the deal name with the dropdown
-    // selection at submit time, so nobody ever saw those. With the service locked
-    // they would show, so $deal has to earn its place: it is only trusted when it
-    // shares a word with the page's own URL and does not read as a CTA.
-    if ($paSvc === null && !empty($deal) && is_string($deal)) {
-        $paCand = trim(preg_replace('/^\s*Website\s+Enquiry\s*[-\x{2013}\x{2014}]\s*/iu', '', $deal));
-        $paCandWords = preg_split('/[^a-z0-9]+/', strtolower(html_entity_decode($paCand)), -1, PREG_SPLIT_NO_EMPTY) ?: [];
-        $paShares = (bool) array_intersect($paCandWords, $paSlugWords);
-        $paIsCta  = (bool) preg_match('/^(get|find|talk|book|start|claim|request|speak|call|enquire|contact|discuss|schedule)\b/i', $paCand);
-        if ($paCand !== '' && !$paIsCta && ($paShares || $paUrlSvc === '')) { $paSvc = $paCand; }
-    }
-
-    // Most lead-form pages pre-select a DISABLED placeholder row --
-    //   ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true]
-    // -- because the old dropdown forced the visitor to choose. Taking the
-    // selected row blindly would file those leads under "Select a service", so
-    // rows with no value, or marked disabled, are skipped.
-    if ($paSvc === null && !empty($options) && is_array($options)) {
-        $sel = $selected ?? null;
-        if ($sel !== null && isset($options[$sel]) && is_string($options[$sel])) {
-            $paSvc = $options[$sel];                        // ['slug' => 'Label']
-        } else {
-            foreach ($options as $k => $o) {
-                if (is_array($o)) {
-                    if (empty($o['selected']) || empty($o['label'])) { continue; }
-                    if (!empty($o['disabled']) || (isset($o['value']) && trim((string) $o['value']) === '')) { continue; }
-                    $paSvc = $o['label']; break;            // [['label'=>..,'selected'=>true]]
-                }
-                if (is_string($o) && $sel !== null && $k === $sel && trim($o) !== '') { $paSvc = $o; break; }
-            }
+        $paWords = [];
+        foreach ($paParts as $n => $w) {
+            if (preg_match('/^\d+[a-z]$/i', $w))            { $paWords[] = strtoupper($w); }
+            elseif (in_array($w, $paAcr, true))             { $paWords[] = strtoupper($w); }
+            elseif ($n > 0 && in_array($w, $paSmall, true)) { $paWords[] = $w; }
+            else                                            { $paWords[] = ucfirst($w); }
         }
+        $paSvc = trim(implode(' ', $paWords));
+        if ($paSvc !== '' && $paTailCity) { $paSvc .= ' in '.ucfirst($paTailCity); }
+        if ($paSvc === '') { $paSvc = 'General Enquiry'; }
+        if ($paCity === '' && $paTailCity) { $paCity = ucfirst($paTailCity); }
     }
-    if ($paSvc === null) { $paSvc = $paUrlSvc !== '' ? $paUrlSvc : 'General Enquiry'; }
 
-    // Some labels arrive already entity-encoded ("Accounting &amp; Bookkeeping"),
-    // others contain a bare "&". Decode first so Blade's {{ }} escapes exactly
-    // once and the page never shows "&amp;amp;".
+    // Labels sometimes arrive already entity-encoded ("Accounting &amp; Bookkeeping"),
+    // sometimes with a bare "&". Decode first so Blade escapes exactly once and the
+    // page never shows "&amp;amp;".
     $paSvc = trim(html_entity_decode($paSvc, ENT_QUOTES | ENT_HTML5, 'UTF-8'));
 
-    // ---- resolve the city ------------------------------------------------
-    // The URL is the last fallback so a city page still prefills the field even
-    // when the slot that rendered first takes no city parameter - partials/
-    // enquiry-form never had one, which left all 178 of its pages blank.
-    $paCity = '';
-    foreach ([$city ?? null, $enquiryLocation ?? null, config('pa.enquiry_city'),
-              $paTailCity ? ucfirst($paTailCity) : null] as $cand) {
-        if (is_string($cand) && trim($cand) !== '') { $paCity = trim($cand); break; }
-    }
+    $paTitle = $title    ?? ($paCompact ? 'Get a free callback' : 'Get Free Consultation');
+    $paSub   = $subtitle ?? ($paCompact
+                    ? 'Talk to a CA/CS expert today — no charge, no spam.'
+                    : 'Talk to a CA/CS expert today');
+    $paCta   = $cta      ?? 'Get Free Quote &rarr;';
 
-    // Publish for any later form on this page; tell the layout band to stand down.
+    // Publish for any later form on this page, and let layouts know a form is here.
     config([
         'pa.enquiry_form_rendered' => true,
         'pa.enquiry_service'       => $paSvc,
         'pa.enquiry_city'          => $paCity,
     ]);
-
-    $paCompact = (($variant ?? 'card') === 'compact');
-    $paTitle   = $title    ?? 'Get Free Consultation';
-    $paSub     = $subtitle ?? 'Talk to a CA/CS expert today';
-    $paCta     = $cta      ?? 'Get Free Quote &rarr;';
 @endphp
 
+@unless ($paBare)
 <div class="form-card bigin-form{{ $paCompact ? ' bigin-form--compact' : '' }}" id="formCard{{ $uid }}">
     <div class="form-header">
         <h2 class="form-title">{{ $paTitle }}</h2>
         <p class="form-subtitle">{{ $paSub }}</p>
     </div>
+@endunless
 
     <iframe name="biginFrame{{ $uid }}" id="biginFrame{{ $uid }}" style="display:none;" src="about:blank" title="Form submission target" aria-hidden="true"></iframe>
 
@@ -207,10 +145,6 @@
         <input type="hidden" name="Pipeline" value="Sales Pipeline Standard"/>
         <input type="hidden" name="Stage" value="Qualification"/>
         <input type="hidden" name="Contacts.Lead Source" data-page-url value=""/>
-
-        {{-- The service is deliberately NOT shown. It still reaches Bigin through
-             the hidden "Potential Name" and "Contacts.Description" fields above,
-             so the lead is tagged per page either way. --}}
 
         <div class="form-group">
             <label class="form-label" for="name{{ $uid }}">Full Name</label>
@@ -248,6 +182,7 @@
         <button type="submit" class="btn-submit" data-submit>{!! $paCta !!}</button>
     </form>
 
+@unless ($paBare)
     @unless ($paCompact)
         <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
     @endunless
@@ -267,5 +202,14 @@
         </span>
     </div>
 </div>
+@endunless
 
-@include('partials.enquiry-form-scripts')
+{{-- Scripts, once per page however many forms it renders. The stylesheet is NOT
+     here: css/enquiry-form.css is linked by the layouts next to the header and
+     footer, so it loads on every page. wf_script is Zoho's own loader and only
+     sets the zc_gad click id; the record is created from the POST body, so a
+     lead is still captured if it is blocked. --}}
+@once
+<script src="{{ asset('js/enquiry-form.js') }}?v={{ @filemtime(base_path('js/enquiry-form.js')) ?: '1' }}" defer></script>
+<script id="wf_script" src="https://bigin.zoho.in/crm/WebformScriptServlet?rid=2427034fc9b227c6338366d9b8b215a5d00314702d3b6d6eb99eb3530677412d6e830f907e98e80d864e000cb2562843gide400f91af978409c278261bdb7657f2282138d1ec4587de30428ddc1db6fac79"></script>
+@endonce

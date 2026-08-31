@@ -808,20 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Bank and Credit Card Reconciliation',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'bank-credit-card-reconciliation-services/mumbai', 'label' => 'Bank and Credit Card Reconciliation in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-returns/mumbai', 'label' => 'GST Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/mumbai', 'label' => 'Income Tax Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/mumbai', 'label' => 'Tally Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/mumbai', 'label' => 'Zoho Books Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/mumbai', 'label' => 'Payroll Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/mumbai', 'label' => 'Tax Audit in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Bank and Credit Card Reconciliation',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1287,7 +1278,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Bank Reconciliation in Mumbai</h2>
                     <p class="faq-expanded__lead">Questions Mumbai owners and finance teams actually ask us about bank and credit card reconciliation.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Bank Reconciliation in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Bank and Credit Card Reconciliation',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1170,23 +1170,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Financial Services Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'statutory-audit-for-financial-services', 'label' => 'Statutory Audit (Financial Services)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit (RBI RBIA)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'nbfc-registration', 'label' => 'NBFC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'aif-registration', 'label' => 'AIF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-of-auditor', 'label' => 'Change of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Financial Services Audit',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2136,7 +2123,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Financial Services Audit</h2>
                     <p class="faq-expanded__lead">Common questions on NBFC statutory audit applicability, the 90-day NPA classification norm, CARO clause 3(xvi), CRAR minimum, NPA interest recognition, the 50-50 test, Ind AS 109 ECL interaction with IRACP, and the Para 9C auditor certificate to RBI.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Financial Services Audit'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Financial Services Audit',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

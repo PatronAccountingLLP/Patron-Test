@@ -288,20 +288,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Copyright Disclaimer',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-disclaimer/gurugram', 'label' => 'Copyright Disclaimer Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/gurugram', 'label' => 'Pvt Ltd Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/gurugram', 'label' => 'Income Tax Return in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/gurugram', 'label' => 'GST Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/gurugram', 'label' => 'Startup Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/gurugram', 'label' => 'Trademark Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/gurugram', 'label' => 'Payroll Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Copyright Disclaimer',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -705,7 +696,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs &ndash; Copyright Disclaimer in Gurugram</h2>
                     <p class="faq-expanded__lead">Get answers about mandatory status, fair dealing vs fair use, cost, lawsuit protection, notice elements, software notices, and updates.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Copyright Disclaimer in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Copyright Disclaimer',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

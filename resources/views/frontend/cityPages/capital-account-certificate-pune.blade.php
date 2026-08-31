@@ -1131,20 +1131,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Capital Account Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'capital-account-certificate', 'label' => 'Capital Account Certificate (FEMA)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fdi-compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'issue-of-shares', 'label' => 'Issue of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'transfer-of-shares', 'label' => 'Transfer of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration-in-usa', 'label' => 'Company Registration in USA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'us-bank-account-opening', 'label' => 'US Bank Account from India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Capital Account Certificate',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1780,7 +1771,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about capital account certificates for ECB, FDI, and FEMA compliance in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Capital Account Certificate',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

@@ -1113,22 +1113,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Fintech NBFC Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-fintech-nbfc', 'label' => 'Payroll Services for Fintech and NBFC', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services (Overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esop-management-and-compliance-services', 'label' => 'ESOP Management &amp; Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-fno-traders', 'label' => 'ITR for F&amp;O Traders', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-crypto-traders', 'label' => 'ITR for Crypto Traders', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-refund', 'label' => 'GST Refund', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pt-returns', 'label' => 'Professional Tax Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Fintech NBFC Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2080,7 +2068,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Fintech and NBFC Payroll FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 17(2)(vi) ESOP perquisite, Section 192(1C) deferral, RBI Scale-Based Regulation, ITR-3 employee complexity, foreign-parent ESOP and GST refund - answered by the Patron CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Fintech and NBFC Payroll FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Fintech NBFC Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

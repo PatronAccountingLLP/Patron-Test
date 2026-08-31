@@ -1139,18 +1139,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Form 15CA and 15CB',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'foreign-remittance-certificate-15ca-15cb', 'label' => 'Foreign Remittance (Form 15CA/15CB)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'tds-return', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services', 'label' => 'Tax Planning Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'inward-remittance-certificate-firc', 'label' => 'Inward Remittance Certificate (FIRC)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Form 15CA and 15CB',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1817,7 +1809,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions remitters ask about Form 15CA and 15CB, the INR 5 lakh threshold, the four parts, exemptions, the 2026 renumbering, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Form 15CA and 15CB',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

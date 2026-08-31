@@ -1111,18 +1111,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-partnership/gurugram',
-                    'options'  => [
-                        'net-worth-certificate-partnership/gurugram' => 'Partnership Net Worth in Gurugram',
-                        'net-worth-certificate/gurugram' => 'Net Worth Certificate in Gurugram',
-                        'accounting-services/gurugram' => 'Accounting Services in Gurugram',
-                        'tax-audit/gurugram' => 'Tax Audit in Gurugram',
-                        'partnership-to-llp/gurugram' => 'Partnership to LLP in Gurugram',
-                        'income-tax-return/gurugram' => 'Income Tax Return in Gurugram',
-                        'gst-registration/gurugram' => 'GST Registration in Gurugram',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Partnership Net Worth in Gurugram',
+                    'city'     => 'Gurugram',
                 ])
             </div>
         </div>
@@ -1504,7 +1495,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Partnership Firm Net Worth in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about partnership firm net worth, firm vs partner level, balance sheet, goodwill, and tender requirements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Partnership Firm Net Worth in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Partnership Net Worth in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

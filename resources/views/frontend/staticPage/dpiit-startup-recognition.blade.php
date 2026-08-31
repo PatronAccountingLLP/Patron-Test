@@ -279,21 +279,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - DPIIT Recognition',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'dpiit-startup-recognition', 'label' => 'DPIIT Startup Recognition', 'selected' => true, 'disabled' => false],
-                            ['value' => 'esop-management-and-compliance-services', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Incorporation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration', 'label' => 'Udyam Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pan-registration', 'label' => 'PAN Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tan-registration', 'label' => 'TAN Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'DPIIT Recognition',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -992,7 +981,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about DPIIT startup recognition, eligibility, benefits, the Section 80-IAC tax holiday, angel tax and ESOP deferral.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'DPIIT Recognition',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -388,24 +388,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Raipur',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Raipur', 'label' => 'GSTAT Appeal Filing in Raipur', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Raipur', 'label' => 'FSSAI Registration in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Raipur', 'label' => 'GST Registration in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Raipur', 'label' => 'Income Tax Return in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Raipur', 'label' => 'LLP Incorporation in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Raipur', 'label' => 'PAN Registration in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Raipur', 'label' => 'Payroll Services in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Raipur', 'label' => 'Private Limited Company Registration in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Raipur', 'label' => 'Startup Registration in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Raipur', 'label' => 'Trademark Registration in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Raipur', 'label' => 'Udyam Registration in Raipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Raipur',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1053,7 +1039,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Raipur',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -396,24 +396,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Jalandhar',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Jalandhar', 'label' => 'GSTAT Appeal Filing in Jalandhar', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Jalandhar', 'label' => 'FSSAI Registration in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Jalandhar', 'label' => 'GST Registration in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Jalandhar', 'label' => 'Income Tax Return in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Jalandhar', 'label' => 'LLP Incorporation in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Jalandhar', 'label' => 'PAN Registration in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Jalandhar', 'label' => 'Payroll Services in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Jalandhar', 'label' => 'Private Limited Company Registration in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Jalandhar', 'label' => 'Startup Registration in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Jalandhar', 'label' => 'Trademark Registration in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Jalandhar', 'label' => 'Udyam Registration in Jalandhar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Jalandhar',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -963,7 +949,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Jalandhar',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

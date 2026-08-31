@@ -304,21 +304,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Pharma Exporter Refund',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-refund-for-pharma-exporters', 'label' => 'Pharma Exporter Refund', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-refund', 'label' => 'GST Refund', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-exporters', 'label' => 'GSTAT Appeal - Exporters', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-filing', 'label' => 'GSTAT Appeal Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-annual-returns', 'label' => 'GST Annual Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Pharma Exporter Refund',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1152,7 +1141,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about GST refund for Indian pharma exporters - covering the 6 revenue routes (LUT, IGST, IDS API-to-formulation, IDS bulk-drug, deemed exports, international tenders), 56th GST Council 22 September 2025 rate rationalisation widening IDS gap from 6 to 13 percentage points, CDSCO export documentation (Form 28-D, CoPP, WHO-GMP) coordination, international procurement routes (UN, Global Fund, Gavi, UNICEF, PEPFAR), VKC Footsteps SC 2021 Net ITC discipline, and CGST Instruction 6/2025 7-day refund window for the 4 priority sectors.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Pharma Exporter Refund',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

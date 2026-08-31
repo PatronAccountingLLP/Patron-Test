@@ -401,24 +401,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Dehradun',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Dehradun', 'label' => 'GSTAT Appeal Filing in Dehradun', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Dehradun', 'label' => 'FSSAI Registration in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Dehradun', 'label' => 'GST Registration in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Dehradun', 'label' => 'Income Tax Return in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Dehradun', 'label' => 'LLP Incorporation in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Dehradun', 'label' => 'PAN Registration in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Dehradun', 'label' => 'Payroll Services in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Dehradun', 'label' => 'Private Limited Company Registration in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Dehradun', 'label' => 'Startup Registration in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Dehradun', 'label' => 'Trademark Registration in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Dehradun', 'label' => 'Udyam Registration in Dehradun', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Dehradun',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -932,7 +918,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Dehradun',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

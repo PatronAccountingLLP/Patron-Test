@@ -252,21 +252,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Ecommerce Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'e-commerce-sector-payroll-processing-services', 'label' => 'Ecommerce Payroll', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services-for-e-commerce-industry', 'label' => 'E-commerce Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Ecommerce Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -678,7 +667,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Ecommerce Payroll</h2>
                     <p class="faq-expanded__lead">Get answers about EPF/ESI rates, gig worker compliance, 50% basic pay rule, seasonal workforce payroll, TDS deadlines, and Labour Code 2025 impact on ecommerce.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Ecommerce Payroll'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Ecommerce Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

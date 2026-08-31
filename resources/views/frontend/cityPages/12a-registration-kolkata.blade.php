@@ -277,18 +277,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - 12A Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => '12a-registration/kolkata', 'label' => '12A Registration in Kolkata', 'selected' => true, 'disabled' => false],
-                            ['value' => '80g-registration/kolkata', 'label' => '80G Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-registration/kolkata', 'label' => 'NGO Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration/kolkata', 'label' => 'Section 8 Company in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration/kolkata', 'label' => 'Society Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => '12A Registration',
+                                            'city'     => 'Kolkata',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -775,7 +768,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - 12A Registration in Kolkata</h2>
                     <p class="faq-expanded__lead">Common questions about 12A tax exemption, provisional vs regular, Form 10A/10AB, PCIT Kolkata, and ITR-7 for Kolkata NGOs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Kolkata', 'enquiryService' => '12A Registration in Kolkata'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '12A Registration',
+                        'city'     => 'Kolkata',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

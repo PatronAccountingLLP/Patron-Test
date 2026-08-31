@@ -808,20 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Accounts Reconciliation and Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'accounts-reconciliation-and-audit/delhi', 'label' => 'Accounts Reconciliation and Audit in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-returns/delhi', 'label' => 'GST Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/delhi', 'label' => 'Tally Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/delhi', 'label' => 'Zoho Books Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/delhi', 'label' => 'Payroll Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/delhi', 'label' => 'Tax Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Accounts Reconciliation and Audit',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1284,7 +1275,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Accounts Reconciliation in Delhi</h2>
                     <p class="faq-expanded__lead">What Delhi founders and finance heads most often want to know about reconciliation and books audit.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Accounts Reconciliation in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Accounts Reconciliation and Audit',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

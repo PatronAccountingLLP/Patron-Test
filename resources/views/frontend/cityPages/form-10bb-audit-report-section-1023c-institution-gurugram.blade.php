@@ -434,18 +434,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Form 10BB Audit Report in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'form-10bb-audit-report-section-1023c-institution', 'label' => 'Form 10BB Audit Report (Section 10(23C))', 'selected' => true, 'disabled' => false],
-                            ['value' => 'form-10b-audit-report-section-12a-trust', 'label' => 'Form 10B Audit Report (12A Trust)', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section-11-12-13-income-application-accumulation', 'label' => 'Section 11-12-13 Income Application', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-services-for-healthcare', 'label' => 'NGO Services for Healthcare', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Form 10BB Audit Report in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1148,7 +1141,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from charitable trusts, funds, educational institutions and medical institutions on Form 10BB applicability, the Rs 5 crore threshold and filing.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Form 10BB Audit Report in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

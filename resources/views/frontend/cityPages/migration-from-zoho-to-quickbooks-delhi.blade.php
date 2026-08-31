@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Zoho to QuickBooks Migration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'migration-from-zoho-to-quickbooks/delhi', 'label' => 'Zoho to QuickBooks Migration in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'quickbooks-accounting/delhi', 'label' => 'QuickBooks Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/delhi', 'label' => 'Zoho Books Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/delhi', 'label' => 'GST Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/delhi', 'label' => 'Accounting Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/delhi', 'label' => 'Payroll Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Zoho to QuickBooks Migration',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1282,7 +1274,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Zoho to QuickBooks Migration in Delhi</h2>
                     <p class="faq-expanded__lead">Real questions from Delhi founders and finance teams moving from Zoho Books to QuickBooks Online.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Zoho to QuickBooks Migration in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Zoho to QuickBooks Migration',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

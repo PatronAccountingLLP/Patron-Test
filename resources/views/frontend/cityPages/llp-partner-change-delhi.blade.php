@@ -257,20 +257,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Partner Change in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-partner-change/delhi', 'label' => 'LLP Partner Change in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-agreement-change/delhi', 'label' => 'LLP Agreement Change in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-contribution-change/delhi', 'label' => 'LLP Contribution Change in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-name-change/delhi', 'label' => 'LLP Name Change in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/delhi', 'label' => 'LLP Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance/delhi', 'label' => 'LLP Compliance in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/delhi', 'label' => 'Private Limited Company Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Partner Change in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -997,7 +988,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - LLP Partner Change in Delhi</h2>
                     <p class="faq-expanded__lead">Expert answers to common questions about LLP partner addition, cessation, and Form 4 filing for Delhi LLPs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'LLP Partner Change in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Partner Change in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

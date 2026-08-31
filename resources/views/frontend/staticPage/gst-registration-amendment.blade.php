@@ -1143,17 +1143,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Registration Amendment',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GST Registration Amendment', 'label' => 'GST Registration Amendment', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GST Registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Change in Registered Office', 'label' => 'Change in Registered Office', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Registration Amendment',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2012,7 +2005,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on Form REG-14, core vs non-core fields, the 15 day time limit, PAN change, late filing penalty, officer approval window, and government fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Registration Amendment',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

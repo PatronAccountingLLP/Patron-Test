@@ -257,21 +257,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Healthcare Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-processing-for-the-healthcare-industry', 'label' => 'Healthcare Payroll', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services (Overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'healthcare-sector-accounting-services', 'label' => 'Healthcare Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'actuarial-valuation-services-for-employee-benefits', 'label' => 'Actuarial Valuation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gratuity-calculation-and-compliance-services', 'label' => 'Gratuity Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Healthcare Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -676,7 +665,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Healthcare Payroll India</h2>
                     <p class="faq-expanded__lead">Answers to common questions about payroll for hospitals, clinics, nursing homes, and diagnostic centres in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Healthcare Payroll India'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Healthcare Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

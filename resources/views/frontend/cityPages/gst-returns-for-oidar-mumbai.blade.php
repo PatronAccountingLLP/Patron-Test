@@ -284,19 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - OIDAR GST Returns',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-returns-for-oidar/mumbai', 'label' => 'OIDAR GST Returns Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-freelancers', 'label' => 'Freelancer GST', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'import-export-code', 'label' => 'Import Export Code', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'OIDAR GST Returns',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -859,7 +851,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: OIDAR GST Returns in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about OIDAR definition, GSTR-5A filing, mandatory registration, ITC availability, B2B RCM, GST rates, and Mumbai SaaS export treatment.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'OIDAR GST Returns in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'OIDAR GST Returns',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

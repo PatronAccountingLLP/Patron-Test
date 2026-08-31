@@ -278,19 +278,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Ageing of Debtors and Creditors Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ageing-of-debtors-creditors-certificate', 'label' => 'Ageing of Debtors and Creditors', 'selected' => true, 'disabled' => false],
-                            ['value' => 'stock-audit', 'label' => 'Stock Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-business-loan', 'label' => 'Net Worth Certificate for Business Loan', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Ageing of Debtors and Creditors Certificate',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -952,7 +943,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions clients ask about the ageing certificate, debtors vs creditors, why banks and acquirers need it, Schedule III, age buckets, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Ageing of Debtors and Creditors Certificate',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

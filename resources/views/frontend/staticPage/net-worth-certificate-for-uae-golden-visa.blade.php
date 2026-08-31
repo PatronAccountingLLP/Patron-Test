@@ -1131,16 +1131,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-uae-golden-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-uae-golden-visa' => 'Net Worth Certificate for UAE Golden Visa',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'company-registration-in-uae' => 'Company Registration in UAE',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for UAE Golden Visa',
                 ])
             </div>
         </div>
@@ -1785,7 +1777,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions investors ask about whether the certificate is required, the AED 2 million rule, the 10-year visa, mortgaged property, source of funds, currency, pricing, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for UAE Golden Visa',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

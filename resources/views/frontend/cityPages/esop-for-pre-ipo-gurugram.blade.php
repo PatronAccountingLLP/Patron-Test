@@ -397,21 +397,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Pre-IPO ESOP',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ESOP for Pre-IPO', 'label' => 'ESOP for Pre-IPO', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Services', 'label' => 'ESOP Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Scheme Design', 'label' => 'ESOP Scheme Design', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Valuation', 'label' => 'ESOP Valuation Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Accounting Ind AS 102', 'label' => 'ESOP Accounting under Ind AS 102', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Corporate Filings', 'label' => 'ESOP Corporate Filings', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Restructuring', 'label' => 'ESOP Restructuring &amp; Underwater Options', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Foreign Parent ESOP', 'label' => 'ESOP for Foreign Parent Indian Subsidiary', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Pre-IPO ESOP',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1154,7 +1144,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Quick answers on SEBI SBEB 2021 conversion, ICDR lock-in, DRHP disclosure and BRLM coordination for pre-IPO ESOP engagements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Pre-IPO ESOP',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

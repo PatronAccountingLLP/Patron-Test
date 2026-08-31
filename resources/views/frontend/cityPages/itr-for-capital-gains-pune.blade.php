@@ -256,20 +256,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Capital Gains in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-capital-gains/pune', 'label' => 'Capital Gains ITR in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/pune', 'label' => 'Pvt Ltd Company Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/pune', 'label' => 'Startup Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-returns', 'label' => 'Income Tax Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning', 'label' => 'Tax Planning', 'selected' => false, 'disabled' => false],
-                            ['value' => 'nri-taxation', 'label' => 'NRI Taxation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Capital Gains in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -746,7 +737,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ITR for Capital Gains in Pune</h2>
                     <p class="faq-expanded__lead">Common questions about capital gains ITR filing, LTCG/STCG rates, exemptions, property taxation, and ESOPs in Pune</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'ITR for Capital Gains in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Capital Gains in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

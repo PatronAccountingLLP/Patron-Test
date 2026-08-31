@@ -1168,22 +1168,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 148 Notice Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-148-notice/gurugram', 'label' => 'Section 148 Notice Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice/gurugram', 'label' => 'Income Tax Notice Gurugram (Parent City Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-147/gurugram', 'label' => 'Section 147 Gurugram (Charging Section)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-148-notice/delhi', 'label' => 'Section 148 Notice Delhi (Sibling)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/gurugram', 'label' => 'Section 143(2) Scrutiny Selection Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3/gurugram', 'label' => 'Section 143(3) Scrutiny Order Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156/gurugram', 'label' => 'Section 156 Demand Notice Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/gurugram', 'label' => 'ITR Filing Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 148 Notice Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2187,7 +2176,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 148 Notice Gurugram FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 148 reassessment notices in Gurugram, the Section 148A pre-notice procedure with 7 to 30 day SCN reply window, Section 149 time-limit post 1 September 2024 (3 yr 3 mo / 5 yr 3 mo), Pr CCIT NWR Chandigarh authority structure with Pr CIT(C) Gurugram at Aayakar Bhawan HSIIDC, JAO-vs-NaFAC jurisdictional question per P&amp;H HC Jatinder Singh Bhangu doctrine, Punjab and Haryana High Court Article 226 writ jurisdiction at Chandigarh, and the consequences of non-response - answered by the Patron Gurugram CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Section 148 Notice Gurugram FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 148 Notice Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

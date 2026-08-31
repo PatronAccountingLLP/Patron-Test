@@ -278,20 +278,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - PT Returns',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pt-returns', 'label' => 'PT Returns', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-processing', 'label' => 'Payroll Processing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esi-pf-compliance', 'label' => 'ESI and PF', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration', 'label' => 'Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'PT Returns',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -670,7 +660,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - PT Returns</h2>
                     <p class="faq-expanded__lead">Expert answers about professional tax return filing, PTRC/PTEC, state-wise due dates, penalties, and multi-state compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'PT Returns'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'PT Returns',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

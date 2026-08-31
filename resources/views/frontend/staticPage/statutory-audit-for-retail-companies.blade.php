@@ -1117,21 +1117,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Statutory Audit for Retail Companies',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'statutory-audit-for-retail-companies', 'label' => 'Statutory Audit for Retail Companies', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'stock-audit', 'label' => 'Stock Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services-for-trading-industry', 'label' => 'Trading Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services-for-e-commerce-industry', 'label' => 'E-Commerce Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Statutory Audit for Retail Companies',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2057,7 +2046,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Statutory Audit for Retail Companies</h2>
                     <p class="faq-expanded__lead">Common questions from retail-chain CFOs, omnichannel D2C founders, supermarket finance heads and franchise networks on Section 143, multi-store SA 501, loyalty Ind AS 115, POS reconciliation and multi-state GST.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Statutory Audit for Retail Companies'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Statutory Audit for Retail Companies',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

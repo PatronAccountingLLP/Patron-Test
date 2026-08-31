@@ -1136,21 +1136,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Small Company Definition - Section 2(85)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Section 2(85) Classification Opinion', 'label' => 'Section 2(85) Classification Opinion', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Private Limited Company Compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Small Company Annual Compliance', 'label' => 'Small Company Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt and LLP Compliance', 'label' => 'Pvt and LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Director KYC', 'label' => 'Director KYC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Transfer of Shares', 'label' => 'Transfer of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Change in Authorised Capital', 'label' => 'Change in Authorised Capital', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Small Company Definition - Section 2(85)',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1818,7 +1807,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about the Section 2(85) classification, MGT-7A vs MGT-7, and small-company benefits.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Small Company Compliance Section 2 85 Definition'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Small Company Definition - Section 2(85)',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

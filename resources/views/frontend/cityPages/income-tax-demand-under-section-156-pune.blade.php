@@ -269,20 +269,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Demand Section 156 in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'it-demand-under-section-156/pune', 'label' => 'IT Demand Section 156 in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice/pune', 'label' => 'Income Tax Notice in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-salary/pune', 'label' => 'ITR for Salary in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business/pune', 'label' => 'ITR for Business in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing/pune', 'label' => 'TDS Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/pune', 'label' => 'GST Returns in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Demand Section 156 in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -692,7 +683,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IT Demand Under Section 156 in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to the most common questions about income tax demand notices in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'IT Demand Under Section 156 in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Demand Section 156 in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1131,19 +1131,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Foreign Remittance Certificate (15CA / 15CB)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'foreign-remittance-certificate-15ca-15cb', 'label' => 'Foreign Remittance Certificate (15CA / 15CB)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-foreign-income', 'label' => 'ITR for Foreign Income', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fdi-compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'us-bank-account-opening', 'label' => 'US Bank Account from India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Foreign Remittance Certificate (15CA / 15CB)',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1780,7 +1772,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about Form 15CA, Form 15CB, the INR 5 lakh threshold, and the Form 145/146 change in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Foreign Remittance Certificate (15CA / 15CB)',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

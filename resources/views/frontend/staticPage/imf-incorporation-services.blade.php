@@ -1113,21 +1113,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF Incorporation Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'imf-incorporation-services', 'label' => 'IMF Incorporation Services', 'selected' => true, 'disabled' => false],
-                            ['value' => 'insurance-marketing-firm-registration', 'label' => 'Insurance Marketing Firm Registration (Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process', 'label' => 'IRDAI IMF Registration Process', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification and ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-private-limited-vs-llp', 'label' => 'IMF Private Limited vs LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Pvt Ltd Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-registration', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF Incorporation Services',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2327,7 +2316,10 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from founders evaluating combined IMF incorporation - Pvt Ltd vs LLP decision, fees, timeline, capital infusion, MoA Object Clause, and DIN / DSC requirements.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF Incorporation Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

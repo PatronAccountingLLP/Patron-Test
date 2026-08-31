@@ -1916,35 +1916,9 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 
                     @endverbatim
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - Asset Tagging Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Asset Tagging Services', 'label' => 'Asset Tagging Services', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Fixed Asset Verification', 'label' => 'Fixed Asset Verification', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Mystery Audit Services', 'label' => 'Mystery Audit Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit', 'label' => 'Stock Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Auto Components', 'label' => 'Stock Audit for Auto Components', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Dark Stores', 'label' => 'Stock Audit for Dark Stores', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Electronics', 'label' => 'Stock Audit for Electronics', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Machine Tools', 'label' => 'Stock Audit for Machine Tools', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for FMCG', 'label' => 'Stock Audit for FMCG', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Pharma', 'label' => 'Stock Audit for Pharma', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Retail', 'label' => 'Stock Audit for Retail', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Agro-Inputs', 'label' => 'Stock Audit for Agro-Inputs', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Textile', 'label' => 'Stock Audit for Textile', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit for Warehousing', 'label' => 'Stock Audit for Warehousing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Ahmedabad', 'label' => 'Stock Audit in Ahmedabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Bangalore', 'label' => 'Stock Audit in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Chennai', 'label' => 'Stock Audit in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Delhi', 'label' => 'Stock Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Gurugram', 'label' => 'Stock Audit in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Hyderabad', 'label' => 'Stock Audit in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Kolkata', 'label' => 'Stock Audit in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Mumbai', 'label' => 'Stock Audit in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Pune', 'label' => 'Stock Audit in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'Asset Tagging Services',
                     ])
                     @verbatim
 
@@ -2358,10 +2332,12 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
                     <p class="faq-expanded__lead">Answers written against the position in force on the review date below.</p>
                     <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact">Still have a question? Talk to a CA &rarr;</a>
                     @endverbatim
-                    @include('partials.faq-enquiry-form', [
-    'enquiryTitle' => 'Ask about your count',
-    'enquirySub'   => 'Send your site list and the scope comes back against it.',
-])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Asset Tagging Services',
+                        'title'    => 'Ask about your count',
+                        'subtitle' => 'Send your site list and the scope comes back against it.',
+                    ])
                     @verbatim
                 </aside>
                 <div class="faq-expanded__list">

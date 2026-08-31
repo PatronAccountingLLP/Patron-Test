@@ -367,23 +367,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - NRI ITR',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ITR-2 NRI with NRO TDS Recovery', 'label' => 'ITR-2 NRI with NRO TDS Recovery', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ITR-2 NRI with Multiple Indian Incomes', 'label' => 'ITR-2 NRI with Multiple Indian Incomes', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR-2 plus DTAA Form 67 plus TRC', 'label' => 'ITR-2 plus DTAA Form 67 plus TRC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR-3 NRI with Indian Business or Partnership', 'label' => 'ITR-3 NRI with Indian Business or Partnership', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Returning NRI RNOR Transition', 'label' => 'Returning NRI RNOR Transition', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NRI Property Sale with Section 197', 'label' => 'NRI Property Sale with Section 197', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ROR with Schedule FA, FSI, TR', 'label' => 'ROR with Schedule FA, FSI, TR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 6(1A) Deemed Resident Filing', 'label' => 'Section 6(1A) Deemed Resident Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 139(9) Defective Return Response', 'label' => 'Section 139(9) Defective Return Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Black Money Act Schedule FA Compliance', 'label' => 'Black Money Act Schedule FA Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'NRI ITR',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1188,7 +1175,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on NRI ITR filing for AY 2026-27 - Section 6 residency tests, ITR-2 vs ITR-3 form selection, NRO interest TDS recovery, DTAA Form 67 sequencing, Schedule FA disclosure, RNOR window for returning NRIs, Section 195 property sale TDS, Section 6(1A) deemed residency.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'NRI ITR',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

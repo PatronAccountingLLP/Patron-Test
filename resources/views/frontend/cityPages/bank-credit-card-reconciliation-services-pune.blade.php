@@ -808,20 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Bank and Credit Card Reconciliation',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'bank-credit-card-reconciliation-services/pune', 'label' => 'Bank and Credit Card Reconciliation in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-returns/pune', 'label' => 'GST Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/pune', 'label' => 'Income Tax Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/pune', 'label' => 'Tally Accounting in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/pune', 'label' => 'Zoho Books Accounting in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/pune', 'label' => 'Payroll Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/pune', 'label' => 'Tax Audit in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Bank and Credit Card Reconciliation',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1287,7 +1278,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Bank Reconciliation in Pune</h2>
                     <p class="faq-expanded__lead">Real questions from Pune founders and finance teams about bank and credit card reconciliation.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Bank Reconciliation in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Bank and Credit Card Reconciliation',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

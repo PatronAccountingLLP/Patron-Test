@@ -1122,21 +1122,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Small Company Annual Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Small Company Annual Compliance', 'label' => 'Small Company Annual Compliance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Private Limited Company Compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt LLP Compliance', 'label' => 'Pvt Ltd vs LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ROC Notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Director KYC (DIR-3)', 'label' => 'Director KYC (DIR-3)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Auditor', 'label' => 'Appointment of Auditor (ADT-1)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Compliance Calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Small Company Annual Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2011,7 +2000,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions founders, directors, and CFOs ask about small company annual compliance under Section 2(85) of the Companies Act, 2013.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Small Company Annual Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

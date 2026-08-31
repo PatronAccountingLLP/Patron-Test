@@ -311,20 +311,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Audit Rotation Transition India',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'audit-rotation-transition-india', 'label' => 'Audit Rotation Transition (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit Engagement', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-of-auditor', 'label' => 'Change of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'audit-report-types-india', 'label' => 'Audit Report Types', 'selected' => false, 'disabled' => false],
-                            ['value' => 'caro-2020-reporting', 'label' => 'CARO 2020 Reporting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-financial-controls-audit', 'label' => 'Internal Financial Controls Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Audit Rotation Transition India',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1265,7 +1255,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Audit Rotation Under Section 139(2)</h2>
                     <p class="faq-expanded__lead">Practitioner-level Q&A on Section 139(2) applicability, term limits, cooling-off period, network firm restrictions, transition process, and SA 510 incoming auditor procedures.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Audit Rotation Under Section 139(2)'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Audit Rotation Transition India',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

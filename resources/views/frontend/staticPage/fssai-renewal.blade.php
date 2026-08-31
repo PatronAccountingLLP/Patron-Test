@@ -270,20 +270,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FSSAI Renewal',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fssai-renewal', 'label' => 'FSSAI Renewal', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fssai-registration', 'label' => 'FSSAI Registration (Basic)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-central-license', 'label' => 'FSSAI Central License', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-state-license', 'label' => 'FSSAI State License', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-returns', 'label' => 'FSSAI Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-restaurants-food-businesses', 'label' => 'GST for Restaurants', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FSSAI Renewal',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -971,7 +961,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - FSSAI Renewal</h2>
                     <p class="faq-expanded__lead">Expert answers to common questions about FSSAI licence renewal, fees, deadlines, and late penalties in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'FSSAI Renewal'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FSSAI Renewal',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

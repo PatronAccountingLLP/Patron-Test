@@ -322,17 +322,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'tally-accounting',
-                    'options'  => [
-                        'tally-accounting' => 'Tally Accounting',
-                        'accounting-services' => 'All Accounting Services',
-                        'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
-                        'financial-statement-preparation-services' => 'Financial Statement Preparation',
-                        'mis-reporting-services' => 'MIS Reporting',
-                        'backlog-bookkeeping-catch-up-services' => 'Backlog Bookkeeping Catch-up',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Tally Accounting',
                 ])
             </div>
         </div>
@@ -791,10 +782,11 @@
                     <h2 class="faq-expanded__title">Tally Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on tally accounting scope, process, documents and pricing for Indian businesses.</p>
                     <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
-                    @include('partials.faq-enquiry-form', [
-                        'enquiryTitle'   => 'Ask about your books',
-                        'enquirySub'     => 'Send your requirement for a scoped quote.',
-                        'enquiryService' => 'Tally Accounting',
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Tally Accounting',
+                        'title'    => 'Ask about your books',
+                        'subtitle' => 'Send your requirement for a scoped quote.',
                     ])
                 </aside>
                 <div class="faq-expanded__list">

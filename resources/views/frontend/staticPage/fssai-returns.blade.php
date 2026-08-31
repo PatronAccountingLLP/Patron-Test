@@ -282,19 +282,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FSSAI Returns',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fssai-returns', 'label' => 'FSSAI Returns', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fssai-registration', 'label' => 'FSSAI Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-central-license', 'label' => 'FSSAI Central License', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-state-license', 'label' => 'FSSAI State License', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-renewal', 'label' => 'FSSAI Renewal', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FSSAI Returns',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -809,7 +800,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - FSSAI Returns</h2>
                     <p class="faq-expanded__lead">Answers about FSSAI return filing process, due dates, applicability, penalties, Form D1 vs D2, and supporting documents.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'FSSAI Returns'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FSSAI Returns',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

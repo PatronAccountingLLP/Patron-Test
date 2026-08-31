@@ -822,22 +822,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Renewal Gurugram',
-                        'city' => 'Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'trademark-renewal/gurugram', 'label' => 'Trademark Renewal in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'brand-copyright-registration', 'label' => 'Brand Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment', 'label' => 'Copyright Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-disclaimer', 'label' => 'Copyright Disclaimer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection', 'label' => 'Copyright Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/gurugram', 'label' => 'Trademark Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/gurugram', 'label' => 'Private Limited Company Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/gurugram', 'label' => 'GST Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Renewal Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1527,7 +1516,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Trademark Renewal in Gurugram</h2>
                     <p class="faq-expanded__lead">Answers to common questions about trademark renewal including expiry calculation, fees, grace period, restoration, and multi-class portfolio management for Gurugram brands.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Trademark Renewal in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Renewal Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

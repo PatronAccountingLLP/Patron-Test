@@ -833,19 +833,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF IRDAI Registration in Delhi',
-                        'city' => 'Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'imf-irdai-registration-process/delhi', 'label' => 'IMF IRDAI Registration Process in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration', 'label' => 'IRDA IMF Business Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification &amp; ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-for-insurance-agents', 'label' => 'IMF for Insurance Agents', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF IRDAI Registration in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1476,7 +1468,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF IRDAI Registration in Delhi</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about IRDAI IMF registration for existing entities in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'IMF IRDAI Registration in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF IRDAI Registration in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

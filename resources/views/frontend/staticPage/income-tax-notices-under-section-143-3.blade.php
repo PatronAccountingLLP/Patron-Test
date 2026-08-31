@@ -281,18 +281,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Notice Section 143(3)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-notices-under-section-143-3', 'label' => 'IT Notice Section 143(3) (Scrutiny)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-142-1', 'label' => 'IT Notice Section 142(1)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-148', 'label' => 'IT Notice Section 148', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156', 'label' => 'IT Demand Section 156', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Notice Section 143(3)',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -788,7 +780,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Section 143(3) Scrutiny Assessment</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about income tax scrutiny notice, the difference between 143(2) and 143(3), CASS selection, penalties, and how to respond.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Section 143(3) Scrutiny Assessment'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Notice Section 143(3)',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

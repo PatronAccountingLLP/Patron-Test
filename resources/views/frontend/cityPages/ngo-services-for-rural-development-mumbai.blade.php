@@ -1062,20 +1062,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - NGO Services for Rural Development in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ngo-services-for-rural-development', 'label' => 'NGO Services for Rural Development', 'selected' => true, 'disabled' => false],
-                            ['value' => 'section8-company-registration', 'label' => 'Section 8 Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'csr-compliance-section-135-and-csr-1-csr-2', 'label' => 'CSR-1 / CSR-2 Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fund-utilisation-certificate', 'label' => 'Fund Utilisation Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'NGO Services for Rural Development in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1892,7 +1883,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from rural development, livelihood and agriculture NGOs evaluating registration, 12A/80G, FCRA, CSR-1 and grant-audit support.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'NGO Services for Rural Development in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

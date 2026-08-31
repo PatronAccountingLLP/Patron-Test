@@ -286,20 +286,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Renewal',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-renewal', 'label' => 'TM Renewal', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'TM Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-hearing', 'label' => 'TM Hearing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition', 'label' => 'TM Opposition', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-assignment', 'label' => 'TM Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-search-report', 'label' => 'TM Search Report', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-infringement', 'label' => 'TM Infringement', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Renewal',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -798,7 +788,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Trademark Renewal</h2>
                     <p class="faq-expanded__lead">Answers about trademark renewal process, fees, grace period, restoration, validity, and startup discounts.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Trademark Renewal'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Renewal',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

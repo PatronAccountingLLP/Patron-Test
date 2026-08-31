@@ -296,21 +296,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Pharma Businesses',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-pharma-businesses', 'label' => 'ITR for Pharma Businesses (current)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return (overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-refund', 'label' => 'GST Refund (Inverted Duty)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'stock-audit', 'label' => 'Stock Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services', 'label' => 'Tax Planning', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Pharma Businesses',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1301,7 +1290,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on ITR form selection for pharma manufacturers and traders, Section 35(2AB) R and D weighted deduction (100 percent post 1 April 2020 capped at Form 3CL), Section 44AB tax audit threshold, CDSCO licence fee deductibility, Section 54(3) inverted duty GST refund coordination, Section 37(1) freebies disallowance after Apex Laboratories SC 2022, RoDTEP pharma exclusion, and ICDS-II inventory valuation for AY 2026-27.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Pharma Businesses',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

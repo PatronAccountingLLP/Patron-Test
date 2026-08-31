@@ -284,20 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - AD Code Registration in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ad-code-registration/pune', 'label' => 'AD Code in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'import-export-code/pune', 'label' => 'Import Export Code in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/pune', 'label' => 'Pvt Ltd Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/pune', 'label' => 'Accounting Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-filing/pune', 'label' => 'Income Tax Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/pune', 'label' => 'Trademark Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'AD Code Registration in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -680,7 +671,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - AD Code Registration in Pune</h2>
                     <p class="faq-expanded__lead">Answers about AD code definition, ICEGATE registration, IEC vs AD code, documents, fees, timeline, port validity, and Pune-specific customs ports.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'AD Code Registration in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'AD Code Registration in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

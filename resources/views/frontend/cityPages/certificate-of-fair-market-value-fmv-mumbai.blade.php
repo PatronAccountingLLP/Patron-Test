@@ -1134,21 +1134,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FMV Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'certificate-of-fair-market-value-fmv', 'label' => 'Certificate of Fair Market Value (FMV)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'esop-valuation-services', 'label' => 'ESOP Valuation Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esop-services', 'label' => 'ESOP Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'issue-of-shares', 'label' => 'Issue of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'transfer-of-shares', 'label' => 'Transfer of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-companies', 'label' => 'Net Worth Certificate for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate', 'label' => 'Net Worth Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FMV Certificate',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1858,7 +1848,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the FMV certificate, Rule 11UA methods, ESOP use and angel tax.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FMV Certificate',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

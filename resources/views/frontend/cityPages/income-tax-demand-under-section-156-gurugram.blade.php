@@ -284,20 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Demand Section 156 in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'it-demand-section-156/gurugram', 'label' => 'IT Demand Section 156 in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return/gurugram', 'label' => 'Income Tax Return in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice/gurugram', 'label' => 'Income Tax Notice in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services/gurugram', 'label' => 'Tax Planning in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/gurugram', 'label' => 'GST Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'legal-drafting/gurugram', 'label' => 'Legal Drafting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Demand Section 156 in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -696,7 +687,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IT Demand Section 156 in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about Section 156 demand notice, response options, rectification, appeal, and consequences for Gurugram taxpayers.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'IT Demand Section 156 in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Demand Section 156 in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

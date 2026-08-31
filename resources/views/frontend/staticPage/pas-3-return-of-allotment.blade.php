@@ -1174,19 +1174,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - PAS-3 Filing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pas-3-return-of-allotment', 'label' => 'PAS-3 Filing', 'selected' => true, 'disabled' => false],
-                            ['value' => 'issue-of-shares', 'label' => 'Issue of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-authorised-capital', 'label' => 'Change Authorised Capital', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esop-management-and-compliance-services', 'label' => 'ESOP Management', 'selected' => false, 'disabled' => false],
-                            ['value' => 'transfer-of-shares', 'label' => 'Transfer of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'PAS-3 Filing',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1917,7 +1908,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the PAS-3 due date, when it is required, the dual penalty tracks, the private-placement fund lock, the documents attached, the five-allotments-per-form rule, the 60-day allotment timeline and the MGT-14 step.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'PAS-3 Filing',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

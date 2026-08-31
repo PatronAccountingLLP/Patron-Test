@@ -1180,21 +1180,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Form 11 and Form 8 Filing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-form-11-form-8-filing', 'label' => 'LLP Form 11 + Form 8 Filing (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-annual-compliance', 'label' => 'LLP Annual Compliance Bundle (Rs 25k)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-compliance', 'label' => 'LLP Compliance Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-form-11-filing', 'label' => 'LLP Form 11 Filing (Standalone)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-form-8-filing', 'label' => 'LLP Form 8 Filing (Standalone)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'DIR-3 KYC for DPIN', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'compliance-calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Form 11 and Form 8 Filing',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2308,7 +2297,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on the Form 11 vs Form 8 distinction, the 30 May + 30 October dual deadline, audit threshold under Section 34(4) (Rs 40 lakh / Rs 25 lakh), CS certification threshold under Rule 25 (Rs 50 lakh / Rs 5 crore), Section 35(2) post-LLP Amendment Act 2021 penalty (Rs 100/day capped Rs 1 lakh LLP / Rs 50k DP), Small LLP 50% benefit, 1 October first-FY Form 8 exemption, and the dormant LLP filing obligation.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Form 11 and Form 8 Filing',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

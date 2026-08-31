@@ -1122,18 +1122,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate/mumbai',
-                    'options'  => [
-                        'net-worth-certificate/mumbai' => 'Net Worth Certificate in Mumbai',
-                        'private-limited-company-registration/mumbai' => 'Pvt Ltd Registration in Mumbai',
-                        'income-tax-return/mumbai' => 'Income Tax Return Filing in Mumbai',
-                        'gst-registration/mumbai' => 'GST Registration in Mumbai',
-                        'startup-registration/mumbai' => 'Startup Registration in Mumbai',
-                        'trademark-registration/mumbai' => 'Trademark Registration in Mumbai',
-                        'payroll-services/mumbai' => 'Payroll Services in Mumbai',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate in Mumbai',
+                    'city'     => 'Mumbai',
                 ])
             </div>
         </div>
@@ -1603,7 +1594,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions &ndash; Joint Owner Net Worth Certificate in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about where to get, cost, timeline, online process, joint property, family visa, student visa sponsor, and documents for Mumbai joint owners.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Joint Owner Net Worth Certificate in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

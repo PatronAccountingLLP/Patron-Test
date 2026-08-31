@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Tally to Zoho Migration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'migration-from-tally-to-zoho/mumbai', 'label' => 'Tally to Zoho Migration in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/mumbai', 'label' => 'Zoho Books Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/mumbai', 'label' => 'Tally Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/mumbai', 'label' => 'GST Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/mumbai', 'label' => 'Accounting Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/mumbai', 'label' => 'Payroll Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Tally to Zoho Migration',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1283,7 +1275,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Tally to Zoho Migration in Mumbai</h2>
                     <p class="faq-expanded__lead">Real questions from Mumbai founders and finance teams about moving from Tally to Zoho Books.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Tally to Zoho Migration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Tally to Zoho Migration',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

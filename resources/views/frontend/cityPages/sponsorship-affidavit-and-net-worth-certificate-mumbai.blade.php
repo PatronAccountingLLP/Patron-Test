@@ -1134,20 +1134,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Sponsorship Affidavit and Net Worth Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sponsorship-affidavit-and-net-worth-certificate', 'label' => 'Sponsorship Affidavit and Net Worth Certificate', 'selected' => true, 'disabled' => false],
-                            ['value' => 'net-worth-certificate', 'label' => 'Net Worth Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-visa', 'label' => 'Net Worth Certificate for Visa', 'selected' => false, 'disabled' => false],
-                            ['value' => 'double-currency-networth-format', 'label' => 'Double Currency Networth Format', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-joint-owners-in-india', 'label' => 'Net Worth Certificate for Joint Owners', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-sole-proprietorship', 'label' => 'Net Worth Certificate for Sole Proprietorship', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-partnership-firms', 'label' => 'Net Worth Certificate for Partnership Firms', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Sponsorship Affidavit and Net Worth Certificate',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1857,7 +1848,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on who can sponsor, why both documents are needed, notarisation, NRI sponsors and US Form I-134.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Sponsorship Affidavit and Net Worth Certificate',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

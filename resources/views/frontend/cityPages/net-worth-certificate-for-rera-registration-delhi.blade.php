@@ -1155,17 +1155,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-rera-registration',
-                    'options'  => [
-                        'net-worth-certificate-for-rera-registration' => 'Net Worth Certificate for RERA Registration',
-                        'construction-and-real-estate-accounting-services' => 'Construction and Real Estate Accounting Services',
-                        'statutory-audit' => 'Statutory Audit',
-                        'appointment-of-auditor' => 'Appointment of Auditor',
-                        'private-limited-company-registration' => 'Private Limited Company Registration',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for RERA Registration',
+                    'city'     => 'Delhi',
                 ])
             </div>
         </div>
@@ -1939,7 +1931,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the net worth required, whether a CA certificate is mandatory, the 70 percent escrow rule, state variation, and who must register.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for RERA Registration',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

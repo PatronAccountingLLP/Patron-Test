@@ -216,19 +216,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Pvt Ltd Company Compliance in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pvt-ltd-company-compliance/pune', 'label' => 'Pvt Ltd Compliance in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/pune', 'label' => 'Pvt Ltd Company Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-roc-filing/pune', 'label' => 'Annual ROC Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Pvt Ltd Company Compliance in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -700,7 +692,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Pvt Ltd Company Compliance in Pune</h2>
                     <p class="faq-expanded__lead">Common questions about annual filings, penalties, statutory audit, AGM, and director disqualification for Pune companies</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Pvt Ltd Company Compliance in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Pvt Ltd Company Compliance in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

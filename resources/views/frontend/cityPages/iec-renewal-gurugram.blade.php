@@ -822,22 +822,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IEC Renewal Gurugram',
-                        'city' => 'Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'iec-renewal/gurugram', 'label' => 'IEC Renewal in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'brand-copyright-registration', 'label' => 'Brand Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment', 'label' => 'Copyright Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-disclaimer', 'label' => 'Copyright Disclaimer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection', 'label' => 'Copyright Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/gurugram', 'label' => 'Trademark Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/gurugram', 'label' => 'Private Limited Company Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/gurugram', 'label' => 'GST Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IEC Renewal Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1526,7 +1515,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IEC Renewal in Gurugram</h2>
                     <p class="faq-expanded__lead">Answers to common questions about IEC annual update including the April-June window, deactivation prevention, reactivation process, and export incentive eligibility for Gurugram traders.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'IEC Renewal in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IEC Renewal Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

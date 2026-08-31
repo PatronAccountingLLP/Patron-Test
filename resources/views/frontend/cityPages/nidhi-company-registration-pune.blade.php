@@ -296,20 +296,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Nidhi Company Registration in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'business-registration-for-nidhi-company-registration/pune', 'label' => 'Nidhi Company in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'company-registration/pune', 'label' => 'Company Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-registration/pune', 'label' => 'LLP Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/pune', 'label' => 'Accounting Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-filing/pune', 'label' => 'Income Tax Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/pune', 'label' => 'Startup Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Nidhi Company Registration in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -692,7 +683,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Nidhi Company Registration in Pune</h2>
                     <p class="faq-expanded__lead">Answers about Section 406, NDH-4 declaration, 200-member requirement, deposits, loans, RBI exemption, costs, and timeline for Pune Nidhi companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Nidhi Company Registration in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Nidhi Company Registration in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

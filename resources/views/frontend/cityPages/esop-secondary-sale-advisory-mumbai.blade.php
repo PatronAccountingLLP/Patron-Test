@@ -375,23 +375,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP Secondary',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Liquidity Vehicle Diagnostic', 'label' => 'Liquidity Vehicle Diagnostic', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Tender Offer - Small to Mid Size', 'label' => 'Tender Offer - Small to Mid Size', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tender Offer - Large or Multi-Tranche', 'label' => 'Tender Offer - Large or Multi-Tranche', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Company Buyback under Section 68', 'label' => 'Company Buyback under Section 68', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Trust Secondary Acquisition', 'label' => 'ESOP Trust Secondary Acquisition', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Cross-Border Buyer + FC-TRS', 'label' => 'Cross-Border Buyer + FC-TRS', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Rule 11UA Valuation Pass-Through', 'label' => 'Rule 11UA Valuation Pass-Through', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Annual Recurring Secondary Program', 'label' => 'Annual Recurring Secondary Program', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pre-IPO Tender Offer Coordination', 'label' => 'Pre-IPO Tender Offer Coordination', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Direct Secondary Sale Advisory', 'label' => 'Direct Secondary Sale Advisory', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP Secondary',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1225,7 +1213,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on ESOP secondary sale, tender offers and buyback advisory - vehicle definitions, tender offer workflow, capital gains tax under Section 49(2AA) cost basis, cross-border buyer FEMA compliance, post-Finance Act 2024 buyback tax mechanics, pricing benchmarks, holding period and FC-TRS filing.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP Secondary',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

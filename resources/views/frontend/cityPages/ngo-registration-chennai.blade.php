@@ -289,20 +289,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - NGO Registration in Chennai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ngo-registration/chennai', 'label' => 'NGO Registration in Chennai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/chennai', 'label' => 'GST Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/chennai', 'label' => 'Income Tax Return Filing in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/chennai', 'label' => 'Startup Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/chennai', 'label' => 'Private Limited Company Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/chennai', 'label' => 'Trademark Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/chennai', 'label' => 'Accounting Services in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'NGO Registration in Chennai',
+                                            'city'     => 'Chennai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -701,7 +692,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - NGO Registration in Chennai</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about NGO registration types, fees, 12A/80G tax exemption, and compliance requirements in Chennai.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Chennai', 'enquiryService' => 'NGO Registration in Chennai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'NGO Registration in Chennai',
+                        'city'     => 'Chennai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

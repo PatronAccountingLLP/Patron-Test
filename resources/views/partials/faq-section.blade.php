@@ -47,7 +47,11 @@
                 <p class="faq-expanded__lead">{{ $faqLead }}</p>
             @endif
             @if(($showForm ?? true))
-                @include('partials.faq-enquiry-form', ['enquiryLocation' => $enquiryLocation ?? '', 'enquiryService' => $enquiryService ?? ''])
+                @include('partials.bigin-form', [
+                    'variant' => 'compact',
+                    'service' => $enquiryService ?? null,
+                    'city'    => $enquiryLocation ?? null,
+                ])
             @endif
         </aside>
 

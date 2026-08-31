@@ -273,18 +273,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Name Change',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-name-change', 'label' => 'LLP Name Change', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-agreement-change', 'label' => 'LLP Agreement Change', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-partner-change', 'label' => 'LLP Partner Change', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Name Change',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -771,7 +763,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - LLP Name Change</h2>
                     <p class="faq-expanded__lead">Get answers about RUN-LLP, Form 5, Form 3, name reservation, deadlines, penalties, and post-change compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'LLP Name Change'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Name Change',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

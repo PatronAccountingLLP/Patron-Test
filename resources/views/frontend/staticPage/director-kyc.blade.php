@@ -248,18 +248,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Director KYC (DIR-3 KYC)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'director-kyc', 'label' => 'Director KYC (DIR-3 KYC)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'appointment-of-director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'resignation-of-director', 'label' => 'Resignation of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'secretarial-audit', 'label' => 'Secretarial Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Director KYC (DIR-3 KYC)',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -735,7 +727,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Director KYC (DIR-3 KYC)</h2>
                     <p class="faq-expanded__lead">Get answers about DIR-3 KYC due dates, penalties, e-Form vs Web, DIN reactivation, and filing requirements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Director KYC (DIR-3 KYC)'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Director KYC (DIR-3 KYC)',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

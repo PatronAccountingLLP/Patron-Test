@@ -319,18 +319,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'construction-and-real-estate-accounting-services',
-                    'options'  => [
-                        'construction-and-real-estate-accounting-services' => 'Construction & Real Estate Accounting',
-                        'accounting-services' => 'Accounting Services (All)',
-                        'corporate-compliance-for-construction-and-real-estate' => 'Compliance for Construction',
-                        'itr-for-construction-firms' => 'ITR for Construction Firms',
-                        'payroll-services-for-construction-real-estate-industry' => 'Payroll for Construction',
-                        'backlog-bookkeeping-catch-up-services' => 'Bookkeeping Catch-up',
-                        'mis-reporting-services' => 'MIS Reporting',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Construction & Real Estate Accounting',
                 ])
             </div>
         </div>
@@ -1423,10 +1413,11 @@
                     <h2 class="faq-expanded__title">Construction & Real Estate Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Project accounting, the RERA 70% account, POCM revenue, retention, 194C TDS and GST on under-construction property.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
-                    @include('partials.faq-enquiry-form', [
-                        'enquiryTitle'   => 'Ask about your project books',
-                        'enquirySub'     => 'Send your number of projects and RERA registrations for a scoped quote.',
-                        'enquiryService' => 'Construction & Real Estate Accounting',
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Construction & Real Estate Accounting',
+                        'title'    => 'Ask about your project books',
+                        'subtitle' => 'Send your number of projects and RERA registrations for a scoped quote.',
                     ])
                 </aside>
                 <div class="faq-expanded__list">

@@ -2237,23 +2237,11 @@
                             <p class="form-subtitle">Route to the right service for your stage and scenario</p>
                         </div>
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - Legal Drafting',
-                        'cta'     => 'Find My ESOP Service →',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                            ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Setting up first ESOP scheme', 'label' => 'Setting up first ESOP scheme', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP valuation (Rule 11UA)', 'label' => 'ESOP valuation (Rule 11UA)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP perquisite tax / TDS at exercise', 'label' => 'ESOP perquisite tax / TDS at exercise', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 192(1C) startup TDS deferral', 'label' => 'Section 192(1C) startup TDS deferral', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Foreign parent → Indian employees (cross-border)', 'label' => 'Foreign parent → Indian employees (cross-border)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pre-IPO ESOP / SEBI SBEB / Reg 9A', 'label' => 'Pre-IPO ESOP / SEBI SBEB / Reg 9A', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP for founders / promoters', 'label' => 'ESOP for founders / promoters', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Due diligence prep (fundraising / M&A)', 'label' => 'Due diligence prep (fundraising / M&A)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP vs RSU / Phantom / SAR — exploring alternatives', 'label' => 'ESOP vs RSU / Phantom / SAR — exploring alternatives', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'ESOP Services in Pune',
+                        'city'     => 'Pune',
+                        'cta'      => 'Find My ESOP Service →',
                     ])
             </div>
                     </div>
@@ -3131,7 +3119,11 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Pune ESOP questions, answered.</h2>
                 <p class="faq-expanded__lead">Eight questions Pune founders and CFOs ask before starting an ESOP engagement.</p>
-                @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'ESOP Services in Pune'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'ESOP Services in Pune',
+                    'city'     => 'Pune',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

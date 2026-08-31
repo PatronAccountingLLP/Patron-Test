@@ -255,20 +255,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Returns for E-Commerce Operator in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-returns-ecommerce-operator/pune', 'label' => 'E-Commerce GST Returns in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/pune', 'label' => 'Pvt Ltd Company Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/pune', 'label' => 'Startup Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/pune', 'label' => 'LLP Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/pune', 'label' => 'Trademark Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Returns for E-Commerce Operator in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -741,7 +732,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - GST Returns for E-Commerce Operator in Pune</h2>
                     <p class="faq-expanded__lead">Common questions about GSTR-8 filing, TCS rates, deadlines, and compliance for e-commerce operators in Pune</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'GST Returns for E-Commerce Operator in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Returns for E-Commerce Operator in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

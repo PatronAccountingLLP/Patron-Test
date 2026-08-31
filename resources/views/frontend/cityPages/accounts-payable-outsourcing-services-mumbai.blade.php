@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Accounts Payable Outsourcing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'accounts-payable-outsourcing-services/mumbai', 'label' => 'Accounts Payable Outsourcing in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/mumbai', 'label' => 'Accounting Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/mumbai', 'label' => 'GST Return Filing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/mumbai', 'label' => 'Tally Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/mumbai', 'label' => 'Zoho Books Accounting in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/mumbai', 'label' => 'Payroll Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Accounts Payable Outsourcing',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1282,7 +1274,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Accounts Payable Outsourcing in Mumbai</h2>
                     <p class="faq-expanded__lead">Common questions from Mumbai finance heads and promoters about handing over accounts payable.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Accounts Payable Outsourcing in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Accounts Payable Outsourcing',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

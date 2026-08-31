@@ -362,21 +362,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Flip Structure ESOP',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ESOP for Flip Structures', 'label' => 'ESOP for Flip Structures', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FDI Compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Accounting under Ind AS 102', 'label' => 'ESOP Accounting under Ind AS 102', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Corporate Filings', 'label' => 'ESOP Corporate Filings', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Management and Compliance', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration (DPIIT)', 'label' => 'Startup Registration (DPIIT)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Issue of Shares', 'label' => 'Issue of Shares', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Flip Structure ESOP',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1118,7 +1107,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Quick answers on flip structures - what is forward flip, why companies reverse flip, mirror grant mechanics, FEMA OI Rules 2022, LRS limit, Section 47 capital gains exemption, NCLT process timeline and RSU vs ESOP.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Flip Structure ESOP',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

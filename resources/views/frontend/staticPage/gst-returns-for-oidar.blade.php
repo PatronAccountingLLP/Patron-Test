@@ -276,19 +276,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - OIDAR GST Returns',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-returns-for-oidar', 'label' => 'OIDAR GST Returns', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns (General)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice', 'label' => 'GST Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'foreign-company-registration', 'label' => 'Foreign Company Reg', 'selected' => false, 'disabled' => false],
-                            ['value' => 'bookkeeping', 'label' => 'Bookkeeping', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'OIDAR GST Returns',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -800,7 +791,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - OIDAR GST Returns</h2>
                     <p class="faq-expanded__lead">Answers about OIDAR definition, GSTR-5A, registration, GST rates, reverse charge, ITC, and compliance for foreign and Indian providers.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'OIDAR GST Returns'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'OIDAR GST Returns',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

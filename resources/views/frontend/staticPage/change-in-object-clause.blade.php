@@ -261,17 +261,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Change in Object Clause',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'change-in-object-clause', 'label' => 'Change in Object Clause', 'selected' => true, 'disabled' => false],
-                            ['value' => 'change-in-company-name', 'label' => 'Company Name Change', 'selected' => false, 'disabled' => false],
-                            ['value' => 'increase-in-authorised-share-capital', 'label' => 'Increase Share Capital', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-roc-compliance', 'label' => 'Annual ROC Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Change in Object Clause',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -754,7 +747,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Change in Object Clause</h2>
                     <p class="faq-expanded__lead">Get answers about MOA alteration, Section 13 procedure, MGT-14 filing, penalties, and ROC certification.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Change in Object Clause'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Change in Object Clause',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

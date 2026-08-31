@@ -298,21 +298,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - AOC-4 Filing Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'aoc-4-filing-services', 'label' => 'AOC-4 Filing Services (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'mgt-7-filing-services', 'label' => 'MGT-7 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance (Full Bundle)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-annual-compliance', 'label' => 'Small Company Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-annual-compliance', 'label' => 'LLP Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'roc-notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'AOC-4 Filing Services',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1388,7 +1377,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on AOC-4 filing, due dates, late fees, XBRL applicability, OPC variants, and how the form differs from MGT-7 / MGT-7A.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'AOC-4 Filing Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

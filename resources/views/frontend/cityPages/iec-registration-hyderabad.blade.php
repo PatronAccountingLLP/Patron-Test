@@ -283,19 +283,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IEC Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'iec-registration/hyderabad', 'label' => 'IEC Registration in Hyderabad', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/hyderabad', 'label' => 'GST Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/hyderabad', 'label' => 'Pvt Ltd Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/hyderabad', 'label' => 'Accounting Services in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/hyderabad', 'label' => 'LLP Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/hyderabad', 'label' => 'Trademark Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IEC Registration',
+                                            'city'     => 'Hyderabad',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -796,7 +788,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IEC Registration in Hyderabad</h2>
                     <p class="faq-expanded__lead">Common questions about IEC, DGFT portal, AD Code, annual update, pharma exports, and trade compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Hyderabad', 'enquiryService' => 'IEC Registration in Hyderabad'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IEC Registration',
+                        'city'     => 'Hyderabad',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

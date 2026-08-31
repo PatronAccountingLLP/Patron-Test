@@ -1159,22 +1159,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Standards on Auditing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'standards-on-auditing', 'label' => 'Standards on Auditing (SAs)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-for-listed-companies', 'label' => 'Statutory Audit (Listed Companies)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-private-limited-company', 'label' => 'Statutory Audit (Pvt Ltd)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-llp', 'label' => 'Statutory Audit (LLP)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-standards', 'label' => 'Accounting Standards', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ind-as', 'label' => 'Ind AS', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Standards on Auditing',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2117,7 +2105,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the legal force of Standards on Auditing, SA 701 Key Audit Matters, NFRA oversight, SA 600 component auditor work, SQC 1 quality control, ICAI Peer Review, tax audit, and the distinction between SAs and Standards on Internal Audit.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Standards on Auditing',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

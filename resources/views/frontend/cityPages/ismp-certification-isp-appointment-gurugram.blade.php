@@ -981,18 +981,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ISMP Certification and ISP Appointment in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ismp-certification-isp-appointment/gurugram', 'label' => 'ISMP Certification &amp; ISP Appointment in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration/gurugram', 'label' => 'IRDA IMF Business Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process/gurugram', 'label' => 'IMF IRDAI Registration Process in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services/gurugram', 'label' => 'IMF Compliance Retainer in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-services', 'label' => 'IMF Services Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ISMP Certification and ISP Appointment in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1601,7 +1594,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ISMP Certification and ISP Appointment in Gurugram</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about certifying and appointing ISPs for an Insurance Marketing Firm in Gurugram.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'ISMP Certification and ISP Appointment in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ISMP Certification and ISP Appointment in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

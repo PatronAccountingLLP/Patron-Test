@@ -249,17 +249,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Company Closure',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'company-closure', 'label' => 'Company Closure (STK-2)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-closure', 'label' => 'LLP Closure', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-roc-compliance', 'label' => 'Annual ROC Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Company Closure',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -746,7 +739,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Company Closure</h2>
                     <p class="faq-expanded__lead">Get answers about STK-2 filing, C-PACE processing, eligibility, timelines, and post-dissolution liability.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Company Closure'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Company Closure',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1173,21 +1173,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Dormant Company Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'small-company-compliance-dormant', 'label' => 'Dormant Company Compliance (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-annual-compliance', 'label' => 'Small Company Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'strike-off-private-limited-company', 'label' => 'Strike Off Pvt Ltd', 'selected' => false, 'disabled' => false],
-                            ['value' => 'condonation-of-delay-roc-filings', 'label' => 'Condonation of Delay', 'selected' => false, 'disabled' => false],
-                            ['value' => 'aoc-4-filing-services', 'label' => 'AOC-4 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'mgt-7-filing-services', 'label' => 'MGT-7 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-closure', 'label' => 'Company Closure', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Dormant Company Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2345,7 +2334,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on Section 455 dormant status, inactive vs dormant distinction, the MSC form ecosystem (MSC-1 to MSC-5), reduced-compliance scope, 5-year ceiling, return to active status via MSC-4, and CCFS-2026 50% MSC-1 fee window.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Dormant Company Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

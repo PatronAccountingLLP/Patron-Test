@@ -258,20 +258,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Udyam Registration in Bangalore',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'udyam-registration/bangalore', 'label' => 'Udyam Registration in Bangalore', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/bengaluru', 'label' => 'GST Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/bengaluru', 'label' => 'Pvt Ltd Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/bengaluru', 'label' => 'Income Tax Return in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/bengaluru', 'label' => 'Startup Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/bengaluru', 'label' => 'Trademark Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/bengaluru', 'label' => 'Payroll Services in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Udyam Registration in Bangalore',
+                                            'city'     => 'Bangalore',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -696,7 +687,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Udyam Registration in Bangalore</h2>
                     <p class="faq-expanded__lead">Answers to common questions about Udyam MSME registration in Bangalore, covering classification, fees, IT company eligibility, and benefits.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bangalore', 'enquiryService' => 'Udyam Registration in Bangalore'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Udyam Registration in Bangalore',
+                        'city'     => 'Bangalore',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

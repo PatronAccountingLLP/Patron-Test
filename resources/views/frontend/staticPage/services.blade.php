@@ -1304,22 +1304,9 @@
                     <p class="form-subtitle">Find the right ITR service for your needs</p>
                 </div>
                 
-                @include('partials.lead-form', [
-                    'deal'    => 'Website Enquiry - Get Personalized Guidance',
-                    'cta'     => 'Find My ITR Service &rarr;',
-                    'options' => [
-                        ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Need help choosing ITR service', 'label' => 'Need help choosing ITR service', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Salary ITR filing', 'label' => 'Salary ITR filing', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Business ITR filing', 'label' => 'Business ITR filing', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Capital gains ITR', 'label' => 'Capital gains ITR', 'selected' => false, 'disabled' => false],
-                        ['value' => 'NRI tax filing', 'label' => 'NRI tax filing', 'selected' => false, 'disabled' => false],
-                        ['value' => 'F&O trading ITR', 'label' => 'F&O trading ITR', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Company ITR filing', 'label' => 'Company ITR filing', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Complex/multiple income sources', 'label' => 'Complex/multiple income sources', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Tax planning guidance', 'label' => 'Tax planning guidance', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Services',
+                    'cta'      => 'Find My ITR Service &rarr;',
                 ])
             </div>
         </div>
@@ -1745,7 +1732,10 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Quick questions, answered.</h2>
                 <p class="faq-expanded__lead">Five high-level questions about Patron's ITR services.</p>
-                @include('partials.faq-enquiry-form', ['enquiryService' => 'Services'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'Services',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

@@ -1140,21 +1140,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Professional Firm Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'professional-firm-registration', 'label' => 'Professional Firm Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Incorporation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'partnership-firm-registration', 'label' => 'Partnership Firm Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'proprietorship-registration', 'label' => 'Proprietorship Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-partnership-to-llp', 'label' => 'Convert Partnership to LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-professionals', 'label' => 'ITR for Professionals', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'Pvt & LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Professional Firm Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1862,7 +1851,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about registering a professional firm, the structure choice and professional-council compliance.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Professional Firm Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

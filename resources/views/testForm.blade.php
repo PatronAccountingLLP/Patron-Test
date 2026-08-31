@@ -141,10 +141,7 @@
  <!--                           </button>-->
  <!--                       </form>    -->
     
-     @include('partials.form-placeholder', [
-    'phTitle' => 'Form placeholder',
-    'phNote'  => 'The enquiry form has been removed from this page.',
-])
+     @include('partials.bigin-form', ['service' => 'General Enquiry'])
 
 </body>
 </html>

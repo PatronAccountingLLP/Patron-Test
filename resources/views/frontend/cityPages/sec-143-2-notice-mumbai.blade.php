@@ -1168,21 +1168,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 143(2) Notice Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-143-2-notice/mumbai', 'label' => 'Section 143(2) Notice Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice/mumbai', 'label' => 'Income Tax Notice Mumbai (Parent City Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/delhi', 'label' => 'Section 143(2) Notice Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/gurugram', 'label' => 'Section 143(2) Notice Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/pune', 'label' => 'Section 143(2) Notice Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice/mumbai', 'label' => 'GST Notice Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 143(2) Notice Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2143,7 +2133,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 143(2) Notice Mumbai FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 143(2) scrutiny selection notices in Mumbai, the 3-month time-bar proviso, Section 144B faceless framework with NaFAC Delhi allocation, Mumbai IT Region 30+ Principal CIT charges (LARGEST in India), Mumbai TPO and DRP physical hearings under Section 144C, ITAT Mumbai Bench at Pratishtha Bhavan (LARGEST in India, co-located) and Bombay HC Principal Seat (also co-located) time-bar writ jurisdiction - answered by the Patron Mumbai CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Section 143(2) Notice Mumbai FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 143(2) Notice Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

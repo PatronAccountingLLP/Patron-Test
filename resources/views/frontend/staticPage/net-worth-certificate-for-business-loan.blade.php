@@ -1234,19 +1234,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-business-loan',
-                    'options'  => [
-                        'net-worth-certificate-for-business-loan' => 'Net Worth Certificate for Business Loan',
-                        'net-worth-certificate-for-home-loan' => 'Net Worth Certificate for Home Loan',
-                        'net-worth-certificate-sole-proprietorship' => 'Net Worth Certificate for Sole Proprietorship',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'net-worth-certificate-for-joint-owners-in-india' => 'Net Worth Certificate for Joint Owners',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'turnover-certificate' => 'Turnover Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Business Loan',
                 ])
             </div>
         </div>
@@ -2050,7 +2039,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Eight questions Indian MSME borrowers and business loan applicants ask Patron Accounting most often - answered with bank-credit-officer-grade, ICAI-compliant detail.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Business Loan',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

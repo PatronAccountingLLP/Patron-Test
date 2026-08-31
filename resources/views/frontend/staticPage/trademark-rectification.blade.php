@@ -275,20 +275,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Rectification',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-rectification', 'label' => 'Trademark Rectification', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition', 'label' => 'Trademark Opposition', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-infringement', 'label' => 'Trademark Infringement', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-search-report', 'label' => 'Trademark Search Report', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-renewal', 'label' => 'Trademark Renewal', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-assignment', 'label' => 'Trademark Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Rectification',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -973,7 +963,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions About Trademark Rectification</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about trademark rectification, cancellation, Section 47, Section 57, Form TM-O filing, and related procedures.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'About Trademark Rectification'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Rectification',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

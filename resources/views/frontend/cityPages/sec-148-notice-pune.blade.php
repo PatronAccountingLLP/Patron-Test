@@ -1167,23 +1167,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 148 Notice Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-148-notice/pune', 'label' => 'Section 148 Notice Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice/pune', 'label' => 'Income Tax Notice Pune (Parent City Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/pune', 'label' => 'Section 143(2) Scrutiny Selection Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-148-notice/delhi', 'label' => 'Section 148 Notice Delhi (Sibling)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-148-notice/mumbai', 'label' => 'Section 148 Notice Mumbai (Sibling)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-148-notice/gurugram', 'label' => 'Section 148 Notice Gurugram (Sibling)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 148 Notice Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2186,7 +2174,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 148 Notice Pune FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 148 reassessment notices in Pune, the Section 148A pre-show-cause inquiry framework with 7-30 day SCN reply window, Section 149 time-limit (3 years general vs 10 years for asset-based escaped income above Rs 50 lakh) including TOLA Acts and SC Ashish Agarwal precedent, Section 151 sanction by specified authority, Section 144B faceless reassessment under NaFAC, Bombay High Court Article 226 writ jurisdiction at Principal Seat Mumbai (150 km inter-city), ITAT Pune Bench at Plot No. 5 Akurdi (physical hearing tribunal), and Patron Pune pricing - answered by the Patron Pune CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Section 148 Notice Pune FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 148 Notice Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

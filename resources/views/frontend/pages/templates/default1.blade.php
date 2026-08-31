@@ -4205,10 +4205,12 @@ section ul li:not(.nav-item)::before {
                         <p class="form-subtitle">Get expert advice within 30 minutes</p>
                      </div>
 
- @include('partials.faq-enquiry-form', [
-    'enquiryTitle' => 'Send us your requirement',
-    'enquirySub'   => 'A CA or CS from the team replies, usually the same working day.',
-])    
+ @include('partials.bigin-form', [
+     'variant'  => 'compact',
+     'service'  => 'Default1',
+     'title'    => 'Send us your requirement',
+     'subtitle' => 'A CA or CS from the team replies, usually the same working day.',
+ ])    
                         <div class="form-footer">
                     <span class="form-footer-item">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>

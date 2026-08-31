@@ -1145,17 +1145,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 107 GST Appeal',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Section 107 GST Appeal', 'label' => 'Section 107 GST Appeal', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GST Notice', 'label' => 'GST Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Appeal Filing', 'label' => 'GSTAT Appeal Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Pre-Deposit Calculation', 'label' => 'GSTAT Pre-Deposit Calculation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 107 GST Appeal',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2108,7 +2101,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the Section 107 stage, the 3-month and 4-month limits, the 10 percent pre-deposit, APL-01 vs APL-04, Section 75(2) downgrade, recovery stay, and disposal timelines.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 107 GST Appeal',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -288,20 +288,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Returns for Restaurants',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-returns-for-restaurants-food-businesses', 'label' => 'GST Returns (Restaurants)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns (All)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-registration', 'label' => 'FSSAI Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-returns', 'label' => 'FSSAI Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice', 'label' => 'GST Notice Reply', 'selected' => false, 'disabled' => false],
-                            ['value' => 'hospitality-sector-accounting-services', 'label' => 'Hospitality Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Returns for Restaurants',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -680,7 +670,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Restaurant GST Returns</h2>
                     <p class="faq-expanded__lead">Expert answers about restaurant GST rates, return filing, composition scheme, Section 9(5), and food delivery platform compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Restaurant GST Returns'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Returns for Restaurants',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

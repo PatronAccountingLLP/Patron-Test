@@ -1155,18 +1155,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-nbfc-rbi-registration',
-                    'options'  => [
-                        'net-worth-certificate-for-nbfc-rbi-registration' => 'Net Worth Certificate for NBFC / RBI Registration',
-                        'statutory-audit' => 'Statutory Audit',
-                        'appointment-of-auditor' => 'Appointment of Auditor',
-                        'public-company-registration' => 'Public Company Registration',
-                        'private-limited-company-compliance' => 'Private Limited Company Compliance',
-                        'private-limited-company-registration' => 'Private Limited Company Registration',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for NBFC / RBI Registration',
+                    'city'     => 'Gurugram',
                 ])
             </div>
         </div>
@@ -1941,7 +1932,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the NOF threshold, how NOF differs from net worth, who certifies it, the COSMOS process, and timelines.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for NBFC / RBI Registration',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

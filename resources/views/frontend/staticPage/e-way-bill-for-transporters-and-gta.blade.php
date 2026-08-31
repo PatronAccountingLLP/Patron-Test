@@ -260,20 +260,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Transporter and GTA E-Way Bill',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Transporter / GTA E-Way Bill', 'label' => 'Transporter / GTA E-Way Bill', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GST Returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Annual Returns', 'label' => 'GST Annual Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Travel and Logistics Accounting Services', 'label' => 'Travel and Logistics Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services for Travel and Logistics', 'label' => 'Payroll Services for Travel and Logistics', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Transporter and GTA E-Way Bill',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1215,7 +1205,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on GTA status, TRANSIN, Rule 138(3) transporter obligations, RCM vs FCM, Annexure V, consolidated EWB-02, and e-invoicing exemption.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Transporter and GTA E-Way Bill',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

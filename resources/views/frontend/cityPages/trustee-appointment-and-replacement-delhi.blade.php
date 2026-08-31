@@ -617,21 +617,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trustee Appointment and Replacement in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trustee-appointment-and-replacement', 'label' => 'Trustee Appointment and Replacement', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trust-registration-public-charitable', 'label' => 'Public Charitable Trust Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trust-registration-private-family', 'label' => 'Private Family Trust Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration', 'label' => 'Section 8 Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'corporate-compliance-for-ngo', 'label' => 'Corporate Compliance for NGO', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trustee Appointment and Replacement in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1452,7 +1442,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from trusts, societies and Section 8 companies appointing, retiring or replacing a trustee or governing-body member.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trustee Appointment and Replacement in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

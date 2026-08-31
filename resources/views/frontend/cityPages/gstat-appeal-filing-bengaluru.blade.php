@@ -386,28 +386,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Bengaluru',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Bengaluru', 'label' => 'GSTAT Appeal Filing in Bengaluru', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Zoho Books Accounting in Bangalore', 'label' => 'Zoho Books Accounting in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Bangalore', 'label' => 'Payroll Services in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Bangalore', 'label' => 'LLP Incorporation in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NGO Registration in Bangalore', 'label' => 'NGO Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Bangalore', 'label' => 'Private Limited Company Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Bangalore', 'label' => 'FSSAI Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Bangalore', 'label' => 'GST Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IEC Registration in Bangalore', 'label' => 'IEC Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Bangalore', 'label' => 'Startup Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Bangalore', 'label' => 'Udyam Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Bangalore', 'label' => 'Trademark Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Bangalore', 'label' => 'Income Tax Return in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Internal Audit in Bangalore', 'label' => 'Internal Audit in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Bangalore', 'label' => 'Stock Audit in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Bengaluru',
+                                            'city'     => 'Bengaluru',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -819,7 +802,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bengaluru'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Bengaluru',
+                        'city'     => 'Bengaluru',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

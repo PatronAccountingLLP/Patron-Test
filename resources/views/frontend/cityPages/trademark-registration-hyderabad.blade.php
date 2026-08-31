@@ -284,18 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-registration/hyderabad', 'label' => 'Trademark Registration in Hyderabad', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/hyderabad', 'label' => 'Pvt Ltd Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/hyderabad', 'label' => 'Startup Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'msme-registration/hyderabad', 'label' => 'MSME Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/hyderabad', 'label' => 'GST Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Registration',
+                                            'city'     => 'Hyderabad',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -792,7 +785,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Trademark Registration in Hyderabad</h2>
                     <p class="faq-expanded__lead">Common questions about trademark classes, fees, TM vs ®, objections, startup discount, and renewal.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Hyderabad', 'enquiryService' => 'Trademark Registration in Hyderabad'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Registration',
+                        'city'     => 'Hyderabad',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

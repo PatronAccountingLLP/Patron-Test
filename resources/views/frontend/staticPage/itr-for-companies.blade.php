@@ -361,24 +361,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR Filing for Companies',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Pvt Ltd ITR-6 Filing', 'label' => 'Pvt Ltd ITR-6 Filing', 'selected' => true, 'disabled' => false],
-                            ['value' => 'OPC or Small Company ITR-6', 'label' => 'OPC or Small Company ITR-6', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 115BAA opt-in (Form 10-IC)', 'label' => 'Section 115BAA opt-in (Form 10-IC)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 115BAB Manufacturing (Form 10-ID)', 'label' => 'Section 115BAB Manufacturing (Form 10-ID)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'DPIIT Startup with Section 80-IAC claim', 'label' => 'DPIIT Startup with Section 80-IAC claim', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Public Limited Company ITR-6', 'label' => 'Public Limited Company ITR-6', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Transfer Pricing ITR (Form 3CEB)', 'label' => 'Transfer Pricing ITR (Form 3CEB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Foreign Company with India PE', 'label' => 'Foreign Company with India PE', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NIL ITR-6 (Dormant or Pre-Revenue)', 'label' => 'NIL ITR-6 (Dormant or Pre-Revenue)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit under Section 44AB', 'label' => 'Tax Audit under Section 44AB', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Notice Response', 'label' => 'Income Tax Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR Filing for Companies',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1114,7 +1100,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on ITR-6 filing for companies AY 2026-27 - due dates, who must file, Section 115BAA vs 115BAB, fees, Section 80-IAC startup tax holiday, MAT applicability under Section 115JB and DSC requirements.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR Filing for Companies',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

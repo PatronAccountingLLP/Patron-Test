@@ -1143,18 +1143,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Valuation Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GST Valuation Services', 'label' => 'GST Valuation Services', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GST Audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Notice', 'label' => 'GST Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Appeal Filing', 'label' => 'GSTAT Appeal Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Valuation Services',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1963,7 +1955,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on Section 15, related-party valuation, corporate guarantees, discounts, free supplies, the cost method, cross charge, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Valuation Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -246,21 +246,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for F&O Traders',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ITR for F&O Traders', 'label' => 'ITR for F&O Traders', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Income Tax Return', 'label' => 'Income Tax Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Capital Gains', 'label' => 'ITR for Capital Gains', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Crypto Traders', 'label' => 'ITR for Crypto Traders', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Business', 'label' => 'ITR for Business', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Planning Services', 'label' => 'Tax Planning Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for FnO Trader', 'label' => 'ITR for FnO Trader (parent)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for F&O Traders',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -863,7 +852,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Section 43(5)(d) classification, ICAI 8th Edition turnover, Section 44AD(4) trap, one-way set-off rule - the eight questions F&O traders ask before filing ITR</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'ITR For F&O Trader'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for F&O Traders',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

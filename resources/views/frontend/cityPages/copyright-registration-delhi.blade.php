@@ -297,18 +297,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Copyright Registration in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-registration/delhi', 'label' => 'Copyright Registration in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'brand-copyright-registration/delhi', 'label' => 'Brand Copyright in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection/delhi', 'label' => 'Copyright Objection in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/delhi', 'label' => 'Trademark Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment/delhi', 'label' => 'Copyright Assignment in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Copyright Registration in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -707,7 +700,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Copyright Registration in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about copyright registration, all 6 categories, fees, AI authorship, and enforcement in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Copyright Registration in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Copyright Registration in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

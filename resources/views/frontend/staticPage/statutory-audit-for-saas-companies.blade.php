@@ -1116,21 +1116,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Statutory Audit for SaaS Companies',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'statutory-audit-for-saas-companies', 'label' => 'Statutory Audit for SaaS Companies', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration', 'label' => 'Startup Registration (DPIIT)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services-for-it-and-software-industry', 'label' => 'IT/SaaS Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-oidar', 'label' => 'GST Returns for OIDAR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Statutory Audit for SaaS Companies',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2030,7 +2019,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Statutory Audit for SaaS Companies</h2>
                     <p class="faq-expanded__lead">Common questions from DPIIT-recognised SaaS founders, India-US captive CFOs, Series A to D finance heads and ESOP plan administrators on Section 143, Ind AS 115 revenue recognition, ESOP perquisite, Form 3CEB and Section 80-IAC.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Statutory Audit for SaaS Companies'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Statutory Audit for SaaS Companies',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

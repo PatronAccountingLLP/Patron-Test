@@ -1254,19 +1254,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-tender-bidding',
-                    'options'  => [
-                        'net-worth-certificate-for-tender-bidding' => 'Net Worth Certificate for Tender Bidding',
-                        'turnover-certificate-for-tender' => 'Turnover Certificate for Tender',
-                        'net-worth-certificate-for-business-loan' => 'Net Worth Certificate for Business Loan',
-                        'net-worth-certificate-sole-proprietorship' => 'Net Worth Certificate for Sole Proprietorship',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'udyam-registration' => 'Udyam Registration',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Tender Bidding',
                 ])
             </div>
         </div>
@@ -2078,7 +2067,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Eight questions Indian tender bidders ask Patron Accounting most often - answered with Technical-Bid-Committee-grade, ICAI-compliant detail.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Tender Bidding',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

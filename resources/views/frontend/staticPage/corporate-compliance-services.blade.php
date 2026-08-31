@@ -1114,22 +1114,9 @@
                     <h2 class="form-title">Get Personalised Compliance Guidance</h2>
                     <p class="form-subtitle">Route to the right ROC/MCA service for your situation</p>
                 </div>
-                @include('partials.lead-form', [
-                    'deal'    => 'Website Enquiry - Get Personalised Compliance Guidance',
-                    'cta'     => 'Find My Compliance Plan &rarr;',
-                    'options' => [
-                        ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Annual ROC compliance (AOC-4 / MGT-7)', 'label' => 'Annual ROC compliance (AOC-4 / MGT-7)', 'selected' => false, 'disabled' => false],
-                        ['value' => 'LLP annual compliance (Form 11 / 8)', 'label' => 'LLP annual compliance (Form 11 / 8)', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Director appointment / resignation / KYC', 'label' => 'Director appointment / resignation / KYC', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Share capital / allotment change', 'label' => 'Share capital / allotment change', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Company name / object / office change', 'label' => 'Company name / object / office change', 'selected' => false, 'disabled' => false],
-                        ['value' => 'SBO / charges / specialised filing', 'label' => 'SBO / charges / specialised filing', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Merger / conversion / restructuring', 'label' => 'Merger / conversion / restructuring', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Company / LLP closure or restoration', 'label' => 'Company / LLP closure or restoration', 'selected' => false, 'disabled' => false],
-                        ['value' => 'ROC notice / penalty / backlog cleanup', 'label' => 'ROC notice / penalty / backlog cleanup', 'selected' => false, 'disabled' => false],
-                        ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Corporate Compliance Services',
+                    'cta'      => 'Find My Compliance Plan &rarr;',
                 ])
             </div>
         </div>
@@ -2030,7 +2017,10 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Quick questions, answered.</h2>
                 <p class="faq-expanded__lead">Common questions about Corporate Compliance Services at Patron — what this hub covers, pricing, and how to get started.</p>
-                @include('partials.faq-enquiry-form', ['enquiryService' => 'Corporate Compliance Services'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'Corporate Compliance Services',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

@@ -1112,20 +1112,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IRDAI IMF Registration Process',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'imf-irdai-registration-process', 'label' => 'IRDAI IMF Registration Process', 'selected' => true, 'disabled' => false],
-                            ['value' => 'insurance-marketing-firm-registration', 'label' => 'Insurance Marketing Firm Registration (Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-incorporation-services', 'label' => 'IMF Incorporation Services (Combined MCA + IRDAI)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification and ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-private-limited-vs-llp', 'label' => 'IMF Pvt Ltd vs LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'moa-amendment', 'label' => 'MoA Amendment Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IRDAI IMF Registration Process',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2323,7 +2313,10 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from existing Pvt Ltd or LLP entity founders evaluating standalone IRDAI IMF registration - documents, fees, timeline, MoA amendment, net worth requirements, and rejection prevention.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IRDAI IMF Registration Process',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

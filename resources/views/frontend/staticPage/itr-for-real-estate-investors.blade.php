@@ -1172,23 +1172,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <h2 class="form-title">Get Free Consultation</h2>
 <p class="form-subtitle">Talk to a CA/CS expert today</p>
 </div>
-@include('partials.lead-form', [
-    'deal'    => 'Website Enquiry - Real Estate Investor ITR',
-    'cta'     => 'Get Free Quote →',
-    'options' => [
-        ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-        ['value' => 'Two-Property ITR-2 (1 SOP + 1 Let-Out)', 'label' => 'Two-Property ITR-2 (1 SOP + 1 Let-Out)', 'selected' => true, 'disabled' => false],
-        ['value' => 'Three to Four Property with Deemed Let-Out', 'label' => 'Three to Four Property with Deemed Let-Out', 'selected' => false, 'disabled' => false],
-        ['value' => 'Multi-Property ITR with Sale + Section 54/54F', 'label' => 'Multi-Property ITR with Sale + Section 54/54F', 'selected' => false, 'disabled' => false],
-        ['value' => 'Section 50C Valuation Officer Reference', 'label' => 'Section 50C Valuation Officer Reference', 'selected' => false, 'disabled' => false],
-        ['value' => 'HNI 5+ Property Portfolio', 'label' => 'HNI 5+ Property Portfolio', 'selected' => false, 'disabled' => false],
-        ['value' => 'Returning NRI with Indian Property Portfolio', 'label' => 'Returning NRI with Indian Property Portfolio', 'selected' => false, 'disabled' => false],
-        ['value' => 'Joint Owner / Co-Owner ITR', 'label' => 'Joint Owner / Co-Owner ITR', 'selected' => false, 'disabled' => false],
-        ['value' => 'Pre-Construction Interest 5-Year Window', 'label' => 'Pre-Construction Interest 5-Year Window', 'selected' => false, 'disabled' => false],
-        ['value' => 'Section 54EC Bond Investment Planning', 'label' => 'Section 54EC Bond Investment Planning', 'selected' => false, 'disabled' => false],
-        ['value' => 'Section 139(9) Defective Return Cure', 'label' => 'Section 139(9) Defective Return Cure', 'selected' => false, 'disabled' => false],
-        ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-    ],
+@include('partials.bigin-form', [
+    'variant' => 'bare',
+    'service'  => 'Real Estate Investor ITR',
+    'cta'      => 'Get Free Quote →',
 ])
 <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 <div class="form-footer">
@@ -1936,7 +1923,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on multi-property ITR filing for AY 2026-27 - rental income across properties, Section 23(2) self-occupied limit, Section 24(b) interest deduction, Section 50C stamp duty value rule, deemed rent, Section 71(3A) inter-head set-off cap, Section 54/54F/54EC reinvestment exemptions and new regime impact.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Real Estate Investor ITR',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

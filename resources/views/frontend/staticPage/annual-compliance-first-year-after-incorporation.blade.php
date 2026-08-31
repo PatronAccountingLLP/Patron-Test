@@ -298,21 +298,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - First Year Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'annual-compliance-first-year-after-incorporation', 'label' => 'First Year Compliance (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance (Year 2+)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor (ADT-1)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-director', 'label' => 'Appointment of Director (DIR-12)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'dsc-registration', 'label' => 'DSC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'DIR-3 KYC Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'compliance-calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'First Year Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1331,7 +1320,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on first-year compliance for newly incorporated private limited companies - covering the 9-item filing checklist, first AGM 9-month deadline, extended first FY rule under Section 2(41), ADT-1 mandatory regime from 14 July 2025, INC-20A 180-day clock, first board meeting requirements, MGT-7 vs MGT-7A choice, and first DIR-3 KYC timing.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'First Year Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

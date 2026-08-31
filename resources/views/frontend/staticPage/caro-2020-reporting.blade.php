@@ -310,20 +310,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - CARO 2020 Reporting',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'caro-2020-reporting', 'label' => 'CARO 2020 Reporting (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit Engagement', 'selected' => false, 'disabled' => false],
-                            ['value' => 'audit-report-types-india', 'label' => 'Audit Report Types', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-financial-controls-audit', 'label' => 'Internal Financial Controls Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit (Section 138)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'CARO 2020 Reporting',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1247,7 +1237,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - CARO 2020 Reporting</h2>
                     <p class="faq-expanded__lead">Practitioner-level Q&A on Section 143(11) authority, applicability matrix, 21-clause framework, small-company and Pvt Ltd exemptions, CFS treatment, and CARO 2016 vs 2020 differences.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'CARO 2020 Reporting'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'CARO 2020 Reporting',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -975,22 +975,10 @@
                     <p class="form-subtitle">Route to the certificate your filing or window needs</p>
                 </div>
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - Legal Drafting',
-                        'cta'     => 'Find My ITR Service →',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Net Worth Certificate', 'label' => 'Net Worth Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Net Worth for Visa', 'label' => 'Net Worth for Visa', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Turnover Certificate', 'label' => 'Turnover Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'CMA / stock / provisional financials', 'label' => 'CMA / stock / provisional financials', 'selected' => false, 'disabled' => false],
-                            ['value' => '15CA / 15CB / FIRC', 'label' => '15CA / 15CB / FIRC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'FMV Rule 11UA', 'label' => 'FMV Rule 11UA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income / Professional Income', 'label' => 'Income / Professional Income', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NBFC / RERA / DPIIT certificate', 'label' => 'NBFC / RERA / DPIIT certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 281 / Forensic / Statutory', 'label' => 'Section 281 / Forensic / Statutory', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'Financial Certificates Services',
+                        'cta'      => 'Find My ITR Service →',
                     ])
             </div>
             </div>
@@ -1591,7 +1579,10 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Quick questions, answered.</h2>
                 <p class="faq-expanded__lead">Seven questions about CA-attested certificates with Patron.</p>
-                @include('partials.faq-enquiry-form', ['enquiryService' => 'Financial Certificates Services'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'Financial Certificates Services',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

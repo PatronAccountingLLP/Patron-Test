@@ -1131,20 +1131,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Professional Income Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'professional-income-certificate', 'label' => 'Professional Income Certificate', 'selected' => true, 'disabled' => false],
-                            ['value' => 'itr-for-professionals', 'label' => 'ITR for Professionals', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-visa', 'label' => 'Net Worth Certificate for Visa', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-filing-for-freelancers-professionals', 'label' => 'ITR for Freelancers / Professionals', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate', 'label' => 'Net Worth Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'turnover-certificate', 'label' => 'Turnover Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Professional Income Certificate',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1780,7 +1771,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about professional income certificates for doctors, lawyers, and consultants in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Professional Income Certificate',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

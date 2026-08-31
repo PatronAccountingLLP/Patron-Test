@@ -291,19 +291,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 8 Company Registration in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'section-8-company-registration/pune', 'label' => 'Section 8 Company in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration/pune', 'label' => 'NGO Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/pune', 'label' => 'Income Tax Return in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/pune', 'label' => 'Pvt Ltd Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/pune', 'label' => 'LLP Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 8 Company Registration in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1808,7 +1800,11 @@ window.addEventListener('scroll', function() {
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Section 8 Company Registration in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about Section 8 registration in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Section 8 Company Registration in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 8 Company Registration in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -205,20 +205,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Payroll for Trading Companies',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-trading', 'label' => 'Payroll (Trading)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-return-filing', 'label' => 'GST Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return-filing', 'label' => 'ITR Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration', 'label' => 'Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-bookkeeping-services', 'label' => 'Bookkeeping', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Payroll for Trading Companies',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -598,7 +588,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Trading Company Payroll</h2>
                     <p class="faq-expanded__lead">Expert answers about PF, ESI, TDS, and payroll compliance for wholesale, retail, and import-export trading businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Trading Company Payroll'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Payroll for Trading Companies',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

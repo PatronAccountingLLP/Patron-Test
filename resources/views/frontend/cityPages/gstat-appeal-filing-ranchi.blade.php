@@ -388,24 +388,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Ranchi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Ranchi', 'label' => 'GSTAT Appeal Filing in Ranchi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Ranchi', 'label' => 'FSSAI Registration in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Ranchi', 'label' => 'GST Registration in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Ranchi', 'label' => 'Income Tax Return in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Ranchi', 'label' => 'LLP Incorporation in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Ranchi', 'label' => 'PAN Registration in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Ranchi', 'label' => 'Payroll Services in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Ranchi', 'label' => 'Private Limited Company Registration in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Ranchi', 'label' => 'Startup Registration in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Ranchi', 'label' => 'Trademark Registration in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Ranchi', 'label' => 'Udyam Registration in Ranchi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Ranchi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -851,7 +837,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Ranchi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

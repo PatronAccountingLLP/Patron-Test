@@ -414,23 +414,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP Restructuring',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Underwater Analysis + Recommendation Memo', 'label' => 'Underwater Analysis + Recommendation Memo', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Repricing - Unlisted Startup', 'label' => 'ESOP Repricing - Unlisted Startup', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Repricing - Pre-IPO or Late-Stage', 'label' => 'ESOP Repricing - Pre-IPO or Late-Stage', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Exchange Program - Unlisted Startup', 'label' => 'ESOP Exchange Program - Unlisted Startup', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Exchange Program - Pre-IPO / Late-Stage', 'label' => 'ESOP Exchange Program - Pre-IPO / Late-Stage', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Top-Up Grant Issuance', 'label' => 'Top-Up Grant Issuance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Vesting Acceleration (Scheme Amendment)', 'label' => 'Vesting Acceleration (Scheme Amendment)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Cashout / Buyback Program', 'label' => 'ESOP Cashout / Buyback Program', 'selected' => false, 'disabled' => false],
-                            ['value' => 'SEBI SBEB Listed Entity Premium', 'label' => 'SEBI SBEB Listed Entity Premium', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Rule 11UA Valuation Refresh', 'label' => 'Rule 11UA Valuation Refresh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP Restructuring',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1270,7 +1258,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on ESOP restructuring and underwater options remediation - underwater definition, repricing vs exchange program, Rule 12(2) modification procedure, Ind AS 102 paragraphs 26-29 modification accounting, Section 17(2)(vi) tax timing, exchange ratios, down-round impact and shareholder approval workflow.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP Restructuring',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

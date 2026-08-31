@@ -808,20 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Retail Accounting',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'accounting-services-for-retail/delhi', 'label' => 'Retail Sector Accounting in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-returns/delhi', 'label' => 'GST Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/delhi', 'label' => 'Tally Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/delhi', 'label' => 'Zoho Books Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/delhi', 'label' => 'Payroll Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services-for-e-commerce-industry/delhi', 'label' => 'E-commerce Accounting in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Retail Accounting',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1282,7 +1273,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Retail Accounting in Delhi</h2>
                     <p class="faq-expanded__lead">Real questions from Delhi market traders, brand flagships, and online sellers about retail accounting, cash, and GST.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Retail Accounting in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Retail Accounting',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

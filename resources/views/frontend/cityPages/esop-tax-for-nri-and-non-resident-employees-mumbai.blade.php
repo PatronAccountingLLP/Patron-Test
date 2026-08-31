@@ -1175,20 +1175,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - NRI ESOP Tax',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'NRI ESOP Tax', 'label' => 'NRI ESOP Tax', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Management and Compliance', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for NRIs', 'label' => 'ITR for NRIs', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Capital Gains', 'label' => 'ITR for Capital Gains', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Salary', 'label' => 'ITR for Salary', 'selected' => false, 'disabled' => false],
-                            ['value' => 'FDI Compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Services', 'label' => 'ESOP Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'NRI ESOP Tax',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1857,7 +1848,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on NRI ESOP taxability, exercise abroad, apportionment, DTAA relief, Schedule FA and FEMA repatriation.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'NRI ESOP Tax',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

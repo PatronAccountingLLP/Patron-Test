@@ -1115,22 +1115,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Qualified vs Unqualified Audit Opinion',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'qualified-vs-unqualified-audit-opinion', 'label' => 'Qualified vs Unqualified Audit Opinion', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (National Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'qualified-audit-opinion-handling-guide', 'label' => 'Qualified Opinion Handling Guide', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-private-limited-company', 'label' => 'Pvt Ltd Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-of-auditor', 'label' => 'Change of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Qualified vs Unqualified Audit Opinion',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2069,7 +2057,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Qualified vs Unqualified Audit Opinion FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on the boundary between qualified and unqualified opinions under SA 705 and SA 700, the four qualification triggers, business impact on lenders and investors, 1-to-3-cycle removal roadmap and Patron's qualification-prevention methodology - answered by the Patron CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Qualified vs Unqualified Audit Opinion FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Qualified vs Unqualified Audit Opinion',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

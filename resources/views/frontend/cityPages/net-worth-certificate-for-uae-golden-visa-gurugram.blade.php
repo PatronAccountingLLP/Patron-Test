@@ -1155,18 +1155,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-uae-golden-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-uae-golden-visa' => 'Net Worth Certificate for UAE Golden Visa',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'double-currency-networth-format' => 'Double Currency Networth Format',
-                        'itr-for-capital-gains' => 'ITR for Capital Gains',
-                        'itr-for-property-sale' => 'ITR for Property Sale',
-                        'company-registration-in-uae' => 'Company Registration in UAE',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for UAE Golden Visa',
+                    'city'     => 'Gurugram',
                 ])
             </div>
         </div>
@@ -1941,7 +1932,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on whether the certificate is required, the AED 2 million threshold, dual-currency reporting, source of funds, and family inclusion.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for UAE Golden Visa',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

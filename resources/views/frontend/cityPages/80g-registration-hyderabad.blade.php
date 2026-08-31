@@ -284,19 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - 80G Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => '80g-registration/hyderabad', 'label' => '80G Registration in Hyderabad', 'selected' => true, 'disabled' => false],
-                            ['value' => '12a-registration/hyderabad', 'label' => '12A Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-registration/hyderabad', 'label' => 'NGO Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section-8-company-registration/hyderabad', 'label' => 'Section 8 Company in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/hyderabad', 'label' => 'Accounting Services in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/hyderabad', 'label' => 'Income Tax Return in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => '80G Registration',
+                                            'city'     => 'Hyderabad',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -795,7 +787,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - 80G Registration in Hyderabad</h2>
                     <p class="faq-expanded__lead">Common questions about 80G donor deduction, Form 10A, eligibility, validity, and renewal for Hyderabad NGOs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Hyderabad', 'enquiryService' => '80G Registration in Hyderabad'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '80G Registration',
+                        'city'     => 'Hyderabad',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

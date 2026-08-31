@@ -769,19 +769,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 11 12 13 Income Application in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'section-11-12-13-income-application-accumulation', 'label' => 'Section 11/12/13 Income Application &amp; Accumulation', 'selected' => true, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A / 12AB Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'form-10b-audit-report-section-12a-trust', 'label' => 'Form 10B Audit Report', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration', 'label' => 'Section 8 Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 11 12 13 Income Application in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1597,7 +1589,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from charitable and religious trusts, NGOs, and Section 8 companies on income application, accumulation, and Section 13.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 11 12 13 Income Application in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

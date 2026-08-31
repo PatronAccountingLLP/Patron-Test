@@ -47,12 +47,8 @@
                     </div>
                     
                     <div class="card-body">
-                        {{-- Enquiry form REMOVED 2026-08-29 — replaced by a placeholder.
-                             Was: POST to route('contact.store') - name/email/phone/subject/message.
-                             Route and controller untouched; restore with a git revert. --}}
-                        @include('partials.form-placeholder', [
-                            'phTitle' => 'Form placeholder',
-                            'phNote'  => 'The enquiry form has been removed from this page.',
+                        @include('partials.bigin-form', [
+                            'service' => 'General Enquiry',
                         ])
                     </div>
                 </div>

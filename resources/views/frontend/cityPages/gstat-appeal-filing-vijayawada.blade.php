@@ -388,24 +388,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Vijayawada',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Vijayawada', 'label' => 'GSTAT Appeal Filing in Vijayawada', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Vijayawada', 'label' => 'FSSAI Registration in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Vijayawada', 'label' => 'GST Registration in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Vijayawada', 'label' => 'Income Tax Return in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Vijayawada', 'label' => 'LLP Incorporation in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Vijayawada', 'label' => 'PAN Registration in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Vijayawada', 'label' => 'Payroll Services in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Vijayawada', 'label' => 'Private Limited Company Registration in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Vijayawada', 'label' => 'Startup Registration in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Vijayawada', 'label' => 'Trademark Registration in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Vijayawada', 'label' => 'Udyam Registration in Vijayawada', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Vijayawada',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1166,7 +1152,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Vijayawada',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

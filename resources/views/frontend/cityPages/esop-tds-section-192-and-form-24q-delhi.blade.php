@@ -1174,20 +1174,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP TDS and Form 24Q',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ESOP TDS and Form 24Q', 'label' => 'ESOP TDS and Form 24Q', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ESOP Management and Compliance', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'TDS Return Filing 24Q', 'label' => 'TDS Return Filing 24Q', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Processing', 'label' => 'Payroll Processing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'TAN Registration', 'label' => 'TAN Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Salary', 'label' => 'ITR for Salary', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Services', 'label' => 'ESOP Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP TDS and Form 24Q',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1857,7 +1848,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on employer ESOP TDS, Form 24Q due dates, Form 16, the Section 192(1C) deferral and the Income-tax Act 2025 renumbering.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP TDS and Form 24Q',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

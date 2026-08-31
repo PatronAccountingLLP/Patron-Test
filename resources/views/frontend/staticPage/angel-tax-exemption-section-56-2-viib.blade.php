@@ -280,20 +280,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Angel Tax Advisory',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'angel-tax-exemption-section-56-2-viib', 'label' => 'Angel Tax Advisory', 'selected' => true, 'disabled' => false],
-                            ['value' => 'startup-registration', 'label' => 'Startup (DPIIT) Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esop-management-and-compliance-services', 'label' => 'ESOP Management and Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'actuarial-valuation-services-for-employee-benefits', 'label' => 'Actuarial Valuation Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pan-registration', 'label' => 'PAN Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tan-registration', 'label' => 'TAN Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Angel Tax Advisory',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -992,7 +982,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about angel tax, the abolition of Section 56(2)(viib), DPIIT exemption, legacy notices and Rule 11UA valuation.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Angel Tax Advisory',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

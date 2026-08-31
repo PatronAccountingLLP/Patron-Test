@@ -285,20 +285,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Crypto Traders in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-crypto-traders/gurugram', 'label' => 'ITR for Crypto Traders in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return/gurugram', 'label' => 'Income Tax Return Filing in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-capital-gains/gurugram', 'label' => 'ITR for Capital Gains in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-filing-for-salary/gurugram', 'label' => 'ITR for Salary in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business/gurugram', 'label' => 'ITR for Business in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services/gurugram', 'label' => 'Tax Planning in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice/gurugram', 'label' => 'Income Tax Notice in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Crypto Traders in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -819,7 +810,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ITR for Crypto Traders in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about crypto taxation, Schedule VDA, 194S TDS, and filing deadlines for Gurugram crypto traders.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'ITR for Crypto Traders in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Crypto Traders in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -258,17 +258,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Convert Partnership to Pvt Ltd',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'convert-partnership-to-pvt-ltd-company', 'label' => 'Partnership to Pvt Ltd', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india', 'label' => 'Pvt Ltd Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-partnership-to-llp', 'label' => 'Partnership to LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Convert Partnership to Pvt Ltd',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -760,7 +753,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Partnership to Pvt Ltd Conversion</h2>
                     <p class="faq-expanded__lead">Get answers about Section 366 procedure, Form URC-1, newspaper notice, tax benefits, documents, and timelines.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Partnership to Pvt Ltd Conversion'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Convert Partnership to Pvt Ltd',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

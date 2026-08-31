@@ -1168,22 +1168,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 143(2) Notice Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-143-2-notice/gurugram', 'label' => 'Section 143(2) Notice Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-142-1/gurugram', 'label' => 'Section 142(1) Inquiry Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3/gurugram', 'label' => 'Section 143(3) Assessment Order Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-148/gurugram', 'label' => 'Section 148 Reassessment Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156/gurugram', 'label' => 'Section 156 Demand Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/delhi', 'label' => 'Section 143(2) Notice Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/gurugram', 'label' => 'ITR Filing Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'ITR Filing (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 143(2) Notice Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2197,7 +2186,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 143(2) Notice Gurugram FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 143(2) scrutiny notices in Gurugram, the 3-month time-bar proviso, e-Proceedings reply on incometax.gov.in, NaFAC faceless procedure and Assessment Unit query rounds, Aayakar Bhawan HSIIDC physical hearings under Pr CIT(C) Gurugram and Punjab and Haryana High Court time-bar writ remedies - answered by the Patron Gurugram CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Section 143(2) Notice Gurugram FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 143(2) Notice Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Inventory Accounting and Costing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'inventory-accounting-costing-services/pune', 'label' => 'Inventory Accounting and Costing in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/pune', 'label' => 'Accounting Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/pune', 'label' => 'GST Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/pune', 'label' => 'Tally Accounting in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/pune', 'label' => 'Zoho Books Accounting in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/pune', 'label' => 'Tax Audit in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Inventory Accounting and Costing',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1282,7 +1274,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Inventory Accounting in Pune</h2>
                     <p class="faq-expanded__lead">Real questions from Pune founders, traders, and finance teams about inventory valuation, costing, and stock reconciliation.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Inventory Accounting in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Inventory Accounting and Costing',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

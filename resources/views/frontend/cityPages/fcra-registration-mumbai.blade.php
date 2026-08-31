@@ -280,20 +280,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FCRA Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fcra-registration/mumbai', 'label' => 'FCRA Registration in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => '12a-registration/mumbai', 'label' => '12A Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration/mumbai', 'label' => '80G Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trust-registration/mumbai', 'label' => 'Trust Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section-8-company/mumbai', 'label' => 'Section 8 Company in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-registration/mumbai', 'label' => 'NGO Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FCRA Registration',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -875,7 +866,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: FCRA Registration in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about FCRA registration, eligibility, registration vs prior permission, 2020 Amendment, SBI account requirement, and annual return for Mumbai NGOs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'FCRA Registration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FCRA Registration',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

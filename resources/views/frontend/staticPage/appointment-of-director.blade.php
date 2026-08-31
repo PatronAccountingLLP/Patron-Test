@@ -240,18 +240,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Appointment of Director',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'appointment-of-director', 'label' => 'Appointment of Director', 'selected' => true, 'disabled' => false],
-                            ['value' => 'removal-of-director', 'label' => 'Removal of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'resignation-of-director', 'label' => 'Resignation of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'Director KYC (DIR-3)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Appointment of Director',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -714,7 +706,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Appointment of Director</h2>
                     <p class="faq-expanded__lead">Get answers about director appointment procedure, DIR-12 filing, DIN, documents, penalties, and types of directors.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Appointment of Director'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Appointment of Director',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

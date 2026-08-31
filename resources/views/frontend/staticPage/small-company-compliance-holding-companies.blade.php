@@ -1172,21 +1172,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Holding Company Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'small-company-compliance-holding-companies', 'label' => 'Holding Company Compliance (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-compliance-family-vehicles', 'label' => 'Family Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-compliance-dormant', 'label' => 'Dormant Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'strike-off-private-limited-company', 'label' => 'Strike Off Pvt Ltd', 'selected' => false, 'disabled' => false],
-                            ['value' => 'condonation-of-delay-roc-filings', 'label' => 'Condonation of Delay', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-compliance-cost-comparison-cheap-vs-quality', 'label' => 'Cost: Cheap vs Quality', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Holding Company Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2376,7 +2365,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on holding company compliance, Section 186 limit math (60% / 100%), AOC-1 statement of subsidiaries, Consolidated Financial Statements under Section 129(3), Section 188 RPT framework, NBFC / CIC threshold proximity at Rs 100 crore, the dual two-layer rule (Section 186(1) + 2017 Rules), and ITR-6 schedules for passive income.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Holding Company Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

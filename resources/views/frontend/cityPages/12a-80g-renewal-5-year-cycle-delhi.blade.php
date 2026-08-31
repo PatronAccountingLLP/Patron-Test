@@ -741,18 +741,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - 12A and 80G Renewal (Form 10AB) in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => '12a-80g-renewal-5-year-cycle', 'label' => '12A &amp; 80G Renewal (Form 10AB)', 'selected' => true, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-registration', 'label' => 'NGO Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => '12A and 80G Renewal (Form 10AB) in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1733,7 +1726,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from trusts, societies, and Section 8 companies renewing 12A and 80G registration via Form 10AB.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => '12A & 80G Renewal (Form 10AB)'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '12A and 80G Renewal (Form 10AB) in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

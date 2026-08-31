@@ -1106,21 +1106,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Tally to Zoho Migration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'migration-from-tally-to-zoho', 'label' => 'Tally to Zoho Migration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting', 'label' => 'Zoho Books Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting', 'label' => 'Tally Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'migration-from-tally-to-odoo', 'label' => 'Migration from Tally to Odoo', 'selected' => false, 'disabled' => false],
-                            ['value' => 'quickbooks-accounting', 'label' => 'QuickBooks Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'odoo-accounting', 'label' => 'Odoo Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Tally to Zoho Migration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1558,7 +1547,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about migrating from Tally to Zoho Books, data, opening balances, GST, and timelines.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Tally to Zoho Migration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

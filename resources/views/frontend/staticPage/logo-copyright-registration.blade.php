@@ -285,21 +285,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Logo Copyright Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'logo-copyright-registration', 'label' => 'Logo Copyright Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-registration', 'label' => 'Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'brand-copyright-registration', 'label' => 'Brand Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment', 'label' => 'Copyright Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection', 'label' => 'Copyright Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-disclaimer', 'label' => 'Copyright Disclaimer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-objection', 'label' => 'Trademark Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Logo Copyright Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -821,7 +810,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Logo Copyright Registration</h2>
                     <p class="faq-expanded__lead">Answers about logo copyright vs trademark, fees, eligibility, Form TC-60, duration, and the dual registration strategy.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Logo Copyright Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Logo Copyright Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

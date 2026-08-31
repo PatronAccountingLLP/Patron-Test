@@ -1107,21 +1107,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Zoho to QuickBooks Migration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'migration-from-zoho-to-quickbooks', 'label' => 'Zoho to QuickBooks Migration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'quickbooks-accounting', 'label' => 'QuickBooks Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting', 'label' => 'Zoho Books Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'migration-from-tally-to-zoho', 'label' => 'Migration from Tally to Zoho', 'selected' => false, 'disabled' => false],
-                            ['value' => 'xero-accounting', 'label' => 'Xero Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration-in-usa', 'label' => 'Company Registration in USA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'odoo-accounting', 'label' => 'Odoo Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Zoho to QuickBooks Migration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1559,7 +1548,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about migrating from Zoho Books to QuickBooks, India GST, data, and timelines.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Zoho to QuickBooks Migration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

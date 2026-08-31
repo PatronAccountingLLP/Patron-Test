@@ -205,21 +205,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Turnover Certificate for Tender',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'turnover-certificate-for-tender', 'label' => 'Turnover Certificate for Tender', 'selected' => true, 'disabled' => false],
-                            ['value' => 'turnover-certificate', 'label' => 'Turnover Certificate (General)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'turnover-certificate-for-current-account', 'label' => 'Turnover Certificate for Current Account', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate', 'label' => 'Net Worth Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit Service', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit Service', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit Service', 'selected' => false, 'disabled' => false],
-                            ['value' => 'stock-audit', 'label' => 'Stock Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Turnover Certificate for Tender',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -987,7 +976,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Turnover Certificate for Tender</h2>
                     <p class="faq-expanded__lead">Find answers to the most common questions about getting a CA-certified Turnover Certificate for Tender in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Turnover Certificate for Tender'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Turnover Certificate for Tender',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

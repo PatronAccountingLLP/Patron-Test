@@ -1124,18 +1124,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-nbfc-rbi-registration',
-                    'options'  => [
-                        'net-worth-certificate-for-nbfc-rbi-registration' => 'Net Worth Certificate for NBFC / RBI Registration',
-                        'private-limited-company-registration' => 'Private Limited Company Registration',
-                        'statutory-audit' => 'Statutory Audit',
-                        'net-worth-certificate-for-directors-fit-and-proper' => 'Net Worth Certificate for Directors (Fit and Proper)',
-                        'fdi-compliance' => 'FDI Compliance',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for NBFC / RBI Registration',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1756,7 +1747,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about Net Owned Fund, Section 45-IA, and NBFC RBI registration in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for NBFC / RBI Registration',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

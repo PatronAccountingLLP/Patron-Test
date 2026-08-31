@@ -1111,21 +1111,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Audit Firm Evaluation',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'how-to-evaluate-statutory-audit-firm', 'label' => 'Audit Firm Evaluation (Buyer\'s Guide)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'first-statutory-auditor-appointment-checklist', 'label' => 'First Statutory Auditor Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-of-auditor', 'label' => 'Change of Auditor (Section 140)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'audit-rotation-transition-india', 'label' => 'Audit Rotation Transition (Section 139(2))', 'selected' => false, 'disabled' => false],
-                            ['value' => 'caro-2020-reporting', 'label' => 'CARO 2020 Reporting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-financial-controls-audit', 'label' => 'Internal Financial Controls Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Audit Firm Evaluation',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2226,7 +2215,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from CFOs, Audit Committee Chairs, and founders evaluating statutory audit firm proposals.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Audit Firm Evaluation',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

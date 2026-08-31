@@ -275,20 +275,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Copyright for Musical Work in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-registration-for-musical-work/delhi', 'label' => 'Copyright for Musical Work in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-registration/delhi', 'label' => 'Copyright Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-sound-recording/delhi', 'label' => 'Copyright for Sound Recording in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-broadcast/delhi', 'label' => 'Copyright for Broadcast in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-literary-work/delhi', 'label' => 'Copyright for Literary Work in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/delhi', 'label' => 'Trademark Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'brand-copyright-registration/delhi', 'label' => 'Brand Copyright Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Copyright for Musical Work in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -765,7 +756,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Copyright for Musical Work in Delhi</h2>
                     <p class="faq-expanded__lead">Expert answers to common questions about registering copyright for musical compositions, lyrics, and jingles in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Copyright for Musical Work in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Copyright for Musical Work in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

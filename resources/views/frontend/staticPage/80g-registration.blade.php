@@ -250,20 +250,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - 80G Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'registration-for-12a-80g-certificate', 'label' => '12A and 80G Registration (Bundled)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-registration', 'label' => 'NGO Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration', 'label' => 'Section 8 Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration', 'label' => 'Society Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => '80G Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -911,7 +901,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - 80G Registration</h2>
                     <p class="faq-expanded__lead">Expert answers from our CA team on 80G registration, donor tax deductions, Form 10BE compliance, and the old vs new tax regime distinction.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => '80G Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '80G Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

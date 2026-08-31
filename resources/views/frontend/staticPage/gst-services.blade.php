@@ -1147,22 +1147,9 @@
  <h2 class="form-title">Get Personalised GST Guidance</h2>
  <p class="form-subtitle">Route to the right service for your situation</p>
  </div>
- @include('partials.lead-form', [
-     'deal'    => 'Website Enquiry - Get Personalised GST Guidance',
-     'cta'     => 'Find My GST Plan &rarr;',
-     'options' => [
-         ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-         ['value' => 'New GST registration', 'label' => 'New GST registration', 'selected' => false, 'disabled' => false],
-         ['value' => 'Monthly GST return filing', 'label' => 'Monthly GST return filing', 'selected' => false, 'disabled' => false],
-         ['value' => 'GST annual return (GSTR-9 / 9C)', 'label' => 'GST annual return (GSTR-9 / 9C)', 'selected' => false, 'disabled' => false],
-         ['value' => 'Input tax credit / 2B reconciliation', 'label' => 'Input tax credit / 2B reconciliation', 'selected' => false, 'disabled' => false],
-         ['value' => 'GST refund claim', 'label' => 'GST refund claim', 'selected' => false, 'disabled' => false],
-         ['value' => 'GST notice / dispute / SCN', 'label' => 'GST notice / dispute / SCN', 'selected' => false, 'disabled' => false],
-         ['value' => 'E-invoicing / e-way bill setup', 'label' => 'E-invoicing / e-way bill setup', 'selected' => false, 'disabled' => false],
-         ['value' => 'GST advisory (classification / valuation / POS)', 'label' => 'GST advisory (classification / valuation / POS)', 'selected' => false, 'disabled' => false],
-         ['value' => 'Industry-specific GST returns', 'label' => 'Industry-specific GST returns', 'selected' => false, 'disabled' => false],
-         ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-     ],
+ @include('partials.bigin-form', [
+     'service'  => 'GST Services',
+     'cta'      => 'Find My GST Plan &rarr;',
  ])
  </div>
  </div>
@@ -2061,7 +2048,10 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Quick questions, answered.</h2>
                 <p class="faq-expanded__lead">Common questions about GST Services at Patron - what this hub covers, pricing, and how to get started.</p>
-                @include('partials.faq-enquiry-form', ['enquiryService' => 'GST Services'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'GST Services',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

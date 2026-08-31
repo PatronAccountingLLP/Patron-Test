@@ -247,20 +247,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Copyright for Cinematographic Film',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-registration-for-cinematographic-film', 'label' => 'Copyright for Cinematographic Film', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-registration', 'label' => 'Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-sound-recording', 'label' => 'Copyright for Sound Recording', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-broadcast', 'label' => 'Copyright for Broadcast', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment', 'label' => 'Copyright Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection', 'label' => 'Copyright Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Copyright for Cinematographic Film',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -941,7 +931,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Film Copyright Registration</h2>
                     <p class="faq-expanded__lead">Expert answers to common questions about copyright registration for cinematographic films, web series, and video content in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Film Copyright Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Copyright for Cinematographic Film',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

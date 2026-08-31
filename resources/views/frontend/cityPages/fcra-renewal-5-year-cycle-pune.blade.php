@@ -850,20 +850,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FCRA Renewal FC-3C in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fcra-renewal-5-year-cycle', 'label' => 'FCRA Renewal (FC-3C)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-fc-4-annual-return', 'label' => 'FCRA FC-4 Annual Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-fc-6-prior-intimation-and-bank-account', 'label' => 'FCRA FC-6 Prior Intimation and Bank Account', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-quarterly-receipt-declaration', 'label' => 'FCRA Quarterly Receipt Declaration', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FCRA Renewal FC-3C in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1585,7 +1576,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from NGOs, charitable trusts, societies, and Section 8 companies renewing their FCRA registration through Form FC-3C.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FCRA Renewal FC-3C in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -277,18 +277,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 8 Company',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'section8-company-registration/kolkata', 'label' => 'Section 8 Company in Kolkata', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration/kolkata', 'label' => 'NGO Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'registration-for-12a-80g-certificate/kolkata', 'label' => '12A/80G Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration/kolkata', 'label' => 'Society Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/kolkata', 'label' => 'GST Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 8 Company',
+                                            'city'     => 'Kolkata',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -776,7 +769,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Section 8 Company in Kolkata</h2>
                     <p class="faq-expanded__lead">Common questions about Section 8 licence, incorporation, 12A/80G, FCRA, CSR-1, and compliance for Kolkata non-profits.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Kolkata', 'enquiryService' => 'Section 8 Company in Kolkata'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 8 Company',
+                        'city'     => 'Kolkata',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

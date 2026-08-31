@@ -292,21 +292,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 8 Company Registration in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'section8-company-registration/mumbai', 'label' => 'Section 8 Company Registration in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/mumbai', 'label' => 'Private Limited Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-registration/mumbai', 'label' => 'NGO Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/mumbai', 'label' => 'LLP Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration/mumbai', 'label' => 'Society Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'one-person-company-registration/mumbai', 'label' => 'OPC Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 8 Company Registration in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2089,7 +2079,11 @@ window.addEventListener('scroll', function() {
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Section 8 Company Registration in Mumbai</h2>
                     <p class="faq-expanded__lead">Answers to common questions about Section 8 non-profit registration in Mumbai. Can't find your answer? Call +91 945 945 6700.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Section 8 Company Registration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 8 Company Registration in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

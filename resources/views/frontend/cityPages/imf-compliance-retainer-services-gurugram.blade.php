@@ -818,18 +818,10 @@
                     </div>
 
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - IMF Compliance Retainer in Gurugram',
-                        'city'    => 'Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'imf-compliance-retainer-services/gurugram', 'label' => 'IMF Compliance Retainer in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration/gurugram', 'label' => 'IRDA IMF Business Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process/gurugram', 'label' => 'IMF IRDAI Registration Process in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment/gurugram', 'label' => 'ISMP Certification &amp; ISP Appointment in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-services', 'label' => 'IMF Services (All)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'IMF Compliance Retainer in Gurugram',
+                        'city'     => 'Gurugram',
                     ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
@@ -1398,7 +1390,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF Compliance Retainer in Gurugram</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about IMF compliance retainer services in Gurugram.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'IMF Compliance Retainer Services in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF Compliance Retainer in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

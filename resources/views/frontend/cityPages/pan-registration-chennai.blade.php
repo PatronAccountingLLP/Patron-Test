@@ -258,20 +258,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - PAN Registration in Chennai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pan-card-registration/chennai', 'label' => 'PAN Registration in Chennai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return/chennai', 'label' => 'Income Tax Return in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/chennai', 'label' => 'GST Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/chennai', 'label' => 'Private Limited Company Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/chennai', 'label' => 'LLP Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/chennai', 'label' => 'Trademark Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/chennai', 'label' => 'Startup Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'PAN Registration in Chennai',
+                                            'city'     => 'Chennai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -911,7 +902,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: PAN Registration in Chennai</h2>
                     <p class="faq-expanded__lead">Answers to common questions about PAN card registration in Chennai, covering new 2026 rules, fees, timeline, and PAN-Aadhaar linking.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Chennai', 'enquiryService' => 'PAN Registration in Chennai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'PAN Registration in Chennai',
+                        'city'     => 'Chennai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -254,21 +254,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Musical Work Copyright',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-registration-for-musical-work', 'label' => 'Musical Work Copyright', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-registration', 'label' => 'Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-sound-recording', 'label' => 'Sound Recording Copyright', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-literary-work', 'label' => 'Literary Work Copyright', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection', 'label' => 'Copyright Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment', 'label' => 'Copyright Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-disclaimer', 'label' => 'Copyright Disclaimer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Musical Work Copyright',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -794,7 +783,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Musical Work Copyright</h2>
                     <p class="faq-expanded__lead">Answers about musical work definition, ownership, duration, cover versions, moral rights, IPRS, and the difference between composition and recording copyright.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Musical Work Copyright'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Musical Work Copyright',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

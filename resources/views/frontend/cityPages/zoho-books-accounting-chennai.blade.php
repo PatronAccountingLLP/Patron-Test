@@ -289,21 +289,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Zoho Books Accounting in Chennai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'zoho-books-accounting/chennai', 'label' => 'Zoho Books Accounting in Chennai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/chennai', 'label' => 'Accounting Services in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/chennai', 'label' => 'Payroll Services in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/chennai', 'label' => 'GST Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/chennai', 'label' => 'Income Tax Return Filing in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/chennai', 'label' => 'Startup Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/chennai', 'label' => 'Trademark Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/chennai', 'label' => 'Private Limited Company Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Zoho Books Accounting in Chennai',
+                                            'city'     => 'Chennai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -988,7 +978,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Zoho Books Accounting in Chennai</h2>
                     <p class="faq-expanded__lead">Get answers to the most common questions about Zoho Books accounting services in Chennai, including GST compliance, fees, setup timeline, and software features.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Chennai', 'enquiryService' => 'Zoho Books Accounting in Chennai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Zoho Books Accounting in Chennai',
+                        'city'     => 'Chennai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

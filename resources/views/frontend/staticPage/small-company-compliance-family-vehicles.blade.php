@@ -1187,21 +1187,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Family Company Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'small-company-compliance-family-vehicles', 'label' => 'Family Company Compliance (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'transfer-of-shares', 'label' => 'Transfer of Shares (SH-4)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-authorised-capital', 'label' => 'Authorised Capital Change (SH-7)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'issue-of-shares', 'label' => 'Issue of Shares (PAS-3)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-director', 'label' => 'Director Appointment (DIR-12)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'DIR-3 KYC Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Family Company Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2256,7 +2245,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on family company compliance, Section 2(85) small-company status, MGT-7A vs MGT-7 choice, Section 56(2)(x) intra-family share gifts, Section 173(5) board meetings, post-2020 Amendment penalty structure under Sections 137 / 92, Section 164(2) director disqualification, and the proviso to Section 2(85) for holding companies.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Family Company Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

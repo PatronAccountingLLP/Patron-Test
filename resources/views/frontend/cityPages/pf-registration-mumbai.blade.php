@@ -276,20 +276,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - PF Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pf-registration/mumbai', 'label' => 'PF Registration in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'esic-registration/mumbai', 'label' => 'ESIC Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'professional-tax/mumbai', 'label' => 'Professional Tax in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/mumbai', 'label' => 'Payroll Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration/mumbai', 'label' => 'Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'posh-compliance/mumbai', 'label' => 'POSH Compliance in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'PF Registration',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -871,7 +862,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: PF Registration in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about PF registration, who needs it, contribution rates, Rs 15,000 wage ceiling, penalties, and UAN for Mumbai employers.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'PF Registration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'PF Registration',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -285,21 +285,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FSSAI Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fssai-registration', 'label' => 'FSSAI Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fssai-central-license', 'label' => 'FSSAI Central License', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-state-license', 'label' => 'FSSAI State License', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-renewal', 'label' => 'FSSAI Renewal', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-returns', 'label' => 'FSSAI Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration', 'label' => 'Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FSSAI Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -824,7 +813,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - FSSAI Registration</h2>
                     <p class="faq-expanded__lead">Answers about FSSAI registration process, fees, licence types, penalties, home food business requirements, and online application.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'FSSAI Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FSSAI Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

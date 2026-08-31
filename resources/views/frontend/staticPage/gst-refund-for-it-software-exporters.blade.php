@@ -293,21 +293,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT and Software Exporter Refund',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-refund-for-it-software-exporters', 'label' => 'IT and Software Exporter Refund', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-refund', 'label' => 'GST Refund', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-exporters', 'label' => 'GSTAT Appeal - Exporters', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-filing', 'label' => 'GSTAT Appeal Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-annual-returns', 'label' => 'GST Annual Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT and Software Exporter Refund',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1140,7 +1129,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about GST refund for Indian IT, SaaS, software product, GCC, BPO/KPO, and ITES exporters - covering Section 2(6) 5-condition test, CBIC Circular 161/17/2021 group concern clarification, Finance Act 2026 Section 13(8)(b) omission for intermediary services, FIRC/BSR/Form Softex mechanics, cloud RCM ITC framework, cross-border ESOP arrangements, and STPI vs SEZ vs Non-STPI distinctions.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT and Software Exporter Refund',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

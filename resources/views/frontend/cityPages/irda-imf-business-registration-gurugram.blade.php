@@ -875,19 +875,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF Registration in Gurugram',
-                        'city' => 'Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'irda-imf-business-registration/gurugram', 'label' => 'IMF Registration in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process', 'label' => 'IRDAI Registration Process', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification &amp; ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-private-limited-vs-llp', 'label' => 'IMF: Pvt Ltd vs LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF Registration in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1465,7 +1457,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF Registration in Gurugram</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about IRDA IMF business registration in Gurugram.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'IMF Registration in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF Registration in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -260,21 +260,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - EOR India for UK Companies',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'eor-india-for-uk-companies', 'label' => 'EOR India for UK Companies', 'selected' => true, 'disabled' => false],
-                            ['value' => 'eor-india-for-us-companies', 'label' => 'EOR India for US Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-for-singapore-companies', 'label' => 'EOR India for Singapore Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-for-european-companies', 'label' => 'EOR India for European Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-for-australian-companies', 'label' => 'EOR India for Australian Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-vs-india-entity-setup', 'label' => 'EOR vs Pvt Ltd Decision Framework', 'selected' => false, 'disabled' => false],
-                            ['value' => 'best-eor-providers-india-2026', 'label' => 'EOR Vendor Selection Roundup', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'EOR India for UK Companies',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1070,7 +1059,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions from UK Ltd / PLC / LLP companies (early-stage Series A SaaS, mid-market AI, AIM-listed enterprises) evaluating EOR India structures. Drawn from Google PAA and Patron client mandates.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'EOR India for UK Companies',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

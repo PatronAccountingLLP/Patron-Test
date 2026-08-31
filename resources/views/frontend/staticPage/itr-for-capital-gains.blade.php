@@ -293,21 +293,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Capital Gains',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-capital-gains', 'label' => 'ITR for Capital Gains', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-property-sale', 'label' => 'ITR for Property Sale', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-crypto-traders', 'label' => 'ITR for Crypto Traders', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-fno-trader', 'label' => 'ITR for F-and-O Traders', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-salary', 'label' => 'ITR for Salary', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services', 'label' => 'Tax Planning Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice-for-defective-return', 'label' => 'Income Tax Notice for Defective Return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Capital Gains',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1153,7 +1142,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Top questions HNI investors ask before filing capital gains ITR for AY 2026-27.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Capital Gains',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

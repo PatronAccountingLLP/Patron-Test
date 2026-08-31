@@ -544,19 +544,10 @@
                         <h2 class="form-title">Get Free Consultation</h2>
                         <p class="form-subtitle">Talk to a CA/CS expert today</p>
                     </div>
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - 12A Registration Delhi',
-                        'city'    => 'Delhi',
-                        'options' => [
-                            ['value' => 'registration-for-12a-80g-certificate/delhi', 'label' => '12A and 80G Registration in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration/delhi', 'label' => 'NGO Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration/delhi', 'label' => 'Section 8 Company Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration/delhi', 'label' => 'Society Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/delhi', 'label' => 'Startup Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => '12A Registration Delhi',
+                        'city'     => 'Delhi',
                     ])
                 </div>
             </div>
@@ -1082,7 +1073,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - 12A Registration in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about 12A registration for Delhi NGOs answered by our CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => '12A Registration in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '12A Registration Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

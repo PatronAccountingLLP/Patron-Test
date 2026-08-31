@@ -265,21 +265,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - QuickBooks Accounting',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'quickbooks-accounting', 'label' => 'QuickBooks Accounting', 'selected' => true, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting', 'label' => 'Zoho Books Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting', 'label' => 'Tally Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'xero-accounting', 'label' => 'Xero Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'migration-from-tally-to-zoho', 'label' => 'Migration: Tally to Zoho', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'QuickBooks Accounting',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -856,7 +845,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - QuickBooks Accounting</h2>
                     <p class="faq-expanded__lead">Get answers about QuickBooks availability in India, QBO India discontinuation, GST handling, alternatives, pricing, and migration to Zoho Books or TallyPrime.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'QuickBooks Accounting'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'QuickBooks Accounting',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

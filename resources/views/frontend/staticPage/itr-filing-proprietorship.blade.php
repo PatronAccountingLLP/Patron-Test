@@ -1164,20 +1164,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR Filing for Proprietorship',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-filing-proprietorship', 'label' => 'ITR Filing for Proprietorship', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return (ITR) Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR Filing for Proprietorship',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1727,7 +1717,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Proprietorship ITR - Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Clear answers on ITR-3 vs ITR-4, Section 44AD / 44ADA / 44AE presumptive schemes, tax audit thresholds, new vs old regime, due dates, advance tax, and Form 10-IEA for proprietors.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Proprietorship ITR - Frequently Asked Questions'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR Filing for Proprietorship',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

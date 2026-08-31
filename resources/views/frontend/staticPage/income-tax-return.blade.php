@@ -1249,28 +1249,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR Filing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Income Tax Return Filing (Hub)', 'label' => 'Income Tax Return Filing (Hub)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ITR for Salaries (ITR-1/ITR-2)', 'label' => 'ITR for Salaries (ITR-1/ITR-2)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Business (ITR-3/ITR-4)', 'label' => 'ITR for Business (ITR-3/ITR-4)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Capital Gains', 'label' => 'ITR for Capital Gains', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Property Sale (Section 54)', 'label' => 'ITR for Property Sale (Section 54)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for F and O Traders', 'label' => 'ITR for F and O Traders', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Crypto Traders (Section 115BBH)', 'label' => 'ITR for Crypto Traders (Section 115BBH)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Influencers and Content Creators', 'label' => 'ITR for Influencers and Content Creators', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Professionals (Section 44ADA)', 'label' => 'ITR for Professionals (Section 44ADA)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Freelancers', 'label' => 'ITR for Freelancers', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Companies (ITR-6)', 'label' => 'ITR for Companies (ITR-6)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NRI Return with Schedule FA', 'label' => 'NRI Return with Schedule FA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit (Section 44AB)', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Notice Response', 'label' => 'Income Tax Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'TDS Return Filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Income Tax Return Filing (Hub)',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2009,7 +1991,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on AY 2026-27 ITR filing - due dates by form, who must file, all 7 form selection, fees, late filing under Section 234F, revised and updated returns, regime selection under Section 115BAC, Schedule FA for foreign assets, Section 87A rebate, F and O tax treatment, crypto under Section 115BBH, presumptive taxation under Sections 44AD/44ADA and 30-day e-verification.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Income Tax Return Filing (Hub)',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

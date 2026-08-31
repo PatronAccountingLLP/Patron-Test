@@ -903,18 +903,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF Compliance Retainer in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'imf-compliance-retainer-services/mumbai', 'label' => 'IMF Compliance Retainer in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration', 'label' => 'IRDA IMF Business Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process', 'label' => 'IMF IRDAI Registration Process', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification &amp; ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-services', 'label' => 'IMF Services Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF Compliance Retainer in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1478,7 +1471,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IMF Compliance Retainer in Mumbai</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about the annual IMF compliance retainer in Mumbai.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'IMF Compliance Retainer in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF Compliance Retainer in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

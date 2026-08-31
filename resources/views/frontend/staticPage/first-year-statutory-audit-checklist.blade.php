@@ -1058,22 +1058,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - First Year Audit Checklist',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'First Year Statutory Audit', 'label' => 'First Year Statutory Audit', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Statutory Audit', 'label' => 'Statutory Audit (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Auditor', 'label' => 'Appointment of Auditor (ADT-1)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'CARO 2020 Reporting', 'label' => 'CARO 2020 Reporting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IFC Audit', 'label' => 'Internal Financial Controls Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Schedule III Compliance', 'label' => 'Schedule III Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd Compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Change of Auditor', 'label' => 'Change of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'First Year Audit Checklist',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1645,7 +1633,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - First Year Statutory Audit</h2>
                     <p class="faq-expanded__lead">Common questions on first-year audit triggers, SA 510 opening balances, founder-related party transactions, documents, and timelines.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'First Year Statutory Audit'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'First Year Audit Checklist',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1148,17 +1148,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - DRC-01 and DRC-01A Response',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'DRC-01 / DRC-01A Response', 'label' => 'DRC-01 / DRC-01A Response', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GST Notice', 'label' => 'GST Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Notice for Restaurants', 'label' => 'GST Notice for Restaurants', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Returns', 'label' => 'GST Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'DRC-01 and DRC-01A Response',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2087,7 +2080,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on DRC-01 vs DRC-01A, Form DRC-03 and Cause-of-Payment, the 30-day window, partial payment, wrong-Cause correction, and reply extensions.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'DRC-01 and DRC-01A Response',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

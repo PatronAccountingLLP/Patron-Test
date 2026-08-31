@@ -291,20 +291,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - 12A Registration in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'registration-for-12a-80g-certificate/gurugram', 'label' => '12A Registration in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration/gurugram', 'label' => 'NGO Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section8-company-registration/gurugram', 'label' => 'Section 8 Company in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration/gurugram', 'label' => 'Society Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/gurugram', 'label' => 'Pvt Ltd Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/gurugram', 'label' => 'GST Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => '12A Registration in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -710,7 +701,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - 12A Registration in Gurugram</h2>
                     <p class="faq-expanded__lead">Answers to common questions about 12A registration in Gurugram. Call +91 945 945 6700.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => '12A Registration in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '12A Registration in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

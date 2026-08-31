@@ -401,24 +401,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Varanasi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Varanasi', 'label' => 'GSTAT Appeal Filing in Varanasi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Varanasi', 'label' => 'FSSAI Registration in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Varanasi', 'label' => 'GST Registration in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Varanasi', 'label' => 'Income Tax Return in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Varanasi', 'label' => 'LLP Incorporation in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Varanasi', 'label' => 'PAN Registration in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Varanasi', 'label' => 'Payroll Services in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Varanasi', 'label' => 'Private Limited Company Registration in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Varanasi', 'label' => 'Startup Registration in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Varanasi', 'label' => 'Trademark Registration in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Varanasi', 'label' => 'Udyam Registration in Varanasi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Varanasi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1053,7 +1039,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Varanasi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

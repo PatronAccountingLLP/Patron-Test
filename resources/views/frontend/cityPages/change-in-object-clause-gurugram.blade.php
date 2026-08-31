@@ -283,20 +283,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Change in Object Clause in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'change-object-clause/gurugram', 'label' => 'Change Object Clause in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'change-in-authorised-capital/gurugram', 'label' => 'Change Authorised Capital in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-registration/gurugram', 'label' => 'Company Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-name-of-company/gurugram', 'label' => 'Change Company Name in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-compliance/gurugram', 'label' => 'Annual Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'issue-of-shares/gurugram', 'label' => 'Issue of Shares in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Change in Object Clause in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -695,7 +686,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Change in Object Clause in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about object clause amendment, Special Resolution, ultra vires, and ROC filing for Gurugram companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Change in Object Clause in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Change in Object Clause in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

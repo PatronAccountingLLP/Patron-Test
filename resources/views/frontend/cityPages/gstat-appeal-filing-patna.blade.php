@@ -388,24 +388,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Patna',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Patna', 'label' => 'GSTAT Appeal Filing in Patna', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Patna', 'label' => 'FSSAI Registration in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Patna', 'label' => 'GST Registration in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Patna', 'label' => 'Income Tax Return in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Patna', 'label' => 'LLP Incorporation in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Patna', 'label' => 'PAN Registration in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Patna', 'label' => 'Payroll Services in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Patna', 'label' => 'Private Limited Company Registration in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Patna', 'label' => 'Startup Registration in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Patna', 'label' => 'Trademark Registration in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Patna', 'label' => 'Udyam Registration in Patna', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Patna',
+                                            'city'     => 'Patna',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -835,7 +822,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Patna'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Patna',
+                        'city'     => 'Patna',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

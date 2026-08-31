@@ -1168,23 +1168,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 148 Notice Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-148-notice/mumbai', 'label' => 'Section 148 Notice Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice/mumbai', 'label' => 'Income Tax Notice Mumbai (Parent City Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-147/mumbai', 'label' => 'Section 147 Mumbai (Charging Section)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-148-notice/delhi', 'label' => 'Section 148 Notice Delhi (Sibling)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-148-notice/gurugram', 'label' => 'Section 148 Notice Gurugram (Sibling)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-143-2-notice/mumbai', 'label' => 'Section 143(2) Scrutiny Selection Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3/mumbai', 'label' => 'Section 143(3) Scrutiny Order Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156/mumbai', 'label' => 'Section 156 Demand Notice Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/mumbai', 'label' => 'ITR Filing Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 148 Notice Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2184,7 +2172,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 148 Notice Mumbai FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 148 reassessment notices in Mumbai, the Section 148A pre-notice procedure with 7 to 30 day SCN reply window, Section 149 time-limit post 1 September 2024 (3 yr 3 mo / 5 yr 3 mo), Pr CCIT Mumbai PCIT 1-35 charge structure including CIT 24 share-broker specialty, Section 151 approval authority, Bombay High Court Article 226 writ jurisdiction at Fort (co-located with Aayakar Bhawan M.K. Road), ITAT Mumbai Bench at Pratishtha Bhavan M.K. Marg (LARGEST ITAT in India), and the consequences of non-response - answered by the Patron Mumbai CA team (Andheri East office).</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Section 148 Notice Mumbai FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 148 Notice Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

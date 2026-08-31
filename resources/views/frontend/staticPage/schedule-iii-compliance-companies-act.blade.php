@@ -1114,23 +1114,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Schedule III Compliance Companies Act',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'schedule-iii-compliance-companies-act', 'label' => 'Schedule III Compliance Companies Act', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (National Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-private-limited-company', 'label' => 'Pvt Ltd Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'qualified-audit-opinion-handling-guide', 'label' => 'Qualified Opinion Handling Guide', 'selected' => false, 'disabled' => false],
-                            ['value' => 'qualified-vs-unqualified-audit-opinion', 'label' => 'Qualified vs Unqualified Opinion', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-of-auditor', 'label' => 'Change of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Schedule III Compliance Companies Act',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2074,7 +2061,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Schedule III Compliance FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Schedule III to the Companies Act 2013, Division I (AS) vs Division II (Ind AS) vs Division III (NBFC), the March 2021 amendments (four ageing schedules, promoter shareholding, eleven financial ratios, ARI disclosures), audit trail effective 1 April 2023 and Patron Schedule III compliance methodology - answered by the Patron CA and CS team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Schedule III Compliance FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Schedule III Compliance Companies Act',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

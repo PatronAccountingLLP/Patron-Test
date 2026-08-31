@@ -256,19 +256,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Audit in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-audit/delhi', 'label' => 'GST Audit in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-returns/delhi', 'label' => 'GST Returns in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice/delhi', 'label' => 'GST Notice in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/delhi', 'label' => 'Tax Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit/delhi', 'label' => 'Statutory Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Audit in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -746,7 +738,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - GST Audit Services in Delhi</h2>
                     <p class="faq-expanded__lead">Expert answers about GST audit, GSTR-9C reconciliation and departmental audits in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'GST Audit Services in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Audit in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

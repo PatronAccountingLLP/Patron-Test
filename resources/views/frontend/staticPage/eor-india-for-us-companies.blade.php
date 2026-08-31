@@ -198,21 +198,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - EOR India',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'EOR India for US Companies', 'label' => 'EOR India for US Companies', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Payroll Processing', 'label' => 'Payroll Processing and Management', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd Registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation', 'label' => 'LLP Incorporation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'TDS Return', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IT Software Payroll', 'label' => 'Payroll Services for IT and Software', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR for Companies', 'label' => 'ITR for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'EOR India',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -966,7 +955,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - EOR India for US Companies</h2>
                     <p class="faq-expanded__lead">Common questions from US founders and controllers on EOR vs PEO, PE risk, ESOP taxation, FCRA, cost, and entity migration.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'EOR India for US Companies'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'EOR India',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

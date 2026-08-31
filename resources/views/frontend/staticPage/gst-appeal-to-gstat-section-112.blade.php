@@ -1097,20 +1097,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 112 GSTAT Appeal',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Section 112 GSTAT Appeal (route me)', 'label' => 'Section 112 GSTAT Appeal (route me)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GSTAT Appeal Filing (Master)', 'label' => 'GSTAT Appeal Filing (Master)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Pre-Deposit Calculation', 'label' => 'GSTAT Pre-Deposit Calculation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT E-Filing Assistance', 'label' => 'GSTAT E-Filing Assistance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Cross-Objection Filing', 'label' => 'GSTAT Cross-Objection Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Principal Bench Representation', 'label' => 'Principal Bench Representation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'State Bench Representation', 'label' => 'State Bench Representation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 112 GSTAT Appeal',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1945,7 +1935,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on Section 112, the Section 112(8) pre-deposit, the 30 June 2026 backlog deadline, and choosing the right GSTAT engagement.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 112 GSTAT Appeal',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

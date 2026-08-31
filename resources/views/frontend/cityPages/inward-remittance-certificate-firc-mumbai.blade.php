@@ -1134,21 +1134,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Inward Remittance Certificate (FIRC)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'inward-remittance-certificate-firc', 'label' => 'Inward Remittance Certificate (FIRC)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-refund-service-exports', 'label' => 'GST Refund on Service Exports', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-refund-exports-lut', 'label' => 'GST Refund Exports under LUT', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-refund-for-saas-exporters', 'label' => 'GST Refund for SaaS Exporters', 'selected' => false, 'disabled' => false],
-                            ['value' => 'iec-registration', 'label' => 'IEC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fdi-compliance', 'label' => 'FDI Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-companies', 'label' => 'Net Worth Certificate for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Inward Remittance Certificate (FIRC)',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1858,7 +1848,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the FIRC, e-FIRC vs FIRS, purpose codes and GST export refunds.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Inward Remittance Certificate (FIRC)',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -285,20 +285,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Resignation of Director in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'resignation-of-director/gurugram', 'label' => 'Resignation of Director in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'removal-of-director/gurugram', 'label' => 'Removal of Director in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-director/gurugram', 'label' => 'Appointment of Director in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc/gurugram', 'label' => 'Director KYC in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'transfer-of-shares/gurugram', 'label' => 'Transfer of Shares in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-compliance/gurugram', 'label' => 'Annual Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'legal-drafting/gurugram', 'label' => 'Legal Drafting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Resignation of Director in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -697,7 +688,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Resignation of Director in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about director resignation, DIR-11, DIR-12, effective date, and post-resignation obligations for Gurugram companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Resignation of Director in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Resignation of Director in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

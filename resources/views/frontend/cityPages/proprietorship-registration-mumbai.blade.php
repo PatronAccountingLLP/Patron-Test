@@ -280,20 +280,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Proprietorship Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sole-proprietorship-registration/mumbai', 'label' => 'Proprietorship in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'opc-registration/mumbai', 'label' => 'OPC Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-registration/mumbai', 'label' => 'LLP Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/mumbai', 'label' => 'Income Tax Return in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration/mumbai', 'label' => 'Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'bookkeeping-services/mumbai', 'label' => 'Bookkeeping in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Proprietorship Registration',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -869,7 +860,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Sole Proprietorship Registration in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about proprietorship setup, cost, GST requirements, Gumasta licence, presumptive taxation, and the difference from other business structures for Mumbai entrepreneurs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Sole Proprietorship Registration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Proprietorship Registration',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

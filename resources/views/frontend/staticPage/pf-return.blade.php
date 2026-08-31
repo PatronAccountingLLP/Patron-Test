@@ -286,19 +286,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - PF Returns',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'pf-return', 'label' => 'PF Returns', 'selected' => true, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-return', 'label' => 'ESIC Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gratuity-calculation-and-compliance-services', 'label' => 'Gratuity', 'selected' => false, 'disabled' => false],
-                            ['value' => 'professional-tax-pt-inr-calculator-compliance-services', 'label' => 'Professional Tax', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'PF Returns',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -811,7 +802,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - PF Returns</h2>
                     <p class="faq-expanded__lead">Answers about ECR filing, contribution rates, due dates, penalties, Nil returns, ECR 3.0, and annual returns.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'PF Returns'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'PF Returns',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

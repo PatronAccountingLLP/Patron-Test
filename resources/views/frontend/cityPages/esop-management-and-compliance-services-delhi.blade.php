@@ -294,20 +294,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP Management in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'esop-management-and-compliance-services/delhi', 'label' => 'ESOP Management in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-processing-and-management-services/delhi', 'label' => 'Payroll Processing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit/delhi', 'label' => 'Statutory Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/delhi', 'label' => 'Accounting Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'Income Tax Return in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/delhi', 'label' => 'Tax Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP Management in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -693,7 +684,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ESOP Management in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about ESOP management, perquisite tax, Sec 80-IAC deferral, and Ind AS 102 for Delhi companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'ESOP Management in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP Management in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

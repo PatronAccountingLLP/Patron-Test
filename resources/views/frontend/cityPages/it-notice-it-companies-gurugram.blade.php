@@ -1202,22 +1202,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Notice IT Companies Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'IT Notice - IT Company Gurugram', 'label' => 'IT Notice - IT Company (Gurugram)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Transfer Pricing 92CA', 'label' => 'Transfer Pricing / Section 92CA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 10AA SEZ', 'label' => 'Section 10AA SEZ Defence', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 80-IAC', 'label' => 'Section 80-IAC DPIIT Startup', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP Perquisite TDS', 'label' => 'ESOP Perquisite TDS Defence', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 195 Software TDS', 'label' => 'Section 195 Software TDS', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 144B Faceless', 'label' => 'Section 144B Faceless Variation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'DRP Delhi', 'label' => 'DRP Delhi (Section 144C)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITAT Chandigarh', 'label' => 'ITAT Chandigarh / Punjab Haryana HC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Notice IT Companies Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1792,7 +1781,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - IT Notice for IT Companies Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions on Gurugram IT-sector tax notices, the Chandigarh jurisdiction, the Mavenir India precedent, Section 92CA TPO routing, Section 195 software TDS, and ESOP perquisite.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'IT Notice for IT Companies Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Notice IT Companies Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

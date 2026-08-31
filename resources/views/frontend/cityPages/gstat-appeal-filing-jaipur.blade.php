@@ -388,24 +388,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Jaipur',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Jaipur', 'label' => 'GSTAT Appeal Filing in Jaipur', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Jaipur', 'label' => 'FSSAI Registration in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Jaipur', 'label' => 'GST Registration in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Jaipur', 'label' => 'Income Tax Return in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Jaipur', 'label' => 'LLP Incorporation in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Jaipur', 'label' => 'PAN Registration in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Jaipur', 'label' => 'Payroll Services in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Jaipur', 'label' => 'Private Limited Company Registration in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Jaipur', 'label' => 'Startup Registration in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Jaipur', 'label' => 'Trademark Registration in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Jaipur', 'label' => 'Udyam Registration in Jaipur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Jaipur',
+                                            'city'     => 'Jaipur',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -817,7 +804,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Jaipur'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Jaipur',
+                        'city'     => 'Jaipur',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -305,21 +305,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Condonation of Delay ROC Filings',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'condonation-of-delay-roc-filings', 'label' => 'Condonation and Compounding (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'roc-notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'aoc-4-filing-services', 'label' => 'AOC-4 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'mgt-7-filing-services', 'label' => 'MGT-7 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'strike-off-private-limited-company', 'label' => 'Strike Off Pvt Ltd', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-closure', 'label' => 'Company Closure', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Condonation of Delay ROC Filings',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1531,7 +1520,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on Section 460 condonation, Section 441 compounding, RD vs NCLT jurisdiction, Form CG-1 documents, 3-year prior-compounding bar, CCFS-2026 amnesty, and total cleanup cost for 3+ year backlogs.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Condonation of Delay ROC Filings',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

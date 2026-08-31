@@ -296,21 +296,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Textile Manufacturers',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-textile-manufacturers', 'label' => 'ITR for Textile Manufacturers (current)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'itr-for-business', 'label' => 'ITR for Business (HUB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-llp-partnership', 'label' => 'ITR for LLP and Partnership', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return (overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-refund', 'label' => 'GST Refund (Inverted Duty)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-exporters', 'label' => 'GSTAT Appeal Exporters', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gstat-appeal-manufacturers', 'label' => 'GSTAT Appeal Manufacturers', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services', 'label' => 'Tax Planning', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Textile Manufacturers',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1299,7 +1288,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on Section 145A inventory valuation per ICDS II for textile manufacturers, inverted duty structure GST refund eligibility under Section 54(3) of CGST Act, RoDTEP scheme rates for textile exports, Section 32 depreciation rates for textile machinery, ITR form selection by entity type, MMF versus cotton GST rate differences, Section 194C TDS on job worker payments, and Section 44AB tax audit thresholds for textile businesses for AY 2026-27.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Textile Manufacturers',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

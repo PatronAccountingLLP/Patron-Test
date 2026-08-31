@@ -280,20 +280,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Professional ITR in Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-professionals/pune', 'label' => 'Professional ITR in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-return/pune', 'label' => 'Income Tax Return in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-business/pune', 'label' => 'Business ITR in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-freelancers/pune', 'label' => 'GST for Freelancers in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/pune', 'label' => 'GST Registration in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing/pune', 'label' => 'TDS Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Professional ITR in Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -703,7 +694,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ITR for Professionals and Freelancers in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to the most common questions about professional and freelancer ITR filing in Pune.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'ITR for Professionals and Freelancers in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Professional ITR in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

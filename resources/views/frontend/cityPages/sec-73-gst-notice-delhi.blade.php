@@ -1168,20 +1168,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 73 GST Notice Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-73-gst-notice/delhi', 'label' => 'Section 73 GST Notice Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-notice', 'label' => 'GST Notice (National Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice/delhi', 'label' => 'GST Notice Delhi (City Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/delhi', 'label' => 'GST Returns Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 73 GST Notice Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2174,7 +2165,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 73 GST Notice Delhi FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 73 GST notices in Delhi, the DRC-01 to DRC-07 lifecycle, the 30-day NIL-penalty window under Section 73(8), Section 128A conditional waiver and Delhi High Court writ remedies - answered by the Patron CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Section 73 GST Notice Delhi FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 73 GST Notice Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

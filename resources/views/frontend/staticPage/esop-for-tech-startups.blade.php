@@ -387,23 +387,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Tech Startup ESOP',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Seed Stage Tech ESOP Design', 'label' => 'Seed Stage Tech ESOP Design', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Pre-Series A Tech ESOP Design', 'label' => 'Pre-Series A Tech ESOP Design', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Series A+ Comprehensive Tech ESOP', 'label' => 'Series A+ Comprehensive Tech ESOP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Cross-Border Mirror Grant Design', 'label' => 'Cross-Border Mirror Grant Design', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pool Top-Up at Funding Round', 'label' => 'Pool Top-Up at Funding Round', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Annual Refresh Grant Review', 'label' => 'Annual Refresh Grant Review', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IBBI Valuation under Rule 11UA', 'label' => 'IBBI Valuation under Rule 11UA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Founder ESOP under DPIIT Exemption', 'label' => 'Founder ESOP under DPIIT Exemption', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Hybrid Acceleration Drafting', 'label' => 'Hybrid Acceleration Drafting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'SAR Cash-Settled Scheme Design', 'label' => 'SAR Cash-Settled Scheme Design', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Tech Startup ESOP',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1217,7 +1204,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on Indian tech startup ESOP design - pool size benchmarks, first engineering hire grants, refresh grants, single vs double-trigger vs hybrid acceleration, ESOP vs RSU choice, foreign parent Indian subsidiary structures, CXO performance vesting and DPIIT founder ESOPs.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Tech Startup ESOP',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

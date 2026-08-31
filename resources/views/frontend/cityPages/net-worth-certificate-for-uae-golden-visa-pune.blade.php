@@ -1124,18 +1124,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-uae-golden-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-uae-golden-visa' => 'Net Worth Certificate for UAE Golden Visa',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'double-currency-networth-format' => 'Double Currency Net Worth Format',
-                        'company-registration-in-uae' => 'Company Registration in UAE',
-                        'net-worth-certificate-dual-currency-format' => 'Dual Currency NWC Format',
-                        'itr-for-nris' => 'ITR for NRIs',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for UAE Golden Visa',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1756,7 +1747,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about the UAE Golden Visa investor route and the India-side net worth certificate in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for UAE Golden Visa',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

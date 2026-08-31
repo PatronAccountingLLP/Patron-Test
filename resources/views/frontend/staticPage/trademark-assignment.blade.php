@@ -274,20 +274,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Assignment',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-assignment', 'label' => 'Trademark Assignment', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'TM Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-search-report', 'label' => 'TM Search Report', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-renewal', 'label' => 'TM Renewal', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition', 'label' => 'TM Opposition', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-rectification', 'label' => 'TM Rectification', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-infringement', 'label' => 'TM Infringement', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Assignment',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -803,7 +793,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Trademark Assignment</h2>
                     <p class="faq-expanded__lead">Answers about trademark assignment process, Form TM-P, goodwill transfer, partial assignment, filing deadline, and stamp duty.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Trademark Assignment'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Assignment',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

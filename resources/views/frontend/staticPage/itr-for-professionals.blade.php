@@ -363,24 +363,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR Filing for Professionals',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Section 44ADA Presumptive ITR-4', 'label' => 'Section 44ADA Presumptive ITR-4', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ITR-3 with Regular Books', 'label' => 'ITR-3 with Regular Books', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR-3 with Section 44AB Tax Audit', 'label' => 'ITR-3 with Section 44AB Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Doctor ITR Filing', 'label' => 'Doctor ITR Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Lawyer or Advocate ITR', 'label' => 'Lawyer or Advocate ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Chartered Accountant Practice ITR', 'label' => 'Chartered Accountant Practice ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Architect or Interior Designer ITR', 'label' => 'Architect or Interior Designer ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Technical Consultant or Engineer ITR', 'label' => 'Technical Consultant or Engineer ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Foreign Income with FIRC and Form 67', 'label' => 'Foreign Income with FIRC and Form 67', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST LUT Filing (Form RFD-11)', 'label' => 'GST LUT Filing (Form RFD-11)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IGST Refund Claim', 'label' => 'IGST Refund Claim', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR Filing for Professionals',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1147,7 +1133,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on professional ITR filing for AY 2026-27 - form selection between ITR-3 and ITR-4, Section 44ADA eligibility, Rs 50 lakh vs Rs 75 lakh turnover limit, fees, FIRC for freelancers, GST LUT under Rule 96A, due dates and Section 44ADA advance tax.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR Filing for Professionals',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

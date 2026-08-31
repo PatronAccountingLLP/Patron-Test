@@ -1226,19 +1226,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'Net Worth Certificate for Students',
-                    'options'  => [
-                        'Net Worth Certificate for Students' => 'Net Worth Certificate for Students',
-                        'Net Worth Certificate' => 'Net Worth Certificate',
-                        'Net Worth Certificate for Business Loan' => 'Net Worth Certificate for Business Loan',
-                        'Net Worth Certificate for Home Loan' => 'Net Worth Certificate for Home Loan',
-                        'Net Worth Certificate for Visa' => 'Net Worth Certificate for Visa',
-                        'Net Worth Certificate Sole Proprietorship' => 'Net Worth Certificate Sole Proprietorship',
-                        'Net Worth Certificate for Partnership Firms' => 'Net Worth Certificate for Partnership Firms',
-                        'Net Worth Certificate for Companies' => 'Net Worth Certificate for Companies',
-                        'Other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Students',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1877,7 +1867,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Net Worth Certificate for Students in Pune</h2>
                     <p class="faq-expanded__lead">Common questions about Net Worth Certificate for Students for Pune businesses, answered by our CA and CS team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Net Worth Certificate for Students in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Students',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -390,23 +390,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESOP Design',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Seed Stage ESOP Scheme', 'label' => 'Seed Stage ESOP Scheme', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Pre-Series A ESOP Scheme', 'label' => 'Pre-Series A ESOP Scheme', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Series A to B ESOP Scheme', 'label' => 'Series A to B ESOP Scheme', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IBBI Valuation under Rule 11UA', 'label' => 'IBBI Valuation under Rule 11UA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'AoA Amendment for ESOP', 'label' => 'AoA Amendment for ESOP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Founder ESOP under DPIIT Exemption', 'label' => 'Founder ESOP under DPIIT Exemption', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Performance Vesting Drafting', 'label' => 'Performance Vesting Drafting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Sample Term Sheet Library', 'label' => 'Sample Term Sheet Library', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Accelerated Vesting Clauses', 'label' => 'Accelerated Vesting Clauses', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Leaver Matrix Drafting', 'label' => 'Leaver Matrix Drafting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESOP Design',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1236,7 +1224,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on first-time ESOP scheme design for Indian startups - fees by stage, end-to-end timeline, minimum cliff, scheme document contents, single vs double-trigger acceleration, good vs bad leaver definitions and founder ESOPs under DPIIT 10-year exemption.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESOP Design',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

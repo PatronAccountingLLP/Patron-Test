@@ -285,20 +285,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Name Change in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-name-change/gurugram', 'label' => 'LLP Name Change in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-agreement-change/gurugram', 'label' => 'LLP Agreement Change in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-registration/gurugram', 'label' => 'LLP Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-compliance/gurugram', 'label' => 'LLP Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-contribution-change/gurugram', 'label' => 'LLP Contribution Change in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'legal-drafting/gurugram', 'label' => 'Legal Drafting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Name Change in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -697,7 +688,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - LLP Name Change in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about LLP name change, RUN-LLP, Form 5, post-change updates, and naming rules for Gurugram LLPs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'LLP Name Change in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Name Change in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

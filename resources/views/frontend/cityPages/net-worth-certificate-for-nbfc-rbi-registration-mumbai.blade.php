@@ -1127,18 +1127,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-nbfc-rbi-registration',
-                    'options'  => [
-                        'net-worth-certificate-for-nbfc-rbi-registration' => 'Net Worth Certificate for NBFC / RBI Registration',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'private-limited-company-registration' => 'Private Limited Company Registration',
-                        'public-company-registration' => 'Public Company Registration',
-                        'turnover-certificate' => 'Turnover Certificate',
-                        'private-limited-company-compliance' => 'Private Limited Company Compliance',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for NBFC / RBI Registration',
+                    'city'     => 'Mumbai',
                 ])
             </div>
         </div>
@@ -1831,7 +1822,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the NBFC NOF requirement, the Section 45-IA computation, the SAC and the COSMOS filing.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for NBFC / RBI Registration',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

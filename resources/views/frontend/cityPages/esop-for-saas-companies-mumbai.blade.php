@@ -408,23 +408,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - SaaS ESOP',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Seed SaaS ESOP Design (India-Incorporated)', 'label' => 'Seed SaaS ESOP Design (India-Incorporated)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Pre-Series A SaaS ESOP Design', 'label' => 'Pre-Series A SaaS ESOP Design', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Series A+ Comprehensive SaaS ESOP', 'label' => 'Series A+ Comprehensive SaaS ESOP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Delaware Flip / US Holdco Mirror Grant', 'label' => 'Delaware Flip / US Holdco Mirror Grant', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pool Top-Up at Funding Round', 'label' => 'Pool Top-Up at Funding Round', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Annual Refresh + ARR Milestone Review', 'label' => 'Annual Refresh + ARR Milestone Review', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IBBI Valuation under Rule 11UA', 'label' => 'IBBI Valuation under Rule 11UA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Late Co-Founder Backfill Grant', 'label' => 'Late Co-Founder Backfill Grant', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Sales Comp Plan + ESOP Alignment', 'label' => 'Sales Comp Plan + ESOP Alignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 80-IAC Tax Deferral Setup', 'label' => 'Section 80-IAC Tax Deferral Setup', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'SaaS ESOP',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1244,7 +1232,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on B2B SaaS ESOP design - role-band grant sizing, ARR-linked vesting, sales quota acceleration, CSM NRR linkage, Delaware flip mirror grants, US 409A valuation, revenue-multiple perquisite tax trap, late co-founder backfill, pool benchmarks and FEMA OI Rules 2022.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'SaaS ESOP',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

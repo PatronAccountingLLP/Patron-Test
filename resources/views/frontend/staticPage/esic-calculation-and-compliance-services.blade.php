@@ -259,20 +259,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESIC Calculation and Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'esic-calculation-and-compliance-services', 'label' => 'ESIC Calculation & Compliance', 'selected' => true, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-return', 'label' => 'ESIC Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-return', 'label' => 'PF Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-processing-and-management-services', 'label' => 'Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Overview', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESIC Calculation and Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -831,7 +821,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions About ESIC Calculation and Compliance</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about ESI calculation, contribution rates, wage ceiling, deposit deadlines, benefits, and compliance requirements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'About ESIC Calculation and Compliance'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESIC Calculation and Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

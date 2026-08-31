@@ -823,19 +823,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Year-End Closing and Finalisation',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'year-end-closing-finalisation-services/pune', 'label' => 'Year-End Closing and Finalisation in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/pune', 'label' => 'Accounting Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/pune', 'label' => 'GST Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/pune', 'label' => 'Income Tax Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/pune', 'label' => 'Tax Audit in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/pune', 'label' => 'Tally Accounting in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Year-End Closing and Finalisation',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1296,7 +1288,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Year-End Closing in Pune</h2>
                     <p class="faq-expanded__lead">Real questions from Pune founders and finance teams about year-end closing and finalisation.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Year-End Closing in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Year-End Closing and Finalisation',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

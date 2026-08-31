@@ -293,21 +293,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR for Doctors',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'itr-for-doctors', 'label' => 'ITR for Doctors', 'selected' => true, 'disabled' => false],
-                            ['value' => 'itr-filing-for-freelancers-professionals', 'label' => 'ITR for Professionals / Freelancers', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tds-return-filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-processing-for-the-healthcare-industry', 'label' => 'Healthcare Payroll Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-property-sale', 'label' => 'ITR for Property Sale (Form 26QB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-planning-services', 'label' => 'Tax Planning Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notice-for-defective-return', 'label' => 'Defective Return Notice (Sec 139(9))', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR for Doctors',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1097,7 +1086,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Top questions practising doctors ask before filing ITR for AY 2026-27 - 44ADA, hospital salary, tax audit, GST, and Form 26QB.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR for Doctors',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1218,19 +1218,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-uk-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-uk-visa' => 'Net Worth Certificate for UK Visa',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa (General)',
-                        'net-worth-certificate-for-canada-visa' => 'Net Worth Certificate for Canada Visa',
-                        'net-worth-certificate-for-us-visa' => 'Net Worth Certificate for US Visa',
-                        'net-worth-certificate-for-australia-visa' => 'Net Worth Certificate for Australia Visa',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-joint-owners-in-india' => 'Net Worth Certificate for Joint Owners',
-                        'income-tax-return' => 'Income Tax Return Filing',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for UK Visa',
                 ])
             </div>
         </div>
@@ -1985,7 +1974,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Eight questions UK visa applicants ask Patron Accounting most often - answered with UKVI-aligned, ICAI-compliant detail.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for UK Visa',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

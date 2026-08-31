@@ -388,34 +388,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Kolkata',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Kolkata', 'label' => 'GSTAT Appeal Filing in Kolkata', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Drug License in Kolkata', 'label' => 'Drug License in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Kolkata', 'label' => 'FSSAI Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Kolkata', 'label' => 'GST Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IEC Registration in Kolkata', 'label' => 'IEC Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Kolkata', 'label' => 'Income Tax Return in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Internal Audit in Kolkata', 'label' => 'Internal Audit in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Kolkata', 'label' => 'LLP Incorporation in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NGO Registration in Kolkata', 'label' => 'NGO Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Kolkata', 'label' => 'PAN Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Kolkata', 'label' => 'Payroll Services in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Kolkata', 'label' => 'Private Limited Company Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Registration for 12A 80G Certificate in Kolkata', 'label' => 'Registration for 12A 80G Certificate in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 8 Company Registration in Kolkata', 'label' => 'Section 8 Company Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Society Registration in Kolkata', 'label' => 'Society Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Kolkata', 'label' => 'Startup Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Stock Audit in Kolkata', 'label' => 'Stock Audit in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'TAN Registration in Kolkata', 'label' => 'TAN Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Kolkata', 'label' => 'Trademark Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Kolkata', 'label' => 'Udyam Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Zoho Books Accounting in Kolkata', 'label' => 'Zoho Books Accounting in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Kolkata',
+                                            'city'     => 'Kolkata',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -966,7 +943,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Kolkata'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Kolkata',
+                        'city'     => 'Kolkata',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1140,19 +1140,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - HUF Formation',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'huf-formation-and-pan-application', 'label' => 'HUF Formation and PAN', 'selected' => true, 'disabled' => false],
-                            ['value' => 'pan-registration', 'label' => 'PAN Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'proprietorship-registration', 'label' => 'Proprietorship Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'partnership-firm-registration', 'label' => 'Partnership Firm Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Incorporation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'itr-for-companies', 'label' => 'ITR Filing for Companies', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'HUF Formation',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1832,7 +1823,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about forming an HUF and applying for its PAN, required documents, the HUF deed, tax benefits, the Section 87A position, the basic exemption limit and the HUF bank account.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'HUF Formation',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -281,19 +281,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 142(1) Notice',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-notices-under-section-142-1', 'label' => 'Section 142(1) Notice Reply', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice', 'label' => 'Income Tax Notice Assistance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3', 'label' => 'Section 143(3) Scrutiny', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-147', 'label' => 'Section 147 Reassessment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit Service', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 142(1) Notice',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -776,7 +767,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Section 142(1) Notice</h2>
                     <p class="faq-expanded__lead">Get answers about Section 142(1) inquiry notices, response process, deadlines, penalties, and the e-Proceedings portal.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Section 142(1) Notice'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 142(1) Notice',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

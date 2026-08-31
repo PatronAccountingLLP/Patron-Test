@@ -284,19 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-registration/hyderabad', 'label' => 'GST Registration in Hyderabad', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/hyderabad', 'label' => 'Accounting Services in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/hyderabad', 'label' => 'Pvt Ltd Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/hyderabad', 'label' => 'Income Tax Return in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-registration/hyderabad', 'label' => 'FSSAI Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/hyderabad', 'label' => 'Trademark Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Registration',
+                                            'city'     => 'Hyderabad',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -797,7 +789,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - GST Registration in Hyderabad</h2>
                     <p class="faq-expanded__lead">Common questions about GSTIN, state code 36, thresholds, e-commerce, LUT, returns, and composition scheme.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Hyderabad', 'enquiryService' => 'GST Registration in Hyderabad'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Registration',
+                        'city'     => 'Hyderabad',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1179,21 +1179,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - MGT-7 Filing Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'mgt-7-filing-services', 'label' => 'MGT-7 / MGT-7A Filing (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'aoc-4-filing-services', 'label' => 'AOC-4 Filing (Filed First)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance Bundle', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-annual-compliance', 'label' => 'Small Company Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'adt-1-filing-services', 'label' => 'ADT-1 Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'DIR-3 KYC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'roc-notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'MGT-7 Filing Services',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2319,7 +2308,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on the MGT-7 vs MGT-7A distinction, 60-day-from-AGM deadline, Section 2(85) Small Company test (post G.S.R. 880(E) Rs 10 cr + Rs 100 cr thresholds), MGT-8 certification threshold under Section 92(2) + Rule 11(2), AOC-4-before-MGT-7 sequencing, Section 92(5) post-Companies (Amendment) Act 2020 substituted penalty caps (Rs 2L company / Rs 50k officer), Section 164(2) disqualification risk, and Patron's standalone Rs 6k-12k vs Rs 35k bundle pricing.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'MGT-7 Filing Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

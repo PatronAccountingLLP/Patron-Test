@@ -289,20 +289,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Double Currency Net Worth Certificate in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'double-currency-networth-certificate/mumbai', 'label' => 'Double Currency Net Worth Certificate in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/mumbai', 'label' => 'Income Tax Return in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit/mumbai', 'label' => 'Statutory Audit in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/mumbai', 'label' => 'Accounting Services in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/mumbai', 'label' => 'Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/mumbai', 'label' => 'GST Returns in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Double Currency Net Worth Certificate in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -706,7 +697,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Double Currency Net Worth Certificate in Mumbai</h2>
                     <p class="faq-expanded__lead">Common questions about dual currency net worth, RBI reference rate, and visa-purpose CA certificates for Mumbai</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Double Currency Net Worth Certificate in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Double Currency Net Worth Certificate in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

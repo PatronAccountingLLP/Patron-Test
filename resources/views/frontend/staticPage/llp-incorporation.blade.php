@@ -289,21 +289,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'LLP Registration', 'label' => 'LLP Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'OPC Registration', 'label' => 'OPC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Partnership Firm Registration', 'label' => 'Partnership Firm Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Compliance', 'label' => 'LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Digital Signature Certificate', 'label' => 'Digital Signature Certificate (DSC)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 8 Company Registration', 'label' => 'Section 8 Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2114,7 +2103,10 @@ window.addEventListener('scroll', function() {
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions About LLP Registration</h2>
                     <p class="faq-expanded__lead">Get answers to the most common questions about LLP registration in India, including eligibility, fees, timeline, and compliance requirements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'About LLP Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

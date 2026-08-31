@@ -279,19 +279,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Proprietorship to Pvt Ltd',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'convert-proprietorship-to-pvt-ltd', 'label' => 'Convert Proprietorship to Pvt Ltd', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'proprietorship-registration', 'label' => 'Proprietorship Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-partnership-to-pvt-ltd-company', 'label' => 'Convert Partnership to Pvt Ltd', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-llp-to-private-limited-company', 'label' => 'Convert LLP to Pvt Ltd', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Proprietorship to Pvt Ltd',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -991,7 +982,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about converting a proprietorship to a private limited company, why there is no direct route, the SPICe+ process, documents, Section 47(xiv) tax neutrality, timelines, benefits and GST.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Proprietorship to Pvt Ltd',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

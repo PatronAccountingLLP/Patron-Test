@@ -388,24 +388,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Srinagar',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Srinagar', 'label' => 'GSTAT Appeal Filing in Srinagar', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Srinagar', 'label' => 'FSSAI Registration in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Srinagar', 'label' => 'GST Registration in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Srinagar', 'label' => 'Income Tax Return in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Srinagar', 'label' => 'LLP Incorporation in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Srinagar', 'label' => 'PAN Registration in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Srinagar', 'label' => 'Payroll Services in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Srinagar', 'label' => 'Private Limited Company Registration in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Srinagar', 'label' => 'Startup Registration in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Srinagar', 'label' => 'Trademark Registration in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Srinagar', 'label' => 'Udyam Registration in Srinagar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Srinagar',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -986,7 +972,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Srinagar',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

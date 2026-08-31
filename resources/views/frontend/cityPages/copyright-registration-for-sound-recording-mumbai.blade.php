@@ -280,20 +280,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Sound Recording Copyright',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-sound-recording/mumbai', 'label' => 'Sound Recording Copyright in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-registration/mumbai', 'label' => 'Copyright Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-musical-work/mumbai', 'label' => 'Musical Work Copyright in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-literary-work/mumbai', 'label' => 'Literary Work Copyright in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment/mumbai', 'label' => 'Copyright Assignment in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration/mumbai', 'label' => 'Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Sound Recording Copyright',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -878,7 +869,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Copyright for Sound Recording in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about sound recording copyright, S.2(xx) definition, producer ownership, recording vs composition, duration, and exclusive rights for Mumbai labels and studios.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Copyright for Sound Recording in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Sound Recording Copyright',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

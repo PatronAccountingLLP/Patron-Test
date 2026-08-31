@@ -1110,18 +1110,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-joint-owners/pune',
-                    'options'  => [
-                        'net-worth-certificate-joint-owners/pune' => 'Joint Owner NWC in Pune',
-                        'income-tax-returns/pune' => 'Income Tax Returns in Pune',
-                        'tax-planning/pune' => 'Tax Planning in Pune',
-                        'itr-capital-gains/pune' => 'ITR Capital Gains in Pune',
-                        'nri-taxation' => 'NRI Taxation',
-                        'legal-drafting-service/pune' => 'Legal Drafting in Pune',
-                        'accounting-services' => 'Accounting Services',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Joint Owner NWC in Pune',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1514,7 +1505,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Net Worth Certificate for Joint Owners in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to the most common questions about joint owner net worth certificates.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Net Worth Certificate for Joint Owners in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Joint Owner NWC in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

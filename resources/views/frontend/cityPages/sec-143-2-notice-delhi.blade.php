@@ -1178,21 +1178,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 143(2) Notice Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-143-2-notice/delhi', 'label' => 'Section 143(2) Notice Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-142-1/delhi', 'label' => 'Section 142(1) Inquiry Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3/delhi', 'label' => 'Section 143(3) Assessment Order Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-148/delhi', 'label' => 'Section 148 Reassessment Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-demand-under-section-156/delhi', 'label' => 'Section 156 Demand Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/delhi', 'label' => 'ITR Filing Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'ITR Filing (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 143(2) Notice Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2203,7 +2193,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 143(2) Notice Delhi FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 143(2) scrutiny notices in Delhi, the 3-month time-bar proviso, e-Proceedings reply on incometax.gov.in, NaFAC faceless procedure and Assessment Unit query rounds, Section 144B(6) Show Cause Notice and video conferencing hearing rights and Delhi High Court 2024 jurisdictional ruling - answered by the Patron Delhi CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Section 143(2) Notice Delhi FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 143(2) Notice Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

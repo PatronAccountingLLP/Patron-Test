@@ -244,20 +244,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ESIC Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'esic-calculation-and-compliance-services', 'label' => 'ESIC Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-return', 'label' => 'ESIC Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-processing-and-management-services', 'label' => 'Payroll Processing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-return', 'label' => 'PF Returns', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Pvt Ltd Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ESIC Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -635,7 +625,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - ESIC Registration</h2>
                     <p class="faq-expanded__lead">Expert answers to common questions about ESIC registration, contributions, benefits, and compliance in India.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'ESIC Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ESIC Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

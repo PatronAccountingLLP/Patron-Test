@@ -1185,21 +1185,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Notice Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'it-notice-it-companies-pune', 'label' => 'Income Tax Notice for IT Companies (Pune)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice-pune', 'label' => 'Income Tax Notice (Pune)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3-pune', 'label' => 'Income Tax Notice Section 143(3) (Pune)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-148-pune', 'label' => 'Income Tax Notice Section 148 (Pune)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-142-1-pune', 'label' => 'Income Tax Notice Section 142(1) (Pune)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'it-sector-accounting-services-pune', 'label' => 'IT Sector Accounting Services (Pune)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esop-management-and-compliance-services-pune', 'label' => 'ESOP Management and Compliance (Pune)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-pune', 'label' => 'Private Limited Company Registration (Pune)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Notice Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2038,7 +2028,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Quick answers to the questions Pune IT and software companies ask most about income tax notices, transfer pricing, SEZ, ESOP, and Section 195 software TDS.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Notice Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -413,18 +413,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FCRA Annual Return Form FC-4',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fcra-fc-4-annual-return', 'label' => 'FCRA Annual Return (Form FC-4)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fcra-registration', 'label' => 'FCRA Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-renewal-5-year-cycle', 'label' => 'FCRA Renewal (5-Year Cycle)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-fc-6-prior-intimation-and-bank-account', 'label' => 'FCRA FC-6 Prior Intimation and Bank Account', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fcra-quarterly-receipt-declaration', 'label' => 'FCRA Quarterly Receipt Declaration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FCRA Annual Return Form FC-4',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1171,7 +1163,10 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from NGOs, charitable trusts, societies and Section 8 companies filing the FCRA annual return in Form FC-4.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FCRA Annual Return Form FC-4',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

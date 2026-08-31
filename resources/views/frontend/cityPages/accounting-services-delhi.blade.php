@@ -413,18 +413,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'accounting-services/delhi',
-                    'options'  => [
-                        'accounting-services/delhi' => 'Accounting Services in Delhi',
-                        'accounting-services' => 'Accounting Services (All)',
-                        'accounting-services-for-e-commerce-industry' => 'E-Commerce Accounting',
-                        'esop-accounting-ind-as-102' => 'ESOP Accounting (Ind AS 102)',
-                        'backlog-bookkeeping-catch-up-services' => 'Backlog Bookkeeping Catch-up',
-                        'financial-statement-preparation-services' => 'Financial Statement Preparation',
-                        'mis-reporting-services' => 'MIS Reporting',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Accounting Services in Delhi',
+                    'city'     => 'Delhi',
                 ])
             </div>
         </div>
@@ -929,10 +920,12 @@
                     <h2 class="faq-expanded__title">Accounting in Delhi FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on accounting for Delhi businesses - scope, local compliance, documents and pricing.</p>
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
-                    @include('partials.faq-enquiry-form', [
-                        'enquiryTitle'   => 'Ask about your books in Delhi',
-                        'enquirySub'     => 'Send your requirement for a scoped quote.',
-                        'enquiryService' => 'Accounting in Delhi',
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Accounting Services in Delhi',
+                        'city'     => 'Delhi',
+                        'title'    => 'Ask about your books in Delhi',
+                        'subtitle' => 'Send your requirement for a scoped quote.',
                     ])
                 </aside>
                 <div class="faq-expanded__list">

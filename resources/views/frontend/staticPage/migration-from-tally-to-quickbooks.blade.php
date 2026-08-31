@@ -1138,20 +1138,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Tally to QuickBooks Migration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'migration-from-tally-to-quickbooks', 'label' => 'Tally to QuickBooks Migration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'migration-from-tally-to-zoho', 'label' => 'Migration from Tally to Zoho', 'selected' => false, 'disabled' => false],
-                            ['value' => 'quickbooks-accounting', 'label' => 'QuickBooks Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting', 'label' => 'Tally Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting', 'label' => 'Zoho Books Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration-in-usa', 'label' => 'Company Registration in USA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Tally to QuickBooks Migration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1832,7 +1822,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions businesses ask about QuickBooks India status, migration scope and data, timeline, cost, and choosing between QuickBooks and Zoho.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Tally to QuickBooks Migration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

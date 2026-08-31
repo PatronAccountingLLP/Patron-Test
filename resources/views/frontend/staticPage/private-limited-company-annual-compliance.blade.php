@@ -1173,21 +1173,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Pvt Ltd Annual Compliance',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance Bundle (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'aoc-4-filing-services', 'label' => 'AOC-4 Filing (Standalone)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'mgt-7-filing-services', 'label' => 'MGT-7 Filing (Standalone)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-annual-compliance', 'label' => 'Small Co Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-compliance-startups-pre-revenue', 'label' => 'Pre-Revenue Startup', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'DIR-3 KYC', 'selected' => false, 'disabled' => false],
-                            ['value' => 'roc-notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Pvt Ltd Annual Compliance',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2280,7 +2269,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on the Pvt Ltd annual compliance cycle: the 6 mandatory MCA forms, AOC-4 vs MGT-7 distinction and sequencing rule, 30 September AGM deadline under Section 96, post-Companies (Amendment) Act 2020 penalty caps (Rs 2L company / Rs 50k officer), mandatory statutory audit under Section 139 (no revenue threshold), DIR-3 KYC triennial regime per G.S.R. 943(E), DPT-3 applicability, MSME Form I half-yearly cycle, and dormant company filing obligations.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Pvt Ltd Annual Compliance',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

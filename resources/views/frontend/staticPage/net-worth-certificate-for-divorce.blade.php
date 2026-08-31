@@ -545,10 +545,9 @@ main section,main [id]{scroll-margin-top:160px}
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-    'options' => ['net-worth-certificate' => 'Net Worth Certificate', 'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa', 'net-worth-certificate-for-bank-loan' => 'Net Worth Certificate for Bank Loan', 'net-worth-certificate-for-company' => 'Company Net Worth Certificate', 'net-worth-certificate-for-partnership-firms' => 'Partnership Firm Net Worth Certificate', 'net-worth-certificate-sole-proprietorship' => 'Proprietorship Net Worth Certificate', 'net-worth-certificate-for-rera-registration' => 'RERA Net Worth Certificate', 'net-worth-certificate-for-divorce' => 'Net Worth Statement for Court', 'net-owned-fund-certificate-for-nbfc' => 'Net Owned Fund Certificate (NBFC)', 'solvency-certificate' => 'Solvency Certificate', 'other' => 'Other'],
-    'selected' => 'net-worth-certificate-for-divorce',
-])
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Statement for Court',
+                ])
             </div>
         </div>
     </div>

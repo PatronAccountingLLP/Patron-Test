@@ -279,20 +279,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FSSAI Renewal',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fssai-renewal/mumbai', 'label' => 'FSSAI Renewal/Transition in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'fssai-central-license/mumbai', 'label' => 'FSSAI Central License in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-state-license/mumbai', 'label' => 'FSSAI State License in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-registration/mumbai', 'label' => 'FSSAI Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration/mumbai', 'label' => 'Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FSSAI Renewal',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -860,7 +851,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: FSSAI Renewal in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about FSSAI renewal abolition, perpetual validity, annual fee suspension, reactivation, compliance return, and category migration for Mumbai food businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'FSSAI Renewal in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FSSAI Renewal',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

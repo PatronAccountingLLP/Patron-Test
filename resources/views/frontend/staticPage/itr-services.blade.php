@@ -906,22 +906,10 @@
                     <p class="form-subtitle">Route to the right filing for your situation</p>
                 </div>
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - Legal Drafting',
-                        'cta'     => 'Find My ITR Service →',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Salaried ITR filing', 'label' => 'Salaried ITR filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Freelancer / professional ITR', 'label' => 'Freelancer / professional ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Business / proprietorship ITR', 'label' => 'Business / proprietorship ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Company / LLP ITR', 'label' => 'Company / LLP ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Capital gains in my return', 'label' => 'Capital gains in my return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'F&O / intraday trading ITR', 'label' => 'F&O / intraday trading ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NRI / foreign income ITR', 'label' => 'NRI / foreign income ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ESOP / crypto in my return', 'label' => 'ESOP / crypto in my return', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Industry-specific ITR', 'label' => 'Industry-specific ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'ITR Services',
+                        'cta'      => 'Find My ITR Service →',
                     ])
 
                 </div>
@@ -1317,7 +1305,10 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Quick questions, answered.</h2>
                 <p class="faq-expanded__lead">Eight high-level questions about ITR filing with Patron.</p>
-                @include('partials.faq-enquiry-form', ['enquiryService' => 'ITR Services'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'ITR Services',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

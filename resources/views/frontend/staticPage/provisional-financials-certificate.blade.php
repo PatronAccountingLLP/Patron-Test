@@ -1138,18 +1138,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Provisional Financials Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'provisional-financials-certificate', 'label' => 'Provisional Financials Certificate', 'selected' => true, 'disabled' => false],
-                            ['value' => 'financial-statement-preparation-services', 'label' => 'Financial Statement Preparation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-business-loan', 'label' => 'Net Worth Certificate for Business Loan', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'turnover-certificate-for-tender', 'label' => 'Turnover Certificate for Tender', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Provisional Financials Certificate',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1809,7 +1801,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions businesses ask about provisional financials, the difference from audited and projected, who can certify, when they are needed, the UDIN, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Provisional Financials Certificate',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

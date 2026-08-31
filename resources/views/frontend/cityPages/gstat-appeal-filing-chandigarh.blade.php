@@ -395,24 +395,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Chandigarh',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Chandigarh', 'label' => 'GSTAT Appeal Filing in Chandigarh', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Chandigarh', 'label' => 'FSSAI Registration in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Chandigarh', 'label' => 'GST Registration in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Chandigarh', 'label' => 'Income Tax Return in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Chandigarh', 'label' => 'LLP Incorporation in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Chandigarh', 'label' => 'PAN Registration in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Chandigarh', 'label' => 'Payroll Services in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Chandigarh', 'label' => 'Private Limited Company Registration in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Chandigarh', 'label' => 'Startup Registration in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Chandigarh', 'label' => 'Trademark Registration in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Chandigarh', 'label' => 'Udyam Registration in Chandigarh', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Chandigarh',
+                                            'city'     => 'Chandigarh',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -914,7 +901,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Chandigarh'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Chandigarh',
+                        'city'     => 'Chandigarh',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

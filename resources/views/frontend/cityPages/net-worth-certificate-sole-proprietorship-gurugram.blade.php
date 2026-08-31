@@ -1110,18 +1110,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-sole-proprietorship/gurugram',
-                    'options'  => [
-                        'net-worth-certificate-sole-proprietorship/gurugram' => 'Net Worth Certificate Sole Proprietorship in Gurugram',
-                        'net-worth-certificate/gurugram' => 'Net Worth Certificate in Gurugram',
-                        'net-worth-certificate-visa/gurugram' => 'Net Worth Certificate for Visa in Gurugram',
-                        'income-tax-return/gurugram' => 'Income Tax Return Filing in Gurugram',
-                        'gst-registration/gurugram' => 'GST Registration in Gurugram',
-                        'turnover-certificate/gurugram' => 'Turnover Certificate in Gurugram',
-                        'accounting-services/gurugram' => 'Accounting Services in Gurugram',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate Sole Proprietorship in Gurugram',
+                    'city'     => 'Gurugram',
                 ])
             </div>
         </div>
@@ -1876,7 +1867,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Sole Proprietor Net Worth Certificate Gurugram</h2>
                     <p class="faq-expanded__lead">Answers to common questions about net worth certificates for sole proprietors in Gurugram</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Sole Proprietor Net Worth Certificate Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate Sole Proprietorship in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

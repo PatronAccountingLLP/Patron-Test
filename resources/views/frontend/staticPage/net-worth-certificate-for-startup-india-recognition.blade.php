@@ -1133,16 +1133,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-startup-india-recognition',
-                    'options'  => [
-                        'net-worth-certificate-for-startup-india-recognition' => 'Net Worth Certificate for Startup India',
-                        'startup-registration' => 'Startup Registration (DPIIT / 80-IAC)',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'income-tax-return' => 'Income Tax Return Filing',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Startup India',
                 ])
             </div>
         </div>
@@ -1797,7 +1789,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions founders ask about the net worth certificate for recognition, what 80-IAC requires, the DPIIT and 80-IAC turnover limits, angel tax, DPIIT vs IMB, eligibility, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Startup India',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

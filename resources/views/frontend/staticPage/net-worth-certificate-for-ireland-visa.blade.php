@@ -1131,16 +1131,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-ireland-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-ireland-visa' => 'Net Worth Certificate for Ireland Visa',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'net-worth-certificate-for-uk-visa' => 'Net Worth Certificate for UK Visa',
-                        'net-worth-certificate-for-schengen-visa' => 'Net Worth Certificate for Schengen Visa',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Ireland Visa',
                 ])
             </div>
         </div>
@@ -1785,7 +1777,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions Ireland applicants ask about whether the certificate is required, Stamp 2, how much to show, fixed deposits, sponsors, currency, recency, and fees.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Ireland Visa',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

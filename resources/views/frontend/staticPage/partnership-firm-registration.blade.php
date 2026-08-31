@@ -265,20 +265,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Partnership Firm Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'partnership-firm-registration', 'label' => 'Partnership Firm Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'proprietorship-registration', 'label' => 'Proprietorship Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-partnership-to-llp', 'label' => 'Partnership to LLP Conversion', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-partnership-to-pvt-ltd-company', 'label' => 'Partnership to Pvt Ltd Conversion', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Partnership Firm Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -937,7 +927,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions on Partnership Firm Registration</h2>
                     <p class="faq-expanded__lead">Get answers to the most common questions about registering a partnership firm in India under the Indian Partnership Act, 1932.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'on Partnership Firm Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Partnership Firm Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

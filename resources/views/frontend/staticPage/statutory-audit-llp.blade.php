@@ -1129,21 +1129,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Statutory Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'statutory-audit-llp', 'label' => 'LLP Statutory Audit (Section 34(4))', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit-services', 'label' => 'Statutory Audit Services (National Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-private-limited-company', 'label' => 'Pvt Ltd Statutory Audit (Section 139)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation', 'label' => 'LLP Incorporation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'Pvt and LLP Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-strike-off-form-24', 'label' => 'LLP Strike-Off (Form 24)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'convert-partnership-to-llp', 'label' => 'Convert Partnership to LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Section 44AB Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Statutory Audit',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1971,7 +1960,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Quick answers to the questions Designated Partners and CA firms ask most about LLP statutory audit, Section 34(4) trigger, Form 8 and Form 11 filings, and Patron's fixed-fee pricing tiers.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Statutory Audit',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

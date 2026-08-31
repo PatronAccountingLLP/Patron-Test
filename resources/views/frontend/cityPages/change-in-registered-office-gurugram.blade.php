@@ -284,20 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Change in Registered Office in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'change-in-registered-office/gurugram', 'label' => 'Change Registered Office in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-registration/gurugram', 'label' => 'Company Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-authorised-capital/gurugram', 'label' => 'Change Authorised Capital in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-name-of-company/gurugram', 'label' => 'Change Company Name in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-compliance/gurugram', 'label' => 'Annual Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-object-clause/gurugram', 'label' => 'Change Object Clause in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Change in Registered Office in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -696,7 +687,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Change in Registered Office in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about registered office change scenarios, forms, and ROC restructuring impact for Gurugram companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Change in Registered Office in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Change in Registered Office in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

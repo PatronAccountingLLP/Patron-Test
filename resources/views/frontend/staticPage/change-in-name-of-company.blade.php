@@ -250,18 +250,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Company Name Change',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'change-in-name-of-company', 'label' => 'Company Name Change', 'selected' => true, 'disabled' => false],
-                            ['value' => 'change-in-registered-office', 'label' => 'Change in Registered Office', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-object-clause', 'label' => 'Change in Object Clause', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Company Name Change',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -750,7 +742,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Company Name Change</h2>
                     <p class="faq-expanded__lead">Get answers to common questions about changing your company name, RUN filing, INC-24, timelines, and post-approval updates.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Company Name Change'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Company Name Change',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

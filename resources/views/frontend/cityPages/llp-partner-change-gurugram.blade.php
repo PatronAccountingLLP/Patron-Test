@@ -285,20 +285,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Partner Change in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-partner-change/gurugram', 'label' => 'LLP Partner Change in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-agreement-change/gurugram', 'label' => 'LLP Agreement Change in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-registration/gurugram', 'label' => 'LLP Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-compliance/gurugram', 'label' => 'LLP Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-contribution-change/gurugram', 'label' => 'LLP Contribution Change in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc/gurugram', 'label' => 'Director KYC in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fdi-compliance/gurugram', 'label' => 'FDI Compliance in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Partner Change in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -697,7 +688,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - LLP Partner Change in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about LLP partner addition, removal, designated partner, DPIN, and NRI partner admission for Gurugram LLPs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'LLP Partner Change in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Partner Change in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

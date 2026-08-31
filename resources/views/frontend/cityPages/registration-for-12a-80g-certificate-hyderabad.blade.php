@@ -284,20 +284,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - 12A Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => '12a-registration/hyderabad', 'label' => '12A Registration in Hyderabad', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ngo-registration/hyderabad', 'label' => 'NGO Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section-8-company-registration/hyderabad', 'label' => 'Section 8 Company in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'society-registration/hyderabad', 'label' => 'Society Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/hyderabad', 'label' => 'Accounting Services in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/hyderabad', 'label' => 'Income Tax Return in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/hyderabad', 'label' => 'GST Registration in Hyderabad', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => '12A Registration',
+                                            'city'     => 'Hyderabad',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -789,7 +780,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - 12A Registration in Hyderabad</h2>
                     <p class="faq-expanded__lead">Common questions about 12A tax exemption, Form 10A/10AB, 85% rule, RNPO, and renewal for Hyderabad NGOs.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Hyderabad', 'enquiryService' => '12A Registration in Hyderabad'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => '12A Registration',
+                        'city'     => 'Hyderabad',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -289,20 +289,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Secretarial Audit in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'secretarial-audit/delhi', 'label' => 'Secretarial Audit in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit/delhi', 'label' => 'Statutory Audit in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'annual-return-filing/delhi', 'label' => 'Annual Return Filing in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'roc-compliance/delhi', 'label' => 'ROC Compliance in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/delhi', 'label' => 'Company Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance/delhi', 'label' => 'LLP Compliance in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/delhi', 'label' => 'Accounting Services in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Secretarial Audit in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -706,7 +697,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Secretarial Audit in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about Section 204, Form MR-3, and secretarial audit for Delhi companies</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'Secretarial Audit in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Secretarial Audit in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

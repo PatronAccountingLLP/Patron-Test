@@ -1071,23 +1071,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Statutory Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Statutory Audit Services', 'label' => 'Statutory Audit Services (India)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Statutory Audit Pune', 'label' => 'Statutory Audit - Pune (HQ)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit Mumbai', 'label' => 'Statutory Audit - Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit Delhi', 'label' => 'Statutory Audit - Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit Gurugram', 'label' => 'Statutory Audit - Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Auditor', 'label' => 'Appointment of Auditor (ADT-1)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd Compliance', 'label' => 'Private Limited Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Backlog Filings Cleanup', 'label' => 'Backlog Filings Cleanup (CCFS-2026)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Compliance Calendar', 'label' => 'Compliance Calendar', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Statutory Audit',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1878,7 +1865,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Statutory Audit</h2>
                     <p class="faq-expanded__lead">Common questions on statutory audit applicability, CARO 2020, Section 139 appointment, fees, and rotation rules.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Statutory Audit'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Statutory Audit',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

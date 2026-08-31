@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Accounts Payable Outsourcing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'accounts-payable-outsourcing-services/gurugram', 'label' => 'Accounts Payable Outsourcing in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/gurugram', 'label' => 'GST Return Filing in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/gurugram', 'label' => 'Tally Accounting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/gurugram', 'label' => 'Zoho Books Accounting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/gurugram', 'label' => 'Payroll Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Accounts Payable Outsourcing',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1282,7 +1274,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Accounts Payable Outsourcing in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions from Gurugram finance leaders and promoters about handing over accounts payable.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Accounts Payable Outsourcing in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Accounts Payable Outsourcing',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

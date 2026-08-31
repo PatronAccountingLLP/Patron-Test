@@ -1124,18 +1124,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-startup-india-recognition',
-                    'options'  => [
-                        'net-worth-certificate-for-startup-india-recognition' => 'Net Worth Certificate for Startup India Recognition',
-                        'startup-registration' => 'Startup Registration (DPIIT)',
-                        'statutory-audit' => 'Statutory Audit',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'esop-for-tech-startups' => 'ESOP for Tech Startups',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'net-worth-certificate-for-business-loan' => 'Net Worth Certificate for Business Loan',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Startup India Recognition',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1756,7 +1747,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about DPIIT recognition, the Section 80-IAC tax holiday, and CA-certified financials in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Startup India Recognition',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

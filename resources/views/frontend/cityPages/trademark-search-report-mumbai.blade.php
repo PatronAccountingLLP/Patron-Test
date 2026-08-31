@@ -297,19 +297,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Search Report',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-search-report/mumbai', 'label' => 'Trademark Search Report in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition/mumbai', 'label' => 'Trademark Opposition in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-hearing/mumbai', 'label' => 'Trademark Hearing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-formality-check-fail/mumbai', 'label' => 'Formality Check Fail in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'brand-copyright-registration', 'label' => 'Brand Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Search Report',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -870,7 +862,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Trademark Search Report in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about trademark search office, online search, fees, timeline, mandatory requirement, search types, Form TM-60, and what to do if conflicts are found.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Trademark Search Report in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Search Report',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -401,24 +401,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Shimla',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Shimla', 'label' => 'GSTAT Appeal Filing in Shimla', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Shimla', 'label' => 'FSSAI Registration in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Shimla', 'label' => 'GST Registration in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Shimla', 'label' => 'Income Tax Return in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Shimla', 'label' => 'LLP Incorporation in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Shimla', 'label' => 'PAN Registration in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Shimla', 'label' => 'Payroll Services in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Shimla', 'label' => 'Private Limited Company Registration in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Shimla', 'label' => 'Startup Registration in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Shimla', 'label' => 'Trademark Registration in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Shimla', 'label' => 'Udyam Registration in Shimla', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Shimla',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -970,7 +956,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Shimla',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

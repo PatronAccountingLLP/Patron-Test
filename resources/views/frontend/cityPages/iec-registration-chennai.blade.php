@@ -258,20 +258,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IEC Registration in Chennai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'import-export-code/chennai', 'label' => 'IEC Registration in Chennai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/chennai', 'label' => 'GST Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/chennai', 'label' => 'Private Limited Company Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/chennai', 'label' => 'Trademark Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/chennai', 'label' => 'LLP Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/chennai', 'label' => 'Startup Registration in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/chennai', 'label' => 'Income Tax Return in Chennai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IEC Registration in Chennai',
+                                            'city'     => 'Chennai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -952,7 +943,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: IEC Registration in Chennai</h2>
                     <p class="faq-expanded__lead">Answers to common questions about Import Export Code registration in Chennai, covering DGFT process, fees, documents, and export compliance.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Chennai', 'enquiryService' => 'IEC Registration in Chennai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IEC Registration in Chennai',
+                        'city'     => 'Chennai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

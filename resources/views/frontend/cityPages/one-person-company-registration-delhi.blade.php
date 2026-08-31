@@ -292,18 +292,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - OPC Registration in Delhi',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'one-person-company-registration/delhi', 'label' => 'OPC Registration in Delhi', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-in-india/delhi', 'label' => 'Pvt Ltd Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/delhi', 'label' => 'LLP Incorporation in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/delhi', 'label' => 'GST Registration in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'proprietorship-registration/delhi', 'label' => 'Proprietorship in Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'OPC Registration in Delhi',
+                                            'city'     => 'Delhi',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -702,7 +695,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - OPC Registration in Delhi</h2>
                     <p class="faq-expanded__lead">Common questions about One Person Company incorporation, fees, timeline, and compliance in Delhi.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Delhi', 'enquiryService' => 'OPC Registration in Delhi'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'OPC Registration in Delhi',
+                        'city'     => 'Delhi',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

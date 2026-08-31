@@ -288,20 +288,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Zoho Books Accounting in Bangalore',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'zoho-books-accounting/bangalore', 'label' => 'Zoho Books Accounting in Bangalore', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/bangalore', 'label' => 'GST Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/bangalore', 'label' => 'Pvt Ltd Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/bangalore', 'label' => 'Startup Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/bangalore', 'label' => 'Trademark Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/bangalore', 'label' => 'Payroll Services in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration/bangalore', 'label' => 'Udyam Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Zoho Books Accounting in Bangalore',
+                                            'city'     => 'Bangalore',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -765,7 +756,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Zoho Books Accounting in Bangalore</h2>
                     <p class="faq-expanded__lead">Common questions about Zoho Books setup, GST filing, Tally migration, and Karnataka PT</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bangalore', 'enquiryService' => 'Zoho Books Accounting in Bangalore'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Zoho Books Accounting in Bangalore',
+                        'city'     => 'Bangalore',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

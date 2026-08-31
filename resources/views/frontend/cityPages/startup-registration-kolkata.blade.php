@@ -289,20 +289,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Startup Registration in Kolkata',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'startup-registration/kolkata', 'label' => 'Startup Registration in Kolkata', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/kolkata', 'label' => 'Pvt Ltd Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/kolkata', 'label' => 'LLP Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/kolkata', 'label' => 'Trademark Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/kolkata', 'label' => 'GST Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration/kolkata', 'label' => 'Udyam Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pan-registration/kolkata', 'label' => 'PAN Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Startup Registration in Kolkata',
+                                            'city'     => 'Kolkata',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -992,7 +983,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Startup Registration in Kolkata</h2>
                     <p class="faq-expanded__lead">Common questions about DPIIT recognition and startup benefits for Kolkata founders</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Kolkata', 'enquiryService' => 'Startup Registration in Kolkata'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Startup Registration in Kolkata',
+                        'city'     => 'Kolkata',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

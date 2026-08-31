@@ -273,18 +273,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IEC Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'iec-registration/bengaluru', 'label' => 'IEC Registration in Bangalore', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/bengaluru', 'label' => 'GST Registration in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/bengaluru', 'label' => 'Pvt Ltd in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-incorporation/bengaluru', 'label' => 'LLP in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'udyam-registration/bengaluru', 'label' => 'Udyam in Bangalore', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IEC Registration',
+                                            'city'     => 'Bangalore',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -772,7 +765,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - IEC Registration in Bangalore</h2>
                     <p class="faq-expanded__lead">Common questions about Import Export Code, DGFT, ANF 2A, AD Code, annual update, and customs for Bangalore businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Bangalore', 'enquiryService' => 'IEC Registration in Bangalore'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IEC Registration',
+                        'city'     => 'Bangalore',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

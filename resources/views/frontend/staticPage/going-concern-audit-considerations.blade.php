@@ -1185,19 +1185,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Going Concern Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'going-concern-audit-considerations', 'label' => 'Going Concern Audit Considerations (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (general)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'qualified-vs-unqualified-audit-opinion', 'label' => 'Qualified vs Unqualified Opinion', 'selected' => false, 'disabled' => false],
-                            ['value' => 'audit-report-types-india', 'label' => 'Audit Report Types', 'selected' => false, 'disabled' => false],
-                            ['value' => 'caro-2020-reporting', 'label' => 'CARO 2020 Reporting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-financial-controls-audit', 'label' => 'IFC Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Going Concern Audit',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2208,7 +2199,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Going Concern Audit Considerations</h2>
                     <p class="faq-expanded__lead">Practitioner-level Q&A on SA 570 (Revised) Going Concern Standard, going concern basis of accounting, material uncertainty related to going concern (MURGC), four reporting outcomes under SA 570, common going concern indicators across financial / operating / other categories, CARO 2020 Clause 3(xix) reporting, distinction between MURGC paragraph and going concern qualification, and proactive distressed-company CFO engagement framework.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Going Concern Audit Considerations'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Going Concern Audit',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

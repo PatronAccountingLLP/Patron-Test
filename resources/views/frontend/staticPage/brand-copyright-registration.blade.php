@@ -255,21 +255,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Brand Copyright Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'brand-copyright-registration', 'label' => 'Brand Copyright Registration', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'logo-copyright-registration', 'label' => 'Logo Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration', 'label' => 'Copyright Registration (General)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'patent-registration', 'label' => 'Patent Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection', 'label' => 'Copyright Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition', 'label' => 'Trademark Opposition', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment', 'label' => 'Copyright Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Brand Copyright Registration',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -823,7 +812,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Brand Copyright Registration</h2>
                     <p class="faq-expanded__lead">Answers about copyright vs trademark, fees, timeline, eligibility, infringement remedies, and dual protection strategy.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Brand Copyright Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Brand Copyright Registration',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

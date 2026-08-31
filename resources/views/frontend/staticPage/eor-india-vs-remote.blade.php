@@ -246,21 +246,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Remote Alternative India',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'eor-india-vs-remote', 'label' => 'Remote Alternative India', 'selected' => true, 'disabled' => false],
-                            ['value' => 'eor-india-vs-multiplier', 'label' => 'Multiplier Alternative India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-vs-rippling', 'label' => 'Rippling Alternative India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-vs-g-p', 'label' => 'G-P Alternative India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-india-vs-india-entity-setup', 'label' => 'EOR vs Pvt Ltd Decision Framework', 'selected' => false, 'disabled' => false],
-                            ['value' => 'best-eor-providers-india-2026', 'label' => 'EOR Vendor Selection (9-Provider Roundup)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'eor-vs-contractor-india', 'label' => 'EOR vs Contractor (Conversion)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Remote Alternative India',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1036,7 +1025,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real questions from foreign employers comparing Remote.com EOR India with India-only specialists and CA-led alternatives. Drawn from Google PAA and Patron client mandates.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Remote Alternative India',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

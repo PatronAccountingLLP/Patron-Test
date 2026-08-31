@@ -250,19 +250,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Double Currency Networth Format',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'double-currency-networth-format', 'label' => 'Double Currency Networth Certificate', 'selected' => true, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-visa', 'label' => 'Net Worth Certificate for Visa', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate', 'label' => 'Net Worth Certificate (General)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-joint-owners-in-india', 'label' => 'Net Worth Certificate for Joint Owners', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-sole-proprietorship', 'label' => 'Net Worth Certificate for Sole Proprietorship', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Double Currency Networth Format',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -878,7 +869,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Double Currency Networth Format</h2>
                     <p class="faq-expanded__lead">Get answers to the most common questions about the double currency networth certificate format, FBIL exchange rates, and visa requirements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Double Currency Networth Format'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Double Currency Networth Format',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

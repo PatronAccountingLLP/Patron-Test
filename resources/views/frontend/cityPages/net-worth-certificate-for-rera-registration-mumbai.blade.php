@@ -1127,18 +1127,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-rera-registration',
-                    'options'  => [
-                        'net-worth-certificate-for-rera-registration' => 'Net Worth Certificate for RERA Registration',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'turnover-certificate' => 'Turnover Certificate',
-                        'turnover-certificate-for-tender' => 'Turnover Certificate for Tender',
-                        'private-limited-company-compliance' => 'Private Limited Company Compliance',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for RERA Registration',
+                    'city'     => 'Mumbai',
                 ])
             </div>
         </div>
@@ -1831,7 +1822,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on RERA registration, the 70 percent Separate Bank Account, Form 3 vs Form 5 and state RERA formats.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for RERA Registration',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1200,23 +1200,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Statutory Audit Pune',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Statutory Audit Pune', 'label' => 'Statutory Audit - Pune (Patron HQ)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Statutory Audit Services', 'label' => 'Statutory Audit Services (National)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd Statutory Audit', 'label' => 'Pvt Ltd Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Statutory Audit', 'label' => 'LLP Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Appointment of Auditor', 'label' => 'Appointment of Auditor (ADT-1)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd Compliance', 'label' => 'Pvt Ltd Company Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit Mumbai', 'label' => 'Statutory Audit - Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit Delhi', 'label' => 'Statutory Audit - Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit Gurugram', 'label' => 'Statutory Audit - Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Statutory Audit Pune',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1986,7 +1974,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Statutory Audit Pune</h2>
                     <p class="faq-expanded__lead">Common questions on appointing a statutory auditor in Pune, fees, ROC Pune jurisdiction, and engagement timelines.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Statutory Audit Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Statutory Audit Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

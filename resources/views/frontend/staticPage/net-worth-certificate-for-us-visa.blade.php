@@ -1227,19 +1227,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-us-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-us-visa' => 'Net Worth Certificate for US Visa',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa (General)',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-joint-owners-in-india' => 'Net Worth Certificate for Joint Owners',
-                        'net-worth-certificate-sole-proprietorship' => 'Net Worth Certificate for Sole Proprietorship',
-                        'net-worth-certificate-for-students' => 'Net Worth Certificate for Students',
-                        'itr-for-salaries' => 'ITR for Salaries',
-                        'turnover-certificate' => 'Turnover Certificate',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for US Visa',
                 ])
             </div>
         </div>
@@ -2065,7 +2054,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Seven questions US visa applicants ask Patron Accounting most often - answered with embassy-aligned, ICAI-compliant detail.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for US Visa',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -285,18 +285,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - LLP Agreement Change',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'llp-agreement-change', 'label' => 'LLP Agreement Change', 'selected' => true, 'disabled' => false],
-                            ['value' => 'llp-partner-change', 'label' => 'LLP Partner Change', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-contribution-change', 'label' => 'LLP Contribution Change', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-name-change', 'label' => 'LLP Name Change', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pvt-llp-compliance', 'label' => 'LLP Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'LLP Agreement Change',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -761,7 +753,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - LLP Agreement Change</h2>
                     <p class="faq-expanded__lead">Get answers about LLP agreement amendment procedure, Form 3 LLP, stamp duty, penalties, and notarization requirements.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'LLP Agreement Change'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'LLP Agreement Change',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

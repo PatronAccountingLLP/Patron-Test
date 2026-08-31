@@ -1226,19 +1226,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'Net Worth Certificate for Business Loan',
-                    'options'  => [
-                        'Net Worth Certificate for Business Loan' => 'Net Worth Certificate for Business Loan',
-                        'Net Worth Certificate' => 'Net Worth Certificate',
-                        'Net Worth Certificate for Home Loan' => 'Net Worth Certificate for Home Loan',
-                        'Net Worth Certificate for Visa' => 'Net Worth Certificate for Visa',
-                        'Net Worth Certificate Sole Proprietorship' => 'Net Worth Certificate Sole Proprietorship',
-                        'Net Worth Certificate for Partnership Firms' => 'Net Worth Certificate for Partnership Firms',
-                        'Net Worth Certificate for Companies' => 'Net Worth Certificate for Companies',
-                        'Net Worth Certificate for Students' => 'Net Worth Certificate for Students',
-                        'Other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Business Loan',
+                    'city'     => 'Mumbai',
                 ])
             </div>
         </div>
@@ -1892,7 +1882,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Net Worth Certificate for Business Loan in Mumbai</h2>
                     <p class="faq-expanded__lead">Common questions about Net Worth Certificate for Business Loan for Mumbai businesses, answered by our CA and CS team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Net Worth Certificate for Business Loan in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Business Loan',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1963,29 +1963,10 @@
             </div>
 
 
-            @include('partials.lead-form', [
-                'deal'    => 'Website Enquiry - Tools Page',
-                'cta'     => 'Get Free Quote →',
-                'options' => [
-                    ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                    ['value' => 'Private Limited Company Registration', 'label' => 'Private Limited Company Registration', 'selected' => false, 'disabled' => false],
-                    ['value' => 'LLP Registration', 'label' => 'LLP Registration', 'selected' => false, 'disabled' => false],
-                    ['value' => 'OPC Registration', 'label' => 'OPC Registration', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Partnership Firm Registration', 'label' => 'Partnership Firm Registration', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Sole Proprietorship Registration', 'label' => 'Sole Proprietorship Registration', 'selected' => false, 'disabled' => false],
-                    ['value' => 'GST Registration', 'label' => 'GST Registration', 'selected' => false, 'disabled' => false],
-                    ['value' => 'GST Return Filing', 'label' => 'GST Return Filing', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Income Tax Return Filing', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                    ['value' => 'TDS Return Filing', 'label' => 'TDS Return Filing', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Trademark Registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                    ['value' => 'FSSAI License', 'label' => 'FSSAI License', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Import Export Code (IEC)', 'label' => 'Import Export Code (IEC)', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Annual Compliance (ROC Filing)', 'label' => 'Annual Compliance (ROC Filing)', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Accounting &amp; Bookkeeping', 'label' => 'Accounting &amp; Bookkeeping', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Payroll Management', 'label' => 'Payroll Management', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Audit Services', 'label' => 'Audit Services', 'selected' => false, 'disabled' => false],
-                    ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                ],
+            @include('partials.bigin-form', [
+                'variant' => 'bare',
+                'service'  => 'Tools Page',
+                'cta'      => 'Get Free Quote →',
             ])
 
             <p class="form-response-note">Our team will get back to you shortly. No spam. By submitting, you agree to our <a href="/privacy-policy" style="color:var(--orange);font-weight:600;">Privacy Policy</a>.</p>

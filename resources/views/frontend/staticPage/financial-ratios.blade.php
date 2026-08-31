@@ -1058,21 +1058,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Financial Ratios',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Financial Ratios - Schedule III', 'label' => 'Financial Ratios - Schedule III Disclosure', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Monthly CFO Dashboard', 'label' => 'Monthly CFO Ratio Dashboard', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Lender Ratio Report', 'label' => 'Lender Ratio Report', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Industry Benchmarking', 'label' => 'Industry Ratio Benchmarking', 'selected' => false, 'disabled' => false],
-                            ['value' => 'CFO Analytics Retainer', 'label' => 'CFO Analytics Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Accounting Services', 'label' => 'Accounting Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Statutory Audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'CARO 2020', 'label' => 'CARO 2020', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Financial Ratios',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1724,7 +1713,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Financial Ratios</h2>
                     <p class="faq-expanded__lead">Common questions on the Schedule III mandate, the 25 percent change rule, LLP applicability, AS vs Ind AS, and lender ratios.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Financial Ratios'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Financial Ratios',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

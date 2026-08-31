@@ -1186,21 +1186,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IT Notice Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'it-notice-it-companies-mumbai', 'label' => 'Income Tax Notice for IT Companies (Mumbai)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice-mumbai', 'label' => 'Income Tax Notice (Mumbai)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3-mumbai', 'label' => 'Income Tax Notice Section 143(3) (Mumbai)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-148-mumbai', 'label' => 'Income Tax Notice Section 148 (Mumbai)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-142-1-mumbai', 'label' => 'Income Tax Notice Section 142(1) (Mumbai)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'it-sector-accounting-services-mumbai', 'label' => 'IT Sector Accounting Services (Mumbai)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esop-management-and-compliance-services-mumbai', 'label' => 'ESOP Management and Compliance (Mumbai)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration-mumbai', 'label' => 'Private Limited Company Registration (Mumbai)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IT Notice Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2041,7 +2031,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Quick answers to the questions Mumbai IT and software companies ask most about income tax notices, transfer pricing, SEZ, ESOP, and Section 195 software TDS.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IT Notice Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

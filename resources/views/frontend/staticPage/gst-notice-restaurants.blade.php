@@ -1160,19 +1160,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Notice Restaurants',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'gst-notice-restaurants', 'label' => 'GST Notice for Restaurants (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-notice', 'label' => 'GST Notice (National Parent)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-restaurants-food-businesses', 'label' => 'GST Returns for Restaurants', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns-for-e-commerce-operator', 'label' => 'GST Returns for ECO', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-audit', 'label' => 'GST Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services-for-hospitality', 'label' => 'Payroll for Hospitality', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Notice Restaurants',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2184,7 +2175,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Restaurant GST Notices</h2>
                     <p class="faq-expanded__lead">Practical Q&A on 5 vs 18 percent rate determination, Section 17(5)(b) blocked credit, Section 9(5) Zomato/Swiggy mechanics, composition scheme eligibility, and Rs 7,500 declared tariff threshold.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Restaurant GST Notices'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Notice Restaurants',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

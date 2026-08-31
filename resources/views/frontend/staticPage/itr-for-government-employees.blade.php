@@ -367,23 +367,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Govt Employee ITR',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'ITR-1 Government Employee Standard', 'label' => 'ITR-1 Government Employee Standard', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ITR-2 with Capital Gains', 'label' => 'ITR-2 with Capital Gains', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Defence Personnel ITR (Rule 2BB Allowances)', 'label' => 'Defence Personnel ITR (Rule 2BB Allowances)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Retirement-Year Filing (Full Exemption Stack)', 'label' => 'Retirement-Year Filing (Full Exemption Stack)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 89 plus Form 10E Arrears Relief', 'label' => 'Section 89 plus Form 10E Arrears Relief', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Family Pensioner ITR', 'label' => 'Family Pensioner ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'HNI Defence Officer Multi-Asset ITR', 'label' => 'HNI Defence Officer Multi-Asset ITR', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Disability Pension Full Exemption Filing', 'label' => 'Disability Pension Full Exemption Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Gallantry Award Pension (Section 10(18))', 'label' => 'Gallantry Award Pension (Section 10(18))', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 139(9) Defective Return Cure', 'label' => 'Section 139(9) Defective Return Cure', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Govt Employee ITR',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1167,7 +1154,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on government employee ITR filing for AY 2026-27 - Section 10(10AA) leave encashment full exemption, PSU vs government classification, disability pension, defence allowances under Rule 2BB, NPS Section 80CCD(2), ITR form selection, Section 89 Form 10E sequencing and old vs new regime decision.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Govt Employee ITR',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

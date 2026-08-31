@@ -4230,13 +4230,9 @@ section ul li:not(.nav-item)::before {
                         <p class="form-subtitle">Get expert advice within 30 minutes</p>
                      </div>
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - GSTAT Appeal Filing',
-                        'cta'     => 'Get started now &rarr;',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => '{{ $service_name }}', 'label' => '{{ $service_name }}', 'selected' => true, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'service'  => '{{ $service_name }}',
+                        'cta'      => 'Get started now &rarr;',
                     ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>    

@@ -743,18 +743,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Form 10B Audit Report for Section 12A Trusts in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'form-10b-audit-report-section-12a-trust', 'label' => 'Form 10B Audit Report (Section 12A Trust)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'form-10bb-audit-report-section-1023c-institution', 'label' => 'Form 10BB Audit Report (Section 10(23C))', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-registration', 'label' => '12A Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'section-11-12-13-income-application-accumulation', 'label' => 'Section 11/12/13 Income Application', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fund-utilisation-certificate', 'label' => 'Fund Utilisation Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Form 10B Audit Report for Section 12A Trusts in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1614,7 +1607,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from Section 12A/12AB trusts, NGOs and institutions on the Form 10B audit report, its applicability, due date and non-filing consequences.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Form 10B Audit Report for Section 12A Trusts in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

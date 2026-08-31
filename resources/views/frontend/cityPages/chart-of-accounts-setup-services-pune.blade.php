@@ -823,20 +823,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Chart of Accounts Setup',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'chart-of-accounts-setup-services/pune', 'label' => 'Chart of Accounts Setup in Pune', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-returns/pune', 'label' => 'GST Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/pune', 'label' => 'Income Tax Return Filing in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/pune', 'label' => 'Tally Accounting in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/pune', 'label' => 'Zoho Books Accounting in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services/pune', 'label' => 'Payroll Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/pune', 'label' => 'Accounting Services in Pune', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Chart of Accounts Setup',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1296,7 +1287,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Chart of Accounts Setup in Pune</h2>
                     <p class="faq-expanded__lead">Real questions from Pune founders and finance teams about setting up the chart of accounts.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Chart of Accounts Setup in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Chart of Accounts Setup',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

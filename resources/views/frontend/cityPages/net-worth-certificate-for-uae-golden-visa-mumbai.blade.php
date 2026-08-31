@@ -1127,18 +1127,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-uae-golden-visa',
-                    'options'  => [
-                        'net-worth-certificate-for-uae-golden-visa' => 'Net Worth Certificate for UAE Golden Visa',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-visa' => 'Net Worth Certificate for Visa',
-                        'double-currency-networth-format' => 'Double Currency Networth Format',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'net-worth-certificate-sole-proprietorship' => 'Net Worth Certificate for Sole Proprietorship',
-                        'net-worth-certificate-for-joint-owners-in-india' => 'Net Worth Certificate for Joint Owners',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for UAE Golden Visa',
+                    'city'     => 'Mumbai',
                 ])
             </div>
         </div>
@@ -1831,7 +1822,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on the AED 2 million threshold, source of funds, dual-currency format and overseas assets.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for UAE Golden Visa',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

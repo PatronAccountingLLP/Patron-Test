@@ -1113,24 +1113,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Internal Financial Controls Audit',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'internal-financial-controls-audit', 'label' => 'Internal Financial Controls Audit', 'selected' => true, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit (Parent)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'caro-2020-reporting', 'label' => 'CARO 2020 Reporting (Sister)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-for-financial-services', 'label' => 'Statutory Audit - Financial Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-for-manufacturing-companies', 'label' => 'Statutory Audit - Manufacturing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit-for-ecommerce-companies', 'label' => 'Statutory Audit - E-commerce', 'selected' => false, 'disabled' => false],
-                            ['value' => 'internal-audit', 'label' => 'Internal Audit (Section 138)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-auditor', 'label' => 'Appointment of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-of-auditor', 'label' => 'Change of Auditor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Internal Financial Controls Audit',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2256,7 +2242,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - IFC Audit</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions on Internal Financial Controls audit under Section 143(3)(i) of the Companies Act 2013 - statutory authority, COSO 2013 framework, Pvt Ltd exemption mechanics, Risk-Control-Matrix, Test of Design and Operating Effectiveness, CFS IFC mutatis mutandis, and Annexure B reporting.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'IFC Audit'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Internal Financial Controls Audit',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -808,19 +808,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Inventory Accounting and Costing',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'inventory-accounting-costing-services/gurugram', 'label' => 'Inventory Accounting and Costing in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/gurugram', 'label' => 'GST Return Filing in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tally-accounting/gurugram', 'label' => 'Tally Accounting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/gurugram', 'label' => 'Zoho Books Accounting in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit/gurugram', 'label' => 'Tax Audit in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Inventory Accounting and Costing',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1283,7 +1275,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions: Inventory Accounting in Gurugram</h2>
                     <p class="faq-expanded__lead">The questions Gurugram founders, traders, and finance teams really put to us about valuing, costing, and reconciling stock.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Inventory Accounting in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Inventory Accounting and Costing',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -269,19 +269,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Rectification',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-rectification/mumbai', 'label' => 'Trademark Rectification in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition/mumbai', 'label' => 'Trademark Opposition in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-infringement/mumbai', 'label' => 'Trademark Infringement in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-objection/mumbai', 'label' => 'Trademark Objection in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-hearing/mumbai', 'label' => 'Trademark Hearing in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Rectification',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -861,7 +853,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Trademark Rectification in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about trademark rectification, grounds, who can file, S.47 vs S.57 difference, where to file, and using rectification as an infringement defence.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Trademark Rectification in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Rectification',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

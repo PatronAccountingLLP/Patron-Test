@@ -1124,17 +1124,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-companies',
-                    'options'  => [
-                        'net-worth-certificate-for-companies' => 'Net Worth Certificate for Companies',
-                        'net-worth-certificate' => 'Net Worth Certificate',
-                        'net-worth-certificate-for-partnership-firms' => 'Net Worth Certificate for Partnership Firms',
-                        'turnover-certificate' => 'Turnover Certificate',
-                        'net-worth-certificate-for-tender-bidding' => 'Net Worth Certificate for Tender Bidding',
-                        'net-worth-certificate-for-business-loan' => 'Net Worth Certificate for Business Loan',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Net Worth Certificate for Companies',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1753,7 +1745,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions about company net worth certificates, Section 2(57), and UDIN in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Net Worth Certificate for Companies',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

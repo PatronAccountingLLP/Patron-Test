@@ -885,19 +885,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ISMP Certification and ISP Appointment in Mumbai',
-                        'city' => 'Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => false, 'disabled' => true],
-                            ['value' => 'ismp-certification-isp-appointment/mumbai', 'label' => 'ISMP Certification &amp; ISP Appointment in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'irda-imf-business-registration/mumbai', 'label' => 'IRDA IMF Business Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process/mumbai', 'label' => 'IMF IRDAI Registration Process in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services/mumbai', 'label' => 'IMF Compliance Retainer in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-for-insurance-agents/mumbai', 'label' => 'IMF for Insurance Agents in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ISMP Certification and ISP Appointment in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1489,7 +1481,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - ISMP Certification &amp; ISP Appointment in Mumbai</h2>
                     <p class="faq-expanded__lead">Find answers to common questions about ISMP/ISP certification and appointment for Insurance Marketing Firms in Mumbai.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'ISMP Certification and ISP Appointment in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ISMP Certification and ISP Appointment in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

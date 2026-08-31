@@ -1131,20 +1131,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Sponsorship Affidavit and Net Worth Certificate',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sponsorship-affidavit-and-net-worth-certificate', 'label' => 'Sponsorship Affidavit and Net Worth Certificate', 'selected' => true, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-visa', 'label' => 'Net Worth Certificate for Visa', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-students', 'label' => 'Net Worth Certificate for Students', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-us-visa', 'label' => 'Net Worth Certificate for US Visa', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate-for-schengen-visa', 'label' => 'Net Worth Certificate for Schengen Visa', 'selected' => false, 'disabled' => false],
-                            ['value' => 'net-worth-certificate', 'label' => 'Net Worth Certificate', 'selected' => false, 'disabled' => false],
-                            ['value' => 'statutory-audit', 'label' => 'Statutory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Sponsorship Affidavit and Net Worth Certificate',
+                                            'city'     => 'Pune',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1782,7 +1773,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions sponsors ask about affidavits of support, notarisation, and net worth certificates in Pune.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Sponsorship Affidavit and Net Worth Certificate',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-2">

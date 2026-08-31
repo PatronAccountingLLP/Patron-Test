@@ -1167,23 +1167,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 73 GST Notice Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'sec-73-gst-notice/mumbai', 'label' => 'Section 73 GST Notice Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-notice', 'label' => 'GST Notice (National Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-notice/mumbai', 'label' => 'GST Notice Mumbai (City Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-73-gst-notice/delhi', 'label' => 'Section 73 GST Notice Delhi', 'selected' => false, 'disabled' => false],
-                            ['value' => 'sec-73-gst-notice/gurugram', 'label' => 'Section 73 GST Notice Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration', 'label' => 'GST Registration (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns', 'label' => 'GST Returns (India)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'gst-returns/mumbai', 'label' => 'GST Returns Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 73 GST Notice Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2132,7 +2120,11 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Section 73 GST Notice Mumbai FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on Section 73 GST notices in Mumbai, the DRC-01 to DRC-07 lifecycle, the Section 73(5) and 73(8) NIL-penalty windows, Mumbai 7-Commissionerate CGST structure, GSTAT Western Bench Mumbai (co-located) and Bombay HC time-bar writ remedies - answered by the Patron Mumbai CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Section 73 GST Notice Mumbai FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 73 GST Notice Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

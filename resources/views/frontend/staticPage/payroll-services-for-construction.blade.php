@@ -1114,21 +1114,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Construction Payroll',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'payroll-services-for-construction', 'label' => 'Payroll Services for Construction Companies', 'selected' => true, 'disabled' => false],
-                            ['value' => 'payroll-services', 'label' => 'Payroll Services (Overview)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-processing-and-management-services', 'label' => 'Payroll Processing &amp; Management', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services-for-it-and-software-industry', 'label' => 'Payroll Services for IT/Software', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services-for-trading-industry', 'label' => 'Payroll Services for Trading', 'selected' => false, 'disabled' => false],
-                            ['value' => 'payroll-services-for-the-hospitality-industry', 'label' => 'Payroll Services for Hospitality', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration', 'label' => 'PF Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration', 'label' => 'ESIC Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Construction Payroll',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2083,7 +2072,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Construction Payroll FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on BoCW cess, ISMW Act, CLRA, Section 194C TDS, EPC milestone reconciliation and Code on Wages Section 17 SLAs - answered by the Patron CA team.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Construction Payroll FAQs'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Construction Payroll',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

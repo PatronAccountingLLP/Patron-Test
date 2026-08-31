@@ -290,20 +290,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Udyam Registration in Kolkata',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'udyam-registration/kolkata', 'label' => 'Udyam Registration in Kolkata', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/kolkata', 'label' => 'GST Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-registration/kolkata', 'label' => 'Pvt Ltd Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'startup-registration/kolkata', 'label' => 'Startup Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/kolkata', 'label' => 'Trademark Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'iec-registration/kolkata', 'label' => 'IEC Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pan-registration/kolkata', 'label' => 'PAN Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Udyam Registration in Kolkata',
+                                            'city'     => 'Kolkata',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -867,7 +858,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Udyam Registration in Kolkata</h2>
                     <p class="faq-expanded__lead">Common questions about Udyam MSME registration for Kolkata businesses</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Kolkata', 'enquiryService' => 'Udyam Registration in Kolkata'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Udyam Registration in Kolkata',
+                        'city'     => 'Kolkata',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

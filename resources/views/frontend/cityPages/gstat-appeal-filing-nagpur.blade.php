@@ -401,24 +401,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Nagpur',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Nagpur', 'label' => 'GSTAT Appeal Filing in Nagpur', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Nagpur', 'label' => 'FSSAI Registration in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Nagpur', 'label' => 'GST Registration in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Nagpur', 'label' => 'Income Tax Return in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Nagpur', 'label' => 'LLP Incorporation in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Nagpur', 'label' => 'PAN Registration in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Nagpur', 'label' => 'Payroll Services in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Nagpur', 'label' => 'Private Limited Company Registration in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Nagpur', 'label' => 'Startup Registration in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Nagpur', 'label' => 'Trademark Registration in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Nagpur', 'label' => 'Udyam Registration in Nagpur', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Nagpur',
+                                            'city'     => 'Nagpur',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -835,7 +822,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Nagpur'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Nagpur',
+                        'city'     => 'Nagpur',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

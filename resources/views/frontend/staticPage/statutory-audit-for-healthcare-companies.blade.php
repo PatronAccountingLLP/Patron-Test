@@ -1059,21 +1059,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Statutory Audit for Healthcare',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Statutory Audit - Healthcare', 'label' => 'Statutory Audit - Healthcare', 'selected' => true, 'disabled' => false],
-                            ['value' => 'Pharma SA 501 Inventory', 'label' => 'Pharma SA 501 Inventory Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Hospital TPA Receivables', 'label' => 'Hospital TPA Receivables Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Clinical Trial Revenue', 'label' => 'Clinical Trial Revenue / Grants', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 35(2AB) Form 3CLA', 'label' => 'Section 35(2AB) Form 3CLA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'DPCO / Drug Licence', 'label' => 'DPCO / Drug Licence Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Tax Audit', 'label' => 'Tax Audit (Section 44AB)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Cost Records (Sec 148)', 'label' => 'Cost Records (Sec 148)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Statutory Audit for Healthcare',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1625,7 +1614,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Statutory Audit for Healthcare Companies</h2>
                     <p class="faq-expanded__lead">Common questions on mandatory applicability, pharma inventory expiry, FEFO, TPA receivables ageing, clinical trial revenue, Section 35 R and D, DSIR Form 3CL, and grant accounting.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Statutory Audit for Healthcare Companies'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Statutory Audit for Healthcare',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

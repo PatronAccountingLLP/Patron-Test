@@ -381,20 +381,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Advance Ruling Appeal (NAAR)',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Advance Ruling Appeal (NAAR)', 'label' => 'GSTAT Advance Ruling Appeal (NAAR)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'GSTAT Appeal Filing', 'label' => 'GSTAT Appeal Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Principal Bench Representation', 'label' => 'GSTAT Principal Bench Representation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Pre-Deposit Advisory', 'label' => 'GSTAT Pre-Deposit Advisory', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Cross Objection Filing', 'label' => 'GSTAT Cross Objection Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT e-Filing Assistance', 'label' => 'GSTAT e-Filing Assistance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Anti-Profiteering Appeal', 'label' => 'GSTAT Anti-Profiteering Appeal', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Advance Ruling Appeal (NAAR)',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1191,7 +1181,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Advance Ruling Appeal (NAAR)',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

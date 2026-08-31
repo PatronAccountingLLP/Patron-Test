@@ -277,18 +277,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - FSSAI Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'fssai-registration/kolkata', 'label' => 'FSSAI Registration in Kolkata', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/kolkata', 'label' => 'GST Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration/kolkata', 'label' => 'Trademark Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'msme-registration/kolkata', 'label' => 'Udyam Registration in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'zoho-books-accounting/kolkata', 'label' => 'Zoho Books Accounting in Kolkata', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'FSSAI Registration',
+                                            'city'     => 'Kolkata',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -777,7 +770,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - FSSAI Registration in Kolkata</h2>
                     <p class="faq-expanded__lead">Common questions about FSSAI licence types, fees, timeline, sweet shops, cloud kitchens, penalties, and renewal for Kolkata food businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Kolkata', 'enquiryService' => 'FSSAI Registration in Kolkata'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'FSSAI Registration',
+                        'city'     => 'Kolkata',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

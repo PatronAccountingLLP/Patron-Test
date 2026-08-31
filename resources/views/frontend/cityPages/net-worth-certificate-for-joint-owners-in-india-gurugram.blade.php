@@ -1111,18 +1111,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-joint-owners/gurugram',
-                    'options'  => [
-                        'net-worth-certificate-joint-owners/gurugram' => 'Joint Owner Net Worth in Gurugram',
-                        'net-worth-certificate/gurugram' => 'Net Worth Certificate in Gurugram',
-                        'double-currency-networth/gurugram' => 'Double Currency Networth in Gurugram',
-                        'income-tax-return/gurugram' => 'Income Tax Return in Gurugram',
-                        'legal-drafting/gurugram' => 'Legal Drafting in Gurugram',
-                        'accounting-services/gurugram' => 'Accounting Services in Gurugram',
-                        'tax-planning-services/gurugram' => 'Tax Planning in Gurugram',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Joint Owner Net Worth in Gurugram',
+                    'city'     => 'Gurugram',
                 ])
             </div>
         </div>
@@ -1504,7 +1495,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Joint Owner Net Worth in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about joint owner net worth certificates, share allocation, co-ownership, and property valuation for Gurugram residents.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Joint Owner Net Worth in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Joint Owner Net Worth in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

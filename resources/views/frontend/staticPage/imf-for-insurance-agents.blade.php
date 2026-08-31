@@ -1111,21 +1111,10 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - IMF for Insurance Agents',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'imf-for-insurance-agents', 'label' => 'IMF for Insurance Agents', 'selected' => true, 'disabled' => false],
-                            ['value' => 'insurance-marketing-firm-registration', 'label' => 'Insurance Marketing Firm Registration (Hub)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-incorporation-services', 'label' => 'IMF Incorporation Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-irdai-registration-process', 'label' => 'IRDAI IMF Registration Process', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ismp-certification-isp-appointment', 'label' => 'ISMP Certification and ISP Appointment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-compliance-retainer-services', 'label' => 'IMF Compliance Retainer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-for-financial-advisors', 'label' => 'IMF for Financial Advisors', 'selected' => false, 'disabled' => false],
-                            ['value' => 'imf-private-limited-vs-llp', 'label' => 'IMF Pvt Ltd vs LLP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'IMF for Insurance Agents',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2328,7 +2317,10 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from LIC agents, private life insurance agents, general insurance agents, and health insurance agents evaluating graduation to IMF.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF for Insurance Agents',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

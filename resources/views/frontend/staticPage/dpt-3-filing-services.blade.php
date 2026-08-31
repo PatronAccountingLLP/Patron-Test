@@ -306,21 +306,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - DPT-3 Filing Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'dpt-3-filing-services', 'label' => 'DPT-3 Filing Services (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'small-company-annual-compliance', 'label' => 'Small Co Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'aoc-4-filing-services', 'label' => 'AOC-4 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'mgt-7-filing-services', 'label' => 'MGT-7 Filing Services', 'selected' => false, 'disabled' => false],
-                            ['value' => 'dir-3-kyc-filing-services', 'label' => 'DIR-3 KYC Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-annual-compliance', 'label' => 'LLP Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-compliance', 'label' => 'Pvt Ltd Compliance Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'DPT-3 Filing Services',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1428,7 +1417,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on DPT-3 applicability, the 30 June deadline, small-company 'no deposit' obligation, director loan reporting under Rule 2(1)(c)(viii), three-layer penalty structure, auditor certificate logic, LLP non-applicability, and one-time vs annual return distinction.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'DPT-3 Filing Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1102,18 +1102,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-for-partnership-firms/pune',
-                    'options'  => [
-                        'net-worth-certificate-for-partnership-firms/pune' => 'Partnership Firm NWC in Pune',
-                        'net-worth-certificate/pune' => 'Net Worth Certificate in Pune',
-                        'double-currency-networth-format/pune' => 'Double Currency Networth in Pune',
-                        'itr-for-business/pune' => 'ITR for Business in Pune',
-                        'partnership-to-private-limited/pune' => 'Partnership to Pvt Ltd in Pune',
-                        'gst-returns/pune' => 'GST Returns in Pune',
-                        'accounting-services' => 'Accounting Services',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Partnership Firm NWC in Pune',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1505,7 +1496,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Net Worth Certificate for Partnership Firms in Pune</h2>
                     <p class="faq-expanded__lead">Find answers to the most common questions about partnership firm net worth certificates.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Net Worth Certificate for Partnership Firms in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Partnership Firm NWC in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

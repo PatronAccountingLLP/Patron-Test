@@ -388,24 +388,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Surat',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Surat', 'label' => 'GSTAT Appeal Filing in Surat', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Surat', 'label' => 'FSSAI Registration in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Surat', 'label' => 'GST Registration in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Surat', 'label' => 'Income Tax Return in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Surat', 'label' => 'LLP Incorporation in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Surat', 'label' => 'PAN Registration in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Surat', 'label' => 'Payroll Services in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Surat', 'label' => 'Private Limited Company Registration in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Surat', 'label' => 'Startup Registration in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Surat', 'label' => 'Trademark Registration in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Surat', 'label' => 'Udyam Registration in Surat', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Surat',
+                                            'city'     => 'Surat',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -996,7 +983,11 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Surat'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Surat',
+                        'city'     => 'Surat',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

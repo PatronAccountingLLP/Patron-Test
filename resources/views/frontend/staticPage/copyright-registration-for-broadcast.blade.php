@@ -260,21 +260,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Broadcast Copyright',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'copyright-registration-for-broadcast', 'label' => 'Broadcast Copyright', 'selected' => true, 'disabled' => false],
-                            ['value' => 'copyright-registration', 'label' => 'Copyright Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-sound-recording', 'label' => 'Sound Recording Copyright', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-registration-for-cinematographic-film', 'label' => 'Cinematographic Film Copyright', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-objection', 'label' => 'Copyright Objection', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-assignment', 'label' => 'Copyright Assignment', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-registration', 'label' => 'Trademark Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'copyright-disclaimer', 'label' => 'Copyright Disclaimer', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Broadcast Copyright',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -791,7 +780,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Broadcast Copyright</h2>
                     <p class="faq-expanded__lead">Answers about broadcast reproduction rights, Section 37, 25-year protection, OTT eligibility, infringement penalties, and fair dealing exceptions.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Broadcast Copyright'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Broadcast Copyright',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -366,24 +366,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - ITR Filing for Salary',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'Simple Salaried ITR-1 (single Form 16)', 'label' => 'Simple Salaried ITR-1 (single Form 16)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'ITR-1 with HRA, 80C, Home Loan Interest', 'label' => 'ITR-1 with HRA, 80C, Home Loan Interest', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Multi-Form-16 Consolidation (job changers)', 'label' => 'Multi-Form-16 Consolidation (job changers)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR-2 with Capital Gains', 'label' => 'ITR-2 with Capital Gains', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR-2 with ESOP Perquisite plus Sale', 'label' => 'ITR-2 with ESOP Perquisite plus Sale', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR-2 with RSU Vesting', 'label' => 'ITR-2 with RSU Vesting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ITR-2 with Foreign Assets (Schedule FA)', 'label' => 'ITR-2 with Foreign Assets (Schedule FA)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NRI Salaried Returnee with DTAA', 'label' => 'NRI Salaried Returnee with DTAA', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Salary plus F and O Trading', 'label' => 'Salary plus F and O Trading', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Salary plus Crypto', 'label' => 'Salary plus Crypto', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Salary plus Property Sale', 'label' => 'Salary plus Property Sale', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'ITR Filing for Salary',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1173,7 +1159,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Long-tail answers on salaried ITR filing for AY 2026-27 - form selection between ITR-1 and ITR-2, multi-Form-16 consolidation for job changers, ESOP and RSU taxation, new regime zero-tax threshold under Section 87A, capital gains under Sections 111A and 112A, fees, regime selection between old and new, and late filing penalty under Section 234F.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'ITR Filing for Salary',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

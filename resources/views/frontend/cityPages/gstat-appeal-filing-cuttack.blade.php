@@ -390,24 +390,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Cuttack',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Cuttack', 'label' => 'GSTAT Appeal Filing in Cuttack', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Cuttack', 'label' => 'FSSAI Registration in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Cuttack', 'label' => 'GST Registration in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Cuttack', 'label' => 'Income Tax Return in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Cuttack', 'label' => 'LLP Incorporation in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Cuttack', 'label' => 'PAN Registration in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Cuttack', 'label' => 'Payroll Services in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Cuttack', 'label' => 'Private Limited Company Registration in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Cuttack', 'label' => 'Startup Registration in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Cuttack', 'label' => 'Trademark Registration in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Cuttack', 'label' => 'Udyam Registration in Cuttack', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Cuttack',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -819,7 +805,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Cuttack',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

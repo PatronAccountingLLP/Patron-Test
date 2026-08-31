@@ -1202,22 +1202,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GST Notice Restaurants Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GST Notice - Restaurant Mumbai', 'label' => 'GST Notice - Restaurant (Mumbai)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'DRC-06 Reply', 'label' => 'DRC-06 Reply Drafting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ASMT-11 Reply', 'label' => 'ASMT-11 Scrutiny Reply', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Specified Premises Opinion', 'label' => 'Specified Premises Opinion (5% vs 18%)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 65 Audit', 'label' => 'Section 65 Audit Representation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Section 107 Appeal', 'label' => 'Section 107 Appeal', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GSTAT Mumbai Bench', 'label' => 'GSTAT Mumbai Bench Appeal', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Notice Mumbai', 'label' => 'GST Notice Services Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Audit Mumbai', 'label' => 'GST Audit Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GST Notice Restaurants Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1779,7 +1768,11 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - GST Notice Restaurants Mumbai</h2>
                     <p class="faq-expanded__lead">Common questions on Mumbai restaurant GST notices, Section 9(5), 5% vs 18% rate, reply procedure, composition with ECO, and penalties.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'GST Notice Restaurants Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GST Notice Restaurants Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

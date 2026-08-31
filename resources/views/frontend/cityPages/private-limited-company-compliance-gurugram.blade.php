@@ -297,20 +297,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Pvt Ltd Company Compliance in Gurugram',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'annual-compliance/gurugram', 'label' => 'Annual Compliance in Gurugram', 'selected' => true, 'disabled' => false],
-                            ['value' => 'private-limited-registration/gurugram', 'label' => 'Company Registration in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'accounting-services/gurugram', 'label' => 'Accounting Services in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc/gurugram', 'label' => 'Director KYC in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-of-auditor/gurugram', 'label' => 'Change of Auditor in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-closure/gurugram', 'label' => 'Company Closure in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return/gurugram', 'label' => 'Income Tax Return in Gurugram', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Pvt Ltd Company Compliance in Gurugram',
+                                            'city'     => 'Gurugram',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -709,7 +700,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Pvt Ltd Company Compliance in Gurugram</h2>
                     <p class="faq-expanded__lead">Common questions about annual compliance, ROC filings, AGM, penalties, Small Company, and CCFS 2026 for Gurugram companies.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Gurugram', 'enquiryService' => 'Pvt Ltd Company Compliance in Gurugram'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Pvt Ltd Company Compliance in Gurugram',
+                        'city'     => 'Gurugram',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

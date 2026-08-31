@@ -2380,22 +2380,10 @@
                             <p class="form-subtitle">Route to the right entity for your situation</p>
                         </div>
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - Legal Drafting',
-                        'cta'     => 'Find My ITR Service →',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company', 'label' => 'Private Limited Company', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP / Partnership / Proprietorship', 'label' => 'LLP / Partnership / Proprietorship', 'selected' => false, 'disabled' => false],
-                            ['value' => 'OPC / Producer / Nidhi company', 'label' => 'OPC / Producer / Nidhi company', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Entity conversion', 'label' => 'Entity conversion', 'selected' => false, 'disabled' => false],
-                            ['value' => 'NGO / Trust / Society', 'label' => 'NGO / Trust / Society', 'selected' => false, 'disabled' => false],
-                            ['value' => 'International incorporation', 'label' => 'International incorporation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Foreign company in India', 'label' => 'Foreign company in India', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Post-incorporation registration', 'label' => 'Post-incorporation registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup / specialised registration', 'label' => 'Startup / specialised registration', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'Business Registration Services',
+                        'cta'      => 'Find My ITR Service →',
                     ])
             </div>
                     </div>
@@ -3357,7 +3345,10 @@
             <aside class="faq-expanded__aside">
                 <h2 class="faq-expanded__title">Quick questions, answered.</h2>
                 <p class="faq-expanded__lead">Seven high-level questions about business registration with Patron.</p>
-                @include('partials.faq-enquiry-form', ['enquiryService' => 'Business Registration Services'])
+                @include('partials.bigin-form', [
+                    'variant'  => 'compact',
+                    'service'  => 'Business Registration Services',
+                ])
             </aside>
             <div class="faq-expanded__list">
                 <div class="faq-expanded__item" id="faq-1">

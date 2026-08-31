@@ -279,19 +279,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Trademark Renewal',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'trademark-renewal/mumbai', 'label' => 'Trademark Renewal in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'trademark-registration/mumbai', 'label' => 'Trademark Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-opposition/mumbai', 'label' => 'Trademark Opposition in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-rectification/mumbai', 'label' => 'Trademark Rectification in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-infringement/mumbai', 'label' => 'Trademark Infringement in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'trademark-objection/mumbai', 'label' => 'Trademark Objection in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Trademark Renewal',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -869,7 +861,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Trademark Renewal in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about trademark renewal, validity period, fees, missed deadlines, restoration, and O-3 notice for Mumbai trademark proprietors.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Trademark Renewal in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Trademark Renewal',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

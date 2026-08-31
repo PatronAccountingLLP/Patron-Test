@@ -785,18 +785,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Form 10BD Statement of Donations in Mumbai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'form-10bd-donor-wise-donation-statement', 'label' => 'Form 10BD Statement of Donations', 'selected' => true, 'disabled' => false],
-                            ['value' => 'form-10be-donor-certificate-management', 'label' => 'Form 10BE Donor Certificate Management', 'selected' => false, 'disabled' => false],
-                            ['value' => '80g-registration', 'label' => '80G Registration', 'selected' => false, 'disabled' => false],
-                            ['value' => '12a-80g-renewal-5-year-cycle', 'label' => '12A and 80G Renewal (5-Year Cycle)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'ngo-and-non-profit-accounting-services', 'label' => 'NGO and Non-Profit Accounting', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Form 10BD Statement of Donations in Mumbai',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1453,7 +1446,11 @@ function toggleTestiVideo(area){
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Answers to the most common questions from NGOs, charitable trusts, and Section 35 institutions filing Form 10BD and issuing Form 10BE.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Form 10BD Statement of Donations in Mumbai',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -1109,18 +1109,9 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                @include('partials.enquiry-form', [
-                    'selected' => 'net-worth-certificate-sole-proprietorship/pune',
-                    'options'  => [
-                        'net-worth-certificate-sole-proprietorship/pune' => 'Sole Proprietorship NWC in Pune',
-                        'income-tax-returns/pune' => 'ITR Filing in Pune',
-                        'gst-registration/pune' => 'GST Registration in Pune',
-                        'gst-returns/pune' => 'GST Returns in Pune',
-                        'tax-planning/pune' => 'Tax Planning in Pune',
-                        'tax-audit-service/pune' => 'Tax Audit in Pune',
-                        'trademark-registration/pune' => 'Trademark Registration in Pune',
-                        'other' => 'Other',
-                    ],
+                @include('partials.bigin-form', [
+                    'service'  => 'Sole Proprietorship NWC in Pune',
+                    'city'     => 'Pune',
                 ])
             </div>
         </div>
@@ -1508,7 +1499,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs - Sole Proprietorship NWC in Pune</h2>
                     <p class="faq-expanded__lead">Answers to common questions about net worth certificate for sole proprietorship. Call +91 945 945 6700.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Pune', 'enquiryService' => 'Sole Proprietorship NWC in Pune'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Sole Proprietorship NWC in Pune',
+                        'city'     => 'Pune',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -276,20 +276,11 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Shop Act Registration',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'shop-act-registration/mumbai', 'label' => 'Shop Act / Gumasta in Mumbai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'gst-registration/mumbai', 'label' => 'GST Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-registration/mumbai', 'label' => 'Company Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'professional-tax/mumbai', 'label' => 'Professional Tax in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'fssai-state-license/mumbai', 'label' => 'FSSAI State License in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'esic-registration/mumbai', 'label' => 'ESIC Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'pf-registration/mumbai', 'label' => 'PF Registration in Mumbai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Shop Act Registration',
+                                            'city'     => 'Mumbai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -871,7 +862,11 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">FAQs: Shop Act Registration in Mumbai</h2>
                     <p class="faq-expanded__lead">Get answers about Gumasta license, who needs it, Form A vs Form F, validity, zero-employee requirement, and 24-hour operations for Mumbai businesses.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryLocation' => 'Mumbai', 'enquiryService' => 'Shop Act Registration in Mumbai'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Shop Act Registration',
+                        'city'     => 'Mumbai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

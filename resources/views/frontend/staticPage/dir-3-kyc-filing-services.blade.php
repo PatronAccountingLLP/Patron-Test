@@ -304,21 +304,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - DIR-3 KYC Filing Services',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'dir-3-kyc-filing-services', 'label' => 'DIR-3 KYC Filing (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'Director KYC Hub', 'selected' => false, 'disabled' => false],
-                            ['value' => 'appointment-of-director', 'label' => 'Appointment of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'resignation-of-director', 'label' => 'Resignation of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'removal-of-director', 'label' => 'Removal of Director', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-annual-compliance', 'label' => 'LLP Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'condonation-of-delay-roc-filings', 'label' => 'Backlog Cleanup', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'DIR-3 KYC Filing Services',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1409,7 +1398,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on the new triennial DIR-3 KYC regime (G.S.R. 943(E)), unified Form DIR-3 KYC Web, DIN deactivation cascade, Rs 5,000 reactivation fee, foreign-national documentation, DPIN equivalence, and the 30-day event-based update window.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'DIR-3 KYC Filing Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

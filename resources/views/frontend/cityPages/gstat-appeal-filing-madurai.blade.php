@@ -388,24 +388,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - GSTAT Appeal Filing in Madurai',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'GSTAT Appeal Filing in Madurai', 'label' => 'GSTAT Appeal Filing in Madurai', 'selected' => true, 'disabled' => false],
-                            ['value' => 'FSSAI Registration in Madurai', 'label' => 'FSSAI Registration in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'GST Registration in Madurai', 'label' => 'GST Registration in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Income Tax Return in Madurai', 'label' => 'Income Tax Return in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'LLP Incorporation in Madurai', 'label' => 'LLP Incorporation in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'PAN Registration in Madurai', 'label' => 'PAN Registration in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Payroll Services in Madurai', 'label' => 'Payroll Services in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Private Limited Company Registration in Madurai', 'label' => 'Private Limited Company Registration in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Startup Registration in Madurai', 'label' => 'Startup Registration in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Trademark Registration in Madurai', 'label' => 'Trademark Registration in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Udyam Registration in Madurai', 'label' => 'Udyam Registration in Madurai', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'GSTAT Appeal Filing in Madurai',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -835,7 +821,10 @@
             <div class="faq-expanded">
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'GSTAT Appeal Filing in Madurai',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

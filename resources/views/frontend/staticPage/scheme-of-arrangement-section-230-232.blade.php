@@ -1161,19 +1161,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Scheme of Arrangement',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'scheme-of-arrangement-section-230-232', 'label' => 'Scheme of Arrangement', 'selected' => true, 'disabled' => false],
-                            ['value' => 'change-in-name-of-company', 'label' => 'Change in Name of Company', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-authorised-capital', 'label' => 'Change Authorised Capital', 'selected' => false, 'disabled' => false],
-                            ['value' => 'change-in-object-clause', 'label' => 'Change in Object Clause', 'selected' => false, 'disabled' => false],
-                            ['value' => 'secretarial-audit', 'label' => 'Secretarial Audit', 'selected' => false, 'disabled' => false],
-                            ['value' => 'company-closure', 'label' => 'Company Closure', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Scheme of Arrangement',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -1904,7 +1895,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Common questions on what a scheme of arrangement is, the difference between a merger and a demerger, the 75 percent approval, the role of the NCLT, the two motions, the timeline, who must be notified and the fast-track route.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Scheme of Arrangement',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

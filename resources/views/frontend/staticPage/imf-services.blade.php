@@ -686,22 +686,10 @@
                     <p class="form-subtitle">Route to the right IMF service for your situation</p>
                 </div>
 
-                    @include('partials.lead-form', [
-                        'deal'    => 'Website Enquiry - IMF Services',
-                        'cta'     => 'Get Free IMF Quote &rarr;',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select your situation', 'selected' => false, 'disabled' => false],
-                            ['value' => 'New IMF setup (incorporation + IRDAI registration)', 'label' => 'New IMF setup (incorporation + IRDAI registration)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IRDAI registration for an existing entity', 'label' => 'IRDAI registration for an existing entity', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Principal Officer / ISP certification', 'label' => 'Principal Officer / ISP certification', 'selected' => false, 'disabled' => false],
-                            ['value' => 'IMF compliance retainer (returns, renewals)', 'label' => 'IMF compliance retainer (returns, renewals)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Pvt Ltd vs LLP decision', 'label' => 'Pvt Ltd vs LLP decision', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Rejected IMF application recovery', 'label' => 'Rejected IMF application recovery', 'selected' => false, 'disabled' => false],
-                            ['value' => 'I am an insurance agent / POSP', 'label' => 'I am an insurance agent / POSP', 'selected' => false, 'disabled' => false],
-                            ['value' => 'I am a financial / investment advisor', 'label' => 'I am a financial / investment advisor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'I am a mutual fund distributor', 'label' => 'I am a mutual fund distributor', 'selected' => false, 'disabled' => false],
-                            ['value' => 'Other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
+                    @include('partials.bigin-form', [
+                        'variant' => 'bare',
+                        'service'  => 'IMF Services',
+                        'cta'      => 'Get Free IMF Quote &rarr;',
                     ])
             </div>
         </div>
@@ -995,7 +983,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">IMF questions, answered.</h2>
                     <p class="faq-expanded__lead">The cost, timeline, documents, eligibility and city-availability questions buyers ask before starting an IMF.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'IMF Registration'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'IMF Services',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

@@ -282,19 +282,10 @@
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Section 147 Notice',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'income-tax-notices-under-section-147', 'label' => 'Section 147 Reassessment Defence', 'selected' => true, 'disabled' => false],
-                            ['value' => 'income-tax-notice', 'label' => 'Income Tax Notice Assistance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-148', 'label' => 'Section 148 Notice', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-notices-under-section-143-3', 'label' => 'Section 143(3) Scrutiny', 'selected' => false, 'disabled' => false],
-                            ['value' => 'income-tax-return', 'label' => 'Income Tax Return Filing', 'selected' => false, 'disabled' => false],
-                            ['value' => 'tax-audit', 'label' => 'Tax Audit Service', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Section 147 Notice',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -784,7 +775,10 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions - Section 147 Reassessment</h2>
                     <p class="faq-expanded__lead">Get answers about Section 147 income escaping assessment, the 148A procedure, time limits, penalties, and how to challenge reassessment notices.</p>
-                    @include('partials.faq-enquiry-form', ['enquiryService' => 'Section 147 Reassessment'])
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Section 147 Notice',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

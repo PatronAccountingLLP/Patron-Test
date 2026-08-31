@@ -156,15 +156,8 @@
       <div style="background:#fff;border:1px solid #E7E8EC;border-radius:18px;padding:24px;box-shadow:0 24px 50px -30px rgba(27,54,93,0.3)">
         <div style="font-size:17px;font-weight:800;color:#1B365D">Get a Free Quote</div>
         <div style="font-size:12.5px;color:#8A8F99;margin-bottom:14px">Talk to a CA / CS expert &mdash; no obligation.</div>
-        @include('partials.lead-form', [
-            'deal'    => 'Website Enquiry - Accounting &amp; Bookkeeping',
-            'options' => [
-                ['value' => 'accounting-services', 'label' => 'Accounting &amp; Bookkeeping', 'selected' => true, 'disabled' => false],
-                ['value' => 'backlog-bookkeeping-catch-up-services', 'label' => 'Backlog Bookkeeping Catch-up', 'selected' => false, 'disabled' => false],
-                ['value' => 'financial-statement-preparation-services', 'label' => 'Financial Statement Preparation', 'selected' => false, 'disabled' => false],
-                ['value' => 'mis-reporting-services', 'label' => 'MIS Reporting', 'selected' => false, 'disabled' => false],
-                ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-            ],
+        @include('partials.bigin-form', [
+            'service'  => 'Accounting &amp; Bookkeeping',
         ])
         <p style="font-size:11.5px;color:#8A8F99;text-align:center;margin:12px 0 0">100% secure &middot; No spam &middot; Quick response</p>
       </div>

@@ -1173,20 +1173,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                     </div>
 
 
-                                        @include('partials.lead-form', [
-                        'deal' => 'Website Enquiry - Restore Struck-Off Company',
-                        'options' => [
-                            ['value' => '', 'label' => 'Select a service', 'selected' => true, 'disabled' => true],
-                            ['value' => 'restore-struck-off-company-mca', 'label' => 'NCLT Restoration Section 252 (this page)', 'selected' => true, 'disabled' => false],
-                            ['value' => 'company-closure', 'label' => 'Voluntary Closure (STK-2)', 'selected' => false, 'disabled' => false],
-                            ['value' => 'llp-strike-off-form-24', 'label' => 'LLP Strike-Off Form 24', 'selected' => false, 'disabled' => false],
-                            ['value' => 'private-limited-company-annual-compliance', 'label' => 'Pvt Ltd Annual Compliance', 'selected' => false, 'disabled' => false],
-                            ['value' => 'backlog-filings-3-year-cleanup', 'label' => 'Backlog Cleanup CCFS-2026', 'selected' => false, 'disabled' => false],
-                            ['value' => 'director-kyc', 'label' => 'DIR-3 KYC + DIR-10', 'selected' => false, 'disabled' => false],
-                            ['value' => 'roc-notice', 'label' => 'ROC Notice Response', 'selected' => false, 'disabled' => false],
-                            ['value' => 'other', 'label' => 'Other', 'selected' => false, 'disabled' => false],
-                        ],
-                    ])
+                                        @include('partials.bigin-form', [
+                                            'variant' => 'bare',
+                                            'service'  => 'Restore Struck-Off Company',
+                                        ])
 
                     <p class="form-response-note">Our team will get back to you shortly. No spam.</p>
 
@@ -2287,7 +2277,10 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Frequently Asked Questions</h2>
                     <p class="faq-expanded__lead">Real buyer questions on NCLT restoration under Section 252: the 20-year Section 252(3) window vs 3-year Section 252(1) appeal, Form NCLT-9 procedure under Rule 87A of NCLT (Amendment) Rules 2017, required documents and evidence of business at strike-off date, Section 250 asset vesting and recovery, end-to-end timeline (4-12 months), Patron tiered pricing (Rs 75k Simple / Rs 1L Standard / Rs 1.5L Complex), Section 164(2) director disqualification handling, and DIR-10 DIN reactivation post-restoration.</p>
-                    @include('partials.faq-enquiry-form')
+                    @include('partials.bigin-form', [
+                        'variant'  => 'compact',
+                        'service'  => 'Restore Struck-Off Company',
+                    ])
                 </aside>
                 <div class="faq-expanded__list">
                     <div class="faq-expanded__item" id="faq-1">

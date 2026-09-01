@@ -12,7 +12,20 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        // $schedule->command('inspire')->hourly();
+        // Pull new Google reviews overnight. Incremental, so this is normally a
+        // single API call per location; withoutOverlapping stops a slow run
+        // being joined by the next one.
+        $schedule->command('testimonials:sync')
+            ->dailyAt('03:00')
+            ->withoutOverlapping()
+            ->runInBackground();
+
+        // Once a week, read every review rather than stopping at the first
+        // unchanged one. This is what notices a review that was deleted on
+        // Google, which an incremental walk cannot see.
+        $schedule->command('testimonials:sync --full')
+            ->weeklyOn(0, '03:30')
+            ->withoutOverlapping();
     }
 
     /**

@@ -19,11 +19,23 @@ class Testimonial extends Model
         'video',
         'status',
         'sort_order',
+        'google_review_id',
+        'source',
+        'location_id',
+        'city',
+        'service_tags',
+        'google_create_time',
+        'google_update_time',
+        'reply',
+        'profile_photo_url',
     ];
 
     protected $casts = [
         'rating' => 'integer',
         'sort_order' => 'integer',
+        'service_tags' => 'array',
+        'google_create_time' => 'datetime',
+        'google_update_time' => 'datetime',
     ];
 
     /**
@@ -40,6 +52,27 @@ class Testimonial extends Model
     public function scopeOrdered($query)
     {
         return $query->orderBy('sort_order', 'asc')->orderBy('created_at', 'desc');
+    }
+
+    /**
+     * Reviews left on a particular city's Google listing.
+     */
+    public function scopeForCity($query, ?string $city)
+    {
+        return $city ? $query->where('city', $city) : $query;
+    }
+
+    /**
+     * Reviews tagged for a service. Google does not tag reviews by service, so
+     * this reads the tags added in the admin, not anything Google supplied.
+     */
+    public function scopeForService($query, ?string $service)
+    {
+        if (!$service) {
+            return $query;
+        }
+
+        return $query->whereJsonContains('service_tags', $service);
     }
 
     /**

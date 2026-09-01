@@ -23,6 +23,9 @@
                      role    shown under the name
                      video   /storage/... mp4; makes it a video card
                      poster  /storage/... jpg, the video's still frame
+                     google  false if this is NOT a Google review - a filmed
+                             testimonial, say. Defaults true, and controls the
+                             Google badge on the card.
                      portrait  true for a vertically filmed clip (720x1280),
                                so the card letterboxes the whole frame instead
                                of cropping a band out of its middle
@@ -79,6 +82,9 @@
                 'video'  => trim((string) ($r['video'] ?? '')),
                 'poster' => trim((string) ($r['poster'] ?? '')),
                 'portrait' => (bool) ($r['portrait'] ?? false),
+                // Default true: the sitewide list is Google reviews. A filmed
+                // testimonial that is not also on Google must set this false.
+                'google' => (bool) ($r['google'] ?? true),
             ];
         })
         // A card with no name to attribute it to, or a quote card with nothing
@@ -166,6 +172,11 @@
                                         <div class="testi-role">{{ $paTestiItem['role'] }}</div>
                                     @endif
                                 </div>
+                                @if($paTestiItem['google'])
+                                    <div class="testi-google-badge" style="margin-left:auto;flex-shrink:0;" title="Review left on Google">
+                                        <img src="{{ asset('images/google.png') }}" alt="Google" width="22" height="22" loading="lazy" onerror="this.parentElement.textContent='G'">
+                                    </div>
+                                @endif
                             </div>
                         </div>
                     @else
@@ -191,6 +202,11 @@
                                             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                         @endfor
                                     </div>
+                                    @if($paTestiItem['google'])
+                                        <div class="testi-google-badge" title="Review left on Google">
+                                            <img src="{{ asset('images/google.png') }}" alt="Google" width="22" height="22" loading="lazy" onerror="this.parentElement.textContent='G'">
+                                        </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>

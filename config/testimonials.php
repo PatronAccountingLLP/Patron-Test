@@ -108,13 +108,25 @@ return [
          * the middle of it and cutting off the burned-in captions.
          */
         [
-            'name'     => 'Mayur',
+            // Full name confirmed by the client 2026-09-01.
+            'name'     => 'Mayur Shewale',
             'rating'   => 5,
             // Verbatim from the transcript in the pack's JSON-LD. Not paraphrased.
             'text'     => 'We shortlisted more than 10 CAs and accounting firms, and we selected Patron in that.',
-            'role'     => 'Founder - Bijasini Traders',
+            // The firm is spelled three ways across the sources: "Bijasani"
+            // (client, and what is used here), "Bijasini" (the supplied pack,
+            // and the VideoObject schema live on two production pages) and
+            // "Bizasani" (the video's own burned-in caption). Worth settling
+            // and making consistent - the live schema still says Bijasini.
+            'role'     => 'Founder - Bijasani Traders',
             'video'    => '/storage/testimonials/videos/mayur-bijasini-patron-testimonial-720x1280.mp4',
             'poster'   => '/storage/testimonials/posters/mayur-bijasini-720x1280.jpg',
+            // No Google badge: this is a filmed testimonial, not a Google
+            // review. The hand-off brief says entries go into
+            // real-testimonials.json "once Google reviews are received from
+            // both speakers" - which has not happened. Flip to true the day
+            // one lands, and the badge appears.
+            'google'   => false,
             'portrait' => true,
         ],
 
@@ -133,6 +145,12 @@ return [
             'role'     => 'Owner',
             'video'    => '/storage/testimonials/videos/ascendancy-owner-patron-testimonial-720x1280.mp4',
             'poster'   => '/storage/testimonials/posters/ascendancy-owner-720x1280.jpg',
+            // No Google badge: this is a filmed testimonial, not a Google
+            // review. The hand-off brief says entries go into
+            // real-testimonials.json "once Google reviews are received from
+            // both speakers" - which has not happened. Flip to true the day
+            // one lands, and the badge appears.
+            'google'   => false,
             'portrait' => true,
         ],
 

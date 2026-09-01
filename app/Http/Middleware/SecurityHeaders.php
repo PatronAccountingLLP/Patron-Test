@@ -39,6 +39,15 @@ class SecurityHeaders
         'https://bigin.zoho.in',
         'https://*.zoho.in',
         'https://*.zohostatic.in',
+        // Google Ads. These never appear in the HTML - the GTM container
+        // (GTM-M6G3R8G) loads them at runtime, so they are read out of the
+        // container itself rather than the page.
+        'https://www.googleadservices.com',
+        'https://adservice.google.com',
+        'https://pagead2.googlesyndication.com',
+        'https://*.googlesyndication.com',
+        'https://*.g.doubleclick.net',
+        'https://*.doubleclick.net',
     ];
 
     private const STYLE_SRC = [
@@ -63,6 +72,10 @@ class SecurityHeaders
         'https://bigin.zoho.in',
         'https://www.youtube.com',
         'https://www.youtube-nocookie.com',
+        // The conversion linker drops an iframe on these.
+        'https://td.doubleclick.net',
+        'https://*.doubleclick.net',
+        'https://www.googleadservices.com',
     ];
 
     private const CONNECT_SRC = [
@@ -71,6 +84,14 @@ class SecurityHeaders
         'https://*.analytics.google.com',
         'https://*.googletagmanager.com',
         'https://bigin.zoho.in',
+        // Conversion and remarketing beacons fired by the GTM container.
+        'https://www.googleadservices.com',
+        'https://adservice.google.com',
+        'https://pagead2.googlesyndication.com',
+        'https://*.googlesyndication.com',
+        'https://*.doubleclick.net',
+        'https://cct.google',
+        'https://*.google.com',
     ];
 
     /** The Bigin webform the enquiry forms post to. */

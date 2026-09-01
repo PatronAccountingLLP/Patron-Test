@@ -30,6 +30,7 @@ use Throwable;
 class SyncGoogleReviews extends Command
 {
     protected $signature = 'testimonials:sync
+                            {--list : List the accounts and locations with their ids, and stop}
                             {--full : Read every review instead of stopping at the first unchanged one}
                             {--location= : Sync only this Google location id}
                             {--dry-run : Report what would change without writing}';
@@ -82,16 +83,37 @@ class SyncGoogleReviews extends Command
 
         $rows = [];
 
+        // --location wins; otherwise the allowlist in config, which is normally
+        // just the Pune listing - that is where clients across India leave
+        // their reviews, and the other listings hold almost none. Empty
+        // allowlist means every location.
+        $only = array_filter(array_map(
+            'trim',
+            $this->option('location')
+                ? [$this->option('location')]
+                : (array) config('google-business.locations', [])
+        ));
+
         foreach ($accounts as $account) {
             $this->info('Account: ' . ($account['accountName'] ?: $account['name']));
 
             $locations = $gbp->locations($account['name']);
 
-            if ($this->option('location')) {
-                $locations = array_filter(
-                    $locations,
-                    fn ($l) => $l['id'] === $this->option('location')
-                );
+            if ($this->option('list')) {
+                foreach ($locations as $l) {
+                    $this->line(sprintf(
+                        '    %-14s %-34s %s',
+                        $l['id'],
+                        $l['title'],
+                        $l['city'] ?: '-'
+                    ));
+                }
+
+                continue;
+            }
+
+            if ($only) {
+                $locations = array_filter($locations, fn ($l) => in_array($l['id'], $only, true));
             }
 
             if (empty($locations)) {
@@ -102,6 +124,21 @@ class SyncGoogleReviews extends Command
             foreach ($locations as $location) {
                 $rows[] = $this->syncLocation($gbp, $account['name'], $location, $full, $dryRun);
             }
+        }
+
+        if ($this->option('list')) {
+            $this->line('');
+            $this->line('Put the id you want in GBP_LOCATION_IDS (comma-separated for more than one).');
+
+            return self::SUCCESS;
+        }
+
+        // A mistyped id would otherwise just sync nothing and look successful.
+        if ($only && empty($rows)) {
+            $this->error('None of the configured location ids exist on this account: ' . implode(', ', $only));
+            $this->line('Run  php artisan testimonials:sync --list  to see the real ids.');
+
+            return self::FAILURE;
         }
 
         $this->line('');

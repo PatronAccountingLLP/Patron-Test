@@ -54,6 +54,21 @@ return [
     ],
 
     /*
+     * Which listings to pull reviews from. Comma-separated location ids.
+     *
+     * Normally just Pune: clients from all over India leave their reviews on
+     * that listing, because it is the profile people find. The other city
+     * listings hold almost nothing, and syncing them adds API calls for no
+     * reviews.
+     *
+     * Leave GBP_LOCATION_IDS empty to sync every location on the account.
+     *
+     * To find the id, once API access is granted:
+     *     php artisan testimonials:sync --list
+     */
+    'locations' => array_filter(array_map('trim', explode(',', (string) env('GBP_LOCATION_IDS', '')))),
+
+    /*
      * Maximums the APIs enforce. Asking for more is an error, not a bigger page.
      */
     'page_size' => [

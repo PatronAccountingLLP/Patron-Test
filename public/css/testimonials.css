@@ -1,0 +1,267 @@
+/*
+ * Testimonials - Patron Accounting
+ * ---------------------------------------------------------------------------
+ * The single stylesheet for the testimonial block, extracted verbatim from the
+ * copy that used to be duplicated inside css/site.css, css/pages*.css and the
+ * inline <style> of ~1,900 pages. The design is unchanged: this file is a lift,
+ * not a redesign.
+ *
+ * Loaded by resources/views/partials/testimonials.blade.php. Do not link it by
+ * hand - the partial emits it @once so a page can never get two copies.
+ *
+ * Mirrored to public/css/testimonials.css: production serves the repo root,
+ * `artisan serve` serves public/. Edit one, copy to the other.
+ *
+ * Every var() carries a literal fallback. 132 pages load a stylesheet that
+ * defines no design tokens, and without fallbacks the cards rendered unstyled
+ * at full size - the "giant stars stacking down the page" bug.
+ */
+
+.testimonials-section {
+    padding: 24px 32px 0 32px;
+    background: var(--white, #FFFFFF);
+    overflow: hidden;
+}
+.testimonials-section .section-container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.testimonials-section .section-header {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.testimonials-section .section-header h2 {
+    font-size: clamp(26px, 3.5vw, 34px);
+    font-weight: 800;
+    color: var(--blue, #1B365D);
+    margin-bottom: 10px;
+}
+.testimonials-section .section-header p {
+    font-size: 15px;
+    color: var(--text-muted, #6B7280);
+}
+
+/* ── Slick overrides ─────────────────────────────────────────────────────── */
+.testimonial-slider .slick-slide { padding: 0 10px; }
+.testimonial-slider .slick-list { margin: 0 -10px; overflow: hidden; }
+.testimonial-slider .slick-dots { bottom: -40px; }
+.testimonial-slider .slick-dots li button:before { font-size: 10px; color: var(--gray-300, #D1D5DB); opacity: 1; }
+.testimonial-slider .slick-dots li.slick-active button:before { color: var(--orange, #E8712C); }
+.testimonial-slider { margin-bottom: 0 !important; padding-bottom: 0 !important; }
+.testimonial-slider .slick-track { display: flex !important; }
+.testimonial-slider.slick-initialized { margin-bottom: 0; }
+
+/* Before Slick initialises, the cards are plain block elements and would stack
+   full-width down the page. Lay them out as a row so the un-enhanced state
+   already looks like the enhanced one and there is no visible jump. */
+.testimonial-slider:not(.slick-initialized) {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.testimonial-slider:not(.slick-initialized) > * {
+    flex: 0 0 calc(25% - 15px);
+    min-width: 0;
+}
+
+/* ── Video card ──────────────────────────────────────────────────────────── */
+.testi-video-card {
+    background: var(--white, #FFFFFF);
+    border: 1px solid var(--gray-200, #E5E7EB);
+    border-radius: var(--radius-lg, 16px);
+    overflow: hidden;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.25s ease;
+}
+.testi-video-card:hover { border-color: var(--orange, #E8712C); box-shadow: var(--shadow-md, 0 4px 12px rgba(0,0,0,0.06)); }
+.testi-video-area {
+    position: relative;
+    height: 230px;
+    overflow: hidden;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.testi-video-area video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.testi-play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.25);
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+.testi-video-area.playing .testi-play-overlay { opacity: 0; }
+.testi-play-btn {
+    width: 56px;
+    height: 56px;
+    background: rgba(232,113,44,0.85);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.testi-play-btn svg { width: 22px; height: 22px; color: #fff; margin-left: 3px; }
+.testi-star-badge {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    display: flex;
+    gap: 2px;
+}
+.testi-star-badge svg { width: 16px; height: 16px; fill: #FFC107; color: #FFC107; }
+
+/* ── Quote card ──────────────────────────────────────────────────────────── */
+.testi-quote-card {
+    background: var(--white, #FFFFFF);
+    border: 1px solid var(--gray-200, #E5E7EB);
+    border-radius: var(--radius-lg, 16px);
+    padding: 24px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.25s ease;
+}
+.testi-quote-card:hover { border-color: var(--orange, #E8712C); box-shadow: var(--shadow-md, 0 4px 12px rgba(0,0,0,0.06)); }
+.testi-quote-icon { color: var(--orange, #E8712C); opacity: 0.25; margin-bottom: 8px; }
+.testi-quote-icon svg { width: 24px; height: 24px; }
+.testi-quote-text {
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--text-secondary, #4B5563);
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.testi-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 16px;
+    border-top: 1px solid var(--gray-100, #F3F4F6);
+}
+.testi-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.testi-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white, #FFFFFF);
+    flex-shrink: 0;
+    overflow: hidden;
+    background: var(--orange, #E8712C);
+}
+.testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.testi-avatar.blue { background: var(--blue, #1B365D); }
+.testi-avatar.teal { background: #0D9488; }
+.testi-avatar.purple { background: #7C3AED; }
+.testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary, #1F2937); line-height: 1.2; }
+.testi-role { font-size: 12px; color: var(--text-muted, #6B7280); }
+.testi-rating-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testi-stars { display: flex; gap: 1px; }
+.testi-stars svg { width: 12px; height: 12px; fill: var(--gold, #F59E0B); color: var(--gold, #F59E0B); }
+.testi-google-badge { width: 22px; height: 22px; }
+.testi-google-badge img { width: 100%; height: 100%; }
+
+@media (max-width: 1200px) {
+    .testimonial-slider:not(.slick-initialized) > * { flex: 0 0 calc(33.333% - 14px); }
+}
+@media (max-width: 900px) {
+    .testimonial-slider:not(.slick-initialized) > * { flex: 0 0 calc(50% - 10px); }
+}
+@media (max-width: 768px) {
+    .testimonials-section { padding: 16px 20px 0 20px; }
+}
+@media (max-width: 600px) {
+    .testimonial-slider:not(.slick-initialized) > * { flex: 0 0 100%; }
+}
+
+/* The cards animate their border and shadow on hover; honour the OS setting. */
+@media (prefers-reduced-motion: reduce) {
+    .testi-video-card,
+    .testi-quote-card,
+    .testi-play-overlay { transition: none; }
+}
+
+/* ── Reviews CTA band ────────────────────────────────────────────────────────
+   The dark band that closes the section on 1,558 pages ("Join 10,000+
+   Satisfied Businesses" + Talk to an Expert). It sits inside the testimonials
+   section, so its styles belong here rather than in site.css.
+   ------------------------------------------------------------------------- */
+.reviews-cta {
+    margin-top: 40px;
+    padding: 28px 32px;
+    background: var(--blue, #1B365D);
+    border-radius: var(--radius-lg, 16px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.reviews-cta-content { display: flex; align-items: center; gap: 16px; }
+.reviews-cta-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(255,255,255,0.1);
+    border-radius: var(--radius-md, 12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white, #FFFFFF); }
+.reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF; margin-bottom: 2px; margin-top: 0; }
+.reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
+
+.btn-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--blue, #1B365D);
+    background: var(--white, #FFFFFF);
+    border: none;
+    border-radius: var(--radius-md, 12px);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+.btn-cta:hover { background: var(--orange-light, #FEF4EE); color: var(--orange, #E8712C); }
+.btn-cta svg { width: 16px; height: 16px; }
+
+@media (max-width: 768px) {
+    .reviews-cta { flex-direction: column; text-align: center; }
+    .reviews-cta-content { flex-direction: column; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .btn-cta { transition: none; }
+}

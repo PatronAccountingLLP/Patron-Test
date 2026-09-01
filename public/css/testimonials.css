@@ -89,6 +89,19 @@
     object-fit: cover;
     display: block;
 }
+
+/* Vertically filmed clips. The 2026 packs are 720x1280 where the earlier two
+   are 640x480, and object-fit:cover on a 9:16 frame in a 340x230 window shows
+   a horizontal band across the middle of it - the speaker's face half out of
+   shot and the burned-in captions cropped away entirely. Letterbox instead:
+   the whole frame is visible and the card keeps its height, so the row of
+   cards stays aligned. */
+.testi-video-area.is-portrait {
+    background: #0F1115;
+}
+.testi-video-area.is-portrait video {
+    object-fit: contain;
+}
 .testi-play-overlay {
     position: absolute;
     inset: 0;

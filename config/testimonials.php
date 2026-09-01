@@ -101,6 +101,41 @@ return [
             'poster' => '/storage/testimonials/K0kApEkgICmMd1lTvTuCPehTlKsiCRso1ixvYPKg.jpg',
         ],
 
+        /*
+         * The two 2026 packs. Both are 720x1280, filmed vertically, where the
+         * first two are 640x480 landscape - hence 'portrait', which switches
+         * the card to letterbox the frame instead of cropping a band out of
+         * the middle of it and cutting off the burned-in captions.
+         */
+        [
+            'name'     => 'Mayur',
+            'rating'   => 5,
+            // Verbatim from the transcript in the pack's JSON-LD. Not paraphrased.
+            'text'     => 'We shortlisted more than 10 CAs and accounting firms, and we selected Patron in that.',
+            'role'     => 'Founder - Bijasini Traders',
+            'video'    => '/storage/testimonials/videos/mayur-bijasini-patron-testimonial-720x1280.mp4',
+            'poster'   => '/storage/testimonials/posters/mayur-bijasini-720x1280.jpg',
+            'portrait' => true,
+        ],
+
+        [
+            /*
+             * Attributed to the company, not a person, because nobody has
+             * established who is speaking - he never says his name in the
+             * video, and the supplied embed carries _NAME_PLACEHOLDER in four
+             * places. Naming a real person on a guess is the fault this whole
+             * component exists to stop. Replace 'name' with the owner's name
+             * once it is confirmed.
+             */
+            'name'     => 'Ascendancy International',
+            'rating'   => 5,
+            'text'     => '',
+            'role'     => 'Owner',
+            'video'    => '/storage/testimonials/videos/ascendancy-owner-patron-testimonial-720x1280.mp4',
+            'poster'   => '/storage/testimonials/posters/ascendancy-owner-720x1280.jpg',
+            'portrait' => true,
+        ],
+
         [
             'name'   => 'Subhendu Mishra',
             'rating' => 5,

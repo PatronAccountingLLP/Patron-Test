@@ -23,6 +23,9 @@
                      role    shown under the name
                      video   /storage/... mp4; makes it a video card
                      poster  /storage/... jpg, the video's still frame
+                     portrait  true for a vertically filmed clip (720x1280),
+                               so the card letterboxes the whole frame instead
+                               of cropping a band out of its middle
         heading    section h2. Defaults to config('testimonials.heading').
         lead       supporting line under the h2.
         limit      show only the first N reviews.
@@ -75,6 +78,7 @@
                 'rating' => max(0, min(5, (int) ($r['rating'] ?? 5))),
                 'video'  => trim((string) ($r['video'] ?? '')),
                 'poster' => trim((string) ($r['poster'] ?? '')),
+                'portrait' => (bool) ($r['portrait'] ?? false),
             ];
         })
         // A card with no name to attribute it to, or a quote card with nothing
@@ -132,7 +136,7 @@
                     @if($paTestiItem['video'] !== '')
                         {{-- Video card --}}
                         <div class="testi-video-card">
-                            <div class="testi-video-area">
+                            <div class="testi-video-area{{ $paTestiItem['portrait'] ? ' is-portrait' : '' }}">
                                 <video preload="metadata" playsinline
                                        @if($paTestiItem['poster'] !== '') poster="{{ $paTestiItem['poster'] }}" @endif>
                                     <source src="{{ $paTestiItem['video'] }}" type="video/mp4">

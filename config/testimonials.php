@@ -25,6 +25,44 @@
 return [
 
     /*
+     * How a page picks its reviews, once these come from the database.
+     * ------------------------------------------------------------------
+     * Nearly all of Patron's Google reviews sit on the Pune listing. The other
+     * city listings have very few. Two things follow, and both are easy to get
+     * wrong:
+     *
+     * 1. City is NOT a display filter. Filtering by city would leave the
+     *    Delhi, Mumbai, Gurugram and Ahmedabad pages with nothing to show.
+     *    The `city` column records where a review was left - provenance, for
+     *    auditing - not who may see it.
+     *
+     * 2. A review must never be captioned as coming from a city it did not.
+     *    Fifteen pages carry headings like "Delhi Clients Who Have Needed This
+     *    Certificate". Showing a Pune reviewer under that heading asserts
+     *    something untrue about a named, real person. Those headings have to
+     *    change, or those pages must show only reviews genuinely from that
+     *    city - not the other way round.
+     *
+     * Service is the axis that actually works, because it is tagged by hand
+     * and does not depend on which listing the review landed on.
+     */
+    'selection' => [
+
+        // Try in this order until enough reviews are found. 'general' is the
+        // whole published pool and always succeeds, so a page is never empty.
+        'order' => ['service', 'cluster', 'general'],
+
+        // Below this, fall through to the next step rather than render a
+        // half-empty row.
+        'minimum' => 4,
+
+        'limit' => 10,
+
+        // Off, for the reason above. Turning it on empties most city pages.
+        'filter_by_city' => false,
+    ],
+
+    /*
      * Section heading and lead, used when a page passes none of its own.
      */
     'heading' => 'Real Stories from Real People',

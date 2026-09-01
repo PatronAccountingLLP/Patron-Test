@@ -302,12 +302,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CA-led NGO accounting with 12A/80G, FCRA FC-4, Charity Commissioner IX-C, fund tracking, and CSR compliance for Mumbai non-profits.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

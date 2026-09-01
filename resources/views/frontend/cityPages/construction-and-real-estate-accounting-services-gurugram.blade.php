@@ -254,12 +254,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get RERA-compliant project accounting with escrow audits, Ind AS 115, and HRERA quarterly filings for your Gurugram projects.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

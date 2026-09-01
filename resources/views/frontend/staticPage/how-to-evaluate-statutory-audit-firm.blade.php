@@ -866,12 +866,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From Audit Committee Chairs to Pvt Ltd CFOs - clients share how Patron\'s structured evaluation framework helped them select better-fit audit firms with predictable fees and NFRA-grade audit trails.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

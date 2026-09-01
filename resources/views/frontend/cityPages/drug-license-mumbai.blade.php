@@ -323,12 +323,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Patron Accounting has helped 10,000+ businesses with registration, compliance, and filing. Mumbai pharmacies trust us for end-to-end drug licence support.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

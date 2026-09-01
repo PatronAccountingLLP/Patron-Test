@@ -306,12 +306,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From startups in Powai to ad agencies in Lower Parel to fashion designers in Bandra - Mumbai creators trust Patron for brand copyright.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

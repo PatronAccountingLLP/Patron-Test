@@ -311,12 +311,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your object clause amended by a CA &amp; CS team adjacent to ROC Mumbai Everest House &ndash; professional drafting with NIC code and GST alignment.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

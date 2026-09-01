@@ -307,12 +307,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From BKC corporate M&A to Powai startup acquisitions to Andheri pharma transfers to Goregaon entertainment IP - Mumbai\'s brand owners trust Patron for trademark assignment.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

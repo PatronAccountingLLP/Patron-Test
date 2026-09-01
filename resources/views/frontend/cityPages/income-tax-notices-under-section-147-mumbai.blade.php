@@ -315,12 +315,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get reassessment defence from a CA team that has prevented reassessments at the 148A stage and coordinates with Bombay HC for writ petitions.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

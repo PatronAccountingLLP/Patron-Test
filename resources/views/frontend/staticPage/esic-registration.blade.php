@@ -270,12 +270,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Expert ESIC registration - employer code generation, employee enrolment, contribution management under the ESI Act, 1948.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

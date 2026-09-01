@@ -320,12 +320,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From RCMC verification and order intimation through to Rule 89(4B) Statement 4 computation, shipping bill amendment coordination, and Rule 96(10) legacy SCN representation - Patron handles the full two-route merchant exporter refund pipeline with CA-led documentary discipline and PFMS disbursal tracking.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

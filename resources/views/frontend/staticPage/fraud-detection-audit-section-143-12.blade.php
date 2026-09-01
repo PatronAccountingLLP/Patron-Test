@@ -814,12 +814,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Listed-entity CFOs, Audit Committee Chairs, and family-business groups trust Patron\'s substantive SA 240 working files, NFRA-standard ADT-4 drafting, and bundled forensic capability - all under strict professional confidentiality.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

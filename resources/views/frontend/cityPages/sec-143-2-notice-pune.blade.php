@@ -923,12 +923,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Pune CA team specialising in Section 143(2) scrutiny selection defence across Hinjewadi / Kharadi IT (ESOP / RSU Section 17(2)(vi)), Pune real-estate (Section 50C, Section 54 / 54F / 54EC), PCMC and Hadapsar SMEs (Section 40A(3), Section 43B), Pune professionals (Section 44ADA), Talegaon-Chakan auto-and-pharma manufacturers (Section 32, Section 35) and Wakad-Aundh / Koregaon Park HNIs - same-day intake at Patron Pune office, 48-hour Section 144B faceless-workflow preparation file, Section 142(1) questionnaire response cycles via NaFAC, VC hearings through e-filing portal, Section 143(3) final-order analysis with CIT(A) Faceless Appeal and onward ITAT Pune Bench at Akurdi (physical) plus Bombay HC at Mumbai Principal Seat (150 km inter-city).',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -74,6 +74,21 @@ return [
     'lead'    => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
 
     /*
+     * The dark band that closes the section. The layout renders the section
+     * now, so pages no longer pass their own wording and this is what every
+     * page shows.
+     *
+     * It replaces 1,109 distinct per-page lines - "Join hundreds of NGOs that
+     * trust Patron Accounting for 12A compliance" and the like. They are in
+     * git history if any are worth bringing back; a page can still override
+     * by passing ctaTitle and ctaText to the partial directly.
+     *
+     * Set cta_title to an empty string to drop the band everywhere.
+     */
+    'cta_title' => 'Join 10,000+ Satisfied Businesses',
+    'cta_text'  => 'Rated 4.9 on Google across 500+ reviews.',
+
+    /*
      * PLACEHOLDER - awaiting the reviews you are supplying.
      *
      * These ten are the verified Google reviews currently held in

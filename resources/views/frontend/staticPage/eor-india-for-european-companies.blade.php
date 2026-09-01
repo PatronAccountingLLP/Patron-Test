@@ -286,12 +286,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by 35+ European-headquartered companies across DACH (Germany, Austria), Benelux (Netherlands), France, Nordics (Sweden, Denmark, Finland), and Southern Europe (Italy, Spain) for country-specific PE-firewall, dual GDPR Article 46 + DPDP Act 2023 compliance, EU-India FTA tracking, and EUR-denominated EOR India engagements.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

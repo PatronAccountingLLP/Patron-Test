@@ -99,8 +99,10 @@
     // Matches the rotation the pages use today: orange, blue, teal, purple.
     $paTestiAvatarColours = ['', 'blue', 'teal', 'purple'];
 
-    $paTestiCtaTitle = trim((string) ($ctaTitle ?? ''));
-    $paTestiCtaText  = trim((string) ($ctaText  ?? ''));
+    // Falls back to config so the layout can render the section without
+    // every page having to pass the band's wording.
+    $paTestiCtaTitle = trim((string) ($ctaTitle ?? config('testimonials.cta_title', '')));
+    $paTestiCtaText  = trim((string) ($ctaText  ?? config('testimonials.cta_text', '')));
     $paTestiCtaLabel = $ctaLabel ?? 'Talk to an Expert';
     $paTestiCtaHref  = $ctaHref  ?? 'tel:+919459456700';
 

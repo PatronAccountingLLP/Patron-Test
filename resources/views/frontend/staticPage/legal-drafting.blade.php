@@ -238,12 +238,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your contract drafted - not from a template. Starting at INR 2,499. Free 30-minute scoping call included.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

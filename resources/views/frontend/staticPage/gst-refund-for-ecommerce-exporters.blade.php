@@ -330,12 +330,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From AD code registration through to ICEGATE SB error remediation via Table 9A amendment - Patron handles the full dual-mode e-commerce export refund pipeline with CA-led marketplace settlement reconciliation and PFMS disbursal tracking.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

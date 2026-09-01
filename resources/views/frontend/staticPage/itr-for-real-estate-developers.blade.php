@@ -269,12 +269,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by 200+ real estate developers, builders, brokers, and JDA participants across Pune, Mumbai, Delhi, and Gurugram, plus enterprise clients including Hyundai, Asian Paints, and Bridgestone.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

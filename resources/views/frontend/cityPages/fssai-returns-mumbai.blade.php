@@ -318,12 +318,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From Andheri MIDC food manufacturers to JNPT seafood exporters to Aarey dairy processors to Powai cloud kitchens - Mumbai\'s food businesses trust Patron.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

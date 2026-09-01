@@ -347,12 +347,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From DTA suppliers to IT/ITES, biotech, manufacturing, and service-sector SEZ units, we handle monthly RFD-01 cycles, DSPF endorsement, and refund rejection appeals across India.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

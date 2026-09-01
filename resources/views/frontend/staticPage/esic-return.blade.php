@@ -288,12 +288,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Never miss an ESIC deadline. Monthly contribution filing + half-yearly Form 5 returns with challan management and inspection readiness.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

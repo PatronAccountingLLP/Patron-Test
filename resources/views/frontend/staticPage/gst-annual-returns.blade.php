@@ -310,12 +310,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get expert assistance for your GST annual return filing - accurate reconciliation, ITC verification, and timely submission.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

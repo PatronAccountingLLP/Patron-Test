@@ -323,12 +323,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From BKC MNCs filing 24Q+26Q+27Q to Powai IT with complex CTCs to Fort firms implementing S.194T to MIDC manufacturers with TCS - Mumbai\'s businesses trust Patron for TDS.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

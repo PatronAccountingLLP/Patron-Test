@@ -309,12 +309,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your capital gains ITR filed by a CA team that handles property, shares, MF, and ESOP taxation.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

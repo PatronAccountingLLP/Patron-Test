@@ -272,12 +272,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by Series B-D AI-first founders, CTOs, and VPs of Research across the US, UK, EU, Singapore, and Australia for India-side foundation model IP, ESOP, and DPDP-aware engagements.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

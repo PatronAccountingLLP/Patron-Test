@@ -325,12 +325,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Honest comparison, partner-CA review on every filing, and a free 15-minute diagnostic call to tell you which tier fits your case - including walking away if we are not the right fit.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

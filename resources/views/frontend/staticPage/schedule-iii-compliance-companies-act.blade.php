@@ -869,12 +869,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron CA and CS team specialising in Schedule III compliance - standalone Schedule III review 6 to 8 weeks before audit fieldwork, full financial statement preparation across Division I, II and III, Phase II Ind AS transition, ARI disclosure bundle with CARO 2020 reconciliation and partner sign-off with SA 220 quality documentation.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

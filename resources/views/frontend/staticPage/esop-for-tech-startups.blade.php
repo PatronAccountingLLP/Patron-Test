@@ -413,12 +413,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Indian tech founders across SaaS, fintech, AI/ML, marketplaces, deeptech, DevTools and B2B verticals. Seed to Series C. India-headquartered and Indian subsidiary of foreign parent structures. Pool sizing, refresh grants, hybrid acceleration, performance vesting, DPIIT founder ESOPs, cross-border mirror grants under FEMA OI Rules 2022.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -323,12 +323,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get FDI compliance from a CA team that handles FC-GPR, FLA, FIRMS portal, AD bank coordination, and compounding for Mumbai companies.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -297,12 +297,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Expert POSH compliance - IC constitution, policy drafting, training, annual reporting, and 2025 Board Report disclosures under the POSH Act, 2013.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

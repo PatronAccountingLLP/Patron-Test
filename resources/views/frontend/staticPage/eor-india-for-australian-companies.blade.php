@@ -286,12 +286,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by 20+ Australian-headquartered companies across the Sydney-Bengaluru and Melbourne-Pune corridors for Article V AU-India DTAA PE-firewall, dual APP 8 (post 2024 reforms) + DPDP Act 2023 compliance, AU-India ECTA-aligned commercial framework, and AUD-denominated EOR India engagements.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -307,12 +307,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Don\'t let scrutiny become an addition. Get expert CA representation. Starting at INR 2,999.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

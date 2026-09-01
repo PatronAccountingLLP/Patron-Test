@@ -316,12 +316,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get multi-category payroll with PF/ESI, delivery incentives, warehouse shifts, and festive scaling for your Gurugram ecommerce business.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

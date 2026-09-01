@@ -925,12 +925,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Section 194-O TDS, Section 52 CGST TCS, returns provisioning, COD reconciliation, CAC, and influencer TDS under one CA partner - delivered with transaction-volume-tiered fixed-fee pricing starting at Rs 1,00,000.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -324,12 +324,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Patron Accounting has helped 10,000+ businesses with IEC registration, GST, and trade compliance. Mumbai exporters and importers trust us for end-to-end DGFT support.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

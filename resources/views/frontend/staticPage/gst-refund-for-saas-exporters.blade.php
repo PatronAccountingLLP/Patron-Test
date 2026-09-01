@@ -347,12 +347,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From bootstrapped SaaS startups to scaling platforms, we handle monthly RFD-01 cycles, FIRC reconciliation, and place-of-supply opinions for service exporters across India.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

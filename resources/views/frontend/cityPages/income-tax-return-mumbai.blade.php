@@ -323,12 +323,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Patron has helped 10,000+ individuals and businesses with income tax return filing, tax planning, and notice handling. Mumbai taxpayers trust us for accurate, regime-optimised ITR filing.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

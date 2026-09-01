@@ -286,12 +286,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Protect your broadcast content with expert copyright registration - TV, radio, OTT, sports, and digital media.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

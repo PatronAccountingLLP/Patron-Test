@@ -324,12 +324,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free 20-minute first-year scoping call. Personalised compliance calendar pinned to your incorporation date. 100% on-time INC-20A and first AGM track record across 340+ FY 2024-25 first-year engagements. Section 139(6) backup path activated if board misses the 30-day window. Partner-CA / CS review on every filing.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

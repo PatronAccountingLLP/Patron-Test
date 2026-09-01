@@ -813,12 +813,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CFOs, founders, and Audit Committees trust Patron\'s Schedule III Note 9 specialty, lender consortium ratio reporting, and audit-defensible working papers - partner CA on every engagement.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

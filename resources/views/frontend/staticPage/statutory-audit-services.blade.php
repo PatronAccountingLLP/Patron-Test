@@ -826,12 +826,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CFOs, founders, and audit committees across Pvt Ltd, OPC, Public, Section 8, and LLP entities trust Patron\'s SA-compliant, UDIN-verified statutory audit methodology with senior CA partner review.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

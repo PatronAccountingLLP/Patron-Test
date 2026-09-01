@@ -324,12 +324,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'LLP compliance with Form 8, Form 11, audit, ITR-5, and penalty management from Gurugram.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

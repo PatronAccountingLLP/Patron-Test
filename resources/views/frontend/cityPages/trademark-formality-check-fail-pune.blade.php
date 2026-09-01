@@ -312,12 +312,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From SaaS startups in Hinjewadi to e-commerce brands to manufacturers in MIDC - Pune businesses trust Patron for trademark formality resolution.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

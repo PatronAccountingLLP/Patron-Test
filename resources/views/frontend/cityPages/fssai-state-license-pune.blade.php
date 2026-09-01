@@ -324,12 +324,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From restaurants on FC Road to cloud kitchens in Hinjewadi to manufacturers in MIDC Bhosari - Pune food businesses trust Patron for FSSAI State Licence.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

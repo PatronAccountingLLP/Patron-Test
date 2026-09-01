@@ -311,12 +311,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CA-certified turnover certificate with UDIN, three-way GST-ITR-books reconciliation, and tender-specific formatting for Pune businesses.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

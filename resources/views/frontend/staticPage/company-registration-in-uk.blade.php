@@ -306,12 +306,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From the Companies House filing and ECCTA verification to FEMA ODI reporting, founders trust Patron Accounting for their UK company.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

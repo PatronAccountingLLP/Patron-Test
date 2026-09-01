@@ -331,12 +331,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Single retainer covering MGT-14, PAS-3, MGT-7, SH-6 and Directors\' Report. CS as point person. Trust route and FC-GPR add-ons in-house.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

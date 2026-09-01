@@ -276,12 +276,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your Double Currency Networth Certificate - starting at INR 1,999. FBIL rate, UDIN-verified, 24-hour delivery, all 8 currencies.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

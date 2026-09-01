@@ -330,12 +330,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From LUT filing through to multi-route quarterly refund, GST 2.0 IDS gap optimisation, CDSCO documentation parallel coordination, and international tender refund - Patron handles the full pharma exporter refund pipeline with CA-led discipline across all 6 revenue routes.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

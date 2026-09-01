@@ -308,12 +308,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From SaaS companies in Powai to publishers in Fort to Bollywood lyricists - Mumbai\'s literary creators trust Patron for copyright services.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

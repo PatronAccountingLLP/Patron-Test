@@ -925,12 +925,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free 15-minute scoping call. Three-tier fixed-fee bundle (Rs 35k Essential / Rs 45k Standard / Rs 50k Comprehensive) covering all 6 ROC forms + audit + ITR-6 - no per-form billing. AOC-4-before-MGT-7 SRN sequencing enforced. Section 137(3) / Section 92(5) post-Companies (Amendment) Act 2020 substituted penalty framework applied (Rs 2L company / Rs 50k officer caps via S.O. 4646(E) dated 21 December 2020). Section 446B Small Co / OPC / Start-up / Producer Co half-penalty relief applied where eligible. CCFS-2026 amnesty window (15 April-15 July 2026) leveraged for backlog cleanup.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

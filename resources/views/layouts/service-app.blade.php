@@ -174,6 +174,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         @yield('content')
     </main>
 
+    {{--
+        Testimonials, pulled in like the header and footer rather than pasted
+        into each page. Every page on this layout gets the same section, from
+        config/testimonials.php, so a change to the reviews or the design
+        lands everywhere at once.
+
+        A page that wants its own set still calls the partial directly with
+        `reviews`, `heading` or `limit`, and the assets are emitted @once, so
+        a page cannot end up with two copies of the stylesheet.
+
+        The 163 IMF and net-worth pages build their own testimonials block -
+        a CSS grid and a bespoke slider - and would otherwise show a second
+        one here. They set pa.testimonials_rendered while their @section is
+        captured, which happens before this line runs, and the band below
+        stands down. Same mechanism the enquiry form uses.
+    --}}
+    @unless(config('pa.testimonials_rendered'))
+        @include('partials.testimonials')
+    @endunless
+
     @include('partials.footer')
 
     <!-- Bootstrap 5 JS -->

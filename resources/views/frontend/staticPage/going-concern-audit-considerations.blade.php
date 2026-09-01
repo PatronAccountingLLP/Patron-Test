@@ -937,12 +937,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free initial consultation with senior partner CA - share whether you need pre-audit going concern engagement, distressed-company statutory audit, MURGC paragraph drafting, going concern remediation roadmap, IBC pre-admission advisory, or NCLT-admitted company audit with RP coordination. All engagements subject to strict professional confidentiality.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

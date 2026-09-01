@@ -417,12 +417,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'RBI-aligned Compensation Policy plus ESOP scheme drafted together. License-milestone timing built in. F&P-screened trustees. CA, CS, RBI compliance and FEMA under one engagement.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

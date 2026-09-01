@@ -312,12 +312,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your share issuance handled by a CA &amp; CS team adjacent to ROC Mumbai &ndash; SH-7 to PAS-3 to FC-GPR in one integrated process.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

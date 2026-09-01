@@ -955,12 +955,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Cyber City GCCs, Udyog Vihar IT services firms, and Sohna Road SaaS startups trust Patron\'s IT-sector TP defence, Mavenir India home-court precedent depth, and Pr CCIT NWR Chandigarh jurisdiction mastery.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

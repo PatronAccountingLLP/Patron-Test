@@ -924,12 +924,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Gurugram CA team specialising in Section 143(2) scrutiny defence - initial notice analysis with scrutiny type classification, time-bar audit under the 3-month proviso, e-Proceedings reply drafting on incometax.gov.in, multi-round Assessment Unit query handling via NaFAC, Section 144B(6) video conferencing hearing representation, Aayakar Bhawan HSIIDC physical hearings at Pr CIT(C) Gurugram and Section 246A CIT(A) appeal coordination with onward ITAT Chandigarh bench.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

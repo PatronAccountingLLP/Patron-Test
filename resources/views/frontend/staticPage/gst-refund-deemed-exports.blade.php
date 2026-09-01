@@ -348,12 +348,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From AA/EPCG/LOP verification to RFD-06 bank credit - Patron handles the full Section 147 deemed export refund pipeline with CA-led categorisation and Form A coordination.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

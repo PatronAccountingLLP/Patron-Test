@@ -299,12 +299,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get specialist payroll for your service sector business - minimum wages, service charge, F&F, and CLRA compliance managed by CAs.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

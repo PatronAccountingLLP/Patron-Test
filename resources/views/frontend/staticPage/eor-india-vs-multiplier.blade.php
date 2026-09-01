@@ -271,12 +271,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by CFOs, VPs of Finance, and Heads of People across the US, UK, EU, Singapore, and Australia for Multiplier-coexistent India compliance, CA-signed certifications, and CFO-level India support that no software EOR can issue.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

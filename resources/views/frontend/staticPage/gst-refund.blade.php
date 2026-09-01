@@ -312,12 +312,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Recover your stuck GST refunds with expert CA support. Export, inverted duty, and excess ITC refund filing with 95%+ approval rate.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

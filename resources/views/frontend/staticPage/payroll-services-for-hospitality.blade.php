@@ -869,12 +869,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron CA team specialising in hospitality payroll - CCPA service charge compliance, Section 17(2) 2-day FnF, daily-wage F&B handling and F&B GST regime check.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -912,12 +912,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron restaurant GST notice specialist today - call, WhatsApp the SCN copy, or book a free 30-minute notice review. National coverage with 4-city hearing-attendance hubs.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -319,12 +319,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Healthcare payroll with 24/7 shift processing, visiting doctor S.194J, and multi-category staff management.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -347,12 +347,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From industrial suppliers, buying agents, intermediaries serving foreign clients, e-commerce sellers, to DTA suppliers operating across state lines - we handle 200+ wrong-tax-head refund cycles annually with Patna HC 2025 limitation defence and Section 77(2)/19(2) interest waiver discipline.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

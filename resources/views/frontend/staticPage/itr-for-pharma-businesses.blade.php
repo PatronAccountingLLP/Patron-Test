@@ -322,12 +322,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Join 50+ pharma manufacturing and trading firms who file their ITR with Patron each year - formulation makers, API suppliers, OTC and FMCG pharma, contract research organisations, chemist chains, and SEZ pharma units across India.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

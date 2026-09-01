@@ -285,12 +285,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by 25+ Singapore-headquartered companies - global APAC SaaS firms, Indian-origin founders incorporated in Singapore for capital-raising and ASEAN gateway, MAS-licensed payments institutions, Singapore-listed enterprises - for Article 5 SG-India DTAA PE-firewall, dual PDPA + DPDP Act 2023 compliance, MAS Outsourcing Guidelines support, and SGD-denominated EOR India engagements.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

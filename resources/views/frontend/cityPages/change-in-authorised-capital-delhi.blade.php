@@ -282,12 +282,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'AOA pre-checked. 7-15 days. Stamp duty accurate. MCA confirmed.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

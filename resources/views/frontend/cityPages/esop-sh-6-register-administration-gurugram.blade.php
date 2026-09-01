@@ -931,12 +931,6 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Startups and growth companies trust Patron Accounting to keep the SH-6 register current, authenticated, reconciled and due-diligence-ready year round.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -299,12 +299,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Expert IEC renewal - status verification, DGFT portal filing, DSC procurement, reactivation, and modification under Notification 58/2015-2020.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

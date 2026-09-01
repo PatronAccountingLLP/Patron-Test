@@ -301,12 +301,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get expert GST Audit support - GSTR-9C reconciliation, departmental audit representation, ITC verification. Starting at INR 9,999.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

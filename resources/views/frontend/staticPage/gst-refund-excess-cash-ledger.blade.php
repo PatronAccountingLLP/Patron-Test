@@ -330,12 +330,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From ECL audit to RFD-06 bank credit - Patron handles the full Section 49(6) excess cash ledger refund pipeline with CA-led reconciliation and PMT-09 vs RFD-01 decision discipline.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

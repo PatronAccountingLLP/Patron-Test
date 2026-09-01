@@ -870,12 +870,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron CA team specialising in qualification-prevention statutory audit - PAII review 6 months before year-end, mid-engagement remediation window under SA 260 TCWG communication, Section 134(3)(f) substantive drafting and Year-over-Year qualification removal with AS 5 / Ind AS 8 prior period correction.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

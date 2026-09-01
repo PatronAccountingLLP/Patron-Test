@@ -322,12 +322,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From food manufacturers in MIDC Bhosari to exporters to cloud kitchen chains - Pune food businesses trust Patron for FSSAI central licensing.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

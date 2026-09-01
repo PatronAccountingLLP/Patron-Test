@@ -939,12 +939,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free 30-minute family-vehicle scoping call. Annual Section 2(85) classification check. Section 56(2)(x) gift exemption trail. DIR-3 KYC Web triennial tracking per G.S.R. 943(E). Section 164(2) director disqualification defence. Partner-CA / CS review on every filing.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

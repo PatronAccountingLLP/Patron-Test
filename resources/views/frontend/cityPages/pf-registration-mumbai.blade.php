@@ -303,12 +303,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From BKC corporates to Powai IT to Thane manufacturing to restaurants - Mumbai\'s employers trust Patron for PF registration and compliance.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

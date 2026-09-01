@@ -306,12 +306,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From the special resolution and MoA and AoA alteration to the MGT-14 and INC-27 filings, growing companies trust Patron Accounting for their private to public conversion.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -285,12 +285,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get expert CA assistance for 80G registration in Bangalore. From Form 10A filing to CSR-1 and donor reporting, we handle everything.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

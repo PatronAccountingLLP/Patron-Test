@@ -924,12 +924,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free 15-minute diagnostic call. Section 186 baseline + CIC threshold test + group structure mapping within 24 hours. Continuous limit tracking, special resolution scheduling 30 days ahead, contemporaneous RPT documentation, annual CIC re-test. Investor-diligence grade file maintenance across 60+ FY24-25 holdco engagements with 100% Section 186 compliance rate.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -877,12 +877,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron CA team specialising in qualified audit opinion handling - 7-day immediate response playbook, 5-stakeholder communication scripts, Section 134(3)(f) substantive drafting, AOC-4 filing coordination and Year-1-to-Year-2 remediation roadmap.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -322,12 +322,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From BKC BFSI institutions to Powai IT campuses to Fort CA firms to Andheri MIDC factories - Mumbai\'s employers and professionals trust Patron for PT compliance.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

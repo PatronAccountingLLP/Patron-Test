@@ -429,12 +429,6 @@
 </section>
 
 
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Verified Google reviews from founders and businesses Patron works with across India.',
-    'ctaTitle'   => 'Join 3,000+ Founders and Businesses on Patron',
-    'ctaText'    => 'Rated 4.9 on Google - trusted for startup accounting since 2019.',
-])
 
 
 <div class="stats-bar">

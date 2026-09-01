@@ -869,12 +869,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron CA team specialising in retail chain payroll - Section 17(2) 2-day FnF SLA, state Shops Act per-store configuration, multi-state minimum wage refresh and CLRA contractor reconciliation.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

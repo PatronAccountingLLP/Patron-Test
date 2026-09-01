@@ -922,12 +922,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron CA team specialising in Gurugram Section 73 GST notice defence - DRC-01A pre-intimation reply, DRC-06 SCN reply within 30 days, personal hearing representation at CGST Mudit Square and Haryana SGST DETC Gurugram East / West, Section 128A conditional waiver and Section 107 appeal at Appellate Authority with onward GSTAT Allahabad bench coordination.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

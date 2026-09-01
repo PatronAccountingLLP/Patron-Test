@@ -924,12 +924,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Gurugram CA team specialising in Section 148 reassessment defence across DLF / Golf Course Road / Sushant Lok / South City / Sector 56 property owners, Cyber City and Sector 44 IT and ITeS exporters with Section 90 DTAA and Section 10AA SEZ matters, Manesar IMT auto and pharma manufacturers (Maruti Suzuki Tier-1 belt), F and O traders and crypto investors, and Gurugram NCR start-ups - same-day intake at Patron Gurugram office, 5 to 7 working day Section 148A SCN reply, JAO-vs-NaFAC jurisdictional audit per P&amp;H HC Jatinder Singh Bhangu doctrine, Section 149 time-limit audit per Rajeev Bansal exclusions, Punjab and Haryana High Court Article 226 writ at Chandigarh (the STRONGEST pro-taxpayer forum in India), CIT(A) Faceless Appeal under Section 246A and onward ITAT Chandigarh Bench (NOT ITAT Delhi).',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

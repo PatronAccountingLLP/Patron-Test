@@ -315,12 +315,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your Section 142(1) notice responded to by a CA team that handles faceless assessment, AIS reconciliation, and escalation defence.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

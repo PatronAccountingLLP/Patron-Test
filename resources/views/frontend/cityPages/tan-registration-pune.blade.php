@@ -323,12 +323,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CA-managed TAN registration with TRACES activation, TDS return filing, and Form 16 for Pune employers and businesses.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

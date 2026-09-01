@@ -314,12 +314,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your business ITR filed by a CA team that handles every entity type &ndash; ITR-3, ITR-4, ITR-5, and ITR-6.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

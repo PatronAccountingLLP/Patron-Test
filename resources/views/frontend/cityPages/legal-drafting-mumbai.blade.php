@@ -315,12 +315,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your agreements drafted by a CA &amp; CS team that integrates tax, compliance, and Maharashtra stamp duty into every document.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -319,12 +319,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CA-managed Udyam registration with NIC code advisory and post-registration benefit activation for Mumbai MSMEs.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

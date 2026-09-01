@@ -305,12 +305,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From DSC and SPICe+ incorporation to the business transfer and GST migration, growing businesses trust Patron Accounting for their proprietorship to Pvt Ltd conversion.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

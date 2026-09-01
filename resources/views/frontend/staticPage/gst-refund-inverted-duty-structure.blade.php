@@ -347,12 +347,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From textile, pharma, fertilizer, footwear, and EV manufacturers to packaging, edible oil, and renewable energy units - we recover IDS refund under Section 54(3)(ii) and Rule 89(5) for 200+ Indian manufacturers.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

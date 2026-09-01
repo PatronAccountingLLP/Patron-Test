@@ -869,12 +869,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron CA team specialising in real estate developer payroll - RERA project-wise allocation, Section 194H broker TDS at 2 percent, CLRA contractor reconciliation and RERA Section 11 quarterly disclosure data pack.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

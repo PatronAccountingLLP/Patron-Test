@@ -316,12 +316,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get CA-supervised Odoo ERP setup with Indian GST, e-invoicing, and ongoing monthly accounting for your Gurugram business.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

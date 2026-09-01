@@ -311,12 +311,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Statutory audit with CARO 2020, AOC-4 filing, and investor-ready financials from Gurugram.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

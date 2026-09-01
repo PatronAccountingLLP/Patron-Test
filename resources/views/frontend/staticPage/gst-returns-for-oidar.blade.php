@@ -302,12 +302,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Comply with Indian OIDAR GST from day one. Simplified Registration, monthly GSTR-5A, and authorised representative services from Rs 4,999/month.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

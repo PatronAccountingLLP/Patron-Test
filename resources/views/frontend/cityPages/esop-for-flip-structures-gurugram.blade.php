@@ -397,12 +397,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Forward flip mirror grants under FEMA OI Rules 2022. Reverse flip via NCLT Sections 230-232 plus Section 47 tax optimisation. CA, CS, valuation, FEMA and NCLT under one engagement.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

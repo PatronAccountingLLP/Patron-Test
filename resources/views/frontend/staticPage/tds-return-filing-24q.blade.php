@@ -295,12 +295,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Expert TDS return filing - monthly computation, quarterly 24Q, Form 16 via TRACES, correction statements, and default resolution.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -301,10 +301,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, &amp; stay in control.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -316,12 +316,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your DIR-3 KYC filed or DIN reactivated by a CA team adjacent to ROC Mumbai &ndash; triennial tracking to emergency reactivation.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

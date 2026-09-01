@@ -926,12 +926,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Section 10(23C) and Section 12A regimes, Form 10B and 10BB, tuition fee accrual, government grants, Section 11 application, and edtech Ind AS 115 with DPDP Act - delivered under a single CA partner from Rs 1,00,000.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

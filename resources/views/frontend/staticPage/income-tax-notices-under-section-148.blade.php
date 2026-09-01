@@ -301,12 +301,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Don\'t let a Section 148 notice become a large demand. Get expert CA intervention at the 148A stage. Starting at INR 3,499.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

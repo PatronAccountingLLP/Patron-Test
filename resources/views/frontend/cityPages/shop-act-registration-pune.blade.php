@@ -318,12 +318,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From retailers on FC Road to startups in Hinjewadi to restaurants in Koregaon Park - Pune businesses trust Patron for shop act registration.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

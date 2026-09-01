@@ -924,12 +924,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free 15-minute diagnostic call. INC-20A 180-day deadline tracked from Day 1 (Patron auto-schedules in Months 4-5). Three-path decision support (active vs dormant vs strike off) on Day 1. Section 139 audit despite nil revenue arranged via ADT-1 within 15 days of first board meeting. Section 92(5) / 137(3) post-Companies (Amendment) Act 2020 penalty framework applied (substituted via S.O. 4646(E) dated 21 December 2020). CCFS-2026 amnesty window leveraged for Year 1 default cleanup where applicable.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

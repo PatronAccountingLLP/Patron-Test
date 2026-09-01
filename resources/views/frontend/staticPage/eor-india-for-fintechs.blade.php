@@ -272,12 +272,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by Series B-D fintech founders and CTOs across the US, UK, EU, Singapore, and Australia for India-side RBI-aware hiring and compliance engagements.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

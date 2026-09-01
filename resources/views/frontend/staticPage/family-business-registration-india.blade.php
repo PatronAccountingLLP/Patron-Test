@@ -894,12 +894,6 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From structure design to succession planning, family businesses trust Patron Accounting to set up their legacy right.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

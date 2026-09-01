@@ -931,12 +931,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Delhi CA team specialising in Section 143(2) scrutiny defence - initial notice analysis with scrutiny type classification, time-bar audit under the 3-month proviso, e-Proceedings reply drafting on incometax.gov.in, multi-round Assessment Unit query handling via NaFAC, Section 144B(6) video conferencing hearing representation and Section 246A CIT(A) appeal coordination with onward ITAT Delhi and Delhi HC writ where applicable.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -318,12 +318,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trading payroll with multi-role staff, commission S.194H, cash-to-formal transition, and festive scaling.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

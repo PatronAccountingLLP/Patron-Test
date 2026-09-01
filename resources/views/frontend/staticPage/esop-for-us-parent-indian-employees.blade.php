@@ -346,12 +346,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'India-US groups and their teams trust Patron Accounting to run the corridor: India perquisite, valuation reconciliation, the DTAA credit and a clean Schedule FA.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

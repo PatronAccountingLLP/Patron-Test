@@ -881,12 +881,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by consulting LLPs, professional services firms (CA, CS, advocate), manufacturing LLPs, real-estate LLPs, and family-vehicle LLPs across Pune, Mumbai, Delhi, and Gurugram - and across India.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

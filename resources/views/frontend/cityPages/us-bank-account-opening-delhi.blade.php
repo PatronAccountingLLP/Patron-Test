@@ -310,12 +310,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'US bank account with FEMA/LRS compliance, platform-matched advisory, and Stripe/PayPal integration.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

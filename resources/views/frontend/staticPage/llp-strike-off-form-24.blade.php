@@ -924,12 +924,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free 24-hour Form 24 readiness check. LLPIN portal scan + backlog calculation + Form 24 eligibility assessment + fixed-fee quote. CCFS-2026 LLP-exclusion clarified up-front. STK-3 / STK-4 drafting reviewed by partner CA. C-PACE filing under G.S.R. 475(E) dated 5 August 2024 framework. 200+ Form 24 strike-offs delivered with zero C-PACE rejection rate FY 2025-26.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -321,12 +321,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'ESOP management with perquisite tax, Ind AS 102, cap table, and Sec 80-IAC deferral.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

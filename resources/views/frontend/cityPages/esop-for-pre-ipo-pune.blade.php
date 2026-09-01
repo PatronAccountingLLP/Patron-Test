@@ -423,12 +423,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by CFOs, CS teams and Heads of People at late-stage Indian companies targeting BSE / NSE listing.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

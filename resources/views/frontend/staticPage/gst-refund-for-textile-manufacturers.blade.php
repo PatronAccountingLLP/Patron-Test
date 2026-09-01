@@ -347,12 +347,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From Tirupur cotton knitwear to Surat MMF synthetic, Bhiwandi powerloom to Panipat home furnishings, we manage quarterly IDS refund cycles for 60+ textile manufacturer clients across India.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

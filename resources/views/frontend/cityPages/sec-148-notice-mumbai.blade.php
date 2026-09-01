@@ -924,12 +924,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Mumbai CA team (Andheri East office) specialising in Section 148 reassessment defence across South Mumbai HNIs (Malabar Hill / Walkeshwar / Cuffe Parade / Worli / Lower Parel), BKC BFSI sector (banks / insurance / AMC / NBFC), Bandra and Powai property owners, Andheri and Powai pharma manufacturers with Section 35(2AB) DSIR-certified R and D claims, Andheri Film City entertainment, South Mumbai shipping (Ballard Estate Section 115V tonnage tax), F and O traders under CIT 24 specialised charge, NRIs under CIT (International Taxation) and BKC corporates - same-day intake at Andheri East office, 5 to 7 working day Section 148A SCN reply, Section 149 time-limit audit per SC Rajeev Bansal exclusions, Section 151 approval audit, Bombay HC Article 226 writ at Fort (CO-LOCATED), CIT(A) Faceless Appeal under Section 246A and onward ITAT Mumbai Bench at Pratishtha Bhavan M.K. Marg (LARGEST ITAT in India, also CO-LOCATED).',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -996,12 +996,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Delhi restaurant GST notice specialist today - call, WhatsApp the SCN copy, visit Patron Delhi office, or book a free 30-minute case review. Free quote within 2 hours.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

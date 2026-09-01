@@ -937,12 +937,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Free 30-minute notice review with ASMT-12 closure-pathway assessment - in-person at Mumbai office, by phone or video.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

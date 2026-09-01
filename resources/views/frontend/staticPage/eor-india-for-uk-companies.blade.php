@@ -286,12 +286,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Trusted by 30+ UK-headquartered companies - early-stage Series A SaaS firms, mid-market AI / data infrastructure companies, AIM-listed enterprises - for Article 5 UK-India DTAA PE-firewall, dual post-Brexit UK GDPR (UK IDTA / Addendum) + DPDP Act 2023 compliance, UK-India FTA 2025 tracking, and GBP-denominated EOR India engagements.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

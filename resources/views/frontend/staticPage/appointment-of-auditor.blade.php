@@ -289,12 +289,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Appoint your auditor with zero penalties. Starting at INR 1,999. ADT-1 filing included. 3-5 working days turnaround.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

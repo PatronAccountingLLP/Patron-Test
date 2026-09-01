@@ -347,12 +347,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From pharma, IT services, engineering, textile, electronics, and chemical exporters to IDS manufacturers and SEZ-feeding DTA suppliers - we track 200+ active ARNs with daily status capture, PFMS 2-stage validation, and Day-graduated 6-tier escalation discipline.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

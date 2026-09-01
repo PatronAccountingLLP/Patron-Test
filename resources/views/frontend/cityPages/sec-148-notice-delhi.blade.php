@@ -924,12 +924,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Delhi CA team specialising in Section 148 reassessment defence across Connaught Place trading firms, Karol Bagh wholesale and retail, South Delhi (Greater Kailash / Vasant Vihar / Defence Colony) HNIs and property owners, Saket / Vasant Kunj IT professionals with ESOP / RSU and foreign asset disclosures, Dwarka and Rohini residential corporates, Nehru Place IT and electronics traders, Okhla and Patparganj industrial cluster manufacturers and Delhi NCR start-ups - same-day intake at Patron Delhi office, 5 to 7 working day Section 148A SCN reply, Section 149 time-limit audit per Rajeev Bansal exclusions, Section 151 approval audit per Delhi HC Rohit Kumar (Joint Commissioner invalid post 1 April 2021), Delhi HC Article 226 writ at Sher Shah Road (CO-LOCATED), CIT(A) Faceless Appeal under Section 246A and onward ITAT Delhi Bench at Drum Shaped Building, Indraprastha Estate (also co-located).',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

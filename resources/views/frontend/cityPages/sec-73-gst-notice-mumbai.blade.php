@@ -923,12 +923,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Mumbai CA team specialising in Section 73 GST notice defence across BFSI, pharma, entertainment, shipping and trading sectors - same-day intake at Mumbai office, 48-hour risk score with Section 73(5) / 73(8) NIL-penalty playbook check, hearing representation across all 7 Mumbai CGST Commissionerates plus Maharashtra State Tax Mazgaon, Section 107 at Mumbai Appellate Authority and onward GSTAT Western Bench Mumbai plus Bombay HC writ coordination.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -319,12 +319,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Patron has helped 10,000+ businesses with payroll processing, EPF/ESIC compliance, and Form 16 delivery. Pune employers trust us for CA-managed payroll with zero late filing penalties.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

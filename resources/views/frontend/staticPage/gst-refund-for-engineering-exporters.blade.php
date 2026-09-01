@@ -330,12 +330,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From AD code registration through to Rule 89(5) IDS Statement 1A computation and EPCG deemed-export structuring - Patron handles the full three-mechanism engineering refund pipeline with CA-led cluster-specific knowledge and PFMS disbursal tracking.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

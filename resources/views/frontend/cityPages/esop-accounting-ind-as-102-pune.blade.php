@@ -384,12 +384,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Ind AS 102 and ICAI Guidance Note 2020 dual coverage. Black-Scholes in-house. Schedule III and Directors\' Report Rule 12(9) drafted to audit standard.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

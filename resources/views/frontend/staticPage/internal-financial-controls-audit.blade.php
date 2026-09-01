@@ -868,12 +868,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From first-year IFC retro-fits for Pvt Ltd companies crossing the threshold to NBFC Middle Layer lending IT controls and listed-entity KAM disclosure coordination - real Patron clients share how the bottom-up RCM approach, mid-period ToOE rollforward, and ICAI Guidance Note deficiency aggregation logic delivered unmodified Annexure B opinions.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

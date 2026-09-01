@@ -318,12 +318,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From D2C brands in Baner to fulfilment centres in Chakan - Pune ecommerce businesses trust Patron for accurate, timely payroll.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

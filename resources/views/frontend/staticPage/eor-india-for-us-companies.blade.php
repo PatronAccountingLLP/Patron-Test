@@ -224,12 +224,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => '50+ US-headquartered companies - Series A SaaS, mid-market AI, and Nasdaq-listed enterprises - trust Patron\'s CA-led EOR for PE-risk firewall, ESOP / RSU depth, and India-US DTAA navigation.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

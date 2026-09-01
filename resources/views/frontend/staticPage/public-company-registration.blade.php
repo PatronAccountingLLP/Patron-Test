@@ -299,12 +299,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From company incorporation to IPO-readiness compliance - Patron Accounting handles it all so you can focus on building your public company.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

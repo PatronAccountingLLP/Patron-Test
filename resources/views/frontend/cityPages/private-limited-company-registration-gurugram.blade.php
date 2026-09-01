@@ -318,12 +318,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Patron has helped 10,000+ businesses with company registration, ROC compliance, and startup recognition. Gurugram founders trust us for CA-managed incorporation with zero compliance gaps.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

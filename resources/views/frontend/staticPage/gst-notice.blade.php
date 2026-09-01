@@ -299,12 +299,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Expert GST notice reply - analysis, drafting, portal filing, representation, and appeal under the CGST Act, 2017.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

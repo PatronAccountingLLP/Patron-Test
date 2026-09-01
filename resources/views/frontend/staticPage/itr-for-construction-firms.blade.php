@@ -322,12 +322,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Join 300+ construction contractors and sub-contractors who file their ITR with Patron each year - civil, MEP, electrical, EPC, JV, and consultancy firms across India.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

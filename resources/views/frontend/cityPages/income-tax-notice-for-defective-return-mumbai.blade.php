@@ -314,12 +314,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your defective return corrected and uploaded within 5 days by a CA team that reconciles all TDS sources and verifies before submission.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -1585,14 +1585,6 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- TESTIMONIALS -->
-@endverbatim
-@include('partials.testimonials', [
-    'heading'    => 'What Clients Say',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => '500+ stock audits completed',
-    'ctaText'    => 'Rated 4.9 on Google across 13 reviews.',
-])
-@verbatim
 
 <!-- STATS BAR -->
 <div class="stats-bar">

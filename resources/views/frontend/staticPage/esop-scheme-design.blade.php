@@ -412,12 +412,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Indian startups across SaaS, fintech, AI/ML, marketplaces, deeptech, edtech, healthtech, consumer-tech and B2B verticals. Seed through Series B. Private Limited, Public Unlisted and DPIIT-recognised structures. Pool sizing, vesting and cliff drafting, leaver matrix, acceleration triggers, founder ESOPs under DPIIT exemption. 10,000+ businesses served. 4.9 Google Rating. 15+ years.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -324,12 +324,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'GST audit with GSTR-9C reconciliation, departmental audit representation, and ITC verification from Gurugram.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

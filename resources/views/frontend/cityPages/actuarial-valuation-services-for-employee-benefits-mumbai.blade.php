@@ -303,12 +303,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CA-led actuarial valuation with PUCM computation, Ind AS 19/AS 15 disclosures, sensitivity analysis, and audit support for Mumbai companies.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

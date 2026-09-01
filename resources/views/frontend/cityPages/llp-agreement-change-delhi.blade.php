@@ -282,12 +282,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From-scratch deed. Delhi stamp duty. All partners coordinated. Form 3 in 7 days. Zero penalty.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

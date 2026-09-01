@@ -315,12 +315,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get S19-compliant assignment deeds for software, founder IP, freelancer works, and M&amp;A transactions.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

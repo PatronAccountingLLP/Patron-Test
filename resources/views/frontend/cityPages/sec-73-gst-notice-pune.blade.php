@@ -923,12 +923,6 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Talk to a Patron Pune CA team specialising in Section 73 GST notice defence across Hinjewadi IT, Kharadi corporate, Talegaon-Chakan auto and pharma, PCMC manufacturing and Pune commercial - same-day intake at Pune office, 48-hour risk score with Section 73(5) / 73(8) NIL-penalty playbook check, hearing representation at Pune-I CGST and Pune-II CGST plus Maharashtra State Tax Pune Circle, Section 107 at Pune Appellate Authority and onward GSTAT Western Bench Mumbai plus Bombay HC writ inter-city coordination.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

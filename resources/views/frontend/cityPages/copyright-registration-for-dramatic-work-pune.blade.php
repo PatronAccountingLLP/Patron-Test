@@ -324,12 +324,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get CA-assisted dramatic work copyright with Section 2(h) classification, Form XIV filing, assignment deeds, and production licensing from Patron\'s Pune office.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

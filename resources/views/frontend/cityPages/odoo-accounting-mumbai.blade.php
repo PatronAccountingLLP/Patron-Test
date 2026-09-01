@@ -303,12 +303,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'CA-led Odoo ERP accounting with Indian localization, GST e-invoice, multi-module integration, and migration for Mumbai businesses.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

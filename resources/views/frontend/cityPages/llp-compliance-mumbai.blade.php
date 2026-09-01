@@ -316,12 +316,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'Get your LLP compliance managed by a CA &amp; CS team adjacent to ROC Mumbai &ndash; accounts to Form 8 to ITR-5 in one integrated engagement.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

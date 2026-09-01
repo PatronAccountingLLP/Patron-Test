@@ -347,12 +347,6 @@
 </section>
 
 <!-- TESTIMONIALS -->
-@include('partials.testimonials', [
-    'heading'    => 'Real Stories from Real People',
-    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
-    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
-    'ctaText'    => 'From pharma, IT services, engineering, textile, and chemical exporters to SEZ suppliers and IDS manufacturers - we remediate 200+ RFD-03 deficiency cycles annually with the fresh-filing-not-reply discipline that recovers blocked refunds in 30 to 40 days end-to-end.',
-])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

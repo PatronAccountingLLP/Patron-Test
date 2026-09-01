@@ -599,9 +599,9 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <div class="sidebar-card"><h3>Related Services</h3>
 <a href="https://www.patronaccounting.com/imf-incorporation-services" class="sidebar-link">IMF Incorporation Services <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/ismp-certification-isp-appointment" class="sidebar-link">ISMP Certification &amp; ISP Appointment <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited Company Registration <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Private Limited Company Registration <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/secretarial-services" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
+<a href="/secretarial-audit" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 
@@ -616,7 +616,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
 <div class="sidebar-card"><h3>From the Blog</h3>
 <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/blog/authorized-vs-paid-up-capital-everything-startups-must-know" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital" class="sidebar-link">Authorized vs Paid-Up Capital <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/blog/private-limited-company-vs-llp-which-is-right-for-your-startup" class="sidebar-link">Pvt Ltd vs LLP <span class="arrow">→</span></a>
 </div>
 </aside>

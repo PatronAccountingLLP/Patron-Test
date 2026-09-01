@@ -684,7 +684,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/professional-tax-registration" class="sidebar-link">PT Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/pt-returns" class="sidebar-link">PT Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/shops-establishments" class="sidebar-link">Shops &amp; Estab. Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>

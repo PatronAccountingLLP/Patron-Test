@@ -320,7 +320,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20consultation%20for%20professional%20ITR%20filing%20AY%202026-27." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20consultation%20for%20professional%20ITR%20filing%20AY%202026-27." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -572,7 +572,7 @@
                         <tr><td><strong>Chartered Accountants and Company Secretaries</strong></td><td>Section 44ADA available under accountancy profession. CA practice income from audit, tax filings, and advisory under PGBP. ICAI membership fees, library and professional development costs allowable in ITR-3. Partnership firms structured as LLP CANNOT use 44ADA and must file ITR-5 with regular books.</td><td>ITR-4 / ITR-3</td></tr>
                         <tr><td><strong>Architects and Interior Designers</strong></td><td>Both specified under Section 44AA(1). Project fee receipts, design retainers and supervision fees come under PGBP. Site visits, model-making and CAD subscription expenses claimable in ITR-3. International project receipts require FIRC and SAC 9983 for architectural services under GST.</td><td>ITR-4 / ITR-3</td></tr>
                         <tr><td><strong>Technical Consultants and Engineers</strong></td><td>Specified profession under technical consultancy. Project consultancy, technical advisory and turnkey engineering services route through 44ADA up to receipt limits. Foreign clients common - GST LUT essential for service exports. <strong>Software developers without professional engineering degrees fall under Section 44AD business presumptive, NOT Section 44ADA.</strong></td><td>ITR-4 / ITR-3</td></tr>
-                        <tr><td><strong>Freelancers (Software Developers, Designers, Writers, Marketers)</strong></td><td>Non-specified freelancers fall under Section 44AD business presumptive (6 percent digital, 8 percent cash) rather than 44ADA. IT Department notices have questioned 44AD use where TDS is deducted under Section 194J. Patron position: use 44AD for true non-specified freelancing; consult before claiming 44ADA outside the 9 listed professions. Foreign income requires FIRC with RBI purpose code P0802 (software exports).</td><td><a href="/itr-filing-for-freelancers-professionals/" style="color:var(--orange);font-weight:600;">Freelancer ITR &rarr;</a></td></tr>
+                        <tr><td><strong>Freelancers (Software Developers, Designers, Writers, Marketers)</strong></td><td>Non-specified freelancers fall under Section 44AD business presumptive (6 percent digital, 8 percent cash) rather than 44ADA. IT Department notices have questioned 44AD use where TDS is deducted under Section 194J. Patron position: use 44AD for true non-specified freelancing; consult before claiming 44ADA outside the 9 listed professions. Foreign income requires FIRC with RBI purpose code P0802 (software exports).</td><td><a href="/itr-for-professionals" style="color:var(--orange);font-weight:600;">Freelancer ITR &rarr;</a></td></tr>
                         <tr><td><strong>Authorised Representatives and Film Artists</strong></td><td>Both specified professions under Section 44AA(1). Authorised representatives (Section 288 representatives appearing before income tax authorities) and film artists (actors, directors, music directors, art directors, cameramen, dance directors, dress designers, editors, lyricists, story writers, screen-play writers, dialogue writers, audio production technicians) route through 44ADA at 50 percent or ITR-3 with books.</td><td>ITR-4 / ITR-3</td></tr>
 
 
@@ -845,7 +845,7 @@
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;"><strong>Disclaimer:</strong> All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;"><strong>Get a free ITR Filing for Professionals consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20professional%20ITR%20filing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free ITR Filing for Professionals consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20professional%20ITR%20filing." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -973,14 +973,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/itr-filing-for-freelancers-professionals/">ITR Filing for Freelancers and Professionals</a></strong> - sibling service for non-specified freelancer scenarios (software developers, content writers, designers, marketers) using Section 44AD business presumptive route.</li>
-                    <li><strong><a href="/itr-for-salaries/">ITR Filing for Salaried Individuals</a></strong> - reference page for the salary component when combined with professional income in ITR-3 (Schedule S plus Schedule BP).</li>
-                    <li><strong><a href="/itr-for-business/">ITR Filing for Business</a></strong> - for non-professional businesses including trading, manufacturing and service businesses outside Section 44AA(1) specified professions.</li>
-                    <li><strong><a href="/tax-audit/">Tax Audit under Section 44AB</a></strong> - mandatory for professionals with gross receipts above Rs 75 lakh. Form 3CB-3CD preparation due 30 September - one month before ITR-3.</li>
-                    <li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - regime choice (old vs new Section 115BAC), 80C investment structuring, advance tax planning for professionals before year-end.</li>
-                    <li><strong><a href="/tds-return/">TDS Return Filing</a></strong> - Form 24Q and 26Q quarterly filing for professionals paying salaries or fees subject to TDS (clinic owners, law firms, CA firms).</li>
-                    <li><strong><a href="/income-tax-notice/">Income Tax Notice Response</a></strong> - representation for Section 139(9), 143(1), 142(1), 143(3) and 148 notices.</li>
-                    <li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
+                    <li><strong><a href="/itr-for-professionals">ITR Filing for Freelancers and Professionals</a></strong> - sibling service for non-specified freelancer scenarios (software developers, content writers, designers, marketers) using Section 44AD business presumptive route.</li>
+                    <li><strong><a href="/itr-for-salary">ITR Filing for Salaried Individuals</a></strong> - reference page for the salary component when combined with professional income in ITR-3 (Schedule S plus Schedule BP).</li>
+                    <li><strong><a href="/itr-for-business">ITR Filing for Business</a></strong> - for non-professional businesses including trading, manufacturing and service businesses outside Section 44AA(1) specified professions.</li>
+                    <li><strong><a href="/tax-audit">Tax Audit under Section 44AB</a></strong> - mandatory for professionals with gross receipts above Rs 75 lakh. Form 3CB-3CD preparation due 30 September - one month before ITR-3.</li>
+                    <li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - regime choice (old vs new Section 115BAC), 80C investment structuring, advance tax planning for professionals before year-end.</li>
+                    <li><strong><a href="/tds-return">TDS Return Filing</a></strong> - Form 24Q and 26Q quarterly filing for professionals paying salaries or fees subject to TDS (clinic owners, law firms, CA firms).</li>
+                    <li><strong><a href="/income-tax-notice">Income Tax Notice Response</a></strong> - representation for Section 139(9), 143(1), 142(1), 143(3) and 148 notices.</li>
+                    <li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
                 </ul>
 
             </div>
@@ -1131,7 +1131,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20professional%20ITR%20filing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20professional%20ITR%20filing." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -1150,35 +1150,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/income-tax-return/" class="pa-cross-card">
+                    <a href="/income-tax-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; 14 sub-services</span></div>
                     </a>
-                    <a href="/itr-filing-for-freelancers-professionals/" class="pa-cross-card">
+                    <a href="/itr-for-professionals" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Freelancers</strong><span>Software devs, designers via Section 44AD</span></div>
                     </a>
-                    <a href="/itr-for-salaries/" class="pa-cross-card">
+                    <a href="/itr-for-salary" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Salaries</strong><span>Salary component in mixed ITR-3</span></div>
                     </a>
-                    <a href="/itr-for-business/" class="pa-cross-card">
+                    <a href="/itr-for-business" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Business</strong><span>Non-professional businesses ITR-3/ITR-4</span></div>
                     </a>
-                    <a href="/tax-audit/" class="pa-cross-card">
+                    <a href="/tax-audit" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Audit Section 44AB</strong><span>Rs 75 lakh threshold; Form 3CB-3CD</span></div>
                     </a>
-                    <a href="/tax-planning-services/" class="pa-cross-card">
+                    <a href="/tax-planning-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Planning Services</strong><span>Regime choice, 80C, advance tax</span></div>
                     </a>
-                    <a href="/tds-return/" class="pa-cross-card">
+                    <a href="/tds-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>TDS Return Filing</strong><span>Form 24Q, 26Q quarterly for firms</span></div>
                     </a>
-                    <a href="/income-tax-notice/" class="pa-cross-card">
+                    <a href="/income-tax-notice" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>139(9), 143(1), 142(1), 148</span></div>
                     </a>

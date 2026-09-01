@@ -554,7 +554,7 @@ main section,main [id]{scroll-margin-top:160px}
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">August 2026</span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4 hero-benefits">
@@ -1411,7 +1411,7 @@ main section,main [id]{scroll-margin-top:160px}
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Mumbai: Questions We Are Actually Asked</h2>
                     <p class="faq-expanded__lead">Common questions on what goes into the statement, how each figure is evidenced, and what the certificate does and does not say.</p>
-                    <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     <div class="faq-enquiry">
   <h3 class="faq-enquiry__title">Ask about your certificate</h3>
   <p class="faq-enquiry__sub">Send your requirement for a scoped quote.</p>

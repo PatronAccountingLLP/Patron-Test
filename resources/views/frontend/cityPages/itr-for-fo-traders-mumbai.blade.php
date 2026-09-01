@@ -184,7 +184,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -319,7 +319,7 @@
                     <p><strong>&#128204; TL;DR - ITR for F&amp;O Traders Services at a Glance</strong></p>
                     <p>Futures and Options (F&amp;O) trading income is classified as non-speculative business income under Section 43(5) of the Income Tax Act, taxed at applicable slab rates under the head 'Profits and Gains from Business or Profession'. Mumbai &ndash; home to BSE and NSE (India's derivatives exchanges), Dalal Street's trading community, and thousands of retail and professional F&amp;O traders &ndash; generates the highest F&amp;O trading volumes in the country. Filing ITR for F&amp;O requires: computing turnover using the absolute-value method (not trade value), determining tax audit applicability, filing ITR-3 with P&amp;L and balance sheet, and claiming eligible business expenses.</p>
                 </div>
-                <p>Mumbai is the epicentre of India's F&amp;O trading. BSE and NSE are headquartered in the city, and Dalal Street at Fort is the spiritual home of Indian derivatives trading. Professional trading desks at Nariman Point and Fort execute high-frequency strategies. Retail traders across BKC, Powai, Andheri, and Lower Parel trade index options (Nifty, Bank Nifty) through Zerodha, Groww, Angel One. Algo traders at Powai deploy automated strategies generating thousands of trades per month. SEBI data shows that 93% of F&amp;O traders incurred losses in FY23-24 &ndash; making proper ITR filing with loss carry-forward essential. Learn more about <a href="/itr-for-fno-traders">ITR for F&amp;O Traders across India</a>.</p>
+                <p>Mumbai is the epicentre of India's F&amp;O trading. BSE and NSE are headquartered in the city, and Dalal Street at Fort is the spiritual home of Indian derivatives trading. Professional trading desks at Nariman Point and Fort execute high-frequency strategies. Retail traders across BKC, Powai, Andheri, and Lower Parel trade index options (Nifty, Bank Nifty) through Zerodha, Groww, Angel One. Algo traders at Powai deploy automated strategies generating thousands of trades per month. SEBI data shows that 93% of F&amp;O traders incurred losses in FY23-24 &ndash; making proper ITR filing with loss carry-forward essential. Learn more about <a href="/itr-for-fno-trader">ITR for F&amp;O Traders across India</a>.</p>
                 <p>Patron Accounting's Mumbai office at Marine Lines provides complete F&amp;O ITR filing &ndash; from turnover computation using broker P&amp;L reports to tax audit coordination, ITR-3 preparation, F&amp;O loss set-off, carry-forward of unabsorbed losses, advance tax planning, and representation before the Assessing Officer. Filing <a href="/income-tax-return">Income Tax Return</a> correctly is critical for preserving loss carry-forward rights.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
@@ -531,7 +531,7 @@
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free ITR for F&amp;O Traders consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai.%20Please%20share%20details." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free ITR for F&amp;O Traders consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai.%20Please%20share%20details." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -639,7 +639,7 @@
                 
                 <p>Explore related services:</p>
                 <ul>
-                    <li><a href="/itr-for-fno-traders">ITR for F&amp;O Traders (India Overview)</a> &ndash; National F&amp;O ITR filing</li>
+                    <li><a href="/itr-for-fno-trader">ITR for F&amp;O Traders (India Overview)</a> &ndash; National F&amp;O ITR filing</li>
                     <li><a href="/income-tax-return">Income Tax Return Filing</a> &ndash; Individual and business ITR filing</li>
                     <li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> &ndash; Property, shares, and MF capital gains</li>
                     <li><a href="/accounting-services">Accounting Services</a> &ndash; Year-round bookkeeping</li>
@@ -747,7 +747,7 @@
             <div class="content-text">
                 
                 <p>Missing the 31 July (non-audit) or 31 October (audit) deadline permanently forfeits F&amp;O loss carry-forward rights. With 93% of F&amp;O traders incurring losses averaging Rs 2 lakh (SEBI FY23-24 data), the majority of Mumbai's F&amp;O community has losses to carry forward. A trader with Rs 5 lakh F&amp;O loss who misses the deadline loses potential tax savings of Rs 1.5+ lakh in future profitable years.</p>
-                <p><strong>File your F&amp;O ITR on time &ndash; <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai." target="_blank">WhatsApp us</a>.</strong></p>
+                <p><strong>File your F&amp;O ITR on time &ndash; <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai." target="_blank" rel="noopener">WhatsApp us</a>.</strong></p>
 
             </div>
         </div>
@@ -768,7 +768,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20F%26O%20trading%20ITR%20filing%20in%20Mumbai.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

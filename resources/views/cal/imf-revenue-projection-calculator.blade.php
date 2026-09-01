@@ -1726,7 +1726,7 @@ a:focus-visible {
             <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/internal-audit" class="sidebar-link">Internal Audit <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup Registration <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

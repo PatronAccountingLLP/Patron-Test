@@ -15,11 +15,11 @@
 <meta content="/itr-for-real-estate-investors/" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta content="Patron Accounting" property="og:site_name"/>
-<meta content="/images/itr-for-real-estate-investors-og.webp" property="og:image"/>
+<meta content="/images/og-default-square.png" property="og:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="ITR for Real Estate Investors India: Section 24, 50C, 54 | Patron Accounting" name="twitter:title"/>
 <meta content="ITR for property investors with rental income and sales. Schedule HP, Section 24(b), Section 50C SDV rule, Section 54 reinvestment. Starts at Rs 5,999." name="twitter:description"/>
-<meta content="/images/itr-for-real-estate-investors-og.webp" name="twitter:image"/>
+<meta content="/images/og-default-square.png" name="twitter:image"/>
 @endsection
 @section('schema')
 <script type="application/ld+json">
@@ -851,7 +851,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 <svg fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;" viewbox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,12 2,6"></polyline></svg>
                             Email Us
                         </a>
-<a class="btn-sample text-decoration-none" href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20consultation%20for%20multi-property%20ITR%20filing%20AY%202026-27." target="_blank">
+<a class="btn-sample text-decoration-none" href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20consultation%20for%20multi-property%20ITR%20filing%20AY%202026-27." target="_blank" rel="noopener">
 <svg fill="currentColor" style="width:18px;height:18px;color:#25D366" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path></svg>
                             WhatsApp Us
                         </a>
@@ -1366,7 +1366,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;"><strong>Disclaimer:</strong> All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-<p style="margin-top:16px;"><strong>Get a free Real Estate Investor ITR consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20real%20estate%20investor%20ITR%20filing." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+<p style="margin-top:16px;"><strong>Get a free Real Estate Investor ITR consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20real%20estate%20investor%20ITR%20filing." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
 </div>
 </div>
 </div>
@@ -1489,14 +1489,14 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 <h2 class="section-title">Adjacent Patron Services</h2>
 <div class="content-text">
 <ul>
-<li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
-<li><strong><a href="/itr-for-property-sale/">ITR for Property Sale (Single Transaction Focus)</a></strong> - for one-time property sale scenarios; complements this multi-property service for investors with a single sale event.</li>
-<li><strong><a href="/itr-for-capital-gains/">ITR for Capital Gains (HNI Multi-Asset)</a></strong> - for investors with capital gains across equity, mutual funds, gold, bonds alongside property.</li>
-<li><strong><a href="/itr-for-nris/">ITR for NRIs (Returning NRI with Indian Properties)</a></strong> - Section 6 residency, Section 195 property TDS, NRO/NRE/RFC routing for NRI property investors.</li>
-<li><strong><a href="/itr-for-salary/">ITR for Salaries (Salaried Investors with Side Property Income)</a></strong> - for salaried employees with side property portfolio; Schedule HP plus Schedule S filing.</li>
-<li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - regime selection, HUF tagging, advance tax planning, pre-sale Section 54EC bond timing.</li>
-<li><strong><a href="/income-tax-notice-for-defective-return/">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for HP-loss-in-ITR-1 defective returns and similar Schedule HP misclassifications.</li>
-<li><strong><a href="/income-tax-notice/">Income Tax Notice Response (Sections 143, 148)</a></strong> - Section 50C scrutiny, Section 23(2) classification challenges, deemed rent disputes representation.</li>
+<li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
+<li><strong><a href="/itr-for-property-sale">ITR for Property Sale (Single Transaction Focus)</a></strong> - for one-time property sale scenarios; complements this multi-property service for investors with a single sale event.</li>
+<li><strong><a href="/itr-for-capital-gains">ITR for Capital Gains (HNI Multi-Asset)</a></strong> - for investors with capital gains across equity, mutual funds, gold, bonds alongside property.</li>
+<li><strong><a href="/itr-for-nris">ITR for NRIs (Returning NRI with Indian Properties)</a></strong> - Section 6 residency, Section 195 property TDS, NRO/NRE/RFC routing for NRI property investors.</li>
+<li><strong><a href="/itr-for-salary">ITR for Salaries (Salaried Investors with Side Property Income)</a></strong> - for salaried employees with side property portfolio; Schedule HP plus Schedule S filing.</li>
+<li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - regime selection, HUF tagging, advance tax planning, pre-sale Section 54EC bond timing.</li>
+<li><strong><a href="/income-tax-notice-for-defective-return">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for HP-loss-in-ITR-1 defective returns and similar Schedule HP misclassifications.</li>
+<li><strong><a href="/income-tax-notice">Income Tax Notice Response (Sections 143, 148)</a></strong> - Section 50C scrutiny, Section 23(2) classification challenges, deemed rent disputes representation.</li>
 </ul>
 </div>
 </div>
@@ -1653,7 +1653,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </div>
 <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">📞 Call +91 945 945 6700</a>
-<a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20real%20estate%20investor%20ITR%20filing." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" target="_blank">💬 WhatsApp Us</a>
+<a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20real%20estate%20investor%20ITR%20filing." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" target="_blank" rel="noopener">💬 WhatsApp Us</a>
 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">✉️ Email Us</a>
 </div>
 <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -1669,35 +1669,35 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 <div class="pa-cross-block">
 <h3 class="pa-cross-title">Related Patron Services</h3>
 <div class="pa-cross-grid">
-<a class="pa-cross-card" href="/income-tax-return/">
+<a class="pa-cross-card" href="/income-tax-return">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; 14 sub-services</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-property-sale/">
+<a class="pa-cross-card" href="/itr-for-property-sale">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for Property Sale</strong><span>Single transaction focus</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-capital-gains/">
+<a class="pa-cross-card" href="/itr-for-capital-gains">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for Capital Gains</strong><span>HNI multi-asset across all classes</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-nris/">
+<a class="pa-cross-card" href="/itr-for-nris">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for NRIs</strong><span>NRI property investor with Indian assets</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-salary/">
+<a class="pa-cross-card" href="/itr-for-salary">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for Salary</strong><span>Salaried investors with side property</span></div>
 </a>
-<a class="pa-cross-card" href="/tax-planning-services/">
+<a class="pa-cross-card" href="/tax-planning-services">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>Tax Planning Services</strong><span>Regime, HUF tagging, advance tax</span></div>
 </a>
-<a class="pa-cross-card" href="/income-tax-notice-for-defective-return/">
+<a class="pa-cross-card" href="/income-tax-notice-for-defective-return">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>Defective Return Notice</strong><span>Section 139(9) 15-day cure</span></div>
 </a>
-<a class="pa-cross-card" href="/income-tax-notice/">
+<a class="pa-cross-card" href="/income-tax-notice">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>143/148 plus Section 50C scrutiny</span></div>
 </a>

@@ -476,14 +476,14 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 
 <h3>Private Limited Company</h3>
 <p>Most extensive compliance — statutory audit always mandatory (no turnover threshold), 4 board meetings minimum per year (2 for small companies), AGM within 6 months of FY end, AOC-4 + MGT-7 + ADT-1 filings, annual DIR-3 KYC for every director, DPT-3 for deposits, CSR if applicable (₹500 Cr net worth or ₹1,000 Cr turnover or ₹5 Cr profit). Patron's Pvt Ltd package is the most popular — typically <strong>₹45,000 to ₹65,000 annually</strong> for ₹1-5 Cr turnover.</p>
-<p>See: <a href="https://www.patronaccounting.com/annual-compliance-private-limited">Annual Compliance — Private Limited service page</a> for full scope.</p>
+<p>See: <a href="https://www.patronaccounting.com/private-limited-company-compliance">Annual Compliance — Private Limited service page</a> for full scope.</p>
 
 <h3>One Person Company (OPC)</h3>
 <p>Similar to Pvt Ltd with simplifications — only 2 board meetings required, AGM not mandatory (if single member), MGT-7A instead of MGT-7. Mandatory conversion to Pvt Ltd when turnover exceeds ₹2 Crore or paid-up capital exceeds ₹50 Lakh — Patron handles the conversion. Typical compliance cost: <strong>₹35,000 to ₹50,000 annually</strong>.</p>
 
 <h3>Limited Liability Partnership (LLP)</h3>
 <p>Lighter compliance — only Form 8 + Form 11 + DPIN KYC + ITR-5. Statutory audit threshold: turnover above ₹40 Lakh OR capital above ₹25 Lakh. Tax audit applies separately at ₹1 Crore turnover. Typical compliance cost: <strong>₹25,000 to ₹40,000 annually</strong> — the cheapest option for service businesses without complex investor structures.</p>
-<p>See: <a href="https://www.patronaccounting.com/annual-compliance-llp">Annual Compliance — LLP service page</a>.</p>
+<p>See: <a href="https://www.patronaccounting.com/pvt-llp-compliance">Annual Compliance — LLP service page</a>.</p>
 
 <h3>Section 8 (Not-for-Profit) Company</h3>
 <p>Most compliance-heavy due to public interest oversight — same as Pvt Ltd PLUS 12A/80G renewals every 5 years, Form 10BD donor statement annually, Form 10B audit report, CSR-2 disclosures, ITR-7 (more complex than ITR-6), Foreign Contribution (FCRA) returns if FCRA registered. Typical compliance cost: <strong>₹50,000 to ₹75,000 annually</strong>.</p>
@@ -624,8 +624,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div>
 
 <div class="sidebar-card"><h3>Compliance Services</h3>
-<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/pvt-llp-compliance" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit (Section 44AB) <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">→</span></a>

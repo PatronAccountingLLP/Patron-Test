@@ -262,7 +262,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20scoping%20call%20for%20ESOP%20Corporate%20Filings." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20scoping%20call%20for%20ESOP%20Corporate%20Filings." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -801,7 +801,7 @@
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;"><strong>Disclaimer:</strong> All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;"><strong>Get a free ESOP Corporate Filings consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20quote%20for%20ESOP%20Corporate%20Filings%20retainer." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free ESOP Corporate Filings consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20quote%20for%20ESOP%20Corporate%20Filings%20retainer." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -938,13 +938,13 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/esop-management-and-compliance-services/">ESOP Management and Compliance</a></strong> - operational ESOP tracking, vesting administration and SH-6 register day-to-day maintenance.</li>
-                    <li><strong><a href="/private-limited-company-compliance/">Private Limited Company Compliance</a></strong> - broader Pvt Ltd MCA filings including AOC-4, MGT-7 (non-ESOP) and Directors' Report.</li>
-                    <li><strong><a href="/pvt-llp-compliance/">Pvt Ltd and LLP Compliance</a></strong> - parent compliance hub covering ROC filings, statutory registers and event-based forms.</li>
-                    <li><strong><a href="/issue-of-shares/">Issue of Shares</a></strong> - share allotment workflow and PAS-3 for non-ESOP allotments.</li>
-                    <li><strong><a href="/transfer-of-shares/">Transfer of Shares</a></strong> - secondary share transfers post ESOP exercise and Form SH-4 work.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - FC-GPR and FC-TRS for cross-border ESOP allotments to foreign employees.</li>
-                    <li><strong><a href="/compliance-calendar/">Compliance Calendar</a></strong> - integrated annual compliance calendar covering MCA, GST, Income Tax and ESOP events.</li>
+                    <li><strong><a href="/esop-management-and-compliance-services">ESOP Management and Compliance</a></strong> - operational ESOP tracking, vesting administration and SH-6 register day-to-day maintenance.</li>
+                    <li><strong><a href="/private-limited-company-compliance">Private Limited Company Compliance</a></strong> - broader Pvt Ltd MCA filings including AOC-4, MGT-7 (non-ESOP) and Directors' Report.</li>
+                    <li><strong><a href="/pvt-llp-compliance">Pvt Ltd and LLP Compliance</a></strong> - parent compliance hub covering ROC filings, statutory registers and event-based forms.</li>
+                    <li><strong><a href="/issue-of-shares">Issue of Shares</a></strong> - share allotment workflow and PAS-3 for non-ESOP allotments.</li>
+                    <li><strong><a href="/transfer-of-shares">Transfer of Shares</a></strong> - secondary share transfers post ESOP exercise and Form SH-4 work.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - FC-GPR and FC-TRS for cross-border ESOP allotments to foreign employees.</li>
+                    <li><strong><a href="/compliance-calendar">Compliance Calendar</a></strong> - integrated annual compliance calendar covering MCA, GST, Income Tax and ESOP events.</li>
                 </ul>
 
             </div>
@@ -1075,7 +1075,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20quote%20for%20ESOP%20Corporate%20Filings%20retainer." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20quote%20for%20ESOP%20Corporate%20Filings%20retainer." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -1094,27 +1094,27 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related National Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/esop-management-and-compliance-services/" class="pa-cross-card">
+                    <a href="/esop-management-and-compliance-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Management and Compliance</strong><span>Vesting, exercise tracking, SH-6 ops</span></div>
                     </a>
-                    <a href="/private-limited-company-compliance/" class="pa-cross-card">
+                    <a href="/private-limited-company-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Private Limited Company Compliance</strong><span>AOC-4, MGT-7, Directors' Report</span></div>
                     </a>
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>FC-GPR and FC-TRS for foreign employees</span></div>
                     </a>
-                    <a href="/issue-of-shares/" class="pa-cross-card">
+                    <a href="/issue-of-shares" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Issue of Shares</strong><span>Share allotment, PAS-3 workflow</span></div>
                     </a>
-                    <a href="/transfer-of-shares/" class="pa-cross-card">
+                    <a href="/transfer-of-shares" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Transfer of Shares</strong><span>SH-4 transfers post exercise</span></div>
                     </a>
-                    <a href="/compliance-calendar/" class="pa-cross-card">
+                    <a href="/compliance-calendar" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Compliance Calendar</strong><span>Integrated MCA/GST/IT/ESOP calendar</span></div>
                     </a>

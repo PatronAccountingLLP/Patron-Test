@@ -791,7 +791,7 @@ updateDerived();
 <a href="https://www.patronaccounting.com/net-owned-fund-certificate-for-nbfc" class="sidebar-link">Minimum Net Owned Fund for NBFC <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/net-worth-certificate-for-company" class="sidebar-link">Net Worth Certificate for Company <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/net-worth-certificate" class="sidebar-link">Net Worth Certificate <span class="arrow">&rarr;</span></a>
-<a href="https://www.patronaccounting.com/ca-certified-services" class="sidebar-link">All CA Certified Services <span class="arrow">&rarr;</span></a>
+<a href="/net-worth-certificate-by-ca" class="sidebar-link">All CA Certified Services <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/tools/company-net-worth-calculator" class="sidebar-link">Company Net Worth Calculator <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/tools/net-worth-calculator" class="sidebar-link">Net Worth Calculator <span class="arrow">&rarr;</span></a>
 </div>

@@ -1064,9 +1064,9 @@
                 <h3>Payroll Services</h3>
                 <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/payroll-processing-and-management-services" class="sidebar-link">Payroll Management <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR for Salaried <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/itr-for-salary" class="sidebar-link">ITR for Salaried <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>

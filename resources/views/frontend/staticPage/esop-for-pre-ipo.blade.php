@@ -295,7 +295,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20pre-IPO%20ESOP%20scoping%20call." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20pre-IPO%20ESOP%20scoping%20call." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -556,13 +556,13 @@
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
                         <tr><td>Historical Grant Audit and Cleanup</td><td>Comprehensive review of all ESOP grants made since incorporation - eligibility against Rule 12 and SBEB criteria, valuation defensibility, vesting status, exercise history and lock-in profile. Identify and remediate grants to consultants/advisors (ineligible) or grants without proper Board/EGM approval.</td></tr>
-<tr><td>Scheme Conversion to SBEB-Compliant Document</td><td>Rewrite of existing scheme to SEBI SBEB 2021 compliant document covering scheme type classification, pricing under Regulation 12, vesting under Regulation 14, lock-in under Regulation 15, variation under Regulation 18, listing under Regulation 19 and disclosure framework under Regulation 21-22. Coordinated with <a href="/esop-scheme-design/">ESOP Scheme Design</a>.</td></tr>
+<tr><td>Scheme Conversion to SBEB-Compliant Document</td><td>Rewrite of existing scheme to SEBI SBEB 2021 compliant document covering scheme type classification, pricing under Regulation 12, vesting under Regulation 14, lock-in under Regulation 15, variation under Regulation 18, listing under Regulation 19 and disclosure framework under Regulation 21-22. Coordinated with <a href="/esop-scheme-design">ESOP Scheme Design</a>.</td></tr>
 <tr><td>ESOP Trust Setup</td><td>Trust deed drafting under Indian Trusts Act 1882; trustee selection and F&amp;P screening under Regulation 28; trust banking and accounting setup; integration with payroll and HR systems. End-to-end trust formation typically 8-12 weeks.</td></tr>
 <tr><td>ICDR Lock-In Strategy and Timing Plan</td><td>Lock-in modelling for senior leadership and key employees - identify exercise windows to minimise Regulation 167 1-year-prior trigger; coordinate with employee personal liquidity planning; align with promoter MPC 3-year lock-in calculation.</td></tr>
 <tr><td>DRHP Schedule VI Part E Disclosure</td><td>Preparation of full DRHP ESOP disclosure - scheme details, grant/vesting/exercise history per scheme, exercise price, vesting conditions, intended use of equity dilution, Ind AS 102 accounting policy, FMV methodology, accounting impact and employee-wise top grants disclosure.</td></tr>
 <tr><td>BRLM and Merchant Banker Coordination</td><td>Working alongside the BRLM (typically ICICI Securities, Kotak Mahindra Capital, JM Financial, Axis Capital, Citi, Morgan Stanley, Goldman Sachs) - ESOP scheme review, lock-in confirmation, DRHP disclosure sign-off, SEBI observation responses and Stock Exchange in-principle approval submissions.</td></tr>
 <tr><td>SEBI Comments and Stock Exchange Approval</td><td>Response to SEBI observations on the offer document - typically 2-3 rounds; Stock Exchange (BSE / NSE) in-principle approval submissions; ESOP scheme listing arrangements under Regulation 19; ongoing disclosure framework setup for post-listing.</td></tr>
-<tr><td>Ind AS 102 Audit and Disclosure Coordination</td><td>Coordinated with <a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a> team for Schedule III disclosure, Black-Scholes computation history, accounting policy memo for DRHP and statutory audit working paper file.</td></tr>
+<tr><td>Ind AS 102 Audit and Disclosure Coordination</td><td>Coordinated with <a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a> team for Schedule III disclosure, Black-Scholes computation history, accounting policy memo for DRHP and statutory audit working paper file.</td></tr>
 
                     </tbody>
                 </table>
@@ -813,7 +813,7 @@
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Pre-IPO ESOP consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20discuss%20pre-IPO%20ESOP%20conversion." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free Pre-IPO ESOP consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20discuss%20pre-IPO%20ESOP%20conversion." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -948,14 +948,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong>ESOP Services</strong> - master hub for <a href="/esop-services/">end-to-end ESOP lifecycle services</a>.</li>
-                    <li><strong>ESOP Scheme Design</strong> - <a href="/esop-scheme-design/">first-time scheme drafting</a> (used as the foundation for SBEB conversion).</li>
-                    <li><strong>ESOP Accounting under Ind AS 102</strong> - <a href="/esop-accounting-ind-as-102/">share-based payment accounting</a> for DRHP and post-listing reporting.</li>
-                    <li><strong>ESOP Valuation Services</strong> - <a href="/esop-valuation-services/">Rule 11UA FMV reports</a> through SEBI Cat I Merchant Banker for pre-IPO valuations.</li>
-                    <li><strong>ESOP Corporate Filings</strong> - <a href="/esop-corporate-filings/">ongoing MCA filings retainer</a> post-conversion.</li>
-                    <li><strong>ESOP Restructuring and Underwater Options</strong> - <a href="/esop-restructuring-underwater-options/">scheme cleanup for down-round affected grants</a> pre-IPO.</li>
-                    <li><strong>Statutory Audit</strong> - <a href="/statutory-audit/">audit firm engagement for DRHP disclosure</a>.</li>
-                    <li><strong>ESOP for Foreign Parent Indian Subsidiary</strong> - <a href="/esop-for-foreign-parent-indian-subsidiary/">for pre-IPO entities with US/Singapore holdco structures</a>.</li>
+                    <li><strong>ESOP Services</strong> - master hub for <a href="/esop-services">end-to-end ESOP lifecycle services</a>.</li>
+                    <li><strong>ESOP Scheme Design</strong> - <a href="/esop-scheme-design">first-time scheme drafting</a> (used as the foundation for SBEB conversion).</li>
+                    <li><strong>ESOP Accounting under Ind AS 102</strong> - <a href="/esop-accounting-ind-as-102">share-based payment accounting</a> for DRHP and post-listing reporting.</li>
+                    <li><strong>ESOP Valuation Services</strong> - <a href="/esop-valuation-services">Rule 11UA FMV reports</a> through SEBI Cat I Merchant Banker for pre-IPO valuations.</li>
+                    <li><strong>ESOP Corporate Filings</strong> - <a href="/esop-corporate-filings">ongoing MCA filings retainer</a> post-conversion.</li>
+                    <li><strong>ESOP Restructuring and Underwater Options</strong> - <a href="/esop-restructuring-underwater-options">scheme cleanup for down-round affected grants</a> pre-IPO.</li>
+                    <li><strong>Statutory Audit</strong> - <a href="/statutory-audit">audit firm engagement for DRHP disclosure</a>.</li>
+                    <li><strong>ESOP for Foreign Parent Indian Subsidiary</strong> - <a href="/esop-for-foreign-parent-indian-subsidiary">for pre-IPO entities with US/Singapore holdco structures</a>.</li>
                 </ul>
 
             </div>
@@ -1114,7 +1114,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20discuss%20pre-IPO%20ESOP%20conversion." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20discuss%20pre-IPO%20ESOP%20conversion." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -1141,12 +1141,12 @@
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end support for Pre-IPO ESOP</div>
                 <div class="pa-cross-grid">
-                    <a href="/esop-services/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-scheme-design/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Scheme Design</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-valuation-services/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Valuation</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Accounting Ind AS 102</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Corporate Filings</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-for-foreign-parent-indian-subsidiary/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Foreign Parent ESOP</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Services</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-scheme-design" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Scheme Design</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-valuation-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Valuation</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Accounting Ind AS 102</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-corporate-filings" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Corporate Filings</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-for-foreign-parent-indian-subsidiary" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Foreign Parent ESOP</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>
         </div>

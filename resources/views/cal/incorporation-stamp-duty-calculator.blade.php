@@ -956,7 +956,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Registration Pages</h3>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
         </div>

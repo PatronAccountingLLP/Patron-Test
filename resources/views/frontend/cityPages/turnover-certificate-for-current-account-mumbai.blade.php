@@ -253,7 +253,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20opening%20in%20Mumbai.%20Please%20help." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20opening%20in%20Mumbai.%20Please%20help." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -406,7 +406,7 @@
                     
                     <p>A CA certificate for current account (turnover certificate for bank account opening) is a formal document certifying a business's existence, nature, and turnover to enable opening a current account without GST registration. Serves as alternative proof of business existence under RBI KYC norms.</p>
                     <p>Banks require at least one proof of business existence for current accounts. GST certificate is primary, but businesses below threshold (Rs 20L services / Rs 40L goods per CGST Act 2017) use CA certificate instead. Verified against ITR, bank statements, and registration documents. For <a href="/gst-registration/mumbai">GST Registration Mumbai</a>, see our page.</p>
-                    <p>For Mumbai sole proprietors &ndash; a Dadar shop owner with Shop Act licence and Rs 15L turnover, or a Powai freelancer earning Rs 12L &ndash; this certificate opens a current account at any bank without premature GST registration. For <a href="/sole-proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a>, see our page.</p>
+                    <p>For Mumbai sole proprietors &ndash; a Dadar shop owner with Shop Act licence and Rs 15L turnover, or a Powai freelancer earning Rs 12L &ndash; this certificate opens a current account at any bank without premature GST registration. For <a href="/proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a>, see our page.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
@@ -592,7 +592,7 @@
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Turnover Certificate for Current Account consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20opening%20in%20Mumbai.%20Please%20help." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free Turnover Certificate for Current Account consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20opening%20in%20Mumbai.%20Please%20help." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -698,7 +698,7 @@
                     <li><a href="/net-worth-certificate/mumbai">Net Worth Certificate Mumbai</a></li>
                     <li><a href="/income-tax-return/mumbai">ITR Filing in Mumbai</a></li>
                     <li><a href="/gst-registration/mumbai">GST Registration Mumbai</a></li>
-                    <li><a href="/sole-proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a></li>
+                    <li><a href="/proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a></li>
                     <li><a href="/udyam-registration">Udyam Registration</a></li>
                     <li><a href="/shop-act-registration">Shop Act Registration</a></li>
                     <li><a href="/fssai-registration">FSSAI Registration</a></li>
@@ -802,7 +802,7 @@
             <div class="content-text">
                 
                 <p>Need to receive a client payment, set up UPI business QR, or start e-commerce settlements? Don't register for GST unnecessarily. Patron's Marine Lines office delivers CA certificates for current account within 30 minutes with UDIN. Works with all major Mumbai banks.</p>
-                <p><strong>Get your certificate now &ndash; <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20in%20Mumbai." target="_blank">WhatsApp us</a>.</strong></p>
+                <p><strong>Get your certificate now &ndash; <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20in%20Mumbai." target="_blank" rel="noopener">WhatsApp us</a>.</strong></p>
 
             </div>
         </div>
@@ -823,7 +823,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20opening%20in%20Mumbai.%20Please%20help." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA%20certificate%20for%20current%20account%20opening%20in%20Mumbai.%20Please%20help." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

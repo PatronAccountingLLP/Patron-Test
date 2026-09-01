@@ -483,10 +483,10 @@
         </div>
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return (ITR) Filing <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/accounting-bookkeeping-services" class="sidebar-link">Accounting &amp; Bookkeeping <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">TDS Returns <span class="arrow">&rarr;</span></a>
         </div>

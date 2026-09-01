@@ -583,7 +583,7 @@
  "@type": "Organization",
  "name": "Patron Accounting LLP",
  "url": "https://www.patronaccounting.com/",
- "logo": "https://www.patronaccounting.com/images/logo.png",
+ "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
  "sameAs": [
  "https://www.linkedin.com/company/patron-accounting"
  ],
@@ -2008,24 +2008,14 @@
  <p class="tile-cp-blurb">Monthly books supervised by a CA - the source of truth for GSTR-1 and 3B reconciliation.</p>
  <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/gstat-litigation-services" class="tile-cp">
- <div class="tile-cp-meta-row"><span>14.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">GSTAT Litigation</h3>
- <p class="tile-cp-blurb">Tribunal-stage GST disputes - appeals, stay, condonation. The escalation path beyond Section 107.</p>
- <div class="tile-cp-foot"><span>From INR 49,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
- </a>
+ 
  <a href="https://www.patronaccounting.com/income-tax-return" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">Income Tax Return Filing</h3>
  <p class="tile-cp-blurb">ITR for businesses and individuals - books and GST returns feed the income-tax computation.</p>
  <div class="tile-cp-foot"><span>From INR 499<span class="ast">*</span></span><span class="arrow">↗</span></div>
  </a>
- <a href="https://www.patronaccounting.com/audit-assurance-services" class="tile-cp">
- <div class="tile-cp-meta-row"><span>14.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
- <h3 class="tile-cp-title">Audit & Assurance</h3>
- <p class="tile-cp-blurb">Statutory, tax and GST audit - Section 65 departmental audit cross-lists from this hub.</p>
- <div class="tile-cp-foot"><span>From INR 9,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
- </a>
+ 
  <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="tile-cp">
  <div class="tile-cp-meta-row"><span>14.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
  <h3 class="tile-cp-title">ROC Compliance</h3>

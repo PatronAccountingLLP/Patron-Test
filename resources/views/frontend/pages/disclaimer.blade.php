@@ -286,19 +286,19 @@
     <div class="ols-container">
         <span class="ols-label">📍 Our Offices</span>
         <div class="ols-offices">
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJV6BM7FnBwjsRyyAfaIsfMqM" target="_blank" class="ols-office active">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJV6BM7FnBwjsRyyAfaIsfMqM" target="_blank" class="ols-office active" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Pune
             </a>
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJ83f7WkHP5zsRUEuc4_l1RVw" target="_blank" class="ols-office">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJ83f7WkHP5zsRUEuc4_l1RVw" target="_blank" class="ols-office" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Mumbai
             </a>
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJr804ewcBDTkRBlaNBTnipcY" target="_blank" class="ols-office">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJr804ewcBDTkRBlaNBTnipcY" target="_blank" class="ols-office" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Delhi
             </a>
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJt0L8I5QZDTkRiRCJ6rXQj6g" target="_blank" class="ols-office">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJt0L8I5QZDTkRiRCJ6rXQj6g" target="_blank" class="ols-office" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Gurugram
             </a>
@@ -318,7 +318,7 @@
     <span class="wsb-text">
         Join 5,000+ business owners. <span>Get compliance due date alerts on WhatsApp.</span>
     </span>
-    <a href="https://wa.me/919459456700" target="_blank" class="wsb-btn">Join Free →</a>
+    <a href="https://wa.me/919459456700" target="_blank" class="wsb-btn" rel="noopener">Join Free →</a>
     <button class="wsb-close" onclick="document.getElementById('whatsappStickyBar').style.display='none'" aria-label="Close">×</button>
 </div>
 

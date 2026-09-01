@@ -2379,7 +2379,7 @@
                             <span class="brand-text"><img src="{{ asset('images/Etoro.svg') }}" alt="eToro - Patron Accounting client" loading="lazy"></span>
                         </div>
                         <div class="brand-logo">
-                            <span class="brand-text"><img src="{{ asset('images/H_Rblock.svg') }}"
+                            <span class="brand-text"><img src="{{ asset('images/H_RBlock.svg') }}"
                                     alt="H&R Block - Patron Accounting client" loading="lazy"></span>
                         </div>
                         <div class="brand-logo">

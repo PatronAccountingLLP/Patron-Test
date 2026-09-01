@@ -892,7 +892,7 @@ a:focus-visible {
             <p>The inventory turnover ratio — also called the stock turnover ratio — measures how many times a business sells and replaces its inventory during a period, usually a financial year. It is one of the most useful efficiency metrics for any product business, because it shows whether stock is moving, whether cash is needlessly tied up, and whether you are holding the right scale of inventory for actual demand.</p>
             <p>For brands selling physical goods, inventory turnover links directly to cash flow, storage costs and operational efficiency. Stock that sits too long in a warehouse ties up working capital and risks becoming obsolete; stock that moves too fast risks stockouts and lost sales. The ratio helps you find the right balance.</p>
             <h3>Days Inventory Outstanding (DIO)</h3>
-            <p>Turnover is closely tied to <a href="https://www.patronaccounting.com/blog/days-inventory-outstanding-dio">days inventory outstanding</a> (DIO), also known as days sales of inventory. DIO converts the ratio into a number of days: 365 divided by the turnover ratio. A turnover of 5 means roughly 73 days of stock on hand. The lower your DIO, the faster you convert inventory into cash.</p>
+            <p>Turnover is closely tied to <a href="https://www.patronaccounting.com/blog/dso-days-sales-outstanding-reduce">days inventory outstanding</a> (DIO), also known as days sales of inventory. DIO converts the ratio into a number of days: 365 divided by the turnover ratio. A turnover of 5 means roughly 73 days of stock on hand. The lower your DIO, the faster you convert inventory into cash.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> A single year-end snapshot can be misleading for seasonal businesses. Average several months or quarters where you can, so peaks and troughs don't distort the ratio.</p>
             </div>
@@ -969,7 +969,7 @@ a:focus-visible {
             <h3>AS-2 / Ind AS 2 valuation</h3>
             <p>Inventory must be valued at the lower of cost and net realisable value under the applicable accounting standard. How you value stock directly affects both COGS and the inventory balance, and therefore the turnover ratio. Consistent valuation is what makes the ratio comparable year on year and against audited peers.</p>
             <h3>CARO 2020 inventory reporting</h3>
-            <p>Under the Companies (Auditor's Report) Order 2020, auditors of eligible companies must comment on physical verification of inventory and on whether the quarterly stock statements filed with banks against working-capital limits agree with the books. Our note on <a href="https://www.patronaccounting.com/blog/caro-2020-clause-ii-inventories">CARO 2020 Clause (ii)</a> explains this in detail. Discrepancies here are a common audit and lender concern.</p>
+            <p>Under the Companies (Auditor's Report) Order 2020, auditors of eligible companies must comment on physical verification of inventory and on whether the quarterly stock statements filed with banks against working-capital limits agree with the books. Our note on <a href="https://www.patronaccounting.com/blog/caro-2020-inventory-auditor-verification">CARO 2020 Clause (ii)</a> explains this in detail. Discrepancies here are a common audit and lender concern.</p>
             <h3>GST and tax records</h3>
             <p>Stock records also feed into GST reconciliations and income tax assessments. Auditors and the <a href="https://www.incometaxindia.gov.in/" target="_blank" rel="noopener">Income Tax Department</a> may scrutinise large swings in inventory, while accurate records support input tax credit claims handled through the <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">GST portal</a>. Companies must also maintain proper books under the <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener">Companies Act</a> administered by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">Ministry of Corporate Affairs</a>.</p>
             <div class="callout warn">
@@ -1077,9 +1077,9 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/inventory-turnover-ratio" class="sidebar-link">Inventory Turnover Ratio Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/days-inventory-outstanding-dio" class="sidebar-link">Days Inventory Outstanding (DIO) <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/cash-conversion-cycle" class="sidebar-link">Cash Conversion Cycle Explained <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/working-capital-management-indian-sme-liquidity-guide" class="sidebar-link">Inventory Turnover Ratio Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/dso-days-sales-outstanding-reduce" class="sidebar-link">Days Inventory Outstanding (DIO) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/working-capital-management-indian-sme-liquidity-guide" class="sidebar-link">Cash Conversion Cycle Explained <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

@@ -734,7 +734,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
                         </span>
-                        <a href="/migration-from-zoho-to-quickbooks" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/zoho-books-accounting" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -767,7 +767,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Zoho%20Books%20to%20QuickBooks%20migration%20in%20Pune.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Zoho%20Books%20to%20QuickBooks%20migration%20in%20Pune.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -906,7 +906,7 @@
                 </table>
                 </div>
 
-                <p>The trigger is usually the parent company. A US-headquartered group asks its Pune India subsidiary to report on the same platform the head office already runs, and that platform is QuickBooks Online. A funded SaaS product team in Hinjewadi or Magarpatta wants the local books to flow straight into the group's consolidation. An auto-component maker in Chakan or the MIDC belts at Bhosari needs one chart of accounts that the US controller recognises. Moving off Zoho Books is the way to get there. Learn more about our national <a href="/migration-from-zoho-to-quickbooks">Zoho to QuickBooks Migration</a> service.</p>
+                <p>The trigger is usually the parent company. A US-headquartered group asks its Pune India subsidiary to report on the same platform the head office already runs, and that platform is QuickBooks Online. A funded SaaS product team in Hinjewadi or Magarpatta wants the local books to flow straight into the group's consolidation. An auto-component maker in Chakan or the MIDC belts at Bhosari needs one chart of accounts that the US controller recognises. Moving off Zoho Books is the way to get there. Learn more about our national <a href="/zoho-books-accounting">Zoho to QuickBooks Migration</a> service.</p>
                 <p>Patron Accounting's Pune team handles the move end to end: exporting clean data from Zoho Books, mapping every ledger to the QuickBooks chart, loading balances, rebuilding GST, and proving the two trial balances agree to the rupee. If you would rather stay on Zoho, see <a href="/zoho-books-accounting/pune">Zoho Books Accounting in Pune</a>. This page is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -1210,7 +1210,7 @@
             <h2 class="section-title">Related Services</h2>
             <p class="pa-block-sub">Start with the national migration service, then explore complementary services across India.</p>
             <ul>
-                <li><a href="/migration-from-zoho-to-quickbooks">Zoho to QuickBooks Migration in India</a> - the national parent service</li>
+                <li><a href="/zoho-books-accounting">Zoho to QuickBooks Migration in India</a> - the national parent service</li>
                 <li><a href="/quickbooks-accounting">QuickBooks Accounting</a> - run QuickBooks confidently after the move</li>
                 <li><a href="/zoho-books-accounting">Zoho Books Accounting</a> - if you decide to stay on Zoho</li>
                 <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping</li>
@@ -1342,11 +1342,11 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Move Your Pune Books onto QuickBooks Cleanly</h2>
             <div class="content-text" style="text-align:left;">
                 <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">A botched migration costs far more than a planned one, in broken GST filings, mismatched balances, and re-keyed reports. Whether you run a SaaS team in Hinjewadi, an auto-ancillary unit in Chakan or the MIDC belts, or a practice in Magarpatta, Patron Accounting's CA-supervised migration exports your Zoho Books data, re-maps the chart of accounts, rebuilds GST, and reconciles the QuickBooks trial balance from INR 9,999.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">See the national <a href="/migration-from-zoho-to-quickbooks" style="color:#fff;text-decoration:underline;">Zoho to QuickBooks Migration</a> page, then continue with <a href="/quickbooks-accounting" style="color:#fff;text-decoration:underline;">QuickBooks Accounting</a> once you are live. Patron Accounting LLP serves 10,000+ businesses with a 4.9 Google rating.</p>
+                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">See the national <a href="/zoho-books-accounting" style="color:#fff;text-decoration:underline;">Zoho to QuickBooks Migration</a> page, then continue with <a href="/quickbooks-accounting" style="color:#fff;text-decoration:underline;">QuickBooks Accounting</a> once you are live. Patron Accounting LLP serves 10,000+ businesses with a 4.9 Google rating.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Zoho%20Books%20to%20QuickBooks%20migration%20in%20Pune.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Zoho%20Books%20to%20QuickBooks%20migration%20in%20Pune.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Zoho%20to%20QuickBooks%20Migration%20in%20Pune&body=Hello%20Patron%20Team%2C%0A%0AI%20need%20to%20migrate%20from%20Zoho%20Books%20to%20QuickBooks%20Online%20in%20Pune.%0A%0APlease%20contact%20me.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

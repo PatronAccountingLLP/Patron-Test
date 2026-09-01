@@ -828,7 +828,7 @@ a:focus-visible {
                     <tr><td>DIR-3 KYC (each director)</td><td>By 30 September annually</td></tr>
                 </tbody>
             </table>
-            <p>See Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company">post-incorporation compliance guide</a> and the dedicated <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate">INC-20A filing</a> walkthrough.</p>
+            <p>See Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-private-limited-company">post-incorporation compliance guide</a> and the dedicated <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate">INC-20A filing</a> walkthrough.</p>
         </section>
 
         <div class="body-cta">
@@ -879,7 +879,7 @@ a:focus-visible {
             <p>Beyond the MCA filings, most new businesses need one or more of these depending on activity, turnover and headcount:</p>
             <ul>
                 <li><strong>GST</strong> — on crossing the turnover threshold, or for inter-state / e-commerce supplies; many register voluntarily. See <a href="https://www.patronaccounting.com/gst-registration">GST registration</a>.</li>
-                <li><strong>Professional Tax</strong> — in states that levy it, often within 30 days of hiring. See <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services">PT compliance</a>.</li>
+                <li><strong>Professional Tax</strong> — in states that levy it, often within 30 days of hiring. See <a href="/pt-returns">PT compliance</a>.</li>
                 <li><strong>PF & ESI</strong> — mandatory on crossing the employee thresholds. See <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services">ESIC compliance</a>.</li>
                 <li><strong>Shops & Establishment</strong> — commonly required locally for premises and staff.</li>
                 <li><strong>DPIIT recognition</strong> — optional but valuable for startups; check eligibility with the <a href="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">DPIIT eligibility checker</a>.</li>
@@ -970,7 +970,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company" class="sidebar-link">Post-Incorporation Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-private-limited-company" class="sidebar-link">Post-Incorporation Compliance <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate" class="sidebar-link">INC-20A Filing Guide <span class="arrow">→</span></a>
         </div>
     </aside>

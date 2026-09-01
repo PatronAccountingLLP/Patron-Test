@@ -1550,7 +1550,7 @@ a:focus-visible {
                 <li><strong>Verify CCFS-2026 eligibility.</strong> Confirm the company is not excluded and that each form is covered before assuming the 90% waiver applies.</li>
                 <li><strong>File in sequence and pay.</strong> File year by year, oldest first, paying the normal fee plus the reduced additional fee within the window.</li>
             </ol>
-            <p>Because MGT-7 requires certification by a practising Company Secretary above a paid-up capital threshold and AOC-4 needs an auditor's sign-off, most multi-year backlogs are best handled by professionals familiar with CCFS-2026 procedures. Patron Accounting's team handles end-to-end backlog clearance — see our <a href="https://www.patronaccounting.com/private-limited-company-compliance">private limited company compliance</a> and <a href="https://www.patronaccounting.com/registrar-of-companies">Registrar of Companies (ROC) notice</a> services.</p>
+            <p>Because MGT-7 requires certification by a practising Company Secretary above a paid-up capital threshold and AOC-4 needs an auditor's sign-off, most multi-year backlogs are best handled by professionals familiar with CCFS-2026 procedures. Patron Accounting's team handles end-to-end backlog clearance — see our <a href="https://www.patronaccounting.com/private-limited-company-compliance">private limited company compliance</a> and <a href="https://www.patronaccounting.com/roc-notice">Registrar of Companies (ROC) notice</a> services.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This tool gives a planning estimate, not a statutory computation. Actual additional fees depend on the exact due date and filing date of each individual form. Confirm the precise figure with a Chartered Accountant before paying on the MCA portal.</p>
             </div>
@@ -1684,7 +1684,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/registrar-of-companies" class="sidebar-link">Registrar of Companies Notice <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/roc-notice" class="sidebar-link">Registrar of Companies Notice <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/director-kyc" class="sidebar-link">Director KYC <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/company-closure" class="sidebar-link">Company Closure <span class="arrow">→</span></a>

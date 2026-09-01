@@ -377,7 +377,7 @@
             <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/gst-returns-for-e-commerce-operator" class="sidebar-link">E-Commerce GST Returns <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/gst-returns-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Tools</h3>

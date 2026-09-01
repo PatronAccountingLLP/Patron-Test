@@ -505,12 +505,29 @@ foreach ($cleanup404Redirects as $__r) {
  * than 404 so Google stops re-crawling them.
  */
 $cleanup404Gone = [
-    // Deliberately empty in this release.
+    // The 231 URLs originally earmarked here still ship separately as Phase 1.1.4.
     //
-    // The 231 URLs that belong here are shipping separately as Phase 1.1.4. A 410
-    // is the strongest signal we send Google - it says the page is gone and will
-    // not return - so it is reviewed on its own rather than riding along with 361
-    // redirects and being approved by association.
+    // The fourteen below are a different case and were added after a full crawl.
+    // They were never published - each was linked from a "related services" block
+    // written against a service line that was planned and never built - so there
+    // is no page to redirect to and nothing live that means the same thing. Every
+    // candidate destination was checked and returns 404 too. A 410 says so plainly
+    // and stops Google re-crawling them; the 29 internal links that pointed here
+    // are removed in the same change, so nothing on the site reaches these now.
+    '/aif-registration',
+    '/audit-assurance-services',
+    '/audit-services',
+    '/business-valuation-services',
+    '/capital-gains-tax-advisory',
+    '/compounding-of-offences',
+    '/direct-tax-services',
+    '/duns-number-service',
+    '/fema-compliance',
+    '/gstat-litigation-services',
+    '/income-tax-litigation',
+    '/international-fema-services',
+    '/scrutiny-assessment',
+    '/section-8-compliance',
 ];
 
 foreach ($cleanup404Gone as $__g) {

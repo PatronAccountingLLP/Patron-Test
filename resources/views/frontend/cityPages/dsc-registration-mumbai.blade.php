@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Same-day DSC issuance with portal registration, emSigner setup, expiry tracking, and integrated compliance for Mumbai businesses.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -915,6 +915,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </div>
 </section>
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, &amp; stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Multi-property investors across Pune, Mumbai, Delhi NCR, Bengaluru, Hyderabad and Chennai. 2-property to HNI 5-plus portfolio, residential and commercial, recurring rental plus occasional sales, Section 50C valuation references, Section 54/54F/54EC reinvestment stacking, returning NRI scenarios. 1,800+ engagements since 2019.',
+])
 <!-- STATS BAR -->
 <div class="stats-bar">
 <div class="stats-container">

@@ -284,6 +284,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get expert CA assistance for TAN registration in Chennai. From Form 49B to quarterly TDS returns, we handle everything.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

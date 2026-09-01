@@ -312,6 +312,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From Andheri MIDC manufacturers to BKC BFSI operations to Powai IT firms to JNPT logistics - Mumbai\'s employers trust Patron for ESIC return filing.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -350,6 +350,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Founders and employees trust Patron Accounting to compute the ESOP perquisite, validate the FMV and align employer TDS so both sides are protected at assessment.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

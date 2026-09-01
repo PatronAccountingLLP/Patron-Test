@@ -308,6 +308,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Gratuity calculation, actuarial valuation, and compliance from Rs 4,999. New Labour Code transition support included.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

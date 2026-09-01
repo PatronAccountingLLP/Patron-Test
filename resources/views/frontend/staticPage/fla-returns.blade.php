@@ -297,6 +297,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert FLA return filing - FLAIR portal registration, 5-section form preparation, DSC submission, and compounding for past non-filing under FEMA 1999.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

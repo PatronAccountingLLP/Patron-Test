@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led healthcare accounting with GST segregation, trust audit, Charity Commissioner S.41AA, and revenue cycle management for Mumbai hospitals.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

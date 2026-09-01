@@ -814,6 +814,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Hospitals, pharma manufacturers, nursing homes, diagnostic chains, and CROs trust Patron\'s single-partner healthcare audit, SA 501 plant attendance, TPA sidecar reconciliation, and integrated Section 35(2AB) Form 3CLA.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

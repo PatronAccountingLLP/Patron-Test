@@ -244,6 +244,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From salaried IT traders to full-time professionals, Pune\'s F&amp;O community trusts Patron for ITR compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -312,6 +312,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Hyderabad non-profits trust Patron for Section 8 registration, 12A/80G, CSR-1, and statutory audit.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

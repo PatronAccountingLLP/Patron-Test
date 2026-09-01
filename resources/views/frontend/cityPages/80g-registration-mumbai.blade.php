@@ -322,6 +322,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-managed 80G registration with Form 10BD/10BE compliance and CSR readiness for Mumbai NGOs.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

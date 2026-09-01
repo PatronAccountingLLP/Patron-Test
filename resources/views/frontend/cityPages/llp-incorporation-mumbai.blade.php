@@ -318,6 +318,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Patron has helped 10,000+ businesses with LLP registration, compliance, and annual filing. Mumbai entrepreneurs trust us for CA-managed incorporation near RoC Mumbai.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

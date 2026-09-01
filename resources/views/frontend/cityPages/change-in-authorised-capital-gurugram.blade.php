@@ -319,6 +319,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Authorised capital change with SH-7 filing, Haryana stamp duty, and ROC Haryana expertise from Gurugram.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

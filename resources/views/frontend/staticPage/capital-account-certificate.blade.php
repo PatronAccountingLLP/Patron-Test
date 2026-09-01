@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Talk to our FEMA compliance team about Form ECB-2 certification, capital-account compliance, and on-time monthly filing through your AD bank to the RBI, with UDIN.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

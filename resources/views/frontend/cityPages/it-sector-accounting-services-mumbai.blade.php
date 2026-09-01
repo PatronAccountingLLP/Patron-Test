@@ -302,6 +302,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led IT accounting with LUT export, S.194J TDS, ESOP, transfer pricing, and investor MIS for Mumbai tech companies.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

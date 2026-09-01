@@ -319,6 +319,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From LUT filing through to quarterly accumulated ITC refund, Circular 161 group concern defence, and Finance Act 2026 intermediary fix invocation - Patron handles the full IT exporter refund pipeline with CA-led pattern-specific defence and FIRC/BSR/Softex documentary discipline.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

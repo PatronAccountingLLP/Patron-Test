@@ -272,6 +272,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute consultation with a CA. We respond within 2 hours, every day. Volume discounts apply for traders with 5+ broker accounts or partnership trading firms.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

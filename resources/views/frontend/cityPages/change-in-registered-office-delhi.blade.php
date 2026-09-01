@@ -283,6 +283,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'ROC jurisdiction verified. All 4 scenarios handled. RD represented. Post-change coordinated.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

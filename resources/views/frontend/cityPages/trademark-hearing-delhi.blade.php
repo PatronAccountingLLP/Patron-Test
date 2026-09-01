@@ -315,6 +315,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert trademark hearing representation and IP prosecution for Delhi applicants.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -310,6 +310,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get expert IT notice response from a CA team that handles 139(9), 143(1), 143(2) scrutiny, 148 reassessment, and ITAT appeals.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

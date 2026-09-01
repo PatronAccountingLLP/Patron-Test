@@ -933,6 +933,12 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Listed companies and boards trust Patron Accounting to run their annual SBEB Regulation 14 ESOP disclosure, the AGM secretarial-auditor certificate and the related filings on a predictable retainer.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

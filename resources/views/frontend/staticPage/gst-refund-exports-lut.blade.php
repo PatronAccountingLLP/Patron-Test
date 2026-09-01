@@ -329,6 +329,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From RFD-11 LUT filing through to RFD-06 bank credit - Patron handles the full Rule 96A and Rule 89 export refund pipeline with CA-led working-capital diagnostic and Mavenir Systems-backed eBRC defence.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -255,6 +255,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get CA-supervised QuickBooks data recovery, platform migration, and ongoing accounting for your Gurugram business.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

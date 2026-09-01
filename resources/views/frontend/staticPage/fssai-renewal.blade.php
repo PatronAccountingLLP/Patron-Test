@@ -296,6 +296,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert FSSAI renewal - proactive deadline tracking, FoSCoS portal filing, and zero-lapse guarantee under the FSS Act, 2006.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

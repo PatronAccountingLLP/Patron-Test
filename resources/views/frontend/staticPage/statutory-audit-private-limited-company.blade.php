@@ -867,6 +867,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Talk to a Patron CA team specialising in Pvt Ltd statutory audit - Section 139 appointment, CARO 2020 four-criteria mapping, Section 143(3)(i) IFC testing, ADT-1 and AOC-4 filing with senior CA partner review.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

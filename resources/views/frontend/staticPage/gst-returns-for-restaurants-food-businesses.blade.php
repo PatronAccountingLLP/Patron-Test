@@ -314,6 +314,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert restaurant GST filing - rate classification, GSTR-1/3B, CMP-08, Section 9(5) platform compliance, and multi-outlet management.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

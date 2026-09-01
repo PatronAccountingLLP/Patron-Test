@@ -284,6 +284,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Strategic planning. Valuation coordinated. Delhi stamp duty. Form 3 in 7 days. Audit threshold monitored.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

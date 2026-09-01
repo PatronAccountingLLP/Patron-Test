@@ -347,6 +347,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From pharma, IT, engineering, textile, and chemical exporters to SEZ suppliers and IDS manufacturers - we recover Section 56 statutory interest and Section 115 pre-deposit interest for 200+ businesses with delayed refund cycles across India.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -275,6 +275,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Change your auditor with zero compliance gaps. Starting at INR 1,999. All 3 routes handled end-to-end.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

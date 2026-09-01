@@ -331,6 +331,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute consultation. Backlog diagnostic in 24 hours. CCFS-2026 amnesty eligibility checked on Day 1. Path selection (Section 460 vs Section 441) locked before billing begins.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

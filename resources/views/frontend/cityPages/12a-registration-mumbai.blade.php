@@ -317,6 +317,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Patron has helped 10,000+ organisations with 12A registration, 80G compliance, and annual NGO filings. Mumbai non-profits trust us for CA-managed tax exemption support.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

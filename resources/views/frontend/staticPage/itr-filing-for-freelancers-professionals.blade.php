@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'File your professional or freelancer ITR with expert CA support. Section 44ADA, TDS reconciliation, foreign income from Rs 1,499.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

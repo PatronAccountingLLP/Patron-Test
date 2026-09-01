@@ -393,6 +393,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'NRIs and OCIs across US, UK, UAE, Canada, Singapore, Australia and EU. NRO TDS recovery, DTAA Form 67, Schedule FA for RORs, RNOR transition for returning NRIs, Section 197 property sale planning, Section 6(1A) deemed residency. 4.9 Google Rating. 15+ years.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

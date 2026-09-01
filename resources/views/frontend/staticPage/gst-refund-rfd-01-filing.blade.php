@@ -347,6 +347,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From pharma, IT services, engineering, textile, and chemical exporters to SEZ suppliers and IDS manufacturers - we file RFD-01 across all 8 refund categories for 200+ Indian businesses with above-90 percent first-time approval rate.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

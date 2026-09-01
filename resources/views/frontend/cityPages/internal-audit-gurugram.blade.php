@@ -323,6 +323,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Patron has helped 10,000+ businesses with internal audit, governance frameworks, and compliance. Gurugram companies trust us for CA-led risk-based audit with actionable management letters.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

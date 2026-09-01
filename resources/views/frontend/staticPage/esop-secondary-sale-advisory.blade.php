@@ -421,6 +421,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Indian growth-stage and pre-IPO startups across SaaS, fintech, consumer-tech, healthtech and pharma verticals. Series C onwards. Tender offers, Section 68 buybacks, Trust secondary acquisitions and direct secondary sales. Cross-border buyers with FEMA NDI Rule 21 plus FC-TRS workflows. 10,000+ businesses served. 4.9 Google Rating. 15+ years.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

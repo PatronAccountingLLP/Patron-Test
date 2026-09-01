@@ -295,6 +295,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led ecommerce accounting with marketplace reconciliation, TCS/TDS, multi-state GST, and investor MIS for Mumbai online sellers.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

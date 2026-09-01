@@ -305,6 +305,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'File your salary ITR with expert CA support. Form 16 verification, regime comparison, TDS refund from Rs 499.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

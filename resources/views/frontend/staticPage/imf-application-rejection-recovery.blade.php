@@ -143,7 +143,6 @@
 @endsection
 
 @section('content')
-@php(config(['pa.testimonials_rendered' => true])) {{-- this page builds its own testimonials; the layout stands down --}}
 <style>
         /* ============================================
            CSS VARIABLES

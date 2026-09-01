@@ -295,6 +295,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert FCRA registration - eligibility assessment, SBI account coordination, Form FC-3A filing, and MHA liaison under the FCRA, 2010.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

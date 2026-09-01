@@ -347,6 +347,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From IT services, SaaS platforms, software development, consulting, BPO/KPO, Global In-house Centres, to engineering services exporters - we file 200+ service-export refund cycles annually with deep Section 2(6) and Section 13 IGST expertise.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

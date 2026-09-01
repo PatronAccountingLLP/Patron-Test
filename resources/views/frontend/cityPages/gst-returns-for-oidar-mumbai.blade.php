@@ -311,6 +311,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From non-resident streaming platforms to Powai SaaS companies to Andheri AdTech firms to BKC enterprise subscribers - Mumbai\'s digital ecosystem trusts Patron for OIDAR GST.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

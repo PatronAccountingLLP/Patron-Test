@@ -302,6 +302,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led NGO payroll with FCRA admin cap, 12A application tracking, trust IX-C, project-wise allocation, and PF/ESI for Mumbai NGOs and foundations.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

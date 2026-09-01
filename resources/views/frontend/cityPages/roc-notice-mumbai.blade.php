@@ -318,6 +318,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From Powai startups facing first-time strike-off to BKC corporates with subsidiary defaults to Nariman Point dormant companies needing revival - Mumbai\'s companies trust Patron for ROC notice resolution.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

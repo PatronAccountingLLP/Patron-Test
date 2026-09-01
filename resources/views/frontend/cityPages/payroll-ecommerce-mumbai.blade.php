@@ -295,6 +295,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led ecommerce payroll with tech CTC, warehouse shifts, delivery classification, PF/ESI, and multi-location compliance for Mumbai ecommerce companies.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -302,6 +302,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led education accounting with trust audit, Form 10B, Charity Commissioner IX-C, and GST advisory for Mumbai schools and colleges.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

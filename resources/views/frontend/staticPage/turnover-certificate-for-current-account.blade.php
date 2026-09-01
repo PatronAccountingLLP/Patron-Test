@@ -296,6 +296,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert CA-issued turnover certificates - UDIN verified, bank-accepted, delivered within 24 hours for current account opening.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

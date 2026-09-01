@@ -869,6 +869,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Talk to a Patron CA team specialising in healthcare payroll - ESI compliance, locum 194J batch, CLRA contractor reconciliation and NABH 5th Edition employee-file readiness.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

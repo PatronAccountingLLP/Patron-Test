@@ -925,6 +925,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute consultation. Rule 3 eligibility screening in 24 hours. CCFS-2026 50% MSC-1 fee discount applied where window allows. Two engagement modes - one-time conversion or ongoing annual maintenance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

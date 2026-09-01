@@ -302,6 +302,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led education payroll with pay scale compliance, visiting faculty TDS, academic calendar processing, and trust accounting for Mumbai schools and colleges.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

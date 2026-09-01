@@ -283,6 +283,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Convert your partnership firm to LLP with expert CA/CS support. Tax-neutral. Starting at INR 9,999.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

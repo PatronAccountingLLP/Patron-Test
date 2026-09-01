@@ -323,6 +323,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Patron has helped 10,000+ businesses with PAN, TAN, GST, and complete compliance setup. Mumbai businesses trust us for accurate, CA-managed registration.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

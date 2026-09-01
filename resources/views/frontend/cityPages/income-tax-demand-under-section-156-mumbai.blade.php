@@ -315,6 +315,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get your IT demand analysed and responded to by a CA team that coordinates with CIT Mumbai, CPC, and CIT(A) &ndash; from demand verification to recovery defence.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -421,6 +421,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Indian B2B SaaS founders across DevTools, vertical SaaS, MarTech, GTM Tech, Customer Data Platforms, Fintech-SaaS and B2B AI. Seed to Series C. India-incorporated and Delaware flip structures. ARR-linked vesting, quota acceleration, CSM NRR linkage, late co-founder backfill, revenue-multiple valuation navigation, US 409A coordination, FEMA OI Rules 2022 mirror grants.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

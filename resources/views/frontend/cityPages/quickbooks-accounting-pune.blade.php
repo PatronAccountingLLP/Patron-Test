@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From BPO firms at Hinjewadi to startups in Baner - Pune businesses trust Patron for QuickBooks accounting and migration.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

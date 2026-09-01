@@ -329,6 +329,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From LUT filing in Form GST RFD-11 through to deemed export refund under Notification 48/2017-CT - Patron handles the full three-route EOU refund pipeline with CA-led NFE tracking and APR coordination with Development Commissioner.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

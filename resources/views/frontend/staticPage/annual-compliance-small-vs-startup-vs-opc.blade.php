@@ -339,6 +339,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 20-minute regime-recommendation scoping call. Written memo in 2 working days. Both G.S.R. 880(E) and G.S.R. 108(E) compliance applied to your figures.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

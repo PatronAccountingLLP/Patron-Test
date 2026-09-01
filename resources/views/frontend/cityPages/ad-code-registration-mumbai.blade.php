@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From JNPT containerised exports to Air Cargo gems shipments to Mumbai Port Trust break-bulk - Mumbai\'s exporters trust Patron for AD code registration.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

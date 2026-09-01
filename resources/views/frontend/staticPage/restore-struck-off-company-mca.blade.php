@@ -925,6 +925,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 20-minute restoration feasibility call - written opinion within 48 hours. Section 252(3) 20-year window vs Section 252(1) 3-year window analysis on your specific CIN. Form NCLT-9 petition under Rule 87A of NCLT (Amendment) Rules 2017. Evidence pack reconstruction from bank, GST, ITR, vendor, employee records. Partner-CA or empanelled advocate hearing representation across NCLT benches pan-India. Post-order Form INC-28 + backlog AOC-4 / MGT-7 cleanup + DIR-10 DIN reactivation under Rule 14. CCFS-2026 amnesty window leveraged through 15 July 2026.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

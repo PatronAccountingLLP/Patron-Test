@@ -324,6 +324,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From Marathi feature producers to FTII alumni to YouTube creators - Pune filmmakers trust Patron for cinematographic film copyright and enforcement.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

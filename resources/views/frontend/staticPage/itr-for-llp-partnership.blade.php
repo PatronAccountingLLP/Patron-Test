@@ -320,6 +320,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Join 1,200+ LLPs and 2,400+ partnership firms who file their ITR-5 with Patron each year - LLP Act 2008 + Section 44AB + MCA Form 11 / Form 8 / DIR-3 KYC handled end-to-end across India.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -294,6 +294,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led security agency payroll with site-wise processing, VDA revision, PSARA compliance, CLRA documentation, and client billing reconciliation for Mumbai agencies.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

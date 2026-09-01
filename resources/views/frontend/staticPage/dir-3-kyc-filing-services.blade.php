@@ -330,6 +330,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute consultation. Triennial cycle tracking for retainer clients. DIN reactivation with downstream backlog release in 3-5 working days.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

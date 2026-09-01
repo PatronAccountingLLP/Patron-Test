@@ -304,6 +304,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert PT return filing - PTRC monthly/annual, PTEC annual payment, multi-state compliance, and penalty remediation across 20 Indian states.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

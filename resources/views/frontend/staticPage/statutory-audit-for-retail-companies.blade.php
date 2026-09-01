@@ -872,6 +872,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Retail chain CFOs, omnichannel D2C founders and franchise networks across India trust our six-risk-area audit framework. Talk to a CA partner directly.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

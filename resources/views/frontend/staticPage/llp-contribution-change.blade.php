@@ -308,6 +308,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Change your LLP contribution with expert CA/CS support. Starting at INR 2,499. Form LLP-3 filing in 7-10 working days.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

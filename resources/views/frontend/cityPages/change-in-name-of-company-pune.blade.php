@@ -284,6 +284,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From startups to manufacturing units, Pune companies trust Patron for name changes and corporate compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

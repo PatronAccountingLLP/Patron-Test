@@ -313,6 +313,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get your Shop Act licence for shops, offices, restaurants, and commercial establishments with expert CA support across all states.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

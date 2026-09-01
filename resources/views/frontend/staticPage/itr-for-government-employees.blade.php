@@ -393,6 +393,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Central + State government, Indian Railways, Defence (Army, Navy, Air Force), Paramilitary (CRPF, BSF, ITBP, CISF), Police, PSU (BHEL, NTPC, ONGC, SBI), retirees, pensioners. 4,500+ government employee ITRs filed since 2019. Rs 26 lakh saved across three retirement engagements in FY 2024-25.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

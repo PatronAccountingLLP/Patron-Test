@@ -295,6 +295,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led service sector payroll with consultant TDS, partner draw, BPO shift processing, flexi-CTC, and staffing compliance for Mumbai service firms.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -324,6 +324,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-managed IEC registration with RCMC, AD Code, and FTP advisory for Pune exporters.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

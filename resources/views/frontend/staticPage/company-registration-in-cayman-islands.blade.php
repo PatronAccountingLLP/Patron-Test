@@ -306,6 +306,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From structuring and incorporation to economic substance and FEMA ODI reporting, funds and founders trust Patron Accounting for their Cayman holding structure.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

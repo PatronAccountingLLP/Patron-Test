@@ -302,6 +302,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-certified turnover certificate for current account opening, bank loans, and tender eligibility with UDIN for Pune businesses.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

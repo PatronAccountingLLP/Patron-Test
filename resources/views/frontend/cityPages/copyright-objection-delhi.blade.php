@@ -312,6 +312,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Copyright objection reply with case law, hearing representation, and S.60 groundless threats advisory.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

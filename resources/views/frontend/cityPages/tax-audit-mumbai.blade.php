@@ -315,6 +315,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get your tax audit done by a CA team that handles GST-IT reconciliation, digital threshold assessment, and e-filing well before deadline.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

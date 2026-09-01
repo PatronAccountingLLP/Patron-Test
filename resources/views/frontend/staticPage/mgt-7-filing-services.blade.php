@@ -931,6 +931,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute scoping call. MGT-7 vs MGT-7A variant test on intake (Section 2(85) + G.S.R. 880(E)). AOC-4-before-MGT-7 sequencing protocol applied. MGT-8 threshold tested for listed / Rs 10 cr+ / Rs 50 cr+ companies. Section 92(5) post-Companies (Amendment) Act 2020 penalty framework applied (substituted via S.O. 4646(E) dated 21 December 2020). CCFS-2026 amnesty window (15 April-15 July 2026) leveraged for backlog cleanup where applicable.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

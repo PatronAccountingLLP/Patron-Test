@@ -282,6 +282,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From marketplace operators to D2C sellers, Pune businesses trust Patron for e-commerce GST compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

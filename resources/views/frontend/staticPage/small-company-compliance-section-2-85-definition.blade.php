@@ -891,6 +891,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Promoters, CFOs, and group accountants who needed a defensible Section 2(85) opinion.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

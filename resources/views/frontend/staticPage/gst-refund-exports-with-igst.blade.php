@@ -328,6 +328,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From pre-EGM SB000 reconciliation through to officer interface escalation under Customs Circular 5/2018 - Patron handles the full Rule 96 IGST-paid export refund pipeline with CA-led ICEGATE expertise.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

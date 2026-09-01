@@ -302,6 +302,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get expert CA-assisted Section 8 company registration in Delhi with end-to-end support from licence to 12A/80G/FCRA compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

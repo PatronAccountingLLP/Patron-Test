@@ -923,6 +923,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Talk to a Patron Pune CA team specialising in Section 148 reassessment defence across Hinjewadi / Kharadi IT professionals with Schedule FA US RSU / 401(k) / ESPP FATCA-CRS exchange information, DLF Park / Magarpatta / Hinjewadi residential Section 50C with Maharashtra Ready Reckoner gaps, PCMC manufacturing and trading SMEs with demonetisation Section 68 / 69 and TOLA-extended notices, Pune professionals (doctors, lawyers, CAs, architects) with Section 44ADA reconciliation, Kharadi and Magarpatta corporates with Section 92CA TP-driven reassessments, Hadapsar and Camp trading firms with Section 132 search information sharing and AIS high-value divergence, and Talegaon-Chakan auto-pharma belt manufacturers - same-day Pune office intake, 5 to 7 working day Section 148A reply, Section 149 time-bar arithmetic with TOLA + SC Ashish Agarwal application, Section 151 sanction infirmity challenge, Bombay HC Article 226 writ at Principal Seat Mumbai via Patron Mumbai office co-ordination (150 km inter-city eliminated for the client), Section 144B faceless workflow, CIT(A) Faceless Appeal under Section 246A and onward ITAT Pune Bench at Plot No. 5 Akurdi physical-hearing tribunal.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

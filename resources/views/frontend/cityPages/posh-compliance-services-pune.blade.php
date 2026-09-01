@@ -324,6 +324,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From IT companies in Hinjewadi to startups in Baner to manufacturers in MIDC - Pune employers trust Patron for POSH compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

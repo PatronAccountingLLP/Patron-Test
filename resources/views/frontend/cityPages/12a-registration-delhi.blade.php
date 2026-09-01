@@ -1165,6 +1165,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </section>
 
 <!-- TESTIMONIALS SECTION -->
+@include('partials.testimonials', [
+    'heading'    => 'What Our Clients Say',
+    'lead'       => 'Real reviews from real businesses we\'ve helped',
+])
 
 <!-- CONTENT FRESHNESS FOOTER -->
 <section class="content-section" style="padding:32px;">

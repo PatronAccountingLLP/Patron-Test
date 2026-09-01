@@ -319,6 +319,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Copyright assignment with S.19-compliant deed, Form XV recording, and Delhi HC enforcement readiness.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

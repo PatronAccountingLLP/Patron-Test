@@ -813,6 +813,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Founder-CFOs, foreign-subsidiary finance heads, and funded-startup teams trust Patron\'s SA 510 opening balance depth, Year-1 issue catalogue, and Section 139(6) pre-engagement verification.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

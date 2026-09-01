@@ -316,6 +316,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get your director resignation processed by a CA &amp; CS team adjacent to ROC Mumbai &ndash; DIR-12 within 15 days, DIR-11 within 5 days.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

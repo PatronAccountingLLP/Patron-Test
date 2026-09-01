@@ -318,6 +318,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get CA-assisted trademark assignment with due diligence, customised deed, Maharashtra stamp duty, Form TM-P, and M&A integration from Patron\'s Pune office.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

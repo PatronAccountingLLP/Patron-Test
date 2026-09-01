@@ -323,6 +323,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From AI startups in Hinjewadi to pharma firms in Hadapsar to manufacturers in PCMC - Pune innovators trust Patron for patent registration.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

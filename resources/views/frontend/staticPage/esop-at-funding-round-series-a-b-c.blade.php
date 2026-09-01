@@ -346,6 +346,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Venture-backed founders across India trust Patron Accounting to model the cap table, size the pool and run the statutory top-up at every round.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

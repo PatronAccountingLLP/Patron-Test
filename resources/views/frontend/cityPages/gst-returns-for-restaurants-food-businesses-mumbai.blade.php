@@ -323,6 +323,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From Bandra fine dining to BKC hotel restaurants to Andheri cloud kitchens to Fort thali shops - Mumbai\'s food businesses trust Patron for GST compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

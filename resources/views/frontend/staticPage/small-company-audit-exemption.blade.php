@@ -920,6 +920,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Real reviews from private company founders, CFOs and directors across Pune, Mumbai, Delhi and Gurugram who relied on Patron Accounting for small company audit and ROC filings.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

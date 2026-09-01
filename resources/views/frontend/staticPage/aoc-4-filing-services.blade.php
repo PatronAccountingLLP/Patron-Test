@@ -324,6 +324,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute consultation. Variant selection check at intake. Section 134 hand-signed enforcement. Late-fee elimination via automated 30 / 15 / 7 / 1 day reminders.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

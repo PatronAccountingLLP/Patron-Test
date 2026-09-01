@@ -272,6 +272,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Trusted by founders, CFOs, and GCs across the US, UK, EU, Singapore, and Australia for India contractor risk diagnostics, backdated exposure quantification, and CA-led conversion to compliant employment under Path A or Path B.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

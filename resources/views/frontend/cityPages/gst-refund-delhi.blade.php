@@ -315,6 +315,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Recover your blocked working capital. Rs 15 Crore+ refunds claimed. 95%+ approval rate.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

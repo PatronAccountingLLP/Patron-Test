@@ -311,6 +311,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'LLP contribution change with stamp duty assessment, supplementary deed, and Form 3 filing from Gurugram.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

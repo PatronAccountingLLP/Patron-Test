@@ -343,6 +343,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Companies running live ESOPs trust Patron Accounting to track vesting, record forfeitures in SH-6 and keep the option pool reconciled all year round.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

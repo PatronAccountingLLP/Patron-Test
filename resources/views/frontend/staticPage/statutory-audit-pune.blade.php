@@ -956,6 +956,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Hinjewadi IT founders, Chakan MIDC directors, and FC Road service-business owners trust Patron\'s Pune HQ audit team for SA-compliant statutory audits, ROC Pune liaison, and CFO-grade reporting.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

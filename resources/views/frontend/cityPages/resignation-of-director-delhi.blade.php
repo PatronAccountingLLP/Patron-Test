@@ -283,6 +283,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Protective letter. DIR-11 filed. DIR-12 in 7 days. Replacement simultaneously. Clean exit.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

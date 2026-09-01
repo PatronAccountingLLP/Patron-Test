@@ -318,6 +318,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From IT freelancers in Hinjewadi to e-commerce sellers in Baner - Pune solo entrepreneurs trust Patron for OPC registration and lifelong compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

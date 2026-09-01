@@ -285,6 +285,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get expert CA and CS assistance for Section 8 company registration in Bangalore. From SPICe+ filing to 12AB, 80G, and CSR-1 registration, we handle everything.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

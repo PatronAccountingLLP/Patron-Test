@@ -956,6 +956,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'DLF Cyber Hub hotel-restaurants, Udyog Vihar cloud kitchens, and Manesar industrial canteens trust Patron\'s restaurant-specific GST notice defence, dual-administration fluency, and local GSTAT Haryana Bench advantage.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

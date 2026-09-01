@@ -392,6 +392,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Simple salaried ITR-1, multi-Form-16 job changers, ESOP and RSU holders, foreign-parent vesting, capital gains, NRI returnees with DTAA relief. 50,000+ salaried ITRs filed. 99.6 percent on-time submission and zero defective return notices in AY 2025-26.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

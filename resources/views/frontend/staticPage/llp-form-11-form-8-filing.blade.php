@@ -932,6 +932,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute scoping call. Form 11 by 30 May (Section 35) and Form 8 by 30 October (Section 34) - independent penalty clocks managed with 30/15/5 day alerts. Section 34(4) audit applicability + Rule 25 CS certification thresholds tested annually on intake. Small LLP Section 2(1)(ta) classification + Section 76A(3)(a) 50% penalty benefit confirmed. Post-LLP Amendment Act 2021 framework applied (Section 35(2) substituted).',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

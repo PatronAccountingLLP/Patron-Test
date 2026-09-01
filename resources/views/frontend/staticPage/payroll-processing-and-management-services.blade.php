@@ -300,6 +300,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get accurate, penalty-free payroll processing with CA-level expertise - from monthly payslips to annual Form 16.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

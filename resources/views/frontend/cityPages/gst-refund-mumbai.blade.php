@@ -311,6 +311,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From JNPT goods exporters to SEEPZ units to Andheri MIDC manufacturers to Powai IT service exporters - Mumbai\'s businesses trust Patron for GST refund claims.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

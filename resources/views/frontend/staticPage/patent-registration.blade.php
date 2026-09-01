@@ -306,6 +306,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Expert patent registration - from patentability assessment to IPO filing to 20-year renewal management under the Patents Act, 1970.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

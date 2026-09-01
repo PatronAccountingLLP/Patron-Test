@@ -307,6 +307,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Avoid LLP penalties - file Form 11 and Form 8 on time. Starting at INR 4,999. Complete 4-filing compliance package.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

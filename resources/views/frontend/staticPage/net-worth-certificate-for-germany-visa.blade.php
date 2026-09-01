@@ -866,6 +866,12 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Talk to our visa certification team about a dual-currency Germany visa net worth certificate in INR and EUR, substantiating the source of funds behind your Sperrkonto, with UDIN.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

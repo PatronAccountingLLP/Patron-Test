@@ -346,6 +346,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Companies rolling out ESOPs trust Patron Accounting for compliant grant letters, clear employee communication and a working vesting tracker.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

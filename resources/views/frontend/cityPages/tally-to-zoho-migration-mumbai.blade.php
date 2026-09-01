@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led Tally to Zoho migration with ETL methodology, trial balance matching, parallel-run guarantee, and 30-day support for Mumbai businesses.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

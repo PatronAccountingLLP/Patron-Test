@@ -387,6 +387,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Pvt Ltd, OPC, Public Ltd, DPIIT-recognised startups, foreign companies with India PE, transfer pricing cases, loss-making companies with Section 79 risk. 3,000+ company ITRs filed. Zero defective return notices in AY 2025-26 cohort.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

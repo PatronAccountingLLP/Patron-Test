@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get expert CA-assisted 80G registration in Delhi with end-to-end support from Form 10A to Form 10BE compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

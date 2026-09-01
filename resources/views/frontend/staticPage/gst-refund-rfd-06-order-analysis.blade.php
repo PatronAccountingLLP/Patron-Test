@@ -347,6 +347,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From pharma, IT services, engineering, textile, and chemical exporters to SEZ suppliers and IDS manufacturers - we handle 200+ RFD-06 litigation matters annually with 95+ percent first-time Section 107 appeal admission rate.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

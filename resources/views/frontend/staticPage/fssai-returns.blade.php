@@ -308,6 +308,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'File your FSSAI returns before 31 May. Form D1 annual and Form D2 half-yearly returns with data compilation and FoSCoS submission.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

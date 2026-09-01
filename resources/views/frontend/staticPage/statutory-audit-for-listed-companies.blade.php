@@ -919,6 +919,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Quarterly limited reviews, annual audit, Regulation 33 reporting, KAM, IFC, CARO, NFRA-2, AOC-4 XBRL - delivered under one CA partner from Rs 5,00,000 per year.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -319,6 +319,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Real doctors across India who saved tax with 44ADA decision modelling, Form 26QB compliance, and CA-signed ITR-3 with regular books.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -319,6 +319,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Secretarial audit with Form MR-3, SEBI LODR compliance, and corporate governance from Gurugram.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

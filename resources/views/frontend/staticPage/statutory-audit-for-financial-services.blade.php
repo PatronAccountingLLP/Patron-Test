@@ -925,6 +925,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'RBI prudential norms, IRACP NPA classification, CARO 3(xvi), CRAR, Ind AS 109 ECL, Para 9C certificate - delivered under one CA partner from Rs 1,50,000.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

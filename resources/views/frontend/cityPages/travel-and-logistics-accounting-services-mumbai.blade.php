@@ -303,6 +303,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-led logistics accounting with GTA GST, e-way bill, fleet depreciation, JNPT customs, and trip-wise MIS for Mumbai transport operators.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

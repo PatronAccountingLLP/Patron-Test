@@ -868,6 +868,12 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Talk to our startup certification team about the net worth certificate, CA-certified financials, and turnover proof for DPIIT recognition and Section 80-IAC, with UDIN.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

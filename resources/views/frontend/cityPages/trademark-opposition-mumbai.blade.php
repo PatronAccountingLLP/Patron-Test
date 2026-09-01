@@ -301,6 +301,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From BKC corporate brand portfolios to Andheri pharma Class 5 to Powai startup defence to Bandra restaurant disputes - Mumbai\'s brand owners trust Patron for trademark opposition.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

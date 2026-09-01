@@ -831,6 +831,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Hear how F&amp;O traders use Patron to navigate ICAI turnover, Section 44AB audits, and Section 270A penalty defence.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

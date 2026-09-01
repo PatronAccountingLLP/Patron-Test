@@ -924,6 +924,12 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Talk to a Patron Mumbai CA team specialising in Section 143(2) scrutiny selection defence across BKC / Lower Parel BFSI, Andheri-Goregaon-Vikhroli pharma, Andheri Film City entertainment, South Mumbai shipping, Malabar Hill / Worli HNI and South Mumbai trading - same-day intake at Patron Mumbai office, 48-hour Section 144B faceless-workflow preparation file, Section 142(1) questionnaire response cycles via NaFAC, VC and Mumbai TPO / DRP physical hearings, Section 144C DRP objections for eligible MNC / BFSI / pharma assessees, Section 143(3) final-order analysis with CIT(A) Faceless Appeal and onward ITAT Mumbai Bench at Pratishtha Bhavan (co-located) and Bombay HC Principal Seat (also co-located).',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

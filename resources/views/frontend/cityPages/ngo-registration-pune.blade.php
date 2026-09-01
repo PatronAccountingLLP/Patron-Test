@@ -324,6 +324,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'CA-managed NGO registration with 12A/80G/CSR-1 and Bombay PT Act expertise for Pune non-profits.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

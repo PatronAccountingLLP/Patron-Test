@@ -277,6 +277,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute ESOP review with a CA. Send Form 16 Part B, grant letter, vesting schedule, and broker statement - we tell you the exact tax position before you pay anything. Tech employees served across IST, EST, GMT, GST timezones.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

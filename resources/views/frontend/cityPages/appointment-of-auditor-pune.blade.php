@@ -283,6 +283,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From newly incorporated startups to MNC subsidiaries, Pune companies trust Patron for auditor appointment compliance.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

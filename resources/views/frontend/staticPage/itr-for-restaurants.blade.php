@@ -321,6 +321,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Join 100+ restaurants, cafes, QSRs, fine-dining establishments, and cloud kitchens who file their ITR with Patron each year - dine-in operators, takeaway specialists, multi-outlet chains, food trucks, catering services, banquet halls, and food courts across India.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

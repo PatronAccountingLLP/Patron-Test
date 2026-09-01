@@ -310,6 +310,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get ISO 9001, 14001, 27001, 45001, or 22000 certification with accredited bodies and end-to-end support from our CA team.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

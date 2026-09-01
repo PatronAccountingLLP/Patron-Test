@@ -307,6 +307,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'From JNPT food importers to multi-state restaurant chains to Thane-Belapur manufacturers - Mumbai\'s food industry trusts Patron for FSSAI Central License.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

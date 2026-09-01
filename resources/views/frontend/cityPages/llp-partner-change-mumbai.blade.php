@@ -316,6 +316,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Get your LLP partner change managed by a CA &amp; CS team adjacent to ROC Mumbai &ndash; admission, retirement, FEMA, and settlement in one engagement.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

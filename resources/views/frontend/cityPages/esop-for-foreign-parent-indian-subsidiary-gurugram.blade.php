@@ -397,6 +397,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Subsidiary-side Section 192 TDS, transfer pricing recharge memo, Ind AS 102 group SBP and audit support. Employee-side ITR with Schedule FA, FSI, TR, CG and Form 67 DTAA. One firm. Named CA partner accountability.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

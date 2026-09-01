@@ -322,6 +322,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Join 280+ textile sector clients who file their ITR with Patron each year - cotton spinning mills, MMF / polyester / viscose manufacturers, knitted and woven garment exporters, hosiery units, home textile makers, denim mills, power loom operators, and fabric wholesalers across Tirupur, Surat, Bhiwandi, Panipat, Ludhiana, Coimbatore, Erode, and Bhilwara.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

@@ -325,6 +325,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 20-minute backlog scoping call. CCFS-2026 saving estimate in 24 hours. Latest 2 years filed first to prevent Section 164(2). NCLT revival representation if struck off.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

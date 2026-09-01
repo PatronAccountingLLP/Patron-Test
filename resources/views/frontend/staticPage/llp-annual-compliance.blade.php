@@ -925,6 +925,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Free 15-minute LLP scoping call. April onboarding with 4-6 week Form 11 buffer. Section 34(4) audit applicability check on intake. Small LLP classification confirmed under Section 2(1)(ta). DIR-3 KYC triennial tracking per G.S.R. 943(E). CCFS 2026 LLP-exclusion disclosure on Day 1. Partner-CA review on every filing across 600+ FY 2024-25 LLP returns.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

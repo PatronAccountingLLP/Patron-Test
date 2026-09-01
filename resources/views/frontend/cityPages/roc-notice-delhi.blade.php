@@ -284,6 +284,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'ROC notice experts. CCFS 2026 specialists. Director disqualification reversal.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

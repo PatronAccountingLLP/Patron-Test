@@ -272,6 +272,12 @@
 </section>
 
 <!-- TESTIMONIALS -->
+@include('partials.testimonials', [
+    'heading'    => 'Real Stories from Real People',
+    'lead'       => 'Hear how teams across industries use Patron to save time, cut costs, & stay in control.',
+    'ctaTitle'   => 'Join 10,000+ Satisfied Businesses',
+    'ctaText'    => 'Trusted by HR heads, COOs, and CFOs across the US, UK, EU, Singapore, and Australia for Rippling-coexistent India compliance, CA-signed certifications, and CFO-level India support that no software platform can issue.',
+])
 
 <!-- STATS BAR -->
 <div class="stats-bar">

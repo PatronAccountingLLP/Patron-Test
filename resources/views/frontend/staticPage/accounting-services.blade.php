@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services/#service",
   "name": "Accounting Services in India",
   "description": "Accounting services cover the full monthly cycle: bookkeeping, bank and ledger reconciliation, GST and TDS filing, and a trial balance that closes on a fixed date. The Rule 3(1) audit trail stays switched on in your ledger all year.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-startups/gurugram/#service",
   "name": "Startup Accounting Services in Gurugram",
   "description": "Startup accounting services in Gurgaon exist because a term sheet arrives faster than clean books do. Patron closes the gap: cap table reconciled to the share register, burn and runway reported monthly, ESOP perquisite TDS deposited on exercise.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

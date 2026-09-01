@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-startups/mumbai/#service",
   "name": "Startup Accounting Services in Mumbai",
   "description": "Startup accounting services in Mumbai keep the cap table, the burn report and the statutory books telling one story. ESOP perquisite TDS deposits and the Section 80-IAC claim window are managed to date.",
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/mumbai-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

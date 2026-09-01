@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/pune/#service",
   "name": "Accounting for Consultants and Service Businesses in Pune",
   "description": "Service industry accounting in Pune tracks unbilled revenue and WIP ageing engagement by engagement, so a slipping project shows up before the invoice does.",
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -307,9 +307,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

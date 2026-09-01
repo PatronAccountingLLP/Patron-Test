@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-it-saas/delhi/#service",
   "name": "SaaS Accounting Services in Delhi",
   "description": "SaaS accounting services in Delhi treat an annual contract as twelve months of revenue, not one invoice. Deferred revenue is scheduled, and every export receipt is tied to its FIRC or BRC so the turnover claim can be evidenced.",
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/delhi-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

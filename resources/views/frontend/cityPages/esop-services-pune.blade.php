@@ -358,8 +358,8 @@
       "@id": "https://www.patronaccounting.com/esop-services/pune#localbusiness",
       "name": "Patron Accounting LLP - ESOP Advisory, Pune",
       "url": "https://www.patronaccounting.com/esop-services/pune",
-      "logo": "https://www.patronaccounting.com/images/logo.png",
-      "image": "https://www.patronaccounting.com/images/og/esop-services-og.jpg",
+      "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
+      "image": "https://www.patronaccounting.com/images/og-default-square.png",
       "telephone": "+91-9459456700",
       "priceRange": "INR 7,499 onwards",
       "areaServed": {

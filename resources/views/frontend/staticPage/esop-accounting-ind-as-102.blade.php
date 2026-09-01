@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/esop-accounting-ind-as-102/#service",
   "name": "ESOP Accounting Under Ind AS 102",
   "description": "Ind AS 102 requires share-based payments to be expensed at grant-date fair value across the vesting period, not at exercise.",
-  "image": "https://www.patronaccounting.com/images/esop-accounting-ind-as-102-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/esop-accounting-ind-as-102-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/esop-accounting-ind-as-102-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

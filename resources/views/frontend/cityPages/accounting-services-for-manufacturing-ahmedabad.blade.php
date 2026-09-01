@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-manufacturing/ahmedabad/#service",
   "name": "Manufacturing Accounting Services in Ahmedabad",
   "description": "Manufacturing accounting services in Ahmedabad cost WIP by BOM and reconcile job work through ITC-04. Gujarat units under Rs 5 crore file on the 22nd.",
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -292,9 +292,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ahmedabad-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

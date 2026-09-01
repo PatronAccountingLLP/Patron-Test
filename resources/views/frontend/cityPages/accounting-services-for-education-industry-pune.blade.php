@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/pune/#service",
   "name": "Accounting Services for Schools and Colleges in Pune",
   "description": "Accounting services for schools in Pune answer one question first: whose money is this? Fee income, government grants and corpus each get their own fund, with the term-fee cut-off applied so revenue falls in the right period.",
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -307,9 +307,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

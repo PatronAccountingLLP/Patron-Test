@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/xero-accounting/delhi/#service",
   "name": "Xero Bookkeeping and Accounting Services in Delhi",
   "description": "Xero bookkeeping in Delhi combines a cloud ledger with the GST and TDS reporting Indian filings demand. The audit-trail export is produced monthly, ahead of the capital's 24th filing date.",
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/delhi-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/#service",
   "name": "E-Commerce Accountants for Online Sellers in India",
   "description": "An ecommerce accountant reconciles marketplace settlements to the rupee instead of accepting the payout total. Section 194-O TDS at 0.1% and GST TCS at 0.5% are tracked into your GSTR-2B.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-e-commerce-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/#service",
   "name": "Tally to Zoho Books Migration Services",
   "description": "A Tally to Zoho Books migration carries masters, outstanding balances and history across, so prior years remain reportable. Patron maps ledgers, reconciles opening balances to the last audited figures and configures GSTIN, e-invoicing and TDS ahead of go-live.",
-  "image": "https://www.patronaccounting.com/images/migration-from-tally-to-zoho-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/migration-from-tally-to-zoho-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/migration-from-tally-to-zoho-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

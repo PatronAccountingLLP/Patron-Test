@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/#service",
   "name": "Catch-Up Bookkeeping Services for Backlogged Books",
   "description": "Catch up bookkeeping services clear months of backlog without disturbing your current-year books.",
-  "image": "https://www.patronaccounting.com/images/backlog-bookkeeping-catch-up-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/backlog-bookkeeping-catch-up-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/backlog-bookkeeping-catch-up-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

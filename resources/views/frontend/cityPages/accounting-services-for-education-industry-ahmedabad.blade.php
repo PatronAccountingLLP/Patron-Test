@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/ahmedabad/#service",
   "name": "Accounting Services for Schools and Colleges in Ahmedabad",
   "description": "Accounting services for schools in Ahmedabad ring-fence tuition income, government grants and corpus donations so no fund subsidises another.",
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -292,9 +292,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ahmedabad-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

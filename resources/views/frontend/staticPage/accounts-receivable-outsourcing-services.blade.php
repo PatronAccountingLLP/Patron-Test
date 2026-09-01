@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/#service",
   "name": "Accounts Receivable Outsourcing Services",
   "description": "Accounts receivable outsourcing chases collections by ageing bucket with a named owner on every account. TDS credits are reconciled to Form 26AS, so customers cannot short-pay against tax they never deposited.",
-  "image": "https://www.patronaccounting.com/images/accounts-receivable-outsourcing-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounts-receivable-outsourcing-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounts-receivable-outsourcing-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

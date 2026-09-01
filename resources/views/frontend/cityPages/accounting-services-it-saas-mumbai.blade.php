@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-it-saas/mumbai/#service",
   "name": "SaaS Accounting Services in Mumbai",
   "description": "SaaS accounting services in Mumbai handle deferred revenue recognition and export-turnover proof for subscription businesses. SOFTEX is filed and the LUT renewed before the financial year turns, with SEEPZ SEZ units on their own reporting calendar.",
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/mumbai-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/it-sector-accounting-services/#service",
   "name": "IT Accounting Services for Software Companies",
   "description": "IT accounting services prove export turnover invoice by invoice, matching every software export to its FIRC or BRC. Patron runs SOFTEX filing, LUT renewal and STPI reporting on a single compliance calendar so no return slips past its window.",
-  "image": "https://www.patronaccounting.com/images/it-sector-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/it-sector-accounting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/it-sector-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

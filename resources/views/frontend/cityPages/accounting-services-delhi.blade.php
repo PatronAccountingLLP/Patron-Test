@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services/delhi/#service",
   "name": "Accounting Services in Delhi",
   "description": "Accounting services in Delhi close the books on a fixed date with GST and TDS filed against it. Delhi sits in GSTR-3B category Y, so the return is due on the 24th if turnover has not crossed Rs 5 crore. The capital levies no professional tax.",
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/delhi-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

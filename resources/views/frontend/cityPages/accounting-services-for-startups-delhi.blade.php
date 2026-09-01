@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-startups/delhi/#service",
   "name": "Startup Accounting Services in Delhi",
   "description": "Startup accounting services in Delhi keep the cap table and the books aligned before an investor tests them. ESOP perquisite TDS and Section 80-IAC claims are handled to date, and Delhi charges no professional tax, so early payroll setup stays light.",
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/delhi-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

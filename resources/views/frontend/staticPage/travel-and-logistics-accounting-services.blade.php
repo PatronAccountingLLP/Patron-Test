@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/travel-and-logistics-accounting-services/#service",
   "name": "Travel Agency and Logistics Accounting Services",
   "description": "Travel agency accounting reports margin trip by trip and lane by lane rather than as one freight revenue line. Pure-agent recoveries are separated by Patron under Rule 33, so GST applies to your commission alone.",
-  "image": "https://www.patronaccounting.com/images/travel-and-logistics-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/travel-and-logistics-accounting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/travel-and-logistics-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/gurugram/#service",
   "name": "Accounting Services for Schools and Colleges in Gurugram",
   "description": "Accounting services for schools in Gurgaon ring-fence every fee head, grant and corpus donation against the condition attached to it. Haryana charges no professional tax, so staff payroll carries TDS and provident fund only.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

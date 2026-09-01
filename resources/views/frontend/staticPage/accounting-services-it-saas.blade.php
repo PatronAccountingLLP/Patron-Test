@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-it-saas/#service",
   "name": "SaaS Accounting Services in India",
   "description": "SaaS accounting services handle what subscription revenue breaks: deferred revenue schedules, MRR and ARR tracking, and recognition under Ind AS 115 rather than on invoice date. Board MIS carries ARR, churn and burn every month in one format.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-it-saas-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-it-saas-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-it-saas-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

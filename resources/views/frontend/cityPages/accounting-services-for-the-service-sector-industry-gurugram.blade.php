@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/gurugram/#service",
   "name": "Accounting for Consultants and Service Businesses in Gurugram",
   "description": "Service industry accounting in Gurgaon makes unbilled revenue and WIP ageing visible each month. Section 194J TDS is deposited on cycle, against a Haryana GST return calendar running to the 24th.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/#service",
   "name": "Inventory Accounting and Costing Services",
   "description": "Inventory accounting services begin with a valuation you can defend, applying lot, batch or weighted average consistently period after period. AS 2 caps the carrying value at whichever is lower, cost or what the stock will fetch.",
-  "image": "https://www.patronaccounting.com/images/inventory-accounting-costing-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/inventory-accounting-costing-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/inventory-accounting-costing-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

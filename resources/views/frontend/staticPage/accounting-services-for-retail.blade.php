@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-retail/#service",
   "name": "Retail Accounting Services in India",
   "description": "Retail accounting services begin with daily POS reconciliation, so shrinkage surfaces in week one rather than at audit. Store-wise profit and loss, stock variance reporting and B2C GST invoicing follow the same cycle.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-retail-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-for-retail-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-retail-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

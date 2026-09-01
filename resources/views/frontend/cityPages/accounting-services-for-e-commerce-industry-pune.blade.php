@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/pune/#service",
   "name": "E-Commerce Accounting Services in Pune",
   "description": "Ecommerce accounting services in Pune start where the payout lands and work backwards to the order.",
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -307,9 +307,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

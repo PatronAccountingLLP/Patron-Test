@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services/#service",
   "name": "Accounting for Construction and Real Estate Companies",
   "description": "Accounting for a construction company runs project-wise, with every cost traceable to a tower, wing and unit. Revenue recognition follows Ind AS 115 on the basis your project structure actually supports.",
-  "image": "https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/construction-and-real-estate-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

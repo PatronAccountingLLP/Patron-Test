@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-manufacturing/pune/#service",
   "name": "Manufacturing Accounting Services in Pune",
   "description": "Manufacturing accounting services in Pune cost work in progress by BOM and reconcile job-work movement against ITC-04. Returns go in on the 22nd while turnover remains inside the Rs 5 crore band.",
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -307,9 +307,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

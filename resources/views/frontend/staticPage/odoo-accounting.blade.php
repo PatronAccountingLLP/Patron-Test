@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/odoo-accounting/#service",
   "name": "Odoo Accounting Services",
   "description": "An Odoo accountant configures accounting against your inventory and manufacturing flow, not as a standalone module. Patron sets fiscal positions, GST tax groups and e-way bill generation above the Rs 50,000 consignment threshold.",
-  "image": "https://www.patronaccounting.com/images/odoo-accounting-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/odoo-accounting-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/odoo-accounting-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

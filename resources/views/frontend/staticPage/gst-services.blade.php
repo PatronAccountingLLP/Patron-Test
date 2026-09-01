@@ -583,7 +583,7 @@
  "@type": "Organization",
  "name": "Patron Accounting LLP",
  "url": "https://www.patronaccounting.com/",
- "logo": "https://www.patronaccounting.com/images/logo.png",
+ "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
  "sameAs": [
  "https://www.linkedin.com/company/patron-accounting"
  ],

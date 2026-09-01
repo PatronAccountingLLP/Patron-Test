@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/ahmedabad/#service",
   "name": "E-Commerce Accounting Services in Ahmedabad",
   "description": "Ecommerce accounting services in Ahmedabad reconcile settlement reports line by line before revenue is booked, so commission and logistics deductions never disappear into the payout figure.",
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -292,9 +292,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ahmedabad-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

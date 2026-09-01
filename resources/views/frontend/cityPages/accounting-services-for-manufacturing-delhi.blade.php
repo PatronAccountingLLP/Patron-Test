@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-manufacturing/delhi/#service",
   "name": "Manufacturing Accounting Services in Delhi",
   "description": "Manufacturing accounting services in Delhi cost each build to its bill of materials and return job work on ITC-04. Below Rs 5 crore, the capital's cycle ends on the 24th. Patron keeps the cost record file current for units in Okhla and Mayapuri.",
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/delhi-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/delhi-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

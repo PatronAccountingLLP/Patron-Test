@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/mumbai/#service",
   "name": "Accounting for Consultants and Service Businesses in Mumbai",
   "description": "Service industry accounting in Mumbai puts a number on work delivered but not yet invoiced, month after month. The Section 194J deposit runs to the 7th, ahead of the state GST return calendar on the 22nd.",
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/mumbai-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

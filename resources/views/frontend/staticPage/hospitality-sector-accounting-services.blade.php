@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/hospitality-sector-accounting-services/#service",
   "name": "Accounting for Hotels and Restaurants",
   "description": "Accounting for hotels and restaurants tracks food cost and wastage outlet by outlet instead of one kitchen expense head. Room, banquet and food revenue are split for GST rate purposes.",
-  "image": "https://www.patronaccounting.com/images/hospitality-sector-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/hospitality-sector-accounting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/hospitality-sector-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

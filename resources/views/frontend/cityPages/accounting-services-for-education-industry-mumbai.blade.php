@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/mumbai/#service",
   "name": "Accounting Services for Schools and Colleges in Mumbai",
   "description": "Accounting for schools and colleges in Mumbai runs a fund per money source, so term fees never subsidise a restricted grant. Maharashtra professional tax on teaching and administrative staff is deducted monthly.",
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/mumbai-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

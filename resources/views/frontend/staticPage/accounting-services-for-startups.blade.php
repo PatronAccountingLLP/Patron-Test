@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-startups/#service",
   "name": "Startup Accounting Services in India",
   "description": "Startup accounting services keep the cap table and the books agreeing before a diligence discovers they do not.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-startups-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-for-startups-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-startups-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

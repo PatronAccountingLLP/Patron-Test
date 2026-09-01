@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/mis-reporting-services/#service",
   "name": "Monthly MIS Reporting Services",
   "description": "A monthly MIS report is a management pack covering revenue, margin, cash, receivables and burn, issued on a fixed date each month. It is built by Patron in one consistent format, tied back to the statutory books so there is a single version of the truth.",
-  "image": "https://www.patronaccounting.com/images/mis-reporting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/mis-reporting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/mis-reporting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

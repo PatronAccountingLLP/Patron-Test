@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/#service",
   "name": "Accounting SOP Drafting and Implementation",
   "description": "An accounting SOP documents each finance process step by step, naming who performs it, who approves it and what evidence it leaves. Patron drafts yours by walking the desk, not the policy manual, then proves it on live transactions.",
-  "image": "https://www.patronaccounting.com/images/sop-drafting-and-implementation-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/sop-drafting-and-implementation-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/sop-drafting-and-implementation-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

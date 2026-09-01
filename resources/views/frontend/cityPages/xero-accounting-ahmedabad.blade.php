@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/xero-accounting/ahmedabad/#service",
   "name": "Xero Bookkeeping and Accounting Services in Ahmedabad",
   "description": "Xero bookkeeping in Ahmedabad brings cloud ledger discipline to businesses that still file Indian returns. The monthly reconciliation and Rule 3(1) audit-trail export close before Gujarat's statutory filing deadline on the 22nd.",
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -292,9 +292,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ahmedabad-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

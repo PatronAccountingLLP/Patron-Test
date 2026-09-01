@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-manufacturing/gurugram/#service",
   "name": "Manufacturing Accounting Services in Gurugram",
   "description": "Manufacturing accounting services in Gurgaon carry work in progress at component cost and declare job work on ITC-04. Haryana's indirect tax cycle closes on the 24th, below the Rs 5 crore threshold.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

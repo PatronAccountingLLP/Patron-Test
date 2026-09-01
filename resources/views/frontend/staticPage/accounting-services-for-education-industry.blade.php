@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-education-industry/#service",
   "name": "Accounting Services for Schools and Colleges",
   "description": "Accounting services for schools keep fees, grants and corpus in separate funds rather than one pot. Section 12A and 80G status stays protected, and the audit goes in on Form 10B or 10BB as your income threshold decides.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-education-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-for-education-industry-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-education-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/#service",
   "name": "Chart of Accounts Setup Services",
   "description": "Chart of accounts setup decides, before the first entry, how every transaction will be grouped and reported. Patron builds the code structure so a single posting feeds both the GST return and the Schedule III board pack.",
-  "image": "https://www.patronaccounting.com/images/chart-of-accounts-setup-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/chart-of-accounts-setup-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/chart-of-accounts-setup-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

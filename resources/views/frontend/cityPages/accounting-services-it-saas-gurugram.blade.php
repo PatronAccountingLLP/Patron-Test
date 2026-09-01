@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-it-saas/gurugram/#service",
   "name": "SaaS Accounting Services in Gurugram",
   "description": "SaaS accounting services in Gurgaon handle deferred revenue schedules and export-turnover proof together. The LUT is renewed and SOFTEX lodged ahead of Haryana's 24th deadline.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

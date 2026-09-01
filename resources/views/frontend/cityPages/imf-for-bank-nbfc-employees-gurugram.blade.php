@@ -76,7 +76,7 @@
       "description": "CA and CS firm assisting serving bank and NBFC employees in Gurugram with IRDAI Insurance Marketing Firm (IMF) registration and pre-resignation planning.",
       "url": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram",
       "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/imf-services/gurugram-og.webp",
+      "image": "https://www.patronaccounting.com/images/og-default-square.png",
       "telephone": "+919459456700",
       "email": "sales@patronaccounting.com",
       "priceRange": "From INR 24999 (Exl GST and Govt. Charges)",

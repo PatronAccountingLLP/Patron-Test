@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/#service",
   "name": "Accounts Payable Outsourcing Services",
   "description": "Accounts payable outsourcing puts a three-way match on every invoice, checking purchase order, goods receipt and bill before any payment leaves. Section 43B(h) dues to MSME vendors are tracked against the 45-day limit so the deduction is not lost.",
-  "image": "https://www.patronaccounting.com/images/accounts-payable-outsourcing-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounts-payable-outsourcing-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounts-payable-outsourcing-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

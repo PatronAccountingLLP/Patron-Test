@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services/pune/#service",
   "name": "Accounting Services in Pune",
   "description": "Accounting services in Pune have to speak two languages: export invoicing for Hinjewadi IT firms, and BOM costing for the auto-component plants at Chakan.",
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -307,9 +307,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/pune-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/pune-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

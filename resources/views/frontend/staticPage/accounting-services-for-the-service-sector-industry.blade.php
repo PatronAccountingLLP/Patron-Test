@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-the-service-sector-industry/#service",
   "name": "Accounting for Consultants and Service Businesses",
   "description": "Accounting for consultants makes unbilled work in progress visible every month instead of at year end.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-the-service-sector-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-for-the-service-sector-industry-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-the-service-sector-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

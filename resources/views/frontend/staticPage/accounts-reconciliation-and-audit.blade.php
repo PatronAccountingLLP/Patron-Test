@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/#service",
   "name": "Accounts Reconciliation Services and Audit Support",
   "description": "Accounts reconciliation services close every control account: GST, TDS, inter-company, bank and stock.",
-  "image": "https://www.patronaccounting.com/images/accounts-reconciliation-and-audit-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounts-reconciliation-and-audit-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounts-reconciliation-and-audit-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

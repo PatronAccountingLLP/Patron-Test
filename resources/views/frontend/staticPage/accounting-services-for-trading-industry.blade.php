@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-trading-industry/#service",
   "name": "Accounting for Trading Businesses in India",
   "description": "Accounting for trading business is stock-led: every lot valued on a consistent cost or net realisable value basis at each close. Purchase and sales registers tie to GSTR-2B and GSTR-1 before filing, with e-way bill data reconciled back to the sales register.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-trading-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-for-trading-industry-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-trading-industry-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

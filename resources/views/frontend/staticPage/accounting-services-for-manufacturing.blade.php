@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-manufacturing/#service",
   "name": "Manufacturing Accounting Services in India",
   "description": "Manufacturing accounting services value work in progress at BOM level instead of writing factory overheads off as one lump. The ITC-04 job-work return is reconciled to the stock ledger each quarter.",
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-manufacturing-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/accounting-services-for-manufacturing-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/accounting-services-for-manufacturing-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

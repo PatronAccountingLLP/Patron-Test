@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram/#service",
   "name": "NGO Accounting Services in Gurugram",
   "description": "NGO accounting services in Gurgaon separate each donor grant into its own fund, so corpus and restricted money never cross. Haryana levies no professional tax on programme payroll.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

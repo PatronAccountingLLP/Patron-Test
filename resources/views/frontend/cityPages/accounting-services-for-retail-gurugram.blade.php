@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-retail/gurugram/#service",
   "name": "Retail Accounting Services in Gurugram",
   "description": "Retail accounting services in Gurgaon tie POS takings to the ledger daily so shrinkage surfaces early. Store-wise profit and loss and multi-store stock are reported by Patron for chains across Cyber Hub and the Golf Course Road malls.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

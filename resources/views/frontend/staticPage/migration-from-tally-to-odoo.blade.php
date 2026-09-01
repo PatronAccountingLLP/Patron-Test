@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/#service",
   "name": "Tally to Odoo Migration Services",
   "description": "A Tally to Odoo migration has to carry the operational data too, not just the finance ledger: items, bills of material, warehouses and party records.",
-  "image": "https://www.patronaccounting.com/images/migration-from-tally-to-odoo-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/migration-from-tally-to-odoo-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/migration-from-tally-to-odoo-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

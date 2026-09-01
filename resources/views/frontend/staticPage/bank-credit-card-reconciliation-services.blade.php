@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/#service",
   "name": "Bank Reconciliation Services for Indian Businesses",
   "description": "Bank reconciliation services match every line, leaving no suspense account carrying last year's differences. Current accounts, credit cards, payment gateways and wallets are reconciled by Patron, with unmatched items listed against a named owner.",
-  "image": "https://www.patronaccounting.com/images/bank-credit-card-reconciliation-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/bank-credit-card-reconciliation-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/bank-credit-card-reconciliation-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

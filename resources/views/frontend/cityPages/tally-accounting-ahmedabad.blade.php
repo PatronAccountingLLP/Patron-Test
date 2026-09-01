@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/tally-accounting/ahmedabad/#service",
   "name": "Tally Prime Accounting Services in Ahmedabad",
   "description": "Tally accounting services in Ahmedabad keep masters rationalised and the monthly close locked in TallyPrime. Ledger hygiene and the Edit Log export Rule 3(1) requires are handled by Patron, for businesses across GIDC estates and the SG Highway corridor.",
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -292,9 +292,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ahmedabad-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

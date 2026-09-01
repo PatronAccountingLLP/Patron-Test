@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/zoho-books-accounting/#service",
   "name": "Zoho Books Accounting Services",
   "description": "A Zoho Books accountant configures the platform for Indian statutory reporting rather than its global default. Patron sets up GSTIN mapping, e-invoicing, TDS and place-of-supply rules so returns file straight from the ledger.",
-  "image": "https://www.patronaccounting.com/images/zoho-books-accounting-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/zoho-books-accounting-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/zoho-books-accounting-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

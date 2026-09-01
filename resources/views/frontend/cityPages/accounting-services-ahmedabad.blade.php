@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services/ahmedabad/#service",
   "name": "Accounting Services in Ahmedabad",
   "description": "Accounting services in Ahmedabad have to cope with a trading city: high transaction volumes, thin margins and stock that moves faster than the paperwork. The Gujarat GST return is due on the 22nd, with professional tax deducted alongside payroll.",
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -292,9 +292,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ahmedabad-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

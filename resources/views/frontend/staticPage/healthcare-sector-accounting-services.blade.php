@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/healthcare-sector-accounting-services/#service",
   "name": "Accounting for Hospitals and Healthcare Providers",
   "description": "Accounting for hospitals ages TPA receivables payer by payer rather than lumping them into one debtors figure. Section 194J is deducted at source on consultant payouts, and individual practices run on the Section 44ADA presumptive basis where it fits.",
-  "image": "https://www.patronaccounting.com/images/healthcare-sector-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/healthcare-sector-accounting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/healthcare-sector-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

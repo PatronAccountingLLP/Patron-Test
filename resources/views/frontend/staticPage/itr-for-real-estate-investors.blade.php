@@ -17,11 +17,11 @@
 <meta content="/itr-for-real-estate-investors/" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta content="Patron Accounting" property="og:site_name"/>
-<meta content="/images/itr-for-real-estate-investors-og.webp" property="og:image"/>
+<meta content="/images/og-default-square.png" property="og:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="ITR for Real Estate Investors India: Section 24, 50C, 54 | Patron Accounting" name="twitter:title"/>
 <meta content="ITR for property investors with rental income and sales. Schedule HP, Section 24(b), Section 50C SDV rule, Section 54 reinvestment. Starts at Rs 5,999." name="twitter:description"/>
-<meta content="/images/itr-for-real-estate-investors-og.webp" name="twitter:image"/>
+<meta content="/images/og-default-square.png" name="twitter:image"/>
 @endsection
 @section('schema')
 <script type="application/ld+json">

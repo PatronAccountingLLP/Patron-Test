@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/xero-accounting/#service",
   "name": "Xero Bookkeeping and Accounting Services",
   "description": "Xero bookkeeping services need Indian adaptation: a GST bridge, TDS tracking and multi-currency handled outside the platform's defaults. Reporting is mapped back to Schedule III for statutory use.",
-  "image": "https://www.patronaccounting.com/images/xero-accounting-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/xero-accounting-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/xero-accounting-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

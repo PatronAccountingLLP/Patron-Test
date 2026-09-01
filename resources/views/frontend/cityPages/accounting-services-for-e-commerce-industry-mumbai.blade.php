@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/mumbai/#service",
   "name": "E-Commerce Accounting Services in Mumbai",
   "description": "E-commerce accounting services in Mumbai reconcile every marketplace settlement against its commission, shipping and return deductions before the payout is booked. GST TCS collected by the marketplace is recovered through GSTR-2B each month.",
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -299,9 +299,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/mumbai-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/mumbai-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

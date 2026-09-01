@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-e-commerce-industry/gurugram/#service",
   "name": "E-Commerce Accounting Services in Gurugram",
   "description": "Ecommerce accounting services in Gurgaon unpick each marketplace payout into commission, logistics and return deductions before any revenue is recognised. The TCS credit is pulled through GSTR-2B against a Haryana filing date of the 24th.",
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -303,9 +303,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/gurugram-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/gurugram-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

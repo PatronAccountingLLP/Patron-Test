@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/#service",
   "name": "Preparation of Financial Statements in India",
   "description": "Preparation of financial statements means drafting the balance sheet, profit and loss, cash flow and notes in Schedule III format. Patron applies the correct AS or Ind AS basis, so the accounts give the true and fair view Section 129 requires.",
-  "image": "https://www.patronaccounting.com/images/financial-statement-preparation-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/financial-statement-preparation-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/financial-statement-preparation-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

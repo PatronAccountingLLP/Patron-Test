@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/#service",
   "name": "NGO Accounting Services in India",
   "description": "NGO accounting services answer to the donor before the taxman: every rupee traceable to the grant that funded it. Foreign contribution pulls the audit onto Form 10B rather than 10BB.",
-  "image": "https://www.patronaccounting.com/images/ngo-and-non-profit-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -208,9 +208,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ngo-and-non-profit-accounting-services-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ngo-and-non-profit-accounting-services-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

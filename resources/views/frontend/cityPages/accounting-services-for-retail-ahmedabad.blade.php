@@ -38,7 +38,7 @@
   "@id": "https://www.patronaccounting.com/accounting-services-for-retail/ahmedabad/#service",
   "name": "Retail Accounting Services in Ahmedabad",
   "description": "Retail accounting services in Ahmedabad post daily POS takings to the ledger and carry shrinkage as a provision rather than a surprise. B2C invoicing is filed inside Gujarat's monthly indirect tax cycle, closing on the 22nd.",
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "provider": {
     "@id": "https://www.patronaccounting.com/#organization"
   },
@@ -292,9 +292,9 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://www.patronaccounting.com/images/ahmedabad-og.webp"
+    "url": "https://www.patronaccounting.com/images/og-default-square.png"
   },
-  "image": "https://www.patronaccounting.com/images/ahmedabad-og.webp",
+  "image": "https://www.patronaccounting.com/images/og-default-square.png",
   "datePublished": "2026-07-24T08:00:00+05:30",
   "dateModified": "2026-07-24T08:00:00+05:30",
   "author": {

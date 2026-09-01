@@ -51,7 +51,7 @@
   "logo": {
     "@type": "ImageObject",
     "@id": "{{ url('/') }}#logo",
-    "url": "{{ asset('images/logo.png') }}",
+    "url": "{{ asset('images/patron-logo.webp') }}",
     "caption": "Patron Accounting"
   },
   "image": { "@id": "{{ url('/') }}#logo" },

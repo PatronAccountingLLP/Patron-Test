@@ -1848,14 +1848,14 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <h2 class="section-title">Adjacent Patron Services</h2>
 <div class="content-text">
 <ul>
-<li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
-<li><strong><a href="/itr-for-property-sale/">ITR for Property Sale (Single Transaction Focus)</a></strong> - for one-time property sale scenarios; complements this multi-property service for investors with a single sale event.</li>
-<li><strong><a href="/itr-for-capital-gains/">ITR for Capital Gains (HNI Multi-Asset)</a></strong> - for investors with capital gains across equity, mutual funds, gold, bonds alongside property.</li>
-<li><strong><a href="/itr-for-nris/">ITR for NRIs (Returning NRI with Indian Properties)</a></strong> - Section 6 residency, Section 195 property TDS, NRO/NRE/RFC routing for NRI property investors.</li>
-<li><strong><a href="/itr-for-salary/">ITR for Salaries (Salaried Investors with Side Property Income)</a></strong> - for salaried employees with side property portfolio; Schedule HP plus Schedule S filing.</li>
-<li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - regime selection, HUF tagging, advance tax planning, pre-sale Section 54EC bond timing.</li>
-<li><strong><a href="/income-tax-notice-for-defective-return/">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for HP-loss-in-ITR-1 defective returns and similar Schedule HP misclassifications.</li>
-<li><strong><a href="/income-tax-notice/">Income Tax Notice Response (Sections 143, 148)</a></strong> - Section 50C scrutiny, Section 23(2) classification challenges, deemed rent disputes representation.</li>
+<li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
+<li><strong><a href="/itr-for-property-sale">ITR for Property Sale (Single Transaction Focus)</a></strong> - for one-time property sale scenarios; complements this multi-property service for investors with a single sale event.</li>
+<li><strong><a href="/itr-for-capital-gains">ITR for Capital Gains (HNI Multi-Asset)</a></strong> - for investors with capital gains across equity, mutual funds, gold, bonds alongside property.</li>
+<li><strong><a href="/itr-for-nris">ITR for NRIs (Returning NRI with Indian Properties)</a></strong> - Section 6 residency, Section 195 property TDS, NRO/NRE/RFC routing for NRI property investors.</li>
+<li><strong><a href="/itr-for-salary">ITR for Salaries (Salaried Investors with Side Property Income)</a></strong> - for salaried employees with side property portfolio; Schedule HP plus Schedule S filing.</li>
+<li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - regime selection, HUF tagging, advance tax planning, pre-sale Section 54EC bond timing.</li>
+<li><strong><a href="/income-tax-notice-for-defective-return">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for HP-loss-in-ITR-1 defective returns and similar Schedule HP misclassifications.</li>
+<li><strong><a href="/income-tax-notice">Income Tax Notice Response (Sections 143, 148)</a></strong> - Section 50C scrutiny, Section 23(2) classification challenges, deemed rent disputes representation.</li>
 </ul>
 </div>
 </div>
@@ -2028,35 +2028,35 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <div class="pa-cross-block">
 <h3 class="pa-cross-title">Related Patron Services</h3>
 <div class="pa-cross-grid">
-<a class="pa-cross-card" href="/income-tax-return/">
+<a class="pa-cross-card" href="/income-tax-return">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; 14 sub-services</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-property-sale/">
+<a class="pa-cross-card" href="/itr-for-property-sale">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for Property Sale</strong><span>Single transaction focus</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-capital-gains/">
+<a class="pa-cross-card" href="/itr-for-capital-gains">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for Capital Gains</strong><span>HNI multi-asset across all classes</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-nris/">
+<a class="pa-cross-card" href="/itr-for-nris">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for NRIs</strong><span>NRI property investor with Indian assets</span></div>
 </a>
-<a class="pa-cross-card" href="/itr-for-salary/">
+<a class="pa-cross-card" href="/itr-for-salary">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>ITR for Salary</strong><span>Salaried investors with side property</span></div>
 </a>
-<a class="pa-cross-card" href="/tax-planning-services/">
+<a class="pa-cross-card" href="/tax-planning-services">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>Tax Planning Services</strong><span>Regime, HUF tagging, advance tax</span></div>
 </a>
-<a class="pa-cross-card" href="/income-tax-notice-for-defective-return/">
+<a class="pa-cross-card" href="/income-tax-notice-for-defective-return">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>Defective Return Notice</strong><span>Section 139(9) 15-day cure</span></div>
 </a>
-<a class="pa-cross-card" href="/income-tax-notice/">
+<a class="pa-cross-card" href="/income-tax-notice">
 <div class="pa-cross-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
 <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>143/148 plus Section 50C scrutiny</span></div>
 </a>

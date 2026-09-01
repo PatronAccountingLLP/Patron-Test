@@ -649,13 +649,13 @@
                     <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
                     <tbody>
                         <tr><td>Historical Grant Audit and Cleanup</td><td>Comprehensive review of all ESOP grants made since incorporation - eligibility against Rule 12 and SBEB criteria, valuation defensibility, vesting status, exercise history and lock-in profile. Identify and remediate grants to consultants/advisors (ineligible) or grants without proper Board/EGM approval.</td></tr>
-<tr><td>Scheme Conversion to SBEB-Compliant Document</td><td>Rewrite of existing scheme to SEBI SBEB 2021 compliant document covering scheme type classification, pricing under Regulation 12, vesting under Regulation 14, lock-in under Regulation 15, variation under Regulation 18, listing under Regulation 19 and disclosure framework under Regulation 21-22. Coordinated with <a href="/esop-scheme-design/">ESOP Scheme Design</a>.</td></tr>
+<tr><td>Scheme Conversion to SBEB-Compliant Document</td><td>Rewrite of existing scheme to SEBI SBEB 2021 compliant document covering scheme type classification, pricing under Regulation 12, vesting under Regulation 14, lock-in under Regulation 15, variation under Regulation 18, listing under Regulation 19 and disclosure framework under Regulation 21-22. Coordinated with <a href="/esop-scheme-design">ESOP Scheme Design</a>.</td></tr>
 <tr><td>ESOP Trust Setup</td><td>Trust deed drafting under Indian Trusts Act 1882; trustee selection and F&amp;P screening under Regulation 28; trust banking and accounting setup; integration with payroll and HR systems. End-to-end trust formation typically 8-12 weeks.</td></tr>
 <tr><td>ICDR Lock-In Strategy and Timing Plan</td><td>Lock-in modelling for senior leadership and key employees - identify exercise windows to minimise Regulation 167 1-year-prior trigger; coordinate with employee personal liquidity planning; align with promoter MPC 3-year lock-in calculation.</td></tr>
 <tr><td>DRHP Schedule VI Part E Disclosure</td><td>Preparation of full DRHP ESOP disclosure - scheme details, grant/vesting/exercise history per scheme, exercise price, vesting conditions, intended use of equity dilution, Ind AS 102 accounting policy, FMV methodology, accounting impact and employee-wise top grants disclosure.</td></tr>
 <tr><td>BRLM and Merchant Banker Coordination</td><td>Working alongside the BRLM (typically ICICI Securities, Kotak Mahindra Capital, JM Financial, Axis Capital, Citi, Morgan Stanley, Goldman Sachs) - ESOP scheme review, lock-in confirmation, DRHP disclosure sign-off, SEBI observation responses and Stock Exchange in-principle approval submissions.</td></tr>
 <tr><td>SEBI Comments and Stock Exchange Approval</td><td>Response to SEBI observations on the offer document - typically 2-3 rounds; Stock Exchange (BSE / NSE) in-principle approval submissions; ESOP scheme listing arrangements under Regulation 19; ongoing disclosure framework setup for post-listing.</td></tr>
-<tr><td>Ind AS 102 Audit and Disclosure Coordination</td><td>Coordinated with <a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a> team for Schedule III disclosure, Black-Scholes computation history, accounting policy memo for DRHP and statutory audit working paper file.</td></tr>
+<tr><td>Ind AS 102 Audit and Disclosure Coordination</td><td>Coordinated with <a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a> team for Schedule III disclosure, Black-Scholes computation history, accounting policy memo for DRHP and statutory audit working paper file.</td></tr>
 
                     </tbody>
                 </table>
@@ -1041,14 +1041,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong>ESOP Services</strong> - master hub for <a href="/esop-services/">end-to-end ESOP lifecycle services</a>.</li>
-                    <li><strong>ESOP Scheme Design</strong> - <a href="/esop-scheme-design/">first-time scheme drafting</a> (used as the foundation for SBEB conversion).</li>
-                    <li><strong>ESOP Accounting under Ind AS 102</strong> - <a href="/esop-accounting-ind-as-102/">share-based payment accounting</a> for DRHP and post-listing reporting.</li>
-                    <li><strong>ESOP Valuation Services</strong> - <a href="/esop-valuation-services/">Rule 11UA FMV reports</a> through SEBI Cat I Merchant Banker for pre-IPO valuations.</li>
-                    <li><strong>ESOP Corporate Filings</strong> - <a href="/esop-corporate-filings/">ongoing MCA filings retainer</a> post-conversion.</li>
-                    <li><strong>ESOP Restructuring and Underwater Options</strong> - <a href="/esop-restructuring-underwater-options/">scheme cleanup for down-round affected grants</a> pre-IPO.</li>
-                    <li><strong>Statutory Audit</strong> - <a href="/statutory-audit/">audit firm engagement for DRHP disclosure</a>.</li>
-                    <li><strong>ESOP for Foreign Parent Indian Subsidiary</strong> - <a href="/esop-for-foreign-parent-indian-subsidiary/">for pre-IPO entities with US/Singapore holdco structures</a>.</li>
+                    <li><strong>ESOP Services</strong> - master hub for <a href="/esop-services">end-to-end ESOP lifecycle services</a>.</li>
+                    <li><strong>ESOP Scheme Design</strong> - <a href="/esop-scheme-design">first-time scheme drafting</a> (used as the foundation for SBEB conversion).</li>
+                    <li><strong>ESOP Accounting under Ind AS 102</strong> - <a href="/esop-accounting-ind-as-102">share-based payment accounting</a> for DRHP and post-listing reporting.</li>
+                    <li><strong>ESOP Valuation Services</strong> - <a href="/esop-valuation-services">Rule 11UA FMV reports</a> through SEBI Cat I Merchant Banker for pre-IPO valuations.</li>
+                    <li><strong>ESOP Corporate Filings</strong> - <a href="/esop-corporate-filings">ongoing MCA filings retainer</a> post-conversion.</li>
+                    <li><strong>ESOP Restructuring and Underwater Options</strong> - <a href="/esop-restructuring-underwater-options">scheme cleanup for down-round affected grants</a> pre-IPO.</li>
+                    <li><strong>Statutory Audit</strong> - <a href="/statutory-audit">audit firm engagement for DRHP disclosure</a>.</li>
+                    <li><strong>ESOP for Foreign Parent Indian Subsidiary</strong> - <a href="/esop-for-foreign-parent-indian-subsidiary">for pre-IPO entities with US/Singapore holdco structures</a>.</li>
                 </ul>
 
             </div>
@@ -1234,12 +1234,12 @@
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end support for Pre-IPO ESOP</div>
                 <div class="pa-cross-grid">
-                    <a href="/esop-services/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Services</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-scheme-design/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Scheme Design</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-valuation-services/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Valuation</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Accounting Ind AS 102</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Corporate Filings</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/esop-for-foreign-parent-indian-subsidiary/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Foreign Parent ESOP</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Services</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-scheme-design" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Scheme Design</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-valuation-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Valuation</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Accounting Ind AS 102</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-corporate-filings" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ESOP Corporate Filings</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/esop-for-foreign-parent-indian-subsidiary" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Foreign Parent ESOP</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>
         </div>

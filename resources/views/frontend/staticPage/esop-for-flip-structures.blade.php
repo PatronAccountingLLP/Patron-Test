@@ -1049,13 +1049,13 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - FEMA NDI Rules 2019 and FEMA Overseas Investment Rules 2022 compliance; FC-GPR coordination for cross-border share movements.</li>
-                    <li><strong><a href="/startup-registration/">Startup Registration</a></strong> - DPIIT recognition and IMB Section 80-IAC certification; re-eligibility confirmation post reverse flip.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - group share-based payment accounting for foreign parent and reverse-flipped Indian parent structures.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7, SH-6) for the post-flip Indian parent ESOP scheme.</li>
-                    <li><strong><a href="/esop-for-deeptech-aiml/">ESOP for Deeptech and AI/ML Startups</a></strong> - sister vertical page; deeptech founders frequently operate Delaware C-Corp parent structures.</li>
-                    <li><strong><a href="/esop-for-fintech/">ESOP for Fintech Companies</a></strong> - sister vertical page; foreign-parent fintech subsidiaries face overlapping FEMA OI plus RBI compliance.</li>
-                    <li><strong><a href="/esop-management-and-compliance-services/">ESOP Management and Compliance</a></strong> - operational ESOP tracking and SH-6 register maintenance for the post-flip Indian parent.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - FEMA NDI Rules 2019 and FEMA Overseas Investment Rules 2022 compliance; FC-GPR coordination for cross-border share movements.</li>
+                    <li><strong><a href="/startup-registration">Startup Registration</a></strong> - DPIIT recognition and IMB Section 80-IAC certification; re-eligibility confirmation post reverse flip.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - group share-based payment accounting for foreign parent and reverse-flipped Indian parent structures.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7, SH-6) for the post-flip Indian parent ESOP scheme.</li>
+                    <li><strong><a href="/esop-for-deeptech-aiml">ESOP for Deeptech and AI/ML Startups</a></strong> - sister vertical page; deeptech founders frequently operate Delaware C-Corp parent structures.</li>
+                    <li><strong><a href="/esop-for-fintech">ESOP for Fintech Companies</a></strong> - sister vertical page; foreign-parent fintech subsidiaries face overlapping FEMA OI plus RBI compliance.</li>
+                    <li><strong><a href="/esop-management-and-compliance-services">ESOP Management and Compliance</a></strong> - operational ESOP tracking and SH-6 register maintenance for the post-flip Indian parent.</li>
                 </ul>
 
             </div>
@@ -1218,27 +1218,27 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related National Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>FEMA NDI + OI Rules; FC-GPR</span></div>
                     </a>
-                    <a href="/startup-registration/" class="pa-cross-card">
+                    <a href="/startup-registration" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Startup Registration</strong><span>DPIIT + IMB 80-IAC re-eligibility</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting under Ind AS 102</strong><span>Group SBP for foreign parent</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>MGT-14, PAS-3, MGT-7, SH-6 retainer</span></div>
                     </a>
-                    <a href="/esop-for-deeptech-aiml/" class="pa-cross-card">
+                    <a href="/esop-for-deeptech-aiml" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for Deeptech and AI/ML</strong><span>Sister vertical - deeptech founders</span></div>
                     </a>
-                    <a href="/esop-for-fintech/" class="pa-cross-card">
+                    <a href="/esop-for-fintech" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for Fintech Companies</strong><span>Sister vertical - foreign-parent fintech</span></div>
                     </a>

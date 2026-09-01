@@ -1202,7 +1202,7 @@
 <tr><td>Delhi RoC</td><td>IFCI Tower, 61 Nehru Place, New Delhi - 110019</td></tr>
 </tbody></table></div></p>
                 <p><p>Delhi hosts India's largest number of registered companies - 50,000+ active Pvt Ltd companies, listed corporations at Connaught Place, PSUs at Bhikaji Cama Place and government companies. Every one requires net worth certificate for joint owners. With ICAI's 60-audit cap from April 2026, quality audit firm availability has tightened.</p>
-<p>Patron's Delhi CA team provides end-to-end net worth certificate for joint owners. Learn more about <a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth Certificate for Joint Owners across India</a>. Related: <a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth Certificate for Joint Owners</a> and <a href="/secretarial-audit">Secretarial Audit</a>.</p></p>
+<p>Patron's Delhi CA team provides end-to-end net worth certificate for joint owners. Learn more about <a href="/net-worth-certificate-for-bank-loan">Net Worth Certificate for Joint Owners across India</a>. Related: <a href="/net-worth-certificate-for-bank-loan">Net Worth Certificate for Joint Owners</a> and <a href="/secretarial-audit">Secretarial Audit</a>.</p></p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -1508,8 +1508,8 @@
             <div class="content-text">
                 
                 <ul>
-<li><a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth Certificate for Joint Owners (India)</a> - National-level net worth certificate for joint owners</li>
-<li><a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth Certificate for Joint Owners</a> - Income tax net worth certificate for joint owners</li>
+<li><a href="/net-worth-certificate-for-bank-loan">Net Worth Certificate for Joint Owners (India)</a> - National-level net worth certificate for joint owners</li>
+<li><a href="/net-worth-certificate-for-bank-loan">Net Worth Certificate for Joint Owners</a> - Income tax net worth certificate for joint owners</li>
 <li><a href="/secretarial-audit">Secretarial Audit</a> - S.204 non-financial compliance</li>
 
 

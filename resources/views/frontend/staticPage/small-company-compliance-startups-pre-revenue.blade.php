@@ -2432,19 +2432,19 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <div class="pa-block-title">City-Wise Pre-Revenue Startup Compliance</div>
                 <div class="pa-block-sub">Local CA + CS team for Year 1 startup engagement</div>
                 <div class="pa-city-grid">
-                    <a href="/small-company-compliance-startups-pre-revenue/pune" class="pa-city-card">
+                    <a href="/small-company-compliance-startups-pre-revenue" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Pre-Revenue Startup Pune</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/small-company-compliance-startups-pre-revenue/mumbai" class="pa-city-card">
+                    <a href="/small-company-compliance-startups-pre-revenue" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Pre-Revenue Startup Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/small-company-compliance-startups-pre-revenue/delhi" class="pa-city-card">
+                    <a href="/small-company-compliance-startups-pre-revenue" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Pre-Revenue Startup Delhi</div><div class="pa-card-sub">NCT Delhi</div></div>
                     </a>
-                    <a href="/small-company-compliance-startups-pre-revenue/gurugram" class="pa-city-card">
+                    <a href="/small-company-compliance-startups-pre-revenue" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Pre-Revenue Startup Gurugram</div><div class="pa-card-sub">Haryana</div></div>
                     </a>

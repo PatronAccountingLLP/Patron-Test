@@ -923,7 +923,7 @@
                     <li>CCA Comparable Companies Approach as cross-check.</li>
                     <li>Defensibility floor for Section 50CA seller protection and Section 56(2)(x) buyer protection.</li>
                     <li>Critical for FEMA NDI Rule 21 cross-border buyer pricing compliance.</li>
-                    <li>Coordinated through <a href="/esop-valuation-services/">ESOP Valuation Services</a>.</li>
+                    <li>Coordinated through <a href="/esop-valuation-services">ESOP Valuation Services</a>.</li>
                 </ul>
                 <p><strong>3. Tender Offer / Buyback Documentation:</strong></p>
                 <ul>
@@ -953,7 +953,7 @@
                     <li>SH-4 Form for transfer of shares filed for each transferring employee under Section 56(1) read with Rule 11.</li>
                     <li>Updated cap table reflecting transferred holdings.</li>
                     <li>Form MGT-7 annual return disclosure update.</li>
-                    <li>Coordinated through <a href="/esop-corporate-filings/">ESOP Corporate Filings</a>.</li>
+                    <li>Coordinated through <a href="/esop-corporate-filings">ESOP Corporate Filings</a>.</li>
                 </ul>
                 <p><strong>7. FC-TRS Filing (Cross-Border):</strong></p>
                 <ul>
@@ -961,7 +961,7 @@
                     <li>Sectoral FDI cap compliance memo.</li>
                     <li>Section 195 TDS reconciliation with non-resident buyer tax department.</li>
                     <li>DTAA Article 13 capital gains analysis where relevant.</li>
-                    <li>Coordinated through <a href="/fdi-compliance/">FDI Compliance</a>.</li>
+                    <li>Coordinated through <a href="/fdi-compliance">FDI Compliance</a>.</li>
                 </ul>
                 <p><strong>8. Employee Communication Pack:</strong></p>
                 <ul>
@@ -995,7 +995,7 @@
                         <tr><td><strong>Section 195 TDS by non-resident buyer ignored</strong></td><td>If the buyer is non-resident, Section 195 TDS may apply on payment to Indian resident seller. The TDS rate is determined by the buyer's tax department. Failure to deduct attracts Section 201 default - interest at 1 percent per month plus penalty.</td><td>Patron tender offer documentation includes Section 195 mechanics if cross-border. Lower TDS Certificate under Section 197 obtained where applicable; DTAA relief secured per buyer's jurisdiction; reconciliation with seller's ITR support.</td></tr>
                         <tr><td><strong>Unequal employee treatment in tender offer</strong></td><td>Tender offers must treat eligible employees equally - same pricing, same proportional caps, same election window. Selective pricing or eligibility for senior leadership while excluding rank-and-file invites disputes and SEBI scrutiny if subsequently listed (SBEB Regulations 2021 fair-treatment principle).</td><td>Patron drafts the eligibility framework to be defensible - tenure thresholds, vested vs exercised, per-employee caps as percentage of holdings, election window same for all. Documented rationale for any tier-based differentiation.</td></tr>
                         <tr><td><strong>ROFR / pre-emption rights in shareholders agreement ignored</strong></td><td>Existing shareholders (VCs, founders) typically have Right of First Refusal (ROFR) or pre-emption rights on share transfers under SHA. Tender offer execution without ROFR waiver invites contractual dispute and may invalidate the transfer.</td><td>Patron reviews the SHA and obtains required waivers BEFORE execution. ROFR waiver documentation includes price, timing and structure transparency to existing shareholders. Where waiver denied, alternative vehicle (buyback) considered.</td></tr>
-                        <tr><td><strong>Section 68 buyback procedural defects</strong></td><td>Form SH-9 Notice of Meeting, SH-10 Register of Buyback, SH-11 Return of Buyback must be filed within prescribed windows under Rule 17 of Companies (Share Capital and Debentures) Rules 2014. Section 70 12-month cooling period between buybacks; debt-equity ratio cap. Procedural defects expose buyback to invalidation.</td><td>Patron Section 68 buyback workflow tracks all SH-9, SH-10, SH-11 deadlines. Section 70 cooling period and debt-equity ratio verified before buyback initiation. End-to-end through <a href="/esop-corporate-filings/">ESOP Corporate Filings</a> retainer.</td></tr>
+                        <tr><td><strong>Section 68 buyback procedural defects</strong></td><td>Form SH-9 Notice of Meeting, SH-10 Register of Buyback, SH-11 Return of Buyback must be filed within prescribed windows under Rule 17 of Companies (Share Capital and Debentures) Rules 2014. Section 70 12-month cooling period between buybacks; debt-equity ratio cap. Procedural defects expose buyback to invalidation.</td><td>Patron Section 68 buyback workflow tracks all SH-9, SH-10, SH-11 deadlines. Section 70 cooling period and debt-equity ratio verified before buyback initiation. End-to-end through <a href="/esop-corporate-filings">ESOP Corporate Filings</a> retainer.</td></tr>
 
 
                     </tbody>
@@ -1161,15 +1161,15 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/esop-services/">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services including downstream pre-IPO scheme conversion engagements after pre-IPO tender offers.</li>
-                    <li><strong><a href="/esop-valuation-services/">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports critical for secondary sale pricing; DCF (via SEBI Cat I Merchant Banker), NAV (via CA) and CCA methodologies.</li>
-                    <li><strong><a href="/esop-scheme-design/">ESOP Scheme Design</a></strong> - first-time scheme drafting with sample term sheet; foundational engagement that precedes any secondary program.</li>
-                    <li><strong><a href="/esop-for-tech-startups/">ESOP for Tech Startups</a></strong> - tech-vertical scheme design with refresh grants and acceleration triggers; secondary programs are downstream liquidity vehicle.</li>
-                    <li><strong><a href="/esop-for-saas-companies/">ESOP for SaaS Companies</a></strong> - B2B SaaS-specific design with ARR-linked vesting; secondary programs serve SaaS pre-IPO timelines.</li>
-                    <li><strong><a href="/esop-restructuring-underwater-options/">ESOP Restructuring and Underwater Options</a></strong> - down-round remediation via Repricing, Exchange Program, Top-Up Grants, Vesting Acceleration or Cashout/Buyback; distinct from secondary sale (modification vs liquidity).</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - settlement accounting under Ind AS 102 paragraph 28 and Schedule III disclosure for buyback corporate actions.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3, MGT-7 plus SH-4, SH-9, SH-10, SH-11 for buyback workflows and SH-4 for tender offer transfer filings.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - FEMA NDI Rules 2019 plus FC-TRS coordination for cross-border secondary buyers; sectoral FDI cap analysis; Section 195 TDS workflow.</li>
+                    <li><strong><a href="/esop-services">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services including downstream pre-IPO scheme conversion engagements after pre-IPO tender offers.</li>
+                    <li><strong><a href="/esop-valuation-services">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports critical for secondary sale pricing; DCF (via SEBI Cat I Merchant Banker), NAV (via CA) and CCA methodologies.</li>
+                    <li><strong><a href="/esop-scheme-design">ESOP Scheme Design</a></strong> - first-time scheme drafting with sample term sheet; foundational engagement that precedes any secondary program.</li>
+                    <li><strong><a href="/esop-for-tech-startups">ESOP for Tech Startups</a></strong> - tech-vertical scheme design with refresh grants and acceleration triggers; secondary programs are downstream liquidity vehicle.</li>
+                    <li><strong><a href="/esop-for-saas-companies">ESOP for SaaS Companies</a></strong> - B2B SaaS-specific design with ARR-linked vesting; secondary programs serve SaaS pre-IPO timelines.</li>
+                    <li><strong><a href="/esop-restructuring-underwater-options">ESOP Restructuring and Underwater Options</a></strong> - down-round remediation via Repricing, Exchange Program, Top-Up Grants, Vesting Acceleration or Cashout/Buyback; distinct from secondary sale (modification vs liquidity).</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - settlement accounting under Ind AS 102 paragraph 28 and Schedule III disclosure for buyback corporate actions.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3, MGT-7 plus SH-4, SH-9, SH-10, SH-11 for buyback workflows and SH-4 for tender offer transfer filings.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - FEMA NDI Rules 2019 plus FC-TRS coordination for cross-border secondary buyers; sectoral FDI cap analysis; Section 195 TDS workflow.</li>
                 </ul>
 
             </div>
@@ -1345,35 +1345,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron ESOP Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/esop-services/" class="pa-cross-card">
+                    <a href="/esop-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Services Master Hub</strong><span>End-to-end ESOP lifecycle</span></div>
                     </a>
-                    <a href="/esop-valuation-services/" class="pa-cross-card">
+                    <a href="/esop-valuation-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Valuation Services</strong><span>Rule 11UA FMV for secondary pricing</span></div>
                     </a>
-                    <a href="/esop-scheme-design/" class="pa-cross-card">
+                    <a href="/esop-scheme-design" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Scheme Design</strong><span>Foundational first-time scheme drafting</span></div>
                     </a>
-                    <a href="/esop-for-tech-startups/" class="pa-cross-card">
+                    <a href="/esop-for-tech-startups" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for Tech Startups</strong><span>Tech vertical scheme design</span></div>
                     </a>
-                    <a href="/esop-restructuring-underwater-options/" class="pa-cross-card">
+                    <a href="/esop-restructuring-underwater-options" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Restructuring</strong><span>Down-round remediation (not secondary)</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting Ind AS 102</strong><span>Settlement accounting + Schedule III</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-with="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>SH-4, SH-9, SH-10, SH-11 retainer</span></div>
                     </a>
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>FEMA NDI + FC-TRS cross-border buyer</span></div>
                     </a>

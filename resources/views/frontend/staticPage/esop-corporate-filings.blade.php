@@ -1047,13 +1047,13 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/esop-management-and-compliance-services/">ESOP Management and Compliance</a></strong> - operational ESOP tracking, vesting administration and SH-6 register day-to-day maintenance.</li>
-                    <li><strong><a href="/private-limited-company-compliance/">Private Limited Company Compliance</a></strong> - broader Pvt Ltd MCA filings including AOC-4, MGT-7 (non-ESOP) and Directors' Report.</li>
-                    <li><strong><a href="/pvt-llp-compliance/">Pvt Ltd and LLP Compliance</a></strong> - parent compliance hub covering ROC filings, statutory registers and event-based forms.</li>
-                    <li><strong><a href="/issue-of-shares/">Issue of Shares</a></strong> - share allotment workflow and PAS-3 for non-ESOP allotments.</li>
-                    <li><strong><a href="/transfer-of-shares/">Transfer of Shares</a></strong> - secondary share transfers post ESOP exercise and Form SH-4 work.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - FC-GPR and FC-TRS for cross-border ESOP allotments to foreign employees.</li>
-                    <li><strong><a href="/compliance-calendar/">Compliance Calendar</a></strong> - integrated annual compliance calendar covering MCA, GST, Income Tax and ESOP events.</li>
+                    <li><strong><a href="/esop-management-and-compliance-services">ESOP Management and Compliance</a></strong> - operational ESOP tracking, vesting administration and SH-6 register day-to-day maintenance.</li>
+                    <li><strong><a href="/private-limited-company-compliance">Private Limited Company Compliance</a></strong> - broader Pvt Ltd MCA filings including AOC-4, MGT-7 (non-ESOP) and Directors' Report.</li>
+                    <li><strong><a href="/pvt-llp-compliance">Pvt Ltd and LLP Compliance</a></strong> - parent compliance hub covering ROC filings, statutory registers and event-based forms.</li>
+                    <li><strong><a href="/issue-of-shares">Issue of Shares</a></strong> - share allotment workflow and PAS-3 for non-ESOP allotments.</li>
+                    <li><strong><a href="/transfer-of-shares">Transfer of Shares</a></strong> - secondary share transfers post ESOP exercise and Form SH-4 work.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - FC-GPR and FC-TRS for cross-border ESOP allotments to foreign employees.</li>
+                    <li><strong><a href="/compliance-calendar">Compliance Calendar</a></strong> - integrated annual compliance calendar covering MCA, GST, Income Tax and ESOP events.</li>
                 </ul>
 
             </div>
@@ -1203,27 +1203,27 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related National Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/esop-management-and-compliance-services/" class="pa-cross-card">
+                    <a href="/esop-management-and-compliance-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Management and Compliance</strong><span>Vesting, exercise tracking, SH-6 ops</span></div>
                     </a>
-                    <a href="/private-limited-company-compliance/" class="pa-cross-card">
+                    <a href="/private-limited-company-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Private Limited Company Compliance</strong><span>AOC-4, MGT-7, Directors' Report</span></div>
                     </a>
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>FC-GPR and FC-TRS for foreign employees</span></div>
                     </a>
-                    <a href="/issue-of-shares/" class="pa-cross-card">
+                    <a href="/issue-of-shares" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Issue of Shares</strong><span>Share allotment, PAS-3 workflow</span></div>
                     </a>
-                    <a href="/transfer-of-shares/" class="pa-cross-card">
+                    <a href="/transfer-of-shares" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Transfer of Shares</strong><span>SH-4 transfers post exercise</span></div>
                     </a>
-                    <a href="/compliance-calendar/" class="pa-cross-card">
+                    <a href="/compliance-calendar" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Compliance Calendar</strong><span>Integrated MCA/GST/IT/ESOP calendar</span></div>
                     </a>

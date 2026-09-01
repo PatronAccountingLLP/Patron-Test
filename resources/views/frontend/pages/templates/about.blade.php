@@ -859,7 +859,7 @@ div#teamTabsContent {
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <h1 class="fw-bold mb-4">Simplifying accounting and compliance for modern Indian businesses</h1>
                 <p class="lead mb-4">Patron Accounting curates bespoke financial stewardship for discerning individuals, pioneering startups, and growth-focused enterprises across India.  Leveraging streamlined processes, intelligent automation, and seasoned expertise, we deliver clarity and precision at every stage.By ensuring obligations are met seamlessly, we empower businesses to stay agile, strategically focused, and primed for exponential growth.</p>
-                <a href="/contact-page" class="btn btn-join">Join us today!</a>
+                <a href="/contact-us" class="btn btn-join">Join us today!</a>
             </div>
             <div class="col-lg-6">
                 <div class="hero-images-grid" style="display: flex; justify-content: flex-end;">
@@ -944,11 +944,11 @@ Whether you’re launching a new venture or managing compliance at scale, we wor
         </div>
 
         <div class="d-flex justify-content-center gap-3 mb-5 button-group">
-            <a href="/contact-page" class="btn btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-lg px-5 py-3"
                 style="background: #F26522; color: white; border-radius: 50px; font-weight: 600; border: none;">
                 Request a consultation
             </a>
-            <a href="/contact-page" class="btn btn-outline-dark btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-outline-dark btn-lg px-5 py-3"
                 style="border-radius: 50px; font-weight: 600; border: 2px solid #333;">
                 Contact us
             </a>
@@ -982,11 +982,11 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
         </div>
 
         <div class="d-flex justify-content-center gap-3 mb-5">
-            <a href="/contact-page" class="btn btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-lg px-5 py-3"
                 style="background: #F26522; color: white; border-radius: 50px; font-weight: 600; border: none;">
                 Get expert guidance now
             </a>
-            <a href="/contact-page" class="btn btn-outline-dark btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-outline-dark btn-lg px-5 py-3"
                 style="border-radius: 50px; font-weight: 600; border: 2px solid #333;">
                 Contact us
             </a>
@@ -1015,11 +1015,11 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
         <div class="text-center mb-5">
             <h2 class="fw-bold text-white mb-4" style="font-size: 2.5rem;">Built on trust, backed by expertise, delivering reliable accounting and compliance across India.</h2>
             <div class="d-flex justify-content-center gap-3 mb-5 button-group">
-                <a href="/contact-page" class="btn btn-lg px-5 py-3"
+                <a href="/contact-us" class="btn btn-lg px-5 py-3"
                     style="background: #F26522; color: white; border-radius: 50px; font-weight: 600; border: none;">
                     Get Expert Guidance
                 </a>
-                <a href="/contact-page" class="btn btn-outline-light btn-lg px-5 py-3"
+                <a href="/contact-us" class="btn btn-outline-light btn-lg px-5 py-3"
                     style="border-radius: 50px; font-weight: 600; border: 2px solid white;">
                     Contact us
                 </a>
@@ -1155,7 +1155,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                 At Patron Accounting, we are dedicated to simplifying legal and business solutions for SMEs, entrepreneurs,
                 and individuals alike.
             </p>
-            <a href="/contact-page" class="btn btn-lg px-5 py-3 mb-4"
+            <a href="/contact-us" class="btn btn-lg px-5 py-3 mb-4"
                 style="background: #F26522; color: white; border-radius: 50px; font-weight: 600; border: none;">
                 Get in touch with us
             </a>

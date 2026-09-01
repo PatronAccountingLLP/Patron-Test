@@ -1085,13 +1085,13 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services including individual, business, professional, capital gains, F and O, crypto, NRI and company filings.</li>
-                    <li><strong><a href="/itr-for-fno-trader/">ITR for F and O Traders</a></strong> - for salaried employees with F and O trading on the side; F and O is non-speculative business income under Explanation 2 to Section 28, routed through ITR-3 with set-off rules under Section 70.</li>
-                    <li><strong><a href="/itr-for-property-sale/">ITR for Property Sale</a></strong> - Section 54, 54EC, 54F reinvestment exemption planning; indexation transition for properties acquired before 23 July 2024 (taxpayer's choice of 12.5 percent without indexation or 20 percent with indexation).</li>
-                    <li><strong><a href="/itr-for-crypto-traders/">ITR for Crypto Traders</a></strong> - 30 percent flat tax under Section 115BBH on VDA gains, 1 percent TDS under Section 194S; Schedule VDA disclosure per coin.</li>
-                    <li><strong><a href="/itr-for-capital-gains/">ITR for Capital Gains</a></strong> - comprehensive treatment of STCG and LTCG across all asset classes including equity, mutual funds, property, gold and bonds.</li>
-                    <li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - structure salary components and investments before year-end for next year's filing; regime arbitrage memo, Section 80C maximisation, NPS Section 80CCD planning.</li>
-                    <li><strong><a href="/income-tax-notice/">Income Tax Notice Response</a></strong> - Section 143(1)(a) intimation, Section 139(9) defective return, Section 142(1) inquiry, Section 148 reassessment, faceless assessment under Section 144B.</li>
+                    <li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services including individual, business, professional, capital gains, F and O, crypto, NRI and company filings.</li>
+                    <li><strong><a href="/itr-for-fno-trader">ITR for F and O Traders</a></strong> - for salaried employees with F and O trading on the side; F and O is non-speculative business income under Explanation 2 to Section 28, routed through ITR-3 with set-off rules under Section 70.</li>
+                    <li><strong><a href="/itr-for-property-sale">ITR for Property Sale</a></strong> - Section 54, 54EC, 54F reinvestment exemption planning; indexation transition for properties acquired before 23 July 2024 (taxpayer's choice of 12.5 percent without indexation or 20 percent with indexation).</li>
+                    <li><strong><a href="/itr-for-crypto-traders">ITR for Crypto Traders</a></strong> - 30 percent flat tax under Section 115BBH on VDA gains, 1 percent TDS under Section 194S; Schedule VDA disclosure per coin.</li>
+                    <li><strong><a href="/itr-for-capital-gains">ITR for Capital Gains</a></strong> - comprehensive treatment of STCG and LTCG across all asset classes including equity, mutual funds, property, gold and bonds.</li>
+                    <li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - structure salary components and investments before year-end for next year's filing; regime arbitrage memo, Section 80C maximisation, NPS Section 80CCD planning.</li>
+                    <li><strong><a href="/income-tax-notice">Income Tax Notice Response</a></strong> - Section 143(1)(a) intimation, Section 139(9) defective return, Section 142(1) inquiry, Section 148 reassessment, faceless assessment under Section 144B.</li>
                 </ul>
 
             </div>
@@ -1271,31 +1271,31 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/income-tax-return/" class="pa-cross-card">
+                    <a href="/income-tax-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; 14 sub-services</span></div>
                     </a>
-                    <a href="/itr-for-capital-gains/" class="pa-cross-card">
+                    <a href="/itr-for-capital-gains" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Capital Gains</strong><span>Equity, MF, Section 111A, 112A</span></div>
                     </a>
-                    <a href="/itr-for-property-sale/" class="pa-cross-card">
+                    <a href="/itr-for-property-sale" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Property Sale</strong><span>Section 54, 54EC, 54F reinvestment</span></div>
                     </a>
-                    <a href="/itr-for-fno-trader/" class="pa-cross-card">
+                    <a href="/itr-for-fno-trader" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for F and O Traders</strong><span>Salary plus F and O business income</span></div>
                     </a>
-                    <a href="/itr-for-crypto-traders/" class="pa-cross-card">
+                    <a href="/itr-for-crypto-traders" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Crypto Traders</strong><span>Section 115BBH 30 percent flat tax</span></div>
                     </a>
-                    <a href="/tax-planning-services/" class="pa-cross-card">
+                    <a href="/tax-planning-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Planning Services</strong><span>Pre-year-end regime arbitrage</span></div>
                     </a>
-                    <a href="/income-tax-notice/" class="pa-cross-card">
+                    <a href="/income-tax-notice" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>139(9), 143(1)(a), 142(1), 148</span></div>
                     </a>

@@ -1045,13 +1045,13 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/startup-registration/">Startup Registration</a></strong> - DPIIT recognition and IMB Section 80-IAC certification - the critical first step for the 80-IAC tax deferral recruiting lever.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense computation and Schedule III disclosure for the scheme.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7, SH-6) once the scheme is live.</li>
-                    <li><strong><a href="/esop-management-and-compliance-services/">ESOP Management and Compliance</a></strong> - operational ESOP tracking, vesting administration and SH-6 register maintenance.</li>
-                    <li><strong><a href="/private-limited-company-compliance/">Private Limited Company Compliance</a></strong> - broader Pvt Ltd MCA filings including Directors' Report Rule 12(9) disclosure.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - FC-GPR for cross-border ESOP allotments to foreign employees and foreign-parent deeptech subsidiaries.</li>
-                    <li><strong><a href="/issue-of-shares/">Issue of Shares</a></strong> - share allotment workflow and PAS-3 at exercise.</li>
+                    <li><strong><a href="/startup-registration">Startup Registration</a></strong> - DPIIT recognition and IMB Section 80-IAC certification - the critical first step for the 80-IAC tax deferral recruiting lever.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense computation and Schedule III disclosure for the scheme.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7, SH-6) once the scheme is live.</li>
+                    <li><strong><a href="/esop-management-and-compliance-services">ESOP Management and Compliance</a></strong> - operational ESOP tracking, vesting administration and SH-6 register maintenance.</li>
+                    <li><strong><a href="/private-limited-company-compliance">Private Limited Company Compliance</a></strong> - broader Pvt Ltd MCA filings including Directors' Report Rule 12(9) disclosure.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - FC-GPR for cross-border ESOP allotments to foreign employees and foreign-parent deeptech subsidiaries.</li>
+                    <li><strong><a href="/issue-of-shares">Issue of Shares</a></strong> - share allotment workflow and PAS-3 at exercise.</li>
                 </ul>
 
             </div>
@@ -1207,27 +1207,27 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related National Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/startup-registration/" class="pa-cross-card">
+                    <a href="/startup-registration" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Startup Registration</strong><span>DPIIT recognition + IMB Section 80-IAC</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting under Ind AS 102</strong><span>Share-based payment expense, Schedule III</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>MGT-14, PAS-3, MGT-7, SH-6 retainer</span></div>
                     </a>
-                    <a href="/esop-management-and-compliance-services/" class="pa-cross-card">
+                    <a href="/esop-management-and-compliance-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Management and Compliance</strong><span>Vesting administration and SH-6 ops</span></div>
                     </a>
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>FC-GPR for foreign-parent structures</span></div>
                     </a>
-                    <a href="/private-limited-company-compliance/" class="pa-cross-card">
+                    <a href="/private-limited-company-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Private Limited Company Compliance</strong><span>Directors' Report Rule 12(9) disclosure</span></div>
                     </a>

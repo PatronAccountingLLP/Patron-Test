@@ -216,7 +216,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/gst-refund/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">GST Refund</a>
+                <a href="/gst-refund" style="color:var(--text-muted);text-decoration:none;font-weight:500;">GST Refund</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li><span style="color:var(--orange);font-weight:600;">RFD-03 Response Services</span></li>
@@ -621,7 +621,7 @@
                 </div>
                 <p><strong>Critical point - the 15-day window is the officer's, not the applicant's:</strong> The 15 days under Rule 90(2)/(3) is the Department's window to issue either RFD-02 or RFD-03 from ARN generation. The applicant has no parallel 15-day reply window. The applicant's only deadline post-RFD-03 is the original Section 54(1) 2-year cut-off - within which the fresh RFD-01 must be filed. Patron's standard 7-day fresh-filing cycle keeps the cut-off comfortable.</p>
                 <p><strong>Auto-credit - no PMT-03 order needed:</strong> Per paragraph 10 of Circular 125/44/2019-GST dated 18.11.2019 - upon RFD-03 issuance, any amount of input tax credit or cash debited from electronic credit or cash ledger on filing of original RFD-01 is auto-credited back without any separate order in Form GST PMT-03. Patron's reconciliation always confirms the auto-credit before fresh RFD-01 filing.</p>
-                <p>For the original Form RFD-01 mechanics (whose deficiency triggers RFD-03), see <a href="/gst-refund-rfd-01-filing/">GST RFD-01 filing step-by-step</a>. For 90 percent provisional refund acceleration on the fresh RFD-01, see <a href="/gst-refund-provisional-90-percent/">GST 90 percent provisional refund</a>.</p>
+                <p>For the original Form RFD-01 mechanics (whose deficiency triggers RFD-03), see <a href="/gst-refund-rfd-01-filing">GST RFD-01 filing step-by-step</a>. For 90 percent provisional refund acceleration on the fresh RFD-01, see <a href="/gst-refund-provisional-90-percent">GST 90 percent provisional refund</a>.</p>
 
             </div>
             </div>
@@ -1023,14 +1023,14 @@
                 
                 <p>RFD-03 remediation integrates with Patron's broader GST refund stack. Common service bundles:</p>
                 <ul>
-                    <li><a href="/gst-refund/">GST refund (general)</a> - the parent practice covering Section 54 refund spectrum across all 8 refund categories.</li>
-                    <li><a href="/gst-refund-rfd-01-filing/">GST RFD-01 filing step-by-step</a> - the form whose deficiency triggers RFD-03; covers 11-Statement matrix and PAF workflow.</li>
-                    <li><a href="/gst-refund-provisional-90-percent/">GST 90 percent provisional refund</a> - acceleration path on the fresh RFD-01 post RFD-03 remediation.</li>
-                    <li><a href="/gst-returns/">GST returns filing</a> - monthly GSTR-1 and GSTR-3B reconciliation that prevents the data-mismatch deficiency trigger.</li>
-                    <li><a href="/gst-annual-returns/">GST annual returns</a> - GSTR-9 and GSTR-9C reconciliation ensuring no aged-return flag escalates into systemic RFD-03 cycles.</li>
-                    <li><a href="/gst-audit/">GST audit support</a> - for businesses above the prescribed turnover threshold.</li>
-                    <li><a href="/gstat-appeal-exporters/">GSTAT appeal for exporters</a> - second-tier appellate route where pretextual RFD-03 escalates beyond Section 107.</li>
-                    <li><a href="/gst-notice/">GST notice response</a> - for RFD-08 SCNs and scrutiny notices on the fresh RFD-01.</li>
+                    <li><a href="/gst-refund">GST refund (general)</a> - the parent practice covering Section 54 refund spectrum across all 8 refund categories.</li>
+                    <li><a href="/gst-refund-rfd-01-filing">GST RFD-01 filing step-by-step</a> - the form whose deficiency triggers RFD-03; covers 11-Statement matrix and PAF workflow.</li>
+                    <li><a href="/gst-refund-provisional-90-percent">GST 90 percent provisional refund</a> - acceleration path on the fresh RFD-01 post RFD-03 remediation.</li>
+                    <li><a href="/gst-returns">GST returns filing</a> - monthly GSTR-1 and GSTR-3B reconciliation that prevents the data-mismatch deficiency trigger.</li>
+                    <li><a href="/gst-annual-returns">GST annual returns</a> - GSTR-9 and GSTR-9C reconciliation ensuring no aged-return flag escalates into systemic RFD-03 cycles.</li>
+                    <li><a href="/gst-audit">GST audit support</a> - for businesses above the prescribed turnover threshold.</li>
+                    <li><a href="/gstat-appeal-exporters">GSTAT appeal for exporters</a> - second-tier appellate route where pretextual RFD-03 escalates beyond Section 107.</li>
+                    <li><a href="/gst-notice">GST notice response</a> - for RFD-08 SCNs and scrutiny notices on the fresh RFD-01.</li>
                 </ul>
 
             </div>
@@ -1192,14 +1192,14 @@
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end refund recovery and compliance support across the GST stack</div>
                 <div class="pa-cross-grid">
-                    <a href="/gst-refund/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg></div><div><div class="pa-card-title">GST Refund (General)</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-rfd-01-filing/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">GST RFD-01 Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-provisional-90-percent/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="pa-card-title">90% Provisional Refund</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-annual-returns/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-audit/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gstat-appeal-exporters/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-notice/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><div><div class="pa-card-title">GST Notice Response</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg></div><div><div class="pa-card-title">GST Refund (General)</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-rfd-01-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">GST RFD-01 Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-provisional-90-percent" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="pa-card-title">90% Provisional Refund</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-annual-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gstat-appeal-exporters" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-notice" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><div><div class="pa-card-title">GST Notice Response</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>
         </div>

@@ -186,7 +186,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1078,7 +1078,7 @@
                 <p><strong>10,000+ Businesses Served | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years of Practice</strong></p>
                 <p>Trusted by Hyundai, Asian Paints, Bridgestone, and 10,000+ Indian businesses running Tally, Zoho Books, SAP S/4HANA, SAP Business One, Oracle Fusion, Oracle NetSuite, Microsoft Dynamics 365, Busy, Marg, and custom REST ERPs.</p>
                 <p>Patron has completed 350+ ERP-IRP integrations spanning single-GSTIN small businesses on Tally to 25+ GSTIN enterprise rollouts on SAP S/4HANA. Post go-live, the average IRN success rate is 99.7 percent, with zero duplicate IRN incidents through idempotency keys and zero invoice loss at cutover across all 350+ deployments.</p>
-                <p><strong>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</strong> See our <a href="https://www.patronaccounting.com/tally-accounting/mumbai">Tally accounting support in Mumbai</a> for local assistance.</p>
+                <p><strong>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves businesses across India - both in-person and remotely.</strong> See our <a href="https://www.patronaccounting.com/tally-accounting">Tally accounting support in Mumbai</a> for local assistance.</p>
 
             </div>
         </div>

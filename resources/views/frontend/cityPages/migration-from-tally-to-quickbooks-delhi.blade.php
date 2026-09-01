@@ -734,7 +734,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
                         </span>
-                        <a href="/migration-from-tally-to-quickbooks" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/migration-from-tally-to-zoho" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -906,7 +906,7 @@
                 </table>
                 </div>
 
-                <p>The pull towards QuickBooks Online in Delhi tends to come from three things at once: books you can reach from anywhere, several people working in one file, and bank feeds that arrive on their own. A Nehru Place IT reseller or systems integrator wants its founders and an offsite accountant looking at the same data. An Okhla or Mayapuri manufacturer prefers live dashboards over a lone desktop copy, and a Karol Bagh trader pushing heavy invoice runs needs everything to still reconcile afterwards. The fear holding them back is the thought of losing years of ledgers mid-move. Our national <a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration</a> service explains the wider approach.</p>
+                <p>The pull towards QuickBooks Online in Delhi tends to come from three things at once: books you can reach from anywhere, several people working in one file, and bank feeds that arrive on their own. A Nehru Place IT reseller or systems integrator wants its founders and an offsite accountant looking at the same data. An Okhla or Mayapuri manufacturer prefers live dashboards over a lone desktop copy, and a Karol Bagh trader pushing heavy invoice runs needs everything to still reconcile afterwards. The fear holding them back is the thought of losing years of ledgers mid-move. Our national <a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration</a> service explains the wider approach.</p>
                 <p>From the first export to the closing sign-off, our Delhi chartered accountants run the whole project, matching every Tally ledger to a QuickBooks account, carrying balances and masters forward, and reconciling the trial balance ahead of go-live. After that, our <a href="/accounting-services">Accounting Services</a> keep the new books moving. We review this page each quarter.</p>
             </div>
         </div>
@@ -1211,7 +1211,7 @@
             <h2 class="section-title">Related Services</h2>
             <p class="pa-block-sub">Open with the national migration service, then look through the related services we offer across India.</p>
             <ul>
-                <li><a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration in India</a> - the national parent service</li>
+                <li><a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration in India</a> - the national parent service</li>
                 <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping in QuickBooks</li>
                 <li><a href="/gst-returns">GST Return Filing</a> - file GST from your new QuickBooks data</li>
                 <li><a href="/income-tax-return">Income Tax Return Filing</a> - file accurate ITRs on clean books</li>
@@ -1343,7 +1343,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Move Your Delhi Books to QuickBooks Without Losing History</h2>
             <div class="content-text" style="text-align:left;">
                 <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Moving off Tally to QuickBooks Online should never cost you years of ledgers or fracture your GST trail. Whether you are a Nehru Place IT reseller, an Okhla or Mayapuri unit, or a Karol Bagh and Connaught Place trading house, our CA-led migration recasts the chart, brings masters and balances forward, rebuilds the history, and reconciles the trial balance against Tally, all from INR 9,999.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Look over the national <a href="/migration-from-tally-to-quickbooks" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once live hand the running over to <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a>. Patron Accounting LLP supports 10,000+ businesses and carries a 4.9 Google rating.</p>
+                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Look over the national <a href="/migration-from-tally-to-zoho" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once live hand the running over to <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a>. Patron Accounting LLP supports 10,000+ businesses and carries a 4.9 Google rating.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>

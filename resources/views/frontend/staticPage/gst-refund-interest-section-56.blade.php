@@ -216,7 +216,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/gst-refund/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">GST Refund</a>
+                <a href="/gst-refund" style="color:var(--text-muted);text-decoration:none;font-weight:500;">GST Refund</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li><span style="color:var(--orange);font-weight:600;">Section 56 Interest Services</span></li>
@@ -612,7 +612,7 @@
                     <li><strong>Refund consequent to appellate order</strong> - where Adjudicating Authority, Appellate Authority, GSTAT, or Court order leads to refund (9 percent rate applies).</li>
                     <li><strong>Taxpayers facing Department denial</strong> - where Department refuses interest citing 'no claim in RFD-01' or 'technical glitch' (Raghav Ventures and Vineet Polyfab cure).</li>
                 </ul>
-                <p><strong>Pre-condition:</strong> GST registration is mandatory under Section 22 CGST Act for any business with the prescribed turnover. If not yet registered, complete <a href="/gst-registration/">GST registration</a> before initiating any refund cycle.</p>
+                <p><strong>Pre-condition:</strong> GST registration is mandatory under Section 22 CGST Act for any business with the prescribed turnover. If not yet registered, complete <a href="/gst-registration">GST registration</a> before initiating any refund cycle.</p>
 
             </div>
             </div>
@@ -1010,13 +1010,13 @@
                 
                 <p>Section 56 interest recovery work integrates with Patron Accounting's broader GST refund stack. Common bundles:</p>
                 <ul>
-                    <li><a href="/gst-refund/">GST refund (general)</a> - the parent practice covering the full Section 54 refund spectrum that creates the underlying refund whose delay triggers Section 56 interest.</li>
-                    <li><a href="/gst-returns/">GST return filing</a> - monthly GSTR-1 and GSTR-3B underpinning every refund claim.</li>
-                    <li><a href="/gst-annual-returns/">GST annual return filing</a> - GSTR-9 reconciliation that ties together refunds and interest entitlements.</li>
-                    <li><a href="/gst-audit/">GST audit support</a> - for taxpayers above the prescribed turnover threshold.</li>
-                    <li><a href="/gstat-appeal-exporters/">GSTAT appeal for exporters</a> - where Section 56 interest denial leads to second-tier appellate proceedings before the GST Appellate Tribunal.</li>
-                    <li><a href="/iec-registration/">IEC registration</a> - mandatory for exporters whose refund cycles often trigger Section 56 interest claims.</li>
-                    <li><a href="/gst-notice/">GST notice response</a> - for scrutiny notices on Section 56 interest claims or RFD-01 declarations.</li>
+                    <li><a href="/gst-refund">GST refund (general)</a> - the parent practice covering the full Section 54 refund spectrum that creates the underlying refund whose delay triggers Section 56 interest.</li>
+                    <li><a href="/gst-returns">GST return filing</a> - monthly GSTR-1 and GSTR-3B underpinning every refund claim.</li>
+                    <li><a href="/gst-annual-returns">GST annual return filing</a> - GSTR-9 reconciliation that ties together refunds and interest entitlements.</li>
+                    <li><a href="/gst-audit">GST audit support</a> - for taxpayers above the prescribed turnover threshold.</li>
+                    <li><a href="/gstat-appeal-exporters">GSTAT appeal for exporters</a> - where Section 56 interest denial leads to second-tier appellate proceedings before the GST Appellate Tribunal.</li>
+                    <li><a href="/iec-registration">IEC registration</a> - mandatory for exporters whose refund cycles often trigger Section 56 interest claims.</li>
+                    <li><a href="/gst-notice">GST notice response</a> - for scrutiny notices on Section 56 interest claims or RFD-01 declarations.</li>
                 </ul>
 
             </div>
@@ -1185,14 +1185,14 @@
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end refund recovery and interest claim support across the GST stack</div>
                 <div class="pa-cross-grid">
-                    <a href="/gst-refund/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg></div><div><div class="pa-card-title">GST Refund (General)</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-returns/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-annual-returns/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-audit/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-registration/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/iec-registration/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div><div><div class="pa-card-title">IEC Registration</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gstat-appeal-exporters/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-notice/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><div><div class="pa-card-title">GST Notice Response</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg></div><div><div class="pa-card-title">GST Refund (General)</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">GST Returns Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-annual-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/iec-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div><div><div class="pa-card-title">IEC Registration</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gstat-appeal-exporters" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-notice" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div><div><div class="pa-card-title">GST Notice Response</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>
         </div>

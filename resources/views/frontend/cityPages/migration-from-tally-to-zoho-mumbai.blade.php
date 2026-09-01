@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>Tally to Zoho migration is the structured handover of your accounting data from Tally, a desktop ERP, into Zoho Books, a cloud accounting platform within the broader Zoho One suite, so your financials sit online and remain GST-compliant.</p>
                     <p>For a BKC advisory or finance firm, that means rebuilding the chart of accounts in Zoho Books, importing customer and vendor masters, carrying opening balances over, and switching on bank feeds so settlements land automatically. For a Bhiwandi distribution unit, it extends to item masters, opening stock quantities and values, and tax mappings so warehouse accounting carries on inside Zoho Inventory without interruption.</p>
-                    <p>The non-negotiable part is sequence and proof: data has to load in the order Zoho expects, and the trial balance has to agree with Tally before the cut-over is signed off. To keep running the books, see <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>; if you intend to stay on desktop for now, see <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a>.</p>
+                    <p>The non-negotiable part is sequence and proof: data has to load in the order Zoho expects, and the trial balance has to agree with Tally before the cut-over is signed off. To keep running the books, see <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>; if you intend to stay on desktop for now, see <a href="/tally-accounting">Tally Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Tally to Zoho Migration in Mumbai:</strong></p>
@@ -1225,7 +1225,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
                     <div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

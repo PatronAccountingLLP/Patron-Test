@@ -734,7 +734,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
                         </span>
-                        <a href="/migration-from-tally-to-quickbooks" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/migration-from-tally-to-zoho" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -906,7 +906,7 @@
                 </table>
                 </div>
 
-                <p>In Gurugram, the reasons to adopt QuickBooks Online stack up fast: books you can open from any desk, multiple users in a single file, and bank feeds that arrive automatically. A funded Cyber City SaaS company or a Udyog Vihar ITES provider wants its founders and an offsite accountant on the same data. A Manesar IMT manufacturer or an MG Road retailer would rather watch live dashboards than rely on one installed copy. The catch most worry about is losing years of ledgers as they cross over. Our national <a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration</a> service sets out how we avoid that.</p>
+                <p>In Gurugram, the reasons to adopt QuickBooks Online stack up fast: books you can open from any desk, multiple users in a single file, and bank feeds that arrive automatically. A funded Cyber City SaaS company or a Udyog Vihar ITES provider wants its founders and an offsite accountant on the same data. A Manesar IMT manufacturer or an MG Road retailer would rather watch live dashboards than rely on one installed copy. The catch most worry about is losing years of ledgers as they cross over. Our national <a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration</a> service sets out how we avoid that.</p>
                 <p>Working out of our Sohna Road office, our Gurugram chartered accountants carry the project from start to finish, matching each Tally ledger to a QuickBooks account, moving balances and masters across, and reconciling the trial balance before go-live. When you are live, our <a href="/accounting-services">Accounting Services</a> keep the books current. This page is reviewed every quarter.</p>
             </div>
         </div>
@@ -1211,7 +1211,7 @@
             <h2 class="section-title">Related Services</h2>
             <p class="pa-block-sub">Begin with the national migration service, then browse the related services we run across India.</p>
             <ul>
-                <li><a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration in India</a> - the national parent service</li>
+                <li><a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration in India</a> - the national parent service</li>
                 <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping in QuickBooks</li>
                 <li><a href="/gst-returns">GST Return Filing</a> - file GST from your new QuickBooks data</li>
                 <li><a href="/income-tax-return">Income Tax Return Filing</a> - file accurate ITRs on clean books</li>
@@ -1339,7 +1339,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Move Your Gurugram Books to QuickBooks Without Losing History</h2>
             <div class="content-text" style="text-align:left;">
                 <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Leaving Tally for QuickBooks Online should never cost you years of ledgers or fracture your GST trail. Whether you are a Cyber City SaaS company, a Udyog Vihar ITES provider, a Manesar IMT unit, or an MG Road retailer, our CA-led migration reconstructs the chart, brings masters and balances over, rebuilds the history, and reconciles the trial balance against Tally, all from INR 9,999.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Browse the national <a href="/migration-from-tally-to-quickbooks" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once live pass the running to <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a>. Patron Accounting LLP serves 10,000+ businesses and holds a 4.9 Google rating.</p>
+                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Browse the national <a href="/migration-from-tally-to-zoho" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once live pass the running to <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a>. Patron Accounting LLP serves 10,000+ businesses and holds a 4.9 Google rating.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>

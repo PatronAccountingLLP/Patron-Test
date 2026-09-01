@@ -394,7 +394,7 @@
 <tr><td>Delhi RoC</td><td>IFCI Tower, 61 Nehru Place, New Delhi - 110019</td></tr>
 </tbody></table></div></p>
                 <p><p>Delhi hosts India's largest number of registered companies - 50,000+ active Pvt Ltd companies, listed corporations at Connaught Place, PSUs at Bhikaji Cama Place and government companies. Every one requires double currency net worth certificate. With ICAI's 60-audit cap from April 2026, quality audit firm availability has tightened.</p>
-<p>Patron's Delhi CA team provides end-to-end double currency net worth certificate. Learn more about <a href="/double-currency-networth-format">Double Currency Net Worth Certificate across India</a>. Related: <a href="/double-currency-networth-format">Double Currency Net Worth Certificate</a> and <a href="/secretarial-audit">Secretarial Audit</a>.</p></p>
+<p>Patron's Delhi CA team provides end-to-end double currency net worth certificate. Learn more about <a href="/net-worth-certificate-for-visa">Double Currency Net Worth Certificate across India</a>. Related: <a href="/net-worth-certificate-for-visa">Double Currency Net Worth Certificate</a> and <a href="/secretarial-audit">Secretarial Audit</a>.</p></p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -700,8 +700,8 @@
             <div class="content-text">
                 
                 <ul>
-<li><a href="/double-currency-networth-format">Double Currency Net Worth Certificate (India)</a> - National-level double currency net worth certificate</li>
-<li><a href="/double-currency-networth-format">Double Currency Net Worth Certificate</a> - Income tax double currency net worth certificate</li>
+<li><a href="/net-worth-certificate-for-visa">Double Currency Net Worth Certificate (India)</a> - National-level double currency net worth certificate</li>
+<li><a href="/net-worth-certificate-for-visa">Double Currency Net Worth Certificate</a> - Income tax double currency net worth certificate</li>
 <li><a href="/secretarial-audit">Secretarial Audit</a> - S.204 non-financial compliance</li>
 
 

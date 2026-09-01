@@ -995,8 +995,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/what-is-esop-india-startup-guide" class="sidebar-link">What is ESOP <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-employees" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/what-is-startup-registration-guide-indian-businesses" class="sidebar-link">What is ESOP <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

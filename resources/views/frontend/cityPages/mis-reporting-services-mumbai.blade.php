@@ -937,7 +937,7 @@
                 <div class="content-text what-is-definition">
                     <p>Management information system reporting, MIS for short, means producing dashboards and financial summaries at a set rhythm so the numbers buried in your accounts become something the people steering the company can actually use.</p>
                     <p>Take an Andheri media or SaaS house: its monthly pack lays out billings against budget, gross margin, runway, and a KPI board carrying MRR, churn, and burn. A Bhiwandi logistics or trading firm instead leans on lane and product margins, stock and working-capital ratios, and receivables and payables ageing so a cash squeeze never arrives unannounced.</p>
-                    <p>Think of the monthly pack as the day-to-day steering wheel and the quarterly pack as the strategy map, the latter carrying ratio analysis, segment splits, and written commentary for directors and backers. Since MIS rides on top of your bookkeeping, it sits comfortably beside <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>Think of the monthly pack as the day-to-day steering wheel and the quarterly pack as the strategy map, the latter carrying ratio analysis, segment splits, and written commentary for directors and backers. Since MIS rides on top of your bookkeeping, it sits comfortably beside <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>The Vocabulary Behind a Mumbai MIS Pack:</strong></p>
@@ -1246,7 +1246,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

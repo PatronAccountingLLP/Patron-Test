@@ -855,7 +855,7 @@ a:focus-visible {
         <section class="content-section" id="sh7">
             <h2>Increasing Authorised Capital Later (SH-7)</h2>
             <p>If you start low and later need more, increasing authorised capital is a defined process under <strong>Section 61 of the Companies Act 2013</strong>: a board resolution, an <strong>ordinary resolution</strong> by shareholders at a general meeting, an amendment to the MoA capital clause, and <strong>Form SH-7 filed with the ROC within 30 days</strong>. You pay an ROC fee tiered on the <em>increase</em> amount, plus state stamp duty on the increase, plus a professional fee.</p>
-            <p>If the Articles don't permit capital alteration, amend them first by special resolution with MGT-14. There's <strong>no penalty</strong> for starting low — see Patron's <a href="https://www.patronaccounting.com/blog/increase-authorized-capital-of-company-complete-guide">increase authorised capital guide</a> and the <a href="https://www.patronaccounting.com/change-in-authorised-capital">change in authorised capital</a> service.</p>
+            <p>If the Articles don't permit capital alteration, amend them first by special resolution with MGT-14. There's <strong>no penalty</strong> for starting low — see Patron's <a href="https://www.patronaccounting.com/blog/increase-authorized-capital-of-company">increase authorised capital guide</a> and the <a href="https://www.patronaccounting.com/change-in-authorised-capital">change in authorised capital</a> service.</p>
         </section>
 
         <section class="content-section" id="bands">
@@ -966,13 +966,13 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>Capital Services</h3>
             <a href="https://www.patronaccounting.com/change-in-authorised-capital" class="sidebar-link">Change Authorised Capital <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital" class="sidebar-link">Authorised vs Paid-Up <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/increase-authorized-capital-of-company-complete-guide" class="sidebar-link">Increase Authorised Capital <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/increase-authorized-capital-of-company" class="sidebar-link">Increase Authorised Capital <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

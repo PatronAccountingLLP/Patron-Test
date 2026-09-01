@@ -939,7 +939,7 @@
                     <li>Sectoral FDI cap compliance memo.</li>
                     <li>Section 195 TDS reconciliation with non-resident buyer tax department.</li>
                     <li>DTAA Article 13 capital gains analysis where relevant.</li>
-                    <li>Coordinated through <a href="/fdi-compliance/">FDI Compliance</a>.</li>
+                    <li>Coordinated through <a href="/fdi-compliance">FDI Compliance</a>.</li>
                 </ul>
                 <p><strong>8. Employee Communication Pack:</strong></p>
                 <ul>
@@ -1149,7 +1149,7 @@
                     <li><strong><a href="/esop-restructuring-underwater-options/pune">ESOP Restructuring and Underwater Options</a></strong> - down-round remediation via Repricing, Exchange Program, Top-Up Grants, Vesting Acceleration or Cashout/Buyback; distinct from secondary sale (modification vs liquidity).</li>
                     <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - settlement accounting under Ind AS 102 paragraph 28 and Schedule III disclosure for buyback corporate actions.</li>
                     <li><strong><a href="/esop-corporate-filings/pune">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3, MGT-7 plus SH-4, SH-9, SH-10, SH-11 for buyback workflows and SH-4 for tender offer transfer filings.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - FEMA NDI Rules 2019 plus FC-TRS coordination for cross-border secondary buyers; sectoral FDI cap analysis; Section 195 TDS workflow.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - FEMA NDI Rules 2019 plus FC-TRS coordination for cross-border secondary buyers; sectoral FDI cap analysis; Section 195 TDS workflow.</li>
                 </ul>
 
             </div>

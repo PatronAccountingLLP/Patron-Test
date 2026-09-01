@@ -923,7 +923,7 @@
                 <div class="content-text what-is-definition">
                     <p>At its core, reconciliation sets two independent records against each other, your books on one side and an outside statement on the other, until each balance and entry lines up. The books audit, sometimes called internal verification, goes a step further and tests whether those reconciled entries are properly classified, backed by evidence, and free of mistakes.</p>
                     <p>For an Andheri SaaS or media business, that work means tying Razorpay and Stripe payouts to the actual bank credits, lining up input tax credit with GSTR-2B on the portal, and proving the receivables control account equals the customer ledger. For a Bhiwandi or Dombivli warehousing firm, it extends to checking creditors against supplier statements, testing stock and the purchase register, and squaring inter-company balances across the group.</p>
-                    <p>In practice, reconciliation runs alongside cleanup, the step that removes duplicate vouchers, re-tags misclassified costs, and addresses the back-dated edits the audit trail exposes. For platform-level help, see <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>In practice, reconciliation runs alongside cleanup, the step that removes duplicate vouchers, re-tags misclassified costs, and addresses the back-dated edits the audit trail exposes. For platform-level help, see <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Accounts Reconciliation in Mumbai:</strong></p>
@@ -1234,7 +1234,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

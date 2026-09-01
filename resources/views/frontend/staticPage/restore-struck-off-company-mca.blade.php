@@ -2405,19 +2405,19 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
                 <div class="pa-block-title">City-Wise NCLT Restoration Services</div>
                 <div class="pa-block-sub">Local partner-CA + empanelled advocate at bench jurisdiction</div>
                 <div class="pa-city-grid">
-                    <a href="/restore-struck-off-company-mca/pune" class="pa-city-card">
+                    <a href="/restore-struck-off-company-mca" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">NCLT Restoration Pune</div><div class="pa-card-sub">Maharashtra Bench</div></div>
                     </a>
-                    <a href="/restore-struck-off-company-mca/mumbai" class="pa-city-card">
+                    <a href="/restore-struck-off-company-mca" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">NCLT Restoration Mumbai</div><div class="pa-card-sub">Mumbai Bench</div></div>
                     </a>
-                    <a href="/restore-struck-off-company-mca/delhi" class="pa-city-card">
+                    <a href="/restore-struck-off-company-mca" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">NCLT Restoration Delhi</div><div class="pa-card-sub">Principal Bench</div></div>
                     </a>
-                    <a href="/restore-struck-off-company-mca/gurugram" class="pa-city-card">
+                    <a href="/restore-struck-off-company-mca" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">NCLT Restoration Gurugram</div><div class="pa-card-sub">Delhi Bench Jurisdiction</div></div>
                     </a>

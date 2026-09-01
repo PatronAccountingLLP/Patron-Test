@@ -559,16 +559,16 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <div class="sidebar-card"><h3>Backlog Resolution</h3>
 <a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings" class="sidebar-link">Condonation of Delay (Section 460) <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/restore-struck-off-company-mca" class="sidebar-link">Restore Struck-off Company <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/director-disqualification-removal" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/removal-of-director" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/compounding-of-offences" class="sidebar-link">Compounding of Offences <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/pvt-llp-compliance" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/director-kyc" class="sidebar-link">DIR-3 KYC Filing <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/dpt-3-filing" class="sidebar-link">DPT-3 Filing <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/llp-strike-off" class="sidebar-link">LLP Strike-off <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/dpt-3-filing-services" class="sidebar-link">DPT-3 Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/llp-strike-off-form-24" class="sidebar-link">LLP Strike-off <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>

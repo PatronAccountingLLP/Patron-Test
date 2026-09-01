@@ -937,7 +937,7 @@
                 <div class="content-text what-is-definition">
                     <p>A chart of accounts is the organised list of every ledger your business uses to record transactions, grouped under assets, liabilities, equity, income, and expenses. The setup is the one-time design and configuration of that structure inside your accounting software so it is complete, compliant, and ready to use.</p>
                     <p>For an IT-SaaS firm in Andheri or Powai, this means creating subscription revenue, deferred income, payment-gateway clearing, and ESOP ledgers, then tagging them to cost centres for each product line. For a BKC or Lower Parel finance house, it means mapping fee income, brokerage, and overheads by desk. For a warehouse near Bhiwandi or Dombivli, it includes stock, freight inward, and GST input ledgers.</p>
-                    <p>Setup pairs with software configuration so the new structure runs cleanly. For software-specific work, see <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>Setup pairs with software configuration so the new structure runs cleanly. For software-specific work, see <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Chart of Accounts Setup in Mumbai:</strong></p>
@@ -1246,7 +1246,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

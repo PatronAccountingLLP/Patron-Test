@@ -823,7 +823,7 @@ a:focus-visible {
                 <li><strong>Answer the origin and innovation questions</strong>, then <strong>Check Eligibility</strong> for a verdict, a criterion-by-criterion breakdown, and the benefits you'd unlock.</li>
             </ol>
             <div class="callout">
-                <p><strong>CA Tip:</strong> Recognition is free and compounds over time — apply early. If you're not incorporated yet, start with <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india">Pvt Ltd registration</a>, the most common structure for DPIIT startups.</p>
+                <p><strong>CA Tip:</strong> Recognition is free and compounds over time — apply early. If you're not incorporated yet, start with <a href="https://www.patronaccounting.com/private-limited-company-registration">Pvt Ltd registration</a>, the most common structure for DPIIT startups.</p>
             </div>
         </section>
 
@@ -868,7 +868,7 @@ a:focus-visible {
                 <li><strong>Public procurement</strong> — GeM access and relaxed tender norms.</li>
                 <li><strong>Fund of Funds</strong> and other scheme access.</li>
             </ul>
-            <p>See Patron's notes on <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC</a> and Section 56.</p>
+            <p>See Patron's notes on <a href="https://www.patronaccounting.com/blog/section-80-iac-startup-tax-holiday">Section 80-IAC</a> and Section 56.</p>
         </section>
 
         <section class="content-section" id="changes">
@@ -971,7 +971,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>Startup Services</h3>
             <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup (DPIIT) Registration <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
         </div>
 

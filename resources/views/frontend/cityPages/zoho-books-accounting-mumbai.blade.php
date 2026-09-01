@@ -499,7 +499,7 @@
                 <p><strong>Exporters (SEEPZ):</strong> Multi-currency invoicing with automated exchange rates, zero-rated supply tracking under Section 16 IGST Act, and LUT management.</p>
                 <p><strong>Manufacturers (Andheri MIDC, Thane-Belapur):</strong> Inventory-heavy operations with stock tracking, purchase order management, and batch/serial number support.</p>
                 <p><strong>Startups and D2C Brands (Lower Parel, Andheri):</strong> Project accounting, time tracking, and professional invoicing from co-working spaces. Bundle with <a href="/gst-registration">GST Registration</a>.</p>
-                <p><strong>Trading Firms (Crawford Market, Bhuleshwar):</strong> High-volume daily transactions with automated bank feeds replacing manual Tally data entry. Consider <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> if desktop-first is preferred.</p>
+                <p><strong>Trading Firms (Crawford Market, Bhuleshwar):</strong> High-volume daily transactions with automated bank feeds replacing manual Tally data entry. Consider <a href="/tally-accounting">Tally Accounting in Mumbai</a> if desktop-first is preferred.</p>
                 <p><strong>Freelancers and Consultants:</strong> Professional invoicing, expense categorisation, and Section 44AD/44ADA presumptive taxation compliance on Zoho Books Free plan.</p>
 
             </div>

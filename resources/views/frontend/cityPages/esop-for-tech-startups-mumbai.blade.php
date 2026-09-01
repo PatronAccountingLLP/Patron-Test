@@ -905,7 +905,7 @@
                 </ul>
                 <p><strong>3. DPIIT and Section 80-IAC Pathway for Founders:</strong></p>
                 <ul>
-                    <li>Coordinated <a href="/startup-registration/">DPIIT Startup Registration</a> filing under Notification GSR 127(E) 2019.</li>
+                    <li>Coordinated <a href="/startup-registration">DPIIT Startup Registration</a> filing under Notification GSR 127(E) 2019.</li>
                     <li>Section 80-IAC plus Section 192(2C) tax deferral pathway documented (48 months under current regime; 60 months under Income Tax Act 2025 from 1 April 2026).</li>
                     <li>Critical for tech founders who hold more than 10 percent equity.</li>
                 </ul>
@@ -920,7 +920,7 @@
                     <li>SAR-based scheme (cash-settled) as alternative under Ind AS 102 group SBP rules.</li>
                     <li>Local Indian-entity ESOP comparison.</li>
                     <li>LRS USD 250,000 per FY exercise consideration tracking.</li>
-                    <li>End-to-end <a href="/fdi-compliance/">FDI Compliance</a> workflow.</li>
+                    <li>End-to-end <a href="/fdi-compliance">FDI Compliance</a> workflow.</li>
                 </ul>
                 <p><strong>6. Annual Review and Refresh Grant Strategy:</strong></p>
                 <ul>
@@ -1139,8 +1139,8 @@
                     <li><strong><a href="/esop-valuation-services/mumbai">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies for grant and exercise events.</li>
                     <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense recognition over vesting period; group SBP rules for cross-border mirror grants.</li>
                     <li><strong><a href="/esop-corporate-filings/mumbai">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3 and MGT-7 for tech startups with active grant cycles.</li>
-                    <li><strong><a href="/startup-registration/">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - cross-border ESOP filings for foreign parent subsidiaries under FEMA Overseas Investment Rules 2022.</li>
+                    <li><strong><a href="/startup-registration">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - cross-border ESOP filings for foreign parent subsidiaries under FEMA Overseas Investment Rules 2022.</li>
                 </ul>
 
             </div>

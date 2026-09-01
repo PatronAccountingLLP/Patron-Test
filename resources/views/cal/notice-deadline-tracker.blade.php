@@ -564,16 +564,16 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 </div></div>
 
 <div class="sidebar-card"><h3>City Service Pages</h3>
-<a href="https://www.patronaccounting.com/income-tax-notice/hyderabad" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/income-tax-notice/chennai" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">IT Notice CA in Hyderabad <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">IT Notice CA in Chennai <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-notice/pune" class="sidebar-link">IT Notice CA in Pune <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-notice/mumbai" class="sidebar-link">IT Notice CA in Mumbai <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-notice/delhi" class="sidebar-link">IT Notice CA in Delhi <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/income-tax-notice/bangalore" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">IT Notice CA in Bangalore <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="https://www.patronaccounting.com/income-tax-notice-response" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">IT Notice Response <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Reply <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/scrutiny-assessment" class="sidebar-link">Scrutiny Assessment <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-litigation" class="sidebar-link">IT Litigation &amp; Appeals <span class="arrow">→</span></a>

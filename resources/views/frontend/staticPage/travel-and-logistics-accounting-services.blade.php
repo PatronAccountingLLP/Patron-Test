@@ -257,7 +257,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -673,7 +673,7 @@
                 </table>
                 </div><p style="margin-top:14px;font-size:14px;">Travel agency accounting and logistics books start at <strong>INR 3,499 per month</strong> for one entity with routine billing. Your fee tracks the trips or consignments billed each month and how many branches you run. Ask for a <strong>fixed quote</strong> on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact-us">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
                 <p style="margin-top:16px;"><strong>Get a free Travel and Logistics Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20travel%20and%20logistics%20accounting%20services" target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
@@ -833,7 +833,7 @@
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Travel and Logistics Accounting FAQs</h2>
                     <p class="faq-expanded__lead">Common questions on travel and logistics accounting scope, process, documents and pricing for Indian businesses.</p>
-                    <a class="faq-expanded__cta" href="/contact">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     @include('partials.bigin-form', [
                         'variant'  => 'compact',
                         'service'  => 'Travel and Logistics Accounting',

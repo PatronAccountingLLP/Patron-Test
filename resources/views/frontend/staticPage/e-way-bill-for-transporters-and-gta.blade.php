@@ -186,7 +186,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1094,7 +1094,7 @@
                 <p><strong>10,000+ Businesses Served | 4.9 Google Rating | 50,000+ Documents Filed | 15+ Years of Practice</strong></p>
                 <p>Trusted by Hyundai, Asian Paints, Bridgestone, and 10,000+ Indian transporters, Goods Transport Agencies, fleet operators, logistics aggregators, courier companies, and cold-chain specialists running multi-state operations.</p>
                 <p>Patron has generated 50,000+ transporter-side e-way bills across the active client base, set up 100+ GTAs with optimised RCM and FCM frameworks, and recorded zero Rule 138(3) transporter trigger detentions in the last 24 months. Annual Annexure V FCM elections filed at 100 percent on-time across all GTA clients, with an average MOV-02 detention response time of 4 hours from notice to vehicle release.</p>
-                <p><strong>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves transporters and GTAs across India - both in-person and remotely.</strong> See our <a href="https://www.patronaccounting.com/travel-and-logistics-accounting-services/mumbai">travel and logistics accounting support in Mumbai</a> for local assistance.</p>
+                <p><strong>With offices in Pune, Mumbai, Delhi, and Gurugram, Patron Accounting serves transporters and GTAs across India - both in-person and remotely.</strong> See our <a href="https://www.patronaccounting.com/travel-and-logistics-accounting-services">travel and logistics accounting support in Mumbai</a> for local assistance.</p>
 
             </div>
         </div>

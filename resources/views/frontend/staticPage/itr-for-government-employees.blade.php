@@ -1079,13 +1079,13 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services including individual, business, professional, capital gains, F and O, crypto, NRI and company filings.</li>
-                    <li><strong><a href="/itr-for-salary/">ITR for Salary (Private Sector Salaried)</a></strong> - sibling service for private-sector salaried employees with single-employer ITR-1, multi-Form-16 consolidation, ESOP and RSU perquisite, capital gains overlay. Different exemption profile from government employees.</li>
-                    <li><strong><a href="/itr-for-capital-gains/">ITR for Capital Gains (HNI Multi-Asset)</a></strong> - for government employees with multi-asset portfolios; STCG Section 111A, LTCG Section 112A, mutual funds, property, gold.</li>
-                    <li><strong><a href="/itr-for-property-sale/">ITR for Property Sale</a></strong> - for government employees disposing of second/inherited house property; Section 54, 54EC, 54F reinvestment exemption planning.</li>
-                    <li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - regime selection, advance tax planning, Section 89 arrears strategy, GPF vs NPS vs UPS choice for government employees.</li>
-                    <li><strong><a href="/income-tax-notice-for-defective-return/">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for defective returns; common for government employees with wrong Section 10 exemption stack or missed Form 10E.</li>
-                    <li><strong><a href="/income-tax-notice/">Income Tax Notice Response (Sections 143, 148)</a></strong> - representation for Section 143(1) demand, Section 143(2) scrutiny, Section 148 reassessment notices.</li>
+                    <li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services including individual, business, professional, capital gains, F and O, crypto, NRI and company filings.</li>
+                    <li><strong><a href="/itr-for-salary">ITR for Salary (Private Sector Salaried)</a></strong> - sibling service for private-sector salaried employees with single-employer ITR-1, multi-Form-16 consolidation, ESOP and RSU perquisite, capital gains overlay. Different exemption profile from government employees.</li>
+                    <li><strong><a href="/itr-for-capital-gains">ITR for Capital Gains (HNI Multi-Asset)</a></strong> - for government employees with multi-asset portfolios; STCG Section 111A, LTCG Section 112A, mutual funds, property, gold.</li>
+                    <li><strong><a href="/itr-for-property-sale">ITR for Property Sale</a></strong> - for government employees disposing of second/inherited house property; Section 54, 54EC, 54F reinvestment exemption planning.</li>
+                    <li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - regime selection, advance tax planning, Section 89 arrears strategy, GPF vs NPS vs UPS choice for government employees.</li>
+                    <li><strong><a href="/income-tax-notice-for-defective-return">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for defective returns; common for government employees with wrong Section 10 exemption stack or missed Form 10E.</li>
+                    <li><strong><a href="/income-tax-notice">Income Tax Notice Response (Sections 143, 148)</a></strong> - representation for Section 143(1) demand, Section 143(2) scrutiny, Section 148 reassessment notices.</li>
                 </ul>
 
             </div>
@@ -1268,31 +1268,31 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/income-tax-return/" class="pa-cross-card">
+                    <a href="/income-tax-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; 14 sub-services</span></div>
                     </a>
-                    <a href="/itr-for-salary/" class="pa-cross-card">
+                    <a href="/itr-for-salary" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Salary (Private Sector)</strong><span>Sibling - private sector salaried</span></div>
                     </a>
-                    <a href="/itr-for-capital-gains/" class="pa-cross-card">
+                    <a href="/itr-for-capital-gains" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Capital Gains</strong><span>HNI multi-asset; Sections 111A, 112A</span></div>
                     </a>
-                    <a href="/itr-for-property-sale/" class="pa-cross-card">
+                    <a href="/itr-for-property-sale" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Property Sale</strong><span>Section 54, 54EC, 54F reinvestment</span></div>
                     </a>
-                    <a href="/tax-planning-services/" class="pa-cross-card">
+                    <a href="/tax-planning-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Planning Services</strong><span>Regime, advance tax, Section 89</span></div>
                     </a>
-                    <a href="/income-tax-notice-for-defective-return/" class="pa-cross-card">
+                    <a href="/income-tax-notice-for-defective-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Defective Return Notice</strong><span>Section 139(9) - 15-day cure window</span></div>
                     </a>
-                    <a href="/income-tax-notice/" class="pa-cross-card">
+                    <a href="/income-tax-notice" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>Sections 143, 148 response</span></div>
                     </a>

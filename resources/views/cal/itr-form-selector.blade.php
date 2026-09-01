@@ -680,7 +680,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-salary" class="sidebar-link">ITR for Salary <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">ITR for Freelancers / Professionals <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>

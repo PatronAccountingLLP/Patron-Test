@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>At its core, the work takes a checked trial balance and reshapes it into four linked reports - Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts. Everything is laid out the way Schedule III of the Companies Act 2013 demands, and the numbers are recognised and measured under whichever framework, AS or Ind AS, governs the business.</p>
                     <p>The detail varies by sector. A media or advertising agency in Andheri running on retainers must show deferred revenue, unbilled income, and ESOP reserves accurately, with notes covering policies and related-party dealings. A warehousing and 3PL business in Bhiwandi instead needs careful stock valuation, Schedule II depreciation on its racking and handling equipment, and clear borrowing disclosures ahead of a lender's review.</p>
-                    <p>For most SMEs the resulting set is management-certified rather than audited, and the moment your books reconcile it is fit to go to a bank, an investor, or RoC. To get the underlying records right from the start, look at <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> alongside our national <a href="/accounting-services">Accounting Services</a>.</p>
+                    <p>For most SMEs the resulting set is management-certified rather than audited, and the moment your books reconcile it is fit to go to a bank, an investor, or RoC. To get the underlying records right from the start, look at <a href="/tally-accounting">Tally Accounting in Mumbai</a> alongside our national <a href="/accounting-services">Accounting Services</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Financial Statements in Mumbai:</strong></p>
@@ -1231,7 +1231,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

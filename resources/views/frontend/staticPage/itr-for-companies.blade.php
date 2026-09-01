@@ -1038,12 +1038,12 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services including individual ITR, business ITR, capital gains, F and O, crypto, NRI.</li>
-                    <li><strong><a href="/tax-audit/">Tax Audit under Section 44AB</a></strong> - mandatory for companies with turnover above Rs 1 crore (Rs 10 crore if 95 percent digital). Form 3CA-3CD or 3CB-3CD preparation. Due 30 September 2026 - one month before ITR-6.</li>
-                    <li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - corporate regime selection memo, MAT credit utilisation plan, Section 80-IAC year selection, dividend distribution timing under Section 115O legacy framework.</li>
-                    <li><strong><a href="/tds-return/">TDS Return Filing (Form 24Q, 26Q, 27Q, 27EQ)</a></strong> - mandatory quarterly TDS compliance for companies; reconciliation before ITR-6 filing.</li>
-                    <li><strong><a href="/income-tax-notice/">Income Tax Notice Response</a></strong> - Section 143(1) demand, Section 143(2) scrutiny, Section 142(1) enquiry, Section 148 reassessment, faceless assessment under Section 144B representation.</li>
-                    <li><strong><a href="/itr-for-business/">ITR Filing for Business (ITR-3 and ITR-4)</a></strong> - for proprietors and partnership firms (LLPs file ITR-5).</li>
+                    <li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services including individual ITR, business ITR, capital gains, F and O, crypto, NRI.</li>
+                    <li><strong><a href="/tax-audit">Tax Audit under Section 44AB</a></strong> - mandatory for companies with turnover above Rs 1 crore (Rs 10 crore if 95 percent digital). Form 3CA-3CD or 3CB-3CD preparation. Due 30 September 2026 - one month before ITR-6.</li>
+                    <li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - corporate regime selection memo, MAT credit utilisation plan, Section 80-IAC year selection, dividend distribution timing under Section 115O legacy framework.</li>
+                    <li><strong><a href="/tds-return">TDS Return Filing (Form 24Q, 26Q, 27Q, 27EQ)</a></strong> - mandatory quarterly TDS compliance for companies; reconciliation before ITR-6 filing.</li>
+                    <li><strong><a href="/income-tax-notice">Income Tax Notice Response</a></strong> - Section 143(1) demand, Section 143(2) scrutiny, Section 142(1) enquiry, Section 148 reassessment, faceless assessment under Section 144B representation.</li>
+                    <li><strong><a href="/itr-for-business">ITR Filing for Business (ITR-3 and ITR-4)</a></strong> - for proprietors and partnership firms (LLPs file ITR-5).</li>
                 </ul>
 
             </div>
@@ -1212,27 +1212,27 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/income-tax-return/" class="pa-cross-card">
+                    <a href="/income-tax-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; routing to 14 sub-services</span></div>
                     </a>
-                    <a href="/itr-for-business/" class="pa-cross-card">
+                    <a href="/itr-for-business" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Business</strong><span>Proprietors, partnership firms (ITR-3/ITR-4)</span></div>
                     </a>
-                    <a href="/tax-audit/" class="pa-cross-card">
+                    <a href="/tax-audit" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Audit Section 44AB</strong><span>Form 3CD; due 30 Sept 2026</span></div>
                     </a>
-                    <a href="/tax-planning-services/" class="pa-cross-card">
+                    <a href="/tax-planning-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Corporate Tax Planning</strong><span>Regime memo, 80-IAC year selection, MAT</span></div>
                     </a>
-                    <a href="/tds-return/" class="pa-cross-card">
+                    <a href="/tds-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>TDS Return Filing</strong><span>Quarterly Form 24Q, 26Q, 27Q, 27EQ</span></div>
                     </a>
-                    <a href="/income-tax-notice/" class="pa-cross-card">
+                    <a href="/income-tax-notice" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>143(1), 143(2), 142(1), 148, faceless 144B</span></div>
                     </a>

@@ -734,7 +734,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
                         </span>
-                        <a href="/migration-from-tally-to-quickbooks" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/migration-from-tally-to-zoho" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -906,7 +906,7 @@
                 </table>
                 </div>
 
-                <p>What pushes a Mumbai firm off the desktop is usually space and speed: partners want to open the books from anywhere, a remote accountant needs the same login, and bank feeds should land on their own. A broking or advisory house near BKC and Lower Parel cannot keep its finances locked to one machine. An Andheri media studio or Powai SaaS team wants dashboards that refresh live, while a Bhiwandi distributor needs stock and supplier balances to still tally after the cutover. What worries everyone is the same thing: losing the ledger history during the jump. See our national <a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration</a> service for the full picture.</p>
+                <p>What pushes a Mumbai firm off the desktop is usually space and speed: partners want to open the books from anywhere, a remote accountant needs the same login, and bank feeds should land on their own. A broking or advisory house near BKC and Lower Parel cannot keep its finances locked to one machine. An Andheri media studio or Powai SaaS team wants dashboards that refresh live, while a Bhiwandi distributor needs stock and supplier balances to still tally after the cutover. What worries everyone is the same thing: losing the ledger history during the jump. See our national <a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration</a> service for the full picture.</p>
                 <p>Our Mumbai chartered accountants own the project from first export to final sign-off, lining up each Tally ledger against a QuickBooks account, bringing balances and masters forward, and proving the trial balance before anyone goes live. Once you are running, our <a href="/accounting-services">Accounting Services</a> keep the new books current. We refresh this page every quarter.</p>
             </div>
         </div>
@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>Put simply, it is the disciplined hand-off of everything in your Tally company to QuickBooks Online, so the cloud file ends up with the identical chart, balances, masters, and transaction history, and the accounting never skips a beat.</p>
                     <p>Take a Powai SaaS team: their revenue and cost ledgers get rebuilt as a QuickBooks chart, customer and product lists are loaded, and subscription invoices and payment-gateway settlements are re-entered with correct GST. For a Bhiwandi distributor the emphasis shifts to supplier masters, stock items, and opening inventory, and we close out by matching the migrated trial balance against the Tally one before flipping the switch.</p>
-                    <p>This is not a copy-and-paste exercise. We fold in a cleanup pass so duplicated ledgers, accounts filed under the wrong head, and stray unreconciled balances stay behind rather than polluting the fresh file. For platform-level help either side of the move, look at <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>This is not a copy-and-paste exercise. We fold in a cleanup pass so duplicated ledgers, accounts filed under the wrong head, and stray unreconciled balances stay behind rather than polluting the fresh file. For platform-level help either side of the move, look at <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Terms Worth Knowing Before Your Mumbai Migration:</strong></p>
@@ -1198,7 +1198,7 @@
                     </tbody>
                 </table>
                 </div>
-                <p>Thinking of sticking with Tally or comparing options? Take a look at <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and our national <a href="/accounting-services">Accounting Services</a>.</p>
+                <p>Thinking of sticking with Tally or comparing options? Take a look at <a href="/tally-accounting">Tally Accounting in Mumbai</a> and our national <a href="/accounting-services">Accounting Services</a>.</p>
             </div>
         </div>
     </div>
@@ -1211,7 +1211,7 @@
             <h2 class="section-title">Related Services</h2>
             <p class="pa-block-sub">Begin with the national migration service, then browse the supporting services we run across India.</p>
             <ul>
-                <li><a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration in India</a> - the national parent service</li>
+                <li><a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration in India</a> - the national parent service</li>
                 <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping in QuickBooks</li>
                 <li><a href="/gst-returns">GST Return Filing</a> - file GST from your new QuickBooks data</li>
                 <li><a href="/income-tax-return">Income Tax Return Filing</a> - file accurate ITRs on clean books</li>
@@ -1229,7 +1229,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div>
                     <div><div class="pa-card-title">Zoho Books Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
@@ -1343,7 +1343,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Move Your Mumbai Books to QuickBooks Without Losing History</h2>
             <div class="content-text" style="text-align:left;">
                 <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Leaving Tally for QuickBooks Online should never mean surrendering years of ledgers or fracturing your GST trail. Whether yours is a Powai SaaS team, a Bhiwandi or Dombivli distributor, or a BKC and Lower Parel advisory house, our CA-led migration remaps the chart, brings masters and balances forward, rebuilds the history, and proves the trial balance against Tally, all from INR 9,999.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Read the national <a href="/migration-from-tally-to-quickbooks" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once you are live let <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a> take it from there. Patron Accounting LLP looks after 10,000+ businesses and holds a 4.9 Google rating.</p>
+                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Read the national <a href="/migration-from-tally-to-zoho" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once you are live let <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a> take it from there. Patron Accounting LLP looks after 10,000+ businesses and holds a 4.9 Google rating.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>

@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>Put simply, accounts payable outsourcing means a CA-supervised team outside your office owns the vendor payment cycle end to end, from the moment a bill lands to the moment an approved payment goes out, so every rupee reaches the correct vendor on schedule and leaves a trail an auditor can follow.</p>
                     <p>For a creative or media business in Andheri, that looks like logging retainer, freelancer, and rental invoices, withholding TDS under Section 194J, confirming input credit on qualifying spend, and timing the payouts. For a Bhiwandi warehousing or distribution operation, it means no transporter or supplier bill clears until it lines up with its purchase order and goods receipt, and every vendor ledger is squared off each month.</p>
-                    <p>Payables rarely stand alone. To cover the full ledger and the collections side as well, look at <a href="/accounting-services/mumbai">Accounting Services in Mumbai</a>; if you want the work run inside a specific tool, see <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> or <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>Payables rarely stand alone. To cover the full ledger and the collections side as well, look at <a href="/accounting-services/mumbai">Accounting Services in Mumbai</a>; if you want the work run inside a specific tool, see <a href="/tally-accounting">Tally Accounting in Mumbai</a> or <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms in Accounts Payable Outsourcing in Mumbai:</strong></p>
@@ -1228,7 +1228,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
                     <div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

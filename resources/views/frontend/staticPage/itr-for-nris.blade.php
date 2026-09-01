@@ -1107,14 +1107,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
-                    <li><strong><a href="/itr-for-salary/">ITR for Salary (Resident Indian Employer Cases)</a></strong> - for Indian salary component when an NRI also has Indian employment income, OR for returning NRIs once they become Resident.</li>
-                    <li><strong><a href="/itr-for-capital-gains/">ITR for Capital Gains</a></strong> - shares, mutual funds, property; comprehensive treatment of STCG and LTCG across all asset classes for NRIs and RORs.</li>
-                    <li><strong><a href="/itr-for-property-sale/">ITR for Property Sale</a></strong> - residential and commercial transfer; Section 54, 54EC, 54F reinvestment exemption; indexation transition for pre-23-July-2024 acquisitions.</li>
-                    <li><strong><a href="/itr-for-business/">ITR for Business</a></strong> - NRI partnership and proprietary business income filings via ITR-3.</li>
-                    <li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - regime selection, Section 197 Lower Deduction Certificate, advance tax planning, pre-return RNOR planning for NRIs.</li>
-                    <li><strong><a href="/income-tax-notice/">Income Tax Notice Response</a></strong> - representation for Section 143(1)(a), 143(2), 142(1), 148 reassessment notices for NRIs.</li>
-                    <li><strong><a href="/income-tax-notice-for-defective-return/">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for defective returns; common for NRIs who file ITR-1 or ITR-4 instead of ITR-2.</li>
+                    <li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
+                    <li><strong><a href="/itr-for-salary">ITR for Salary (Resident Indian Employer Cases)</a></strong> - for Indian salary component when an NRI also has Indian employment income, OR for returning NRIs once they become Resident.</li>
+                    <li><strong><a href="/itr-for-capital-gains">ITR for Capital Gains</a></strong> - shares, mutual funds, property; comprehensive treatment of STCG and LTCG across all asset classes for NRIs and RORs.</li>
+                    <li><strong><a href="/itr-for-property-sale">ITR for Property Sale</a></strong> - residential and commercial transfer; Section 54, 54EC, 54F reinvestment exemption; indexation transition for pre-23-July-2024 acquisitions.</li>
+                    <li><strong><a href="/itr-for-business">ITR for Business</a></strong> - NRI partnership and proprietary business income filings via ITR-3.</li>
+                    <li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - regime selection, Section 197 Lower Deduction Certificate, advance tax planning, pre-return RNOR planning for NRIs.</li>
+                    <li><strong><a href="/income-tax-notice">Income Tax Notice Response</a></strong> - representation for Section 143(1)(a), 143(2), 142(1), 148 reassessment notices for NRIs.</li>
+                    <li><strong><a href="/income-tax-notice-for-defective-return">Income Tax Notice for Defective Return (Section 139(9))</a></strong> - 15-day cure window for defective returns; common for NRIs who file ITR-1 or ITR-4 instead of ITR-2.</li>
                 </ul>
 
             </div>
@@ -1289,35 +1289,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/income-tax-return/" class="pa-cross-card">
+                    <a href="/income-tax-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; 14 sub-services</span></div>
                     </a>
-                    <a href="/itr-for-salary/" class="pa-cross-card">
+                    <a href="/itr-for-salary" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Salary</strong><span>Indian salary or post-RNOR Resident</span></div>
                     </a>
-                    <a href="/itr-for-capital-gains/" class="pa-cross-card">
+                    <a href="/itr-for-capital-gains" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Capital Gains</strong><span>Shares, MF, property for NRIs</span></div>
                     </a>
-                    <a href="/itr-for-property-sale/" class="pa-cross-card">
+                    <a href="/itr-for-property-sale" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Property Sale</strong><span>Section 54, 54EC, Form 13</span></div>
                     </a>
-                    <a href="/itr-for-business/" class="pa-cross-card">
+                    <a href="/itr-for-business" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Business</strong><span>NRI partnership and proprietary</span></div>
                     </a>
-                    <a href="/tax-planning-services/" class="pa-cross-card">
+                    <a href="/tax-planning-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Planning Services</strong><span>Section 197, RNOR pre-return</span></div>
                     </a>
-                    <a href="/income-tax-notice-for-defective-return/" class="pa-cross-card">
+                    <a href="/income-tax-notice-for-defective-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Defective Return Notice</strong><span>Section 139(9) 15-day cure</span></div>
                     </a>
-                    <a href="/income-tax-notice/" class="pa-cross-card">
+                    <a href="/income-tax-notice" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>Sections 143, 148 reassessment</span></div>
                     </a>

@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>Accounts receivable outsourcing is the practice of handing the entire order-to-cash cycle, from raising the customer invoice through to collecting and reconciling payment, to a specialist team, so a business is paid sooner without building its own collections desk.</p>
                     <p>For a fintech or SaaS firm in BKC, Lower Parel, or Powai, that means recurring subscription invoices carrying the right SAC code, automated reminders ahead of each renewal, and matching Razorpay or Stripe settlements to open invoices. For a trader or warehousing operator in Bhiwandi or Dombivli, it covers credit-term invoices to large buyers, firm follow-up on 60 and 90-day accounts, and reconciling part-payments and customer TDS.</p>
-                    <p>AR outsourcing works best alongside clean monthly books, because accurate receivables rest on accurate ledgers. For the bookkeeping behind it, see <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>AR outsourcing works best alongside clean monthly books, because accurate receivables rest on accurate ledgers. For the bookkeeping behind it, see <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for AR Outsourcing in Mumbai:</strong></p>
@@ -1231,7 +1231,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

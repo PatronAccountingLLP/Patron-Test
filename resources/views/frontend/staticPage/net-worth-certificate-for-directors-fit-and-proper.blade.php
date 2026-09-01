@@ -1966,7 +1966,7 @@
                     <li><strong><a href="/private-limited-company-compliance">Private Limited Company Compliance</a></strong> - ROC and MCA compliance for regulated entities.</li>
                     <li><strong><a href="/irda-imf-business-registration">IRDA IMF Business Registration</a></strong> - end-to-end IRDAI registration for Insurance Marketing Firms.</li>
                     <li><strong><a href="/net-worth-certificate">Net Worth Certificate</a></strong> - parent India service page for general purpose use cases.</li>
-                    <li><strong><a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth Certificate for Joint Owners</a></strong> - for directors with jointly held property and bank accounts.</li>
+                    <li><strong><a href="/net-worth-certificate-for-bank-loan">Net Worth Certificate for Joint Owners</a></strong> - for directors with jointly held property and bank accounts.</li>
                 </ul>
 
             </div>
@@ -2138,7 +2138,7 @@
                         <a href="/private-limited-company-compliance" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Private Limited Company Compliance</div><div class="pa-card-sub">India</div></div></a>
                         <a href="/irda-imf-business-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">IRDA IMF Business Registration</div><div class="pa-card-sub">India</div></div></a>
                         <a href="/net-worth-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/net-worth-certificate-for-joint-owners-in-india" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Joint Owners</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/net-worth-certificate-for-bank-loan" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Joint Owners</div><div class="pa-card-sub">India</div></div></a>
                     </div>
                 </div>
         </div>

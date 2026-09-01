@@ -937,7 +937,7 @@
                 <div class="content-text what-is-definition">
                     <p>Finalisation, sometimes called statement preparation, is simply the act of getting the books to a true and fair state as on 31 March: every cut-off journal posted, every adjustment made, and the statutory accounts drawn up from the result.</p>
                     <p>The work changes with the business. A BKC fintech recognises subscription and accrued revenue, expenses its cloud and tooling prepayments, sets aside variable-pay provisions, and depreciates its hardware. An Andheri media studio matches retainer income to delivery, accrues freelance and post-production costs, and writes down cameras and edit kit. A Bhiwandi warehouse business prices its closing stock, accrues warehousing and transport charges, provides for shrinkage and gratuity, and squares its asset register before audit.</p>
-                    <p>Alongside the journals, we run a ledger scrutiny: every account is read for wrong heads, open balances, and provisions that were never made, so nothing is missed at sign-off. To review the underlying software entries, see <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>Alongside the journals, we run a ledger scrutiny: every account is read for wrong heads, open balances, and provisions that were never made, so nothing is missed at sign-off. To review the underlying software entries, see <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>The Vocabulary of a Mumbai FY Close:</strong></p>
@@ -1250,7 +1250,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
                     <div><div class="pa-card-title">Tax Audit</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

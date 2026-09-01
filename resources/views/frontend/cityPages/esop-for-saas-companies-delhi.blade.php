@@ -953,7 +953,7 @@
                 </ul>
                 <p><strong>5. Founder Backfill and DPIIT Pathway:</strong></p>
                 <ul>
-                    <li>Coordinated <a href="/startup-registration/">DPIIT Startup Registration</a> filing to unlock the Rule 12 10-year founder ESOP exemption for late-joining co-founders.</li>
+                    <li>Coordinated <a href="/startup-registration">DPIIT Startup Registration</a> filing to unlock the Rule 12 10-year founder ESOP exemption for late-joining co-founders.</li>
                     <li>Section 80-IAC plus Section 192(2C) 48-month perquisite tax deferral pathway for employees (60 months under Income Tax Act 2025 from 1 April 2026).</li>
                 </ul>
                 <p><strong>6. Delaware Flip / US Holdco Structure Design:</strong></p>
@@ -962,7 +962,7 @@
                     <li>Transfer pricing arm's-length structure under Section 92 Income Tax Act 1961 plus Rule 10D documentation.</li>
                     <li>LRS-aware tax treatment (USD 250,000 per FY individual remittance cap).</li>
                     <li>US 409A coordination with US legal counsel.</li>
-                    <li>End-to-end <a href="/fdi-compliance/">FDI Compliance</a> workflow.</li>
+                    <li>End-to-end <a href="/fdi-compliance">FDI Compliance</a> workflow.</li>
                 </ul>
                 <p><strong>7. Revenue-Multiple Valuation Impact Analysis:</strong></p>
                 <ul>
@@ -1179,8 +1179,8 @@
                     <li><strong><a href="/esop-valuation-services/delhi">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies; critical for SaaS revenue-multiple management at grant and exercise.</li>
                     <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; group SBP rules apply to Delaware flip mirror grants.</li>
                     <li><strong><a href="/esop-corporate-filings/delhi">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer including MGT-14, PAS-3 and MGT-7 for SaaS startups with active grant cycles.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - cross-border filings for Delaware flip and foreign parent structures.</li>
-                    <li><strong><a href="/startup-registration/">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - cross-border filings for Delaware flip and foreign parent structures.</li>
+                    <li><strong><a href="/startup-registration">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
                 </ul>
 
             </div>

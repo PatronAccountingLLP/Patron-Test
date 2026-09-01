@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>Retail sector accounting is the specialised bookkeeping built for high-volume, low-value selling: it captures sales across counters and online channels, settles every payment tender against the bank, and values inventory so the owner sees a genuine margin rather than a guess.</p>
                     <p>In a Connaught Place flagship that mostly means importing the POS close, splitting card and UPI, and tying both to the bank. In a cash-driven Karol Bagh shop it adds drawer-level cash control and bullion-linked stock valuation. For a Sadar Bazaar wholesaler who also sells retail online, it means separating bulk B2B invoices from counter B2C, then decoding marketplace settlement files where the bank credit survives only after commission, Section 52 TCS, Section 194-O TDS, shipping, and returns.</p>
-                    <p>Because Delhi retail blends counter sales, wholesale, and marketplace TCS, this work runs hand in hand with GST. If your model is purely online, our <a href="/accounting-services-for-e-commerce-industry/delhi">E-commerce Accounting in Delhi</a> page covers platform reconciliation in more depth.</p>
+                    <p>Because Delhi retail blends counter sales, wholesale, and marketplace TCS, this work runs hand in hand with GST. If your model is purely online, our <a href="/accounting-services-for-e-commerce-industry">E-commerce Accounting in Delhi</a> page covers platform reconciliation in more depth.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Retail Accounting in Delhi:</strong></p>
@@ -1196,7 +1196,7 @@
                     </tbody>
                 </table>
                 </div>
-                <p>Selling heavily online as well? Compare with <a href="/accounting-services-for-e-commerce-industry/delhi">E-commerce Accounting in Delhi</a> and our national <a href="/gst-returns">GST Return Filing</a> service.</p>
+                <p>Selling heavily online as well? Compare with <a href="/accounting-services-for-e-commerce-industry">E-commerce Accounting in Delhi</a> and our national <a href="/gst-returns">GST Return Filing</a> service.</p>
             </div>
         </div>
     </div>
@@ -1227,7 +1227,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
                     <div><div class="pa-card-title">GST Return Filing</div><div class="pa-card-sub">Delhi</div></div>
                 </a>
-                <a href="/accounting-services-for-e-commerce-industry/delhi" class="pa-cross-card">
+                <a href="/accounting-services-for-e-commerce-industry" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg></div>
                     <div><div class="pa-card-title">E-commerce Accounting</div><div class="pa-card-sub">Delhi</div></div>
                 </a>

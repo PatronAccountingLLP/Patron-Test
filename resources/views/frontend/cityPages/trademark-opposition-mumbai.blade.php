@@ -412,7 +412,7 @@
                 </table>
                 </div>
                 <p</p>
-                <p>Opposition is part of complete brand protection. Patron integrates with <a href="/trademark-registration/mumbai">trademark registration</a>, <a href="#">objection handling</a>, <a href="/trademark-hearing/mumbai">hearing</a>, <a href="/trademark-infringement/mumbai">infringement enforcement</a>, and <a href="/trademark-notice-reply/mumbai">notice reply</a>.</p>
+                <p>Opposition is part of complete brand protection. Patron integrates with <a href="/trademark-registration/mumbai">trademark registration</a>, <a href="#">objection handling</a>, <a href="/trademark-hearing/mumbai">hearing</a>, <a href="/trademark-infringement/mumbai">infringement enforcement</a>, and <a href="/trademark-notice/mumbai">notice reply</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -497,7 +497,7 @@
                 <p><strong>Pharma Companies (Andheri MIDC, Thane):</strong> Class 5 = most opposed class. Drug brand protection. Filing and facing oppositions constantly. <a href="/trademark-hearing/mumbai">Hearing support</a>.</p>
                 <p><strong>Startups (Powai, BKC):</strong> Accepted applications opposed by established companies. Need counter-statement within 2 months urgently. <a href="#">Objection handling</a>.</p>
                 <p><strong>Restaurants (Bandra, Andheri):</strong> Class 43 heavily contested. Similar names trigger oppositions. Both filing and defending. <a href="/trademark-infringement/mumbai">Infringement enforcement</a>.</p>
-                <p><strong>Media/Entertainment (Lower Parel, Goregaon):</strong> Creative brand conflicts. Show names, production house marks. <a href="/trademark-notice-reply/mumbai">Notice reply</a> for C&D situations.</p>
+                <p><strong>Media/Entertainment (Lower Parel, Goregaon):</strong> Creative brand conflicts. Show names, production house marks. <a href="/trademark-notice/mumbai">Notice reply</a> for C&D situations.</p>
 
             </div>
             </div>
@@ -522,7 +522,7 @@
                         <tr><td>Hearing Preparation + Representation</td><td>Written submissions (legal brief), evidence highlights, oral argument preparation. Appear before Registrar at Antop Hill (physical) or via VC. Strategy: confusion emphasis (opponent) or distinctiveness emphasis (applicant)</td></tr>
                         <tr><td>Coexistence Agreement</td><td>Not all oppositions need hearing. Negotiate: territorial restrictions, goods carve-outs, visual differentiation, mutual non-aggression. Both parties withdraw/settle. Saves years of proceedings</td></tr>
                         <tr><td>Bombay HC Appeal (S.91)</td><td>If Registrar decision adverse: appeal to Bombay HC IP Division at Fort. Since IPAB abolition (2021), directly to HC. Fresh consideration. Many decisions overturned. Patron coordinates with IP litigation counsel</td></tr>
-                        <tr><td>Integrated Brand Protection</td><td><a href="/trademark-registration/mumbai">Registration</a> + watch + opposition + <a href="/trademark-infringement/mumbai">infringement</a> + <a href="/trademark-notice-reply/mumbai">notice reply</a>. Complete brand defence stack from one firm</td></tr>
+                        <tr><td>Integrated Brand Protection</td><td><a href="/trademark-registration/mumbai">Registration</a> + watch + opposition + <a href="/trademark-infringement/mumbai">infringement</a> + <a href="/trademark-notice/mumbai">notice reply</a>. Complete brand defence stack from one firm</td></tr>
 
                     </tbody>
                 </table>
@@ -822,7 +822,7 @@
                     <li><a href="#">Trademark Objection in Mumbai</a> - Examination reply.</li>
                     <li><a href="/trademark-hearing/mumbai">Trademark Hearing in Mumbai</a> - Show cause hearing.</li>
                     <li><a href="/trademark-infringement/mumbai">Trademark Infringement in Mumbai</a> - Enforcement.</li>
-                    <li><a href="/trademark-notice-reply/mumbai">Trademark Notice Reply in Mumbai</a> - C&D response.</li></ul>
+                    <li><a href="/trademark-notice/mumbai">Trademark Notice Reply in Mumbai</a> - C&D response.</li></ul>
 
             </div>
         </div>
@@ -966,7 +966,7 @@
                     <a href="#" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Objection</div><div class="pa-card-sub">Mumbai</div></div></a>
                     <a href="/trademark-hearing/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Hearing</div><div class="pa-card-sub">Mumbai</div></div></a>
                     <a href="/trademark-infringement/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Infringement</div><div class="pa-card-sub">Mumbai</div></div></a>
-                    <a href="/trademark-notice-reply/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Notice Reply</div><div class="pa-card-sub">Mumbai</div></div></a>
+                    <a href="/trademark-notice/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Trademark Notice Reply</div><div class="pa-card-sub">Mumbai</div></div></a>
                     <a href="/copyright-registration/mumbai" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Copyright Registration</div><div class="pa-card-sub">Mumbai</div></div></a>
                 </div>
             </div>

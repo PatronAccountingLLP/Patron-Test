@@ -910,7 +910,7 @@
                 </ul>
                 <p><strong>2. Rule 11UA FMV Refresh:</strong></p>
                 <ul>
-                    <li>Coordinated valuation engagement through <a href="/esop-valuation-services/">ESOP Valuation Services</a> for new FMV determination at the modification date.</li>
+                    <li>Coordinated valuation engagement through <a href="/esop-valuation-services">ESOP Valuation Services</a> for new FMV determination at the modification date.</li>
                     <li>DCF (via SEBI Cat I Merchant Banker), NAV (via CA) or CCA methodology selection.</li>
                     <li>Defensibility matters - Tax Officer may scrutinise repricing methodology.</li>
                 </ul>
@@ -926,7 +926,7 @@
                     <li>Board Resolution drafting recording rationale.</li>
                     <li>21-day EGM notice with Explanatory Statement under Section 102.</li>
                     <li>Special Resolution at 75 percent majority under Rule 12(2).</li>
-                    <li>MGT-14 filing within 30 days. Coordinated with <a href="/esop-corporate-filings/">ESOP Corporate Filings</a> workflow.</li>
+                    <li>MGT-14 filing within 30 days. Coordinated with <a href="/esop-corporate-filings">ESOP Corporate Filings</a> workflow.</li>
                 </ul>
                 <p><strong>5. Ind AS 102 Modification Accounting:</strong></p>
                 <ul>
@@ -934,7 +934,7 @@
                     <li>Black-Scholes inputs documented (volatility, risk-free rate, expected term, dividend yield).</li>
                     <li>Recognition schedule over remaining vesting period.</li>
                     <li>Schedule III disclosure plus Directors Report Rule 12(9) modification narrative.</li>
-                    <li>Coordinated with <a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a> team.</li>
+                    <li>Coordinated with <a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a> team.</li>
                 </ul>
                 <p><strong>6. Section 17(2)(vi) Tax Timing Memo:</strong></p>
                 <ul>
@@ -1150,14 +1150,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/esop-services/">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types including ongoing scheme operations post-restructuring.</li>
-                    <li><strong><a href="/esop-scheme-design/">ESOP Scheme Design</a></strong> - first-time scheme drafting with sample term sheet (used for new schemes, not for restructuring).</li>
-                    <li><strong><a href="/esop-for-tech-startups/">ESOP for Tech Startups</a></strong> - tech-vertical scheme design for SaaS, fintech, AI/ML, marketplaces, deeptech and B2B; useful context for understanding pre-restructuring scheme architecture.</li>
-                    <li><strong><a href="/esop-for-saas-companies/">ESOP for SaaS Companies</a></strong> - B2B SaaS-specific design with ARR-linked vesting, sales quota acceleration and Delaware flip structures.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; critical for modification accounting workflow during restructuring.</li>
-                    <li><strong><a href="/esop-valuation-services/">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports for the modification date during restructuring; DCF, NAV or CCA methodology selection.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7) for post-restructuring annual cycle including Rule 12(9) Directors Report disclosure.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - cross-border filings where US Delaware parent or foreign parent restructures involve India subsidiary mirror grants.</li>
+                    <li><strong><a href="/esop-services">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types including ongoing scheme operations post-restructuring.</li>
+                    <li><strong><a href="/esop-scheme-design">ESOP Scheme Design</a></strong> - first-time scheme drafting with sample term sheet (used for new schemes, not for restructuring).</li>
+                    <li><strong><a href="/esop-for-tech-startups">ESOP for Tech Startups</a></strong> - tech-vertical scheme design for SaaS, fintech, AI/ML, marketplaces, deeptech and B2B; useful context for understanding pre-restructuring scheme architecture.</li>
+                    <li><strong><a href="/esop-for-saas-companies">ESOP for SaaS Companies</a></strong> - B2B SaaS-specific design with ARR-linked vesting, sales quota acceleration and Delaware flip structures.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; critical for modification accounting workflow during restructuring.</li>
+                    <li><strong><a href="/esop-valuation-services">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports for the modification date during restructuring; DCF, NAV or CCA methodology selection.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7) for post-restructuring annual cycle including Rule 12(9) Directors Report disclosure.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - cross-border filings where US Delaware parent or foreign parent restructures involve India subsidiary mirror grants.</li>
                 </ul>
 
             </div>
@@ -1325,35 +1325,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron ESOP Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/esop-services/" class="pa-cross-card">
+                    <a href="/esop-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Services Master Hub</strong><span>End-to-end ESOP lifecycle</span></div>
                     </a>
-                    <a href="/esop-scheme-design/" class="pa-cross-card">
+                    <a href="/esop-scheme-design" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Scheme Design</strong><span>First-time scheme drafting</span></div>
                     </a>
-                    <a href="/esop-for-tech-startups/" class="pa-cross-card">
+                    <a href="/esop-for-tech-startups" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for Tech Startups</strong><span>General tech vertical scheme architecture</span></div>
                     </a>
-                    <a href="/esop-for-saas-companies/" class="pa-cross-card">
+                    <a href="/esop-for-saas-companies" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for SaaS Companies</strong><span>B2B SaaS vertical with ARR vesting</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting Ind AS 102</strong><span>Modification accounting paragraphs 26-29</span></div>
                     </a>
-                    <a href="/esop-valuation-services/" class="pa-cross-card">
+                    <a href="/esop-valuation-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Valuation Services</strong><span>Rule 11UA FMV at modification date</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>MGT-14, PAS-3, MGT-7 retainer</span></div>
                     </a>
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>Cross-border foreign parent structures</span></div>
                     </a>

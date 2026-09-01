@@ -1050,13 +1050,13 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - FEMA NDI Rules 2019 and FEMA Overseas Investment Rules 2022 compliance; FC-GPR coordination for cross-border share movements.</li>
-                    <li><strong><a href="/esop-for-flip-structures/">ESOP for Flip Structures</a></strong> - sister vertical page; Delaware/Singapore/Cayman parent mirror grants and reverse flip migration to India.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - group share-based payment accounting framework for the Indian subsidiary.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7, SH-6) for any Indian-issued portion of the scheme.</li>
-                    <li><strong><a href="/esop-management-and-compliance-services/">ESOP Management and Compliance</a></strong> - operational ESOP tracking and SH-6 register maintenance.</li>
-                    <li><strong><a href="/statutory-audit/">Statutory Audit</a></strong> - audit support for Indian subsidiary Schedule III ESOP disclosure under Ind AS 102.</li>
-                    <li><strong><a href="/tax-audit/">Tax Audit</a></strong> - Section 44AB tax audit covering perquisite TDS workflow and transfer pricing documentation.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - FEMA NDI Rules 2019 and FEMA Overseas Investment Rules 2022 compliance; FC-GPR coordination for cross-border share movements.</li>
+                    <li><strong><a href="/esop-for-flip-structures">ESOP for Flip Structures</a></strong> - sister vertical page; Delaware/Singapore/Cayman parent mirror grants and reverse flip migration to India.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - group share-based payment accounting framework for the Indian subsidiary.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7, SH-6) for any Indian-issued portion of the scheme.</li>
+                    <li><strong><a href="/esop-management-and-compliance-services">ESOP Management and Compliance</a></strong> - operational ESOP tracking and SH-6 register maintenance.</li>
+                    <li><strong><a href="/statutory-audit">Statutory Audit</a></strong> - audit support for Indian subsidiary Schedule III ESOP disclosure under Ind AS 102.</li>
+                    <li><strong><a href="/tax-audit">Tax Audit</a></strong> - Section 44AB tax audit covering perquisite TDS workflow and transfer pricing documentation.</li>
                 </ul>
 
             </div>
@@ -1213,27 +1213,27 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related National Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>FEMA OI Rules 2022 + FC-GPR</span></div>
                     </a>
-                    <a href="/esop-for-flip-structures/" class="pa-cross-card">
+                    <a href="/esop-for-flip-structures" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for Flip Structures</strong><span>Delaware/Singapore/Cayman parent</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting under Ind AS 102</strong><span>Group SBP for foreign parent</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>MGT-14, PAS-3, MGT-7, SH-6 retainer</span></div>
                     </a>
-                    <a href="/statutory-audit/" class="pa-cross-card">
+                    <a href="/statutory-audit" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Statutory Audit</strong><span>Schedule III ESOP disclosure</span></div>
                     </a>
-                    <a href="/tax-audit/" class="pa-cross-card">
+                    <a href="/tax-audit" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Audit</strong><span>Section 44AB TDS workflow review</span></div>
                     </a>

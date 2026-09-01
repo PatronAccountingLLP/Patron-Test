@@ -397,7 +397,7 @@
                     <p><strong>&#128204; TL;DR - Networth Certificate in Pune Services at a Glance</strong></p>
                     <p>A double currency net worth certificate presents total net worth (assets minus liabilities) in INR and a foreign currency (USD/CAD/GBP/AUD/EUR) simultaneously. CA-certified on letterhead with mandatory UDIN from ICAI. Lists movable assets (bank, FD, MF, shares, PPF, gold), immovable assets (property with market valuation), and liabilities (loans). Conversion at RBI reference rate on certificate date. Accepted by all major embassies and universities worldwide. Formats: individual, joint family, student visa (sponsored). Same-day urgent available.</p>
                 </div>
-                <p>Pune is a major hub for visa and immigration. Hinjewadi/Kharadi IT professionals apply for US H1B/L1, Canada PR, UK Skilled Worker. Students from Symbiosis/COEP/MIT-Pune head to US/UK/Canada/Australia. Camp/Deccan business owners need Schengen/UAE visas. NRIs need certificates for Indian consulate. Learn more about <a href="/double-currency-networth-format">Double Currency Networth across India</a>.</p>
+                <p>Pune is a major hub for visa and immigration. Hinjewadi/Kharadi IT professionals apply for US H1B/L1, Canada PR, UK Skilled Worker. Students from Symbiosis/COEP/MIT-Pune head to US/UK/Canada/Australia. Camp/Deccan business owners need Schengen/UAE visas. NRIs need certificates for Indian consulate. Learn more about <a href="/net-worth-certificate-for-visa">Double Currency Networth across India</a>.</p>
                 <p>Pune visa submissions at VFS Global (Bund Garden Road) for UK/Canada/Australia/Schengen, and US Consulate Mumbai for US visas. UDIN verified at <a href="https://udin.icai.org" target="_blank" rel="noopener">udin.icai.org</a>. Property valuation via <a href="https://igrmaharashtra.gov.in" target="_blank" rel="noopener">igrmaharashtra.gov.in</a>. Related: <a href="/itr-for-salary/pune">ITR for Salary in Pune</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
@@ -652,7 +652,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>For Pune applicants needing related compliance:</p><ul><li><a href="/double-currency-networth-format">Double Currency Networth (India)</a></li><li><a href="/itr-for-salary/pune">ITR for Salary in Pune</a></li><li>ITR for Professionals in Pune</li><li><a href="/itr-for-business/pune">ITR for Business in Pune</a></li><li><a href="/gst-returns/pune">GST Returns in Pune</a></li><li><a href="/accounting-services">Accounting Services</a></li></ul>
+                <p>For Pune applicants needing related compliance:</p><ul><li><a href="/net-worth-certificate-for-visa">Double Currency Networth (India)</a></li><li><a href="/itr-for-salary/pune">ITR for Salary in Pune</a></li><li>ITR for Professionals in Pune</li><li><a href="/itr-for-business/pune">ITR for Business in Pune</a></li><li><a href="/gst-returns/pune">GST Returns in Pune</a></li><li><a href="/accounting-services">Accounting Services</a></li></ul>
 
             </div>
         </div>

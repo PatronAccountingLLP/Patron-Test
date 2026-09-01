@@ -2035,19 +2035,19 @@
     <div class="ols-container">
         <span class="ols-label">Our Offices:</span>
         <div class="ols-offices">
-            <a href="/contact#pune" class="ols-office active">
+            <a href="/contact-us#pune" class="ols-office active">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Pune (HQ)
             </a>
-            <a href="/contact#mumbai" class="ols-office">
+            <a href="/contact-us#mumbai" class="ols-office">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Mumbai
             </a>
-            <a href="/contact#delhi" class="ols-office">
+            <a href="/contact-us#delhi" class="ols-office">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Delhi
             </a>
-            <a href="/contact#gurugram" class="ols-office">
+            <a href="/contact-us#gurugram" class="ols-office">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Gurugram
             </a>

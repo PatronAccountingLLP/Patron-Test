@@ -216,7 +216,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li style="display:flex;align-items:center;gap:8px;">
-                <a href="/gst-refund/" style="color:var(--text-muted);text-decoration:none;font-weight:500;">GST Refund</a>
+                <a href="/gst-refund" style="color:var(--text-muted);text-decoration:none;font-weight:500;">GST Refund</a>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:12px;height:12px;color:var(--gray-400);"><path d="M9 5l7 7-7 7"/></svg>
             </li>
             <li><span style="color:var(--orange);font-weight:600;">Status Tracking Services</span></li>
@@ -632,7 +632,7 @@
                     </tbody>
                 </table>
                 </div>
-                <p>For the upstream RFD-01 filing mechanics (the form whose ARN we track), see <a href="/gst-refund-rfd-01-filing/">GST RFD-01 filing step-by-step</a> covering the 11-Statement matrix. For RFD-03 deficiency response, see <a href="/gst-refund-rfd-03-deficiency-response/">GST RFD-03 deficiency response</a>. For 90 percent provisional refund mechanics (the Day 22 watch), see <a href="/gst-refund-provisional-90-percent/">GST 90 percent provisional refund</a>. For RFD-06 final order analysis and Section 107 appeal pathway, see <a href="/gst-refund-rfd-06-order-analysis/">GST RFD-06 order analysis</a>.</p>
+                <p>For the upstream RFD-01 filing mechanics (the form whose ARN we track), see <a href="/gst-refund-rfd-01-filing">GST RFD-01 filing step-by-step</a> covering the 11-Statement matrix. For RFD-03 deficiency response, see <a href="/gst-refund-rfd-03-deficiency-response">GST RFD-03 deficiency response</a>. For 90 percent provisional refund mechanics (the Day 22 watch), see <a href="/gst-refund-provisional-90-percent">GST 90 percent provisional refund</a>. For RFD-06 final order analysis and Section 107 appeal pathway, see <a href="/gst-refund-rfd-06-order-analysis">GST RFD-06 order analysis</a>.</p>
 
             </div>
             </div>
@@ -1032,14 +1032,14 @@
                 
                 <p>Tracking ties the entire refund cluster together. Common bundles below:</p>
                 <ul>
-                    <li><a href="/gst-refund/">GST refund (general)</a> - the parent practice covering Section 54 refund spectrum across all 8 refund categories.</li>
-                    <li><a href="/gst-refund-rfd-01-filing/">GST RFD-01 filing step-by-step</a> - the form whose ARN we track; covers 11-Statement matrix and PAF workflow.</li>
-                    <li><a href="/gst-refund-rfd-03-deficiency-response/">GST RFD-03 deficiency response</a> - a tracking detour requiring fresh RFD-01 within Rule 90(3) window.</li>
-                    <li><a href="/gst-refund-provisional-90-percent/">GST 90 percent provisional refund</a> - the Day 22 watch under amended Rule 91(2) and CGST Instruction 6/2025.</li>
-                    <li><a href="/gst-refund-rfd-06-order-analysis/">GST RFD-06 order analysis</a> - the final sanction or rejection order; Section 107 appeal pathway.</li>
-                    <li><a href="/gst-refund-service-exports/">GST refund service exports</a> - service exporters tracking LUT route refunds under Section 2(6) IGST.</li>
-                    <li><a href="/gst-refund-inverted-duty-structure/">GST refund inverted duty structure</a> - manufacturing sector ITC refund tracking.</li>
-                    <li><a href="/gstat-appeal-exporters/">GSTAT appeal for exporters</a> - Section 112 second-tier appellate route where Section 107 is unsuccessful.</li>
+                    <li><a href="/gst-refund">GST refund (general)</a> - the parent practice covering Section 54 refund spectrum across all 8 refund categories.</li>
+                    <li><a href="/gst-refund-rfd-01-filing">GST RFD-01 filing step-by-step</a> - the form whose ARN we track; covers 11-Statement matrix and PAF workflow.</li>
+                    <li><a href="/gst-refund-rfd-03-deficiency-response">GST RFD-03 deficiency response</a> - a tracking detour requiring fresh RFD-01 within Rule 90(3) window.</li>
+                    <li><a href="/gst-refund-provisional-90-percent">GST 90 percent provisional refund</a> - the Day 22 watch under amended Rule 91(2) and CGST Instruction 6/2025.</li>
+                    <li><a href="/gst-refund-rfd-06-order-analysis">GST RFD-06 order analysis</a> - the final sanction or rejection order; Section 107 appeal pathway.</li>
+                    <li><a href="/gst-refund-service-exports">GST refund service exports</a> - service exporters tracking LUT route refunds under Section 2(6) IGST.</li>
+                    <li><a href="/gst-refund-inverted-duty-structure">GST refund inverted duty structure</a> - manufacturing sector ITC refund tracking.</li>
+                    <li><a href="/gstat-appeal-exporters">GSTAT appeal for exporters</a> - Section 112 second-tier appellate route where Section 107 is unsuccessful.</li>
                 </ul>
 
             </div>
@@ -1203,14 +1203,14 @@
                 <div class="pa-block-title">Related Services</div>
                 <div class="pa-block-sub">End-to-end GST refund pipeline from filing through tracking to litigation</div>
                 <div class="pa-cross-grid">
-                    <a href="/gst-refund/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg></div><div><div class="pa-card-title">GST Refund (General)</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-rfd-01-filing/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">GST RFD-01 Filing</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-rfd-03-deficiency-response/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/></svg></div><div><div class="pa-card-title">RFD-03 Deficiency Response</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-provisional-90-percent/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="pa-card-title">90% Provisional Refund</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-rfd-06-order-analysis/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">RFD-06 Order Analysis</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-service-exports/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div><div><div class="pa-card-title">Service Exports Refund</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gst-refund-inverted-duty-structure/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div><div><div class="pa-card-title">Inverted Duty Refund</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="/gstat-appeal-exporters/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg></div><div><div class="pa-card-title">GST Refund (General)</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-rfd-01-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">GST RFD-01 Filing</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-rfd-03-deficiency-response" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/></svg></div><div><div class="pa-card-title">RFD-03 Deficiency Response</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-provisional-90-percent" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="pa-card-title">90% Provisional Refund</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-rfd-06-order-analysis" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">RFD-06 Order Analysis</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-service-exports" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div><div><div class="pa-card-title">Service Exports Refund</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gst-refund-inverted-duty-structure" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div><div><div class="pa-card-title">Inverted Duty Refund</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="/gstat-appeal-exporters" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>
         </div>

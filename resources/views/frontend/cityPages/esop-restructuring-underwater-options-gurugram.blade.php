@@ -1201,7 +1201,7 @@
                     <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; critical for modification accounting workflow during restructuring.</li>
                     <li><strong><a href="/esop-valuation-services/gurugram">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports for the modification date during restructuring; DCF, NAV or CCA methodology selection.</li>
                     <li><strong><a href="/esop-corporate-filings/gurugram">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer (MGT-14, PAS-3, MGT-7) for post-restructuring annual cycle including Rule 12(9) Directors Report disclosure.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - cross-border filings where US Delaware parent or foreign parent restructures involve India subsidiary mirror grants.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - cross-border filings where US Delaware parent or foreign parent restructures involve India subsidiary mirror grants.</li>
                 </ul>
 
             </div>

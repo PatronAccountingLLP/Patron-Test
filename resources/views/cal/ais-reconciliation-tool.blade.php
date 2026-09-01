@@ -1490,7 +1490,7 @@ other,5000,0,5000</pre>
                     <tr>
                         <td><strong>TDS in AIS but missing from Form 26AS</strong></td>
                         <td>Deductor filed wrong PAN or has not yet processed the quarterly TDS return</td>
-                        <td>Email deductor with PAN; ask them to file revised <a href="https://www.patronaccounting.com/tds-return/">TDS return</a>. Wait for CPC processing before claiming credit.</td>
+                        <td>Email deductor with PAN; ask them to file revised <a href="https://www.patronaccounting.com/tds-return">TDS return</a>. Wait for CPC processing before claiming credit.</td>
                     </tr>
                     <tr>
                         <td><strong>Capital gains in AIS &lt; broker statement</strong></td>
@@ -1778,11 +1778,11 @@ other,5000,0,5000</pre>
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Assistance <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/income-tax-notice-for-defective-return" class="sidebar-link">Defective Return Notice <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tds-return/" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

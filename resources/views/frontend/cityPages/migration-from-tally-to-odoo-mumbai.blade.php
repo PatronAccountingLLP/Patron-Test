@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>Tally to Odoo migration is the deliberate transfer of your financial and operational records from Tally into the Odoo ERP, so the destination keeps the same chart, balances, masters, and history while gaining linked apps like Inventory, Sales, and Purchase.</p>
                     <p>For a media or SaaS company in Andheri or Powai, that means fitting revenue and cost ledgers onto Odoo's Schedule III chart, bringing partners and products in, and rebuilding invoices and collections with the correct GST treatment under l10n_in. For a warehousing or distribution business in Bhiwandi, it brings Inventory and Purchase into play, carrying product masters and opening stock, then tying the closing trial balance back to Tally before go-live.</p>
-                    <p>Moving to an ERP is never a straight copy. It goes hand in hand with cleanup, so duplicate accounts, wrongly grouped heads, and stale balances stay behind in Tally. For software-specific help, see <a href="/odoo-accounting/mumbai">Odoo Accounting in Mumbai</a> and <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a>.</p>
+                    <p>Moving to an ERP is never a straight copy. It goes hand in hand with cleanup, so duplicate accounts, wrongly grouped heads, and stale balances stay behind in Tally. For software-specific help, see <a href="/odoo-accounting/mumbai">Odoo Accounting in Mumbai</a> and <a href="/tally-accounting">Tally Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Tally to Odoo Migration in Mumbai:</strong></p>
@@ -1197,7 +1197,7 @@
                     </tbody>
                 </table>
                 </div>
-                <p>Weighing alternatives or staying on Tally for now? See <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and our national <a href="/accounting-services">Accounting Services</a>.</p>
+                <p>Weighing alternatives or staying on Tally for now? See <a href="/tally-accounting">Tally Accounting in Mumbai</a> and our national <a href="/accounting-services">Accounting Services</a>.</p>
             </div>
         </div>
     </div>
@@ -1228,7 +1228,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
                     <div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

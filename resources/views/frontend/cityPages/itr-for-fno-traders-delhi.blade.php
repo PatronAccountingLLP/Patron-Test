@@ -385,7 +385,7 @@
                     <p><strong>&#128204; TL;DR - ITR for F&O Traders in Delhi Services at a Glance</strong></p>
                     <p>F&amp;O income is non-speculative business income under S.43(5), reported in ITR-3 under PGBP, taxed at slab rates. Turnover = absolute sum of profits and losses per contract. Tax audit: &gt;Rs 10 Cr mandatory, Rs 3-10 Cr if &gt;5% cash, &lt;Rs 3 Cr depends on profit %. Presumptive S.44AD available up to Rs 3 Cr (6% digital/8% cash). Losses set off against all except salary, carry forward 8 years (only if filed before due date). Due: 31 Aug 2026 (non-audit) / 31 Oct (audit). Patron files from Delhi.</p>
                 </div>
-                <p>Delhi has a massive F&amp;O trading community - full-time traders, salaried IT professionals in Nehru Place and CP trading F&amp;O, retired individuals, and proprietary firms. SEBI data shows ~93% of individual F&amp;O traders incurred losses - making loss carry-forward critical. Learn more about <a href="/itr-for-fno-traders">ITR for F&amp;O Traders across India</a>.</p>
+                <p>Delhi has a massive F&amp;O trading community - full-time traders, salaried IT professionals in Nehru Place and CP trading F&amp;O, retired individuals, and proprietary firms. SEBI data shows ~93% of individual F&amp;O traders incurred losses - making loss carry-forward critical. Learn more about <a href="/itr-for-fno-trader">ITR for F&amp;O Traders across India</a>.</p>
                 <p>Patron Accounting's Delhi office provides comprehensive F&amp;O ITR: broker import, ICAI turnover, tax audit, P&amp;L preparation, expense documentation, loss optimisation, and advance tax. Integrated with <a href="/itr-for-capital-gains">capital gains</a> and income tax filing for complete Delhi trader compliance.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
@@ -635,7 +635,7 @@
             <h2 class="section-title">Related Tax Filing Services</h2>
             <div class="content-text">
                 
-                <ul><li><a href="/itr-for-fno-traders">ITR for F&amp;O Traders (India)</a> - National-level F&amp;O ITR.</li><li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> - Equity, property alongside F&amp;O.</li><li><a href="/itr-for-business">ITR for Business</a> - Business income with F&amp;O.</li><li><a href="/accounting-services">Accounting Services</a> - Trading books and P&amp;L.</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly TDS compliance.</li></ul>
+                <ul><li><a href="/itr-for-fno-trader">ITR for F&amp;O Traders (India)</a> - National-level F&amp;O ITR.</li><li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> - Equity, property alongside F&amp;O.</li><li><a href="/itr-for-business">ITR for Business</a> - Business income with F&amp;O.</li><li><a href="/accounting-services">Accounting Services</a> - Trading books and P&amp;L.</li><li><a href="/tds-return-filing-24q">TDS Return Filing</a> - Quarterly TDS compliance.</li></ul>
 
             </div>
         </div>

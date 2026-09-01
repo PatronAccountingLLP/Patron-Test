@@ -876,13 +876,13 @@ a:focus-visible {
                 <span class="label">Total perquisite</span> = (FMV − Exercise price) × Number of shares
             </div>
             <p>The total perquisite is added to your salary income for the year of exercise and taxed at your slab rate, with the employer deducting <strong>TDS under Section 192</strong>. Worked example: FMV ₹400, exercise price ₹50, 2,000 shares → perquisite = (400 − 50) × 2,000 = <strong>₹7,00,000</strong>, added to salary. No cash is received at this point — the tax arises purely on exercise.</p>
-            <p>For the slab-rate tax computation itself, use the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a>; the underlying law is summarised in Patron's <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17">Section 17 perquisite guide</a>.</p>
+            <p>For the slab-rate tax computation itself, use the <a href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">perquisite tax calculator</a>; the underlying law is summarised in Patron's <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-employees">Section 17 perquisite guide</a>.</p>
         </section>
 
         <section class="content-section" id="defer">
             <h2>Startup Deferral (Section 80-IAC)</h2>
             <p>Employees of <strong>DPIIT-recognised eligible startups</strong> holding an Inter-Ministerial Board certificate under <strong>Section 80-IAC</strong> can defer the perquisite TDS. The tax is deferred to the earliest of: sale of the shares, cessation of employment, or 48 months from the end of the assessment year in which the shares were allotted.</p>
-            <p>The FMV and perquisite are still computed at exercise as above — only the <strong>payment</strong> of tax is postponed. See Patron's note on <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC ESOP deferment</a>, and for filing the resulting income see <a href="https://www.patronaccounting.com/itr-for-esop-employees">ITR filing for ESOP employees</a>.</p>
+            <p>The FMV and perquisite are still computed at exercise as above — only the <strong>payment</strong> of tax is postponed. See Patron's note on <a href="https://www.patronaccounting.com/blog/section-80-iac-startup-tax-holiday">Section 80-IAC ESOP deferment</a>, and for filing the resulting income see <a href="https://www.patronaccounting.com/itr-for-esop-employees">ITR filing for ESOP employees</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Deferral applies only to eligible 80-IAC startups. For everyone else, TDS is due at exercise even though no shares have been sold — plan liquidity for the tax accordingly.</p>
             </div>
@@ -985,7 +985,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax (S.17) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-employees" class="sidebar-link">ESOP Perquisite Tax (S.17) <span class="arrow">→</span></a>
             Exercise vs Sale Tax →
             ESOP Capital Gains →
         </div>

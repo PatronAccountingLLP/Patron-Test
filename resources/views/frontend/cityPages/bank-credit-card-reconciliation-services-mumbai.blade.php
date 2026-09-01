@@ -922,7 +922,7 @@
                 <div class="content-text what-is-definition">
                     <p>At its core, reconciliation means holding your accounting records up against each bank and card statement for a given period and then working through every discrepancy until your book figure and the statement figure land on the same number.</p>
                     <p>For a Powai or Andheri SaaS startup, the work centres on tying gateway settlements, fees, and refunds back to deposits while catching the subscription auto-debits nobody booked. For a Bhiwandi warehousing or distribution operation, it runs to several current and cash-credit accounts, the posting of charges and OD interest, and matching vendor payouts against the statement before the books are closed.</p>
-                    <p>What you end up with is a bank reconciliation statement, the BRS, which lays out precisely where the two balances part ways. For software-level setup, look at <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>What you end up with is a bank reconciliation statement, the BRS, which lays out precisely where the two balances part ways. For software-level setup, look at <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Reconciliation in Mumbai:</strong></p>
@@ -1236,7 +1236,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

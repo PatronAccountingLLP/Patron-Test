@@ -1092,7 +1092,7 @@
     <li><strong><a href="/private-limited-company-compliance">Private Limited Company Compliance</a>:</strong> AOC-4 filing with complete audit report package; annual MCA compliance calendar.</li>
     <li><strong><a href="/appointment-of-auditor">Appointment of Auditor</a>:</strong> ADT-1 filing under Section 139; first auditor by Board within 30 days; AGM appointment for 5 (individual) or 10 (firm) years.</li>
     <li><strong><a href="/change-of-auditor">Change of Auditor</a>:</strong> Section 140 resignation; predecessor auditor's exit findings under CARO 3(xviii).</li>
-    <li><strong><a href="/due-diligence">Due Diligence</a>:</strong> Reading audit reports as buyer, investor or lender - the seven-layer audit-report reading framework.</li>
+    <li><strong><a href="/esop-due-diligence-prep-for-funding-and-ma">Due Diligence</a>:</strong> Reading audit reports as buyer, investor or lender - the seven-layer audit-report reading framework.</li>
 </ul>
 
             </div>

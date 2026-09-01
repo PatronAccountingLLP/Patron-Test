@@ -1194,7 +1194,7 @@
                     <li><strong><a href="/esop-valuation-services/delhi">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies for grant date, exercise events and modification events; IBBI Registered Valuer engagement.</li>
                     <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense recognition over vesting period using Black-Scholes; Schedule III disclosure plus Rule 12(9) Directors Report disclosure pack; group SBP rules for cross-border mirror grants.</li>
                     <li><strong><a href="/esop-corporate-filings/delhi">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3 and MGT-7 for active grant cycles plus annual Directors Report ESOP disclosure under Rule 12(9).</li>
-                    <li><strong><a href="/startup-registration/">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC plus Section 192(2C) tax deferral pathway.</li>
+                    <li><strong><a href="/startup-registration">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC plus Section 192(2C) tax deferral pathway.</li>
                 </ul>
 
             </div>

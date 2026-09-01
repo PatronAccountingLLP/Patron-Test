@@ -734,7 +734,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
                         </span>
-                        <a href="/migration-from-zoho-to-quickbooks" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/zoho-books-accounting" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -906,7 +906,7 @@
                 </table>
                 </div>
 
-                <p>For Delhi companies the prompt usually arrives from overseas. A US-headquartered group directs its India subsidiary to report on QuickBooks Online, the system the parent already runs. An IT services team in Nehru Place or Cyber City wants its ledger to flow straight into group consolidation. A manufacturer in Okhla or Mayapuri, or a trading house in Karol Bagh, needs one chart of accounts the US controller understands. Stepping off Zoho Books is how they get there. Read more about our national <a href="/migration-from-zoho-to-quickbooks">Zoho to QuickBooks Migration</a> service.</p>
+                <p>For Delhi companies the prompt usually arrives from overseas. A US-headquartered group directs its India subsidiary to report on QuickBooks Online, the system the parent already runs. An IT services team in Nehru Place or Cyber City wants its ledger to flow straight into group consolidation. A manufacturer in Okhla or Mayapuri, or a trading house in Karol Bagh, needs one chart of accounts the US controller understands. Stepping off Zoho Books is how they get there. Read more about our national <a href="/zoho-books-accounting">Zoho to QuickBooks Migration</a> service.</p>
                 <p>Patron Accounting's Delhi team runs the entire switch: a clean Zoho Books export, a careful ledger-to-QuickBooks mapping, balance loading, a GST rebuild, and a trial balance that agrees to the rupee. Would rather keep Zoho? See <a href="/zoho-books-accounting/delhi">Zoho Books Accounting in Delhi</a>. This page is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -1210,7 +1210,7 @@
             <h2 class="section-title">Related Services</h2>
             <p class="pa-block-sub">Start with the national migration service, then explore complementary services across India.</p>
             <ul>
-                <li><a href="/migration-from-zoho-to-quickbooks">Zoho to QuickBooks Migration in India</a> - the national parent service</li>
+                <li><a href="/zoho-books-accounting">Zoho to QuickBooks Migration in India</a> - the national parent service</li>
                 <li><a href="/quickbooks-accounting">QuickBooks Accounting</a> - run QuickBooks confidently after the move</li>
                 <li><a href="/zoho-books-accounting">Zoho Books Accounting</a> - if you decide to stay on Zoho</li>
                 <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping</li>
@@ -1342,7 +1342,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Move Your Delhi Books onto QuickBooks Cleanly</h2>
             <div class="content-text" style="text-align:left;">
                 <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">A rushed migration costs far more than a planned one, in broken GST filings, drifting balances, and reports re-keyed by hand. Whether you run an IT services firm in Nehru Place, a manufacturing unit in Okhla, or a trading business in Karol Bagh, Patron Accounting's CA-supervised migration exports your Zoho Books data, rebuilds the chart of accounts, re-creates GST, and reconciles the QuickBooks trial balance from INR 9,999.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">See the national <a href="/migration-from-zoho-to-quickbooks" style="color:#fff;text-decoration:underline;">Zoho to QuickBooks Migration</a> page, then continue with <a href="/quickbooks-accounting" style="color:#fff;text-decoration:underline;">QuickBooks Accounting</a> once you are live. Patron Accounting LLP serves 10,000+ businesses with a 4.9 Google rating.</p>
+                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">See the national <a href="/zoho-books-accounting" style="color:#fff;text-decoration:underline;">Zoho to QuickBooks Migration</a> page, then continue with <a href="/quickbooks-accounting" style="color:#fff;text-decoration:underline;">QuickBooks Accounting</a> once you are live. Patron Accounting LLP serves 10,000+ businesses with a 4.9 Google rating.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>

@@ -1602,7 +1602,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <li><a href="/qualified-vs-unqualified-audit-opinion">Qualified vs Unqualified Opinion</a> - fraud may trigger qualification if material AND pervasive.</li>
 <li><a href="/qualified-audit-opinion-handling-guide">Qualified Audit Opinion Handling Guide</a> - CFO handling guide if fraud-driven qualification received.</li>
 <li><a href="/going-concern-audit-considerations">Going Concern Audit Considerations</a> - fraud-driven losses may trigger going concern uncertainty.</li>
-<li><a href="/due-diligence">Due Diligence</a> - investor/lender forensic diligence overlap.</li>
+<li><a href="/esop-due-diligence-prep-for-funding-and-ma">Due Diligence</a> - investor/lender forensic diligence overlap.</li>
 <li><a href="/private-limited-company-compliance">Private Limited Company Compliance</a> - Section 134(3) Board Report disclosure on auditor-reported frauds.</li>
 </ul>
 
@@ -1762,7 +1762,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
         <a href="/internal-financial-controls-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">IFC Audit</div><div class="pa-card-sub">Material Weakness</div></div></a>
         <a href="/caro-2020-reporting" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">CARO 2020 Reporting</div><div class="pa-card-sub">Clause 3(xi)</div></div></a>
         <a href="/audit-report-types-india" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Audit Report Types</div><div class="pa-card-sub">Opinion Framework</div></div></a>
-        <a href="/due-diligence" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Due Diligence</div><div class="pa-card-sub">Forensic Overlap</div></div></a>
+        <a href="/esop-due-diligence-prep-for-funding-and-ma" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Due Diligence</div><div class="pa-card-sub">Forensic Overlap</div></div></a>
     </div>
 </div>
         </div>

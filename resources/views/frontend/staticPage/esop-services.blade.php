@@ -2433,7 +2433,7 @@
                             promoter-bound buyers to sweat equity.</p>
                         <div class="tile-cp-foot"><span>Quoted</span><span class="arrow">↗</span></div>
                     </a>
-                    <a href="/esop-vs-bonus" class="tile-cp">
+                    <a href="/esop-vs-profit-sharing-and-bonus" class="tile-cp">
                         <div class="tile-cp-meta-row"><span>04.05</span><span class="tile-cp-form-tag">SERVICE</span>
                         </div>
                         <h3 class="tile-cp-title">ESOP vs Profit-Sharing & Bonus <span class="badge-new-cp">New</span>

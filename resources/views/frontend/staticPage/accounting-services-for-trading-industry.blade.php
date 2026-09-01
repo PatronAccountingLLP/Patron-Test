@@ -257,7 +257,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">July 2026</span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -439,7 +439,7 @@
     <li>Commodity traders running trade and quantity schemes that shift the rate after a sale.</li>
     <li>Buyers crossing the <a href="/blog/194q-vs-206c-1h-tds-tcs">194Q threshold</a> who must deduct TDS on their goods purchases.</li>
     <li>Traders whose purchase register keeps parting ways with GSTR-2B at each filing.</li>
-    <li>Firms <a href="/blog/stock-valuation-trading-business">valuing closing stock</a> on FIFO or weighted average that a banker relies on.</li>
+    <li>Firms <a href="/blog/ind-as-2-vs-icds-ii-inventory-valuation-financial-reporting-tax">valuing closing stock</a> on FIFO or weighted average that a banker relies on.</li>
   </ul>
 
             </div>
@@ -672,7 +672,7 @@
                 </table>
                 </div><p style="margin-top:14px;font-size:14px;">Accounting for a trading business is priced by the volume of purchase and sales invoices you raise and the number of stock lines we track. The entry plan suits one entity on routine monthly volume; heavier invoicing or added branches move it up. Speak with an accounting specialist on <a href="tel:+919459456700">+91 94594 56700</a>.</p><p style="margin-top:8px;font-size:12px;color:var(--text-muted);">Fees <strong>exclude GST and government charges</strong>. Final quote confirmed after a scoping review.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
+                <p style="margin-top:16px;"><strong>Professional accounting and compliance charges</strong> are scoped to your <strong>number of entities, funding stage and monthly transaction volume</strong>, and are separate from statutory and government charges. <a href="https://www.patronaccounting.com/contact-us">Contact us</a> for a detailed, <strong>fixed quote</strong>.</p>
                 <p style="margin-top:16px;"><strong>Get a free Trading Accounting consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20accounting%20services%20for%20trading%20industry" target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>

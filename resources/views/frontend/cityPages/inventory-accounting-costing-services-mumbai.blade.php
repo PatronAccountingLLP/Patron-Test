@@ -923,7 +923,7 @@
                 <div class="content-text what-is-definition">
                     <p>Put simply, inventory accounting assigns a value to everything a business is holding and logs how that stock moves, so the closing inventory shown on the balance sheet and the cost of goods sold in the P&amp;L both come out right. Costing sits alongside it, answering a sharper question: what does one unit genuinely cost to acquire or to make?</p>
                     <p>For an Andheri trader or a Bhiwandi distributor, the job is mostly about pricing bought-in goods on FIFO or weighted average and watching COGS at SKU level. For a Tarapur or Ambernath manufacturer it goes deeper, building a bill of materials, loading labour and overhead onto each item, and picking job, process, or standard costing to value WIP and finished goods.</p>
-                    <p>Two companion tasks almost always travel with it: reconciliation, which lines up physical counts against book stock, and ageing, which surfaces the slow-movers and dead lines. To see the tools it sits inside, visit <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>Two companion tasks almost always travel with it: reconciliation, which lines up physical counts against book stock, and ageing, which surfaces the slow-movers and dead lines. To see the tools it sits inside, visit <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Inventory Accounting in Mumbai:</strong></p>
@@ -1233,7 +1233,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

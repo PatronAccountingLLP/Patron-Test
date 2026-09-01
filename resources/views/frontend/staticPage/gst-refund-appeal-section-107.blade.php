@@ -1060,12 +1060,12 @@
                 
                 <p>Section 107 appeal integrates with Patron's broader GST refund and litigation stack. Explore related services below:</p>
                 <ul>
-                    <li><a href="/gst-refund/">GST Refund</a> - parent practice covering the full Section 54 refund spectrum, RFD-01 filing, RFD-06 sanction or rejection, and refund category mechanics</li>
-                    <li><a href="/gstat-appeal-filing/">GSTAT Appeal Filing</a> - the Tier 2 second appeal under Section 112 in Form APL-05; used when Section 107 APL-04 is adverse</li>
-                    <li><a href="/gstat-pre-deposit-calculation/">GSTAT Pre-Deposit Calculation</a> - Section 112(8) cumulative 20 percent pre-deposit advisory; coordinated with Section 107(6) discipline</li>
-                    <li><a href="/gst-notice/">GST Notice</a> - covers Section 73, 74, and 74A demand notices and RFD-08 SCN replies before they crystallise into RFD-06</li>
-                    <li><a href="/gst-audit/">GST Audit</a> - Section 65 departmental audit and forensic-style internal audit support for refund-eligible taxpayers</li>
-                    <li><a href="/gst-annual-returns/">GST Annual Returns</a> - GSTR-9 and GSTR-9C compliance feeding into refund reconciliation</li>
+                    <li><a href="/gst-refund">GST Refund</a> - parent practice covering the full Section 54 refund spectrum, RFD-01 filing, RFD-06 sanction or rejection, and refund category mechanics</li>
+                    <li><a href="/gstat-appeal-filing">GSTAT Appeal Filing</a> - the Tier 2 second appeal under Section 112 in Form APL-05; used when Section 107 APL-04 is adverse</li>
+                    <li><a href="/gstat-pre-deposit-calculation">GSTAT Pre-Deposit Calculation</a> - Section 112(8) cumulative 20 percent pre-deposit advisory; coordinated with Section 107(6) discipline</li>
+                    <li><a href="/gst-notice">GST Notice</a> - covers Section 73, 74, and 74A demand notices and RFD-08 SCN replies before they crystallise into RFD-06</li>
+                    <li><a href="/gst-audit">GST Audit</a> - Section 65 departmental audit and forensic-style internal audit support for refund-eligible taxpayers</li>
+                    <li><a href="/gst-annual-returns">GST Annual Returns</a> - GSTR-9 and GSTR-9C compliance feeding into refund reconciliation</li>
                 </ul>
 
             </div>
@@ -1232,12 +1232,12 @@
                     <div class="pa-block-title">Related Services</div>
                     <div class="pa-block-sub">End-to-end support for GST Refund Appeal Section 107</div>
                     <div class="pa-cross-grid">
-                        <a href="/gst-refund/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Refund</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gstat-appeal-filing/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal Filing</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gstat-pre-deposit-calculation/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Pre-Deposit Calculation</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-notice/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Notice</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-audit/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gstat-cross-objection-filing/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Cross Objection Filing</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-refund" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Refund</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gstat-appeal-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal Filing</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gstat-pre-deposit-calculation" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Pre-Deposit Calculation</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-notice" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Notice</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gstat-cross-objection-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Cross Objection Filing</div><div class="pa-card-sub">India</div></div></a>
                     </div>
                 </div>
         </div>

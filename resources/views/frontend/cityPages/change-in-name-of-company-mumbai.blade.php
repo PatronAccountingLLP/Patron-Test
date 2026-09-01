@@ -681,7 +681,7 @@
                     <li><a href="/change-in-name-of-company">Change in Name of Company (India Overview)</a></li>
                     <li><a href="/private-limited-company-compliance">Private Limited Company Compliance</a></li>
                     <li><a href="/trademark-registration">Trademark Registration</a> &ndash; Protect the new company name</li>
-                    <li><a href="/private-limited-company-registration-in-india">Private Limited Company Registration</a></li>
+                    <li><a href="/private-limited-company-registration">Private Limited Company Registration</a></li>
                     <li><a href="/change-in-authorised-capital">Change in Authorised Capital</a></li>
                     <li><a href="/roc-notice">ROC Notice</a></li>
                     <li><a href="/accounting-services">Accounting Services</a></li>

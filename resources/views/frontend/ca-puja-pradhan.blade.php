@@ -1376,7 +1376,7 @@
                 <div class="tile-cp-foot"><span class="pillar-tag">Tax Litigation</span><span class="arrow">Read →</span></div>
             </a>
 
-            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/net-worth-certificate-format-icai-standards">
+            <a class="tile-cp is-read" href="https://www.patronaccounting.com/blog/icai-guidelines-for-ca-certificates">
                 <span class="tile-num">iii.</span>
                 <h3 class="tile-cp-title">Net Worth Certificate Format: ICAI Standards Explained</h3>
                 <p class="tile-cp-blurb">The exact format, supporting documents, and CA verification protocol for an ICAI-compliant Net Worth Certificate - with a sample template.</p>

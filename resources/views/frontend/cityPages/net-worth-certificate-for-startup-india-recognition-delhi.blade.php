@@ -1088,7 +1088,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1895,7 +1895,7 @@
                     <li><a href="https://www.patronaccounting.com/itr-for-companies">ITR for Companies</a> - aligned tax filing for the startup.</li>
                     <li><a href="https://www.patronaccounting.com/private-limited-company-registration">Private Limited Company Registration</a> - for the startup entity.</li>
                     <li><a href="https://www.patronaccounting.com/net-worth-certificate">Net Worth Certificate</a> - the general assets-minus-liabilities certificate.</li>
-                    <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan">Net Worth Certificate for Business Loan</a> - companion certificate for credit facilities.</li>
+                    <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan">Net Worth Certificate for Business Loan</a> - companion certificate for credit facilities.</li>
                 </ul>
 
             </div>
@@ -2047,7 +2047,7 @@
                     <a href="https://www.patronaccounting.com/itr-for-companies" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Companies</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/private-limited-company-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Private Limited Registration</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/net-worth-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth for Business Loan</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth for Business Loan</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>
         </div>

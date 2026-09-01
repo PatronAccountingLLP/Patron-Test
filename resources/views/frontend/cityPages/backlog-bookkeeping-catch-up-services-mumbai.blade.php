@@ -938,7 +938,7 @@
                 <div class="content-text what-is-definition">
                     <p>Often labelled catch-up bookkeeping, backlog bookkeeping means going back over periods where the accounts were left unrecorded and rebuilding them in full, giving the business dependable, tax-ready numbers.</p>
                     <p>At an Andheri or Powai media, advertising, or SaaS firm, the work runs to pulling in months of bank feeds, sorting Razorpay and Stripe payouts, and verifying input tax credit against GSTR-2B on the GST portal. For a Bhiwandi warehousing and logistics operator, it stretches to entering vendor bills, squaring stock and purchase registers, and tying out the closing trial balance ahead of a statutory audit.</p>
-                    <p>Cleanup typically rides alongside the catch-up, untangling duplicate vouchers, wrongly coded expenses, and balances that never reconciled in the existing file. For platform-level cleanup, visit <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>Cleanup typically rides alongside the catch-up, untangling duplicate vouchers, wrongly coded expenses, and balances that never reconciled in the existing file. For platform-level cleanup, visit <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Backlog Bookkeeping in Mumbai:</strong></p>
@@ -1247,7 +1247,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
                     <div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

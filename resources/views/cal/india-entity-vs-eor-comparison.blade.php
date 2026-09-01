@@ -779,11 +779,11 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="https://www.patronaccounting.com/wholly-owned-subsidiary-registration" class="sidebar-link">WOS Registration<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/wholly-owned-subsidiary-of-foreign-company-india" class="sidebar-link">WOS Registration<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/eor-india" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/fema-compliance" class="sidebar-link">FEMA &amp; FDI Compliance<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/transfer-pricing" class="sidebar-link">Transfer Pricing Study<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/transfer-pricing-rules-2026" class="sidebar-link">Transfer Pricing Study<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
         </div>
 
@@ -799,10 +799,10 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/foreign-company-india-entry" class="sidebar-link">Foreign Company India Entry<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/wos-vs-llp-india" class="sidebar-link">WOS vs LLP in India<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/permanent-establishment-india" class="sidebar-link">PE Risk in India<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/foreign-subsidiary-registration-in-india" class="sidebar-link">Foreign Company India Entry<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/private-limited-company-vs-llp" class="sidebar-link">WOS vs LLP in India<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/4-labour-codes-2025-employer-guide-india" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/significant-economic-presence-sep-rules-2026-thresholds-non-resident" class="sidebar-link">PE Risk in India<span class="arrow">→</span></a>
         </div>
 
     </aside>

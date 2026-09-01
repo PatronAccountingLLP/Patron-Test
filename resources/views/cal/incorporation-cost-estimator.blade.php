@@ -883,7 +883,7 @@ a:focus-visible {
         <section class="content-section" id="after">
             <h2>Costs After Incorporation</h2>
             <p>Incorporation is just the start. Budget immediately for <strong>auditor appointment (ADT-1)</strong>, <strong>commencement of business (INC-20A)</strong>, a bank account, and registrations like <a href="https://www.patronaccounting.com/gst-registration">GST</a>. Then there's recurring <strong>annual compliance</strong> — statutory audit, ROC annual filings, ITR and GST returns — typically ₹15,000–₹50,000+ a year.</p>
-            <p>Plan the ongoing cost with the <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>, and see Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company">post-incorporation compliance</a> guide.</p>
+            <p>Plan the ongoing cost with the <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">annual compliance cost estimator</a>, and see Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-private-limited-company">post-incorporation compliance</a> guide.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> This is an indicative estimate, not a quotation. Stamp duty changes by state notification and professional fees vary — confirm current figures before budgeting.</p>
             </div>
@@ -969,7 +969,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Registration Pages</h3>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/section8-company-registration" class="sidebar-link">Section 8 Company <span class="arrow">→</span></a>

@@ -1701,7 +1701,7 @@ a:focus-visible {
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/related-party-transactions-under-section-188-a-complete-compliance-guide" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/related-party-transactions-under-section-188" class="sidebar-link">Related Party Transactions (Sec 188) <span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -1647,19 +1647,19 @@
                 <div class="pa-block-title">City-Wise Cleanup Engagement Pages</div>
                 <div class="pa-block-sub">Local CS and CA team for in-person RD hearing coordination across ROC jurisdictions</div>
                 <div class="pa-city-grid">
-                    <a href="/condonation-of-delay-roc-filings/pune" class="pa-city-card">
+                    <a href="/condonation-of-delay-roc-filings" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Condonation in Pune</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/condonation-of-delay-roc-filings/mumbai" class="pa-city-card">
+                    <a href="/condonation-of-delay-roc-filings" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Condonation in Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/condonation-of-delay-roc-filings/delhi" class="pa-city-card">
+                    <a href="/condonation-of-delay-roc-filings" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Condonation in Delhi</div><div class="pa-card-sub">NCT Delhi</div></div>
                     </a>
-                    <a href="/condonation-of-delay-roc-filings/gurugram" class="pa-city-card">
+                    <a href="/condonation-of-delay-roc-filings" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Condonation in Gurugram</div><div class="pa-card-sub">Haryana</div></div>
                     </a>

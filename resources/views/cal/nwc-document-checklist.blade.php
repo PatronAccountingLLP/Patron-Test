@@ -652,11 +652,11 @@ This checklist is a preparation aid only. The Net Worth Certificate itself must 
 </div></div>
 
 <div class="sidebar-card"><h3>Visa-Specific NWCs</h3>
-<a href="/net-worth-certificate-for-us-visa" class="sidebar-link">US Visa NWC <span class="arrow">→</span></a>
-<a href="/net-worth-certificate-for-uk-visa" class="sidebar-link">UK Visa NWC <span class="arrow">→</span></a>
-<a href="/net-worth-certificate-for-canada-visa" class="sidebar-link">Canada Visa NWC <span class="arrow">→</span></a>
-<a href="/net-worth-certificate-for-schengen-visa" class="sidebar-link">Schengen Visa NWC <span class="arrow">→</span></a>
-<a href="/net-worth-certificate-for-australia-visa" class="sidebar-link">Australia Visa NWC <span class="arrow">→</span></a>
+<a href="/net-worth-certificate-for-visa" class="sidebar-link">US Visa NWC <span class="arrow">→</span></a>
+<a href="/net-worth-certificate-for-visa" class="sidebar-link">UK Visa NWC <span class="arrow">→</span></a>
+<a href="/net-worth-certificate-for-visa" class="sidebar-link">Canada Visa NWC <span class="arrow">→</span></a>
+<a href="/net-worth-certificate-for-visa" class="sidebar-link">Schengen Visa NWC <span class="arrow">→</span></a>
+<a href="/net-worth-certificate-for-visa" class="sidebar-link">Australia Visa NWC <span class="arrow">→</span></a>
 <a href="/ca-certified-services" class="sidebar-link">All CA Certified Services <span class="arrow">→</span></a>
 </div>
 
@@ -670,9 +670,9 @@ This checklist is a preparation aid only. The Net Worth Certificate itself must 
 </div>
 
 <div class="sidebar-card"><h3>From the Blog</h3>
-<a href="/blog/net-worth-certificate-process-and-requirements" class="sidebar-link">NWC Process &amp; Requirements <span class="arrow">→</span></a>
-<a href="/blog/tax-implications-of-investing-abroad" class="sidebar-link">Foreign Asset Disclosure <span class="arrow">→</span></a>
-<a href="/blog/nri-tax-compliance-guide" class="sidebar-link">NRI Tax Compliance <span class="arrow">→</span></a>
+<a href="/blog/guarantor-net-worth-requirements" class="sidebar-link">NWC Process &amp; Requirements <span class="arrow">→</span></a>
+<a href="/blog/tcs-rate-changes-april-2026-overseas-travel-lrs-education-liquor" class="sidebar-link">Foreign Asset Disclosure <span class="arrow">→</span></a>
+<a href="/blog/nri-itr-filing-fy-2025-26" class="sidebar-link">NRI Tax Compliance <span class="arrow">→</span></a>
 </div>
 </aside>
 

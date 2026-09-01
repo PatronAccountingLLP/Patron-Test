@@ -1088,7 +1088,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1567,7 +1567,7 @@
                         <tr><td>CA net worth certificate</td><td>In INR and the destination currency with a UDIN.</td></tr>
                         <tr><td>Consistency check</td><td>So the affidavit figures match the certified net worth.</td></tr>
                         <tr><td>Income proof coordination</td><td>With the sponsor's <a href="https://www.patronaccounting.com/income-tax-return">income tax return</a> where salary or business income is shown.</td></tr>
-                        <tr><td>Dual-currency formatting</td><td>Via our <a href="https://www.patronaccounting.com/double-currency-networth-format">Double Currency Networth Format</a> where the embassy needs it.</td></tr>
+                        <tr><td>Dual-currency formatting</td><td>Via our <a href="https://www.patronaccounting.com/net-worth-certificate-for-visa">Double Currency Networth Format</a> where the embassy needs it.</td></tr>
 
                     </tbody>
                 </table>
@@ -1918,7 +1918,7 @@
                 <ul>
                     <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a> - the standalone certificate when no affidavit is needed.</li>
                     <li><a href="https://www.patronaccounting.com/net-worth-certificate">Net Worth Certificate</a> - the general certificate for all purposes.</li>
-                    <li><a href="https://www.patronaccounting.com/double-currency-networth-format">Double Currency Networth Format</a> - INR plus foreign-currency reporting.</li>
+                    <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-visa">Double Currency Networth Format</a> - INR plus foreign-currency reporting.</li>
                     <li><a href="https://www.patronaccounting.com/income-tax-return">Income Tax Return</a> - sponsor income proof to accompany the file.</li>
                 </ul>
 
@@ -2068,7 +2068,7 @@
                 <div class="pa-cross-grid">
                     <a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Visa</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/net-worth-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="https://www.patronaccounting.com/double-currency-networth-format" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Double Currency Networth</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Double Currency Networth</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/income-tax-return" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Income Tax Return</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>

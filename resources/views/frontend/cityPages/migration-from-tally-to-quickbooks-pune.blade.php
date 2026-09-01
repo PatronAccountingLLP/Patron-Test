@@ -734,7 +734,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
                         </span>
-                        <a href="/migration-from-tally-to-quickbooks" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/migration-from-tally-to-zoho" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -906,7 +906,7 @@
                 </table>
                 </div>
 
-                <p>Across Pune, businesses move from Tally to QuickBooks Online for cloud access, multi-user collaboration, and cleaner bank feeds. A funded SaaS team in Hinjewadi or Magarpatta wants its founders and remote accountant in the same file. An auto-component maker in Chakan or the MIDC belts at Bhosari and Talegaon wants live dashboards instead of a single desktop install. The risk is losing years of ledgers in the switch. Learn more about our national <a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration</a> service.</p>
+                <p>Across Pune, businesses move from Tally to QuickBooks Online for cloud access, multi-user collaboration, and cleaner bank feeds. A funded SaaS team in Hinjewadi or Magarpatta wants its founders and remote accountant in the same file. An auto-component maker in Chakan or the MIDC belts at Bhosari and Talegaon wants live dashboards instead of a single desktop install. The risk is losing years of ledgers in the switch. Learn more about our national <a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration</a> service.</p>
                 <p>Patron Accounting's Pune CA team handles the migration end to end, mapping every Tally ledger to a QuickBooks account, carrying opening balances and masters, and reconciling the trial balance before go-live. For ongoing books in the new system, see our <a href="/accounting-services">Accounting Services</a>. This page is reviewed quarterly for accuracy.</p>
             </div>
         </div>
@@ -1211,7 +1211,7 @@
             <h2 class="section-title">Related Services</h2>
             <p class="pa-block-sub">Start with the national migration service, then explore complementary services across India.</p>
             <ul>
-                <li><a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration in India</a> - the national parent service</li>
+                <li><a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration in India</a> - the national parent service</li>
                 <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping in QuickBooks</li>
                 <li><a href="/gst-returns">GST Return Filing</a> - file GST from your new QuickBooks data</li>
                 <li><a href="/income-tax-return">Income Tax Return Filing</a> - file accurate ITRs on clean books</li>
@@ -1343,7 +1343,7 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Move Your Pune Books to QuickBooks Without Losing History</h2>
             <div class="content-text" style="text-align:left;">
                 <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Switching from Tally to QuickBooks Online should not cost you years of ledgers or break your GST trail. Whether you run a SaaS team in Hinjewadi, a unit in Chakan or the MIDC belts, or a practice in Magarpatta, Patron Accounting's CA-supervised migration maps your chart, carries masters and balances, recreates history, and reconciles the trial balance against Tally, from INR 9,999.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Explore the national <a href="/migration-from-tally-to-quickbooks" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, then continue with <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a> once you are live. Patron Accounting LLP serves 10,000+ businesses with a 4.9 Google rating.</p>
+                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Explore the national <a href="/migration-from-tally-to-zoho" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, then continue with <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a> once you are live. Patron Accounting LLP serves 10,000+ businesses with a 4.9 Google rating.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>

@@ -914,11 +914,11 @@
                     <li>Accelerated cliff for founder backfills under DPIIT 10-year exemption.</li>
                     <li>Exit window tiers (90 days for IC, 6 months for managers, 12-24 months for senior leadership).</li>
                     <li>Good leaver and bad leaver matrix with clawback provisions.</li>
-                    <li>Built on the <a href="/esop-scheme-design/">ESOP Scheme Design</a> engagement template.</li>
+                    <li>Built on the <a href="/esop-scheme-design">ESOP Scheme Design</a> engagement template.</li>
                 </ul>
                 <p><strong>3. DPIIT and Section 80-IAC Pathway for Founders:</strong></p>
                 <ul>
-                    <li>Coordinated <a href="/startup-registration/">DPIIT Startup Registration</a> filing under Notification GSR 127(E) 2019.</li>
+                    <li>Coordinated <a href="/startup-registration">DPIIT Startup Registration</a> filing under Notification GSR 127(E) 2019.</li>
                     <li>Section 80-IAC plus Section 192(2C) tax deferral pathway documented (48 months under current regime; 60 months under Income Tax Act 2025 from 1 April 2026).</li>
                     <li>Critical for tech founders who hold more than 10 percent equity.</li>
                 </ul>
@@ -933,7 +933,7 @@
                     <li>SAR-based scheme (cash-settled) as alternative under Ind AS 102 group SBP rules.</li>
                     <li>Local Indian-entity ESOP comparison.</li>
                     <li>LRS USD 250,000 per FY exercise consideration tracking.</li>
-                    <li>End-to-end <a href="/fdi-compliance/">FDI Compliance</a> workflow.</li>
+                    <li>End-to-end <a href="/fdi-compliance">FDI Compliance</a> workflow.</li>
                 </ul>
                 <p><strong>6. Annual Review and Refresh Grant Strategy:</strong></p>
                 <ul>
@@ -976,7 +976,7 @@
                         <tr><td><strong>Founder ESOPs without DPIIT recognition</strong></td><td>Founders holding more than 10 percent equity are excluded from standard ESOPs under Companies Act default. Without DPIIT recognition under Rule 12 10-year exemption, founder grants are legally invalid - cannot be ratified later.</td><td>Patron coordinates DPIIT recognition under Notification GSR 127(E) 2019 BEFORE founder grants. 10-year window from incorporation unlocked for promoters and 10 percent-plus directors.</td></tr>
                         <tr><td><strong>Engineer attrition at Year 3 without refresh</strong></td><td>Top engineering and product talent nearing full vesting at 36-48 months leave for fresh grants at competitors. Without refresh grants, 30-50 percent top-talent attrition at Year 3 of vesting is documented across Indian tech startups.</td><td>Patron annual review identifies top performers at 24-30 month tenure for refresh recommendations. Refresh size 25-50 percent of original grant; vesting resets the retention clock.</td></tr>
                         <tr><td><strong>Cross-border mirror grant without FEMA compliance</strong></td><td>Foreign tech parent issuing ESOPs to Indian subsidiary employees without FEMA OI Rules 2022 documentation attracts RBI compounding. LRS breaches above USD 250,000 per FY attract additional FEMA penalties. India sub TDS deductor obligations missed under Section 192(1).</td><td>Patron mirror grant compliance stack - FEMA OI Rules 2022 with OPI classification confirmation, LRS-aware employee education, India sub set up as TDS deductor, Section 92 transfer pricing for engineering services billing.</td></tr>
-                        <tr><td><strong>MGT-14 default under Section 117(2)</strong></td><td>Rs 100 per day after 30 days under Section 117(2) of Companies Act 2013 for delay in filing special resolutions (scheme adoption, pool top-up). Compounding can exceed Rs 50,000 for a 6-month delay.</td><td>Patron filing calendar tracks every special resolution against the 30-day MGT-14 deadline. Automated reminder 7 days before deadline. End-to-end through <a href="/esop-corporate-filings/">ESOP Corporate Filings</a> retainer.</td></tr>
+                        <tr><td><strong>MGT-14 default under Section 117(2)</strong></td><td>Rs 100 per day after 30 days under Section 117(2) of Companies Act 2013 for delay in filing special resolutions (scheme adoption, pool top-up). Compounding can exceed Rs 50,000 for a 6-month delay.</td><td>Patron filing calendar tracks every special resolution against the 30-day MGT-14 deadline. Automated reminder 7 days before deadline. End-to-end through <a href="/esop-corporate-filings">ESOP Corporate Filings</a> retainer.</td></tr>
 
 
                     </tbody>
@@ -1144,14 +1144,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/esop-services/">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types.</li>
-                    <li><strong><a href="/esop-for-saas-companies/">ESOP for SaaS Companies</a></strong> - sibling vertical-specific page for B2B SaaS with ARR-linked vesting, sales quota acceleration, CSM NRR linkage and Delaware flip mirror grant structures.</li>
-                    <li><strong><a href="/esop-scheme-design/">ESOP Scheme Design</a></strong> - generic first-time scheme drafting with sample term sheet; baseline template that tech-vertical design builds on.</li>
-                    <li><strong><a href="/esop-valuation-services/">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies for grant and exercise events.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense recognition over vesting period; group SBP rules for cross-border mirror grants.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3 and MGT-7 for tech startups with active grant cycles.</li>
-                    <li><strong><a href="/startup-registration/">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - cross-border ESOP filings for foreign parent subsidiaries under FEMA Overseas Investment Rules 2022.</li>
+                    <li><strong><a href="/esop-services">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types.</li>
+                    <li><strong><a href="/esop-for-saas-companies">ESOP for SaaS Companies</a></strong> - sibling vertical-specific page for B2B SaaS with ARR-linked vesting, sales quota acceleration, CSM NRR linkage and Delaware flip mirror grant structures.</li>
+                    <li><strong><a href="/esop-scheme-design">ESOP Scheme Design</a></strong> - generic first-time scheme drafting with sample term sheet; baseline template that tech-vertical design builds on.</li>
+                    <li><strong><a href="/esop-valuation-services">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies for grant and exercise events.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense recognition over vesting period; group SBP rules for cross-border mirror grants.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3 and MGT-7 for tech startups with active grant cycles.</li>
+                    <li><strong><a href="/startup-registration">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - cross-border ESOP filings for foreign parent subsidiaries under FEMA Overseas Investment Rules 2022.</li>
                 </ul>
 
             </div>
@@ -1314,35 +1314,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron ESOP Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/esop-services/" class="pa-cross-card">
+                    <a href="/esop-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Services Master Hub</strong><span>End-to-end ESOP lifecycle</span></div>
                     </a>
-                    <a href="/esop-for-saas-companies/" class="pa-cross-card">
+                    <a href="/esop-for-saas-companies" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for SaaS Companies</strong><span>B2B SaaS vertical sibling</span></div>
                     </a>
-                    <a href="/esop-scheme-design/" class="pa-cross-card">
+                    <a href="/esop-scheme-design" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-with="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Scheme Design</strong><span>Generic first-time scheme drafting</span></div>
                     </a>
-                    <a href="/esop-valuation-services/" class="pa-cross-card">
+                    <a href="/esop-valuation-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Valuation Services</strong><span>Rule 11UA DCF / NAV / CCA FMV</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting Ind AS 102</strong><span>Group SBP for mirror grants</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>MGT-14, PAS-3, MGT-7 retainer</span></div>
                     </a>
-                    <a href="/startup-registration/" class="pa-cross-card">
+                    <a href="/startup-registration" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>DPIIT Startup Registration</strong><span>10-year founder exemption</span></div>
                     </a>
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>Cross-border foreign parent filings</span></div>
                     </a>

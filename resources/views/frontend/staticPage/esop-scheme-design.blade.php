@@ -933,7 +933,7 @@
                 </ul>
                 <p><strong>5. MCA Filings:</strong></p>
                 <ul>
-                    <li>MGT-14 filing within 30 days of Special Resolution under Section 117(2). Coordinated with <a href="/esop-corporate-filings/">ESOP Corporate Filings</a> workflow.</li>
+                    <li>MGT-14 filing within 30 days of Special Resolution under Section 117(2). Coordinated with <a href="/esop-corporate-filings">ESOP Corporate Filings</a> workflow.</li>
                     <li>PAS-3 within 30 days of share allotment on first ESOP exercise under Section 39(5).</li>
                     <li>AoA amendment via fresh EGM Special Resolution if existing AoA does not authorise ESOPs.</li>
                 </ul>
@@ -948,7 +948,7 @@
                     <li>IBBI Registered Valuer engagement for grant-date FMV under Rule 11UA.</li>
                     <li>DCF (via SEBI Cat I Merchant Banker), NAV (via CA) or CCA methodology selection.</li>
                     <li>FMV certificate valid for 180 days from issue.</li>
-                    <li>Coordinated through <a href="/esop-valuation-services/">ESOP Valuation Services</a>.</li>
+                    <li>Coordinated through <a href="/esop-valuation-services">ESOP Valuation Services</a>.</li>
                 </ul>
                 <p><strong>8. Ind AS 102 Modelling and Tax Memos:</strong></p>
                 <ul>
@@ -956,7 +956,7 @@
                     <li>Share-based payment expense recognition schedule over vesting period.</li>
                     <li>Schedule III disclosure plus Rule 12(9) Directors Report disclosure pack.</li>
                     <li>Section 17(2)(vi) perquisite tax memo with Section 80-IAC plus Section 192(2C) deferral pathway documented.</li>
-                    <li>Coordinated through <a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a>.</li>
+                    <li>Coordinated through <a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a>.</li>
                 </ul>
 
             </div>
@@ -982,7 +982,7 @@
                         <tr><td><strong>Founder grants without DPIIT recognition</strong></td><td>Founders holding more than 10 percent equity are excluded from standard ESOPs under Companies Act default. Granting to founders without DPIIT recognition under Rule 12 10-year exemption renders those grants legally invalid - cannot be ratified later.</td><td>Patron coordinates DPIIT recognition under Notification GSR 127(E) 2019 BEFORE founder grants are issued. 10-year window from incorporation unlocked for promoters and 10 percent-plus directors. Section 80-IAC plus Section 192(2C) tax deferral pathway documented.</td></tr>
                         <tr><td><strong>Grants made before EGM Special Resolution</strong></td><td>Companies sometimes issue grant letters in advance of the EGM to lock in offer terms. Grants made before EGM Special Resolution are legally invalid under Section 62(1)(b) and may be set aside by RoC. Series A diligence flags as material restatement.</td><td>Patron sequences the engagement strictly - Board Resolution then 21-day EGM notice then Special Resolution then MGT-14 filing then IBBI valuation then SH-6 setup then first grant batch. No grants issued until EGM Special Resolution is on record.</td></tr>
                         <tr><td><strong>IBBI valuation older than 180 days</strong></td><td>Rule 11UA requires IBBI valuation not older than 180 days from exercise date. Stale valuations trigger tax officer reassessment at Section 17(2)(vi) perquisite computation and potential adjustment under transfer pricing principles.</td><td>Patron coordinates Rule 11UA valuation refresh at every fresh grant batch and at 180-day intervals for exercise events. DCF, NAV or CCA methodology selected for defensibility under tax scrutiny.</td></tr>
-                        <tr><td><strong>MGT-14 default under Section 117(2)</strong></td><td>Rs 100 per day after the 30-day filing window under Section 117(2) of Companies Act 2013. Compounding can exceed Rs 25,000 for a 6-month delay plus regulatory friction during subsequent funding diligence.</td><td>Patron filing calendar tracks every Special Resolution against the 30-day MGT-14 deadline. PAS-3 30-day window also tracked under Section 39(5) - Rs 1,000 per day default for private companies up to Rs 25 lakh. End-to-end through <a href="/esop-corporate-filings/">ESOP Corporate Filings</a> retainer.</td></tr>
+                        <tr><td><strong>MGT-14 default under Section 117(2)</strong></td><td>Rs 100 per day after the 30-day filing window under Section 117(2) of Companies Act 2013. Compounding can exceed Rs 25,000 for a 6-month delay plus regulatory friction during subsequent funding diligence.</td><td>Patron filing calendar tracks every Special Resolution against the 30-day MGT-14 deadline. PAS-3 30-day window also tracked under Section 39(5) - Rs 1,000 per day default for private companies up to Rs 25 lakh. End-to-end through <a href="/esop-corporate-filings">ESOP Corporate Filings</a> retainer.</td></tr>
 
 
                     </tbody>
@@ -1153,14 +1153,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/esop-services/">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types; ongoing operational compliance after scheme design including vesting tracking and annual ESOP disclosures.</li>
-                    <li><strong><a href="/esop-for-tech-startups/">ESOP for Tech Startups</a></strong> - tech-vertical scheme design with engineer/CTO pool benchmarks, refresh grants at 24-36 month tenure, performance vesting hooks and hybrid 50/100 acceleration drafted into the scheme at the outset.</li>
-                    <li><strong><a href="/esop-for-saas-companies/">ESOP for SaaS Companies</a></strong> - B2B SaaS-specific design with ARR-linked vesting, sales quota acceleration, CSM NRR linkage and Delaware flip mirror grant structures.</li>
-                    <li><strong><a href="/esop-restructuring-underwater-options/">ESOP Restructuring and Underwater Options</a></strong> - down-round remediation through Repricing, Exchange Program, Top-Up Grants, Vesting Acceleration or Cashout/Buyback for schemes that have gone underwater post-down-round.</li>
-                    <li><strong><a href="/esop-valuation-services/">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies for grant date, exercise events and modification events; IBBI Registered Valuer engagement.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense recognition over vesting period using Black-Scholes; Schedule III disclosure plus Rule 12(9) Directors Report disclosure pack; group SBP rules for cross-border mirror grants.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3 and MGT-7 for active grant cycles plus annual Directors Report ESOP disclosure under Rule 12(9).</li>
-                    <li><strong><a href="/startup-registration/">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC plus Section 192(2C) tax deferral pathway.</li>
+                    <li><strong><a href="/esop-services">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types; ongoing operational compliance after scheme design including vesting tracking and annual ESOP disclosures.</li>
+                    <li><strong><a href="/esop-for-tech-startups">ESOP for Tech Startups</a></strong> - tech-vertical scheme design with engineer/CTO pool benchmarks, refresh grants at 24-36 month tenure, performance vesting hooks and hybrid 50/100 acceleration drafted into the scheme at the outset.</li>
+                    <li><strong><a href="/esop-for-saas-companies">ESOP for SaaS Companies</a></strong> - B2B SaaS-specific design with ARR-linked vesting, sales quota acceleration, CSM NRR linkage and Delaware flip mirror grant structures.</li>
+                    <li><strong><a href="/esop-restructuring-underwater-options">ESOP Restructuring and Underwater Options</a></strong> - down-round remediation through Repricing, Exchange Program, Top-Up Grants, Vesting Acceleration or Cashout/Buyback for schemes that have gone underwater post-down-round.</li>
+                    <li><strong><a href="/esop-valuation-services">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies for grant date, exercise events and modification events; IBBI Registered Valuer engagement.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense recognition over vesting period using Black-Scholes; Schedule III disclosure plus Rule 12(9) Directors Report disclosure pack; group SBP rules for cross-border mirror grants.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer covering MGT-14, PAS-3 and MGT-7 for active grant cycles plus annual Directors Report ESOP disclosure under Rule 12(9).</li>
+                    <li><strong><a href="/startup-registration">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC plus Section 192(2C) tax deferral pathway.</li>
                 </ul>
 
             </div>
@@ -1327,35 +1327,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron ESOP Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/esop-services/" class="pa-cross-card">
+                    <a href="/esop-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Services Master Hub</strong><span>End-to-end ESOP lifecycle</span></div>
                     </a>
-                    <a href="/esop-for-tech-startups/" class="pa-cross-card">
+                    <a href="/esop-for-tech-startups" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for Tech Startups</strong><span>SaaS / fintech / AI / B2B vertical design</span></div>
                     </a>
-                    <a href="/esop-for-saas-companies/" class="pa-cross-card">
+                    <a href="/esop-for-saas-companies" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for SaaS Companies</strong><span>B2B SaaS with ARR-linked vesting</span></div>
                     </a>
-                    <a href="/esop-restructuring-underwater-options/" class="pa-cross-card">
+                    <a href="/esop-restructuring-underwater-options" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Restructuring</strong><span>Down-round remediation + underwater</span></div>
                     </a>
-                    <a href="/esop-valuation-services/" class="pa-cross-card">
+                    <a href="/esop-valuation-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Valuation Services</strong><span>Rule 11UA DCF / NAV / CCA FMV</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting Ind AS 102</strong><span>Black-Scholes share-based payment expense</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>MGT-14, PAS-3, MGT-7 retainer</span></div>
                     </a>
-                    <a href="/startup-registration/" class="pa-cross-card">
+                    <a href="/startup-registration" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>DPIIT Startup Registration</strong><span>10-year founder ESOP exemption</span></div>
                     </a>

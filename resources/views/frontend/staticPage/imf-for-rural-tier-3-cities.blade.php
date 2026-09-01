@@ -2252,7 +2252,7 @@ function toggleTestiVideo(area){
                 
                                 <p>Tier 2-3 city engagement is one of several routes within Patron's IMF cluster. Related services support across the engagement lifecycle:</p>
                 <ul>
-                    <li>Parent service: <a href="/insurance-marketing-firm-registration">Insurance Marketing Firm Registration (Hub)</a> - master hub covering all IMF cluster services.</li>
+                    <li>Parent service: <a href="/irda-imf-business-registration">Insurance Marketing Firm Registration (Hub)</a> - master hub covering all IMF cluster services.</li>
                     <li><a href="/imf-incorporation-services">IMF Incorporation Services</a> - combined MCA plus IRDAI engagement detail.</li>
                     <li><a href="/imf-irdai-registration-process">IRDAI IMF Registration Process</a> - standalone IRDAI registration if entity already exists.</li>
                     <li><a href="/ismp-certification-isp-appointment">ISMP Certification and ISP Appointment</a> - Principal Officer training and ISP coordination.</li>
@@ -2432,7 +2432,7 @@ function toggleTestiVideo(area){
                 <div class="pa-block-title">Patron IMF Cluster Services</div>
                 <div class="pa-block-sub">End-to-end support across the IMF engagement lifecycle</div>
                 <div class="pa-cross-grid">
-                    <a href="/insurance-marketing-firm-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">IMF Registration Hub</div><div class="pa-card-sub">Parent service</div></div></a>
+                    <a href="/irda-imf-business-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><div><div class="pa-card-title">IMF Registration Hub</div><div class="pa-card-sub">Parent service</div></div></a>
                     <a href="/imf-incorporation-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><polyline points="20 6 9 17 4 12"/></svg></div><div><div class="pa-card-title">IMF Incorporation</div><div class="pa-card-sub">Combined setup</div></div></a>
                     <a href="/imf-irdai-registration-process" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="pa-card-title">IRDAI Registration</div><div class="pa-card-sub">Standalone process</div></div></a>
                     <a href="/ismp-certification-isp-appointment" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><circle cx="12" cy="7" r="4"/><path d="M5 22v-2a7 7 0 0114 0v2"/></svg></div><div><div class="pa-card-title">ISMP and ISP</div><div class="pa-card-sub">PO + ISP coordination</div></div></a>

@@ -668,7 +668,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>Complete your visa and financial documentation:</p><ul><li><a href="/net-worth-certificate">Net Worth Certificate</a> - Single currency INR format</li><li><a href="/net-worth-certificate-for-joint-owners-in-india">Net Worth for Joint Owners</a> - Joint property holders</li><li><a href="/income-tax-return">Income Tax Return</a> - ITR for net worth basis</li><li><a href="/turnover-certificate-for-tender">Turnover Certificate for Tender</a> - UDIN-backed tender certificates</li></ul>
+                <p>Complete your visa and financial documentation:</p><ul><li><a href="/net-worth-certificate">Net Worth Certificate</a> - Single currency INR format</li><li><a href="/net-worth-certificate-for-bank-loan">Net Worth for Joint Owners</a> - Joint property holders</li><li><a href="/income-tax-return">Income Tax Return</a> - ITR for net worth basis</li><li><a href="/turnover-certificate-for-tender">Turnover Certificate for Tender</a> - UDIN-backed tender certificates</li></ul>
 
             </div>
         </div>

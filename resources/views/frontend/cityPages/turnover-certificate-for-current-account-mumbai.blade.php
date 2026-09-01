@@ -449,7 +449,7 @@
                     
                     <p>A CA certificate for current account (turnover certificate for bank account opening) is a formal document certifying a business's existence, nature, and turnover to enable opening a current account without GST registration. Serves as alternative proof of business existence under RBI KYC norms.</p>
                     <p>Banks require at least one proof of business existence for current accounts. GST certificate is primary, but businesses below threshold (Rs 20L services / Rs 40L goods per CGST Act 2017) use CA certificate instead. Verified against ITR, bank statements, and registration documents. For <a href="/gst-registration/mumbai">GST Registration Mumbai</a>, see our page.</p>
-                    <p>For Mumbai sole proprietors &ndash; a Dadar shop owner with Shop Act licence and Rs 15L turnover, or a Powai freelancer earning Rs 12L &ndash; this certificate opens a current account at any bank without premature GST registration. For <a href="/sole-proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a>, see our page.</p>
+                    <p>For Mumbai sole proprietors &ndash; a Dadar shop owner with Shop Act licence and Rs 15L turnover, or a Powai freelancer earning Rs 12L &ndash; this certificate opens a current account at any bank without premature GST registration. For <a href="/proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a>, see our page.</p>
 
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
@@ -741,7 +741,7 @@
                     <li><a href="/net-worth-certificate/mumbai">Net Worth Certificate Mumbai</a></li>
                     <li><a href="/income-tax-return/mumbai">ITR Filing in Mumbai</a></li>
                     <li><a href="/gst-registration/mumbai">GST Registration Mumbai</a></li>
-                    <li><a href="/sole-proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a></li>
+                    <li><a href="/proprietorship-registration/mumbai">Proprietorship Registration Mumbai</a></li>
                     <li><a href="/udyam-registration">Udyam Registration</a></li>
                     <li><a href="/shop-act-registration">Shop Act Registration</a></li>
                     <li><a href="/fssai-registration">FSSAI Registration</a></li>

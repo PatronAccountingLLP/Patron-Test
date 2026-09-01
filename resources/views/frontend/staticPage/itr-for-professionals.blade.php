@@ -667,7 +667,7 @@
                         <tr><td><strong>Chartered Accountants and Company Secretaries</strong></td><td>Section 44ADA available under accountancy profession. CA practice income from audit, tax filings, and advisory under PGBP. ICAI membership fees, library and professional development costs allowable in ITR-3. Partnership firms structured as LLP CANNOT use 44ADA and must file ITR-5 with regular books.</td><td>ITR-4 / ITR-3</td></tr>
                         <tr><td><strong>Architects and Interior Designers</strong></td><td>Both specified under Section 44AA(1). Project fee receipts, design retainers and supervision fees come under PGBP. Site visits, model-making and CAD subscription expenses claimable in ITR-3. International project receipts require FIRC and SAC 9983 for architectural services under GST.</td><td>ITR-4 / ITR-3</td></tr>
                         <tr><td><strong>Technical Consultants and Engineers</strong></td><td>Specified profession under technical consultancy. Project consultancy, technical advisory and turnkey engineering services route through 44ADA up to receipt limits. Foreign clients common - GST LUT essential for service exports. <strong>Software developers without professional engineering degrees fall under Section 44AD business presumptive, NOT Section 44ADA.</strong></td><td>ITR-4 / ITR-3</td></tr>
-                        <tr><td><strong>Freelancers (Software Developers, Designers, Writers, Marketers)</strong></td><td>Non-specified freelancers fall under Section 44AD business presumptive (6 percent digital, 8 percent cash) rather than 44ADA. IT Department notices have questioned 44AD use where TDS is deducted under Section 194J. Patron position: use 44AD for true non-specified freelancing; consult before claiming 44ADA outside the 9 listed professions. Foreign income requires FIRC with RBI purpose code P0802 (software exports).</td><td><a href="/itr-filing-for-freelancers-professionals/" style="color:var(--orange);font-weight:600;">Freelancer ITR &rarr;</a></td></tr>
+                        <tr><td><strong>Freelancers (Software Developers, Designers, Writers, Marketers)</strong></td><td>Non-specified freelancers fall under Section 44AD business presumptive (6 percent digital, 8 percent cash) rather than 44ADA. IT Department notices have questioned 44AD use where TDS is deducted under Section 194J. Patron position: use 44AD for true non-specified freelancing; consult before claiming 44ADA outside the 9 listed professions. Foreign income requires FIRC with RBI purpose code P0802 (software exports).</td><td><a href="/itr-for-professionals" style="color:var(--orange);font-weight:600;">Freelancer ITR &rarr;</a></td></tr>
                         <tr><td><strong>Authorised Representatives and Film Artists</strong></td><td>Both specified professions under Section 44AA(1). Authorised representatives (Section 288 representatives appearing before income tax authorities) and film artists (actors, directors, music directors, art directors, cameramen, dance directors, dress designers, editors, lyricists, story writers, screen-play writers, dialogue writers, audio production technicians) route through 44ADA at 50 percent or ITR-3 with books.</td><td>ITR-4 / ITR-3</td></tr>
 
 
@@ -1068,14 +1068,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/itr-filing-for-freelancers-professionals/">ITR Filing for Freelancers and Professionals</a></strong> - sibling service for non-specified freelancer scenarios (software developers, content writers, designers, marketers) using Section 44AD business presumptive route.</li>
-                    <li><strong><a href="/itr-for-salaries/">ITR Filing for Salaried Individuals</a></strong> - reference page for the salary component when combined with professional income in ITR-3 (Schedule S plus Schedule BP).</li>
-                    <li><strong><a href="/itr-for-business/">ITR Filing for Business</a></strong> - for non-professional businesses including trading, manufacturing and service businesses outside Section 44AA(1) specified professions.</li>
-                    <li><strong><a href="/tax-audit/">Tax Audit under Section 44AB</a></strong> - mandatory for professionals with gross receipts above Rs 75 lakh. Form 3CB-3CD preparation due 30 September - one month before ITR-3.</li>
-                    <li><strong><a href="/tax-planning-services/">Tax Planning Services</a></strong> - regime choice (old vs new Section 115BAC), 80C investment structuring, advance tax planning for professionals before year-end.</li>
-                    <li><strong><a href="/tds-return/">TDS Return Filing</a></strong> - Form 24Q and 26Q quarterly filing for professionals paying salaries or fees subject to TDS (clinic owners, law firms, CA firms).</li>
-                    <li><strong><a href="/income-tax-notice/">Income Tax Notice Response</a></strong> - representation for Section 139(9), 143(1), 142(1), 143(3) and 148 notices.</li>
-                    <li><strong><a href="/income-tax-return/">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
+                    <li><strong><a href="/itr-for-professionals">ITR Filing for Freelancers and Professionals</a></strong> - sibling service for non-specified freelancer scenarios (software developers, content writers, designers, marketers) using Section 44AD business presumptive route.</li>
+                    <li><strong><a href="/itr-for-salary">ITR Filing for Salaried Individuals</a></strong> - reference page for the salary component when combined with professional income in ITR-3 (Schedule S plus Schedule BP).</li>
+                    <li><strong><a href="/itr-for-business">ITR Filing for Business</a></strong> - for non-professional businesses including trading, manufacturing and service businesses outside Section 44AA(1) specified professions.</li>
+                    <li><strong><a href="/tax-audit">Tax Audit under Section 44AB</a></strong> - mandatory for professionals with gross receipts above Rs 75 lakh. Form 3CB-3CD preparation due 30 September - one month before ITR-3.</li>
+                    <li><strong><a href="/tax-planning-services">Tax Planning Services</a></strong> - regime choice (old vs new Section 115BAC), 80C investment structuring, advance tax planning for professionals before year-end.</li>
+                    <li><strong><a href="/tds-return">TDS Return Filing</a></strong> - Form 24Q and 26Q quarterly filing for professionals paying salaries or fees subject to TDS (clinic owners, law firms, CA firms).</li>
+                    <li><strong><a href="/income-tax-notice">Income Tax Notice Response</a></strong> - representation for Section 139(9), 143(1), 142(1), 143(3) and 148 notices.</li>
+                    <li><strong><a href="/income-tax-return">Income Tax Return Filing Master Hub</a></strong> - hub-and-spoke routing across all 7 ITR forms and 14 sub-services.</li>
                 </ul>
 
             </div>
@@ -1245,35 +1245,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/income-tax-return/" class="pa-cross-card">
+                    <a href="/income-tax-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR Filing Master Hub</strong><span>All 7 ITR forms; 14 sub-services</span></div>
                     </a>
-                    <a href="/itr-filing-for-freelancers-professionals/" class="pa-cross-card">
+                    <a href="/itr-for-professionals" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Freelancers</strong><span>Software devs, designers via Section 44AD</span></div>
                     </a>
-                    <a href="/itr-for-salaries/" class="pa-cross-card">
+                    <a href="/itr-for-salary" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Salaries</strong><span>Salary component in mixed ITR-3</span></div>
                     </a>
-                    <a href="/itr-for-business/" class="pa-cross-card">
+                    <a href="/itr-for-business" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ITR for Business</strong><span>Non-professional businesses ITR-3/ITR-4</span></div>
                     </a>
-                    <a href="/tax-audit/" class="pa-cross-card">
+                    <a href="/tax-audit" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Audit Section 44AB</strong><span>Rs 75 lakh threshold; Form 3CB-3CD</span></div>
                     </a>
-                    <a href="/tax-planning-services/" class="pa-cross-card">
+                    <a href="/tax-planning-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Tax Planning Services</strong><span>Regime choice, 80C, advance tax</span></div>
                     </a>
-                    <a href="/tds-return/" class="pa-cross-card">
+                    <a href="/tds-return" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>TDS Return Filing</strong><span>Form 24Q, 26Q quarterly for firms</span></div>
                     </a>
-                    <a href="/income-tax-notice/" class="pa-cross-card">
+                    <a href="/income-tax-notice" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>Income Tax Notice Response</strong><span>139(9), 143(1), 142(1), 148</span></div>
                     </a>

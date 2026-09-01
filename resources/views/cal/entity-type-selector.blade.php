@@ -865,7 +865,7 @@ a:focus-visible {
         <section class="content-section" id="choose">
             <h2>Quick Guide — Who Picks What</h2>
             <ul>
-                <li><strong>Private Limited</strong> — startups raising VC/angel money, issuing ESOPs, or chasing scale and credibility. The investor default. <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india">Register a Pvt Ltd</a>.</li>
+                <li><strong>Private Limited</strong> — startups raising VC/angel money, issuing ESOPs, or chasing scale and credibility. The investor default. <a href="https://www.patronaccounting.com/private-limited-company-registration">Register a Pvt Ltd</a>.</li>
                 <li><strong>LLP</strong> — multi-founder professional/service firms (consultants, CAs, architects, agencies) wanting limited liability with light compliance. <a href="https://www.patronaccounting.com/llp-incorporation">Register an LLP</a>.</li>
                 <li><strong>OPC</strong> — solo founders wanting a real company with limited liability and credibility, no co-founder needed. <a href="https://www.patronaccounting.com/one-person-company-registration">Register an OPC</a>.</li>
                 <li><strong>Partnership</strong> — two or more partners running a simple, self-funded business who accept unlimited liability. <a href="https://www.patronaccounting.com/partnership-firm-registration">Register a Partnership</a>.</li>
@@ -962,7 +962,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Registration Pages</h3>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Private Limited <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/one-person-company-registration" class="sidebar-link">One Person Company <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/partnership-firm-registration" class="sidebar-link">Partnership Firm <span class="arrow">→</span></a>

@@ -1387,19 +1387,19 @@
                 <div class="pa-block-title">City-Wise Regime-Recommendation Service</div>
                 <div class="pa-block-sub">Local CA-CS team for in-person memo handover plus 80-IAC IMB application support</div>
                 <div class="pa-city-grid">
-                    <a href="/annual-compliance-small-vs-startup-vs-opc/pune" class="pa-city-card">
+                    <a href="/annual-compliance-small-vs-startup-vs-opc" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Compliance Comparison in Pune</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/annual-compliance-small-vs-startup-vs-opc/mumbai" class="pa-city-card">
+                    <a href="/annual-compliance-small-vs-startup-vs-opc" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Compliance Comparison in Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/annual-compliance-small-vs-startup-vs-opc/delhi" class="pa-city-card">
+                    <a href="/annual-compliance-small-vs-startup-vs-opc" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Compliance Comparison in Delhi</div><div class="pa-card-sub">NCT Delhi</div></div>
                     </a>
-                    <a href="/annual-compliance-small-vs-startup-vs-opc/gurugram" class="pa-city-card">
+                    <a href="/annual-compliance-small-vs-startup-vs-opc" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Compliance Comparison in Gurugram</div><div class="pa-card-sub">Haryana</div></div>
                     </a>

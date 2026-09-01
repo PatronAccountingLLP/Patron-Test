@@ -1060,7 +1060,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1819,7 +1819,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>Explore our certification and tax services:</p><ul><li><a href="https://www.patronaccounting.com/net-worth-certificate">Net Worth Certificate</a> - often paired with income proof for visas.</li><li><a href="https://www.patronaccounting.com/turnover-certificate">Turnover Certificate</a> - CA-certified turnover statement.</li><li><a href="https://www.patronaccounting.com/itr-for-professionals">ITR Filing for Professionals</a> - returns for freelancers and professionals.</li><li><a href="https://www.patronaccounting.com/itr-for-doctors">ITR for Doctors</a> - tailored filing for medical practitioners.</li><li><a href="https://www.patronaccounting.com/net-worth-certificate-for-companies">Net Worth Certificate for Companies</a> - corporate net worth needs.</li><li><a href="https://www.patronaccounting.com/private-limited-company-compliance">Private Limited Company Compliance</a> - ongoing ROC and statutory compliance.</li></ul>
+                <p>Explore our certification and tax services:</p><ul><li><a href="https://www.patronaccounting.com/net-worth-certificate">Net Worth Certificate</a> - often paired with income proof for visas.</li><li><a href="https://www.patronaccounting.com/turnover-certificate">Turnover Certificate</a> - CA-certified turnover statement.</li><li><a href="https://www.patronaccounting.com/itr-for-professionals">ITR Filing for Professionals</a> - returns for freelancers and professionals.</li><li><a href="https://www.patronaccounting.com/itr-for-doctors">ITR for Doctors</a> - tailored filing for medical practitioners.</li><li><a href="https://www.patronaccounting.com/net-worth-certificate-for-company">Net Worth Certificate for Companies</a> - corporate net worth needs.</li><li><a href="https://www.patronaccounting.com/private-limited-company-compliance">Private Limited Company Compliance</a> - ongoing ROC and statutory compliance.</li></ul>
 
             </div>
         </div>
@@ -1957,7 +1957,7 @@
                         <a href="https://www.patronaccounting.com/turnover-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Turnover Certificate</div><div class="pa-card-sub">India</div></div></a>
                         <a href="https://www.patronaccounting.com/itr-for-professionals" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR Filing for Professionals</div><div class="pa-card-sub">India</div></div></a>
                         <a href="https://www.patronaccounting.com/itr-for-doctors" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Doctors</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="https://www.patronaccounting.com/net-worth-certificate-for-companies" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Companies</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="https://www.patronaccounting.com/net-worth-certificate-for-company" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Companies</div><div class="pa-card-sub">India</div></div></a>
                         <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Private Limited Company Compliance</div><div class="pa-card-sub">India</div></div></a>
                     </div>
                 </div>

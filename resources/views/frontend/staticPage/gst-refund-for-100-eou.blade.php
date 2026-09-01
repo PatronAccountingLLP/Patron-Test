@@ -608,7 +608,7 @@
                     <li>EOUs with permitted DTA sales above 25 percent of FOB exports facing inverted duty accumulation</li>
                     <li>New EOUs in first year of operation needing LUT setup plus initial 5-year NFE block planning</li>
                 </ul>
-                <p style="margin-top:16px;"><strong>Threshold and pre-condition:</strong> GSTIN registration of the EOU is mandatory under Section 22 CGST Act, even though duty-free imports continue under Notification 78/2017-Customs dated 13 October 2017. If you have not yet registered, complete <a href="/gst-registration/">GST registration</a> before filing the first LUT or refund. The EOU must achieve positive NFE cumulatively over 5 years from the date of commencement of production as per FTP Chapter 6 paragraph 6.04, failing which penal action under the Foreign Trade (Development and Regulation) Act 1992 follows.</p>
+                <p style="margin-top:16px;"><strong>Threshold and pre-condition:</strong> GSTIN registration of the EOU is mandatory under Section 22 CGST Act, even though duty-free imports continue under Notification 78/2017-Customs dated 13 October 2017. If you have not yet registered, complete <a href="/gst-registration">GST registration</a> before filing the first LUT or refund. The EOU must achieve positive NFE cumulatively over 5 years from the date of commencement of production as per FTP Chapter 6 paragraph 6.04, failing which penal action under the Foreign Trade (Development and Regulation) Act 1992 follows.</p>
 
             </div>
             </div>
@@ -1039,12 +1039,12 @@
                 
                 <p>EOU compliance rarely sits in isolation. Most EOUs need adjacent GST and FTP work running in parallel:</p>
                 <ul>
-                    <li><a href="/gst-refund/">GST Refund</a> - parent practice covering all Section 54 refund categories beyond EOU such as inverted duty for non-EOU manufacturers, excess balance, and Section 49(6) electronic cash ledger refunds</li>
-                    <li><a href="/gst-annual-returns/">GST Annual Returns</a> - GSTR-9 and GSTR-9C reconciliation that must precede any EOU refund audit and APR submission</li>
-                    <li><a href="/gst-audit/">GST Audit</a> - for EOUs above the prescribed turnover threshold, departmental GSTR-9C reconciliation, and pre-audit documentation</li>
-                    <li><a href="/gst-registration/">GST Registration</a> - mandatory under Section 22 CGST Act for new EOUs before first LUT or refund filing; covers multi-state GSTIN where applicable</li>
-                    <li><a href="/gstat-appeal-exporters/">GSTAT Appeal - Exporters</a> - escalation route when an EOU refund order is rejected and the Appellate Authority order under Section 107 is also adverse</li>
-                    <li><a href="/gst-returns/">GST Returns</a> - monthly GSTR-1 Table 6A and Table 6C plus GSTR-3B Table 3.1(b) filing, the upstream control for EOU refund success</li>
+                    <li><a href="/gst-refund">GST Refund</a> - parent practice covering all Section 54 refund categories beyond EOU such as inverted duty for non-EOU manufacturers, excess balance, and Section 49(6) electronic cash ledger refunds</li>
+                    <li><a href="/gst-annual-returns">GST Annual Returns</a> - GSTR-9 and GSTR-9C reconciliation that must precede any EOU refund audit and APR submission</li>
+                    <li><a href="/gst-audit">GST Audit</a> - for EOUs above the prescribed turnover threshold, departmental GSTR-9C reconciliation, and pre-audit documentation</li>
+                    <li><a href="/gst-registration">GST Registration</a> - mandatory under Section 22 CGST Act for new EOUs before first LUT or refund filing; covers multi-state GSTIN where applicable</li>
+                    <li><a href="/gstat-appeal-exporters">GSTAT Appeal - Exporters</a> - escalation route when an EOU refund order is rejected and the Appellate Authority order under Section 107 is also adverse</li>
+                    <li><a href="/gst-returns">GST Returns</a> - monthly GSTR-1 Table 6A and Table 6C plus GSTR-3B Table 3.1(b) filing, the upstream control for EOU refund success</li>
                 </ul>
 
             </div>
@@ -1225,12 +1225,12 @@
                     <div class="pa-block-title">Related Services</div>
                     <div class="pa-block-sub">End-to-end support for GST Refund for 100% EOU</div>
                     <div class="pa-cross-grid">
-                        <a href="/gst-refund/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Refund</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gstat-appeal-exporters/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gstat-appeal-filing/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal Filing</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-annual-returns/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-audit/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-registration/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-refund" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Refund</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gstat-appeal-exporters" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gstat-appeal-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal Filing</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-annual-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
                     </div>
                 </div>
         </div>

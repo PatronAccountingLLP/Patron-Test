@@ -1721,7 +1721,7 @@
                 <p class="tile-cp-blurb">OPC-to-private conversion — mandatory above the capital or turnover thresholds, or voluntary after two years.</p>
                 <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/conversion-llp-to-private-limited" class="tile-cp">
+            <a href="https://www.patronaccounting.com/convert-llp-to-private-limited-company" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>11.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">LLP to Pvt Ltd Conversion <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Section 366 conversion via URC-1 — the growth-stage step before raising external equity or VC funding.</p>

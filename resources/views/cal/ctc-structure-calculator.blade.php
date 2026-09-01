@@ -768,7 +768,7 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
             <a href="https://www.patronaccounting.com/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/hr-advisory" class="sidebar-link">HR Advisory<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/eor-services" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/eor-india" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
@@ -784,7 +784,7 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/code-on-wages-2019" class="sidebar-link">Code on Wages 2019 Guide<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/new-labour-codes-2025" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/4-labour-codes-2025-employer-guide-india" class="sidebar-link">New Labour Codes 2025<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/payroll-restructuring-india" class="sidebar-link">Payroll Restructuring Guide<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/epfo-compliance" class="sidebar-link">EPFO Compliance<span class="arrow">→</span></a>
         </div>

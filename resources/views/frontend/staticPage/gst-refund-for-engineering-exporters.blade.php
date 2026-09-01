@@ -609,7 +609,7 @@
                     <li><strong>Pune and Aurangabad, Maharashtra</strong> - auto components, valves, sub-assemblies; large Tier-1 supplier base</li>
                     <li><strong>Other clusters</strong> - Belgaum and Kolhapur (foundry castings), Hosur and Bengaluru (machine tools, gears), Jamnagar (brass parts), Howrah (engineering goods)</li>
                 </ul>
-                <p style="margin-top:16px;"><strong>Threshold and pre-condition:</strong> GSTIN registration is mandatory once aggregate turnover crosses Rs 40 lakh for goods under Section 22 CGST Act. If the engineering exporter is not registered, complete <a href="/gst-registration/">GST registration</a> before the first export. IEC code is mandatory; AD code registration with ICEGATE is a one-time pre-condition for IGST refund disbursal via PFMS. Membership of Engineering Export Promotion Council of India (EEPC India) is needed for sectoral incentives and RoDTEP scrip operations.</p>
+                <p style="margin-top:16px;"><strong>Threshold and pre-condition:</strong> GSTIN registration is mandatory once aggregate turnover crosses Rs 40 lakh for goods under Section 22 CGST Act. If the engineering exporter is not registered, complete <a href="/gst-registration">GST registration</a> before the first export. IEC code is mandatory; AD code registration with ICEGATE is a one-time pre-condition for IGST refund disbursal via PFMS. Membership of Engineering Export Promotion Council of India (EEPC India) is needed for sectoral incentives and RoDTEP scrip operations.</p>
 
             </div>
             </div>
@@ -1066,12 +1066,12 @@
                 
                 <p>Engineering export refund work rarely sits in isolation. Most exporters need adjacent compliance running in parallel:</p>
                 <ul>
-                    <li><a href="/gst-refund/">GST Refund</a> - parent practice covering all Section 54 refund categories beyond engineering exports such as excess balance, tax paid in error, or appeal-related refunds</li>
-                    <li><a href="/gst-returns/">GST Returns</a> - monthly GSTR-1 (Tables 6A for exports and 6C for deemed exports) and GSTR-3B Table 3.1(b) that anchor every refund claim</li>
-                    <li><a href="/gst-annual-returns/">GST Annual Returns</a> - GSTR-9 and GSTR-9C reconciliation that ties together all refund cycles in a financial year</li>
-                    <li><a href="/gst-audit/">GST Audit</a> - for engineering exporters above the prescribed turnover threshold; departmental GSTR-9C reconciliation; pre-audit documentation</li>
-                    <li><a href="/gst-registration/">GST Registration</a> - mandatory under Section 22 CGST Act once aggregate turnover crosses Rs 40 lakh for goods</li>
-                    <li><a href="/gstat-appeal-exporters/">GSTAT Appeal - Exporters</a> - escalation route when an IDS computation, deemed-export refund order, or capital goods classification is rejected</li>
+                    <li><a href="/gst-refund">GST Refund</a> - parent practice covering all Section 54 refund categories beyond engineering exports such as excess balance, tax paid in error, or appeal-related refunds</li>
+                    <li><a href="/gst-returns">GST Returns</a> - monthly GSTR-1 (Tables 6A for exports and 6C for deemed exports) and GSTR-3B Table 3.1(b) that anchor every refund claim</li>
+                    <li><a href="/gst-annual-returns">GST Annual Returns</a> - GSTR-9 and GSTR-9C reconciliation that ties together all refund cycles in a financial year</li>
+                    <li><a href="/gst-audit">GST Audit</a> - for engineering exporters above the prescribed turnover threshold; departmental GSTR-9C reconciliation; pre-audit documentation</li>
+                    <li><a href="/gst-registration">GST Registration</a> - mandatory under Section 22 CGST Act once aggregate turnover crosses Rs 40 lakh for goods</li>
+                    <li><a href="/gstat-appeal-exporters">GSTAT Appeal - Exporters</a> - escalation route when an IDS computation, deemed-export refund order, or capital goods classification is rejected</li>
                 </ul>
 
             </div>
@@ -1251,12 +1251,12 @@
                     <div class="pa-block-title">Related Services</div>
                     <div class="pa-block-sub">End-to-end support for GST Refund for Engineering Exporters</div>
                     <div class="pa-cross-grid">
-                        <a href="/gst-refund/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Refund</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gstat-appeal-exporters/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gstat-appeal-filing/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal Filing</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-registration/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-returns/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a>
-                        <a href="/gst-annual-returns/" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-refund" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Refund</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gstat-appeal-exporters" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal - Exporters</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gstat-appeal-filing" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GSTAT Appeal Filing</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Registration</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Returns</div><div class="pa-card-sub">India</div></div></a>
+                        <a href="/gst-annual-returns" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Annual Returns</div><div class="pa-card-sub">India</div></div></a>
                     </div>
                 </div>
         </div>

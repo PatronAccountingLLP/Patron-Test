@@ -839,7 +839,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What Section 192(1C) Does</h2>
             <p>Normally, when an employee exercises ESOPs the perquisite — FMV at exercise minus the exercise price — is taxed as salary, and the employer must deduct TDS under Section 192 right away. For a cash-strapped employee holding illiquid startup shares, that's a real burden.</p>
-            <p><strong>Section 192(1C)</strong>, added by the Finance Act 2020, lets <strong>eligible startups</strong> defer that TDS: the employer doesn't deduct at exercise, and tax is instead paid later, at the earliest of three trigger events. But the benefit is narrow — it's available only to employees of a startup that is an <strong>eligible startup under Section 80-IAC</strong>, which is a much smaller club than DPIIT-recognised startups. Patron's <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">ESOP deferral guide</a> and <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">80-IAC deferment</a> blog explain the mechanics.</p>
+            <p><strong>Section 192(1C)</strong>, added by the Finance Act 2020, lets <strong>eligible startups</strong> defer that TDS: the employer doesn't deduct at exercise, and tax is instead paid later, at the earliest of three trigger events. But the benefit is narrow — it's available only to employees of a startup that is an <strong>eligible startup under Section 80-IAC</strong>, which is a much smaller club than DPIIT-recognised startups. Patron's <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">ESOP deferral guide</a> and <a href="https://www.patronaccounting.com/blog/section-80-iac-startup-tax-holiday">80-IAC deferment</a> blog explain the mechanics.</p>
         </section>
 
         <section class="content-section" id="conditions">
@@ -991,7 +991,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">80-IAC ESOP Deferral <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup" class="sidebar-link">80-IAC Deferment <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/section-80-iac-startup-tax-holiday" class="sidebar-link">80-IAC Deferment <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

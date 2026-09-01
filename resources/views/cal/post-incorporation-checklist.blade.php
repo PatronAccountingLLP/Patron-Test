@@ -828,7 +828,7 @@ a:focus-visible {
                     <tr><td>DIR-3 KYC (each director)</td><td>By 30 September annually</td></tr>
                 </tbody>
             </table>
-            <p>See Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company">post-incorporation compliance guide</a> and the dedicated <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate">INC-20A filing</a> walkthrough.</p>
+            <p>See Patron's <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-private-limited-company">post-incorporation compliance guide</a> and the dedicated <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate">INC-20A filing</a> walkthrough.</p>
         </section>
 
         <div class="body-cta">
@@ -970,7 +970,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-for-private-limited-company" class="sidebar-link">Post-Incorporation Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/post-incorporation-compliance-private-limited-company" class="sidebar-link">Post-Incorporation Compliance <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/inc-20a-filing-how-to-get-your-commencement-of-business-certificate" class="sidebar-link">INC-20A Filing Guide <span class="arrow">→</span></a>
         </div>
     </aside>

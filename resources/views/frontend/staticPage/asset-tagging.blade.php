@@ -1845,7 +1845,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: 20 August 2026</span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -2330,7 +2330,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
                 <aside class="faq-expanded__aside">
                     <h2 class="faq-expanded__title">Asset Tagging: Common Questions</h2>
                     <p class="faq-expanded__lead">Answers written against the position in force on the review date below.</p>
-                    <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact">Still have a question? Talk to a CA &rarr;</a>
+                    <a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     @endverbatim
                     @include('partials.bigin-form', [
                         'variant'  => 'compact',

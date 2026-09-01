@@ -663,7 +663,7 @@
             <div class="content-text">
                 
                 <p>Pune taxpayers responding to 142(1) notices often need:</p>
-<ul style="list-style:disc;padding-left:20px;"><li style="margin-bottom:12px;padding:8px 0;"><a href="/income-tax-notices-under-section-142-1" style="font-weight:600;">IT Notice Section 142(1) across India</a> - National notice response services</li><li style="margin-bottom:12px;padding:8px 0;"><a href="/tds-returns/pune">TDS Returns in Pune</a> - Quarterly TDS compliance</li><li style="margin-bottom:12px;padding:8px 0;"><a href="/accounting-services">Accounting Services</a> - Year-round bookkeeping and compliance</li></ul>
+<ul style="list-style:disc;padding-left:20px;"><li style="margin-bottom:12px;padding:8px 0;"><a href="/income-tax-notices-under-section-142-1" style="font-weight:600;">IT Notice Section 142(1) across India</a> - National notice response services</li><li style="margin-bottom:12px;padding:8px 0;"><a href="/tds-return/pune">TDS Returns in Pune</a> - Quarterly TDS compliance</li><li style="margin-bottom:12px;padding:8px 0;"><a href="/accounting-services">Accounting Services</a> - Year-round bookkeeping and compliance</li></ul>
 
             </div>
         </div>

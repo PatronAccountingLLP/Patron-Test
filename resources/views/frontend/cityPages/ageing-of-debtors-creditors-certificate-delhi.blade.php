@@ -1088,7 +1088,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1919,7 +1919,7 @@
                     <li><a href="https://www.patronaccounting.com/statutory-audit">Statutory Audit</a> - audited financials behind the ledgers.</li>
                     <li><a href="https://www.patronaccounting.com/accounting-services">Accounting Services</a> - keeps ledgers clean for accurate ageing.</li>
                     <li><a href="https://www.patronaccounting.com/internal-audit">Internal Audit</a> - controls over receivables, collections, and provisioning.</li>
-                    <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan">Net Worth Certificate for Business Loan</a> - companion certificate for credit appraisal.</li>
+                    <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan">Net Worth Certificate for Business Loan</a> - companion certificate for credit appraisal.</li>
                     <li><a href="https://www.patronaccounting.com/turnover-certificate">Turnover Certificate</a> - CA-certified turnover for lenders and tenders.</li>
                 </ul>
 
@@ -2071,7 +2071,7 @@
                     <a href="https://www.patronaccounting.com/statutory-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Statutory Audit</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/accounting-services" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Accounting Services</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/internal-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Internal Audit</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth for Business Loan</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth for Business Loan</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/turnover-certificate" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Turnover Certificate</div><div class="pa-card-sub">India</div></div></a>
                 </div>
             </div>

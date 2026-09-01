@@ -927,7 +927,7 @@
                 <div class="content-text what-is-definition">
                     <p>Think of a finance SOP as the operating manual for one accounting task: it spells out the trigger, the steps, the person who records it, and the person who signs it off. The drafting stage produces the manual; the implementation stage wires it into user roles and your daily routine so it is followed rather than filed.</p>
                     <p>A Powai SaaS company gets a billing-to-collection SOP, a freelancer and vendor payout matrix, and a subscription-revenue recognition note. A Bhiwandi logistics operator gets goods-inward matching, warehouse stock controls, and a strict release rule before any supplier transfer leaves the bank. The documents fit the business, not a template.</p>
-                    <p>Each SOP we write keeps the same skeleton, purpose, scope, roles, the procedure itself, controls and sign-offs, and the records to retain, so the set reads as one system. We also configure the software; see <a href="/tally-accounting/mumbai">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
+                    <p>Each SOP we write keeps the same skeleton, purpose, scope, roles, the procedure itself, controls and sign-offs, and the records to retain, so the set reads as one system. We also configure the software; see <a href="/tally-accounting">Tally Accounting in Mumbai</a> and <a href="/zoho-books-accounting/mumbai">Zoho Books Accounting in Mumbai</a>.</p>
                 </div>
                 <div class="highlight-box" style="margin-top:20px;">
                     <p><strong>Key Terms for Finance SOPs in Mumbai:</strong></p>
@@ -1236,7 +1236,7 @@
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
                     <div><div class="pa-card-title">Payroll Services</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>
-                <a href="/tally-accounting/mumbai" class="pa-cross-card">
+                <a href="/tally-accounting" class="pa-cross-card">
                     <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/></svg></div>
                     <div><div class="pa-card-title">Tally Accounting</div><div class="pa-card-sub">Mumbai</div></div>
                 </a>

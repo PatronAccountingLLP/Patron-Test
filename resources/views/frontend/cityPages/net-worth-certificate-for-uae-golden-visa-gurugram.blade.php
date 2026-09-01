@@ -1088,7 +1088,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated"></span></span>
                         </span>
-                        <a href="https://www.patronaccounting.com/about-us/" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="https://www.patronaccounting.com/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -1891,7 +1891,7 @@
                 
                 <ul>
                     <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-visa">Net Worth Certificate for Visa</a> - the general visa certificate for all countries.</li>
-                    <li><a href="https://www.patronaccounting.com/double-currency-networth-format">Double Currency Networth Format</a> - the INR plus foreign-currency format.</li>
+                    <li><a href="https://www.patronaccounting.com/net-worth-certificate-for-visa">Double Currency Networth Format</a> - the INR plus foreign-currency format.</li>
                     <li><a href="https://www.patronaccounting.com/itr-for-capital-gains">ITR for Capital Gains</a> - where asset sales fund the investment.</li>
                     <li><a href="https://www.patronaccounting.com/itr-for-property-sale">ITR for Property Sale</a> - for property-sale proceeds in the remittance file.</li>
                     <li><a href="https://www.patronaccounting.com/company-registration-in-uae">Company Registration in UAE</a> - for the business investment route.</li>
@@ -2043,7 +2043,7 @@
                 <div class="pa-block-sub">End-to-end support for the UAE Golden Visa source-of-funds file</div>
                 <div class="pa-cross-grid">
                     <a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Net Worth Certificate for Visa</div><div class="pa-card-sub">India</div></div></a>
-                    <a href="https://www.patronaccounting.com/double-currency-networth-format" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Double Currency Networth</div><div class="pa-card-sub">India</div></div></a>
+                    <a href="https://www.patronaccounting.com/net-worth-certificate-for-visa" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Double Currency Networth</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Capital Gains</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/itr-for-property-sale" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">ITR for Property Sale</div><div class="pa-card-sub">India</div></div></a>
                     <a href="https://www.patronaccounting.com/company-registration-in-uae" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Company Registration in UAE</div><div class="pa-card-sub">India</div></div></a>

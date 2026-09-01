@@ -1005,9 +1005,9 @@
   <li><a href="/private-limited-company-registration">Private Limited Company Registration</a> - Indian subsidiary incorporation under Companies Act 2013 via MCA SPICe+ when scaling past 25-30 employees.</li>
   <li><a href="/llp-incorporation">LLP Incorporation</a> - Limited Liability Partnership formation for Singapore parents preferring LLP structure.</li>
   <li><a href="/tds-return-filing-24q">TDS Return Filing 24Q</a> - Form 24Q quarterly TDS returns and Form 16 issuance under Section 192 IT Act.</li>
-  <li><a href="/payroll-services-it-software-companies">Payroll Services for IT and Software Industry</a> - Specialised payroll for tech-sector compensation structures.</li>
+  <li><a href="/payroll-services-for-it-software">Payroll Services for IT and Software Industry</a> - Specialised payroll for tech-sector compensation structures.</li>
   <li><a href="/itr-for-companies">ITR for Companies</a> - Annual income-tax return filing for Indian subsidiaries.</li>
-  <li><a href="/tax-audit-under-section-44ab">Tax Audit under Section 44AB</a> - Statutory tax audit for Indian entities crossing turnover thresholds.</li>
+  <li><a href="/tax-audit">Tax Audit under Section 44AB</a> - Statutory tax audit for Indian entities crossing turnover thresholds.</li>
 </ul>
 
             </div>

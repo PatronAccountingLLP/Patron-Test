@@ -956,7 +956,7 @@
                 <p class="tile-cp-blurb">The canonical ITR money page - capturing broad income-tax-return intent. Parents every filer, profession and industry variant below.</p>
                 <div class="tile-cp-foot"><span>From INR 999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/itr-filing-for-salary" class="tile-cp">
+            <a href="/itr-for-salary" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR Filing for Salaried Individuals</h3>
                 <p class="tile-cp-blurb">ITR-1 / ITR-2 for salaried taxpayers - Form 16 reconciliation, HRA, 80C-80U deductions, multiple-employer cases. The master salaried entry tier.</p>
@@ -1042,7 +1042,7 @@
                 <p class="tile-cp-blurb">Equity, mutual-fund, property and other capital-gains computation - LTCG/STCG, indexation and Section 54/54F advisory.</p>
                 <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/itr-for-fno-traders" class="tile-cp">
+            <a href="/itr-for-fno-trader" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">ITR for F&O Traders <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Futures-and-options returns - speculative vs non-speculative split, turnover computation and tax-audit applicability screening.</p>
@@ -1283,7 +1283,7 @@
                 <p class="tile-cp-blurb">Tax audit for businesses and professionals crossing the turnover or presumptive thresholds.</p>
                 <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/tds-return-filing" class="tile-cp">
+            <a href="/tds-return-filing-24q" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>06.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">TDS Return Filing</h3>
                 <p class="tile-cp-blurb">Quarterly 24Q/26Q/27Q filing - feeds the TDS credits that reconcile against your ITR.</p>

@@ -1154,7 +1154,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/itr-for-capital-gains" class="sidebar-link">ITR for Capital Gains <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/itr-for-property-sale" class="sidebar-link">ITR for Property Sale <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/itr-for-fno-traders" class="sidebar-link">ITR for F&O Traders <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-fno-trader" class="sidebar-link">ITR for F&O Traders <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/itr-for-crypto-traders" class="sidebar-link">ITR for Crypto Traders <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">→</span></a>
@@ -1172,7 +1172,7 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/capital-gains-rules-2026-fmv-holding-period" class="sidebar-link">Capital Gains Rules 2026 — FMV & Holding <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/capital-gains-rules-2026-holding-period-fmv-calculation-new-provisions" class="sidebar-link">Capital Gains Rules 2026 — FMV & Holding <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/capital-gains-exemption-section-54-54ec-54f" class="sidebar-link">Section 54 / 54F / 54EC Exemption Guide <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/cost-inflation-index-2026-cii-table" class="sidebar-link">CII Table 2026 — Cost Inflation Index <span class="arrow">→</span></a>
         </div>

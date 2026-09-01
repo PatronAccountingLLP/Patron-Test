@@ -1052,8 +1052,8 @@
                 <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax Services <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/pf-calculator" class="sidebar-link">PF Compliance <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">PF Compliance <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">
                 <h3>Related Tools</h3>

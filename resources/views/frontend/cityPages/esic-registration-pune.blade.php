@@ -244,7 +244,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -926,7 +926,7 @@
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free ESIC Registration in Pune consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free ESIC Registration in Pune consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -1128,7 +1128,7 @@
                     </div>
                     <div class="faq-expanded__item" id="faq-4">
                         <h3 class="faq-expanded__q">How long does ESIC registration take in Pune?</h3>
-                        <div class="faq-expanded__a"><p>ESIC registration through the ESIC portal (esic.in) typically completes within 2-3 working days for Pune businesses. The employer code and portal credentials are issued immediately upon successful Form 1 submission. Employee TIC cards are generated digitally within 24-48 hours of enrollment. For Chakan MIDC and MIDC Bhosari factories, the process may take an additional day if Factories Act documentation needs to be verified. The registration deadline under Section 10-A of the ESI Act is 15 days from the date of applicability - Patron ensures Pune clients meet this deadline.</p><p style="margin-top:10px;"><strong>Call <a href="tel:+919459456700">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20ESIC%20registration%20in%20Pune" target="_blank">WhatsApp</a> for a free timeline assessment.</strong></p></div>
+                        <div class="faq-expanded__a"><p>ESIC registration through the ESIC portal (esic.in) typically completes within 2-3 working days for Pune businesses. The employer code and portal credentials are issued immediately upon successful Form 1 submission. Employee TIC cards are generated digitally within 24-48 hours of enrollment. For Chakan MIDC and MIDC Bhosari factories, the process may take an additional day if Factories Act documentation needs to be verified. The registration deadline under Section 10-A of the ESI Act is 15 days from the date of applicability - Patron ensures Pune clients meet this deadline.</p><p style="margin-top:10px;"><strong>Call <a href="tel:+919459456700">+91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20ESIC%20registration%20in%20Pune" target="_blank" rel="noopener">WhatsApp</a> for a free timeline assessment.</strong></p></div>
                     </div>
                     <div class="faq-expanded__item" id="faq-5">
                         <h3 class="faq-expanded__q">What happens if a Pune employer misses the ESIC registration deadline?</h3>
@@ -1174,7 +1174,7 @@
                 
                 <div class="highlight-box" style="background:var(--orange-lighter);border-left:4px solid var(--orange);border-radius:var(--radius-md);padding:16px 20px;margin-bottom:16px;"><strong>The ESI Act, 1948 requires mandatory registration within 15 days of reaching the 10-employee threshold. Late registration attracts 12% annual interest + damages of up to 25% under Section 85B from the ESIC SRO Pune.</strong></div>
 <p class="content-text">The ESIC Amnesty Scheme 2025 - active until 31 December 2025 - allows late registrations without criminal prosecution or inspection demand for past dues. Hinjewadi startups and Chakan MIDC manufacturers currently without ESIC registration should act before the amnesty window closes.</p>
-<p class="content-text"><strong>Get a free ESIC Registration consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+<p class="content-text"><strong>Get a free ESIC Registration consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
 
             </div>
         </div>
@@ -1194,7 +1194,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%20Patron%2C%20I%20need%20help%20with%20ESIC%20Registration%20in%20Pune" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

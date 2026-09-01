@@ -130,7 +130,7 @@
         </div>
 
         <div class="hero-cta-row">
-            <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20refer%20someone%20to%20Patron%20Accounting.%20Please%20share%20the%20referral%20details." target="_blank" class="btn-hero-primary">
+            <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20refer%20someone%20to%20Patron%20Accounting.%20Please%20share%20the%20referral%20details." target="_blank" class="btn-hero-primary" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                 Refer on WhatsApp
             </a>
@@ -445,7 +445,7 @@
             <p style="color:rgba(255,255,255,0.8);font-size:16px;max-width:550px;margin:0 auto 32px;line-height:1.7;">Share Patron Accounting with your network and earn real rewards. No sign-up required — just share, and earn when they pay.</p>
 
             <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;">
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20refer%20someone%20to%20Patron%20Accounting.%20Please%20share%20the%20referral%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20to%20refer%20someone%20to%20Patron%20Accounting.%20Please%20share%20the%20referral%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">
                     <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                     Refer via WhatsApp
                 </a>
@@ -489,19 +489,19 @@
     <div class="ols-container">
         <span class="ols-label">📍 Our Offices</span>
         <div class="ols-offices">
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJV6BM7FnBwjsRyyAfaIsfMqM" target="_blank" class="ols-office active">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJV6BM7FnBwjsRyyAfaIsfMqM" target="_blank" class="ols-office active" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Pune
             </a>
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJ83f7WkHP5zsRUEuc4_l1RVw" target="_blank" class="ols-office">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJ83f7WkHP5zsRUEuc4_l1RVw" target="_blank" class="ols-office" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Mumbai
             </a>
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJr804ewcBDTkRBlaNBTnipcY" target="_blank" class="ols-office">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJr804ewcBDTkRBlaNBTnipcY" target="_blank" class="ols-office" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Delhi
             </a>
-            <a href="https://www.google.com/maps/place/?q=place_id:ChIJt0L8I5QZDTkRiRCJ6rXQj6g" target="_blank" class="ols-office">
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJt0L8I5QZDTkRiRCJ6rXQj6g" target="_blank" class="ols-office" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 Gurugram
             </a>
@@ -521,7 +521,7 @@
     <span class="wsb-text">
         Join 5,000+ business owners. <span>Get compliance due date alerts on WhatsApp.</span>
     </span>
-    <a href="https://wa.me/919459456700" target="_blank" class="wsb-btn">Join Free →</a>
+    <a href="https://wa.me/919459456700" target="_blank" class="wsb-btn" rel="noopener">Join Free →</a>
     <button class="wsb-close" onclick="document.getElementById('whatsappStickyBar').style.display='none'" aria-label="Close">×</button>
 </div>
 

@@ -1540,7 +1540,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                         <strong style="color: #000;">Google Location:</strong> 
                         <a href="https://www.google.com/maps/search/?api=1&query=1st+Floor,+Rajshila+Building,+104,+Jagannath+Shankar+Seth+Rd,+Marine+Lines,+Mumbai,+Maharashtra+400002" 
                            target="_blank"
-                           style="color: #4A90E2; text-decoration: underline;">Click to reach our office</a>
+                           style="color: #4A90E2; text-decoration: underline;" rel="noopener">Click to reach our office</a>
                     </p>
                 </div>
             </div>
@@ -1559,7 +1559,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                         <strong style="color: #000;">Google Location:</strong> 
                         <a href="https://www.google.com/maps/search/?api=1&query=Shop+No+A91,+Nawada,+opposite+Metro+Pillar+No+745,+Delhi,+110059" 
                            target="_blank"
-                           style="color: #4A90E2; text-decoration: underline;">Click to reach our office</a>
+                           style="color: #4A90E2; text-decoration: underline;" rel="noopener">Click to reach our office</a>
                     </p>
                 </div>
             </div>

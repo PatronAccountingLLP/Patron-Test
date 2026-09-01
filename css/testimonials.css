@@ -97,7 +97,7 @@
    the whole frame is visible and the card keeps its height, so the row of
    cards stays aligned. */
 .testi-video-area.is-portrait {
-    background: #0F1115;
+    background: var(--white, #FFFFFF);
 }
 .testi-video-area.is-portrait video {
     object-fit: contain;

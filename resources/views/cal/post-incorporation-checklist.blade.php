@@ -879,7 +879,7 @@ a:focus-visible {
             <p>Beyond the MCA filings, most new businesses need one or more of these depending on activity, turnover and headcount:</p>
             <ul>
                 <li><strong>GST</strong> — on crossing the turnover threshold, or for inter-state / e-commerce supplies; many register voluntarily. See <a href="https://www.patronaccounting.com/gst-registration">GST registration</a>.</li>
-                <li><strong>Professional Tax</strong> — in states that levy it, often within 30 days of hiring. See <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services">PT compliance</a>.</li>
+                <li><strong>Professional Tax</strong> — in states that levy it, often within 30 days of hiring. See <a href="/pt-returns">PT compliance</a>.</li>
                 <li><strong>PF & ESI</strong> — mandatory on crossing the employee thresholds. See <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services">ESIC compliance</a>.</li>
                 <li><strong>Shops & Establishment</strong> — commonly required locally for premises and staff.</li>
                 <li><strong>DPIIT recognition</strong> — optional but valuable for startups; check eligibility with the <a href="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">DPIIT eligibility checker</a>.</li>

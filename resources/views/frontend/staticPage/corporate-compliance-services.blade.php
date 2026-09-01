@@ -1995,12 +1995,7 @@
                 <p class="tile-cp-blurb">Company and LLP income-tax returns — filed in step with the annual ROC cycle.</p>
                 <div class="tile-cp-foot"><span>From INR 499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/audit-services" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>16.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
-                <h3 class="tile-cp-title">Audit & Assurance</h3>
-                <p class="tile-cp-blurb">Statutory, tax, cost and secretarial audit — including the audits cross-listed in this hub.</p>
-                <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="https://www.patronaccounting.com/virtual-cfo-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>16.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Virtual CFO Services</h3>

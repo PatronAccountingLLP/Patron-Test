@@ -657,7 +657,7 @@ This checklist is a preparation aid only. The Net Worth Certificate itself must 
 <a href="/net-worth-certificate-for-visa" class="sidebar-link">Canada Visa NWC <span class="arrow">→</span></a>
 <a href="/net-worth-certificate-for-visa" class="sidebar-link">Schengen Visa NWC <span class="arrow">→</span></a>
 <a href="/net-worth-certificate-for-visa" class="sidebar-link">Australia Visa NWC <span class="arrow">→</span></a>
-<a href="/ca-certified-services" class="sidebar-link">All CA Certified Services <span class="arrow">→</span></a>
+<a href="/net-worth-certificate-by-ca" class="sidebar-link">All CA Certified Services <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>

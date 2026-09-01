@@ -1545,12 +1545,7 @@
                 <p class="tile-cp-blurb">CA-supervised monthly books — the audit-ready records every business certificate is built from.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/audit-services" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>13.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
-                <h3 class="tile-cp-title">Audit & Assurance</h3>
-                <p class="tile-cp-blurb">Statutory, tax and special-purpose audits — when a certificate needs audited financials behind it.</p>
-                <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="/business-registration-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>13.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Business Registration</h3>

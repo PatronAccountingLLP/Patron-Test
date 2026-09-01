@@ -482,7 +482,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
             <h3>Services</h3>
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">ITR Filing <span class="arrow">&rarr;</span></a>
             
-            <a href="https://www.patronaccounting.com/capital-gains-tax-advisory" class="sidebar-link">Capital Gains Tax <span class="arrow">&rarr;</span></a>
+            
             <a href="https://www.patronaccounting.com/accounting-bookkeeping-services" class="sidebar-link">Accounting <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">

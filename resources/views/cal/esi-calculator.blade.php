@@ -1018,7 +1018,7 @@
                 <a href="https://www.patronaccounting.com/esic-calculation-and-compliance-services" class="sidebar-link">ESIC Compliance <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Processing <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/tools/epf-pf-calculator" class="sidebar-link">PF Compliance <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/professional-tax-pt-inr-calculator-compliance-services" class="sidebar-link">Professional Tax <span class="arrow">&rarr;</span></a>
+                <a href="/pt-returns" class="sidebar-link">Professional Tax <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/gratuity-calculation-and-compliance-services" class="sidebar-link">Gratuity Services <span class="arrow">&rarr;</span></a>
             </div>
             <div class="sidebar-card">

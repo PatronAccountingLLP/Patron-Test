@@ -601,7 +601,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="https://www.patronaccounting.com/ismp-certification-isp-appointment" class="sidebar-link">ISMP Certification &amp; ISP Appointment <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Private Limited Company Registration <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/secretarial-services" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
+<a href="/secretarial-audit" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 

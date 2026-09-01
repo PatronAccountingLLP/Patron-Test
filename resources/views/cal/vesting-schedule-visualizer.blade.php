@@ -581,7 +581,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Management &amp; Compliance <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP Valuation Services <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/secretarial-services" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
+<a href="/secretarial-audit" class="sidebar-link">Company Secretarial Services <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/startup-registration" class="sidebar-link">Startup India Registration <span class="arrow">→</span></a>
 </div>
 

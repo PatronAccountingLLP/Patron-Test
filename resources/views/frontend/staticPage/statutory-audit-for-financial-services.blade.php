@@ -2058,7 +2058,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 <li><a href="/internal-audit"><strong>Internal Audit (Section 138 + RBI RBIA):</strong></a> Mandatory for all NBFC-ML, UL, TL under RBI Risk-Based Internal Audit framework irrespective of Companies Act threshold</li>
 <li><a href="/private-limited-company-compliance"><strong>Private Limited Company Compliance:</strong></a> ROC annual filings - ADT-1, AOC-4, MGT-7 for NBFC corporate entities</li>
 <li><a href="/nbfc-registration-rbi-applicability-and-process"><strong>NBFC Registration:</strong></a> Section 45-IA CoR application; Form CRA-1 to CRA-6 RBI Companies Act overlay for new NBFCs</li>
-<li><a href="/aif-registration"><strong>AIF Registration:</strong></a> SEBI Alternative Investment Fund Regulations 2012 - Category I / II / III registration</li>
+
 <li><a href="/accounting-services-for-the-service-sector-industry"><strong>Accounting Services for Service Sector:</strong></a> Peer industry vertical for ongoing accounting and reconciliation work</li>
 <li><a href="/gst-audit"><strong>GST Audit:</strong></a> GST exemption review for financial services (interest income exempt; fee income taxable); GSTR-9C reconciliation</li>
 <li><a href="/appointment-of-auditor"><strong>Appointment of Auditor:</strong></a> First auditor and AGM appointment with ADT-1 filing; RBI concurrence for NBFC-D under Section 30A</li>
@@ -2235,7 +2235,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
         <a href="/tax-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Tax Audit (Sec 44AB)</div><div class="pa-card-sub">India</div></div></a>
         <a href="/internal-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">Internal Audit (RBI RBIA)</div><div class="pa-card-sub">India</div></div></a>
         <a href="/nbfc-registration-rbi-applicability-and-process" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">NBFC Registration</div><div class="pa-card-sub">India</div></div></a>
-        <a href="/aif-registration" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">AIF Registration</div><div class="pa-card-sub">India</div></div></a>
+        
         <a href="/gst-audit" class="pa-cross-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><div><div class="pa-card-title">GST Audit</div><div class="pa-card-sub">India</div></div></a>
     </div>
 </div>

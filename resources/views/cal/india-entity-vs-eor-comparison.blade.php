@@ -782,7 +782,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <a href="https://www.patronaccounting.com/wholly-owned-subsidiary-of-foreign-company-india" class="sidebar-link">WOS Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/eor-india" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/fema-compliance" class="sidebar-link">FEMA &amp; FDI Compliance<span class="arrow">→</span></a>
+            
             <a href="https://www.patronaccounting.com/blog/transfer-pricing-rules-2026" class="sidebar-link">Transfer Pricing Study<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
         </div>

@@ -578,7 +578,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/pvt-llp-compliance" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/annual-compliance-small-vs-startup-vs-opc" class="sidebar-link">OPC Annual Compliance <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/section-8-compliance" class="sidebar-link">Section 8 Compliance <span class="arrow">→</span></a>
+
 <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>

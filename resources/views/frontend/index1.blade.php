@@ -2116,7 +2116,7 @@
                     <div class="hero-image-wrapper">
                         <!-- Office Workspace Collage -->
                         <div class="office-collage">
-                            <img src="{{ asset('images/banner.jpg')}}" alt="Modern Office Workspace"
+                            <img src="{{ asset('images/banner.webp')}}" alt="Modern Office Workspace"
                                 class="hero-image">
                         </div>
                     </div>
@@ -2302,7 +2302,7 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <img src="{{ asset('images/chartered.png') }}" alt="Patron Accounting Team" class="img-fluid rounded-4 shadow-lg"
+                <img src="{{ asset('images/chartered.webp') }}" alt="Patron Accounting Team" class="img-fluid rounded-4 shadow-lg"
                     style="width: 100%; height: auto; object-fit: cover; border-radius: 24px !important;"
                     onerror="this.src='https://via.placeholder.com/1200x600/f0f0f0/666666?text=Office+Team'">
             </div>
@@ -2644,7 +2644,7 @@
                 <div class="video-wrapper position-relative" style="border-radius: 24px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);">
                     <video 
                         id="whoWeAreVideo"
-                        poster="{{ asset('images/whoweare.png') }}"
+                        poster="{{ asset('images/whoweare.webp') }}"
                         style="width: 100%; height: auto; display: block; background: #000; cursor: pointer;"
                         onclick="this.play(); this.setAttribute('controls', 'controls'); document.getElementById('playButtonOverlay').style.display = 'none';">
                         <source src="{{ asset('images/About Patron Accounting.mp4') }}" type="video/mp4">
@@ -2784,7 +2784,7 @@
                 </div>
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/responsive client communication.png') }}" alt="Responsive Client Communication">
+                    <img src="{{ asset('images/responsive client communication.webp') }}" alt="Responsive Client Communication">
                 </div>
             </div>
         </div>
@@ -2798,7 +2798,7 @@
             <div class="client-communication-content">
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/protective compliance monitoring.png') }}" alt="Proactive Compliance Monitoring">
+                    <img src="{{ asset('images/protective compliance monitoring.webp') }}" alt="Proactive Compliance Monitoring">
                 </div>
 
 
@@ -2838,7 +2838,7 @@
                 </div>
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/end to end process.png') }}" alt="End-to-End Process Management">
+                    <img src="{{ asset('images/end to end process.webp') }}" alt="End-to-End Process Management">
                 </div>
             </div>
         </div>
@@ -2869,7 +2869,7 @@
             </div>
 
             <div class="more-than-legal-image">
-                <img src="{{ asset('images/patron_3.png') }}" alt="More Than Legal - Business Backbone">
+                <img src="{{ asset('images/patron_3.webp') }}" alt="More Than Legal - Business Backbone">
             </div>
         </div>
     </div>

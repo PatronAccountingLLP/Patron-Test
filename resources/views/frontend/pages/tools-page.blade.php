@@ -173,11 +173,10 @@
     }
     </script>
 
-    <style>
-        /* ============================================
+    <style>/* ============================================
            CSS VARIABLES (Patron Design System)
            ============================================ */
-        :root {
+:root {
             --orange: #E8712C;
             --orange-dark: #D4621F;
             --orange-light: #FEF4EE;
@@ -209,11 +208,9 @@
             --radius-lg: 16px;
             --radius-xl: 24px;
         }
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
-
-        body {
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; }
+body {
             font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
             font-size: 16px;
             line-height: 1.6;
@@ -222,50 +219,47 @@
             -webkit-tap-highlight-color: transparent;
             -webkit-touch-callout: none;
         }
-
-        h2 {
+h2 {
             font-size: clamp(26px, 3vw, 32px);
             font-weight: 800;
             color: var(--blue);
             margin-bottom: 24px;
             line-height: 1.25;
         }
-        h3 { color: var(--blue); font-size: 1.5rem; }
-        p { color: var(--text-secondary); }
-        a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-        a:hover { color: var(--orange-dark); }
-
-        /* ============================================
+h3 { color: var(--blue); font-size: 1.5rem; }
+p { color: var(--text-secondary); }
+a { color: var(--orange); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+a:hover { color: var(--orange-dark); }
+/* ============================================
            BREADCRUMB
            ============================================ */
-        .breadcrumb-nav {
+.breadcrumb-nav {
             background: var(--gray-50);
             border-bottom: 1px solid var(--gray-200);
             padding: 10px 16px;
         }
-        .breadcrumb-nav ol {
+.breadcrumb-nav ol {
             display: flex; align-items: center; gap: 8px;
             list-style: none; padding: 0; margin: 0;
             font-size: 13px; max-width: 1320px; margin: 0 auto;
         }
-        .breadcrumb-nav li { display: flex; align-items: center; gap: 8px; }
-        .breadcrumb-nav a {
+.breadcrumb-nav li { display: flex; align-items: center; gap: 8px; }
+.breadcrumb-nav a {
             color: var(--text-muted); text-decoration: none;
             font-weight: 500; transition: color 0.2s;
         }
-        .breadcrumb-nav a:hover { color: var(--orange); }
-
-        /* ============================================
+.breadcrumb-nav a:hover { color: var(--orange); }
+/* ============================================
            HERO SECTION
            ============================================ */
-        .tools-hero {
+.tools-hero {
             background: linear-gradient(180deg, var(--cream) 0%, var(--white) 60%);
             padding: 64px 32px 48px;
             text-align: center;
             position: relative;
             overflow: hidden;
         }
-        .tools-hero::before {
+.tools-hero::before {
             content: '';
             position: absolute;
             top: -120px; right: -120px;
@@ -273,7 +267,7 @@
             background: radial-gradient(circle, rgba(232,113,44,0.06) 0%, transparent 70%);
             border-radius: 50%;
         }
-        .tools-hero::after {
+.tools-hero::after {
             content: '';
             position: absolute;
             bottom: -80px; left: -80px;
@@ -281,20 +275,20 @@
             background: radial-gradient(circle, rgba(27,54,93,0.04) 0%, transparent 70%);
             border-radius: 50%;
         }
-        .hero-container {
+.hero-container {
             max-width: 900px;
             margin: 0 auto;
             position: relative;
             z-index: 1;
         }
-        .hero-badge {
+.hero-badge {
             display: inline-flex; align-items: center; gap: 8px;
             background: var(--orange-light); padding: 8px 16px;
             border-radius: 50px; font-size: 13px; font-weight: 600;
             color: var(--orange); margin-bottom: 20px;
         }
-        .hero-badge svg { width: 14px; height: 14px; }
-        .tools-hero h1 {
+.hero-badge svg { width: 14px; height: 14px; }
+.tools-hero h1 {
             font-family: 'Barlow', sans-serif;
             font-weight: 800;
             font-size: clamp(32px, 5vw, 52px);
@@ -302,22 +296,21 @@
             color: var(--blue);
             margin-bottom: 16px;
         }
-        .tools-hero h1 span { color: var(--orange); }
-        .hero-subtitle {
+.tools-hero h1 span { color: var(--orange); }
+.hero-subtitle {
             font-size: 17px;
             color: var(--text-secondary);
             max-width: 640px;
             margin: 0 auto 32px;
             line-height: 1.6;
         }
-
-        /* Search Bar */
-        .search-container {
+/* Search Bar */
+.search-container {
             max-width: 580px;
             margin: 0 auto 40px;
             position: relative;
         }
-        .search-input {
+.search-input {
             width: 100%;
             padding: 16px 24px 16px 52px;
             font-family: 'Barlow', sans-serif;
@@ -331,19 +324,19 @@
             -webkit-appearance: none;
             appearance: none;
         }
-        .search-input::placeholder { color: var(--gray-400); }
-        .search-input:focus {
+.search-input::placeholder { color: var(--gray-400); }
+.search-input:focus {
             outline: none;
             border-color: var(--orange);
             box-shadow: 0 0 0 4px rgba(232,113,44,0.1), var(--shadow-lg);
         }
-        .search-icon {
+.search-icon {
             position: absolute;
             left: 20px; top: 50%; transform: translateY(-50%);
             width: 20px; height: 20px; color: var(--gray-400);
             pointer-events: none;
         }
-        .search-clear {
+.search-clear {
             position: absolute;
             right: 16px; top: 50%; transform: translateY(-50%);
             width: 28px; height: 28px;
@@ -352,34 +345,32 @@
             display: none; align-items: center; justify-content: center;
             cursor: pointer; color: var(--gray-500); transition: all 0.2s;
         }
-        .search-clear:hover { background: var(--gray-200); }
-        .search-clear.visible { display: flex; }
-
-        /* Hero Stats */
-        .hero-stats {
+.search-clear:hover { background: var(--gray-200); }
+.search-clear.visible { display: flex; }
+/* Hero Stats */
+.hero-stats {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 40px;
             flex-wrap: wrap;
         }
-        .hero-stat {
+.hero-stat {
             display: flex; flex-direction: column; align-items: center;
         }
-        .hero-stat-value {
+.hero-stat-value {
             font-size: 28px; font-weight: 800; color: var(--blue);
         }
-        .hero-stat-label {
+.hero-stat-label {
             font-size: 13px; color: var(--text-muted); font-weight: 500;
         }
-        .hero-stat-divider {
+.hero-stat-divider {
             width: 1px; height: 40px; background: var(--gray-200);
         }
-
-        /* ============================================
+/* ============================================
            CATEGORY NAVIGATION
            ============================================ */
-        .category-nav {
+.category-nav {
             position: -webkit-sticky;
             position: sticky; top:100px;z-index:100;
             background: var(--white);
@@ -387,7 +378,7 @@
             padding: 0 32px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.04);
         }
-        .category-nav-inner {
+.category-nav-inner {
             max-width: 1320px;
             margin: 0 auto;
             display: -webkit-flex;
@@ -402,8 +393,8 @@
             scrollbar-width: none;
             padding: 12px 0;
         }
-        .category-nav-inner::-webkit-scrollbar { display: none; }
-        .cat-btn {
+.category-nav-inner::-webkit-scrollbar { display: none; }
+.cat-btn {
             display: -webkit-inline-flex;
             display: inline-flex;
             -webkit-align-items: center;
@@ -427,22 +418,22 @@
             user-select: none;
             touch-action: manipulation;
         }
-        .cat-btn svg { width: 16px; height: 16px; margin-right: 8px; }
-        .cat-btn:hover {
+.cat-btn svg { width: 16px; height: 16px; margin-right: 8px; }
+.cat-btn:hover {
             border-color: var(--orange);
             color: var(--orange);
             background: var(--orange-lighter);
         }
-        .cat-btn.active {
+.cat-btn.active {
             background: var(--orange);
             border-color: var(--orange);
             color: var(--white);
         }
-        .cat-btn.active:hover {
+.cat-btn.active:hover {
             background: var(--orange-dark);
             border-color: var(--orange-dark);
         }
-        .cat-btn .cat-count {
+.cat-btn .cat-count {
             font-size: 11px;
             background: rgba(0,0,0,0.08);
             padding: 2px 8px;
@@ -450,31 +441,29 @@
             font-weight: 700;
             margin-left: 8px;
         }
-        .cat-btn.active .cat-count {
+.cat-btn.active .cat-count {
             background: rgba(255,255,255,0.25);
         }
-
-        /* ============================================
+/* ============================================
            TOOLS GRID
            ============================================ */
-        .tools-section {
+.tools-section {
             padding: 48px 32px 64px;
             background: var(--gray-50);
             min-height: 600px;
         }
-        .tools-container {
+.tools-container {
             max-width: 1320px;
             margin: 0 auto;
         }
-
-        /* Category Header */
-        .category-block {
+/* Category Header */
+.category-block {
             margin-bottom: 56px;
             -webkit-animation: fadeInUp 0.4s ease forwards;
             animation: fadeInUp 0.4s ease forwards;
             opacity: 1; /* Fallback — ensure visible even if animation fails */
         }
-        .category-header {
+.category-header {
             display: -webkit-flex;
             display: flex;
             -webkit-align-items: center;
@@ -483,24 +472,24 @@
             padding-bottom: 16px;
             border-bottom: 2px solid var(--gray-200);
         }
-        .category-header > * + * {
+.category-header > * + * {
             margin-left: 14px;
         }
-        .category-icon-wrap {
+.category-icon-wrap {
             width: 48px; height: 48px;
             border-radius: var(--radius-md);
             display: flex; align-items: center; justify-content: center;
             flex-shrink: 0;
         }
-        .category-icon-wrap svg { width: 24px; height: 24px; color: var(--white); }
-        .category-meta h2 {
+.category-icon-wrap svg { width: 24px; height: 24px; color: var(--white); }
+.category-meta h2 {
             font-size: 22px; font-weight: 800;
             color: var(--blue); margin-bottom: 2px;
         }
-        .category-meta p {
+.category-meta p {
             font-size: 13px; color: var(--text-muted); margin: 0;
         }
-        .category-tool-count {
+.category-tool-count {
             margin-left: auto;
             font-size: 12px; font-weight: 700;
             color: var(--text-muted);
@@ -508,16 +497,15 @@
             padding: 4px 12px;
             border-radius: 20px;
         }
-
-        /* Tool Cards */
-        .tools-grid {
+/* Tool Cards */
+.tools-grid {
             display: -ms-grid;
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             grid-gap: 20px;
             gap: 20px;
         }
-        .tool-card {
+.tool-card {
             background: var(--white);
             border: 1px solid var(--gray-200);
             border-radius: var(--radius-lg);
@@ -530,13 +518,13 @@
             position: relative;
             overflow: hidden;
         }
-        .tool-card:hover {
+.tool-card:hover {
             border-color: var(--orange);
             box-shadow: var(--shadow-lg);
             transform: translateY(-4px);
             text-decoration: none;
         }
-        .tool-card::after {
+.tool-card::after {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
@@ -546,30 +534,29 @@
             transform-origin: left;
             transition: transform 0.3s ease;
         }
-        .tool-card:hover::after {
+.tool-card:hover::after {
             transform: scaleX(1);
         }
-
-        .tool-card-header {
+.tool-card-header {
             display: flex;
             align-items: flex-start;
             gap: 14px;
             margin-bottom: 14px;
         }
-        .tool-icon {
+.tool-icon {
             width: 44px; height: 44px;
             border-radius: var(--radius-sm);
             display: flex; align-items: center; justify-content: center;
             flex-shrink: 0;
         }
-        .tool-icon svg { width: 22px; height: 22px; }
-        .tool-name {
+.tool-icon svg { width: 22px; height: 22px; }
+.tool-name {
             font-size: 16px; font-weight: 700;
             color: var(--blue);
             line-height: 1.3;
             flex: 1;
         }
-        .tool-priority {
+.tool-priority {
             font-size: 10px; font-weight: 700;
             padding: 3px 8px;
             border-radius: 20px;
@@ -577,15 +564,14 @@
             letter-spacing: 0.5px;
             flex-shrink: 0;
         }
-        .tool-priority.high { background: #DCFCE7; color: #166534; }
-        .tool-priority.medium { background: #FEF3C7; color: #92400E; }
-        .tool-priority.low { background: var(--gray-100); color: var(--gray-600); }
-
-        .tool-keywords {
+.tool-priority.high { background: #DCFCE7; color: #166534; }
+.tool-priority.medium { background: #FEF3C7; color: #92400E; }
+.tool-priority.low { background: var(--gray-100); color: var(--gray-600); }
+.tool-keywords {
             display: flex; flex-wrap: wrap; gap: 6px;
             margin-bottom: 14px;
         }
-        .tool-keyword {
+.tool-keyword {
             font-size: 11px; font-weight: 500;
             color: var(--text-muted);
             background: var(--gray-50);
@@ -593,8 +579,7 @@
             border-radius: 20px;
             border: 1px solid var(--gray-100);
         }
-
-        .tool-footer {
+.tool-footer {
             margin-top: auto;
             display: flex;
             align-items: center;
@@ -602,47 +587,45 @@
             padding-top: 14px;
             border-top: 1px solid var(--gray-100);
         }
-        .tool-searches {
+.tool-searches {
             font-size: 12px; color: var(--text-muted);
             display: flex; align-items: center; gap: 4px;
         }
-        .tool-searches svg { width: 14px; height: 14px; color: var(--green); }
-        .tool-searches strong { color: var(--text-primary); font-weight: 700; }
-        .tool-cta-arrow {
+.tool-searches svg { width: 14px; height: 14px; color: var(--green); }
+.tool-searches strong { color: var(--text-primary); font-weight: 700; }
+.tool-cta-arrow {
             width: 32px; height: 32px;
             background: var(--orange-light);
             border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
             transition: all 0.2s;
         }
-        .tool-cta-arrow svg { width: 14px; height: 14px; color: var(--orange); }
-        .tool-card:hover .tool-cta-arrow {
+.tool-cta-arrow svg { width: 14px; height: 14px; color: var(--orange); }
+.tool-card:hover .tool-cta-arrow {
             background: var(--orange);
         }
-        .tool-card:hover .tool-cta-arrow svg { color: var(--white); }
-
-        /* No Results */
-        .no-results {
+.tool-card:hover .tool-cta-arrow svg { color: var(--white); }
+/* No Results */
+.no-results {
             text-align: center;
             padding: 80px 20px;
             display: none;
         }
-        .no-results.visible { display: block; }
-        .no-results svg { width: 64px; height: 64px; color: var(--gray-300); margin-bottom: 16px; }
-        .no-results h3 { font-size: 20px; color: var(--text-primary); margin-bottom: 8px; }
-        .no-results p { font-size: 14px; color: var(--text-muted); }
-
-        /* ============================================
+.no-results.visible { display: block; }
+.no-results svg { width: 64px; height: 64px; color: var(--gray-300); margin-bottom: 16px; }
+.no-results h3 { font-size: 20px; color: var(--text-primary); margin-bottom: 8px; }
+.no-results p { font-size: 14px; color: var(--text-muted); }
+/* ============================================
            MID CTA SECTION
            ============================================ */
-        .mid-cta {
+.mid-cta {
             padding: 56px 32px;
             background: linear-gradient(135deg, var(--blue) 0%, #0F2440 100%);
             text-align: center;
             position: relative;
             overflow: hidden;
         }
-        .mid-cta::before {
+.mid-cta::before {
             content: '';
             position: absolute;
             top: -50%; right: -20%;
@@ -650,30 +633,30 @@
             background: radial-gradient(circle, rgba(232,113,44,0.12) 0%, transparent 60%);
             border-radius: 50%;
         }
-        .mid-cta-inner {
+.mid-cta-inner {
             max-width: 700px;
             margin: 0 auto;
             position: relative;
             z-index: 1;
         }
-        .mid-cta h2 {
+.mid-cta h2 {
             color: var(--white);
             font-size: clamp(24px, 3vw, 32px);
             margin-bottom: 12px;
         }
-        .mid-cta p {
+.mid-cta p {
             color: rgba(255,255,255,0.7);
             font-size: 15px;
             margin-bottom: 28px;
         }
-        .mid-cta-buttons {
+.mid-cta-buttons {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 14px;
             flex-wrap: wrap;
         }
-        .btn-cta-primary {
+.btn-cta-primary {
             display: inline-flex; align-items: center; gap: 8px;
             padding: 14px 28px;
             font-family: 'Barlow', sans-serif;
@@ -684,14 +667,14 @@
             cursor: pointer; transition: all 0.25s ease;
             text-decoration: none;
         }
-        .btn-cta-primary:hover {
+.btn-cta-primary:hover {
             background: var(--orange-dark);
             transform: translateY(-2px);
             box-shadow: 0 10px 28px rgba(232,113,44,0.35);
             color: var(--white);
         }
-        .btn-cta-primary svg { width: 16px; height: 16px; }
-        .btn-cta-secondary {
+.btn-cta-primary svg { width: 16px; height: 16px; }
+.btn-cta-secondary {
             display: inline-flex; align-items: center; gap: 8px;
             padding: 14px 28px;
             font-family: 'Barlow', sans-serif;
@@ -703,131 +686,127 @@
             cursor: pointer; transition: all 0.25s ease;
             text-decoration: none;
         }
-        .btn-cta-secondary:hover {
+.btn-cta-secondary:hover {
             border-color: var(--white);
             background: rgba(255,255,255,0.08);
             color: var(--white);
         }
-        .btn-cta-secondary svg { width: 18px; height: 18px; }
-
-        /* ============================================
+.btn-cta-secondary svg { width: 18px; height: 18px; }
+/* ============================================
            STATS BAR
            ============================================ */
-        .stats-bar {
+.stats-bar {
             background: var(--white);
             border-top: 1px solid var(--gray-200);
             border-bottom: 1px solid var(--gray-200);
             padding: 24px 32px;
         }
-        .stats-container {
+.stats-container {
             max-width: 1320px; margin: 0 auto;
             display: flex; align-items: center; justify-content: center;
             flex-wrap: wrap; gap: 40px;
         }
-        .stat-item { display: flex; align-items: center; gap: 12px; }
-        .stat-icon {
+.stat-item { display: flex; align-items: center; gap: 12px; }
+.stat-icon {
             width: 42px; height: 42px;
             background: var(--orange-light); border-radius: var(--radius-sm);
             display: flex; align-items: center; justify-content: center;
         }
-        .stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
-        .stat-content { display: flex; flex-direction: column; }
-        .stat-value { font-size: 18px; font-weight: 800; color: var(--blue); }
-        .stat-label { font-size: 12px; color: var(--text-muted); }
-
-        /* ============================================
+.stat-icon svg { width: 20px; height: 20px; color: var(--orange); }
+.stat-content { display: flex; flex-direction: column; }
+.stat-value { font-size: 18px; font-weight: 800; color: var(--blue); }
+.stat-label { font-size: 12px; color: var(--text-muted); }
+/* ============================================
            WHY USE SECTION
            ============================================ */
-        .why-section {
+.why-section {
             padding: 72px 32px;
             background: var(--white);
         }
-        .why-container {
+.why-container {
             max-width: 1320px;
             margin: 0 auto;
         }
-        .why-header {
+.why-header {
             text-align: center;
             margin-bottom: 48px;
         }
-        .section-eyebrow {
+.section-eyebrow {
             display: inline-flex; align-items: center; gap: 8px;
             font-size: 13px; font-weight: 600; color: var(--orange);
             text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;
         }
-        .section-eyebrow svg { width: 18px; height: 18px; }
-        .why-grid {
+.section-eyebrow svg { width: 18px; height: 18px; }
+.why-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 24px;
         }
-        .why-card {
+.why-card {
             background: var(--gray-50);
             border: 1px solid var(--gray-200);
             border-radius: var(--radius-lg);
             padding: 28px;
             transition: all 0.25s ease;
         }
-        .why-card:hover {
+.why-card:hover {
             box-shadow: var(--shadow-md);
             border-color: var(--orange);
             transform: translateY(-2px);
         }
-        .why-icon {
+.why-icon {
             width: 52px; height: 52px;
             background: var(--orange-light);
             border-radius: var(--radius-md);
             display: flex; align-items: center; justify-content: center;
             margin-bottom: 18px;
         }
-        .why-icon svg { width: 26px; height: 26px; color: var(--orange); }
-        .why-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; margin-top: 0; }
-        .why-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; }
-
-        /* ============================================
+.why-icon svg { width: 26px; height: 26px; color: var(--orange); }
+.why-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 10px; margin-top: 0; }
+.why-text { font-size: 14px; color: var(--text-secondary); line-height: 1.7; }
+/* ============================================
            OFFICE LOCATIONS FOOTER STRIP
            ============================================ */
-        .office-locations-strip {
+.office-locations-strip {
             background: var(--blue); padding: 20px 32px;
             border-top: 3px solid var(--orange);
         }
-        .office-locations-strip .ols-container {
+.office-locations-strip .ols-container {
             max-width: 1320px; margin: 0 auto;
             display: flex; align-items: center; justify-content: center;
             gap: 16px; flex-wrap: wrap;
         }
-        .office-locations-strip .ols-label {
+.office-locations-strip .ols-label {
             font-size: 13px; font-weight: 700; color: white;
             text-transform: uppercase; letter-spacing: 0.5px; flex-shrink: 0;
         }
-        .office-locations-strip .ols-offices { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
-        .office-locations-strip .ols-office {
+.office-locations-strip .ols-offices { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+.office-locations-strip .ols-office {
             display: flex; align-items: center; gap: 6px;
             color: rgba(255,255,255,0.85); font-size: 13px; font-weight: 500;
             cursor: pointer; transition: color 0.2s; text-decoration: none;
         }
-        .office-locations-strip .ols-office:hover { color: var(--orange); }
-        .office-locations-strip .ols-office svg { width: 14px; height: 14px; color: var(--orange); flex-shrink: 0; }
-        .office-locations-strip .ols-trust-link {
+.office-locations-strip .ols-office:hover { color: var(--orange); }
+.office-locations-strip .ols-office svg { width: 14px; height: 14px; color: var(--orange); flex-shrink: 0; }
+.office-locations-strip .ols-trust-link {
             margin-left: auto;
             display: flex; align-items: center; gap: 6px;
             color: var(--orange); font-size: 13px; font-weight: 600;
             text-decoration: none; transition: all 0.2s;
         }
-        .office-locations-strip .ols-trust-link:hover { color: white; }
-        .office-locations-strip .ols-trust-link svg { width: 14px; height: 14px; }
-
-        /* ============================================
+.office-locations-strip .ols-trust-link:hover { color: white; }
+.office-locations-strip .ols-trust-link svg { width: 14px; height: 14px; }
+/* ============================================
            WHATSAPP STICKY BAR
            ============================================ */
-        .whatsapp-sticky {
+.whatsapp-sticky {
             position: fixed;
             bottom: 24px; right: 24px;
             z-index: 9999;
             display: flex; flex-direction: column;
             align-items: flex-end; gap: 10px;
         }
-        .wa-btn {
+.wa-btn {
             width: 56px; height: 56px;
             background: #25D366;
             border-radius: 50%;
@@ -836,46 +815,39 @@
             transition: all 0.3s ease;
             text-decoration: none;
         }
-        .wa-btn:hover { transform: scale(1.1); box-shadow: 0 8px 28px rgba(37,211,102,0.5); }
-        .wa-btn svg { width: 28px; height: 28px; color: var(--white); fill: var(--white); }
-
-        /* ============================================
+.wa-btn:hover { transform: scale(1.1); box-shadow: 0 8px 28px rgba(37,211,102,0.5); }
+.wa-btn svg { width: 28px; height: 28px; color: var(--white); fill: var(--white); }
+/* ============================================
            ANIMATIONS
            ============================================ */
-        @keyframes fadeInUp {
+@keyframes fadeInUp {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
-
-        /* ============================================
+/* ============================================
            RESPONSIVE
            ============================================ */
-        @media (max-width: 1024px) {
-            .why-grid { grid-template-columns: repeat(2, 1fr); }
-            .hero-stats { gap: 24px; }
-        }
-        @media (max-width: 768px) {
-            .tools-hero { padding: 40px 16px 32px; }
-            .tools-section { padding: 32px 16px 48px; }
-            .tools-grid { grid-template-columns: 1fr; }
-            .category-nav { padding: 0 16px; }
-            .hero-stats { flex-direction: column; gap: 12px; }
-            .hero-stat-divider { width: 40px; height: 1px; }
-            .why-grid { grid-template-columns: 1fr; }
-            .mid-cta { padding: 40px 16px; }
-            .mid-cta-buttons { flex-direction: column; width: 100%; }
-            .btn-cta-primary, .btn-cta-secondary { width: 100%; justify-content: center; }
-            .stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
-            .office-locations-strip .ols-container { flex-direction: column; gap: 10px; }
-            .office-locations-strip .ols-trust-link { margin-left: 0; }
-            .category-header { flex-wrap: wrap; }
-            .category-tool-count { margin-left: 0; }
-        }
-
-        /* ============================================
+@media (max-width: 1024px) {.why-grid { grid-template-columns: repeat(2, 1fr); }
+.hero-stats { gap: 24px; }}
+@media (max-width: 768px) {.tools-hero { padding: 40px 16px 32px; }
+.tools-section { padding: 32px 16px 48px; }
+.tools-grid { grid-template-columns: 1fr; }
+.category-nav { padding: 0 16px; }
+.hero-stats { flex-direction: column; gap: 12px; }
+.hero-stat-divider { width: 40px; height: 1px; }
+.why-grid { grid-template-columns: 1fr; }
+.mid-cta { padding: 40px 16px; }
+.mid-cta-buttons { flex-direction: column; width: 100%; }
+.btn-cta-primary, .btn-cta-secondary { width: 100%; justify-content: center; }
+.stats-container { flex-direction: column; gap: 20px; align-items: flex-start; padding: 0 16px; }
+.office-locations-strip .ols-container { flex-direction: column; gap: 10px; }
+.office-locations-strip .ols-trust-link { margin-left: 0; }
+.category-header { flex-wrap: wrap; }
+.category-tool-count { margin-left: 0; }}
+/* ============================================
            FORM CARD (Consultation CTA)
            ============================================ */
-        .form-card {
+.form-card {
             background: var(--white); border-radius: var(--radius-xl);
             padding: 32px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-100); position: relative;
             max-width: 420px; width: 100%;
@@ -884,58 +856,58 @@
             opacity: 1;
             margin: 0 auto;
         }
-        @-webkit-keyframes fadeInForm { from { opacity: 0; -webkit-transform: translateY(16px); transform: translateY(16px); } to { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
-        @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-        .form-input {
+@-webkit-keyframes fadeInForm { from { opacity: 0; -webkit-transform: translateY(16px); transform: translateY(16px); } to { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.form-input {
             width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 16px;
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); transition: all 0.2s ease;
             -webkit-appearance: none; appearance: none;
         }
-        .form-select {
+.form-select {
             width: 100%; padding: 13px 16px; font-family: 'Barlow', sans-serif; font-size: 16px;
             color: var(--text-primary); background: var(--gray-50); border: 1.5px solid transparent;
             border-radius: var(--radius-md); cursor: pointer; appearance: none; -webkit-appearance: none;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
             background-repeat: no-repeat; background-position: right 14px center; transition: all 0.2s ease;
         }
-        .phone-group {
+.phone-group {
             display: -webkit-flex; display: flex; -webkit-align-items: stretch; align-items: stretch;
             background: var(--gray-50); border-radius: var(--radius-md);
             border: 1.5px solid transparent; overflow: visible; transition: all 0.2s ease; position: relative;
         }
-        .country-code-dropdown {
+.country-code-dropdown {
             display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center;
             padding: 0 10px 0 14px; cursor: pointer;
             border-right: 1px solid var(--gray-200); background: transparent; position: relative;
             min-width: 100px; -webkit-user-select: none; user-select: none; -webkit-flex-shrink: 0; flex-shrink: 0; transition: background 0.15s;
         }
-        .country-code-dropdown > * + * { margin-left: 5px; }
-        .selected-flag { font-size: 20px; line-height: 1; }
-        .dropdown-arrow { -webkit-transition: -webkit-transform 0.25s ease; transition: transform 0.25s ease; color: var(--gray-400); -webkit-flex-shrink: 0; flex-shrink: 0; width: 12px; height: 12px; }
-        .country-code-dropdown.open .dropdown-arrow { -webkit-transform: rotate(180deg); transform: rotate(180deg); }
-        .country-dropdown-list {
+.country-code-dropdown > * + * { margin-left: 5px; }
+.selected-flag { font-size: 20px; line-height: 1; }
+.dropdown-arrow { -webkit-transition: -webkit-transform 0.25s ease; transition: transform 0.25s ease; color: var(--gray-400); -webkit-flex-shrink: 0; flex-shrink: 0; width: 12px; height: 12px; }
+.country-code-dropdown.open .dropdown-arrow { -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+.country-dropdown-list {
             display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 300px; max-height: 320px;
             background: var(--white); border: 1.5px solid var(--gray-200); border-radius: var(--radius-md);
             box-shadow: var(--shadow-xl); z-index: 9999; overflow: hidden; -webkit-flex-direction: column; flex-direction: column;
         }
-        .country-code-dropdown.open .country-dropdown-list { display: -webkit-flex; display: flex; }
-        .country-search-input {
+.country-code-dropdown.open .country-dropdown-list { display: -webkit-flex; display: flex; }
+.country-search-input {
             width: 100%; padding: 11px 14px; border: none; border-bottom: 1px solid var(--gray-200);
             font-family: 'Barlow', sans-serif; font-size: 16px; color: var(--text-primary);
             background: var(--gray-50); outline: none;
             -webkit-appearance: none; appearance: none;
         }
-        .country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; -webkit-overflow-scrolling: touch; }
-        .country-option {
+.country-options { overflow-y: auto; max-height: 260px; scrollbar-width: thin; -webkit-overflow-scrolling: touch; }
+.country-option {
             display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; padding: 10px 14px; cursor: pointer;
             transition: background 0.12s ease; font-family: 'Barlow', sans-serif; font-size: 13px; color: var(--text-primary);
         }
-        .country-option > * + * { margin-left: 10px; }
-        .country-option .country-name { -webkit-flex: 1; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
-        .country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; -webkit-flex-shrink: 0; flex-shrink: 0; }
-        .phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; }
-        .btn-submit {
+.country-option > * + * { margin-left: 10px; }
+.country-option .country-name { -webkit-flex: 1; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
+.country-option .dial-code { color: var(--text-muted); font-weight: 600; font-size: 12px; -webkit-flex-shrink: 0; flex-shrink: 0; }
+.phone-input { border: none !important; background: transparent !important; box-shadow: none !important; flex: 1; min-width: 0; }
+.btn-submit {
             width: 100%; padding: 15px 24px; font-family: 'Barlow', sans-serif;
             font-size: 17px; font-weight: 700; color: var(--white); background: var(--orange);
             border: none; border-radius: 50px; cursor: pointer; -webkit-transition: all 0.25s ease; transition: all 0.25s ease;
@@ -944,85 +916,59 @@
             -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: rgba(232,113,44,0.3);
             touch-action: manipulation;
         }
-        .btn-submit > * + * { margin-left: 8px; }
-        .btn-submit:hover { background: var(--orange-dark); -webkit-transform: translateY(-2px); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .btn-submit:active { -webkit-transform: translateY(0); transform: translateY(0); }
-        .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; -webkit-transform: none; transform: none; box-shadow: none; }
-        .form-footer {
+.btn-submit > * + * { margin-left: 8px; }
+.btn-submit:hover { background: var(--orange-dark); -webkit-transform: translateY(-2px); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
+.btn-submit:active { -webkit-transform: translateY(0); transform: translateY(0); }
+.btn-submit:disabled { opacity: 0.7; cursor: not-allowed; -webkit-transform: none; transform: none; box-shadow: none; }
+.form-footer {
             display: -webkit-flex; display: flex; -webkit-justify-content: center; justify-content: center;
             margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--gray-100);
         }
-        .form-footer > * + * { margin-left: 16px; }
-        .form-footer-item { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; font-size: 11px; color: var(--text-muted); }
-        .form-footer-item svg { width: 14px; height: 14px; color: var(--green); margin-right: 5px; }
-        .form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; -webkit-justify-content: center; justify-content: center; margin: 0 auto 20px; }
-
-        /* Consultation Form Section */
-        .consultation-cta-section {
+.form-footer > * + * { margin-left: 16px; }
+.form-footer-item { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; font-size: 11px; color: var(--text-muted); }
+.form-footer-item svg { width: 14px; height: 14px; color: var(--green); margin-right: 5px; }
+.form-success-icon { width: 64px; height: 64px; background: rgba(16,185,129,0.12); border-radius: 50%; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; -webkit-justify-content: center; justify-content: center; margin: 0 auto 20px; }
+/* Consultation Form Section */
+.consultation-cta-section {
             padding: 56px 32px;
             background: var(--gray-50);
         }
-        .consultation-cta-container {
+.consultation-cta-container {
             max-width: 1320px; margin: 0 auto;
             display: -ms-grid; display: -webkit-grid; display: grid;
             grid-template-columns: 1fr 1fr; grid-gap: 48px; gap: 48px;
             -webkit-align-items: center; align-items: center;
         }
-        .consultation-cta-text h2 { margin-bottom: 16px; }
-        .consultation-cta-text p { font-size: 15px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 24px; }
-        .consultation-cta-features { list-style: none; padding: 0; margin: 0; }
-        .consultation-cta-features li {
+.consultation-cta-text h2 { margin-bottom: 16px; }
+.consultation-cta-text p { font-size: 15px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 24px; }
+.consultation-cta-features { list-style: none; padding: 0; margin: 0; }
+.consultation-cta-features li {
             display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center;
             font-size: 14px; color: var(--text-secondary);
             padding: 8px 0; font-weight: 500;
         }
-        .consultation-cta-features li svg { width: 20px; height: 20px; color: var(--green); -webkit-flex-shrink: 0; flex-shrink: 0; margin-right: 10px; }
-
-        @media (max-width: 768px) {
-            .consultation-cta-section { padding: 40px 16px; }
-            .consultation-cta-container { grid-template-columns: 1fr; grid-gap: 32px; gap: 32px; }
-            .form-card { max-width: 100%; }
-            .form-footer { -webkit-flex-wrap: wrap; flex-wrap: wrap; }
-            .form-footer > * + * { margin-left: 0; }
-            .form-footer > * { margin-right: 10px; margin-bottom: 6px; }
-        }
-        @media (max-width: 480px) {
-        }
-
-        /* ============================================
+.consultation-cta-features li svg { width: 20px; height: 20px; color: var(--green); -webkit-flex-shrink: 0; flex-shrink: 0; margin-right: 10px; }
+@media (max-width: 768px) {.consultation-cta-section { padding: 40px 16px; }
+.consultation-cta-container { grid-template-columns: 1fr; grid-gap: 32px; gap: 32px; }
+.form-card { max-width: 100%; }
+.form-footer { -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+.form-footer > * + * { margin-left: 0; }
+.form-footer > * { margin-right: 10px; margin-bottom: 6px; }}
+/* ============================================
            REVIEWS CTA BANNER
            ============================================ */
-        .reviews-cta {
-            margin-top: 40px; padding: 28px 32px; background: var(--blue);
-            border-radius: var(--radius-lg); display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-        }
-        .reviews-cta-content { display: flex; align-items: center; gap: 16px; }
-        .reviews-cta-icon {
-            width: 48px; height: 48px; background: rgba(255,255,255,0.1);
-            border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-        }
-        .reviews-cta-icon svg { width: 24px; height: 24px; color: var(--white); }
-        .reviews-cta-text h3 { font-size: 18px; font-weight: 700; color: #FFFFFF !important; margin-bottom: 2px; margin-top: 0; }
-        .reviews-cta-text p { font-size: 13px; color: rgba(255,255,255,0.7); margin: 0; }
-        .btn-cta-talk {
+.btn-cta-talk {
             display: inline-flex; align-items: center; gap: 8px;
             padding: 12px 24px; font-family: 'Barlow', sans-serif; font-size: 14px; font-weight: 700;
             color: var(--blue); background: var(--white); border: none;
             border-radius: var(--radius-md); cursor: pointer; transition: all 0.25s ease; text-decoration: none;
         }
-        .btn-cta-talk:hover { background: var(--orange-light); color: var(--orange); }
-        .btn-cta-talk svg { width: 16px; height: 16px; }
-
-        @media (max-width: 768px) {
-            .reviews-cta { flex-direction: column; text-align: center; }
-            .reviews-cta-content { flex-direction: column; }
-        }
-
-        /* ============================================
+.btn-cta-talk:hover { background: var(--orange-light); color: var(--orange); }
+.btn-cta-talk svg { width: 16px; height: 16px; }
+/* ============================================
            WHATSAPP COMMUNITY STICKY BAR
            ============================================ */
-        .whatsapp-sticky-bar {
+.whatsapp-sticky-bar {
             position: fixed; bottom: 0; left: 0; right: 0;
             background: #25D366; color: white;
             padding: 10px 20px;
@@ -1034,39 +980,36 @@
             animation: slideUpBar 0.5s ease 2s forwards;
             -webkit-animation: slideUpBar 0.5s ease 2s forwards;
         }
-        @-webkit-keyframes slideUpBar { to { -webkit-transform: translateY(0); transform: translateY(0); } }
-        @keyframes slideUpBar { to { -webkit-transform: translateY(0); transform: translateY(0); } }
-        .whatsapp-sticky-bar .wsb-icon { width: 24px; height: 24px; flex-shrink: 0; }
-        .whatsapp-sticky-bar .wsb-text { font-size: 14px; font-weight: 600; }
-        .whatsapp-sticky-bar .wsb-text span { font-weight: 400; opacity: 0.9; }
-        .whatsapp-sticky-bar .wsb-btn {
+@-webkit-keyframes slideUpBar { to { -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes slideUpBar { to { -webkit-transform: translateY(0); transform: translateY(0); } }
+.whatsapp-sticky-bar .wsb-icon { width: 24px; height: 24px; flex-shrink: 0; }
+.whatsapp-sticky-bar .wsb-text { font-size: 14px; font-weight: 600; }
+.whatsapp-sticky-bar .wsb-text span { font-weight: 400; opacity: 0.9; }
+.whatsapp-sticky-bar .wsb-btn {
             background: white; color: #25D366; border: none; padding: 6px 18px;
             border-radius: 50px; font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.2s; text-decoration: none;
         }
-        .whatsapp-sticky-bar .wsb-btn:hover { background: #f0f0f0; }
-        .whatsapp-sticky-bar .wsb-close {
+.whatsapp-sticky-bar .wsb-btn:hover { background: #f0f0f0; }
+.whatsapp-sticky-bar .wsb-close {
             background: none; border: none; color: white; font-size: 20px; cursor: pointer;
             padding: 0 4px; opacity: 0.7; transition: opacity 0.2s;
         }
-        .whatsapp-sticky-bar .wsb-close:hover { opacity: 1; }
-        @media (max-width: 576px) {
-            .whatsapp-sticky-bar { padding: 8px 12px; padding-bottom: calc(8px + env(safe-area-inset-bottom, 0px)); gap: 8px; transform: translateY(0) !important; animation: none !important; }
-            .whatsapp-sticky-bar .wsb-text { font-size: 12px; }
-            .whatsapp-sticky-bar .wsb-text span { display: none; }
-            .whatsapp-sticky-bar .wsb-close { display: none !important; }
-        }
-
-        /* ============================================
+.whatsapp-sticky-bar .wsb-close:hover { opacity: 1; }
+@media (max-width: 576px) {.whatsapp-sticky-bar { padding: 8px 12px; padding-bottom: calc(8px + env(safe-area-inset-bottom, 0px)); gap: 8px; transform: translateY(0) !important; animation: none !important; }
+.whatsapp-sticky-bar .wsb-text { font-size: 12px; }
+.whatsapp-sticky-bar .wsb-text span { display: none; }
+.whatsapp-sticky-bar .wsb-close { display: none !important; }}
+/* ============================================
            CTA BLOCK DARK
            ============================================ */
-        .cta-block-dark {
+.cta-block-dark {
             padding: 64px 32px;
             background: linear-gradient(135deg, var(--blue) 0%, #0F2440 100%);
             text-align: center;
             position: relative;
             overflow: hidden;
         }
-        .cta-block-dark::before {
+.cta-block-dark::before {
             content: '';
             position: absolute;
             top: -50%; right: -20%;
@@ -1074,239 +1017,135 @@
             background: radial-gradient(circle, rgba(232,113,44,0.12) 0%, transparent 60%);
             border-radius: 50%;
         }
-        .cta-block-dark-inner {
+.cta-block-dark-inner {
             max-width: 800px; margin: 0 auto; position: relative; z-index: 1;
         }
-        .cta-block-dark h2 { color: var(--white); font-size: clamp(24px, 3vw, 32px); margin-bottom: 16px; }
-        .cta-block-dark p { color: rgba(255,255,255,0.75); font-size: 15px; line-height: 1.7; margin-bottom: 28px; }
-        .cta-block-dark-buttons {
+.cta-block-dark h2 { color: var(--white); font-size: clamp(24px, 3vw, 32px); margin-bottom: 16px; }
+.cta-block-dark p { color: rgba(255,255,255,0.75); font-size: 15px; line-height: 1.7; margin-bottom: 28px; }
+.cta-block-dark-buttons {
             display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap;
         }
-        .cta-block-dark-buttons a {
+.cta-block-dark-buttons a {
             display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px;
             border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; transition: all 0.25s;
         }
-        .cta-block-dark-buttons .btn-call { background: var(--orange); color: #fff; }
-        .cta-block-dark-buttons .btn-call:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
-        .cta-block-dark-buttons .btn-wa { background: #25D366; color: #fff; }
-        .cta-block-dark-buttons .btn-wa:hover { filter: brightness(1.1); transform: translateY(-2px); }
-        .cta-block-dark-buttons .btn-email { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.3); }
-        .cta-block-dark-buttons .btn-email:hover { border-color: #fff; background: rgba(255,255,255,0.08); }
-        @media (max-width: 768px) {
-            .cta-block-dark { padding: 32px 16px; }
-            .cta-block-dark h2 { font-size: 20px; margin-bottom: 10px; }
-            .cta-block-dark p { font-size: 13px; margin-bottom: 20px; display: none; }
-            .cta-block-dark-buttons { flex-direction: column; width: 100%; }
-            .cta-block-dark-buttons a { width: 100%; justify-content: center; padding: 12px 20px; font-size: 14px; }
-        }
-
-        /* ============================================
+.cta-block-dark-buttons .btn-call { background: var(--orange); color: #fff; }
+.cta-block-dark-buttons .btn-call:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(232,113,44,0.35); }
+.cta-block-dark-buttons .btn-wa { background: #25D366; color: #fff; }
+.cta-block-dark-buttons .btn-wa:hover { filter: brightness(1.1); transform: translateY(-2px); }
+.cta-block-dark-buttons .btn-email { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.3); }
+.cta-block-dark-buttons .btn-email:hover { border-color: #fff; background: rgba(255,255,255,0.08); }
+@media (max-width: 768px) {.cta-block-dark { padding: 32px 16px; }
+.cta-block-dark h2 { font-size: 20px; margin-bottom: 10px; }
+.cta-block-dark p { font-size: 13px; margin-bottom: 20px; display: none; }
+.cta-block-dark-buttons { flex-direction: column; width: 100%; }
+.cta-block-dark-buttons a { width: 100%; justify-content: center; padding: 12px 20px; font-size: 14px; }}
+/* ============================================
            TESTIMONIALS SECTION (Pure CSS Infinite Scroll)
            ============================================ */
-        .testimonials-section {
-            padding: 72px 32px; background: var(--white); overflow: hidden;
-        }
-        .testimonials-container { max-width: 1320px; margin: 0 auto; }
-        .testimonials-header { text-align: center; margin-bottom: 40px; }
-        .testimonials-header h2 { font-size: clamp(26px, 3.5vw, 34px); font-weight: 800; color: var(--blue); margin-bottom: 10px; }
-        .testimonials-header p { font-size: 15px; color: var(--text-muted); }
-
-        /* Infinite scroll track */
-        .testi-scroll-wrapper {
-            overflow: hidden;
-            position: relative;
-            width: 100%;
-        }
-        .testi-scroll-track {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-flex-wrap: nowrap;
-            flex-wrap: nowrap;
-            width: -webkit-fit-content;
-            width: fit-content;
-            will-change: transform;
-            -webkit-animation: testiScroll 45s linear infinite;
-            animation: testiScroll 45s linear infinite;
-        }
-        .testi-scroll-track .testi-quote-card {
-            margin-right: 20px;
-        }
-        .testi-scroll-track:hover {
-            -webkit-animation-play-state: paused;
-            animation-play-state: paused;
-        }
-        @-webkit-keyframes testiScroll {
+/* Infinite scroll track */
+@-webkit-keyframes testiScroll {
             from { -webkit-transform: translate3d(0, 0, 0); }
             to { -webkit-transform: translate3d(-50%, 0, 0); }
         }
-        @keyframes testiScroll {
+@keyframes testiScroll {
             from { transform: translate3d(0, 0, 0); }
             to { transform: translate3d(-50%, 0, 0); }
         }
-
-        /* Quote Testimonial Card */
-        .testi-quote-card {
-            background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg);
-            padding: 24px; width: 340px; min-width: 340px; height: 320px;
-            display: flex; flex-direction: column; justify-content: space-between;
-            transition: border-color 0.25s ease, box-shadow 0.25s ease;
-            flex-shrink: 0;
-            -webkit-transform: translateZ(0); transform: translateZ(0);
-        }
-        .testi-quote-card:hover { border-color: var(--orange); box-shadow: var(--shadow-md); }
-        .testi-quote-icon { color: var(--orange); opacity: 0.25; margin-bottom: 8px; }
-        .testi-quote-icon svg { width: 24px; height: 24px; }
-        .testi-quote-text {
-            font-size: 14px; line-height: 1.65; color: var(--text-secondary); flex: 1;
-            display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden;
-        }
-        .testi-footer { display: flex; flex-direction: column; gap: 8px; padding-top: 16px; border-top: 1px solid var(--gray-100); }
-        .testi-author { display: flex; align-items: center; gap: 10px; }
-        .testi-avatar {
-            width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
-            font-size: 14px; font-weight: 700; color: var(--white); flex-shrink: 0; overflow: hidden; background: var(--orange);
-        }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .testi-avatar.blue { background: var(--blue); }
-        .testi-avatar.teal { background: #0D9488; }
-        .testi-avatar.purple { background: #7C3AED; }
-        .testi-name { font-size: 14px; font-weight: 700; color: var(--text-primary); line-height: 1.2; }
-        .testi-role { font-size: 12px; color: var(--text-muted); }
-        .testi-rating-row { display: flex; align-items: center; justify-content: space-between; }
-        .testi-stars { display: flex; gap: 1px; }
-        .testi-stars svg { width: 12px; height: 12px; fill: var(--gold); color: var(--gold); }
-        .testi-google-badge { width: 22px; height: 22px; }
-        .testi-google-badge img { width: 100%; height: 100%; }
-
-        @media (max-width: 768px) {
-            .testimonials-section { padding: 48px 16px; }
-            .testi-quote-card { width: 290px; min-width: 290px; height: 300px; }
-            .testi-scroll-track { -webkit-animation-duration: 30s; animation-duration: 30s; }
-            .testi-scroll-track .testi-quote-card { margin-right: 14px; }
-        }
-        @media (max-width: 480px) {
-            .testi-quote-card { width: 260px; min-width: 260px; }
-        }
-
-        /* Smooth scroll offset */
-        [id] { scroll-margin-top: 70px; }
-
-        /* Category Colors */
-        .cat-accounting { background: #1B365D; }
-        .cat-payroll { background: #059669; }
-        .cat-gst { background: #D97706; }
-        .cat-finance { background: #7C3AED; }
-        .cat-compliance { background: #DC2626; }
-        .cat-traffic { background: #0891B2; }
-
-        .tool-icon.cat-accounting { background: #EEF2F7; }
-        .tool-icon.cat-accounting svg { color: #1B365D; }
-        .tool-icon.cat-payroll { background: #D1FAE5; }
-        .tool-icon.cat-payroll svg { color: #059669; }
-        .tool-icon.cat-gst { background: #FEF3C7; }
-        .tool-icon.cat-gst svg { color: #D97706; }
-        .tool-icon.cat-finance { background: #EDE9FE; }
-        .tool-icon.cat-finance svg { color: #7C3AED; }
-        .tool-icon.cat-compliance { background: #FEE2E2; }
-        .tool-icon.cat-compliance svg { color: #DC2626; }
-        .tool-icon.cat-traffic { background: #CFFAFE; }
-        .tool-icon.cat-traffic svg { color: #0891B2; }
-        /* ============================================
+/* Quote Testimonial Card */
+/* Smooth scroll offset */
+[id] { scroll-margin-top: 70px; }
+/* Category Colors */
+.cat-accounting { background: #1B365D; }
+.cat-payroll { background: #059669; }
+.cat-gst { background: #D97706; }
+.cat-finance { background: #7C3AED; }
+.cat-compliance { background: #DC2626; }
+.cat-traffic { background: #0891B2; }
+.tool-icon.cat-accounting { background: #EEF2F7; }
+.tool-icon.cat-accounting svg { color: #1B365D; }
+.tool-icon.cat-payroll { background: #D1FAE5; }
+.tool-icon.cat-payroll svg { color: #059669; }
+.tool-icon.cat-gst { background: #FEF3C7; }
+.tool-icon.cat-gst svg { color: #D97706; }
+.tool-icon.cat-finance { background: #EDE9FE; }
+.tool-icon.cat-finance svg { color: #7C3AED; }
+.tool-icon.cat-compliance { background: #FEE2E2; }
+.tool-icon.cat-compliance svg { color: #DC2626; }
+.tool-icon.cat-traffic { background: #CFFAFE; }
+.tool-icon.cat-traffic svg { color: #0891B2; }
+/* ============================================
            iOS / SAFARI COMPATIBILITY FIXES
            ============================================ */
-
-        /* Subtle tap highlight for interactive elements */
-        a, input, select, textarea, .tool-card, .why-card {
+/* Subtle tap highlight for interactive elements */
+a, input, select, textarea, .tool-card, .why-card {
             -webkit-tap-highlight-color: rgba(232,113,44,0.1);
         }
-        /* Buttons get immediate visual feedback */
-        button, .cat-btn, .btn-submit, .btn-cta-primary {
+/* Buttons get immediate visual feedback */
+button, .cat-btn, .btn-submit, .btn-cta-primary {
             -webkit-tap-highlight-color: rgba(232,113,44,0.2);
         }
-
-        /* Fix iOS Safari 100vh issue (address bar) */
-        @supports (-webkit-touch-callout: none) {
-            .tools-hero {
+/* Fix iOS Safari 100vh issue (address bar) */
+@supports (-webkit-touch-callout: none) {.tools-hero {
                 min-height: -webkit-fill-available;
-            }
-        }
-
-        /* iOS Safari: Fix sticky positioning */
-        @supports (-webkit-overflow-scrolling: touch) {
-            .category-nav {
+            }}
+/* iOS Safari: Fix sticky positioning */
+@supports (-webkit-overflow-scrolling: touch) {.category-nav {
                 position: -webkit-sticky;
                 position: sticky;
-            }
-        }
-
-        /* Fix iOS Safari border-radius + overflow clipping */
-        .tool-card, .testi-quote-card, .testi-video-card, .form-card, .why-card {
+            }}
+/* Fix iOS Safari border-radius + overflow clipping */
+.tool-card, .testi-quote-card, .testi-video-card, .form-card, .why-card {
             -webkit-transform: translateZ(0);
             transform: translateZ(0);
         }
-
-        /* Fix iOS button styling override */
-        .btn-submit, .btn-cta-primary, .btn-cta-secondary, .btn-cta-talk,
+/* Fix iOS button styling override */
+.btn-submit, .btn-cta-primary, .btn-cta-secondary, .btn-cta-talk,
         .cat-btn, .search-clear, .wsb-btn, .wsb-close {
             -webkit-appearance: none;
             appearance: none;
         }
-
-        /* iOS: Prevent auto-zoom on input focus (must be 16px+) */
-        @media screen and (-webkit-min-device-pixel-ratio: 0) {
-            input[type="text"], input[type="tel"], input[type="email"],
+/* iOS: Prevent auto-zoom on input focus (must be 16px+) */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {input[type="text"], input[type="tel"], input[type="email"],
             input[type="number"], select, textarea {
                 font-size: 16px !important;
-            }
-        }
-
-        /* iOS: Fix flexbox gap fallback for older Safari versions */
-        @supports not (gap: 1px) {
-            .hero-stats > * + * { margin-left: 40px; }
-            .mid-cta-buttons > * + * { margin-left: 14px; }
-            .cta-block-dark-buttons > * + * { margin-left: 14px; }
-            .stats-container > * + * { margin-left: 40px; }
-            .ols-offices > * + * { margin-left: 24px; }
-        }
-
-        /* iOS: Fix safe area for bottom-fixed elements */
-        @supports (padding-bottom: env(safe-area-inset-bottom)) {
-            .whatsapp-sticky-bar {
+            }}
+/* iOS: Fix flexbox gap fallback for older Safari versions */
+@supports not (gap: 1px) {.hero-stats > * + * { margin-left: 40px; }
+.mid-cta-buttons > * + * { margin-left: 14px; }
+.cta-block-dark-buttons > * + * { margin-left: 14px; }
+.stats-container > * + * { margin-left: 40px; }
+.ols-offices > * + * { margin-left: 24px; }}
+/* iOS: Fix safe area for bottom-fixed elements */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {.whatsapp-sticky-bar {
                 padding-bottom: calc(10px + env(safe-area-inset-bottom));
             }
-            .office-locations-strip {
+.office-locations-strip {
                 padding-bottom: calc(20px + env(safe-area-inset-bottom));
-            }
-        }
-
-        /* iOS: Smooth momentum scrolling for overflow containers */
-        .category-nav-inner,
+            }}
+/* iOS: Smooth momentum scrolling for overflow containers */
+.category-nav-inner,
         .country-options,
         .tools-container {
             -webkit-overflow-scrolling: touch;
         }
-
-        /* iOS: Fix transform animations for better performance */
-        .tool-card, .why-card, .btn-submit, .btn-cta-primary {
+/* iOS: Fix transform animations for better performance */
+.tool-card, .why-card, .btn-submit, .btn-cta-primary {
             -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
             -webkit-perspective: 1000;
             perspective: 1000;
         }
-
-        /* iOS: Fix fadeInUp animation with webkit prefix */
-        @-webkit-keyframes fadeInUp {
+/* iOS: Fix fadeInUp animation with webkit prefix */
+@-webkit-keyframes fadeInUp {
             from { opacity: 0; -webkit-transform: translateY(20px); transform: translateY(20px); }
             to { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
         }
-        @-webkit-keyframes fadeInForm {
+@-webkit-keyframes fadeInForm {
             from { opacity: 0; -webkit-transform: translateY(16px); transform: translateY(16px); }
             to { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
         }
-        @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
-
-    </style>
+@-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }</style>
 @endpush
 @section('content')
 <main>
@@ -1890,55 +1729,10 @@
 <!-- ========================================
      TESTIMONIALS SECTION
      ======================================== -->
-<section class="testimonials-section">
-    <div class="testimonials-container">
-        <div class="testimonials-header">
-            <div class="section-eyebrow">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                CLIENT REVIEWS
-            </div>
-            <h2>Real Stories from Real Businesses</h2>
-            <p>Hear how teams across industries use Patron to save time, cut costs, &amp; stay compliant.</p>
-        </div>
-
-        <!-- Pure CSS Infinite Scroll — All cards hardcoded, duplicated for seamless loop -->
-        <div class="testi-scroll-wrapper">
-            <div class="testi-scroll-track">
-                <!-- SET 1 (original 10 cards) -->
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I have had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Subhendu Mishra</div><div class="testi-role">2 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I am glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">R</div><div><div class="testi-name">Rajib Dutta</div><div class="testi-role">3 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar teal">N</div><div><div class="testi-name">Nishikant Gurav</div><div class="testi-role">1 month ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar purple">N</div><div><div class="testi-name">Nikhil Nimbhorkar</div><div class="testi-role">4 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Sameer Mehta</div><div class="testi-role">2 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">P</div><div><div class="testi-name">Preeti Singh Rathor</div><div class="testi-role">3 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar teal">A</div><div><div class="testi-name">Anita Gaur</div><div class="testi-role">5 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar purple">P</div><div><div class="testi-name">Pankaj Arvikar</div><div class="testi-role">1 month ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Sunny Ashpal</div><div class="testi-role">Director - Demandify Media</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">A</div><div><div class="testi-name">Anjanay Srivastava</div><div class="testi-role">Founder - Hunarsource Consulting</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <!-- SET 2 (duplicate for seamless loop) -->
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I have had an outstanding experience working with my CA - Patron Accounting. Their professionalism, attention to detail, and timely communication made the entire process seamless and stress-free.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Subhendu Mishra</div><div class="testi-role">2 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I am glad that I was able to connect with Patron. They took the minimum time to do the calculations based on the details provided by me and were really helpful throughout the process.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">R</div><div><div class="testi-name">Rajib Dutta</div><div class="testi-role">3 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Really a fantastic experience with Patron Accounting especially Shubham, he was extremely great. Knowledgeable person who deserves the 5 star for smooth handling of all documentation.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar teal">N</div><div><div class="testi-name">Nishikant Gurav</div><div class="testi-role">1 month ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Patron Accounting gives the best service related to all account handling of our firm. I am blessed and extremely happy that Patron Accounting assigned us a dedicated point of contact.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar purple">N</div><div><div class="testi-name">Nikhil Nimbhorkar</div><div class="testi-role">4 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I have called Patron to file ITR for my 5 family members. I worked with Shubham Junjunwala and Amin Jain. It was a smooth process. They understand basics very well and respond promptly.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Sameer Mehta</div><div class="testi-role">2 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">From the very beginning, their approach has been highly professional, prompt, and solution-oriented. Every interaction reflected their deep knowledge and commitment to helping clients.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">P</div><div><div class="testi-name">Preeti Singh Rathor</div><div class="testi-role">3 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Very proficient and professional staff. Do fantastic job and instant response. Strongly recommended engaging them for all accounting needs specially for startups and growing businesses.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar teal">A</div><div><div class="testi-name">Anita Gaur</div><div class="testi-role">5 months ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">I contacted them to file the ITR. Shubham was the POC for me and he was really very professional and giving prompt responses. Highly recommend them for tax and compliance work.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar purple">P</div><div><div class="testi-name">Pankaj Arvikar</div><div class="testi-role">1 month ago</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Excellent service for company registration and compliance. The team is very responsive and handles everything end to end. A trusted partner for Demandify Media.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Sunny Ashpal</div><div class="testi-role">Director - Demandify Media</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-                <div class="testi-quote-card"><div class="testi-quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div><p class="testi-quote-text">Professional and timely service. Patron Accounting handled our company incorporation and compliance with great expertise. Highly recommended for startups.</p><div class="testi-footer"><div class="testi-author"><div class="testi-avatar blue">A</div><div><div class="testi-name">Anjanay Srivastava</div><div class="testi-role">Founder - Hunarsource Consulting</div></div></div><div class="testi-rating-row"><div class="testi-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><div class="testi-google-badge"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div></div></div></div>
-            </div>
-        </div>
-
-        <!-- Reviews CTA Banner -->
-        <div class="reviews-cta" style="margin-top: 40px; display: flex !important;">
-            <div class="reviews-cta-content">
-                <div class="reviews-cta-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
-                <div class="reviews-cta-text"><h3 style="color:#FFFFFF !important;margin-top:0;">Join 25,000+ Satisfied Businesses</h3><p>Get expert assistance for all your business compliance needs</p></div>
-            </div>
-            <a href="tel:+919459456700" class="btn-cta-talk">Talk to an Expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
-        </div>
-    </div>
-</section>
+@include('partials.testimonials', [
+    'ctaTitle'   => 'Join 25,000+ Satisfied Businesses',
+    'ctaText'    => 'Get expert assistance for all your business compliance needs',
+])
 
 <!-- ========================================
      CONSULTATION FORM CTA SECTION

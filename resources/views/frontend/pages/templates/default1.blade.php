@@ -4255,7 +4255,7 @@ section ul li:not(.nav-item)::before {
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" 
                     style="position: absolute; top: 6px; right: 8px; z-index: 1050; background-color: white; opacity: 1; border-radius: 50%; padding: 0.5rem;"></button>
                 <div style="border-radius: 8px; overflow: hidden;">
-                    <img src="{{ asset('images/dummy-img.jpeg') }}" alt="Document" class="img-fluid w-100" style="border-radius: 8px;">
+                    <img src="{{ asset('images/dummy-img.webp') }}" alt="Document" class="img-fluid w-100" style="border-radius: 8px;">
                 </div>
             </div>
         </div>

@@ -2465,7 +2465,7 @@
                 </div>
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/patron_1.png') }}" alt="Responsive Client Communication">
+                    <img src="{{ asset('images/patron_1.webp') }}" alt="Responsive Client Communication">
                 </div>
             </div>
         </div>
@@ -2479,7 +2479,7 @@
             <div class="client-communication-content">
 
             <div class="client-communication-image">
-                    <img src="{{ asset('images/patron_2.png') }}" alt="Proactive Compliance Monitoring">
+                    <img src="{{ asset('images/patron_2.webp') }}" alt="Proactive Compliance Monitoring">
                 </div>
 
 
@@ -2519,7 +2519,7 @@
                 </div>
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/patron_2.png') }}" alt="End-to-End Process Management">
+                    <img src="{{ asset('images/patron_2.webp') }}" alt="End-to-End Process Management">
                 </div>
             </div>
         </div>
@@ -2542,7 +2542,7 @@
             </div>
 
             <div class="more-than-legal-image">
-                <img src="{{ asset('images/patron_3.png') }}" alt="More Than Legal - Business Backbone">
+                <img src="{{ asset('images/patron_3.webp') }}" alt="More Than Legal - Business Backbone">
             </div>
         </div>
     </div>

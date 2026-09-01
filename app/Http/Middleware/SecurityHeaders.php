@@ -43,6 +43,8 @@ class SecurityHeaders
 
     private const STYLE_SRC = [
         'https://cdn.jsdelivr.net',
+        // Font Awesome 6.4.0, loaded by the /accounting-standards pages only.
+        'https://cdnjs.cloudflare.com',
         'https://fonts.googleapis.com',
         'https://tagmanager.google.com',
         'https://*.zohostatic.in',
@@ -51,6 +53,8 @@ class SecurityHeaders
     private const FONT_SRC = [
         'https://fonts.gstatic.com',
         'https://cdn.jsdelivr.net',
+        // Font Awesome's stylesheet pulls its icon fonts from the same host.
+        'https://cdnjs.cloudflare.com',
     ];
 
     private const FRAME_SRC = [

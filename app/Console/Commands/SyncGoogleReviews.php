@@ -106,7 +106,7 @@ class SyncGoogleReviews extends Command
 
         $this->line('');
         $this->table(
-            ['Location', 'City', 'Google says', 'We hold', 'New', 'Updated', 'Unchanged'],
+            ['Location', 'Listing city', 'Google says', 'We hold', 'New', 'Updated', 'Unchanged'],
             $rows
         );
 
@@ -184,7 +184,7 @@ class SyncGoogleReviews extends Command
                 }
 
                 if (!$dryRun) {
-                    $this->store($review, $id, $location, $city, $existing);
+                    $this->store($review, $id, $location, $existing);
                 }
 
                 if ($existing) {
@@ -220,7 +220,7 @@ class SyncGoogleReviews extends Command
      * A review typed in by hand is never overwritten: if a row carries the same
      * Google id it came from the sync, and anything else is left alone.
      */
-    private function store(array $review, string $id, array $location, ?string $city, ?Testimonial $existing): void
+    private function store(array $review, string $id, array $location, ?Testimonial $existing): void
     {
         $reviewer = $review['reviewer'] ?? [];
 
@@ -244,16 +244,27 @@ class SyncGoogleReviews extends Command
             return;
         }
 
+        // `city` is deliberately not filled in from the listing. Clients from
+        // all over India leave their reviews on the Pune listing, so the
+        // listing's city says nothing about where the reviewer is - writing
+        // "Pune" here would record a fact that is usually false. The listing is
+        // already captured, accurately, in location_id.
+        //
+        // `city` means "the client's city, established by a person". Left null
+        // until someone actually knows it.
         Testimonial::create($attributes + [
             'google_review_id' => $id,
-            'city'             => $city,
             'status'           => config('google-business.incoming_status', 'draft'),
             'sort_order'       => 0,
         ]);
     }
 
     /**
-     * Match a Google location to the city name the site's pages use.
+     * The city of the LISTING, for the console summary only.
+     *
+     * Not the reviewer's city, and not stored: clients across India leave
+     * their reviews on the Pune listing, so this says where the review was
+     * left, never where the client is.
      */
     private function mapCity(array $location): ?string
     {

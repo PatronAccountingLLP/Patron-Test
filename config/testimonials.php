@@ -27,24 +27,29 @@ return [
     /*
      * How a page picks its reviews, once these come from the database.
      * ------------------------------------------------------------------
-     * Nearly all of Patron's Google reviews sit on the Pune listing. The other
-     * city listings have very few. Two things follow, and both are easy to get
-     * wrong:
+     * Clients from all over India leave their reviews on the Pune listing -
+     * it is the profile people find. So the reviews sitting under "Pune" are
+     * national, not local, and everything follows from that:
      *
-     * 1. City is NOT a display filter. Filtering by city would leave the
-     *    Delhi, Mumbai, Gurugram and Ahmedabad pages with nothing to show.
-     *    The `city` column records where a review was left - provenance, for
-     *    auditing - not who may see it.
+     * 1. Showing every review on every page is the ACCURATE choice, not a
+     *    fallback we settle for. These reviewers really are clients from
+     *    across India.
      *
-     * 2. A review must never be captioned as coming from a city it did not.
+     * 2. City is not a display filter, and could not be a useful one. Nothing
+     *    in a Google review says where the reviewer is.
+     *
+     * 3. No review may be captioned as coming from any city - Pune included.
      *    Fifteen pages carry headings like "Delhi Clients Who Have Needed This
-     *    Certificate". Showing a Pune reviewer under that heading asserts
-     *    something untrue about a named, real person. Those headings have to
-     *    change, or those pages must show only reviews genuinely from that
-     *    city - not the other way round.
+     *    Certificate" and "Pune Applicants We Have Certified For". Putting a
+     *    reviewer under either asserts something about a named, real person
+     *    that nobody has established. Those headings need rewording.
      *
-     * Service is the axis that actually works, because it is tagged by hand
-     * and does not depend on which listing the review landed on.
+     * The `city` column therefore means "the client's city, established by a
+     * person", and stays empty until someone actually knows it. Which listing
+     * a review was left on is recorded accurately in `location_id`.
+     *
+     * Service is the axis that works: tagged by hand, and independent of which
+     * listing the review happened to land on.
      */
     'selection' => [
 

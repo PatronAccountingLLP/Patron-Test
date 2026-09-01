@@ -2252,7 +2252,7 @@
     "@type": "VideoObject",
     "name": "About Patron Accounting — Who We Are",
     "description": "Learn how Patron Accounting helps startups and SMEs with accounting, compliance, ITR filing, GST, payroll, and corporate legal services across India. Founded by CA Sundram Gupta with offices in Pune, Mumbai, and Delhi.",
-    "thumbnailUrl": "https://www.patronaccounting.com/images/whoweare.jpg",
+    "thumbnailUrl": "https://www.patronaccounting.com/images/whoweare.webp",
     "uploadDate": "2024-01-01T00:00:00+05:30",
     "contentUrl": "https://www.youtube.com/watch?v=oVkvHKafp70",
     "embedUrl": "https://www.youtube.com/embed/oVkvHKafp70",
@@ -2344,7 +2344,7 @@
                 <!-- Left Content -->
                 <div class="col-lg-12 mb-4 mb-lg-0">
                     <div class="hero-image-wrapper">
-                        <img src="{{ asset('images/banner.jpg') }}" alt="Patron Accounting — CA firm serving startups and SMEs across India" class="hero-image">
+                        <img src="{{ asset('images/banner.webp') }}" alt="Patron Accounting — CA firm serving startups and SMEs across India" class="hero-image">
                     </div>
                 </div>
             </div>
@@ -2531,7 +2531,7 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <img src="{{ asset('images/chartered.png') }}" alt="Patron Accounting Team" class="img-fluid rounded-4 shadow-lg"
+                <img src="{{ asset('images/chartered.webp') }}" alt="Patron Accounting Team" class="img-fluid rounded-4 shadow-lg"
                     style="width: 100%; height: auto; object-fit: cover; border-radius: 24px !important;"
                     onerror="this.src='https://via.placeholder.com/1200x600/f0f0f0/666666?text=Office+Team'" loading="lazy">
             </div>
@@ -2847,7 +2847,7 @@
                 <div class="video-wrapper position-relative" style="border-radius: 24px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); background: #14365F;">
                     <!-- YouTube Video: https://youtu.be/oVkvHKafp70 -->
                     <div id="youtubeThumb" style="position: relative; cursor: pointer; aspect-ratio: 16/9;" onclick="this.outerHTML='<iframe src=\'https://www.youtube.com/embed/oVkvHKafp70?autoplay=1&rel=0\' frameborder=\'0\' allow=\'autoplay; encrypted-media\' allowfullscreen style=\'width:100%;aspect-ratio:16/9;display:block;border-radius:24px;\'></iframe>'">
-                        <img src="{{ asset('images/whoweare.jpg') }}" alt="Watch Patron Accounting introduction video" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy">
+                        <img src="{{ asset('images/whoweare.webp') }}" alt="Watch Patron Accounting introduction video" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy">
                         <!-- Play Button Overlay -->
                         <div class="position-absolute top-50 start-50 translate-middle" style="display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 10;">
                             <img src="{{ asset('images/play_circle.png') }}" alt="Play video — Watch our story" style="width: 67px; height: 67px;" loading="lazy">
@@ -2960,7 +2960,7 @@
                 </div>
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/responsive client communication.png') }}" alt="Responsive Client Communication" loading="lazy">
+                    <img src="{{ asset('images/responsive client communication.webp') }}" alt="Responsive Client Communication" loading="lazy">
                 </div>
             </div>
         </div>
@@ -2974,7 +2974,7 @@
             <div class="client-communication-content">
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/protective compliance monitoring.png') }}" alt="Proactive Compliance Monitoring" loading="lazy">
+                    <img src="{{ asset('images/protective compliance monitoring.webp') }}" alt="Proactive Compliance Monitoring" loading="lazy">
                 </div>
 
 
@@ -3012,7 +3012,7 @@
                 </div>
 
                 <div class="client-communication-image">
-                    <img src="{{ asset('images/end to end process.png') }}" alt="End-to-End Process Management" loading="lazy">
+                    <img src="{{ asset('images/end to end process.webp') }}" alt="End-to-End Process Management" loading="lazy">
                 </div>
             </div>
         </div>
@@ -3043,7 +3043,7 @@
             </div>
 
             <div class="more-than-legal-image">
-                <img src="{{ asset('images/patron_3.png') }}" alt="More Than Legal - Business Backbone" loading="lazy">
+                <img src="{{ asset('images/patron_3.webp') }}" alt="More Than Legal - Business Backbone" loading="lazy">
             </div>
         </div>
     </div>

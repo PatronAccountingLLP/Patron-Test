@@ -864,7 +864,7 @@ div#teamTabsContent {
             <div class="col-lg-6">
                 <div class="hero-images-grid" style="display: flex; justify-content: flex-end;">
                     <div class="hero-image-item">
-                        <img src="{{ asset('images/about-banner.png') }}" alt="Business workspace"
+                        <img src="{{ asset('images/about-banner.webp') }}" alt="Business workspace"
                             style="width: 416px; height: 416px; object-fit: cover;"
                             onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=200&fit=crop'">
                     </div>
@@ -957,13 +957,13 @@ Whether you’re launching a new venture or managing compliance at scale, we wor
         <div class="row g-3">
             <div class="col-md-6">
                 <div style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('images/office-1.png') }}" alt="Office workspace" class="img-fluid w-100"
+                    <img src="{{ asset('images/office-1.webp') }}" alt="Office workspace" class="img-fluid w-100"
                         style="height: 400px; object-fit: cover;">
                 </div>
             </div>
             <div class="col-md-6">
                 <div style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('images/office-2.png') }}" alt="Team workspace" class="img-fluid w-100"
+                    <img src="{{ asset('images/office-2.webp') }}" alt="Team workspace" class="img-fluid w-100"
                         style="height: 400px; object-fit: cover;">
                 </div>
             </div>
@@ -995,13 +995,13 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
         <div class="row g-3">
             <div class="col-md-6">
                 <div style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('images/office-3.png') }}" alt="Office workspace" class="img-fluid w-100"
+                    <img src="{{ asset('images/office-3.webp') }}" alt="Office workspace" class="img-fluid w-100"
                         style="height: 400px; object-fit: cover;">
                 </div>
             </div>
             <div class="col-md-6">
                 <div style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
-                    <img src="{{ asset('images/office-4.png') }}" alt="Team workspace" class="img-fluid w-100"
+                    <img src="{{ asset('images/office-4.webp') }}" alt="Team workspace" class="img-fluid w-100"
                         style="height: 400px; object-fit: cover;">
                 </div>
             </div>
@@ -1205,7 +1205,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                     <!-- Row 1 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/ceo.png') }}" alt="Sundaram Gupta" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/ceo.webp') }}" alt="Sundaram Gupta" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Sundaram Gupta, FCA & FRM (GARP Level 1)</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Founder & Visionary — Leading Virtual CFO services, business setup, tax planning, scalable financial insights and innovation for 17+ years.</p>
@@ -1215,7 +1215,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-2.png') }}" alt="Poonam Kadge" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-2.webp') }}" alt="Poonam Kadge" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Poonam Kadge, CA & Diploma in IFRS (ACCA)</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Digital & Operations Leader — Driving marketing, process, and project excellence for 12+ years.</p>
@@ -1225,7 +1225,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-3.png') }}" alt="Aashima Goel" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-3.webp') }}" alt="Aashima Goel" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Aashima Goel, CS, B.Com, LLB</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Corporate Governance & Compliance Expert— driving legal integrity, statutory excellence, and regulatory mastery for 6+ years</p>
@@ -1246,7 +1246,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-5.png') }}" alt="Puja Pradhan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-5.webp') }}" alt="Puja Pradhan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Puja Pradhan, CA</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Finance & Compliance Specialist — Delivering accounting precision and regulatory excellence.</p>
@@ -1256,7 +1256,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-6.png') }}" alt="Subham Jhunjhunwala" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-6.webp') }}" alt="Subham Jhunjhunwala" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Subham Jhunjhunwala, CA Finalist | Graduate</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Accounting & Tax Professional — Mastering accounting, taxation, and compliance.</p>
@@ -1267,7 +1267,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                     <!-- Row 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-7.png') }}" alt="Sai Chaudhuri" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-7.webp') }}" alt="Sai Chaudhuri" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Sai Chaudhuri, CA Finalist</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1277,7 +1277,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-8.png') }}" alt="Ashish Sachan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-8.webp') }}" alt="Ashish Sachan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Ashish Sachan, CA Finalist</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1287,7 +1287,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-9.png') }}" alt="Krishika Kushwaha" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-9.webp') }}" alt="Krishika Kushwaha" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Krishika Kushwaha, CA Intermediate</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1298,7 +1298,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                     <!-- Row 4 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-10.png') }}" alt="Anushka Tourwade" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-10.webp') }}" alt="Anushka Tourwade" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Anushka Tourwade, Associate Accountant</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1308,7 +1308,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-11.png') }}" alt="Tanisha Wasale" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-11.webp') }}" alt="Tanisha Wasale" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Tanisha Wasale, Associate Accountant</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1323,7 +1323,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/ceo.png') }}" alt="Sundaram Gupta" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/ceo.webp') }}" alt="Sundaram Gupta" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Sundaram Gupta, FCA & FRM (GARP Level 1)</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Founder & Visionary — Leading Virtual CFO services, business setup, tax planning, scalable financial insights and innovation for 17+ years.</p>
@@ -1338,7 +1338,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-2.png') }}" alt="Poonam Kadge" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-2.webp') }}" alt="Poonam Kadge" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Poonam Kadge, CA & Diploma in IFRS (ACCA)</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Expertise in Company Registration, Tax services including GST, Income Tax, ROC and project experience for 2+ years</p>
@@ -1348,7 +1348,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-3.png') }}" alt="Aashima Goel" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-3.webp') }}" alt="Aashima Goel" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Aashima Goel, CS, B.Com, LLB</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Companies incorporation & Compliance Expert—specializing in ROC annual filings, audit and regulatory scrutiny for 4+ years</p>
@@ -1368,7 +1368,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-5.png') }}" alt="Puja Pradhan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-5.webp') }}" alt="Puja Pradhan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Puja Pradhan, CA</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Expertise in Company Services — Delivering streamlined registration and industry compliance workflow</p>
@@ -1378,7 +1378,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-6.png') }}" alt="Subham Jhunjhunwala" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-6.webp') }}" alt="Subham Jhunjhunwala" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Subham Jhunjhunwala, CA Finalist | Graduate</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Experience in Company Registration, taxation - accounting, taxation and compliance</p>
@@ -1392,7 +1392,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-7.png') }}" alt="Sai Chaudhuri" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-7.webp') }}" alt="Sai Chaudhuri" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Sai Chaudhuri, CA Finalist</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1402,7 +1402,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-8.png') }}" alt="Ashish Sachan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-8.webp') }}" alt="Ashish Sachan" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Ashish Sachan, CA Finalist</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1412,7 +1412,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-9.png') }}" alt="Krishika Kushwaha" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-9.webp') }}" alt="Krishika Kushwaha" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Krishika Kushwaha, CA Intermediate</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1422,7 +1422,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-10.png') }}" alt="Anushka Tourwade" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-10.webp') }}" alt="Anushka Tourwade" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Anushka Tourwade, Associate Accountant</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1432,7 +1432,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
 
                     <div class="col-lg-4 col-md-6">
                         <div class="card border-0 h-100" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-                            <img src="{{ asset('images/p-11.png') }}" alt="Tanisha Wasale" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
+                            <img src="{{ asset('images/p-11.webp') }}" alt="Tanisha Wasale" class="card-img-top" style="height: 300px; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=350&fit=crop'">
                             <div class="card-body text-start p-3" style="background: white;">
                                 <h6 class="fw-bold mb-1" style="color: #1e3a5f; font-size: 0.9rem;">Tanisha Wasale, Associate Accountant</h6>
                                 <p class="text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;"></p>
@@ -1499,7 +1499,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
             <div class="row align-items-center g-4">
                 <div class="col-lg-6">
                     <div class="office-image" style="border-radius: 1rem; overflow: hidden;">
-                        <img src="{{ asset('images/ofcimg.png') }}" alt="Pune Office" class="img-fluid w-100"
+                        <img src="{{ asset('images/ofcimg.webp') }}" alt="Pune Office" class="img-fluid w-100"
                             style="height: 100%; object-fit: cover;"
                             onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop'">
                     </div>

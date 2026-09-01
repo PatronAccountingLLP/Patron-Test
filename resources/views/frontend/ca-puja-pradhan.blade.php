@@ -1159,7 +1159,7 @@
                     <picture>
                         <source type="image/webp" srcset="https://www.patronaccounting.com/images/ca-puja-pradhan.webp">
                         <img
-                            src="https://www.patronaccounting.com/images/ca-puja-pradhan.jpg"
+                            src="https://www.patronaccounting.com/images/ca-puja-pradhan.webp"
                             alt="CA Puja Pradhan - Finance & Business Manager, Patron Accounting LLP"
                             width="1122"
                             height="1402"

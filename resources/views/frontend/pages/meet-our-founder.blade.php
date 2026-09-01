@@ -59,7 +59,7 @@
     <div class="founder-hero-inner">
         <div class="founder-intro">
             <div class="founder-avatar">
-                <span class="founder-avatar-initials"> <img src="{{ asset('images/our-founder-profile.jpeg') }}" width="175px" height="175px" style="border-radius:50%;"> </span>
+                <span class="founder-avatar-initials"> <img src="{{ asset('images/our-founder-profile.webp') }}" width="175px" height="175px" style="border-radius:50%;"> </span>
                 <div class="founder-avatar-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></div>
             </div>
             <div class="founder-text">

@@ -479,7 +479,7 @@
                     <picture>
                         <source type="image/webp" srcset="{{ asset('images/ca-sundram-gupta.webp') }}">
                         <img
-                            src="{{ asset('images/ca-sundram-gupta.jpg') }}"
+                            src="{{ asset('images/ca-sundram-gupta.webp') }}"
                             alt="CA Sundram Gupta — Founder & Managing Partner, Patron Accounting LLP"
                             width="1122"
                             height="1402"

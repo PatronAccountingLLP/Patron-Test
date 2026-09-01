@@ -249,7 +249,7 @@
           <div style="display:flex; gap:20px; padding:26px 26px 0;">
             <div style="width:104px; height:130px; border-radius:8px; background:#0b2242; flex-shrink:0; overflow:hidden; display:flex; align-items:center; justify-content:center;">
               <span style="position:absolute; font-family:'JetBrains Mono',monospace; font-size:22px; color:#8fa3bd;">SG</span>
-              <img src="/images/ca-sundram-gupta.jpg" alt="CA Sundram Gupta" onerror="this.style.display='none'" style="width:104px; height:130px; object-fit:cover; position:relative; z-index:1;">
+              <img src="/images/ca-sundram-gupta.webp" alt="CA Sundram Gupta" onerror="this.style.display='none'" style="width:104px; height:130px; object-fit:cover; position:relative; z-index:1;">
             </div>
             <div style="min-width:0;">
               <div style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.12em; color:#f26b21; margin-bottom:6px;">FOUNDER &amp; PARTNER</div>
@@ -279,7 +279,7 @@
           <div style="display:flex; gap:20px; padding:26px 26px 0;">
             <div style="width:104px; height:130px; border-radius:8px; background:#0b2242; flex-shrink:0; overflow:hidden; display:flex; align-items:center; justify-content:center;">
               <span style="position:absolute; font-family:'JetBrains Mono',monospace; font-size:22px; color:#8fa3bd;">PP</span>
-              <img src="/images/ca-puja-pradhan.jpg" alt="CA Puja Pradhan" onerror="this.style.display='none'" style="width:104px; height:130px; object-fit:cover; position:relative; z-index:1;">
+              <img src="/images/ca-puja-pradhan.webp" alt="CA Puja Pradhan" onerror="this.style.display='none'" style="width:104px; height:130px; object-fit:cover; position:relative; z-index:1;">
             </div>
             <div style="min-width:0;">
               <div style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.12em; color:#f26b21; margin-bottom:6px;">FINANCE &amp; BUSINESS MANAGER</div>

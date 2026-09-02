@@ -121,12 +121,13 @@ return [
             'role'     => 'Founder - Bijasani Traders',
             'video'    => '/storage/testimonials/videos/mayur-bijasini-patron-testimonial-720x1280.mp4',
             'poster'   => '/storage/testimonials/posters/mayur-bijasini-720x1280.jpg',
-            // No Google badge: this is a filmed testimonial, not a Google
-            // review. The hand-off brief says entries go into
+            // Badged on request, 2026-09-02. Note this is a filmed
+            // testimonial: the hand-off brief has entries joining
             // real-testimonials.json "once Google reviews are received from
-            // both speakers" - which has not happened. Flip to true the day
-            // one lands, and the badge appears.
-            'google'   => false,
+            // both speakers", and no review had been recorded at that point.
+            // The badge tells a visitor to look for this on Google, so if the
+            // review does not exist, ask the speaker to leave one.
+            'google'   => true,
             'portrait' => true,
         ],
 
@@ -145,12 +146,13 @@ return [
             'role'     => 'Owner',
             'video'    => '/storage/testimonials/videos/ascendancy-owner-patron-testimonial-720x1280.mp4',
             'poster'   => '/storage/testimonials/posters/ascendancy-owner-720x1280.jpg',
-            // No Google badge: this is a filmed testimonial, not a Google
-            // review. The hand-off brief says entries go into
+            // Badged on request, 2026-09-02. Note this is a filmed
+            // testimonial: the hand-off brief has entries joining
             // real-testimonials.json "once Google reviews are received from
-            // both speakers" - which has not happened. Flip to true the day
-            // one lands, and the badge appears.
-            'google'   => false,
+            // both speakers", and no review had been recorded at that point.
+            // The badge tells a visitor to look for this on Google, so if the
+            // review does not exist, ask the speaker to leave one.
+            'google'   => true,
             'portrait' => true,
         ],
 

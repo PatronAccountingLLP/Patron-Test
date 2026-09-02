@@ -160,7 +160,7 @@
                lead to our own `leads` table FIRST, then forwards the identical body
                to https://bigin.zoho.in/crm/WebForm. Zoho being down, slow, or
                silently dropping a field can no longer lose an enquiry - the row is
-               already ours, and admin/leads shows which ones Zoho did not accept.
+               already ours, and Lead::notInCrm() lists the ones Zoho did not take.
                The Zoho endpoint itself is unchanged and still the only CRM target;
                see LeadCaptureController::ZOHO_ENDPOINT. --}}
           action="{{ route('lead.capture') }}"
@@ -234,8 +234,13 @@
                      name off again. --}}
                 <input class="form-input phone-input" id="phone{{ $uid }}" name="Contacts.Mobile"
                        type="tel" inputmode="tel" maxlength="15" placeholder="Enter phone number"
-                       autocomplete="tel" required data-phone data-mobile
-                       data-req="Phone number is required"/>
+                       autocomplete="tel" required data-phone data-mobile/>
+                {{-- No data-req here on purpose. That marks a field for the generic
+                     checker, which appends its error into the input's parent - for
+                     this input that is .phone-group, the bordered row holding the
+                     flag and the box, so the message would land inside the control.
+                     validatePhone() already reports "Phone number is required"
+                     through [data-phone-error] below, which sits in the right place. --}}
             </div>
             <div class="field-error-msg" data-phone-error style="display:none;"></div>
         </div>

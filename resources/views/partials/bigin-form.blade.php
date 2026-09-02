@@ -156,7 +156,14 @@
     <form data-bigin-form
           data-uid="{{ $uid }}"
           id="biginForm{{ $uid }}"
-          action="https://bigin.zoho.in/crm/WebForm"
+          {{-- Posts to US, not straight to Zoho. LeadCaptureController saves the
+               lead to our own `leads` table FIRST, then forwards the identical body
+               to https://bigin.zoho.in/crm/WebForm. Zoho being down, slow, or
+               silently dropping a field can no longer lose an enquiry - the row is
+               already ours, and Lead::notInCrm() lists the ones Zoho did not take.
+               The Zoho endpoint itself is unchanged and still the only CRM target;
+               see LeadCaptureController::ZOHO_ENDPOINT. --}}
+          action="{{ route('lead.capture') }}"
           method="POST"
           enctype="multipart/form-data"
           target="biginFrame{{ $uid }}"
@@ -201,7 +208,7 @@
             <label class="form-label" for="name{{ $uid }}">Full Name</label>
             <input class="form-input" id="name{{ $uid }}" name="Contacts.Last Name" type="text"
                    maxlength="80" placeholder="Your name" autocomplete="name"
-                   data-req="Full name is required"/>
+                   required data-req="Full name is required"/>
         </div>
 
         <div class="form-group">
@@ -216,18 +223,51 @@
                         <div class="country-options" data-cc-options></div>
                     </div>
                 </div>
-                <input class="form-input phone-input" id="phone{{ $uid }}" type="tel"
-                       maxlength="15" placeholder="Enter phone number" autocomplete="tel" data-phone/>
+                {{-- This input carries name="Contacts.Mobile" ITSELF. It used to be
+                     nameless, with a hidden Contacts.Mobile beside it that
+                     js/enquiry-form.js filled in on submit - which meant the phone
+                     number was the ONE field that only arrived if JavaScript ran.
+                     Name and City are ordinary named inputs and always posted, so a
+                     blocked or slow script produced a lead with a name, a city and
+                     no way to call anyone back. The number now posts by itself; the
+                     script only upgrades it to +CC form on submit. Do not take this
+                     name off again. --}}
+                <input class="form-input phone-input" id="phone{{ $uid }}" name="Contacts.Mobile"
+                       type="tel" inputmode="tel" maxlength="15" placeholder="Enter phone number"
+                       autocomplete="tel" required data-phone data-mobile/>
+                {{-- No data-req here on purpose. That marks a field for the generic
+                     checker, which appends its error into the input's parent - for
+                     this input that is .phone-group, the bordered row holding the
+                     flag and the box, so the message would land inside the control.
+                     validatePhone() already reports "Phone number is required"
+                     through [data-phone-error] below, which sits in the right place. --}}
             </div>
             <div class="field-error-msg" data-phone-error style="display:none;"></div>
-            <input type="hidden" name="Contacts.Mobile" data-mobile value=""/>
+        </div>
+
+        {{-- Not required, and the label does not say so either - the business's
+             decision, made and re-made deliberately, so do not "tidy" it in either
+             direction. No `required` attribute, and no "(optional)" hint: someone
+             who has an email to give will fill it in, and someone who does not can
+             still send the enquiry. The phone number used to be the only way to
+             reach a lead, and when it arrived blank the enquiry was worthless; this
+             is the second route, not a gate.
+
+             Bigin discards any field its web form was not built with, so this
+             arrives empty at the CRM until "Email" is added to web form
+             208810000001209168 in Bigin's form builder. It IS saved to our own
+             `leads` table from day one, so nothing is lost in the meantime. --}}
+        <div class="form-group">
+            <label class="form-label" for="email{{ $uid }}">Email</label>
+            <input class="form-input" id="email{{ $uid }}" name="Contacts.Email" type="email"
+                   maxlength="120" placeholder="you@company.com" autocomplete="email"/>
         </div>
 
         <div class="form-group">
             <label class="form-label" for="city{{ $uid }}">City</label>
             <input class="form-input" id="city{{ $uid }}" name="Contacts.Mailing City" type="text"
                    maxlength="100" placeholder="Enter your city" autocomplete="address-level2"
-                   value="{{ $paCity }}" data-city data-req="City is required"/>
+                   value="{{ $paCity }}" required data-city data-req="City is required"/>
         </div>
 
         <button type="submit" class="btn-submit" data-submit>{!! $paCta !!}</button>

@@ -1,0 +1,178 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Lead;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+
+/**
+ * Every enquiry from partials/bigin-form.blade.php lands here.
+ *
+ * The form used to post straight to Zoho Bigin, which meant an enquiry existed
+ * only if Zoho accepted it. It now posts to us, and the order below is the whole
+ * point of the class:
+ *
+ *      1. write the lead to our `leads` table          <- cannot be lost
+ *      2. forward the identical body to Zoho           <- may fail, and that is survivable
+ *      3. record what Zoho said                        <- so failures are visible
+ *
+ * Nothing in step 2 or 3 is allowed to throw. A lead we hold but could not
+ * forward is a phone call to make by hand; a lead we dropped on the floor is
+ * gone forever, and that is the failure this class exists to prevent.
+ *
+ * The response is rendered into the form's hidden iframe, so its body is only
+ * seen by js/enquiry-form.js, which swaps the card for a thank-you on iframe
+ * load. It must return 200 for that to happen.
+ */
+class LeadCaptureController extends Controller
+{
+    /** The real Zoho endpoint. NOT WebToRecordForm - that placeholder 400s. */
+    private const ZOHO_ENDPOINT = 'https://bigin.zoho.in/crm/WebForm';
+
+    /** Zoho is normally sub-second. Past this we keep the lead and give up. */
+    private const ZOHO_TIMEOUT = 15;
+
+    public function store(Request $request)
+    {
+        $lead = $this->record($request);
+
+        $this->forwardToZoho($request, $lead);
+
+        return response($this->iframeBody(), 200)
+            ->header('Content-Type', 'text/html; charset=UTF-8');
+    }
+
+    /**
+     * Step 1. Save whatever arrived, without judging it.
+     *
+     * There is deliberately no validate() here. A half-filled enquiry with a
+     * phone number is worth a callback; rejecting it would recreate exactly the
+     * silent loss this is meant to stop. The browser already enforces the
+     * required fields, and js/enquiry-form.js checks the number's shape - this
+     * is the net underneath both.
+     */
+    private function record(Request $request): ?Lead
+    {
+        // NOT $request->input(). Zoho's field names contain dots ("Contacts.Mobile"),
+        // and input() reads a dot as nested-array notation - it looks for a
+        // "Contacts" array with a "Mobile" key, finds nothing, and returns null.
+        // That silently emptied name, phone, email and city while "Potential Name",
+        // which has no dot, came through fine. Read the raw array by literal key.
+        $in = $request->all();
+        $get = fn (string $key) => is_scalar($in[$key] ?? null) ? $in[$key] : null;
+
+        try {
+            return Lead::create([
+                'name'       => $this->clip($get('Contacts.Last Name'), 255),
+                'phone'      => $this->clip($get('Contacts.Mobile'), 32),
+                'email'      => $this->clip($get('Contacts.Email'), 255),
+                'city'       => $this->clip($get('Contacts.Mailing City'), 255),
+                'deal_name'  => $this->clip($get('Potential Name'), 255),
+                'service'    => $this->clip($this->serviceFromDealName($get('Potential Name')), 255),
+                'page_url'   => $this->clip($get('Contacts.Lead Source') ?: $request->headers->get('referer'), 2000),
+                'message'    => $this->clip($get('Contacts.Description'), 5000),
+                'ip'         => $this->clip($request->ip(), 45),
+                'user_agent' => $this->clip($request->userAgent(), 1000),
+            ]);
+        } catch (\Throwable $e) {
+            // The database is the safety net, so if IT fails the log has to hold
+            // the lead - the visitor is not filling this in twice.
+            Log::error('Lead capture could not be saved', [
+                'error' => $e->getMessage(),
+                'lead'  => $request->except(['xnQsjsdp', 'xmIwtLD']),
+            ]);
+
+            return null;
+        }
+    }
+
+    /**
+     * Step 2 and 3. Hand the enquiry to Zoho exactly as the form built it.
+     *
+     * The body is passed through untouched, including Zoho's own identity fields
+     * (xnQsjsdp / xmIwtLD / actionType), so from Zoho's side this is the same
+     * submission it has always received. Bigin still silently discards fields its
+     * web form was not built with; the difference now is that we kept a copy.
+     */
+    private function forwardToZoho(Request $request, ?Lead $lead): void
+    {
+        $status = 'error';
+        $code   = null;
+        $body   = null;
+
+        try {
+            $fields = collect($request->except(['_token']))
+                ->filter(fn ($v) => is_scalar($v) || is_null($v))
+                ->map(fn ($v) => (string) $v)
+                ->all();
+
+            $response = Http::asMultipart()
+                ->timeout(self::ZOHO_TIMEOUT)
+                ->withHeaders(['User-Agent' => 'PatronAccounting-LeadCapture/1.0'])
+                ->post(self::ZOHO_ENDPOINT, $fields);
+
+            $code   = $response->status();
+            $body   = $response->body();
+            $status = $response->successful() ? 'ok' : 'failed';
+
+            if (!$response->successful()) {
+                Log::warning('Zoho rejected a lead', ['http' => $code, 'lead_id' => $lead?->id]);
+            }
+        } catch (\Throwable $e) {
+            $body = $e->getMessage();
+            Log::error('Zoho forward failed', ['error' => $e->getMessage(), 'lead_id' => $lead?->id]);
+        }
+
+        if (!$lead) {
+            return;
+        }
+
+        try {
+            $lead->update([
+                'zoho_status'    => $status,
+                'zoho_http_code' => $code,
+                'zoho_response'  => $this->clip($body, 2000),
+            ]);
+        } catch (\Throwable $e) {
+            Log::error('Could not stamp Zoho outcome on lead', ['error' => $e->getMessage(), 'lead_id' => $lead->id]);
+        }
+    }
+
+    /** "Website Enquiry - GST Registration - Pune" -> "GST Registration - Pune". */
+    private function serviceFromDealName(?string $dealName): ?string
+    {
+        if (!$dealName) {
+            return null;
+        }
+
+        return trim(preg_replace('/^Website Enquiry\s*-\s*/i', '', $dealName)) ?: null;
+    }
+
+    private function clip($value, int $max): ?string
+    {
+        if ($value === null) {
+            return null;
+        }
+
+        $value = trim((string) $value);
+
+        return $value === '' ? null : mb_substr($value, 0, $max);
+    }
+
+    /**
+     * Loaded into the hidden iframe. js/enquiry-form.js only listens for the
+     * iframe's load event, so the markup is irrelevant to it - but a visitor
+     * running without JavaScript never sees a thank-you, and this is the one
+     * place we can still say something to them.
+     */
+    private function iframeBody(): string
+    {
+        return '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+             . '<title>Enquiry received</title></head><body>'
+             . '<p>Thank you. Your enquiry has reached Patron Accounting '
+             . 'and our CA/CS team will call you shortly.</p>'
+             . '</body></html>';
+    }
+}

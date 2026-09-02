@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LeadCaptureController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\PostController as AdminPostController;
 use App\Http\Controllers\Admin\PostCategoryController as AdminPostCategoryController;
@@ -15,6 +16,7 @@ use App\Http\Controllers\Admin\MenuController as AdminMenuController;
 use App\Http\Controllers\Admin\MediaController as AdminMediaController;
 use App\Http\Controllers\Admin\UserController as AdminUserController;
 use App\Http\Controllers\Admin\ContactController as AdminContactController;
+use App\Http\Controllers\Admin\LeadController as AdminLeadController;
 use App\Http\Controllers\DynamicController;
 use App\Http\Controllers\DocFileController;
 
@@ -413,6 +415,14 @@ Route::redirect('/contact', '/contact-us', 301)->name('contact.show');
 Route::redirect('/contact-page', '/contact-us', 301);
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
+// Every enquiry from partials/bigin-form.blade.php - ~1,960 pages - posts here
+// instead of straight to Zoho Bigin, so the lead is saved on our side before it
+// is forwarded. See LeadCaptureController. Exempt from CSRF in
+// app/Http/Middleware/VerifyCsrfToken.php: the form is on cacheable public pages
+// and a stale token would 419 and lose the enquiry, which is the exact failure
+// this route was added to prevent.
+Route::post('/lead-capture', [LeadCaptureController::class, 'store'])->name('lead.capture');
+
 // Post Categories Routes
 Route::prefix('post-categories')->name('frontend.post-categories.')->group(function () {
     Route::get('/{category}', [FrontendController::class, 'postsByCategory'])->name('show');
@@ -490,6 +500,15 @@ Route::prefix('admin')->name('admin.')->middleware(['auth', 'can_access_admin'])
         Route::post('bulk-delete', [AdminMediaController::class, 'bulkDelete'])->name('bulk-delete');
     });
     
+    // Website Enquiries - our own copy of every lead, saved before it goes to
+    // Zoho Bigin. The "Not in CRM" filter is the list Zoho did not accept.
+    Route::prefix('leads')->name('leads.')->group(function () {
+        Route::get('/', [AdminLeadController::class, 'index'])->name('index');
+        Route::get('/{lead}', [AdminLeadController::class, 'show'])->name('show');
+        Route::post('/{lead}/mark-read', [AdminLeadController::class, 'markAsRead'])->name('mark-read');
+        Route::post('/{lead}/mark-unread', [AdminLeadController::class, 'markAsUnread'])->name('mark-unread');
+    });
+
     // Contacts Management
     Route::prefix('contacts')->name('contacts.')->group(function () {
         Route::get('/', [AdminContactController::class, 'index'])->name('index');

@@ -172,6 +172,23 @@
                             <span class="badge bg-primary rounded-pill ms-auto">{{ $unreadCount }}</span>
                         @endif
                     </a>
+
+                    {{-- Our own copy of every website enquiry. The red badge counts
+                         the ones Zoho Bigin did not accept - those exist nowhere
+                         else and have to be entered into the CRM by hand. --}}
+                    <a href="{{ route('admin.leads.index') }}"
+                       class="sidebar-nav-item {{ request()->routeIs('admin.leads.*') ? 'active' : '' }}">
+                        <i class="bi bi-telephone-inbound"></i> Website Enquiries
+                        @php
+                            $leadsNotInCrm = \App\Models\Lead::notInCrm()->count();
+                            $leadsUnread   = \App\Models\Lead::where('is_read', false)->count();
+                        @endphp
+                        @if($leadsNotInCrm > 0)
+                            <span class="badge bg-danger rounded-pill ms-auto">{{ $leadsNotInCrm }}</span>
+                        @elseif($leadsUnread > 0)
+                            <span class="badge bg-primary rounded-pill ms-auto">{{ $leadsUnread }}</span>
+                        @endif
+                    </a>
                 </div>
 
                 <div class="sidebar-section d-none">

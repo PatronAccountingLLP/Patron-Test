@@ -39,8 +39,40 @@ class FrontendController extends Controller
      */
     public function posts(Request $request)
     {
+        // Read the route parameters by name, never from the method signature. Three routes
+        // share this action with different parameter sets, and Laravel fills untyped
+        // arguments positionally -- which put /blog/page-2's "2" into a $category argument
+        // and 404'd every listing page. blogShowPost() dispatches a category listing here
+        // by setting the `category` parameter on the matched route.
+        $category = $request->route('category');
+        $page = $request->route('page');
+
+        // The listing lives on paths now -- /blog, /blog/page-2, /blog/<category> and
+        // /blog/<category>/page-2. Anything still arriving on the old query string is sent
+        // to its path equivalent, so the ~1,700 indexed ?topic= / ?page= / ?category= twins
+        // collapse onto one URL each rather than depending on a canonical being honoured.
+        if ($category === null && $page === null
+            && ($request->has('topic') || $request->has('page') || $request->has('category'))) {
+            return $this->redirectLegacyListingUrl($request);
+        }
+
+        $page = max(1, (int) ($page ?: 1));
+
+        $activeCategory = null;
+        if ($category !== null) {
+            $activeCategory = PostCategory::where('slug', $category)->first();
+            if (! $activeCategory) {
+                abort(404);
+            }
+        }
+
+        // page-1 is the listing's bare URL, never a URL of its own.
+        if ($page === 1 && str_contains($request->path(), '/page-')) {
+            return redirect()->to(url($this->listingPath($category)), 301);
+        }
+
         $query = Post::published()->with(['categories', 'users'])->latest('published_at');
-        
+
         // Handle search functionality
         if ($request->filled('search')) {
             $searchTerm = $request->search;
@@ -51,18 +83,22 @@ class FrontendController extends Controller
                   ->orWhere('description', 'LIKE', '%' . $searchTerm . '%');
             });
         }
-        
-        // Handle category filtering
-        if ($request->filled('category')) {
-            $category = PostCategory::where('slug', $request->category)->first();
-            if ($category) {
-                $query->whereHas('categories', function ($q) use ($category) {
-                    $q->where('post_categories.id', $category->id);
-                });
-            }
+
+        if ($activeCategory) {
+            $query->whereHas('categories', function ($q) use ($activeCategory) {
+                $q->where('post_categories.id', $activeCategory->id);
+            });
         }
-        
-        $posts = $query->paginate(12)->appends($request->all());
+
+        $listingBase = $this->listingPath($activeCategory?->slug);
+
+        // Pagination links carry only `search`, the one parameter that still changes the
+        // listing. appends($request->all()) used to re-emit every incoming parameter on all
+        // 84 pagination links, so one stray /blog?topic=gst minted 84 crawlable twins and
+        // each of those minted them again -- a whole 1,680-URL space from one dead facet.
+        $posts = $query->paginate(12, ['*'], 'page', $page)
+                       ->withPath($listingBase)
+                       ->appends($request->only('search'));
 
         // Past the last real page there is nothing to show, but Laravel still returns an
         // empty 200. That made /blog?page=999 (and every number after it) a valid URL, so
@@ -73,7 +109,44 @@ class FrontendController extends Controller
             abort(404);
         }
 
-        return view('frontend.posts.index', compact('posts'));
+        return view('frontend.posts.index', compact('posts', 'activeCategory', 'listingBase'));
+    }
+
+    /**
+     * Canonical path for a blog listing: /blog, /blog/page-3, /blog/gst, /blog/gst/page-3.
+     */
+    private function listingPath(?string $category = null, int $page = 1): string
+    {
+        $path = '/blog' . ($category ? '/' . $category : '');
+
+        return $page > 1 ? $path . '/page-' . $page : $path;
+    }
+
+    /**
+     * Send a legacy query-string listing URL to its path equivalent with a 301.
+     *
+     * `topic` was a facet the server stopped reading, so it is dropped outright. Tracking
+     * parameters (utm_*, gclid, fbclid) are carried through, or the campaign attribution
+     * dies on the hop. A category that is not a clean slug -- the live blog still links
+     * ?category=categories%2Fstock-audit -- is dropped rather than sent to a 404.
+     */
+    private function redirectLegacyListingUrl(Request $request)
+    {
+        $params = $request->query();
+        unset($params['topic']);
+
+        $category = $params['category'] ?? null;
+        unset($params['category']);
+        if (! is_string($category) || ! preg_match('/^[a-z0-9\-]+$/', $category)) {
+            $category = null;
+        }
+
+        $page = (int) ($params['page'] ?? 1);
+        unset($params['page']);
+
+        $target = url($this->listingPath($category, max(1, $page)));
+
+        return redirect()->to($target . ($params ? '?' . http_build_query($params) : ''), 301);
     }
 
     /**
@@ -128,18 +201,28 @@ class FrontendController extends Controller
         abort(404);
     }
 
-  public function blogShowPost($slug)
+  public function blogShowPost(Request $request, $slug)
     {
         // First try to find a published post with this slug
-        
+
         // return $slug;
-        
+
         $post = Post::with(['categories', 'users'])
                    ->where('slug', $slug)
                    ->where('status', 'published')
                    ->where('published_at', '<=', now())
                    ->first();
-        
+
+        // /blog/<slug> addresses both a post and a category listing, so this one route
+        // dispatches between them. A post always wins: the posts carry the search traffic,
+        // and if a category slug ever collided with one it should cost the category its
+        // listing rather than break an earning URL. Nothing collides today.
+        if (! $post && PostCategory::where('slug', $slug)->exists()) {
+            $request->route()->setParameter('category', $slug);
+
+            return $this->posts($request);
+        }
+
         if ($post) {
             return view('frontend.posts.show', compact('post'));
         }

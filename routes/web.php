@@ -393,6 +393,17 @@ Route::get('/email-preview/admin', function () {
 // Posts Routes
 Route::get('/blog', [FrontendController::class, 'posts'])->name('frontend.posts.index');
 
+// Blog listing pagination and category listings live on paths, not query strings.
+// These must stay ahead of the /blog/{post} route below, which would otherwise swallow
+// /blog/page-2. A category listing has no route of its own because its URL shape is
+// identical to a post's -- /blog/{slug} dispatches between the two, posts winning.
+Route::get('/blog/page-{page}', [FrontendController::class, 'posts'])
+    ->where('page', '[0-9]+')
+    ->name('frontend.posts.page');
+Route::get('/blog/{category}/page-{page}', [FrontendController::class, 'posts'])
+    ->where(['category' => '[a-z0-9\-]+', 'page' => '[0-9]+'])
+    ->name('frontend.posts.category.page');
+
 Route::get('/authorhub/{author_slug}', [App\Http\Controllers\FrontendController::class, 'authorhub'])
     ->name('frontend.authorhub.show');
 

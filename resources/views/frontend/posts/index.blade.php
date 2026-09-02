@@ -1,8 +1,8 @@
 @extends('layouts.app-blog')
 @section(
     'title',
-    (request('category')
-        ? ucfirst(str_replace('-', ' ', request('category'))) . ' Articles & Guides'
+    (($activeCategory->slug ?? null)
+        ? ucfirst(str_replace('-', ' ', $activeCategory->slug ?? '')) . ' Articles & Guides'
         : 'Articles & Guides')
     . (request('page', 1) > 1 ? ' - Blog Page ' . request('page') : '')
     . ' | Patron Accounting'
@@ -10,8 +10,8 @@
 
 @section(
     'meta_description',
-    request('category')
-        ? 'Explore practical ' . ucfirst(str_replace('-', ' ', request('category'))) . ' articles, guides, compliance updates, filing tips, and expert insights from Patron Accounting.'
+    ($activeCategory->slug ?? null)
+        ? 'Explore practical ' . ucfirst(str_replace('-', ' ', $activeCategory->slug ?? '')) . ' articles, guides, compliance updates, filing tips, and expert insights from Patron Accounting.'
             . (request('page', 1) > 1 ? ' Browse page ' . request('page') . ' for more articles and resources.' : '')
         : 'Practical compliance guides on GST, Income Tax, ROC, Payroll & Trademark — written by practising CAs. Updated weekly.'
             . (request('page', 1) > 1 ? ' Browse page ' . request('page') . ' for more articles and resources.' : '')
@@ -1165,7 +1165,7 @@
     $totalGuides = \App\Models\Post::where('status', 'published')->count();
 
     // Active filter from query string
-    $activeCategorySlug = request('category');
+    $activeCategorySlug = isset($activeCategory) && $activeCategory ? $activeCategory->slug : null;
 
     // ------------------------------------------------------------
     // SEASONAL PICKS (the curated "Start here" trio)
@@ -1448,7 +1448,7 @@
       @endif
       @foreach($topCategories as $cat)
         <a
-          href="{{ route('frontend.posts.index', ['category' => $cat->slug]) }}"
+          href="{{ url('/blog/' . $cat->slug) }}"
           class="pb-chip {{ $activeCategorySlug === $cat->slug ? 'is-active' : '' }}"
           aria-pressed="{{ $activeCategorySlug === $cat->slug ? 'true' : 'false' }}">
           {{ $cat->name }} · {{ $cat->posts_count }}
@@ -1464,7 +1464,7 @@
     @if($remainingCategories->isNotEmpty())
       <div class="pb-all-categories" id="pbAllCategories" role="region" aria-label="All categories">
         @foreach($remainingCategories as $cat)
-          <a href="{{ route('frontend.posts.index', ['category' => $cat->slug]) }}">
+          <a href="{{ url('/blog/' . $cat->slug) }}">
             {{ $cat->name }} <span class="count">{{ $cat->posts_count }}</span>
           </a>
         @endforeach
@@ -1532,7 +1532,7 @@
                   in {{ optional($categories->firstWhere('slug', $activeCategorySlug))->name }}
                 @endif
               </p>
-              {{ $posts->onEachSide(1)->links('vendor.pagination.patron') }}
+              {{ $posts->onEachSide(1)->links('vendor.pagination.patron', ['pbBase' => $listingBase ?? '/blog']) }}
             </div>
           @endif
 

@@ -18,6 +18,25 @@
      - Ellipsis for skipped page ranges
 ============================================================= --}}
 
+@php
+    // The blog listing paginates on paths (/blog/page-2, /blog/gst/page-2) and passes its
+    // base in as $pbBase. Page one is the bare base, never /page-1. Every other paginator
+    // in the app (the admin screens) passes no base and keeps Laravel's ?page= links.
+    $pbBase = $pbBase ?? null;
+    $pbUrl = static function ($url) use ($pbBase) {
+        if (! $url || $pbBase === null) {
+            return $url;
+        }
+        $query = [];
+        parse_str(parse_url($url, PHP_URL_QUERY) ?? '', $query);
+        $page = (int) ($query['page'] ?? 1);
+        unset($query['page']);
+
+        return url($pbBase . ($page > 1 ? '/page-' . $page : ''))
+            . ($query ? '?' . http_build_query($query) : '');
+    };
+@endphp
+
 @if ($paginator->hasPages())
     <nav class="pb-pagination-nav" role="navigation" aria-label="Pagination Navigation">
 
@@ -28,7 +47,7 @@
                 <span>Previous</span>
             </span>
         @else
-            <a href="{{ $paginator->previousPageUrl() }}" rel="prev" class="pb-pagination-link pb-pagination-prev" aria-label="@lang('pagination.previous')">
+            <a href="{{ $pbUrl($paginator->previousPageUrl()) }}" rel="prev" class="pb-pagination-link pb-pagination-prev" aria-label="@lang('pagination.previous')">
                 <svg class="pb-pagination-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
                 <span>Previous</span>
             </a>
@@ -47,7 +66,7 @@
                     @if ($page == $paginator->currentPage())
                         <span class="pb-pagination-current" aria-current="page" aria-label="Page {{ $page }}, current page">{{ $page }}</span>
                     @else
-                        <a href="{{ $url }}" class="pb-pagination-link" aria-label="Go to page {{ $page }}">{{ $page }}</a>
+                        <a href="{{ $pbUrl($url) }}" class="pb-pagination-link" aria-label="Go to page {{ $page }}">{{ $page }}</a>
                     @endif
                 @endforeach
             @endif
@@ -55,7 +74,7 @@
 
         {{-- Next Page Link --}}
         @if ($paginator->hasMorePages())
-            <a href="{{ $paginator->nextPageUrl() }}" rel="next" class="pb-pagination-link pb-pagination-next" aria-label="@lang('pagination.next')">
+            <a href="{{ $pbUrl($paginator->nextPageUrl()) }}" rel="next" class="pb-pagination-link pb-pagination-next" aria-label="@lang('pagination.next')">
                 <span>Next</span>
                 <svg class="pb-pagination-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </a>

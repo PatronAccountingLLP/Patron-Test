@@ -376,7 +376,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <h3>Beyond Section 249 — Operational Prerequisites</h3>
 <p>Even if all Section 249 conditions are cleared, the following operational items must be completed before STK-2 will be accepted:</p>
 <ul>
-<li>All pending annual compliance filed — <a href="https://www.patronaccounting.com/annual-compliance-private-limited">AOC-4 and MGT-7</a> not more than 12 months old (use our <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator">MCA Late Fee Calculator</a> for backlog)</li>
+<li>All pending annual compliance filed — <a href="https://www.patronaccounting.com/private-limited-company-compliance">AOC-4 and MGT-7</a> not more than 12 months old (use our <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator">MCA Late Fee Calculator</a> for backlog)</li>
 <li>All statutory dues cleared with No Dues Certificates from IT, GST, PF, ESI, PT departments</li>
 <li>All bank accounts closed with bank closure certificates</li>
 <li>All registered charges satisfied via Form CHG-4 (Master Data must show "Satisfied")</li>
@@ -407,7 +407,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <tr><td><strong>Income Tax / GST clearance</strong></td><td>NDC or 26AS</td><td>Recommended though not always mandatory.</td></tr>
 </tbody>
 </table>
-<div class="callout warn"><p><strong>Most common rejection causes:</strong> (1) Master Data shows open charge / pending notice — verify <a href="https://www.patronaccounting.com/director-disqualification-removal">director DIN status</a> and charge status before applying; (2) Bank closure certificate from one account is missing; (3) AOC-4 / MGT-7 older than 12 months — file annual return first; (4) Board resolution not signed by all directors. Use our <a href="https://www.patronaccounting.com/tools/din-authenticity-verifier">DIN Verifier</a> to confirm all directors' DINs are active before filing.</p></div>
+<div class="callout warn"><p><strong>Most common rejection causes:</strong> (1) Master Data shows open charge / pending notice — verify <a href="https://www.patronaccounting.com/removal-of-director">director DIN status</a> and charge status before applying; (2) Bank closure certificate from one account is missing; (3) AOC-4 / MGT-7 older than 12 months — file annual return first; (4) Board resolution not signed by all directors. Use our <a href="https://www.patronaccounting.com/tools/din-authenticity-verifier">DIN Verifier</a> to confirm all directors' DINs are active before filing.</p></div>
 </section>
 
 <div class="body-cta">
@@ -501,12 +501,12 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <a href="https://www.patronaccounting.com/strike-off-private-limited-company" class="sidebar-link">Pvt Ltd Strike Off (STK-2) <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/llp-strike-off-form-24" class="sidebar-link">LLP Strike Off (Form 24) <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/restore-struck-off-company-mca" class="sidebar-link">Restore Struck-Off Company <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/director-disqualification-removal" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/removal-of-director" class="sidebar-link">Director Disqualification Removal <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
 <a href="https://www.patronaccounting.com/dormant-company-status" class="sidebar-link">Dormant Status (MSC-1) <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings" class="sidebar-link">Condonation of Delay (ROC) <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/satisfaction-of-charge-chg-4" class="sidebar-link">Charge Satisfaction (CHG-4) <span class="arrow">→</span></a>
 </div>

@@ -490,21 +490,21 @@
         </div>
         <div class="sidebar-card">
             <h3>Key TDS Sections</h3>
-            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">Section 192 &mdash; Salary <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">Section 194C &mdash; Contractor <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-salary" class="sidebar-link">Section 192 &mdash; Salary <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">Section 194C &mdash; Contractor <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/itr-for-professionals" class="sidebar-link">Section 194J &mdash; Professional Fees <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">Section 194I &mdash; Rent <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">Section 194A &mdash; Interest (Bank) <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">Section 194A &mdash; Interest (Bank) <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/itr-for-property-sale" class="sidebar-link">Section 194IA &mdash; Property Purchase <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/itr-for-crypto-traders" class="sidebar-link">Section 194S &mdash; Crypto / VDA <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/accounting-services-for-e-commerce-industry" class="sidebar-link">Section 194O &mdash; E-commerce <span class="arrow">&rarr;</span></a>
         </div>
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">TDS Returns (24Q/26Q/27Q) <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
-            <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
+            <a href="https://www.patronaccounting.com/itr-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/itr-for-business" class="sidebar-link">ITR for Business <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/income-tax-notice" class="sidebar-link">Income Tax Notice Help <span class="arrow">&rarr;</span></a>
             <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit Services <span class="arrow">&rarr;</span></a>

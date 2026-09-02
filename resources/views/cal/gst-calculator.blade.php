@@ -1403,10 +1403,10 @@
             <div class="sidebar-card">
                 <h3>Related Services</h3>
                 <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/itr-filing-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/itr-for-salary" class="sidebar-link">ITR Filing for Salary <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/gst-returns-for-e-commerce-operator" class="sidebar-link">GST for E-commerce <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/gst-return-filing-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/gst-returns-for-freelancers" class="sidebar-link">GST for Freelancers <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/gst-notice" class="sidebar-link">GST Notice Assistance <span class="arrow">&rarr;</span></a>
             </div>
 
@@ -1416,7 +1416,7 @@
                 <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Returns Filing <span class="arrow">&rarr;</span></a>
                 <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit Services <span class="arrow">&rarr;</span></a>
-                <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
+                <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">&rarr;</span></a>
             </div>
 
             <!-- Related Blog -->

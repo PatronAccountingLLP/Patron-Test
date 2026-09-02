@@ -208,7 +208,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi Patron Accounting, I would like a 15-minute free ESOP / RSU ITR review. I will share Form 16 Part B and broker statements." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi Patron Accounting, I would like a 15-minute free ESOP / RSU ITR review. I will share Form 16 Part B and broker statements." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -627,7 +627,7 @@
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free ITR for ESOP Employees consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi Patron Accounting, I would like a 15-minute free ESOP / RSU ITR review. I will share Form 16 Part B and broker statements." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free ITR for ESOP Employees consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi Patron Accounting, I would like a 15-minute free ESOP / RSU ITR review. I will share Form 16 Part B and broker statements." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -758,7 +758,7 @@
                 
 <div class="related-services-grid">
   <a href="/income-tax-return" class="related-service-card"><h4>Income Tax Return</h4><p>Complete ITR filing across all entity types and income heads - general overview.</p></a>
-  <a href="/itr-for-salaries" class="related-service-card"><h4>ITR for Salaries</h4><p>Employer-only income (no ESOP / RSU complexity) - ITR-1 / ITR-2 for salaried employees.</p></a>
+  <a href="/itr-for-salary" class="related-service-card"><h4>ITR for Salaries</h4><p>Employer-only income (no ESOP / RSU complexity) - ITR-1 / ITR-2 for salaried employees.</p></a>
   <a href="/itr-for-capital-gains" class="related-service-card"><h4>ITR for Capital Gains</h4><p>HNI multi-asset capital gains - equity, MF, property, crypto, gold, REIT, InvIT.</p></a>
   <a href="/esop-management-and-compliance-services" class="related-service-card"><h4>ESOP Management for Employers</h4><p>For companies / employers (NOT individual employees) - ESOP scheme drafting, shareholder approval, Form A.</p></a>
   <a href="/tax-planning-services" class="related-service-card"><h4>Tax Planning Services</h4><p>Old vs new regime selection, advance tax planning, surcharge cap claims, Sec 54 reinvestment.</p></a>
@@ -882,7 +882,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi Patron Accounting, I would like a 15-minute free ESOP / RSU ITR review. I will share Form 16 Part B and broker statements." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi Patron Accounting, I would like a 15-minute free ESOP / RSU ITR review. I will share Form 16 Part B and broker statements." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -913,7 +913,7 @@
 <h3 class="pa-cross-title">Pair With These Tax-Cluster Services</h3>
 <div class="pa-cross-grid">
   <a href="/income-tax-return" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="13" y2="16"/></svg></div><h4>Income Tax Return</h4><p>Complete ITR filing across all entity types and income heads.</p></a>
-  <a href="/itr-for-salaries" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"/><path d="M5 21v-2a4 4 0 014-4h6a4 4 0 014 4v2"/></svg></div><h4>ITR for Salaries</h4><p>Employer-only income (no ESOP / RSU complexity) - ITR-1 / ITR-2 for salaried employees.</p></a>
+  <a href="/itr-for-salary" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"/><path d="M5 21v-2a4 4 0 014-4h6a4 4 0 014 4v2"/></svg></div><h4>ITR for Salaries</h4><p>Employer-only income (no ESOP / RSU complexity) - ITR-1 / ITR-2 for salaried employees.</p></a>
   <a href="/itr-for-capital-gains" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></div><h4>ITR for Capital Gains</h4><p>HNI multi-asset capital gains - equity, MF, property, crypto, gold, REIT, InvIT.</p></a>
   <a href="/esop-management-and-compliance-services" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="3" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="21"/></svg></div><h4>ESOP Management for Employers</h4><p>For companies (not individual employees) - scheme drafting, shareholder approval, Form A.</p></a>
   <a href="/tax-planning-services" class="pa-cross-card"><div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><h4>Tax Planning Services</h4><p>Old vs new regime selection, advance tax planning, surcharge cap claims, Sec 54 reinvestment.</p></a>

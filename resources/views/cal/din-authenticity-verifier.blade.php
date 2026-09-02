@@ -1335,7 +1335,7 @@ a:focus-visible {
                 <li><strong>Reluctance to share the DIN.</strong> A genuine director's DIN is a routine, shareable identifier.</li>
             </ul>
             <div class="callout warn">
-                <p><strong>Note:</strong> This tool performs a client-side format check only and is not legal advice or a substitute for official MCA verification. For a defensible director due-diligence file, complete the MCA checks and have them reviewed. Our team assists with <a href="https://www.patronaccounting.com/registrar-of-companies">ROC notices</a>, <a href="https://www.patronaccounting.com/director-kyc">Director KYC</a> and <a href="https://www.patronaccounting.com/private-limited-company-compliance">private limited company compliance</a>, with the corporate registry overseen by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>.</p>
+                <p><strong>Note:</strong> This tool performs a client-side format check only and is not legal advice or a substitute for official MCA verification. For a defensible director due-diligence file, complete the MCA checks and have them reviewed. Our team assists with <a href="https://www.patronaccounting.com/roc-notice">ROC notices</a>, <a href="https://www.patronaccounting.com/director-kyc">Director KYC</a> and <a href="https://www.patronaccounting.com/private-limited-company-compliance">private limited company compliance</a>, with the corporate registry overseen by the <a href="https://www.mca.gov.in/" target="_blank" rel="noopener">MCA</a>.</p>
             </div>
         </section>
 
@@ -1475,10 +1475,10 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/director-kyc" class="sidebar-link">Director KYC (DIR-3 KYC) <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/registrar-of-companies" class="sidebar-link">ROC Notice Response <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/roc-notice" class="sidebar-link">ROC Notice Response <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Company Compliance <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/appointment-of-auditor" class="sidebar-link">Appointment of Auditor <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/small-company-annual-compliance" class="sidebar-link">Small Company Compliance <span class="arrow">→</span></a>
         </div>
 
@@ -1494,7 +1494,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/din-kyc-filing-complete-guide-to-dir-3-kyc-form-for-company-directors" class="sidebar-link">DIR-3 KYC Filing Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/director-disqualification-under-section-164-complete-guide" class="sidebar-link">Director Disqualification (Sec 164) <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/director-disqualification-under-section-164" class="sidebar-link">Director Disqualification (Sec 164) <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements <span class="arrow">→</span></a>
         </div>
 

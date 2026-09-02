@@ -845,7 +845,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What an ESOP Vesting Schedule Is</h2>
             <p>A <strong>vesting schedule</strong> defines when, and in what tranches, your stock options become exercisable. Until options vest you cannot exercise them, and unvested options usually <strong>lapse</strong> if you leave. Vesting is the bridge between the promise of equity and the right to acquire it.</p>
-            <p>The dominant Indian pattern is <strong>four years with a one-year cliff</strong>: nothing vests in year one, 25% vests at the 12-month cliff, and the remaining 75% vests monthly or quarterly over the next three years. Patron's <a href="https://www.patronaccounting.com/blog/esop-vesting-schedule-cliff-explained">vesting &amp; cliff explainer</a> and <a href="https://www.patronaccounting.com/blog/companies-act-section-62-rule-12-esop">Section 62 / Rule 12 guide</a> cover the law and the common designs.</p>
+            <p>The dominant Indian pattern is <strong>four years with a one-year cliff</strong>: nothing vests in year one, 25% vests at the 12-month cliff, and the remaining 75% vests monthly or quarterly over the next three years. Patron's <a href="https://www.patronaccounting.com/blog/esop-expense-vesting-period-accounting">vesting &amp; cliff explainer</a> and <a href="https://www.patronaccounting.com/blog/books-of-account-rules-2026-rule-46-section-62-income-tax">Section 62 / Rule 12 guide</a> cover the law and the common designs.</p>
             <div class="formula-box">
                 <span class="label">Cliff date</span> = Grant date + cliff months → cliff % vests<br>
                 <span class="label">Each later tranche</span> = (Total − cliff) ÷ number of remaining intervals<br>
@@ -996,8 +996,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/esop-vesting-schedule-cliff-explained" class="sidebar-link">Vesting &amp; Cliff Explained <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/companies-act-section-62-rule-12-esop" class="sidebar-link">Section 62 / Rule 12 <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-expense-vesting-period-accounting" class="sidebar-link">Vesting &amp; Cliff Explained <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/books-of-account-rules-2026-rule-46-section-62-income-tax" class="sidebar-link">Section 62 / Rule 12 <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

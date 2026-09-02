@@ -755,8 +755,8 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/letter-of-undertaking-lut-gst" class="sidebar-link">LUT under GST Guide<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/zero-rated-supplies-under-gst" class="sidebar-link">Zero-Rated Supplies<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/gst-refund-process-and-procedure" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/gst-returns-sez-plain-language-technical-requirements" class="sidebar-link">Zero-Rated Supplies<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/gst-refund-meaning-requirements-how-to-apply" class="sidebar-link">GST Refund Process<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/export-of-services-gst" class="sidebar-link">Export of Services GST<span class="arrow">→</span></a>
         </div>
 

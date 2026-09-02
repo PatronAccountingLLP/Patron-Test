@@ -225,7 +225,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -349,7 +349,7 @@
                     <p><strong>&#128204; TL;DR - Networth Certificate in Pune Services at a Glance</strong></p>
                     <p>A double currency net worth certificate presents total net worth (assets minus liabilities) in INR and a foreign currency (USD/CAD/GBP/AUD/EUR) simultaneously. CA-certified on letterhead with mandatory UDIN from ICAI. Lists movable assets (bank, FD, MF, shares, PPF, gold), immovable assets (property with market valuation), and liabilities (loans). Conversion at RBI reference rate on certificate date. Accepted by all major embassies and universities worldwide. Formats: individual, joint family, student visa (sponsored). Same-day urgent available.</p>
                 </div>
-                <p>Pune is a major hub for visa and immigration. Hinjewadi/Kharadi IT professionals apply for US H1B/L1, Canada PR, UK Skilled Worker. Students from Symbiosis/COEP/MIT-Pune head to US/UK/Canada/Australia. Camp/Deccan business owners need Schengen/UAE visas. NRIs need certificates for Indian consulate. Learn more about <a href="/double-currency-networth-format">Double Currency Networth across India</a>.</p>
+                <p>Pune is a major hub for visa and immigration. Hinjewadi/Kharadi IT professionals apply for US H1B/L1, Canada PR, UK Skilled Worker. Students from Symbiosis/COEP/MIT-Pune head to US/UK/Canada/Australia. Camp/Deccan business owners need Schengen/UAE visas. NRIs need certificates for Indian consulate. Learn more about <a href="/net-worth-certificate-for-visa">Double Currency Networth across India</a>.</p>
                 <p>Pune visa submissions at VFS Global (Bund Garden Road) for UK/Canada/Australia/Schengen, and US Consulate Mumbai for US visas. UDIN verified at <a href="https://udin.icai.org" target="_blank" rel="noopener">udin.icai.org</a>. Property valuation via <a href="https://igrmaharashtra.gov.in" target="_blank" rel="noopener">igrmaharashtra.gov.in</a>. Related: <a href="/itr-for-salary/pune">ITR for Salary in Pune</a>.</p>
                 <p>Content is reviewed quarterly for accuracy.</p>
             </div>
@@ -521,7 +521,7 @@
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Networth Certificate in Pune consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free Networth Certificate in Pune consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -604,7 +604,7 @@
             <h2 class="section-title">Related Services</h2>
             <div class="content-text">
                 
-                <p>For Pune applicants needing related compliance:</p><ul><li><a href="/double-currency-networth-format">Double Currency Networth (India)</a></li><li><a href="/itr-for-salary/pune">ITR for Salary in Pune</a></li><li>ITR for Professionals in Pune</li><li><a href="/itr-for-business/pune">ITR for Business in Pune</a></li><li><a href="/gst-returns/pune">GST Returns in Pune</a></li><li><a href="/accounting-services">Accounting Services</a></li></ul>
+                <p>For Pune applicants needing related compliance:</p><ul><li><a href="/net-worth-certificate-for-visa">Double Currency Networth (India)</a></li><li><a href="/itr-for-salary/pune">ITR for Salary in Pune</a></li><li>ITR for Professionals in Pune</li><li><a href="/itr-for-business/pune">ITR for Business in Pune</a></li><li><a href="/gst-returns/pune">GST Returns in Pune</a></li><li><a href="/accounting-services">Accounting Services</a></li></ul>
 
             </div>
         </div>
@@ -685,7 +685,7 @@
             <h2 class="section-title">Visa Interview in 3 Days? Get Your Networth Certificate Today</h2>
             <div class="content-text">
                 
-                <p>Visa interview dates are fixed and non-negotiable. Appearing without proper financial documentation significantly increases rejection risk. For Pune students with university admission deadlines - missing the certificate means deferring by a full year. For Canada Express Entry, proof of funds must be current (within 1 month). Cost (Rs 3,000-8,000) is trivial vs a delayed or rejected visa.</p><p><strong>Get your certificate now - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank">WhatsApp us</a>. Same-day delivery available.</strong></p>
+                <p>Visa interview dates are fixed and non-negotiable. Appearing without proper financial documentation significantly increases rejection risk. For Pune students with university admission deadlines - missing the certificate means deferring by a full year. For Canada Express Entry, proof of funds must be current (within 1 month). Cost (Rs 3,000-8,000) is trivial vs a delayed or rejected visa.</p><p><strong>Get your certificate now - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank" rel="noopener">WhatsApp us</a>. Same-day delivery available.</strong></p>
 
             </div>
         </div>
@@ -704,7 +704,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Networth%20Certificate%20in%20Pune&body=Hello%20Patron%20Team%2C%0A%0AI%20need%20a%20double%20currency%20networth%20certificate%20in%20Pune.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

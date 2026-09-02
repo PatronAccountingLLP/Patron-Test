@@ -983,7 +983,7 @@ a:focus-visible {
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/esop-valuation-services" class="sidebar-link">ESOP / Share Valuation <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/actuarial-valuation-services-for-employee-benefits" class="sidebar-link">Actuarial Valuation <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

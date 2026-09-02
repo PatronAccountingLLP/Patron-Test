@@ -559,7 +559,7 @@
   "@type": "Organization",
   "name": "Patron Accounting LLP",
   "url": "https://www.patronaccounting.com/",
-  "logo": "https://www.patronaccounting.com/images/logo.png",
+  "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
   "sameAs": [
     "https://www.linkedin.com/company/patron-accounting"
   ],
@@ -1721,7 +1721,7 @@
                 <p class="tile-cp-blurb">OPC-to-private conversion — mandatory above the capital or turnover thresholds, or voluntary after two years.</p>
                 <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/conversion-llp-to-private-limited" class="tile-cp">
+            <a href="https://www.patronaccounting.com/convert-llp-to-private-limited-company" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>11.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">LLP to Pvt Ltd Conversion <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Section 366 conversion via URC-1 — the growth-stage step before raising external equity or VC funding.</p>
@@ -1995,12 +1995,7 @@
                 <p class="tile-cp-blurb">Company and LLP income-tax returns — filed in step with the annual ROC cycle.</p>
                 <div class="tile-cp-foot"><span>From INR 499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="https://www.patronaccounting.com/audit-services" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>16.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
-                <h3 class="tile-cp-title">Audit & Assurance</h3>
-                <p class="tile-cp-blurb">Statutory, tax, cost and secretarial audit — including the audits cross-listed in this hub.</p>
-                <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="https://www.patronaccounting.com/virtual-cfo-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>16.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Virtual CFO Services</h3>

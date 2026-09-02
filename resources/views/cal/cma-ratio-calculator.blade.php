@@ -1001,9 +1001,9 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/udyam-registration" class="sidebar-link">Udyam (MSME) Registration <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

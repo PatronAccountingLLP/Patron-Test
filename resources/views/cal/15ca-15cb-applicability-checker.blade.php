@@ -804,7 +804,7 @@ a:focus-visible {
         <section class="content-section" id="what-are">
             <h2>Form 15CA vs Form 15CB — What They Are</h2>
             <p><strong>Form 15CA</strong> is a declaration filed electronically on the income-tax portal by the person making a payment to a non-resident or foreign company. It captures the remittance details and the tax position before the money leaves India.</p>
-            <p><strong>Form 15CB</strong> is a certificate from a <a href="https://www.patronaccounting.com/tds-return-filing">Chartered Accountant</a> that examines chargeability under Sections 5 and 9 of the Income-tax Act and the relevant DTAA, and certifies the nature of the payment, the applicable rate and the tax deducted under Section 195. It carries a UDIN issued through the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> portal, and is an event-based form, required only when the remittance is taxable and the yearly aggregate exceeds ₹5 lakh without an AO certificate.</p>
+            <p><strong>Form 15CB</strong> is a certificate from a <a href="https://www.patronaccounting.com/tds-return-filing-24q">Chartered Accountant</a> that examines chargeability under Sections 5 and 9 of the Income-tax Act and the relevant DTAA, and certifies the nature of the payment, the applicable rate and the tax deducted under Section 195. It carries a UDIN issued through the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a> portal, and is an event-based form, required only when the remittance is taxable and the yearly aggregate exceeds ₹5 lakh without an AO certificate.</p>
             <p>In short: 15CA is the remitter's declaration; 15CB is the CA's tax-determination certificate that backs the higher-value taxable cases.</p>
         </section>
 
@@ -933,7 +933,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/tds-return" class="sidebar-link">TDS Returns <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/itr-for-nris" class="sidebar-link">NRI ITR Filing <span class="arrow">→</span></a>
         </div>

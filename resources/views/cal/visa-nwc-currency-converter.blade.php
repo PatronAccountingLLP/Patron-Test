@@ -879,7 +879,7 @@ a:focus-visible {
                     <tr><td>Australia</td><td>AUD</td><td>Genuine-funds expectation varies by visa subclass</td></tr>
                 </tbody>
             </table>
-            <p>For country-specific certificates, see Patron's pages for the <a href="/net-worth-certificate-for-canada-visa">Canada visa</a>, <a href="/net-worth-certificate-for-us-visa">US visa</a>, <a href="/net-worth-certificate-for-uk-visa">UK visa</a>, <a href="/net-worth-certificate-for-schengen-visa">Schengen visa</a> and <a href="/net-worth-certificate-for-australia-visa">Australia visa</a>. Thresholds change, so always confirm the current figure with the official immigration authority — for example <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">IRCC (Canada)</a>, <a href="https://www.gov.uk/browse/visas-immigration" target="_blank" rel="noopener">UK Visas &amp; Immigration</a> or <a href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noopener">Australia Home Affairs</a> — before finalising.</p>
+            <p>For country-specific certificates, see Patron's pages for the <a href="/net-worth-certificate-for-visa">Canada visa</a>, <a href="/net-worth-certificate-for-visa">US visa</a>, <a href="/net-worth-certificate-for-visa">UK visa</a>, <a href="/net-worth-certificate-for-visa">Schengen visa</a> and <a href="/net-worth-certificate-for-visa">Australia visa</a>. Thresholds change, so always confirm the current figure with the official immigration authority — for example <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">IRCC (Canada)</a>, <a href="https://www.gov.uk/browse/visas-immigration" target="_blank" rel="noopener">UK Visas &amp; Immigration</a> or <a href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noopener">Australia Home Affairs</a> — before finalising.</p>
         </section>
 
         <section class="content-section" id="checklist">
@@ -891,9 +891,9 @@ a:focus-visible {
                 <li>Be prepared <strong>within three months</strong> of the visa application, ideally close to the application date.</li>
                 <li>Use <strong>conservative, defensible valuations</strong> for property and assets — inflated figures invite embassy scrutiny.</li>
                 <li>For <strong>student visas</strong>, cover the parents'/sponsor's net worth, often in a single family certificate.</li>
-                <li>For <strong>jointly held assets</strong>, clearly apportion ownership — see <a href="/net-worth-certificate-for-joint-owners-in-india">joint-owner certificates</a>.</li>
+                <li>For <strong>jointly held assets</strong>, clearly apportion ownership — see <a href="/net-worth-certificate-for-bank-loan">joint-owner certificates</a>.</li>
             </ul>
-            <p>Use our <a href="/tools/nwc-document-checklist">NWC document checklist</a> to gather supporting documents (bank statements, FD receipts, mutual fund CAS, property papers, loan statements) before your CA prepares the certificate in the <a href="/net-worth-certificate-dual-currency-format">dual-currency format</a>.</p>
+            <p>Use our <a href="/tools/nwc-document-checklist">NWC document checklist</a> to gather supporting documents (bank statements, FD receipts, mutual fund CAS, property papers, loan statements) before your CA prepares the certificate in the <a href="/net-worth-certificate-for-visa">dual-currency format</a>.</p>
         </section>
 
         <section class="content-section" id="faqs">
@@ -972,20 +972,20 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="/net-worth-certificate-for-visa" class="sidebar-link">Net Worth Certificate for Visa <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-dual-currency-format" class="sidebar-link">Dual-Currency NWC Format <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-students" class="sidebar-link">NWC for Student Visa <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Dual-Currency NWC Format <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">NWC for Student Visa <span class="arrow">→</span></a>
             <a href="/net-worth-certificate" class="sidebar-link">Net Worth Certificate (India) <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-joint-owners-in-india" class="sidebar-link">NWC for Joint Owners <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-bank-loan" class="sidebar-link">NWC for Joint Owners <span class="arrow">→</span></a>
             <a href="/dsc-registration" class="sidebar-link">Digital Signature (DSC) <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Country-Specific NWC</h3>
-            <a href="/net-worth-certificate-for-canada-visa" class="sidebar-link">Canada Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-us-visa" class="sidebar-link">US Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-uk-visa" class="sidebar-link">UK Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-schengen-visa" class="sidebar-link">Schengen Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-australia-visa" class="sidebar-link">Australia Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Canada Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">US Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">UK Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Schengen Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Australia Visa NWC <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">

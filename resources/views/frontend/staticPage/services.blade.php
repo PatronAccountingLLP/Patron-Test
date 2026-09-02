@@ -1338,7 +1338,7 @@
             </div>
         </div>
         <div class="grid-cp">
-            <a href="/itr-filing-for-salary" class="tile-cp">
+            <a href="/itr-for-salary" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>01.01</span><span class="tile-cp-form-tag">ITR-1 / 2</span></div>
                 <h3 class="tile-cp-title">Salaried Individuals</h3>
                 <p class="tile-cp-blurb">ITR-1 or ITR-2 with Form 16, HRA, capital gains, multi-employer scenarios.</p>
@@ -1420,7 +1420,7 @@
                 <p class="tile-cp-blurb">Equity, mutual funds, property, gold under post-July-2024 rates.</p>
                 <div class="tile-cp-foot"><span>Quoted</span><span class="arrow">↗</span></div>
             </a>
-            <a href="/itr-for-fno-traders" class="tile-cp">
+            <a href="/itr-for-fno-trader" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.04</span><span class="tile-cp-form-tag">ITR-3 · 44AB</span></div>
                 <h3 class="tile-cp-title">F&O / Intraday Traders</h3>
                 <p class="tile-cp-blurb">F&O as non-speculative business, ITR-3 mandatory, audit threshold.</p>

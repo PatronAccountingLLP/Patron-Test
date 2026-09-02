@@ -321,7 +321,7 @@
   "@type": "Organization",
   "name": "Patron Accounting LLP",
   "url": "https://www.patronaccounting.com/",
-  "logo": "https://www.patronaccounting.com/images/logo.png",
+  "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
   "sameAs": [
     "https://www.linkedin.com/company/patron-accounting"
   ],
@@ -1050,7 +1050,7 @@
             <div class="sec-head-right"><span class="sec-counter">4 services · From INR 1,499*</span></div>
         </div>
         <div class="grid-cp">
-            <a href="/net-worth-certificate-for-companies" class="tile-cp">
+            <a href="/net-worth-certificate-for-company" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for Companies <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">A net-worth certificate for a private limited or public company — built off audited financials, used for funding, tendering and regulator filings.</p>
@@ -1068,7 +1068,7 @@
                 <p class="tile-cp-blurb">A proprietor's net-worth certificate — combining business and personal assets on one certificate, the way banks and embassies ask.</p>
                 <div class="tile-cp-foot"><span>From INR 1,499<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/net-worth-certificate-for-joint-owners-in-india" class="tile-cp">
+            <a href="/net-worth-certificate-for-bank-loan" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>02.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for Joint Owners</h3>
                 <p class="tile-cp-blurb">A joint-owner net-worth certificate — for spouses, parents or family with shared property and asset ownership.</p>
@@ -1089,31 +1089,31 @@
             <div class="sec-head-right"><span class="sec-counter">8 services · From INR 1,999*</span></div>
         </div>
         <div class="grid-cp">
-            <a href="/net-worth-certificate-for-us-visa" class="tile-cp">
+            <a href="/net-worth-certificate-for-visa" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for US Visa <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Net-worth certificate for US visa applications — student F-1, work H-1B and visitor B1/B2 — matched to I-20 and consular financial-proof formats.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/net-worth-certificate-for-canada-visa" class="tile-cp">
+            <a href="/net-worth-certificate-for-visa" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.02</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for Canada Visa <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Net-worth certificate for Canada study-permit and PR — sized to settlement-fund thresholds and GIC requirements.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/net-worth-certificate-for-uk-visa" class="tile-cp">
+            <a href="/net-worth-certificate-for-visa" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for UK Visa <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Net-worth certificate for UK student visa — built to the UKVI 28-day rule and maintenance-funds format.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/net-worth-certificate-for-australia-visa" class="tile-cp">
+            <a href="/net-worth-certificate-for-visa" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for Australia Visa <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Net-worth certificate for Australia subclass-500 student visa — meeting GTE and financial-capacity evidence in AUD.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/net-worth-certificate-for-schengen-visa" class="tile-cp">
+            <a href="/net-worth-certificate-for-visa" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>03.05</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for Schengen Visa <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Net-worth certificate accepted across all 27 Schengen countries — for short-stay tourism, business and family-visit visas.</p>
@@ -1152,7 +1152,7 @@
             <div class="sec-head-right"><span class="sec-counter">7 services · From INR 1,499*</span></div>
         </div>
         <div class="grid-cp">
-            <a href="/net-worth-certificate-for-students" class="tile-cp">
+            <a href="/net-worth-certificate-for-visa" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>04.01</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for Students <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">The student-applicant net-worth certificate — the parent page for foreign-admission financial-proof, ahead of any country-specific filing.</p>
@@ -1164,7 +1164,7 @@
                 <p class="tile-cp-blurb">Net-worth certificate for self-employed and HNI home-loan applicants — supplementing ITR in the lender's format.</p>
                 <div class="tile-cp-foot"><span>From INR 1,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/net-worth-certificate-for-business-loan" class="tile-cp">
+            <a href="/net-worth-certificate-for-bank-loan" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>04.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC for Business Loan <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Net-worth certificate for MSME and SME borrowers — combining personal-guarantee and business-asset attestation for the lender.</p>
@@ -1182,7 +1182,7 @@
                 <p class="tile-cp-blurb">Director-level net-worth certificate for SEBI, RBI and IRDAI 'fit and proper' criteria — intermediary, NBFC and insurance-director use.</p>
                 <div class="tile-cp-foot"><span>From INR 4,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/net-worth-certificate-dual-currency-format" class="tile-cp">
+            <a href="/net-worth-certificate-for-visa" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>04.06</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">NWC — Dual-Currency Format <span class="badge-new-cp">New</span></h3>
                 <p class="tile-cp-blurb">Net-worth certificate in INR plus a foreign currency on a single page — the format US, UK and EU embassies often ask for.</p>
@@ -1545,12 +1545,7 @@
                 <p class="tile-cp-blurb">CA-supervised monthly books — the audit-ready records every business certificate is built from.</p>
                 <div class="tile-cp-foot"><span>From INR 2,499/mo<span class="ast">*</span></span><span class="arrow">↗</span></div>
             </a>
-            <a href="/audit-services" class="tile-cp">
-                <div class="tile-cp-meta-row"><span>13.03</span><span class="tile-cp-form-tag">SERVICE</span></div>
-                <h3 class="tile-cp-title">Audit & Assurance</h3>
-                <p class="tile-cp-blurb">Statutory, tax and special-purpose audits — when a certificate needs audited financials behind it.</p>
-                <div class="tile-cp-foot"><span>From INR 14,999<span class="ast">*</span></span><span class="arrow">↗</span></div>
-            </a>
+            
             <a href="/business-registration-services" class="tile-cp">
                 <div class="tile-cp-meta-row"><span>13.04</span><span class="tile-cp-form-tag">SERVICE</span></div>
                 <h3 class="tile-cp-title">Business Registration</h3>

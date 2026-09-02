@@ -845,7 +845,7 @@ a:focus-visible {
                 <li><strong>Keep valuations conservative</strong> — inflated property values diverging from market rates are an immediate red flag.</li>
                 <li><strong>Match the reference date</strong> to your application timeline so figures are fresh.</li>
             </ul>
-            <p>Patron maintains a <a href="/net-worth-certificate-dual-currency-format">dual-currency net worth certificate format</a> and a <a href="/double-currency-networth-format">double-currency networth format</a> for exactly this purpose.</p>
+            <p>Patron maintains a <a href="/net-worth-certificate-for-visa">dual-currency net worth certificate format</a> and a <a href="/net-worth-certificate-for-visa">double-currency networth format</a> for exactly this purpose.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Currency conversion (element 8) is the one element specific to visa/embassy certificates. A single-currency certificate where dual currency was expected is a common rejection trigger.</p>
             </div>
@@ -861,7 +861,7 @@ a:focus-visible {
                 <li><strong>Australia</strong> — for student and visitor visas, refer to the Department of Home Affairs at <a href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noopener">immi.homeaffairs.gov.au</a>. Present INR + AUD.</li>
                 <li><strong>Schengen</strong> — consulates assess sufficient means of subsistence; the certificate supports (not replaces) bank statements. Present INR + EUR.</li>
             </ul>
-            <p>These notes are general guidance for 2026 and not a substitute for the embassy's current published requirements. Patron's country pages — <a href="/net-worth-certificate-for-us-visa">US</a>, <a href="/net-worth-certificate-for-uk-visa">UK</a>, <a href="/net-worth-certificate-for-canada-visa">Canada</a>, <a href="/net-worth-certificate-for-australia-visa">Australia</a> and <a href="/net-worth-certificate-for-schengen-visa">Schengen</a> — go into each in more detail.</p>
+            <p>These notes are general guidance for 2026 and not a substitute for the embassy's current published requirements. Patron's country pages — <a href="/net-worth-certificate-for-visa">US</a>, <a href="/net-worth-certificate-for-visa">UK</a>, <a href="/net-worth-certificate-for-visa">Canada</a>, <a href="/net-worth-certificate-for-visa">Australia</a> and <a href="/net-worth-certificate-for-visa">Schengen</a> — go into each in more detail.</p>
         </section>
 
         <section class="content-section" id="mistakes">
@@ -952,18 +952,18 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>NWC by Country</h3>
-            <a href="/net-worth-certificate-for-us-visa" class="sidebar-link">US Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-uk-visa" class="sidebar-link">UK Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-canada-visa" class="sidebar-link">Canada Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-australia-visa" class="sidebar-link">Australia Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-schengen-visa" class="sidebar-link">Schengen Visa NWC <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-for-students" class="sidebar-link">Student Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">US Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">UK Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Canada Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Australia Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Schengen Visa NWC <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Student Visa NWC <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>Related Services &amp; Tools</h3>
             <a href="/net-worth-certificate-for-visa" class="sidebar-link">NWC for Visa (Service) <span class="arrow">→</span></a>
-            <a href="/net-worth-certificate-dual-currency-format" class="sidebar-link">Dual-Currency Format <span class="arrow">→</span></a>
+            <a href="/net-worth-certificate-for-visa" class="sidebar-link">Dual-Currency Format <span class="arrow">→</span></a>
             <a href="/tools/net-worth-calculator" class="sidebar-link">Net Worth Calculator <span class="arrow">→</span></a>
             <a href="/tools/nwc-document-checklist" class="sidebar-link">NWC Document Checklist <span class="arrow">→</span></a>
         </div>

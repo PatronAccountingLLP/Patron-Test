@@ -1065,7 +1065,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/annual-compliance-requirements-for-companies-in-india" class="sidebar-link">Annual Compliance Requirements<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/statutory-audit-requirements-for-companies" class="sidebar-link">Statutory Audit Requirements<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital-meaning-differences-and-share-capital-structure-explained" class="sidebar-link">Authorized vs Paid-Up Capital<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/authorized-capital-vs-paid-up-capital" class="sidebar-link">Authorized vs Paid-Up Capital<span class="arrow">→</span></a>
         </div>
 
     </aside>

@@ -855,7 +855,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20holding%20company%20compliance%20support%20covering%20Section%20186%20and%20AOC-1." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20holding%20company%20compliance%20support%20covering%20Section%20186%20and%20AOC-1." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1736,7 +1736,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Holding Company Compliance consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20quote%20a%20holding-company%20compliance%20package%20Rs%2035k%20to%20Rs%2050k%20by%20subsidiary%20count." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free Holding Company Compliance consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20quote%20a%20holding-company%20compliance%20package%20Rs%2035k%20to%20Rs%2050k%20by%20subsidiary%20count." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -2067,7 +2067,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 
                 <p style="margin-top:16px;"><strong>The CIC threshold proximity is also a slow-moving but irreversible risk.</strong> By the time the company realises it has crossed Rs 100 crore + raised debentures from non-promoter parties, RBI registration is mandatory and unwinding is costly. Patron handles these risks proactively - threshold tracking, special resolution scheduling 30 days ahead, contemporaneous RPT documentation, annual CIC re-test. Compliance for a holdco is governance, not paperwork.</p>
 
-                <p style="margin-top:16px;"><strong>Get a Free 15-Minute Diagnostic -</strong> <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20holding%20company%20compliance%20diagnostic%20covering%20Section%20186%20baseline%20and%20CIC%20test." target="_blank">WhatsApp us</a>. We will map your group structure, run the Section 186 baseline, test the CIC threshold, and quote the right tier within 24 hours.</p>
+                <p style="margin-top:16px;"><strong>Get a Free 15-Minute Diagnostic -</strong> <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20holding%20company%20compliance%20diagnostic%20covering%20Section%20186%20baseline%20and%20CIC%20test." target="_blank" rel="noopener">WhatsApp us</a>. We will map your group structure, run the Section 186 baseline, test the CIC threshold, and quote the right tier within 24 hours.</p>
 
 
             </div>
@@ -2091,7 +2091,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20quote%20a%20holding-company%20compliance%20package%20Rs%2035k%20to%20Rs%2050k%20by%20subsidiary%20count." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20quote%20a%20holding-company%20compliance%20package%20Rs%2035k%20to%20Rs%2050k%20by%20subsidiary%20count." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -2111,19 +2111,19 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
                 <div class="pa-block-title">City-Wise Holding Company Compliance</div>
                 <div class="pa-block-sub">Local CA + CS team for holdco engagements</div>
                 <div class="pa-city-grid">
-                    <a href="/small-company-compliance-holding-companies/pune" class="pa-city-card">
+                    <a href="/small-company-compliance-holding-companies" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Holdco Compliance in Pune</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/small-company-compliance-holding-companies/mumbai" class="pa-city-card">
+                    <a href="/small-company-compliance-holding-companies" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Holdco Compliance in Mumbai</div><div class="pa-card-sub">Maharashtra</div></div>
                     </a>
-                    <a href="/small-company-compliance-holding-companies/delhi" class="pa-city-card">
+                    <a href="/small-company-compliance-holding-companies" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Holdco Compliance in Delhi</div><div class="pa-card-sub">NCT Delhi</div></div>
                     </a>
-                    <a href="/small-company-compliance-holding-companies/gurugram" class="pa-city-card">
+                    <a href="/small-company-compliance-holding-companies" class="pa-city-card">
                         <div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" style="width:16px;height:16px;"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
                         <div><div class="pa-card-title">Holdco Compliance in Gurugram</div><div class="pa-card-sub">Haryana</div></div>
                     </a>

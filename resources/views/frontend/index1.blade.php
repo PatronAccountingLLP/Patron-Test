@@ -2153,7 +2153,7 @@
                             <span class="brand-text"><img src="{{ asset('images/Etoro.svg') }}" alt="Brand Logo"></span>
                         </div>
                         <div class="brand-logo">
-                            <span class="brand-text"><img src="{{ asset('images/H_Rblock.svg') }}"
+                            <span class="brand-text"><img src="{{ asset('images/H_RBlock.svg') }}"
                                     alt="Brand Logo"></span>
                         </div>
                         <div class="brand-logo">
@@ -2290,11 +2290,11 @@
         </script>
 
         <div class="d-flex justify-content-center gap-3 mb-5">
-            <a href="/contact-page" class="btn btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-lg px-5 py-3"
                 style="background: #F26522; color: white; border-radius: 50px; font-weight: 600; border: none; font-size: 1rem;">
                 Get in touch
             </a>
-            <a href="/contact-page" class="btn btn-outline-dark btn-lg px-5 py-3"
+            <a href="/contact-us" class="btn btn-outline-dark btn-lg px-5 py-3"
                 style="border-radius: 50px; font-weight: 600; border: 2px solid #333; font-size: 1rem;">
                 Contact us
             </a>
@@ -2540,7 +2540,7 @@
 <section class="cta-compliance-section">
     <div class="container">
         <h2 class="cta-compliance-title">Start your Compliance Journey With Patron</h2>
-        <a href="/contact-page" class="cta-get-started-btn">
+        <a href="/contact-us" class="cta-get-started-btn">
             GET STARTED
             <i class="bi bi-arrow-right"></i>
         </a>
@@ -2777,7 +2777,7 @@
                         No delays, no unanswered messages, our team is built for speed. Every query is acknowledged
                         promptly, and we keep communication clear, consistent, and responsive from start to finish.
                     </p>
-                    <a href="/contact-page" class="book-consultation-btn">
+                    <a href="/contact-us" class="book-consultation-btn">
                         Book a free consultation
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -2808,7 +2808,7 @@
                         We stay ahead of deadlines so you don't have to. Our team tracks upcoming renewals, filings, and
                         regulatory changes to help your business maintain uninterrupted compliance.
                     </p>
-                    <a href="/contact-page" class="book-consultation-btn">
+                    <a href="/contact-us" class="book-consultation-btn">
                         Book a free consultation
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -2831,7 +2831,7 @@
                         From filings to follow-ups, we manage the full process so you don't have to. Focus on your
                         business while we handle the paperwork and procedures.
                     </p>
-                    <a href="/contact-page" class="book-consultation-btn">
+                    <a href="/contact-us" class="book-consultation-btn">
                         Book a free consultation
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -2862,7 +2862,7 @@
                     structure, clarity, and strategic foresight to your journey. Patron Accounting isn't just a service.
                     It's your built-in legal ecosystem, dependable, responsive, and always aligned with your growth.
                 </p>
-                <a href="/contact-page" class="book-consultation-btn">
+                <a href="/contact-us" class="book-consultation-btn">
                     Book a free consultation
                     <i class="bi bi-arrow-right"></i>
                 </a>

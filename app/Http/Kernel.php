@@ -31,6 +31,9 @@ class Kernel extends HttpKernel
         // See the class docblock for why this cannot loop on the homepage.
         \App\Http\Middleware\RedirectIndexPhp::class,
 
+        // Response security headers. Last in the stack so it sees the finished
+        // response, including ones the redirects above return early.
+        \App\Http\Middleware\SecurityHeaders::class,
     ];
 
     /**

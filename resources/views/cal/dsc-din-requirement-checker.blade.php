@@ -822,7 +822,7 @@ a:focus-visible {
         <section class="content-section" id="dsc-vs-din">
             <h2>DSC vs DIN — What's the Difference?</h2>
             <p>They're often mentioned together but do different jobs. A <strong>Digital Signature Certificate (DSC)</strong> is a Class 3 cryptographic certificate that lets a person <strong>digitally sign</strong> forms on the MCA portal — every director, designated partner and subscriber who signs the incorporation documents needs one. A <strong>Director Identification Number (DIN)</strong> is a unique 8-digit number the MCA allots to an <strong>individual</strong> so they can hold the office of director (or, as a unified DPIN, designated partner).</p>
-            <p>So the DSC is a <em>signing tool</em> tied to the person, while the DIN is an <em>identity number</em> needed to be a director. See Patron's <a href="https://www.patronaccounting.com/dsc-registration">DSC registration</a> service and the <a href="https://www.patronaccounting.com/blog/director-identification-number-din-everything-you-need-to-know">DIN explainer</a>.</p>
+            <p>So the DSC is a <em>signing tool</em> tied to the person, while the DIN is an <em>identity number</em> needed to be a director. See Patron's <a href="https://www.patronaccounting.com/dsc-registration">DSC registration</a> service and the <a href="https://www.patronaccounting.com/blog/director-identification-number-din">DIN explainer</a>.</p>
             <table class="rate-table">
                 <thead>
                     <tr><th></th><th>DSC</th><th>DIN</th></tr>
@@ -976,7 +976,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>DSC / DIN Services</h3>
             <a href="https://www.patronaccounting.com/dsc-registration" class="sidebar-link">DSC Registration <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
         </div>
 
@@ -990,7 +990,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/digital-signature-certificate-dsc-for-company-registration" class="sidebar-link">DSC for Company Registration <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/director-identification-number-din-everything-you-need-to-know" class="sidebar-link">DIN: Everything to Know <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/director-identification-number-din" class="sidebar-link">DIN: Everything to Know <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

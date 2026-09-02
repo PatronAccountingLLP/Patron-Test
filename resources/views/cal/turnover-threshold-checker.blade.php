@@ -973,7 +973,7 @@ a:focus-visible {
             <a href="https://www.patronaccounting.com/tax-audit" class="sidebar-link">Tax Audit (44AB) <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/statutory-audit" class="sidebar-link">Statutory Audit <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/udyam-registration" class="sidebar-link">Udyam (MSME) Registration <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/turnover-certificate" class="sidebar-link">Turnover Certificate <span class="arrow">→</span></a>
         </div>
 

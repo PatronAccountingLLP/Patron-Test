@@ -839,7 +839,7 @@ a:focus-visible {
                     <tr><td>Recently dissolved</td><td>Matches a company dissolved/liquidated within the last two years.</td></tr>
                 </tbody>
             </table>
-            <p>The redrafted 2026 Rule 8 lists 12 factors that are <em>ignored</em> when comparing names — which is exactly why cosmetic tweaks don't help. See the <a href="https://www.patronaccounting.com/blog/company-name-rules-mca-guidelines-for-name-selection">MCA name-selection guidelines</a>.</p>
+            <p>The redrafted 2026 Rule 8 lists 12 factors that are <em>ignored</em> when comparing names — which is exactly why cosmetic tweaks don't help. See the <a href="https://www.patronaccounting.com/blog/company-name-rules">MCA name-selection guidelines</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -957,7 +957,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Registration & Trademark</h3>
-            <a href="https://www.patronaccounting.com/private-limited-company-registration-in-india" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/private-limited-company-registration" class="sidebar-link">Pvt Ltd Registration <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/llp-incorporation" class="sidebar-link">LLP Registration <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/trademark-search-report" class="sidebar-link">Trademark Search <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/trademark-registration" class="sidebar-link">Trademark Registration <span class="arrow">→</span></a>
@@ -965,9 +965,9 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/company-name-rules-mca-guidelines-for-name-selection" class="sidebar-link">MCA Name Selection Rules <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/company-name-rules" class="sidebar-link">MCA Name Selection Rules <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/form-spice-complete-guide-to-company-incorporation-in-india" class="sidebar-link">SPICe+ Incorporation Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/company-name-change-procedure-complete-mca-process-documents-and-compliance" class="sidebar-link">Company Name Change <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/company-name-change-procedure" class="sidebar-link">Company Name Change <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

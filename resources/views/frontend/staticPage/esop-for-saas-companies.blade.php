@@ -352,7 +352,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20SaaS%20ESOP%20scoping%20call." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20want%20a%20free%20SaaS%20ESOP%20scoping%20call." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -818,7 +818,7 @@
                 </ul>
                 <p><strong>5. Founder Backfill and DPIIT Pathway:</strong></p>
                 <ul>
-                    <li>Coordinated <a href="/startup-registration/">DPIIT Startup Registration</a> filing to unlock the Rule 12 10-year founder ESOP exemption for late-joining co-founders.</li>
+                    <li>Coordinated <a href="/startup-registration">DPIIT Startup Registration</a> filing to unlock the Rule 12 10-year founder ESOP exemption for late-joining co-founders.</li>
                     <li>Section 80-IAC plus Section 192(2C) 48-month perquisite tax deferral pathway for employees (60 months under Income Tax Act 2025 from 1 April 2026).</li>
                 </ul>
                 <p><strong>6. Delaware Flip / US Holdco Structure Design:</strong></p>
@@ -827,11 +827,11 @@
                     <li>Transfer pricing arm's-length structure under Section 92 Income Tax Act 1961 plus Rule 10D documentation.</li>
                     <li>LRS-aware tax treatment (USD 250,000 per FY individual remittance cap).</li>
                     <li>US 409A coordination with US legal counsel.</li>
-                    <li>End-to-end <a href="/fdi-compliance/">FDI Compliance</a> workflow.</li>
+                    <li>End-to-end <a href="/fdi-compliance">FDI Compliance</a> workflow.</li>
                 </ul>
                 <p><strong>7. Revenue-Multiple Valuation Impact Analysis:</strong></p>
                 <ul>
-                    <li>Coordinated valuation engagement with <a href="/esop-valuation-services/">Patron ESOP Valuation Services</a> team.</li>
+                    <li>Coordinated valuation engagement with <a href="/esop-valuation-services">Patron ESOP Valuation Services</a> team.</li>
                     <li>Navigate the SaaS revenue-multiple inflation problem - choose between DCF, NAV, CCA methods to optimise perquisite tax exposure while maintaining defensibility under Rule 11UA.</li>
                 </ul>
                 <p><strong>8. Statutory Filings and Registers:</strong></p>
@@ -867,7 +867,7 @@
                         <tr><td><strong>Revenue-multiple valuation locked in at grant</strong></td><td>Using revenue-multiple valuation (10x ARR) at grant date locks in a high FMV that creates a large perquisite tax bill at exercise. Example - 10,000 options exercised by mid-level engineer at Rs 500 FMV (10x ARR) vs Rs 200 (DCF) creates 2.5x extra perquisite tax - approximately Rs 9.36 lakh extra tax at 30 percent slab plus cess.</td><td>Patron coordinates with the valuation team to use defensible DCF or NAV methodologies for grant FMV under Rule 11UA, while keeping the revenue-multiple narrative for investor decks. DPIIT plus Section 80-IAC 48-month deferral applied where eligible.</td></tr>
                         <tr><td><strong>Sales Comp Plan misalignment with ESOP grant letters</strong></td><td>If AE grant letters do not specify quota acceleration mechanics that match the Sales Comp Plan (SCP), disputes arise at year-end when SCP says 150 percent quota was hit but ESOP letter does not define what "150 percent" means (gross vs net bookings, before vs after holdouts).</td><td>Patron integrates ESOP grant letters with SCP at issuance. Quota measurement basis defined identically. Annual SCP refresh triggers parallel ESOP grant letter review for new joiners.</td></tr>
                         <tr><td><strong>NRR measurement disputes for CSM grants</strong></td><td>CSM grants tied to NRR without defined certification mechanics create downstream conflict - whose customers, what segments, expansion vs upsell classification, churn timing.</td><td>Patron documents NRR computation methodology in grant letter - source data (CRM), measurement period, cohort definition, expansion vs upsell classification, churn timing rule. Integration with CS Ops measurement infrastructure.</td></tr>
-                        <tr><td><strong>MGT-14 default under Section 117(2)</strong></td><td>Rs 100 per day after 30 days under Section 117(2) of Companies Act 2013 for delay in filing special resolutions (scheme adoption, pool top-up). Compounding can quickly exceed Rs 50,000 for a 6-month delay.</td><td>Patron filing calendar tracks every special resolution against the 30-day MGT-14 deadline. Automated reminder 7 days before deadline. End-to-end through <a href="/esop-corporate-filings/">ESOP Corporate Filings</a> retainer.</td></tr>
+                        <tr><td><strong>MGT-14 default under Section 117(2)</strong></td><td>Rs 100 per day after 30 days under Section 117(2) of Companies Act 2013 for delay in filing special resolutions (scheme adoption, pool top-up). Compounding can quickly exceed Rs 50,000 for a 6-month delay.</td><td>Patron filing calendar tracks every special resolution against the 30-day MGT-14 deadline. Automated reminder 7 days before deadline. End-to-end through <a href="/esop-corporate-filings">ESOP Corporate Filings</a> retainer.</td></tr>
 
 
                     </tbody>
@@ -906,7 +906,7 @@
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;"><strong>Disclaimer:</strong> All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
-                <p style="margin-top:16px;"><strong>Get a free SaaS ESOP consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20B2B%20SaaS%20ESOP%20design." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free SaaS ESOP consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20B2B%20SaaS%20ESOP%20design." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -1036,14 +1036,14 @@
             <div class="content-text">
                 
                 <ul>
-                    <li><strong><a href="/esop-services/">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types.</li>
-                    <li><strong><a href="/esop-for-tech-startups/">ESOP for Tech Startups</a></strong> - parent vertical covering general tech, product and AI startup verticals with engineer and CTO benchmarks (general tech is sibling to SaaS-specific design).</li>
-                    <li><strong><a href="/esop-scheme-design/">ESOP Scheme Design</a></strong> - generic first-time scheme drafting with sample term sheet; baseline for non-SaaS verticals.</li>
-                    <li><strong><a href="/esop-valuation-services/">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies; critical for SaaS revenue-multiple management at grant and exercise.</li>
-                    <li><strong><a href="/esop-accounting-ind-as-102/">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; group SBP rules apply to Delaware flip mirror grants.</li>
-                    <li><strong><a href="/esop-corporate-filings/">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer including MGT-14, PAS-3 and MGT-7 for SaaS startups with active grant cycles.</li>
-                    <li><strong><a href="/fdi-compliance/">FDI Compliance</a></strong> - cross-border filings for Delaware flip and foreign parent structures.</li>
-                    <li><strong><a href="/startup-registration/">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
+                    <li><strong><a href="/esop-services">ESOP Services Master Hub</a></strong> - end-to-end ESOP lifecycle services covering all verticals and engagement types.</li>
+                    <li><strong><a href="/esop-for-tech-startups">ESOP for Tech Startups</a></strong> - parent vertical covering general tech, product and AI startup verticals with engineer and CTO benchmarks (general tech is sibling to SaaS-specific design).</li>
+                    <li><strong><a href="/esop-scheme-design">ESOP Scheme Design</a></strong> - generic first-time scheme drafting with sample term sheet; baseline for non-SaaS verticals.</li>
+                    <li><strong><a href="/esop-valuation-services">ESOP Valuation Services</a></strong> - Rule 11UA FMV reports including DCF, NAV and CCA methodologies; critical for SaaS revenue-multiple management at grant and exercise.</li>
+                    <li><strong><a href="/esop-accounting-ind-as-102">ESOP Accounting under Ind AS 102</a></strong> - share-based payment expense and Schedule III disclosure; group SBP rules apply to Delaware flip mirror grants.</li>
+                    <li><strong><a href="/esop-corporate-filings">ESOP Corporate Filings</a></strong> - ongoing MCA filings retainer including MGT-14, PAS-3 and MGT-7 for SaaS startups with active grant cycles.</li>
+                    <li><strong><a href="/fdi-compliance">FDI Compliance</a></strong> - cross-border filings for Delaware flip and foreign parent structures.</li>
+                    <li><strong><a href="/startup-registration">DPIIT Startup Registration</a></strong> - DPIIT recognition under Notification GSR 127(E) 2019; prerequisite for Rule 12 10-year founder exemption and Section 80-IAC tax deferral.</li>
                 </ul>
 
             </div>
@@ -1191,7 +1191,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20B2B%20SaaS%20ESOP%20design." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20written%20quote%20for%20my%20B2B%20SaaS%20ESOP%20design." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
@@ -1210,35 +1210,35 @@
             <div class="pa-cross-block">
                 <h3 class="pa-cross-title">Related Patron ESOP Services</h3>
                 <div class="pa-cross-grid">
-                    <a href="/esop-services/" class="pa-cross-card">
+                    <a href="/esop-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Services Master Hub</strong><span>End-to-end ESOP lifecycle</span></div>
                     </a>
-                    <a href="/esop-for-tech-startups/" class="pa-cross-card">
+                    <a href="/esop-for-tech-startups" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP for Tech Startups</strong><span>General tech / product / AI vertical</span></div>
                     </a>
-                    <a href="/esop-scheme-design/" class="pa-cross-card">
+                    <a href="/esop-scheme-design" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Scheme Design</strong><span>Generic first-time scheme drafting</span></div>
                     </a>
-                    <a href="/esop-valuation-services/" class="pa-cross-card">
+                    <a href="/esop-valuation-services" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Valuation Services</strong><span>Rule 11UA DCF / NAV / CCA FMV</span></div>
                     </a>
-                    <a href="/esop-accounting-ind-as-102/" class="pa-cross-card">
+                    <a href="/esop-accounting-ind-as-102" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Accounting Ind AS 102</strong><span>Group SBP for mirror grants</span></div>
                     </a>
-                    <a href="/esop-corporate-filings/" class="pa-cross-card">
+                    <a href="/esop-corporate-filings" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>ESOP Corporate Filings</strong><span>MGT-14, PAS-3, MGT-7 retainer</span></div>
                     </a>
-                    <a href="/fdi-compliance/" class="pa-cross-card">
+                    <a href="/fdi-compliance" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>FDI Compliance</strong><span>Cross-border Delaware flip filings</span></div>
                     </a>
-                    <a href="/startup-registration/" class="pa-cross-card">
+                    <a href="/startup-registration" class="pa-cross-card">
                         <div class="pa-cross-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
                         <div class="pa-cross-text"><strong>DPIIT Startup Registration</strong><span>10-year founder exemption</span></div>
                     </a>

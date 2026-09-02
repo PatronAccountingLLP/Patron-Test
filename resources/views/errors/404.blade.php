@@ -806,7 +806,7 @@
                         </span>
                         <svg class="pa-gone-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
                     </a>
-                    <a href="https://www.patronaccounting.com/tds-return-filing" class="pa-gone-card">
+                    <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="pa-gone-card">
                         <span class="pa-gone-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
                         <span class="pa-gone-card-text">
                             <span class="pa-gone-card-name">TDS Return Filing</span>

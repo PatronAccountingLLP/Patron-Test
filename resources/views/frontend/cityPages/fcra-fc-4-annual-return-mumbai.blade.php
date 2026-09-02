@@ -403,7 +403,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1068,7 +1068,7 @@ function toggleTestiVideo(area){
                 </table>
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of foreign contribution transactions, the number of donors, and the complexity of the accounts.</p>
-                <p style="margin-top:16px;"><strong>Get a free FCRA FC-4 consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4%20-%20please%20share%20a%20quote." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free FCRA FC-4 consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4%20-%20please%20share%20a%20quote." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -1244,7 +1244,7 @@ function toggleTestiVideo(area){
             <div class="content-text">
                 <p><strong>The clock is set by law:</strong> Form FC-4 is due within nine months of the close of the financial year - on or before 31 December. Leaving it late risks a Section 37 offence that can be compounded on the higher of Rs. 1,00,000 or 5% of the foreign contribution received during the period of non-submission.</p>
                 <p><strong>Nil year? Still file:</strong> If your association received no foreign contribution, the nil return is still mandatory. A missed nil return is treated as a default just like any other.</p>
-                <p><strong>Action:</strong> Call <a href="tel:+919459456700">+91 945 945 6700</a> for a free FC-4 scoping call, or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4." target="_blank">WhatsApp us</a>. Nil returns from INR 5,000; full FC-4 filing from INR 15,000 (Exl. GST &amp; Govt. Charges) - final quote on assessment.</p>
+                <p><strong>Action:</strong> Call <a href="tel:+919459456700">+91 945 945 6700</a> for a free FC-4 scoping call, or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4." target="_blank" rel="noopener">WhatsApp us</a>. Nil returns from INR 5,000; full FC-4 filing from INR 15,000 (Exl. GST &amp; Govt. Charges) - final quote on assessment.</p>
             </div>
         </div>
     </div>
@@ -1259,7 +1259,7 @@ function toggleTestiVideo(area){
             <p style="color:rgba(255,255,255,0.92);">Patron Accounting reconciles your foreign contribution accounts, prepares the receipt and payment account, income and expenditure statement and balance sheet, coordinates the CA certificate, and submits Form FC-4 on the portal - on time, every year - so your association avoids Section 37 penalties and protects its FCRA registration.</p>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20FCRA%20Form%20FC-4%20Annual%20Return%20Filing&body=Hello%20Patron%20Accounting%20Team%2C%0A%0AI%20need%20help%20filing%20the%20FCRA%20annual%20return%20in%20Form%20FC-4.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

@@ -879,7 +879,7 @@ a:focus-visible {
                 <li><strong>sale</strong> of the shares; or</li>
                 <li><strong>cessation</strong> of employment.</li>
             </ul>
-            <p>Only an <strong>eligible startup under Section 80-IAC</strong> qualifies — <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition <em>plus</em> an Inter-Ministerial Board (IMB) certificate obtained via <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a>. Many startups are DPIIT-recognised but far fewer hold the 80-IAC certificate. A crucial detail: the deferred tax is computed at the <strong>rates of the year of allotment</strong>, not the year the trigger occurs. See Patron's deep-dives on the <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">80-IAC ESOP deferral</a> and <a href="https://www.patronaccounting.com/blog/section-80-iac-esop-deferment-startup">Section 80-IAC deferment</a>.</p>
+            <p>Only an <strong>eligible startup under Section 80-IAC</strong> qualifies — <a href="https://www.dpiit.gov.in/" target="_blank" rel="noopener">DPIIT</a> recognition <em>plus</em> an Inter-Ministerial Board (IMB) certificate obtained via <a href="https://www.startupindia.gov.in/" target="_blank" rel="noopener">Startup India</a>. Many startups are DPIIT-recognised but far fewer hold the 80-IAC certificate. A crucial detail: the deferred tax is computed at the <strong>rates of the year of allotment</strong>, not the year the trigger occurs. See Patron's deep-dives on the <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac">80-IAC ESOP deferral</a> and <a href="https://www.patronaccounting.com/blog/section-80-iac-startup-tax-holiday">Section 80-IAC deferment</a>.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Deferral postpones <em>when</em> tax is paid, not whether. Without the 80-IAC certificate, normal Section 192 TDS applies at exercise.</p>
             </div>
@@ -898,7 +898,7 @@ a:focus-visible {
                     <tr><td>Deferred perquisite</td><td>Appears only when the 192(1C) trigger occurs.</td></tr>
                 </tbody>
             </table>
-            <p>The TDS is a credit against the employee's final liability, claimed in the ITR (<a href="https://www.patronaccounting.com/itr-for-esop-employees">ITR for ESOP employees</a>). For the employer-side filing, see Patron's <a href="https://www.patronaccounting.com/tds-return-filing">TDS return filing</a> service and the broader <a href="https://www.patronaccounting.com/esop-management-and-compliance-services">ESOP management & compliance</a> support.</p>
+            <p>The TDS is a credit against the employee's final liability, claimed in the ITR (<a href="https://www.patronaccounting.com/itr-for-esop-employees">ITR for ESOP employees</a>). For the employer-side filing, see Patron's <a href="https://www.patronaccounting.com/tds-return-filing-24q">TDS return filing</a> service and the broader <a href="https://www.patronaccounting.com/esop-management-and-compliance-services">ESOP management & compliance</a> support.</p>
         </section>
 
         <section class="content-section" id="timeline">
@@ -991,7 +991,7 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/esop-management-and-compliance-services" class="sidebar-link">ESOP Compliance <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/itr-for-esop-employees" class="sidebar-link">ITR for ESOP Employees <span class="arrow">→</span></a>
         </div>
@@ -999,7 +999,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/esop-tax-deferral-startup-employees-dpiit-section-80-iac" class="sidebar-link">80-IAC ESOP Deferral <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-section-17" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-perquisite-tax-employees" class="sidebar-link">ESOP Perquisite Tax <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/blog/esop-taxation-rules-2026-when-how-stock-options-taxed-rules" class="sidebar-link">ESOP Taxation Rules 2026 <span class="arrow">→</span></a>
         </div>
     </aside>

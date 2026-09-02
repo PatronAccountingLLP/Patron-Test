@@ -734,7 +734,7 @@
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: <span id="lastUpdated">23 June 2026</span></span>
                         </span>
-                        <a href="/migration-from-tally-to-quickbooks" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/migration-from-tally-to-zoho" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">
@@ -767,7 +767,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Tally%20to%20QuickBooks%20migration%20in%20Gurugram.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Tally%20to%20QuickBooks%20migration%20in%20Gurugram.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -906,7 +906,7 @@
                 </table>
                 </div>
 
-                <p>In Gurugram, the reasons to adopt QuickBooks Online stack up fast: books you can open from any desk, multiple users in a single file, and bank feeds that arrive automatically. A funded Cyber City SaaS company or a Udyog Vihar ITES provider wants its founders and an offsite accountant on the same data. A Manesar IMT manufacturer or an MG Road retailer would rather watch live dashboards than rely on one installed copy. The catch most worry about is losing years of ledgers as they cross over. Our national <a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration</a> service sets out how we avoid that.</p>
+                <p>In Gurugram, the reasons to adopt QuickBooks Online stack up fast: books you can open from any desk, multiple users in a single file, and bank feeds that arrive automatically. A funded Cyber City SaaS company or a Udyog Vihar ITES provider wants its founders and an offsite accountant on the same data. A Manesar IMT manufacturer or an MG Road retailer would rather watch live dashboards than rely on one installed copy. The catch most worry about is losing years of ledgers as they cross over. Our national <a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration</a> service sets out how we avoid that.</p>
                 <p>Working out of our Sohna Road office, our Gurugram chartered accountants carry the project from start to finish, matching each Tally ledger to a QuickBooks account, moving balances and masters across, and reconciling the trial balance before go-live. When you are live, our <a href="/accounting-services">Accounting Services</a> keep the books current. This page is reviewed every quarter.</p>
             </div>
         </div>
@@ -1211,7 +1211,7 @@
             <h2 class="section-title">Related Services</h2>
             <p class="pa-block-sub">Begin with the national migration service, then browse the related services we run across India.</p>
             <ul>
-                <li><a href="/migration-from-tally-to-quickbooks">Tally to QuickBooks Migration in India</a> - the national parent service</li>
+                <li><a href="/migration-from-tally-to-zoho">Tally to QuickBooks Migration in India</a> - the national parent service</li>
                 <li><a href="/accounting-services">Accounting Services</a> - ongoing monthly bookkeeping in QuickBooks</li>
                 <li><a href="/gst-returns">GST Return Filing</a> - file GST from your new QuickBooks data</li>
                 <li><a href="/income-tax-return">Income Tax Return Filing</a> - file accurate ITRs on clean books</li>
@@ -1339,11 +1339,11 @@
             <h2 class="section-title" style="color:#FFFFFF !important;">Move Your Gurugram Books to QuickBooks Without Losing History</h2>
             <div class="content-text" style="text-align:left;">
                 <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Leaving Tally for QuickBooks Online should never cost you years of ledgers or fracture your GST trail. Whether you are a Cyber City SaaS company, a Udyog Vihar ITES provider, a Manesar IMT unit, or an MG Road retailer, our CA-led migration reconstructs the chart, brings masters and balances over, rebuilds the history, and reconciles the trial balance against Tally, all from INR 9,999.</p>
-                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Browse the national <a href="/migration-from-tally-to-quickbooks" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once live pass the running to <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a>. Patron Accounting LLP serves 10,000+ businesses and holds a 4.9 Google rating.</p>
+                <p style="color:rgba(255,255,255,0.85);font-size:15px;line-height:1.8;">Browse the national <a href="/migration-from-tally-to-zoho" style="color:#fff;text-decoration:underline;">Tally to QuickBooks Migration</a> page, and once live pass the running to <a href="/accounting-services" style="color:#fff;text-decoration:underline;">Accounting Services</a>. Patron Accounting LLP serves 10,000+ businesses and holds a 4.9 Google rating.</p>
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Tally%20to%20QuickBooks%20migration%20in%20Gurugram.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20Tally%20to%20QuickBooks%20migration%20in%20Gurugram.%20Please%20call%20me." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=Enquiry%20for%20Tally%20to%20QuickBooks%20Migration%20in%20Gurugram&body=Hello%20Patron%20Team%2C%0A%0AI%20need%20Tally%20to%20QuickBooks%20migration%20in%20Gurugram.%0A%0APlease%20contact%20me.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

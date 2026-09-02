@@ -835,7 +835,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>What Is a Stock Statement?</h2>
             <p>A <strong>stock statement</strong> is the periodic declaration a borrower files with its bank against a <strong>cash credit (CC)</strong> or working-capital limit, showing the value of stock, book debts and creditors as on a date. The bank uses it to set the <strong>drawing power</strong> — the amount actually available to draw, which can be less than the sanctioned limit.</p>
-            <p>It is a post-sanction <strong>credit-monitoring</strong> tool: by updating DP from each statement, the bank keeps the borrowing backed by current, eligible assets. It is usually a monthly (sometimes quarterly) condition of the sanction, and for companies it connects to the auditor's checks under <a href="https://www.patronaccounting.com/blog/caro-2020-clause-ii-inventories">CARO 2020 Clause (ii)</a> on inventory and bank stock statements — a reporting requirement framed by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
+            <p>It is a post-sanction <strong>credit-monitoring</strong> tool: by updating DP from each statement, the bank keeps the borrowing backed by current, eligible assets. It is usually a monthly (sometimes quarterly) condition of the sanction, and for companies it connects to the auditor's checks under <a href="https://www.patronaccounting.com/blog/caro-2020-inventory-auditor-verification">CARO 2020 Clause (ii)</a> on inventory and bank stock statements — a reporting requirement framed by the <a href="https://www.icai.org/" target="_blank" rel="noopener">ICAI</a>.</p>
         </section>
 
         <section class="content-section" id="formula">
@@ -877,7 +877,7 @@ a:focus-visible {
                     <tr><td>Part E — Certification</td><td>Borrower's declaration that the statement is true and the stock is owned, paid and insured.</td></tr>
                 </tbody>
             </table>
-            <p>The copy-ready template generated above follows this Part A–E structure. For the underlying inventory metrics, see the blogs on <a href="https://www.patronaccounting.com/blog/inventory-turnover-ratio">inventory turnover</a> and <a href="https://www.patronaccounting.com/blog/days-inventory-outstanding-dio">days inventory outstanding</a>.</p>
+            <p>The copy-ready template generated above follows this Part A–E structure. For the underlying inventory metrics, see the blogs on <a href="https://www.patronaccounting.com/blog/working-capital-management-indian-sme-liquidity-guide">inventory turnover</a> and <a href="https://www.patronaccounting.com/blog/dso-days-sales-outstanding-reduce">days inventory outstanding</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -900,7 +900,7 @@ a:focus-visible {
                 <li><strong>Ignoring third-party stock</strong> — stock at job-workers or in transit may be excluded per sanction terms.</li>
                 <li><strong>Late or wrong-format submission</strong> — a DP from a statement older than three months is treated as stale.</li>
             </ul>
-            <p>For a deeper checklist, see Patron's <a href="https://www.patronaccounting.com/blog/quarterly-inventory-statement-bank-msme-borrower-guide">MSME stock statement guide</a> and the <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan">net worth certificate for business loan</a> service for the wider loan file. MSME borrowers can also explore working-capital schemes via <a href="https://www.sidbi.in/" target="_blank" rel="noopener">SIDBI</a>, and the stock-statement format itself broadly follows the practice standardised by the <a href="https://www.iba.org.in/" target="_blank" rel="noopener">Indian Banks' Association</a>.</p>
+            <p>For a deeper checklist, see Patron's <a href="https://www.patronaccounting.com/blog/quarterly-inventory-statement-bank-msme-borrower-guide">MSME stock statement guide</a> and the <a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan">net worth certificate for business loan</a> service for the wider loan file. MSME borrowers can also explore working-capital schemes via <a href="https://www.sidbi.in/" target="_blank" rel="noopener">SIDBI</a>, and the stock-statement format itself broadly follows the practice standardised by the <a href="https://www.iba.org.in/" target="_blank" rel="noopener">Indian Banks' Association</a>.</p>
         </section>
 
         <section class="content-section" id="faqs">
@@ -982,15 +982,15 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>Related Services</h3>
-            <a href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/net-worth-certificate-for-bank-loan" class="sidebar-link">NWC for Business Loan <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/accounting-services" class="sidebar-link">Accounting Services <span class="arrow">→</span></a>
         </div>
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
             <a href="https://www.patronaccounting.com/blog/quarterly-inventory-statement-bank-msme-borrower-guide" class="sidebar-link">MSME Stock Statement Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/caro-2020-clause-ii-inventories" class="sidebar-link">CARO 2020 — Inventories <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/inventory-turnover-ratio" class="sidebar-link">Inventory Turnover Ratio <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/caro-2020-inventory-auditor-verification" class="sidebar-link">CARO 2020 — Inventories <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/working-capital-management-indian-sme-liquidity-guide" class="sidebar-link">Inventory Turnover Ratio <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

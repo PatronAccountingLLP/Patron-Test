@@ -831,7 +831,7 @@ a:focus-visible {
             <h3>Project Office</h3>
             <p>A temporary setup to execute a specific contract awarded by an Indian company. It can do commercial activity related to that project (the key difference from a liaison office) and is wound up on completion. Registered with the RBI and RoC.</p>
             <h3>Employer of Record (EOR)</h3>
-            <p>No entity needed — the EOR is the legal employer while the team reports to you, cutting time-to-team from ~60 days to under 2 weeks. Common as a fast start while a subsidiary is incorporated in parallel. See Patron's <a href="https://www.patronaccounting.com/eor-india-services">EOR India services</a>.</p>
+            <p>No entity needed — the EOR is the legal employer while the team reports to you, cutting time-to-team from ~60 days to under 2 weeks. Common as a fast start while a subsidiary is incorporated in parallel. See Patron's <a href="https://www.patronaccounting.com/eor-india">EOR India services</a>.</p>
         </section>
 
         <div class="body-cta">
@@ -859,7 +859,7 @@ a:focus-visible {
                     <tr><td>EOR</td><td>No (no entity)</td><td>N/A (hiring only)</td><td>No</td><td>Hiring a team fast, no entity yet</td></tr>
                 </tbody>
             </table>
-            <p>See Patron's guides on <a href="https://www.patronaccounting.com/blog/foreign-subsidiary-registration-in-india-complete-setup-guide-for-global-companies">foreign subsidiary registration</a> and <a href="https://www.patronaccounting.com/blog/foreign-company-compliance-in-india-a-complete-regulatory-guide">foreign company compliance</a>.</p>
+            <p>See Patron's guides on <a href="https://www.patronaccounting.com/blog/foreign-subsidiary-registration-in-india">foreign subsidiary registration</a> and <a href="https://www.patronaccounting.com/blog/foreign-company-compliance-in-india">foreign company compliance</a>.</p>
         </section>
 
         <section class="content-section" id="fdi">
@@ -948,7 +948,7 @@ a:focus-visible {
         <div class="sidebar-card">
             <h3>Foreign Entry Services</h3>
             <a href="https://www.patronaccounting.com/fdi-compliance" class="sidebar-link">FDI Compliance <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/eor-india-services" class="sidebar-link">EOR India Services <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/eor-india" class="sidebar-link">EOR India Services <span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/fla-returns" class="sidebar-link">FLA Returns <span class="arrow">→</span></a>
         </div>
 
@@ -961,8 +961,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/foreign-subsidiary-registration-in-india-complete-setup-guide-for-global-companies" class="sidebar-link">Foreign Subsidiary Setup <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/foreign-company-compliance-in-india-a-complete-regulatory-guide" class="sidebar-link">Foreign Company Compliance <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/foreign-subsidiary-registration-in-india" class="sidebar-link">Foreign Subsidiary Setup <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/foreign-company-compliance-in-india" class="sidebar-link">Foreign Company Compliance <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

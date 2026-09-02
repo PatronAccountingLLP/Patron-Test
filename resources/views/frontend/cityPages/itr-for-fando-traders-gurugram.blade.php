@@ -242,7 +242,7 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none">
+                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram.%20Please%20share%20details." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -366,7 +366,7 @@
                     <p><strong>&#128204; TL;DR - ITR for F&O Traders in Gurugram Services at a Glance</strong></p>
                     <p>Futures and Options (F&O) income is classified as non-speculative business income under Section 43(5) of the Income Tax Act and taxed at individual slab rates. F&O traders must file ITR-3 with a complete profit and loss account and balance sheet. Turnover is calculated as the sum of absolute profits and losses from all trades (not the contract value). Tax audit under Section 44AB is mandatory if turnover exceeds Rs 10 crore (or Rs 1 crore if cash transactions exceed 5%). F&O losses can be set off against any income except salary and carried forward for 8 years - but only if the ITR is filed before the due date. Business expenses (brokerage, internet, advisory) are fully deductible.</p>
                 </div>
-                <p>Gurugram has a massive retail F&O trading community. IT professionals in DLF Cyber City trade Nifty and Bank Nifty options during market hours alongside their jobs. BFSI employees on Golf Course Road and DLF Cyber Hub leverage their market expertise for derivatives trading. Active retail traders across the city use platforms like Zerodha, Groww, Angel One, and Upstox. SEBI data indicates that 93% of individual F&O traders incurred average losses of Rs 2 lakh in FY23-24 - making loss carry-forward one of the most valuable tax benefits. For a comprehensive overview of F&O taxation across India, refer to our <a href="/itr-for-fno-traders">ITR for F&O Traders</a> national guide.</p>
+                <p>Gurugram has a massive retail F&O trading community. IT professionals in DLF Cyber City trade Nifty and Bank Nifty options during market hours alongside their jobs. BFSI employees on Golf Course Road and DLF Cyber Hub leverage their market expertise for derivatives trading. Active retail traders across the city use platforms like Zerodha, Groww, Angel One, and Upstox. SEBI data indicates that 93% of individual F&O traders incurred average losses of Rs 2 lakh in FY23-24 - making loss carry-forward one of the most valuable tax benefits. For a comprehensive overview of F&O taxation across India, refer to our <a href="/itr-for-fno-trader">ITR for F&O Traders</a> national guide.</p>
                 <div class="table-responsive-wrapper">
                 <table>
                     <thead><tr><th>Parameter</th><th>Detail</th></tr></thead>
@@ -593,7 +593,7 @@
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free ITR for F&O Traders in Gurugram consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram.%20Please%20share%20details." target="_blank">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free ITR for F&O Traders in Gurugram consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram.%20Please%20share%20details." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -698,7 +698,7 @@
             <h2 class="section-title">Related Services for F&O ITR Filing</h2>
             <div class="content-text">
                 
-                <ul><li><a href="/itr-for-fno-traders">ITR for F&O Traders (National)</a> - Broader overview of F&O taxation across India</li><li><a href="/income-tax-return">Income Tax Return (ITR) Filing</a> - Comprehensive ITR filing for all income types</li><li><a href="/tax-audit">Tax Audit Service</a> - Section 44AB tax audit for traders exceeding turnover threshold</li><li><a href="/itr-for-salary">ITR for Salary</a> - For salaried employees with trading income</li><li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> - For equity delivery and mutual fund gains</li><li><a href="/itr-for-crypto-traders">ITR for Crypto Traders</a> - VDA ITR filing under Section 115BBH</li></ul>
+                <ul><li><a href="/itr-for-fno-trader">ITR for F&O Traders (National)</a> - Broader overview of F&O taxation across India</li><li><a href="/income-tax-return">Income Tax Return (ITR) Filing</a> - Comprehensive ITR filing for all income types</li><li><a href="/tax-audit">Tax Audit Service</a> - Section 44AB tax audit for traders exceeding turnover threshold</li><li><a href="/itr-for-salary">ITR for Salary</a> - For salaried employees with trading income</li><li><a href="/itr-for-capital-gains">ITR for Capital Gains</a> - For equity delivery and mutual fund gains</li><li><a href="/itr-for-crypto-traders">ITR for Crypto Traders</a> - VDA ITR filing under Section 115BBH</li></ul>
 
             </div>
         </div>
@@ -799,7 +799,7 @@
             <div class="content-text">
                 
                 <p>The ITR filing deadline for non-audit F&O traders is 31 July 2026. Filing late forfeits loss carry-forward permanently. SEBI data shows 93% of individual F&O traders incurred losses - making timely filing critical for the vast majority. Correct turnover calculation can eliminate unnecessary tax audits. Business expenses reduce taxable income. Salary + F&O requires ITR-3, not ITR-1. AIS now captures all F&O transactions.</p>
-                <p><strong>File on time, claim all expenses, and preserve your loss carry-forward. <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram." target="_blank">WhatsApp us</a>.</strong></p>
+                <p><strong>File on time, claim all expenses, and preserve your loss carry-forward. <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram." target="_blank" rel="noopener">WhatsApp us</a>.</strong></p>
 
             </div>
         </div>
@@ -820,7 +820,7 @@
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram.%20Please%20share%20details." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com?subject=F%26O%20ITR%20Filing%20Gurugram&body=Hi%2C%20I%20need%20help%20with%20F%26O%20ITR%20filing%20in%20Gurugram." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

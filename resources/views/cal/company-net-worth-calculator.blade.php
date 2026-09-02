@@ -866,7 +866,7 @@ updateAddPreview();
 <a href="https://www.patronaccounting.com/net-worth-certificate-for-company" class="sidebar-link">Net Worth Certificate for Company <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/net-worth-certificate-for-rera-registration" class="sidebar-link">CA Certificate for RERA <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/net-worth-certificate" class="sidebar-link">Net Worth Certificate <span class="arrow">&rarr;</span></a>
-<a href="https://www.patronaccounting.com/ca-certified-services" class="sidebar-link">All CA Certified Services <span class="arrow">&rarr;</span></a>
+<a href="/net-worth-certificate-by-ca" class="sidebar-link">All CA Certified Services <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/tools/net-worth-calculator" class="sidebar-link">Net Worth Calculator <span class="arrow">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/tools/nwc-document-checklist" class="sidebar-link">NWC Document Checklist <span class="arrow">&rarr;</span></a>
 </div>

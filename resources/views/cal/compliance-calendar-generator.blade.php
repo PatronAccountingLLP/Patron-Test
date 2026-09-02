@@ -480,7 +480,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <tr><td><strong>LLP Form 8 / 11</strong></td><td>MCA</td><td><code>₹100/day</code> (normal) or <code>₹50/day</code> (Small LLP) — no cap</td></tr>
 </tbody>
 </table>
-<p><strong>Aggregate exposure:</strong> A non-compliant Pvt Ltd company over a single year typically accumulates ₹1.5L-₹5L+ in penalties, plus consequential exposure — <a href="https://www.patronaccounting.com/director-disqualification-removal">director disqualification</a> (3 years non-filing triggers Section 164(2)(a)), <a href="https://www.patronaccounting.com/restore-struck-off-company-mca">company strike-off</a> (2 years non-filing triggers Section 248), and prosecution under various sections. The annual cost of timely compliance via Patron starts at ₹15,000 — a fraction of the exposure.</p>
+<p><strong>Aggregate exposure:</strong> A non-compliant Pvt Ltd company over a single year typically accumulates ₹1.5L-₹5L+ in penalties, plus consequential exposure — <a href="https://www.patronaccounting.com/removal-of-director">director disqualification</a> (3 years non-filing triggers Section 164(2)(a)), <a href="https://www.patronaccounting.com/restore-struck-off-company-mca">company strike-off</a> (2 years non-filing triggers Section 248), and prosecution under various sections. The annual cost of timely compliance via Patron starts at ₹15,000 — a fraction of the exposure.</p>
 <p>Use Patron's <a href="https://www.patronaccounting.com/tools/annual-compliance-cost-estimator">Annual Compliance Cost Estimator</a> to size up your annual fee, and the <a href="https://www.patronaccounting.com/tools/mca-late-fee-calculator">MCA Late Fee Calculator</a> to compute exact accumulated dues if you already have a backlog.</p>
 </section>
 
@@ -575,13 +575,13 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="https://www.patronaccounting.com/annual-compliance-private-limited" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/annual-compliance-llp" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/annual-compliance-opc" class="sidebar-link">OPC Annual Compliance <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/section-8-compliance" class="sidebar-link">Section 8 Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/pvt-llp-compliance" class="sidebar-link">LLP Annual Compliance <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/annual-compliance-small-vs-startup-vs-opc" class="sidebar-link">OPC Annual Compliance <span class="arrow">→</span></a>
+
 <a href="https://www.patronaccounting.com/gst-returns" class="sidebar-link">GST Return Filing <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/income-tax-return" class="sidebar-link">Income Tax Return Filing <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/tds-return-filing" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/tds-return-filing-24q" class="sidebar-link">TDS Return Filing <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>

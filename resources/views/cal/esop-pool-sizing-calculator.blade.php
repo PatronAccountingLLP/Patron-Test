@@ -827,7 +827,7 @@ a:focus-visible {
         <section class="content-section" id="what-is">
             <h2>Why Size Bottom-Up?</h2>
             <p>Most founders pick a round number — "let's do 10%" — and hope it covers hiring. <strong>Bottom-up sizing</strong> reverses that: you start from the actual roles you intend to hire, attach a market grant to each, and let the pool fall out of the plan. It ties the pool to need, so you neither starve the plan nor over-dilute.</p>
-            <p>The recipe: project ~18 months of hiring, multiply headcount by per-role grants, sum, then add a <strong>20–30% buffer</strong> for refreshes and surprises. See Patron's <a href="https://www.patronaccounting.com/blog/esop-pool-size-startups-india">ESOP pool size guide</a> and the <a href="https://www.patronaccounting.com/esop-scheme-design">ESOP scheme design</a> service for how this becomes a Board-approved scheme.</p>
+            <p>The recipe: project ~18 months of hiring, multiply headcount by per-role grants, sum, then add a <strong>20–30% buffer</strong> for refreshes and surprises. See Patron's <a href="https://www.patronaccounting.com/blog/esop-tax-startup-employees-when-how-much-dpiit-deferral">ESOP pool size guide</a> and the <a href="https://www.patronaccounting.com/esop-scheme-design">ESOP scheme design</a> service for how this becomes a Board-approved scheme.</p>
             <div class="formula-box">
                 <span class="label">Planned grants</span> = Σ (hires × grant % each)<br>
                 <span class="label">Recommended pool</span> = Planned grants × (1 + buffer)<br>
@@ -868,7 +868,7 @@ a:focus-visible {
         <section class="content-section" id="dilution">
             <h2>How the Pool Dilutes Founders</h2>
             <p>Creating or topping up the pool increases the fully diluted share count, so every existing holder's percentage falls — founders included. If founders hold 100% and a 12% pool is created, their combined stake falls to about 88%.</p>
-            <p>The catch at fundraising: investors usually require the pool to be created or expanded <strong>before</strong> their money goes in, so it comes out of the <strong>pre-money</strong> valuation and the dilution lands on founders, not the new investor — the "pool shuffle." Sizing accurately, with just enough buffer, is the defence. Patron's <a href="https://www.patronaccounting.com/blog/esop-dilution-math-startup-founders">ESOP dilution math</a> explains the mechanics.</p>
+            <p>The catch at fundraising: investors usually require the pool to be created or expanded <strong>before</strong> their money goes in, so it comes out of the <strong>pre-money</strong> valuation and the dilution lands on founders, not the new investor — the "pool shuffle." Sizing accurately, with just enough buffer, is the defence. Patron's <a href="https://www.patronaccounting.com/blog/how-to-apply-dpiit-startup-recognition-founders-playbook">ESOP dilution math</a> explains the mechanics.</p>
             <div class="callout warn">
                 <p><strong>Note:</strong> Creating the pool late — at a term sheet — weakens your position, since investors push it into the pre-money. A modest early pool, topped up each round, is usually cleaner.</p>
             </div>
@@ -982,8 +982,8 @@ a:focus-visible {
 
         <div class="sidebar-card">
             <h3>From the Blog</h3>
-            <a href="https://www.patronaccounting.com/blog/esop-pool-size-startups-india" class="sidebar-link">ESOP Pool Size Guide <span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/blog/esop-dilution-math-startup-founders" class="sidebar-link">ESOP Dilution Math <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/esop-tax-startup-employees-when-how-much-dpiit-deferral" class="sidebar-link">ESOP Pool Size Guide <span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/blog/how-to-apply-dpiit-startup-recognition-founders-playbook" class="sidebar-link">ESOP Dilution Math <span class="arrow">→</span></a>
         </div>
     </aside>
 </div>

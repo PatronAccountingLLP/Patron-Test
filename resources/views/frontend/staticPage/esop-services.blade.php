@@ -355,7 +355,7 @@
  "@type": "Organization",
  "name": "Patron Accounting LLP",
  "url": "https://www.patronaccounting.com/",
- "logo": "https://www.patronaccounting.com/images/logo.png",
+ "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
  "sameAs": [
  "https://www.linkedin.com/company/patron-accounting"
  ],
@@ -2433,7 +2433,7 @@
                             promoter-bound buyers to sweat equity.</p>
                         <div class="tile-cp-foot"><span>Quoted</span><span class="arrow">↗</span></div>
                     </a>
-                    <a href="/esop-vs-bonus" class="tile-cp">
+                    <a href="/esop-vs-profit-sharing-and-bonus" class="tile-cp">
                         <div class="tile-cp-meta-row"><span>04.05</span><span class="tile-cp-form-tag">SERVICE</span>
                         </div>
                         <h3 class="tile-cp-title">ESOP vs Profit-Sharing & Bonus <span class="badge-new-cp">New</span>
@@ -2953,14 +2953,7 @@
                         <div class="tile-cp-foot"><span>From INR 49,999/mo<span class="ast">*</span></span><span
                                 class="arrow">↗</span></div>
                     </a>
-                    <a href="/direct-tax-services" class="tile-cp">
-                        <div class="tile-cp-meta-row"><span>12.02</span><span class="tile-cp-form-tag">SERVICE</span>
-                        </div>
-                        <h3 class="tile-cp-title">Direct Tax Services</h3>
-                        <p class="tile-cp-blurb">Income tax assessment, scrutiny, faceless appeals, transfer pricing for
-                            ESOP-heavy companies.</p>
-                        <div class="tile-cp-foot"><span>Quoted</span><span class="arrow">↗</span></div>
-                    </a>
+                    
                     <a href="/esop-services" class="tile-cp">
                         <div class="tile-cp-meta-row"><span>12.03</span><span class="tile-cp-form-tag">SERVICE</span>
                         </div>
@@ -2988,14 +2981,7 @@
                         <div class="tile-cp-foot"><span>From INR 39,999/report<span class="ast">*</span></span><span
                                 class="arrow">↗</span></div>
                     </a>
-                    <a href="/international-fema-services" class="tile-cp">
-                        <div class="tile-cp-meta-row"><span>12.06</span><span class="tile-cp-form-tag">SERVICE</span>
-                        </div>
-                        <h3 class="tile-cp-title">International & FEMA</h3>
-                        <p class="tile-cp-blurb">FC-GPR, FC-TRS, FIRMS Annexure B, FEMA compounding — bundles with
-                            cross-border ESOP.</p>
-                        <div class="tile-cp-foot"><span>Quoted</span><span class="arrow">↗</span></div>
-                    </a>
+                    
                 </div>
             </div>
         </section>

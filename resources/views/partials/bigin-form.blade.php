@@ -245,24 +245,17 @@
             <div class="field-error-msg" data-phone-error style="display:none;"></div>
         </div>
 
-        {{-- Compulsory, by the business's decision, so no enquiry can arrive with
-             nothing to reply to. The phone number used to be the only way to reach
-             a lead, and when it came through blank - which it did, whenever the
-             script had not run - the enquiry was worthless. Two channels now, both
-             mandatory.
-
-             type="email" makes the browser check the shape as well, so a typo like
-             "name@" is caught without any script.
-
-             Bigin discards any field its web form was not built with, so this
-             arrives empty at the CRM until "Email" is added to web form
-             208810000001209168 in Bigin's form builder. It IS saved to our own
-             `leads` table from day one, so nothing is lost in the meantime. --}}
+        {{-- Optional on purpose. The phone number used to be the only way to reach
+             a lead, so one empty field made the enquiry worthless; an email is the
+             second route. It is NOT required, because a compulsory email costs more
+             leads than it saves. Bigin discards any field its web form was not built
+             with, so this arrives empty until "Email" is added to web form
+             208810000001209168 in Bigin's form builder - no code change needed then,
+             the field is already being posted. --}}
         <div class="form-group">
-            <label class="form-label" for="email{{ $uid }}">Email</label>
+            <label class="form-label" for="email{{ $uid }}">Email <span class="form-label-opt">(optional)</span></label>
             <input class="form-input" id="email{{ $uid }}" name="Contacts.Email" type="email"
-                   maxlength="120" placeholder="you@company.com" autocomplete="email"
-                   required data-req="Email address is required"/>
+                   maxlength="120" placeholder="you@company.com" autocomplete="email"/>
         </div>
 
         <div class="form-group">

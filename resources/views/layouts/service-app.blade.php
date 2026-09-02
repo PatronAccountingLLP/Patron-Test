@@ -26,6 +26,16 @@
     <link href="{{ asset('css/faq-enquiry-form.css') }}?v={{ @filemtime(base_path('css/faq-enquiry-form.css')) ?: '1' }}" rel="stylesheet">
     <link href="{{ asset('css/faq.css') }}?v={{ @filemtime(public_path('css/faq.css')) ?: '20260630' }}" rel="stylesheet">
     <script src="{{ asset('js/faq-toggle.js') }}?v={{ @filemtime(public_path('js/faq-toggle.js')) ?: '20260630' }}" defer></script>
+
+    {{-- Testimonial component styles and behaviour. Loaded here, like the FAQ
+         and enquiry-form assets above, so every page carries them rather than
+         only the ~1,713 that render the section. The script does nothing on a
+         page with no .testimonial-slider, and the stylesheet nothing with no
+         .testi-* markup, so the cost on other pages is one cached file each.
+         The ?v= is the file's own mtime, so editing either busts the cache. --}}
+    <link href="{{ asset('css/testimonials.css') }}?v={{ @filemtime(base_path('css/testimonials.css')) ?: @filemtime(public_path('css/testimonials.css')) ?: '1' }}" rel="stylesheet">
+    <script src="{{ asset('js/testimonials.js') }}?v={{ @filemtime(base_path('js/testimonials.js')) ?: @filemtime(public_path('js/testimonials.js')) ?: '1' }}" defer></script>
+
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}">

@@ -59,7 +59,9 @@
     the note at the top of config/testimonials.php.
 
     Styling: /css/testimonials.css. Behaviour: /js/testimonials.js. Both are
-    emitted once per page no matter how many times this partial is included.
+    linked from the <head> of all three layouts, alongside the FAQ and
+    enquiry-form assets, so they load on every page and this partial emits
+    neither. Include it as many times as you like.
 --}}
 @php
     $paTestiSeq = ((int) config('pa.testimonials_seq', 0)) + 1;
@@ -103,23 +105,21 @@
     $paTestiCtaText  = trim((string) ($ctaText  ?? ''));
     $paTestiCtaLabel = $ctaLabel ?? 'Talk to an Expert';
     $paTestiCtaHref  = $ctaHref  ?? 'tel:+919459456700';
-
-    // The stylesheet is served from the repo root in production and from
-    // public/ under `artisan serve`; asset() resolves both. The ?v= is the
-    // file's own content hash, so editing it busts the cache by itself -
-    // /css/ is served with a one-year max-age.
-    $paTestiVer = function (string $file) {
-        $root = base_path($file);
-        $pub  = public_path($file);
-        $path = file_exists($root) ? $root : (file_exists($pub) ? $pub : null);
-        return $path ? substr(md5_file($path), 0, 8) : '1';
-    };
 @endphp
 
-@once('testimonials-assets')
+{{--
+    /css/testimonials.css and /js/testimonials.js are NOT emitted here. They
+    are linked from the <head> of all three layouts, next to the FAQ and
+    enquiry-form assets, so every page carries them whether or not it renders
+    this section. Emitting them here as well would put two copies of each on
+    every page that does.
+
+    Slick's own stylesheet stays with the section, because it is only of use
+    where a carousel actually exists - the script fetches Slick's JS the same
+    way, on demand.
+--}}
+@once('testimonials-slick-css')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="{{ asset('css/testimonials.css') }}?v={{ $paTestiVer('css/testimonials.css') }}">
-    <script src="{{ asset('js/testimonials.js') }}?v={{ $paTestiVer('js/testimonials.js') }}" defer></script>
 @endonce
 
 @if($paTestiList->count() > 0)

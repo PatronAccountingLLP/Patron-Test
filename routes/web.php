@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\MenuController as AdminMenuController;
 use App\Http\Controllers\Admin\MediaController as AdminMediaController;
 use App\Http\Controllers\Admin\UserController as AdminUserController;
 use App\Http\Controllers\Admin\ContactController as AdminContactController;
+use App\Http\Controllers\Admin\LeadController as AdminLeadController;
 use App\Http\Controllers\DynamicController;
 use App\Http\Controllers\DocFileController;
 
@@ -499,6 +500,15 @@ Route::prefix('admin')->name('admin.')->middleware(['auth', 'can_access_admin'])
         Route::post('bulk-delete', [AdminMediaController::class, 'bulkDelete'])->name('bulk-delete');
     });
     
+    // Website Enquiries - our own copy of every lead, saved before it goes to
+    // Zoho Bigin. The "Not in CRM" filter is the list Zoho did not accept.
+    Route::prefix('leads')->name('leads.')->group(function () {
+        Route::get('/', [AdminLeadController::class, 'index'])->name('index');
+        Route::get('/{lead}', [AdminLeadController::class, 'show'])->name('show');
+        Route::post('/{lead}/mark-read', [AdminLeadController::class, 'markAsRead'])->name('mark-read');
+        Route::post('/{lead}/mark-unread', [AdminLeadController::class, 'markAsUnread'])->name('mark-unread');
+    });
+
     // Contacts Management
     Route::prefix('contacts')->name('contacts.')->group(function () {
         Route::get('/', [AdminContactController::class, 'index'])->name('index');

@@ -245,15 +245,20 @@
             <div class="field-error-msg" data-phone-error style="display:none;"></div>
         </div>
 
-        {{-- Optional on purpose. The phone number used to be the only way to reach
-             a lead, so one empty field made the enquiry worthless; an email is the
-             second route. It is NOT required, because a compulsory email costs more
-             leads than it saves. Bigin discards any field its web form was not built
-             with, so this arrives empty until "Email" is added to web form
-             208810000001209168 in Bigin's form builder - no code change needed then,
-             the field is already being posted. --}}
+        {{-- Not required, and the label does not say so either - the business's
+             decision, made and re-made deliberately, so do not "tidy" it in either
+             direction. No `required` attribute, and no "(optional)" hint: someone
+             who has an email to give will fill it in, and someone who does not can
+             still send the enquiry. The phone number used to be the only way to
+             reach a lead, and when it arrived blank the enquiry was worthless; this
+             is the second route, not a gate.
+
+             Bigin discards any field its web form was not built with, so this
+             arrives empty at the CRM until "Email" is added to web form
+             208810000001209168 in Bigin's form builder. It IS saved to our own
+             `leads` table from day one, so nothing is lost in the meantime. --}}
         <div class="form-group">
-            <label class="form-label" for="email{{ $uid }}">Email <span class="form-label-opt">(optional)</span></label>
+            <label class="form-label" for="email{{ $uid }}">Email</label>
             <input class="form-input" id="email{{ $uid }}" name="Contacts.Email" type="email"
                    maxlength="120" placeholder="you@company.com" autocomplete="email"/>
         </div>

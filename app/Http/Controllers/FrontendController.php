@@ -64,6 +64,17 @@ class FrontendController extends Controller
             if (! $activeCategory) {
                 abort(404);
             }
+
+            // A category with nothing published in it is an empty shelf. The chips on /blog
+            // already hide these (they are built with whereHas('posts')), but the row still
+            // exists, so the URL answered 200 with no articles on it -- including leftovers
+            // from the site's build like /blog/laravel and /blog/web-development. 410 rather
+            // than 404: it states the removal is permanent, so Google retires the URL faster
+            // and stops retrying. The check is on published posts, not any posts, so it
+            // matches what a reader would actually see.
+            if (! $activeCategory->posts()->published()->exists()) {
+                abort(410);
+            }
         }
 
         // page-1 is the listing's bare URL, never a URL of its own.
@@ -71,7 +82,15 @@ class FrontendController extends Controller
             return redirect()->to(url($this->listingPath($category)), 301);
         }
 
-        $query = Post::published()->with(['categories', 'users'])->latest('published_at');
+        // published_at alone does not order the posts: the published posts share a handful of
+        // timestamps, so every page of the listing was a LIMIT/OFFSET over rows the database
+        // was free to return in any order. Pages then overlapped and skipped --
+        // /blog/accounting-and-bookkeeping showed 221 rows for 113 articles, and 132 posts
+        // across the estate could not be reached from their own category at all. Ordering by
+        // id as well makes the sort total, so every post appears exactly once.
+        $query = Post::published()->with(['categories', 'users'])
+                     ->latest('published_at')
+                     ->orderByDesc('id');
 
         // Handle search functionality
         if ($request->filled('search')) {

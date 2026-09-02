@@ -7,7 +7,7 @@
     <title>GST Refund Calculator | Cost-Benefit &amp; ROI Verdict</title>
     <meta name="description" content="GST refund pursuit calculator: weigh CA fees, time and success odds against your expected refund plus Section 56 interest. Should you file? Get an ROI verdict.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-pursuit-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-pursuit-calculator">
     <meta property="og:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
     <meta property="og:description" content="Decide whether a GST refund is worth pursuing. Computes expected recovery, total costs, time-money loss, ROI & break-even probability. Decision verdict.">
     <meta property="og:type" content="website">

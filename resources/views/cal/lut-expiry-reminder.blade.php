@@ -7,7 +7,7 @@
     <title>LUT Expiry Reminder | GST Form RFD-11 Renewal Calendar</title>
     <meta name="description" content="Free LUT expiry reminder for GST exporters: track Form RFD-11 validity for FY 2026-27, get milestone alerts and an ICS calendar download. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/lut-expiry-reminder/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/lut-expiry-reminder">
     <meta property="og:title" content="LUT Expiry Reminder + Renewal Calendar — RFD-11 2026">
     <meta property="og:description" content="Track GST LUT validity, milestone reminders for renewal, ICS calendar download. Form RFD-11 under Rule 96A. Free CA tool.">
     <meta property="og:type" content="website">

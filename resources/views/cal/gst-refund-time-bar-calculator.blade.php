@@ -7,7 +7,7 @@
     <title>GST Refund Time-Bar Calculator | Section 54(1) Limit</title>
     <meta name="description" content="GST refund time-bar calculator under Section 54(1): check the 2-year limitation, relevant date by refund type and COVID extension before you file. Free CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator">
     <meta property="og:title" content="GST Refund Time-Bar Calculator — Section 54(1) CGST 2026">
     <meta property="og:description" content="Compute the 2-year time-bar for GST refund applications under Section 54(1). 8 refund types, relevant date logic, COVID extension. Free CA tool.">
     <meta property="og:type" content="website">

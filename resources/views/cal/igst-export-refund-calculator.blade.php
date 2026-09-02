@@ -7,7 +7,7 @@
     <title>IGST Export Refund Calculator | Rule 96 GST Refund</title>
     <meta name="description" content="IGST export refund calculator under Rule 96: verify shipping bill eligibility, GSTR-1 vs 3B match, SB error codes, drawback conflict and 60-day timeline. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/igst-export-refund-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/igst-export-refund-calculator">
     <meta property="og:title" content="IGST Export Refund Calculator — Rule 96 GST Refund 2026">
     <meta property="og:description" content="Verify Rule 96 IGST refund eligibility, reconcile GSTR-1 Table 6A vs GSTR-3B Table 3.1(b), decode SB error codes, check drawback conflict and Section 56 interest. Free CA tool.">
     <meta property="og:type" content="website">

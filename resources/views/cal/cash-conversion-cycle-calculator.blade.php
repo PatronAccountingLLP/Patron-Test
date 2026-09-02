@@ -7,7 +7,7 @@
     <title>Cash Conversion Cycle Calculator | CCC, DIO, DSO, DPO</title>
     <meta name="description" content="Cash conversion cycle calculator: compute CCC, DIO, DSO and DPO per ICAI Schedule III with industry benchmarks and MSMED Act 45-day check. Free CA tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">
     <meta property="og:title" content="Cash Conversion Cycle Calculator — Schedule III FY 2025-26">
     <meta property="og:description" content="Compute CCC, DIO, DSO, DPO per ICAI Schedule III. Industry benchmarks, MSMED Act 45-day rule check, working capital impact. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

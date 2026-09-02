@@ -7,7 +7,7 @@
     <title>CTC Structure Calculator | Code on Wages 50% Basic Rule</title>
     <meta name="description" content="Free CTC structure calculator for the Code on Wages 50% basic rule: see PF, gratuity and take-home pay before vs after restructuring. CA-built tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-structure-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-structure-calculator">
     <meta property="og:title" content="CTC Structure Calculator — Code on Wages 2025">
     <meta property="og:description" content="Restructure CTC under the 50% basic rule. Compare old vs new salary structure — PF, gratuity, take-home, employer cost.">
     <meta property="og:type" content="website">

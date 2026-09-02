@@ -7,7 +7,7 @@
     <title>CARO 2020 Checklist Generator | 21-Clause Audit Report</title>
     <meta name="description" content="CARO 2020 checklist generator: instant applicability plus the clause-wise auditor reporting checklist for Pvt Ltd, Public & Foreign Cos. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">
     <meta property="og:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
     <meta property="og:description" content="Check CARO 2020 applicability for your company & generate the 21-clause auditor reporting checklist instantly. Standalone & consolidated covered.">
     <meta property="og:type" content="website">

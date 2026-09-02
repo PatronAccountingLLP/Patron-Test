@@ -7,7 +7,7 @@
     <title>Payroll Compliance Calendar India | Due Dates 2026</title>
     <meta name="description" content="Payroll compliance calendar India 2026: TDS, PF, ESI, professional tax, LWF &amp; Form 16 due dates by month and state, with late filing penalties. Free CA tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-compliance-calendar/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-compliance-calendar">
     <meta property="og:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
     <meta property="og:description" content="All India payroll compliance deadlines: TDS, PF, ESI, PT, LWF, Form 16, statutory bonus. State-wise filtering, urgency colour coding, late penalty info.">
     <meta property="og:type" content="website">

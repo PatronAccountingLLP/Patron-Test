@@ -7,7 +7,7 @@
     <title>Quick Ratio Calculator | Acid Test Ratio &amp; Benchmarks</title>
     <meta name="description" content="Quick Ratio (Acid Test) Calculator: build up quick assets, run a stress test and compare against industry benchmarks. ICAI-aligned, CA-reviewed. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/quick-ratio-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/quick-ratio-calculator">
     <meta property="og:title" content="Quick Ratio Calculator (Acid Test) — Free 2026">
     <meta property="og:description" content="Compute Quick Ratio + Cash Ratio with stress testing. Build-up of quick assets. Schedule III aligned. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

@@ -7,7 +7,7 @@
     <title>Altman Z-Score Calculator | Bankruptcy Risk Predictor</title>
     <meta name="description" content="Free Altman Z-Score calculator: original, Z' (private) & Z'' (non-manufacturing) models to predict bankruptcy & financial distress risk. CA-reviewed. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/altman-z-score-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/altman-z-score-calculator">
     <meta property="og:title" content="Altman Z-Score Calculator — Bankruptcy Predictor 2026">
     <meta property="og:description" content="Compute Altman Z-Score with all 3 versions: original, Z-prime (private), Z-double-prime (non-manufacturing/India). CA-reviewed tool.">
     <meta property="og:type" content="website">

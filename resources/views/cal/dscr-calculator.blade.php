@@ -7,7 +7,7 @@
     <title>DSCR Calculator | Debt Service Coverage Ratio</title>
     <meta name="description" content="Free DSCR calculator: compute Debt Service Coverage Ratio per Schedule III &amp; ICAI norms, with bank covenant benchmarks and project finance views. CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/dscr-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/dscr-calculator">
     <meta property="og:title" content="DSCR Calculator — Schedule III India FY 2025-26">
     <meta property="og:description" content="Compute DSCR per ICAI Schedule III Guidance Note. Bank covenant comparison (1.25 / 1.5 / 2.0), project finance DSCR, sample disclosure format. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

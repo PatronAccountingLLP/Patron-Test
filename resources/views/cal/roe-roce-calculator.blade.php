@@ -7,7 +7,7 @@
     <title>ROE, ROCE &amp; ROA Calculator | Profitability Ratios</title>
     <meta name="description" content="ROE, ROCE &amp; ROA Calculator: compute the three key profitability ratios with industry benchmarks, Schedule III aligned and CA-reviewed. Calculate free now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/roe-roce-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/roe-roce-calculator">
     <meta property="og:title" content="ROE + ROCE + ROA Calculator — Free 2026">
     <meta property="og:description" content="Compute Return on Equity, Capital Employed and Assets with industry benchmarks. Schedule III aligned. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

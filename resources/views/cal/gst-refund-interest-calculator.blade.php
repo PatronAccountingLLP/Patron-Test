@@ -7,7 +7,7 @@
     <title>GST Refund Interest Calculator | Section 56 at 6%/9%</title>
     <meta name="description" content="GST refund interest calculator under Section 56: compute 6% or 9% interest on delayed refunds with the 60-day rule and two-tier doctrine. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-interest-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-interest-calculator">
     <meta property="og:title" content="GST Refund Interest Calculator — Section 56 CGST 2026">
     <meta property="og:description" content="Compute interest on delayed GST refunds at 6% or 9% under Section 56 CGST. Two-tier doctrine, 60-day rule, RFD forms. Free CA tool.">
     <meta property="og:type" content="website">

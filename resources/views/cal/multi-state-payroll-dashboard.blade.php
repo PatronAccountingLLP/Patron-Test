@@ -7,7 +7,7 @@
     <title>Multi-State Payroll Calculator | PT, PF & ESI by State 2026</title>
     <meta name="description" content="Free multi-state payroll dashboard: per-state employer cost, professional tax, PF, ESI and minimum wage compliance across 10+ Indian states. CA-built. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard">
     <meta property="og:title" content="Multi-State Payroll Dashboard 2026">
     <meta property="og:description" content="Track payroll across multiple Indian states — professional tax slabs, minimum wages, employer cost, compliance flags.">
     <meta property="og:type" content="website">

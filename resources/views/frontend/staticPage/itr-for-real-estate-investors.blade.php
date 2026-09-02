@@ -8,7 +8,7 @@
 @section('meta')
 <title>ITR for Real Estate Investors India: Section 24, 50C, 54</title>
 <meta content="ITR for property investors with rental income and sales. Schedule HP, Section 24(b), Section 50C SDV rule, Section 54 reinvestment. Starts at Rs 5,999." name="description"/>
-<link href="/itr-for-real-estate-investors/" rel="canonical"/>
+<link href="https://www.patronaccounting.com/itr-for-real-estate-investors" rel="canonical"/>
 <meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="robots"/>
 <meta content="ITR for Real Estate Investors India: Section 24, 50C, 54 | Patron Accounting" property="og:title"/>
 <meta content="ITR for property investors with rental income and sales. Schedule HP, Section 24(b), Section 50C SDV rule, Section 54 reinvestment. Starts at Rs 5,999." property="og:description"/>

@@ -7,7 +7,7 @@
     <title>Financial Ratios Dashboard | 30+ Ratios, Schedule III</title>
     <meta name="description" content="Financial ratios dashboard: 30+ ratios across liquidity, solvency, profitability, efficiency and cash flow, all tagged to Schedule III. Free CA-reviewed tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-ratios-dashboard/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-ratios-dashboard">
     <meta property="og:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
     <meta property="og:description" content="Compute 30+ financial ratios in one dashboard. Schedule III mandatory ratios tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
     <meta property="og:type" content="website">

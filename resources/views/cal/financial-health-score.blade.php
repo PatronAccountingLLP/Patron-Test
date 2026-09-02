@@ -7,7 +7,7 @@
     <title>Financial Health Score Calculator | Altman Z &amp; IBC</title>
     <meta name="description" content="Financial health score calculator: a composite 0-100 score with the Altman Z / Z' / Z'' Score, a 5-dimension breakdown and an IBC distress check. Free CA tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-health-score/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-health-score">
     <meta property="og:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
     <meta property="og:description" content="Composite 0-100 financial health score with Altman Z / Z' / Z'' Score, IBC distress check and Schedule III ratios. Free CA tool.">
     <meta property="og:type" content="website">

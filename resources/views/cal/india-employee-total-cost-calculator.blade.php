@@ -7,7 +7,7 @@
     <title>Employee Total Cost Calculator India | True CTC</title>
     <meta name="description" content="Calculate the true total cost of an India employee, covering salary, PF, ESI, gratuity, benefits and overhead. Reveals 10-20% hidden loading above CTC. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator">
     <meta property="og:title" content="India Employee Total Cost Calculator — Actual CTC 2026">
     <meta property="og:description" content="Decompose the offer letter. Computes statutory loading + benefits + overhead beyond headline CTC. Surfaces true employer cost. Free CA tool.">
     <meta property="og:type" content="website">

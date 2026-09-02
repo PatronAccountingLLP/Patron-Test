@@ -7,7 +7,7 @@
     <title>Code on Wages Compliance Checker | 13-Point Audit</title>
     <meta name="description" content="Free Code on Wages compliance checker: 13-dimension audit of the 50% rule, floor wage, equal pay, deductions, records, bonus and overtime. CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker">
     <meta property="og:title" content="Code on Wages Compliance Checker 2026">
     <meta property="og:description" content="13-dimension audit of Code on Wages 2019 compliance — 50% rule, floor wage, equal pay, deductions, bonus, overtime, records.">
     <meta property="og:type" content="website">

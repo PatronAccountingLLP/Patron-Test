@@ -7,7 +7,7 @@
     <title>GST Refund Eligibility Checker | Section 54 CGST Act</title>
     <meta name="description" content="GST refund eligibility checker under Section 54: a 12-step decision tree covering exports, inverted duty, deemed exports, drawback &amp; export-duty rules. Free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker">
     <meta property="og:title" content="GST Refund Eligibility Checker — Section 54 CGST 2026">
     <meta property="og:description" content="Decision-tree tool to determine GST refund eligibility under Section 54. Zero-rated, IDS, deemed exports, Section 77, drawback rules. Free CA tool.">
     <meta property="og:type" content="website">

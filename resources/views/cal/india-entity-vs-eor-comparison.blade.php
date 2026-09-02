@@ -7,7 +7,7 @@
     <title>India Entity vs EOR Calculator | Cost Comparison TCO</title>
     <meta name="description" content="Free India entity vs EOR cost calculator: 36-month TCO, breakeven point, 15-criteria comparison and 4 Labour Codes 2025 side by side. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison">
     <meta property="og:title" content="India Entity vs EOR Comparison Calculator — 2026">
     <meta property="og:description" content="Compare cost of setting up India entity (WOS / LLP) vs hiring through EOR. 36-month TCO, breakeven analysis, side-by-side comparison.">
     <meta property="og:type" content="website">

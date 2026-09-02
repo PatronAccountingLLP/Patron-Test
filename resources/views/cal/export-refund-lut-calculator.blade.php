@@ -7,7 +7,7 @@
     <title>Export Refund Calculator LUT | Rule 89(4) Unutilised ITC</title>
     <meta name="description" content="Export refund calculator for the LUT route: Rule 89(4) refund of unutilised ITC, with Adjusted Total Turnover and the 1.5x cap on goods. Free CA-reviewed tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/export-refund-lut-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">
     <meta property="og:title" content="Export Refund Calculator (LUT Route) — Rule 89(4) GST Refund 2026">
     <meta property="og:description" content="Compute GST export refund under Letter of Undertaking using Rule 89(4) formula. Net ITC, Adjusted Total Turnover, 1.5x cap, RFD-01 Statement-3A preview. Free CA tool.">
     <meta property="og:type" content="website">

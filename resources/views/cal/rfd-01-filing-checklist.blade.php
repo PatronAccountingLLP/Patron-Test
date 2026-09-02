@@ -7,7 +7,7 @@
     <title>RFD-01 Checklist | GST Refund Pre-Filing under Sec 54</title>
     <meta name="description" content="RFD-01 pre-filing checklist: verify documents, statements, eligibility and limitation across 10 GST refund categories under Section 54. Free CA-grade tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">
     <meta property="og:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
     <meta property="og:description" content="Verify your RFD-01 application is complete before filing. Category-specific checklist, statement requirements, limitation tracker, deficiency-memo prevention. Free CA tool.">
     <meta property="og:type" content="website">

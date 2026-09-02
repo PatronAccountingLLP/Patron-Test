@@ -7,7 +7,7 @@
     <title>Working Capital Calculator | Tandon MPBF &amp; Current Ratio</title>
     <meta name="description" content="Working capital calculator: compute working capital, current ratio and MPBF under Tandon Committee Methods 1 &amp; 2, with Schedule III tie-in. Free CA tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/working-capital-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/working-capital-calculator">
     <meta property="og:title" content="Working Capital Calculator — Schedule III &amp; Tandon MPBF India 2026">
     <meta property="og:description" content="Compute Working Capital, Current Ratio, Net Capital Turnover, Tandon Committee MPBF (Method 1 &amp; 2), Nayak Committee turnover method. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

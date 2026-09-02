@@ -7,7 +7,7 @@
     <title>Inverted Duty Refund Calculator | GST Rule 89(5)</title>
     <meta name="description" content="Inverted duty GST refund calculator applies the Rule 89(5) formula (Notification 14/2022) for unutilised ITC refund. Net ITC + restricted HSN check. Free tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">
     <meta property="og:title" content="Inverted Duty Refund Calculator (Rule 89(5)) — GST IDS Refund 2026">
     <meta property="og:description" content="Compute GST inverted duty refund using the amended Rule 89(5) formula with Net ITC, Adjusted Total Turnover and the input-services proportion deduction. Restricted goods check and Statement-1A preview. Free CA tool.">
     <meta property="og:type" content="website">

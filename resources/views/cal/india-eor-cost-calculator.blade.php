@@ -7,7 +7,7 @@
     <title>India EOR Cost Calculator | True Cost of Hiring</title>
     <meta name="description" content="India EOR cost calculator: compute the total cost of hiring via Employer of Record, covering statutory PF, ESI, gratuity, provider fees, insurance, break-even.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-eor-cost-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-eor-cost-calculator">
     <meta property="og:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
     <meta property="og:description" content="Computes the all-in cost of hiring an employee in India through an Employer of Record. Statutory + provider fees + insurance + EOR vs subsidiary break-even.">
     <meta property="og:type" content="website">

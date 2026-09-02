@@ -7,7 +7,7 @@
     <title>Audit Sampling Size Calculator SA 530 | Attribute & MUS</title>
     <meta name="description" content="Free audit sampling size calculator under SA 530: tests of controls (attribute) and tests of details (MUS) sample sizes. ICAI-aligned, CA-reviewed. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/audit-sampling-size-calculator-sa-530">
     <meta property="og:title" content="Audit Sampling Size Calculator (SA 530) — FY 2025-26">
     <meta property="og:description" content="Compute audit sample size per SA 530: Tests of Controls + Tests of Details (MUS). AICPA-aligned tables. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

@@ -7,7 +7,7 @@
     <title>Audit Materiality Calculator SA 320 | Overall & Performance</title>
     <meta name="description" content="Free audit materiality calculator under SA 320: compute overall materiality, performance materiality and clearly trivial threshold. ICAI-aligned. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/audit-materiality-calculator-sa-320">
     <meta property="og:title" content="Audit Materiality Calculator (SA 320) — FY 2025-26">
     <meta property="og:description" content="Compute overall materiality, performance materiality & clearly trivial threshold per SA 320. Benchmark guidance + working paper text.">
     <meta property="og:type" content="website">

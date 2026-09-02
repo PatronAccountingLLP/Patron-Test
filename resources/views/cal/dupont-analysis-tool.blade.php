@@ -7,7 +7,7 @@
     <title>DuPont Analysis Calculator | 3-Step & 5-Step ROE</title>
     <meta name="description" content="Free DuPont analysis calculator: 3-step and 5-step ROE decomposition into tax burden, interest burden, margin, asset turnover and leverage. CA-reviewed tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/dupont-analysis-tool/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/dupont-analysis-tool">
     <meta property="og:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
     <meta property="og:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step and 5-step DuPont analysis. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

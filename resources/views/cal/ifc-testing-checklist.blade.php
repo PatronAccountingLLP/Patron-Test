@@ -7,7 +7,7 @@
     <title>IFC Testing Checklist &amp; Control Testing Templates</title>
     <meta name="description" content="IFC testing checklist generator: check applicability and get 12-process control testing templates for Section 143(3)(i) ICFR audits. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-testing-checklist/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-testing-checklist">
     <meta property="og:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
     <meta property="og:description" content="Generate process-wise IFC testing checklists with key controls, test methods and sample sizes. Covers P2P, O2C, R2R, Inventory, Payroll, ITGC and 6 more.">
     <meta property="og:type" content="website">

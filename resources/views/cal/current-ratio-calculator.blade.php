@@ -7,7 +7,7 @@
     <title>Current Ratio Calculator | Liquidity & Working Capital</title>
     <meta name="description" content="Free current ratio calculator: compute current ratio, quick ratio, cash ratio & working capital, Schedule III aligned with benchmarks. CA-reviewed. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/current-ratio-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/current-ratio-calculator">
     <meta property="og:title" content="Current Ratio Calculator — Free 2026">
     <meta property="og:description" content="Compute current ratio, quick ratio, cash ratio and working capital from Schedule III components. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

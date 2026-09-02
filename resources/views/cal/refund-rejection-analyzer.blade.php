@@ -7,7 +7,7 @@
     <title>GST Refund Rejection Analyzer | RFD-06 Remedy Tool</title>
     <meta name="description" content="GST Refund Rejection Analyzer: a decision tree on your RFD-06 grounds covering appeal vs writ vs refile and the Section 107 pre-deposit. Free CA tool, instant.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-rejection-analyzer/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-rejection-analyzer">
     <meta property="og:title" content="GST Refund Rejection Analyzer — RFD-06 Remedy Tool">
     <meta property="og:description" content="Decision-tree tool to analyze GST refund rejection grounds and identify the right remedy — refile, appeal under Section 107, or writ. Free CA tool.">
     <meta property="og:type" content="website">

@@ -7,7 +7,7 @@
     <title>Debt to Equity Ratio Calculator | D/E & Benchmarks</title>
     <meta name="description" content="Debt to equity ratio calculator: compute D/E per Schedule III & ICAI norms, with industry benchmarks and lease liability treatment. Free CA tool. Try now!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/debt-to-equity-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/debt-to-equity-calculator">
     <meta property="og:title" content="Debt to Equity Ratio Calculator — Schedule III FY 2025-26">
     <meta property="og:description" content="Compute D/E ratio per Schedule III & ICAI Guidance Note. Industry benchmarks, lease liability treatment under Ind AS 116, sample disclosure format. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

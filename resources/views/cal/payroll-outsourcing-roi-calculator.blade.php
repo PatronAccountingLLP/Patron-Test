@@ -7,7 +7,7 @@
     <title>Payroll Outsourcing ROI Calculator | In-House vs Vendor</title>
     <meta name="description" content="Calculate payroll outsourcing ROI for Indian SMEs: in-house cost (HR FTE + software + CA + risk) vs vendor PEPM fee. Net savings + break-even count + verdict.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-outsourcing-roi-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-outsourcing-roi-calculator">
     <meta property="og:title" content="Payroll Outsourcing ROI Calculator — In-House vs Vendor">
     <meta property="og:description" content="Decide between in-house payroll team and outsourced vendor. Computes total cost both ways, net savings, ROI multiple, break-even employee count, decision verdict.">
     <meta property="og:type" content="website">

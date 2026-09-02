@@ -7,7 +7,7 @@
     <title>Depreciation Calculator | Companies Act Sch II + IT Act</title>
     <meta name="description" content="Free depreciation calculator: SLM/WDV under Companies Act Schedule II plus IT Act block rates, with year-wise schedule and journal entry. CA-reviewed tool.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/depreciation-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/depreciation-calculator">
     <meta property="og:title" content="Depreciation Calculator (Schedule II + IT Act) — FY 2025-26">
     <meta property="og:description" content="Compute SLM/WDV depreciation under Companies Act Schedule II and IT Act FY 2025-26. Year-wise schedule, journal entry, side-by-side comparison.">
     <meta property="og:type" content="website">

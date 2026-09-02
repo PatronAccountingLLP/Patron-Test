@@ -7,7 +7,7 @@
     <title>EBITDA Margin Calculator | EV/EBITDA & Benchmarks</title>
     <meta name="description" content="Free EBITDA margin calculator: compute EBITDA &amp; margin with Ind AS 116 lease reconciliation, sector benchmarks and EV/EBITDA valuation. CA-reviewed tool!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ebitda-margin-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ebitda-margin-calculator">
     <meta property="og:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
     <meta property="og:description" content="Compute EBITDA margin with Ind AS 116 lease reconciliation, sector benchmarks, operating margin, net profit margin, EV/EBITDA valuation. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

@@ -7,7 +7,7 @@
     <title>P/E Ratio Calculator | Trailing, Forward P/E & PEG</title>
     <meta name="description" content="Free P/E ratio calculator: compute trailing and forward P/E, PEG ratio and earnings yield against sector benchmarks. CA-reviewed tool. Calculate free!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/pe-ratio-calculator/">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/pe-ratio-calculator">
     <meta property="og:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
     <meta property="og:description" content="Compute P/E ratio, forward P/E, PEG ratio and earnings yield with industry benchmarks. Free CA-reviewed tool.">
     <meta property="og:type" content="website">

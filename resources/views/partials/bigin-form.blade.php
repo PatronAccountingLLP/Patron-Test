@@ -260,7 +260,7 @@
         <div class="form-group">
             <label class="form-label" for="email{{ $uid }}">Email</label>
             <input class="form-input" id="email{{ $uid }}" name="Contacts.Email" type="email"
-                   maxlength="120" placeholder="you@company.com" autocomplete="email"/>
+                   maxlength="120" placeholder="Enter your email" autocomplete="email"/>
         </div>
 
         <div class="form-group">

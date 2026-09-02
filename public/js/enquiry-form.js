@@ -9,9 +9,16 @@
  * What it does per instance:
  *   - builds the country-code dropdown (search, keyboard, outside-click close)
  *   - validates name / phone / city, with per-field inline errors
- *   - writes the combined +code and number into the hidden Contacts.Mobile
+ *   - normalises the number and rewrites the Contacts.Mobile input to +CC form
  *   - stamps the full page URL into the hidden Contacts.Lead Source
  *   - swaps the card for a thank-you state when Zoho's iframe comes back
+ *
+ * NOTHING HERE IS LOAD-BEARING FOR LEAD CAPTURE, and it must stay that way.
+ * Every field the CRM needs is a named input rendered server-side, so a blocked,
+ * slow or broken script costs a country code - never a lead. This script only
+ * improves what is already being posted. The phone input in particular used to
+ * be nameless, with this file copying it into a hidden field on submit; that one
+ * dependency was quietly losing enquiries whenever the script did not run.
  *
  * The service is NOT set here. It is rendered server-side into the hidden
  * "Potential Name" and "Contacts.Description" fields, so the lead is tagged
@@ -72,8 +79,32 @@
     /* India is the only country we can length-check with confidence. Everything
      * else just has to be a plausible international subscriber number, so the
      * form never rejects a valid foreign lead it does not have a rule for. */
+    /* Two ways people write their own number that used to reach the CRM as
+     * something undiallable, both of them normal outside India:
+     *
+     *   1. The national trunk prefix. A UK visitor writes 07911 123456, and we
+     *      stored +44 0 7911 123456. No national number legitimately starts with
+     *      a zero once it is behind a country code, so leading zeros always go.
+     *
+     *   2. The country code typed into the number box as well as picked from the
+     *      dropdown - 971501234567 under +971, stored as +971971501234567. Only
+     *      stripped when the number is longer than 10 digits, which is what keeps
+     *      a plain 10-digit Indian mobile starting "91" (9198765432) intact: it
+     *      is not over the threshold, so the leading 91 is never mistaken for a
+     *      country code. Zeros go first, so 00447911123456 lands correctly too.
+     */
+    function normalisePhone(raw, dialCode) {
+        var digits = (raw || '').replace(/\D/g, '').replace(/^0+/, '');
+        var cc = (dialCode || '').replace('+', '');
+        if (cc && digits.length > 10 && digits.indexOf(cc) === 0 &&
+            (digits.length - cc.length) >= 6) {
+            digits = digits.slice(cc.length);
+        }
+        return digits;
+    }
+
     function validatePhone(raw, dialCode) {
-        var digits = (raw || '').replace(/\D/g, '');
+        var digits = normalisePhone(raw, dialCode);
         if (!digits) { return { valid: false, message: 'Phone number is required' }; }
         if (dialCode === '+91') {
             if (digits.length !== 10) { return { valid: false, message: 'Enter a 10-digit mobile number' }; }
@@ -237,6 +268,10 @@
                 return false;
             }
 
+            // [data-mobile] is the visible phone input itself, which already
+            // carries name="Contacts.Mobile" and posts on its own. All we do here
+            // is upgrade what the visitor typed to +CC form. If this line never
+            // runs, the CRM still gets the number - just without the country code.
             if (mobile) { mobile.value = selected.code + r.digits; }
             if (pageUrl) { pageUrl.value = window.location.href; }
 

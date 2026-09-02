@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LeadCaptureController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\PostController as AdminPostController;
 use App\Http\Controllers\Admin\PostCategoryController as AdminPostCategoryController;
@@ -412,6 +413,14 @@ Route::get('/contact-us', [FrontendController::class, 'contactUs'])->name('conta
 Route::redirect('/contact', '/contact-us', 301)->name('contact.show');
 Route::redirect('/contact-page', '/contact-us', 301);
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
+// Every enquiry from partials/bigin-form.blade.php - ~1,960 pages - posts here
+// instead of straight to Zoho Bigin, so the lead is saved on our side before it
+// is forwarded. See LeadCaptureController. Exempt from CSRF in
+// app/Http/Middleware/VerifyCsrfToken.php: the form is on cacheable public pages
+// and a stale token would 419 and lose the enquiry, which is the exact failure
+// this route was added to prevent.
+Route::post('/lead-capture', [LeadCaptureController::class, 'store'])->name('lead.capture');
 
 // Post Categories Routes
 Route::prefix('post-categories')->name('frontend.post-categories.')->group(function () {

@@ -37,10 +37,16 @@ class Lead extends Model
         'updated_at'     => 'datetime',
     ];
 
-    /** Enquiries Zoho did not take. These are the ones a human must re-enter. */
+    /**
+     * Enquiries Zoho did not take. These are the ones a human must re-enter.
+     *
+     * 'rejected' is the important one: Zoho answered, but redirected to its own
+     * homepage, which is what it does with a submission it discards. Those used
+     * to be recorded as 'ok' because the redirect was followed to a 200.
+     */
     public function scopeNotInCrm($query)
     {
-        return $query->whereIn('zoho_status', ['failed', 'error']);
+        return $query->whereIn('zoho_status', ['failed', 'error', 'rejected']);
     }
 
     /** An enquiry we cannot answer: no phone number and no email address. */

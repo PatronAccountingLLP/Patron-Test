@@ -121,17 +121,32 @@ class LeadCaptureController extends Controller
                 ->map(fn ($v) => (string) $v)
                 ->all();
 
+            // Redirects are NOT followed, deliberately.
+            //
+            // Zoho answers a web form with a 302, and where it sends you is the
+            // only clue about what it did. A submission it REJECTS redirects to
+            // https://www.zoho.in - Zoho's own marketing homepage - and following
+            // that lands on a cheerful HTTP 200. We used to follow it and record
+            // the lead as "sent to CRM", so a rejected enquiry looked identical to
+            // an accepted one and never appeared in the "Not in CRM" list. That is
+            // the same invisible-failure fault this whole class exists to remove,
+            // so we now keep the 302 and judge it.
             $response = Http::asMultipart()
+                ->withoutRedirecting()
                 ->timeout(self::ZOHO_TIMEOUT)
                 ->withHeaders(['User-Agent' => 'PatronAccounting-LeadCapture/1.0'])
                 ->post(self::ZOHO_ENDPOINT, $fields);
 
-            $code   = $response->status();
-            $body   = $response->body();
-            $status = $response->successful() ? 'ok' : 'failed';
+            $code     = $response->status();
+            $location = $response->header('Location');
+            $body     = $location ? ('Location: '.$location) : $response->body();
+            $status   = $this->readZohoOutcome($response->status(), $location);
 
-            if (!$response->successful()) {
-                Log::warning('Zoho rejected a lead', ['http' => $code, 'lead_id' => $lead?->id]);
+            if ($status !== 'ok') {
+                Log::warning('Zoho did not confirm a lead', [
+                    'http' => $code, 'location' => $location,
+                    'status' => $status, 'lead_id' => $lead?->id,
+                ]);
             }
         } catch (\Throwable $e) {
             $body = $e->getMessage();
@@ -151,6 +166,34 @@ class LeadCaptureController extends Controller
         }
 
         return $status === 'ok';
+    }
+
+    /**
+     * What Zoho's answer means: 'ok' | 'rejected' | 'failed'.
+     *
+     * Measured against the live endpoint: posting without the form-identity
+     * fields returns 302 to https://www.zoho.in, i.e. "I do not know this form".
+     * A bare redirect to Zoho's own homepage therefore means the submission was
+     * thrown away.
+     *
+     * Any OTHER redirect is reported as 'ok' rather than guessed at. This form
+     * posts returnURL="null", so a confirmed submission's exact redirect has not
+     * been observed - and inventing a success contract we have not seen would
+     * either cry wolf on good leads or hide bad ones. The Location is recorded on
+     * every lead, so the first confirmed submission will show the real signature
+     * and this can be tightened to match it.
+     */
+    private function readZohoOutcome(int $status, ?string $location): string
+    {
+        if ($status >= 400) {
+            return 'failed';
+        }
+
+        if ($location && preg_match('~^https?://(www\.)?zoho\.(in|com)/?$~i', trim($location))) {
+            return 'rejected';
+        }
+
+        return 'ok';
     }
 
     /** "Website Enquiry - GST Registration - Pune" -> "GST Registration - Pune". */

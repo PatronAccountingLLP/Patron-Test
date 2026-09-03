@@ -157,3 +157,20 @@ Route::permanentRedirect('/llp-compliance', '/pvt-llp-compliance');
 Route::permanentRedirect('/ecommerce-accounting-services/mumbai', '/accounting-services-for-e-commerce-industry/mumbai');
 Route::permanentRedirect('/education-accounting-services/mumbai', '/accounting-services-for-education-industry/mumbai');
 Route::permanentRedirect('/service-sector-accounting/mumbai', '/accounting-services-for-the-service-sector-industry/mumbai');
+
+/*
+ * The four whose replacement city page does not exist.
+ *
+ * The three above moved to their own city page under the new slug. These four
+ * have no city page there at all, so they go to the service's India page.
+ *
+ * That ends the orphan - a live Mumbai page sitting under a parent that
+ * redirects away, with the two competing - at the cost of the Mumbai page. A
+ * reader searching for this service in Mumbai now lands on the national page.
+ *
+ * If the four city pages are built later, only these four lines change.
+ */
+Route::permanentRedirect('/healthcare-accounting-services/mumbai', '/healthcare-sector-accounting-services');
+Route::permanentRedirect('/hospitality-accounting-services/mumbai', '/hospitality-sector-accounting-services');
+Route::permanentRedirect('/ngo-accounting-services/mumbai', '/ngo-and-non-profit-accounting-services');
+Route::permanentRedirect('/trading-accounting-services/mumbai', '/accounting-services-for-trading-industry');

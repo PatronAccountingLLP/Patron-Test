@@ -123,7 +123,7 @@
 
     $paTitle = $title    ?? ($paCompact ? 'Get a free callback' : 'Get Free Consultation');
     $paSub   = $subtitle ?? ($paCompact
-                    ? 'Talk to a CA/CS expert today — no charge, no spam.'
+                    ? 'Talk to a CA/CS expert today, no charge, no spam.'
                     : 'Talk to a CA/CS expert today');
     $paCta   = $cta      ?? 'Get Free Quote &rarr;';
 

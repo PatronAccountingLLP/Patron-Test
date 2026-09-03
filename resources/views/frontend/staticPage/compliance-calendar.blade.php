@@ -919,7 +919,7 @@ details[open] summary::before{transform:rotate(90deg)}
     <h3>Need CA/CS Help?</h3>
     <p>Our expert team handles all your compliance filings — GST, MCA, TDS, FEMA, SEBI and more. Never miss a deadline.</p>
     <div class="contact-cluster">
-      <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20compliance%20filings%20for%20my%20business." target="_blank" rel="noopener noreferrer" class="cc-btn cc-btn-wa">💬 WhatsApp</a>
+      <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Compliance%20Calendar%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener noreferrer" class="cc-btn cc-btn-wa">💬 WhatsApp</a>
       <a href="tel:+919459456700" class="cc-btn cc-btn-phone">📞 Call</a>
     </div>
     <a href="mailto:sales@patronaccounting.com" class="cc-btn cc-btn-email" style="margin-top:8px;flex:none">📧 Email Us</a>
@@ -964,7 +964,7 @@ details[open] summary::before{transform:rotate(90deg)}
   </div>
   <div class="cta-banner-actions">
     <div class="contact-cluster">
-      <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20compliance%20filings." target="_blank" rel="noopener noreferrer" class="cc-btn cc-btn-wa">💬 WhatsApp Us</a>
+      <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Compliance%20Calendar%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener noreferrer" class="cc-btn cc-btn-wa">💬 WhatsApp Us</a>
       <a href="tel:+919459456700" class="cc-btn cc-btn-phone">📞 +91 945 945 6700</a>
     </div>
     <span class="contact-note">Free first consultation · Responds within 1 working day</span>
@@ -1014,7 +1014,7 @@ details[open] summary::before{transform:rotate(90deg)}
       <button class="wa-strip-close" onclick="dismissWaStrip()" aria-label="Dismiss">×</button>
     </div>
     <div class="wa-strip-bottom">
-      <a href="https://wa.me/919459456700?text=Hi%2C%20I%27d%20like%20to%20get%20compliance%20due%20date%20alerts%20for%20my%20business." target="_blank" rel="noopener noreferrer" class="wa-strip-btn">💬 Get Free Alerts →</a>
+      <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Compliance%20Calendar%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener noreferrer" class="wa-strip-btn">💬 Get Free Alerts →</a>
     </div>
   </div>
 </div>

@@ -1406,7 +1406,7 @@
                 <p>For GST-registered businesses, the revenue figures in the P&amp;L must reconcile with turnover declared in GSTR-9 (annual return) and GSTR-9C (reconciliation statement). Discrepancies between books of accounts and GST returns can trigger scrutiny notices from the <a href="https://www.gst.gov.in/" target="_blank" rel="noopener">GST authorities</a>. Our tool helps you prepare a clean P&amp;L that feeds into a consistent compliance trail.</p>
 
                 <div class="callout">
-                    <p><strong>Need Expert Help with Financial Statements?</strong> Patron Accounting's team of Chartered Accountants prepares audit-ready financial statements, handles MCA filing (AOC-4), statutory audits, and tax audits for companies across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20P%26L%20Statement%20Generator%20tool.%20I%20need%20help%20with%20financial%20statements%20and%20compliance.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." target="_blank" rel="noopener">Get expert assistance &rarr;</a></p>
+                    <p><strong>Need Expert Help with Financial Statements?</strong> Patron Accounting's team of Chartered Accountants prepares audit-ready financial statements, handles MCA filing (AOC-4), statutory audits, and tax audits for companies across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Profit%20Loss%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert assistance &rarr;</a></p>
                 </div>
             </section>
 
@@ -1566,7 +1566,7 @@
             <div class="cta-card">
                 <h3>Need P&amp;L Preparation Help?</h3>
                 <p>Our Chartered Accountants prepare audit-ready financial statements, handle MCA filings, and ensure compliance for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20P%26L%20Generator%20tool.%20I%20need%20help%20with%20financial%20statements.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Profit%20Loss%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
 
             <!-- Related Services -->

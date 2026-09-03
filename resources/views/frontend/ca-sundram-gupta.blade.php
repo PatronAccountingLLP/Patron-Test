@@ -1043,7 +1043,7 @@
                         <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="8" x2="13" y2="8"/><polyline points="8 3 13 8 8 13"/></svg>
                     </a>
                     <a href="tel:+919459456700" class="btn-cp-secondary">Talk to Sundram</a>
-                    <a href="https://wa.me/919459456700?text=Hi%20CA%20Sundram%2C%20I%20found%20your%20author%20page%20and%20would%20like%20to%20discuss%20my%20business%20requirements." class="btn-cp-wa" rel="noopener" target="_blank">
+                    <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20CA%20Sundram%20Gupta%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="btn-cp-wa" rel="noopener" target="_blank">
                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.555 4.181 1.611 6.001L0 24l6.146-1.611A11.937 11.937 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm5.36 14.477c-.293-.146-1.733-.854-2.001-.952-.268-.098-.464-.146-.659.146-.196.293-.756.952-.927 1.147-.171.196-.342.22-.635.073-.293-.146-1.236-.456-2.354-1.452-.871-.776-1.459-1.736-1.63-2.029-.171-.293-.018-.451.128-.597.131-.131.293-.342.439-.513.146-.171.196-.293.293-.488.098-.196.049-.366-.024-.513-.073-.146-.659-1.59-.903-2.176-.238-.572-.479-.494-.659-.503l-.561-.01c-.196 0-.513.073-.781.366s-1.025 1.001-1.025 2.443c0 1.441 1.05 2.834 1.196 3.029.146.196 2.067 3.157 5.011 4.426.7.302 1.246.483 1.671.618.702.223 1.341.192 1.846.116.563-.084 1.733-.708 1.978-1.392.244-.683.244-1.269.171-1.392-.073-.122-.268-.196-.561-.342z"/></svg>
                         WhatsApp
                     </a>
@@ -1172,7 +1172,7 @@
                 <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.5 1.5L5 4l-1.5 1.5C4.5 8 8 11.5 10.5 12.5L12 11l2.5 1.5V14a1.5 1.5 0 0 1-1.5 1.5C7.7 15 1 8.3 1 3a1.5 1.5 0 0 1 1.5-1.5h1z"/></svg>
                 Call Now
             </a>
-            <a class="btn-strip is-wa" href="https://wa.me/919459456700?text=Hi%20CA%20Sundram%2C%20I%20would%20like%20to%20discuss%20my%20business%20requirements." rel="noopener" target="_blank">
+            <a class="btn-strip is-wa" href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20CA%20Sundram%20Gupta%20page.%20I%20would%20like%20to%20know%20more%20about%20it." rel="noopener" target="_blank">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.555 4.181 1.611 6.001L0 24l6.146-1.611A11.937 11.937 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
                 WhatsApp
             </a>
@@ -1434,7 +1434,7 @@
         </div>
 
         <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px;">
-            <a href="https://wa.me/919459456700?text=Hi%20CA%20Sundram%2C%20I%20would%20like%20to%20discuss%20my%20business%20requirements%20with%20you." target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:flex-start;gap:14px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:24px;border-radius:12px;color:#fff !important;text-decoration:none;transition:all 0.15s;">
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20CA%20Sundram%20Gupta%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:flex-start;gap:14px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:24px;border-radius:12px;color:#fff !important;text-decoration:none;transition:all 0.15s;">
                 <div style="width:44px;height:44px;background:var(--green-wa);border-radius:8px;display:flex;align-items:center;justify-content:center;">
                     <svg viewBox="0 0 24 24" fill="#fff" style="width:22px;height:22px;"><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.555 4.181 1.611 6.001L0 24l6.146-1.611A11.937 11.937 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
                 </div>

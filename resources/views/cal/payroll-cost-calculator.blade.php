@@ -986,7 +986,7 @@
                 </table>
 
                 <div class="callout">
-                    <p><strong>Let Us Handle Your Payroll.</strong> Patron Accounting provides end-to-end payroll processing &mdash; salary computation, EPF/ESI challan filing, TDS deposit, professional tax across states, Form 16, and payslip generation. We serve startups to mid-size companies across Pune, Mumbai, Delhi, and Gurugram. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20payroll%20processing%20services.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get a payroll quote &rarr;</a></p>
+                    <p><strong>Let Us Handle Your Payroll.</strong> Patron Accounting provides end-to-end payroll processing &mdash; salary computation, EPF/ESI challan filing, TDS deposit, professional tax across states, Form 16, and payslip generation. We serve startups to mid-size companies across Pune, Mumbai, Delhi, and Gurugram. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Payroll%20Cost%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get a payroll quote &rarr;</a></p>
                 </div>
             </section>
 
@@ -1024,7 +1024,7 @@
             <div class="cta-card">
                 <h3>Outsource Your Payroll</h3>
                 <p>From &#8377;200/employee/month. EPF, ESI, PT, TDS &mdash; all handled. Focus on business, not compliance.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20payroll%20processing%20services%20for%20my%20team.%20Please%20share%20pricing." target="_blank" rel="noopener" class="cta-btn">Get Payroll Quote &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Payroll%20Cost%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Payroll Quote &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>

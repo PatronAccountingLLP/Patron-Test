@@ -344,7 +344,7 @@
       </div>
       <div style="display:flex; gap:12px; flex-wrap:wrap;">
         <a href="tel:+919459456700" style="background:#f26b21; color:#ffffff; font-size:14px; font-weight:700; padding:13px 22px; border-radius:8px;">Call +91 945 945 6700</a>
-        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20found%20the%20Author%20Hub%20and%20would%20like%20to%20discuss%20my%20business%20requirements." style="border:1px solid #3d5a83; color:#ffffff; font-size:14px; font-weight:700; padding:13px 22px; border-radius:8px;">WhatsApp</a>
+        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Authorhub%20Index%20page.%20I%20would%20like%20to%20know%20more%20about%20it." style="border:1px solid #3d5a83; color:#ffffff; font-size:14px; font-weight:700; padding:13px 22px; border-radius:8px;">WhatsApp</a>
       </div>
     </div>
   </section>

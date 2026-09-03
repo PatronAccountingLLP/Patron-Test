@@ -1032,7 +1032,7 @@
                 <p>Ask your employer to restructure salary to include NPS employer contribution (tax-free up to 14% of basic under new regime), meal vouchers (&#8377;50/meal, tax-free under old regime), and car lease (reduces taxable perquisite). A CA can help optimise your salary structure legally. <a href="https://www.patronaccounting.com/payroll-services" target="_blank" rel="noopener">Patron Accounting payroll services &rarr;</a></p>
 
                 <div class="callout">
-                    <p><strong>Need Payroll or Tax Planning Help?</strong> Patron Accounting provides payroll processing, salary structuring, TDS computation, and tax planning advisory for employees and businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20salary%20structuring%20and%20tax%20planning.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert payroll help &rarr;</a></p>
+                    <p><strong>Need Payroll or Tax Planning Help?</strong> Patron Accounting provides payroll processing, salary structuring, TDS computation, and tax planning advisory for employees and businesses across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Ctc%20to%20in%20Hand%20Salary%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert payroll help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1058,7 +1058,7 @@
             <div class="cta-card">
                 <h3>Need Payroll Help?</h3>
                 <p>Our CAs handle payroll processing, TDS computation, salary structuring, and compliance for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20payroll%20and%20salary%20structuring.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Ctc%20to%20in%20Hand%20Salary%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>

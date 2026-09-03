@@ -988,7 +988,7 @@
                 <p>Some employers allow annual encashment of unused leave. This is fully taxable &mdash; no Section 10(10AA) exemption. If you receive a large lump sum, claim Section 89 relief through Form 10E. Strategically, it is better to accumulate leave and encash at retirement for the tax benefit.</p>
 
                 <div class="callout">
-                    <p><strong>Need Leave Encashment Tax Help?</strong> Patron Accounting computes your exact exemption, files Form 10E for Section 89 relief, ensures correct ITR reporting, and plans encashment timing for maximum tax efficiency. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20leave%20encashment%20tax%20computation.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get tax planning help &rarr;</a></p>
+                    <p><strong>Need Leave Encashment Tax Help?</strong> Patron Accounting computes your exact exemption, files Form 10E for Section 89 relief, ensures correct ITR reporting, and plans encashment timing for maximum tax efficiency. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Leave%20Encashment%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get tax planning help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1009,7 +1009,7 @@
                 <p>Under <a href="https://www.incometaxindia.gov.in/" target="_blank" rel="noopener">Section 43B(f)</a> of the Income Tax Act, leave encashment expenditure is deductible by the employer only on actual payment basis &mdash; not on accrual or provision basis. This means the provision created in the books is added back while computing taxable income, and the deduction is available only in the year the amount is actually paid to the employee. This creates a timing difference between book profit and taxable profit.</p>
 
                 <div class="callout">
-                    <p><strong>Need Leave Policy Setup?</strong> Patron Accounting helps employers design compliant leave policies, obtain actuarial valuations for AS-15/Ind AS 19, compute monthly provisions, and handle the tax treatment of leave encashment under Section 43B(f). <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20leave%20encashment%20provisioning%20and%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get employer compliance help &rarr;</a></p>
+                    <p><strong>Need Leave Policy Setup?</strong> Patron Accounting helps employers design compliant leave policies, obtain actuarial valuations for AS-15/Ind AS 19, compute monthly provisions, and handle the tax treatment of leave encashment under Section 43B(f). <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Leave%20Encashment%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get employer compliance help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1049,7 +1049,7 @@
             <div class="cta-card">
                 <h3>Need Tax Planning Help?</h3>
                 <p>We compute Section 10(10AA) exemptions, file Form 10E, and ensure correct ITR reporting for leave encashment.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20leave%20encashment%20tax%20computation.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Leave%20Encashment%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Tax Services</h3>

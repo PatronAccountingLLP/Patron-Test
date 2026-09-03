@@ -676,7 +676,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         <div class="body-cta">
             <h3>Need a CA-Reviewed Fixed Asset Register?</h3>
             <p>Patron Accounting LLP builds and maintains audit-ready fixed asset registers with component accounting, Schedule II compliance, IT Act block tracking and deferred tax reconciliation — for Pune, Mumbai, Delhi, Gurugram and pan-India clients.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Depreciation%20Calculator.%20I%20need%20help%20with%20fixed%20asset%20register%20and%20depreciation%20accounting.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">Talk to a CA on WhatsApp</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Depreciation%20Calculators%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">Talk to a CA on WhatsApp</a>
         </div>
 
         <section class="content-section" id="additional-dep">
@@ -784,7 +784,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         <div class="cta-card">
             <h3>Fixed Asset Register Service</h3>
             <p>Schedule II + IT Act compliant FAR with component accounting, deferred tax reconciliation, audit working papers — fixed-fee.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Depreciation%20Calculator.%20I%20need%20help%20with%20fixed%20asset%20register%20and%20depreciation%20accounting.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">WhatsApp a CA</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Depreciation%20Calculators%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">WhatsApp a CA</a>
         </div>
 
         <div class="sidebar-card">

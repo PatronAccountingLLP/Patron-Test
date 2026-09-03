@@ -1089,7 +1089,7 @@
                 <p>This includes securities premium, general reserve, retained earnings (balance in P&L account), capital redemption reserve, and any other statutory reserves. The balance of the Statement of Profit and Loss (net profit or loss carried forward) directly flows into this component, connecting the P&L to the Balance Sheet.</p>
 
                 <div class="callout">
-                    <p><strong>Need Expert Financial Statement Preparation?</strong> Patron Accounting prepares audit-ready balance sheets, P&L statements, and notes to accounts for companies across India. We handle MCA filing (AOC-4), statutory audits, and ensure Schedule III compliance. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Balance%20Sheet%20Generator.%20I%20need%20help%20with%20financial%20statements.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert assistance &rarr;</a></p>
+                    <p><strong>Need Expert Financial Statement Preparation?</strong> Patron Accounting prepares audit-ready balance sheets, P&L statements, and notes to accounts for companies across India. We handle MCA filing (AOC-4), statutory audits, and ensure Schedule III compliance. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Balance%20Sheet%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert assistance &rarr;</a></p>
                 </div>
             </section>
 
@@ -1157,7 +1157,7 @@
             <div class="cta-card">
                 <h3>Need Balance Sheet Help?</h3>
                 <p>Our CAs prepare audit-ready financial statements, handle MCA filings, and ensure Schedule III compliance for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Balance%20Sheet%20Generator.%20I%20need%20help%20with%20financial%20statements.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Balance%20Sheet%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
 
             <div class="sidebar-card">

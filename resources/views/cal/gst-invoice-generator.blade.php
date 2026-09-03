@@ -497,7 +497,7 @@
     <h3>Record Retention</h3>
     <p>Under Section 36 of the CGST Act, invoices and related records must be retained for at least 6 years from the due date of filing the annual return for the relevant year. The <a href="https://www.icai.org/" target="_blank" rel="noopener">Institute of Chartered Accountants of India (ICAI)</a> recommends maintaining both physical and digital copies in a systematic filing system.</p>
     <div class="callout">
-        <p><strong>Need Professional Invoicing Help?</strong> Patron Accounting helps businesses set up compliant invoicing systems, GST registration, and monthly return filing across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20setting%20up%20GST%20compliant%20invoicing%20for%20my%20business." target="_blank" rel="noopener">Get expert GST invoicing help &rarr;</a></p>
+        <p><strong>Need Professional Invoicing Help?</strong> Patron Accounting helps businesses set up compliant invoicing systems, GST registration, and monthly return filing across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GST%20Invoice%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert GST invoicing help &rarr;</a></p>
     </div>
 </section>
 
@@ -511,7 +511,7 @@
 
 <!-- ====== SIDEBAR ====== -->
 <aside class="sidebar-col">
-    <div class="cta-card"><h3>Need GST Help?</h3><p>Our CAs handle GST registration, invoicing setup, return filing, and audits for businesses across India.</p><a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20GST%20compliance." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a></div>
+    <div class="cta-card"><h3>Need GST Help?</h3><p>Our CAs handle GST registration, invoicing setup, return filing, and audits for businesses across India.</p><a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GST%20Invoice%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a></div>
     <div class="sidebar-card"><h3>Related Free Tools</h3>
         <a href="https://www.patronaccounting.com/tools/gst-calculator" class="sidebar-link">GST Calculator <span class="arrow">&rarr;</span></a>
         <a href="https://www.patronaccounting.com/tools/hsn-sac-code-finder" class="sidebar-link">HSN/SAC Code Finder <span class="arrow">&rarr;</span></a>

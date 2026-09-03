@@ -673,7 +673,7 @@ body.is-embed {
         <div class="body-cta">
             <h3>Need Help with Ind AS 116 Implementation?</h3>
             <p>Patron Accounting LLP supports CFO offices with Ind AS 116 transition impact assessment, IBR determination, lease database setup, period close working papers and audit defence — for Pune, Mumbai, Delhi, Gurugram and pan-India clients.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Lease%20Accounting%20Calculator.%20I%20need%20help%20with%20Ind%20AS%20116%20implementation%20and%20audit.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">Talk to a CA on WhatsApp</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Lease%20Accounting%20Calculator%20IND%20As%20116%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">Talk to a CA on WhatsApp</a>
         </div>
 
         <section class="content-section" id="impact">
@@ -797,7 +797,7 @@ body.is-embed {
         <div class="cta-card">
             <h3>Need Ind AS 116 Audit Sign-off?</h3>
             <p>Get a CA-led Ind AS 116 implementation review with IBR derivation, lease database, audit working papers — fixed-fee.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Lease%20Accounting%20Calculator.%20I%20need%20help%20with%20Ind%20AS%20116%20implementation%20and%20audit.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">WhatsApp a CA</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Lease%20Accounting%20Calculator%20IND%20As%20116%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">WhatsApp a CA</a>
         </div>
 
         <div class="sidebar-card">

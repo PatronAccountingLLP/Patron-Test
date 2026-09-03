@@ -486,7 +486,7 @@
         <div class="cta-card">
             <h3>Need TDS Filing Help?</h3>
             <p>Our Chartered Accountants handle TDS return filing (24Q/26Q/27Q), TDS notices, and compliance for businesses across India.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20TDS%20filing%20and%20compliance." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20TDS%20Rate%20Finder%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
         </div>
         <div class="sidebar-card">
             <h3>Key TDS Sections</h3>

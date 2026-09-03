@@ -614,7 +614,7 @@
         <div class="body-cta">
             <h3>Need Help Setting Up Your IFC Framework?</h3>
             <p>Patron Accounting LLP designs IFC frameworks aligned to the ICAI Guidance Note and COSO 2013 — risk and control matrices, walkthrough documentation, testing programs and remediation roadmaps for Pune, Mumbai, Delhi, Gurugram and pan-India clients.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20IFC%20Testing%20Checklist%20tool.%20I%20need%20help%20with%20IFC%20design%20and%20audit.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">Talk to a CA on WhatsApp</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Ifc%20Testing%20Checklist%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">Talk to a CA on WhatsApp</a>
         </div>
 
         <section class="content-section" id="test-methods">
@@ -717,7 +717,7 @@
         <div class="cta-card">
             <h3>Need IFC Audit Sign-off?</h3>
             <p>Get a CA-led IFC audit with risk and control matrices, walkthrough documentation, sample-based testing and management letter — for FY 2025-26.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20IFC%20Testing%20Checklist%20tool.%20I%20need%20help%20with%20IFC%20design%20and%20audit.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">WhatsApp a CA</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Ifc%20Testing%20Checklist%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">WhatsApp a CA</a>
         </div>
 
         <div class="sidebar-card">

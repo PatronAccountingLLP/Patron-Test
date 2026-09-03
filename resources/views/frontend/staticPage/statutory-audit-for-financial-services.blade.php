@@ -856,7 +856,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20a%20CA-led%20statutory%20audit%20for%20our%20NBFC%20%2F%20fintech%20lender.%20Please%20share%20a%20layer-tiered%20fixed-fee%20quote." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
+                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Statutory%20Audit%20for%20Financial%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -1518,7 +1518,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 </div>
                 <p style="margin-top:16px;font-size:13px;color:var(--text-muted);font-style:italic;">All fees and charges listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on the volume of work and the complexity involved.</p>
                 <p style="margin-top:16px;">Professional service charges for drafting, filing, and representation are separate from the statutory fees. The exact fee depends on the complexity of the case, disputed amount, and number of hearings required. Contact us for a detailed quote.</p>
-                <p style="margin-top:16px;"><strong>Get a free Financial Services Audit consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20layer-tiered%20fee%20quote%20for%20our%20NBFC%20%2F%20HFC%20%2F%20fintech%20%2F%20AIF%20statutory%20audit." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
+                <p style="margin-top:16px;"><strong>Get a free Financial Services Audit consultation - <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Statutory%20Audit%20for%20Financial%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">WhatsApp us</a>. No-obligation assessment.</strong></p>
             </div>
         </div>
     </div>
@@ -1817,7 +1817,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
                 
 <p>AOC-4 with audit report must be filed within 30 days of the AGM and MGT-7 within 60 days. NBS-1 / NBS-2 / NBS-3 returns are filed quarterly with the RBI Department of Non-Banking Supervision. ALM-1 / ALM-2 / ALM-3 are also quarterly. The Para 9C auditor certificate to RBI is typically filed within 90 days of year-end. CRILC reporting (NBFC-ML and above) is monthly.</p>
 <p><strong>IRACP Directions 2025 became effective 28 November 2025 - NBFCs that have not aligned their books to the new classification matrix face supervisory observations in the next inspection cycle.</strong></p>
-<p style="margin-top:16px;"><strong>Conducting NBFC activity without a valid Certificate of Registration is an offence under Chapter V of the RBI Act, attracting penalty under Section 58B and potential business shutdown. </strong><a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20fixed-fee%20NBFC%20audit%20quote." target="_blank" rel="noopener">WhatsApp us</a>. Partner CA scoping call and fixed-fee quote within 24 hours.</p>
+<p style="margin-top:16px;"><strong>Conducting NBFC activity without a valid Certificate of Registration is an offence under Chapter V of the RBI Act, attracting penalty under Section 58B and potential business shutdown. </strong><a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Statutory%20Audit%20for%20Financial%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">WhatsApp us</a>. Partner CA scoping call and fixed-fee quote within 24 hours.</p>
 
 
             </div>
@@ -1840,7 +1840,7 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
             </div>
             <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hi%2C%20please%20share%20a%20layer-tiered%20fee%20quote%20for%20our%20NBFC%20%2F%20HFC%20%2F%20fintech%20%2F%20AIF%20statutory%20audit." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Statutory%20Audit%20for%20Financial%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
                 <a href="mailto:sales@patronaccounting.com" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>

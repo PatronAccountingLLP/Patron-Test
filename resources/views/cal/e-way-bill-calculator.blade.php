@@ -1222,7 +1222,7 @@
                 <p>In cases of intent to evade tax, goods can be confiscated along with the vehicle used for transport. The person may pay a fine in lieu of confiscation &mdash; up to the market value of goods plus the tax payable. Repeat violations significantly increase the risk of confiscation proceedings.</p>
 
                 <div class="callout">
-                    <p><strong>Need Help with GST Compliance?</strong> Patron Accounting provides comprehensive E-Way Bill management, GST registration, return filing, and audit services for businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20E-Way%20Bill%20Calculator.%20I%20need%20help%20with%20GST%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert GST assistance &rarr;</a></p>
+                    <p><strong>Need Help with GST Compliance?</strong> Patron Accounting provides comprehensive E-Way Bill management, GST registration, return filing, and audit services for businesses across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20E%20Way%20Bill%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert GST assistance &rarr;</a></p>
                 </div>
             </section>
 
@@ -1298,7 +1298,7 @@
             <div class="cta-card">
                 <h3>Need E-Way Bill Help?</h3>
                 <p>Our Chartered Accountants handle GST registration, E-Way Bill management, return filing, and compliance audits for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20E-Way%20Bill%20Calculator.%20I%20need%20help%20with%20GST%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20E%20Way%20Bill%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
 
             <div class="sidebar-card">

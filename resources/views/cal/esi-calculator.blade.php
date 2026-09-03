@@ -971,7 +971,7 @@
                 <p>Half-yearly returns must be filed: by 12th November for the April-September period and by 12th May for the October-March period. The return includes wages paid, contributions made, and employee details for the period. Non-filing attracts penalties under <a href="https://www.indiacode.nic.in/handle/123456789/1554" target="_blank" rel="noopener">Section 85 of the ESI Act</a>.</p>
 
                 <div class="callout">
-                    <p><strong>Need ESIC Compliance Help?</strong> Patron Accounting handles ESIC registration, monthly challan computation and payment, half-yearly return filing, employee onboarding, and ESIC inspection support for businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20ESIC%20compliance%20and%20payroll.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get ESIC compliance help &rarr;</a></p>
+                    <p><strong>Need ESIC Compliance Help?</strong> Patron Accounting handles ESIC registration, monthly challan computation and payment, half-yearly return filing, employee onboarding, and ESIC inspection support for businesses across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Esi%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get ESIC compliance help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1011,7 +1011,7 @@
             <div class="cta-card">
                 <h3>Need ESIC Compliance Help?</h3>
                 <p>Our team handles ESIC registration, monthly challan filing, return submission, and inspections for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20ESIC%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Esi%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>

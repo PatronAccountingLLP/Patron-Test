@@ -431,7 +431,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
         </section>
 
         <div class="callout" style="background:linear-gradient(135deg,#EFF6FF,#F0F7FF);border-left-color:var(--primary);margin:0 0 32px;">
-            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need help with GSTR-9 filing?</strong> Our CAs handle complete GSTR-9 and GSTR-9C preparation, reconciliation, and filing for businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20GSTR-9%20Checklist%20tool.%20I%20need%20help%20with%20annual%20return%20filing.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
+            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need help with GSTR-9 filing?</strong> Our CAs handle complete GSTR-9 and GSTR-9C preparation, reconciliation, and filing for businesses across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTR%209%20Annual%20Return%20Checklist%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
         </div>
 
         <section class="content-section" id="faqs">
@@ -445,7 +445,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
         <div class="cta-card">
             <h3>Need GSTR-9 Help?</h3>
             <p>Our CAs handle GSTR-9, GSTR-9C preparation, reconciliation &amp; filing for businesses across India.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20GSTR-9%20filing." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTR%209%20Annual%20Return%20Checklist%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
         </div>
         <div class="sidebar-card">
             <h3>GST Services</h3>

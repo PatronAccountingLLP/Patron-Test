@@ -1012,7 +1012,7 @@
                 </table>
 
                 <div class="callout">
-                    <p><strong>Need EPF Compliance Help?</strong> Patron Accounting handles EPF registration, monthly ECR filing, contribution computation, and employee PF transfer/settlement claims for businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20EPF%20compliance%20and%20payroll.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get payroll help &rarr;</a></p>
+                    <p><strong>Need EPF Compliance Help?</strong> Patron Accounting handles EPF registration, monthly ECR filing, contribution computation, and employee PF transfer/settlement claims for businesses across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20EPF%20Pf%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get payroll help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1039,7 +1039,7 @@
             <div class="cta-card">
                 <h3>Need Payroll & EPF Help?</h3>
                 <p>Our team handles EPF registration, monthly ECR filing, contribution computation, and PF transfers for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20EPF%20compliance%20and%20payroll.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20EPF%20Pf%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>

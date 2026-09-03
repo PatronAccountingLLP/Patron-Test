@@ -450,12 +450,12 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
             </table>
             </div>
             <div class="callout green">
-                <p><strong>Expert Tip:</strong> Combine PPF + ELSS + NPS for optimal tax-saving: PPF for guaranteed base, ELSS for growth, NPS for extra &#8377;50K deduction under 80CCD(1B). This &ldquo;3-pillar strategy&rdquo; maximises both tax savings and wealth creation. <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20help%20with%20tax-saving%20investment%20planning." target="_blank" rel="noopener" style="color:inherit;font-weight:700;">Talk to our CA team &rarr;</a></p>
+                <p><strong>Expert Tip:</strong> Combine PPF + ELSS + NPS for optimal tax-saving: PPF for guaranteed base, ELSS for growth, NPS for extra &#8377;50K deduction under 80CCD(1B). This &ldquo;3-pillar strategy&rdquo; maximises both tax savings and wealth creation. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20PPF%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" style="color:inherit;font-weight:700;">Talk to our CA team &rarr;</a></p>
             </div>
         </section>
 
         <div class="callout" style="background:linear-gradient(135deg,#EFF6FF,#F0F7FF);border-left-color:var(--primary);margin:0 0 32px;">
-            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need tax-saving advice?</strong> Our CAs help with PPF, 80C planning, ITR filing, and investment strategy. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20PPF%20Calculator.%20I%20need%20tax%20planning%20help." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
+            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need tax-saving advice?</strong> Our CAs help with PPF, 80C planning, ITR filing, and investment strategy. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20PPF%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
         </div>
 
         <section class="content-section" id="faqs">
@@ -468,7 +468,7 @@ body{font-family:'DM Sans',sans-serif;color:#1A1A1A;background:#FAFAF8;line-heig
         <div class="cta-card">
             <h3>Need Tax-Saving Help?</h3>
             <p>Our CAs help with PPF, 80C planning, ITR filing &amp; investment strategy for individuals.</p>
-            <a href="https://wa.me/919459456700?text=Hi%2C%20I%20need%20tax-saving%20investment%20help." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20PPF%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
         </div>
         <div class="sidebar-card">
             <h3>Services</h3>
@@ -576,7 +576,7 @@ h+='<tr><td>'+d.year+'</td><td>'+fmt(d.opening)+'</td><td>'+fmt(d.deposit)+'</td
 });
 h+='</tbody></table></div></div></div>';
 
-h+='<div class="res-actions"><a href="https://wa.me/919459456700?text=Hi%2C%20I%20used%20the%20PPF%20Calculator.%20I%20need%20help%20with%20tax-saving%20investments." target="_blank" class="ra-btn" rel="noopener"><svg viewBox="0 0 24 24" fill="#25D366" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> Ask a CA</a><a href="https://www.patronaccounting.com/tools/fd-calculator" class="ra-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h5"/></svg> FD Calculator</a></div>';
+h+='<div class="res-actions"><a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20PPF%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" class="ra-btn" rel="noopener"><svg viewBox="0 0 24 24" fill="#25D366" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg> Ask a CA</a><a href="https://www.patronaccounting.com/tools/fd-calculator" class="ra-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h5"/></svg> FD Calculator</a></div>';
 
 document.getElementById('resBody').innerHTML=h;document.getElementById('resPanel').classList.add('visible');document.getElementById('resPanel').scrollIntoView({behavior:'smooth',block:'start'});
 }

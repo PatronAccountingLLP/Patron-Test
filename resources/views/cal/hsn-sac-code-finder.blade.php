@@ -1178,7 +1178,7 @@
                 <p>GSTR-1 (Table 12) requires HSN-wise summary of all outward supplies. GSTR-9 (Annual Return) also requires HSN-wise breakup of supplies. Incorrect HSN codes in returns can lead to ITC mismatches when the recipient's GSTR-2B auto-populates data. The <a href="https://www.icai.org/" target="_blank" rel="noopener">Institute of Chartered Accountants of India (ICAI)</a> recommends maintaining an HSN master list mapped to your product inventory for consistent classification.</p>
 
                 <div class="callout">
-                    <p><strong>Need Expert Classification Help?</strong> Patron Accounting's team of Chartered Accountants assists businesses with HSN/SAC classification, GST registration, return filing, and compliance audits across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20HSN%20SAC%20classification%20for%20my%20business.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert HSN classification help &rarr;</a></p>
+                    <p><strong>Need Expert Classification Help?</strong> Patron Accounting's team of Chartered Accountants assists businesses with HSN/SAC classification, GST registration, return filing, and compliance audits across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20HSN%20Sac%20Code%20Finder%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert HSN classification help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1325,7 +1325,7 @@
             <div class="cta-card">
                 <h3>Need HSN/SAC Help?</h3>
                 <p>Our Chartered Accountants help businesses with correct HSN/SAC classification, GST registration, and compliance across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20HSN%20SAC%20code%20classification.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20HSN%20Sac%20Code%20Finder%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
 
             <!-- Related Tools -->

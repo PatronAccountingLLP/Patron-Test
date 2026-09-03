@@ -969,7 +969,7 @@
                 </table>
 
                 <div class="callout">
-                    <p><strong>Need Bonus Computation Help?</strong> Patron Accounting calculates allocable surplus, maintains Forms A/B/C/D, computes employee-wise bonus with pro-rata adjustments, and files annual returns. We handle full payroll compliance for businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20statutory%20bonus%20calculation%20and%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get bonus compliance help &rarr;</a></p>
+                    <p><strong>Need Bonus Computation Help?</strong> Patron Accounting calculates allocable surplus, maintains Forms A/B/C/D, computes employee-wise bonus with pro-rata adjustments, and files annual returns. We handle full payroll compliance for businesses across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Bonus%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get bonus compliance help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1009,7 +1009,7 @@
             <div class="cta-card">
                 <h3>Need Bonus Compliance Help?</h3>
                 <p>We compute allocable surplus, maintain registers, calculate employee-wise bonus, and file Form D returns.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20statutory%20bonus%20computation.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Bonus%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>

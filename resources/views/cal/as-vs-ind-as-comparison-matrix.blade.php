@@ -503,7 +503,7 @@
         <div class="body-cta">
             <h3>Need Help with AS to Ind AS Transition?</h3>
             <p>Patron Accounting LLP supports CFO offices with first-time Ind AS adoption (Ind AS 101), opening balance sheet preparation, transition adjustments, dual GAAP reporting, MAT computation under Section 115JB(2A), and ongoing Ind AS audit support — for Pune, Mumbai, Delhi, Gurugram and pan-India clients.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20AS%20vs%20Ind%20AS%20Comparison%20Matrix.%20I%20need%20help%20with%20Ind%20AS%20transition.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">Talk to a CA on WhatsApp</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20As%20vs%20IND%20As%20Comparison%20Matrix%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">Talk to a CA on WhatsApp</a>
         </div>
 
         <section class="content-section" id="faqs">
@@ -582,7 +582,7 @@
         <div class="cta-card">
             <h3>Ind AS Transition Support</h3>
             <p>First-time adoption (Ind AS 101), opening balance sheet, transition adjustments, MAT computation — fixed-fee.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20AS%20vs%20Ind%20AS%20Comparison%20Matrix.%20I%20need%20help%20with%20Ind%20AS%20transition.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">WhatsApp a CA</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20As%20vs%20IND%20As%20Comparison%20Matrix%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">WhatsApp a CA</a>
         </div>
 
         <div class="sidebar-card">

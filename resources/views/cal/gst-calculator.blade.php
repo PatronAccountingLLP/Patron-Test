@@ -1249,7 +1249,7 @@
                 <p>Regular taxpayers must file GSTR-1 (outward supplies) by the 11th of the following month and GSTR-3B (summary return with tax payment) by the 20th. Composition dealers file GSTR-4 annually and CMP-08 quarterly. The <a href="https://www.icai.org/post/gst-and-indirect-taxes-committee" target="_blank" rel="noopener">ICAI's GST and Indirect Taxes Committee</a> publishes regular guidance notes to help practitioners navigate filing requirements.</p>
 
                 <div class="callout">
-                    <p><strong>Need Expert GST Assistance?</strong> Patron Accounting offers comprehensive GST registration, filing, and advisory services across India. Our team of Chartered Accountants ensures your GST compliance is always up to date. <a href="https://wa.me/919459456700?text=Hi%2C%20I%20found%20you%20through%20the%20GST%20Calculator%20tool.%20I%20need%20help%20with%20GST%20registration%20and%20filing." target="_blank" rel="noopener">Get expert GST assistance &rarr;</a></p>
+                    <p><strong>Need Expert GST Assistance?</strong> Patron Accounting offers comprehensive GST registration, filing, and advisory services across India. Our team of Chartered Accountants ensures your GST compliance is always up to date. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GST%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert GST assistance &rarr;</a></p>
                 </div>
             </section>
 
@@ -1396,7 +1396,7 @@
             <div class="cta-card">
                 <h3>Need GST Help?</h3>
                 <p>Our Chartered Accountants handle GST registration, monthly return filing, and compliance audits for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20GST%20compliance.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GST%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
 
             <!-- Related Tools -->

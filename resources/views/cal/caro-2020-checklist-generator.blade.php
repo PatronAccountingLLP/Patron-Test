@@ -655,7 +655,7 @@
         <div class="body-cta">
             <h3>Need a CA Firm to Sign Your Statutory Audit?</h3>
             <p>Patron Accounting LLP delivers CARO 2020-compliant statutory audit reports for Pvt Ltd, Public Ltd and foreign companies — with documented working papers, ICAI Guidance Note alignment and NFRA-grade quality control.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20CARO%202020%20Checklist%20Generator.%20I%20need%20help%20with%20statutory%20audit.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">Talk to a CA on WhatsApp</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20CARO%202020%20Checklist%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">Talk to a CA on WhatsApp</a>
         </div>
 
         <section class="content-section" id="mistakes">
@@ -759,7 +759,7 @@
         <div class="cta-card">
             <h3>Need CARO 2020 Compliant Audit?</h3>
             <p>Get your statutory audit signed by a Chartered Accountant — full clause-wise CARO 2020 working papers, NFRA-grade documentation, fixed-fee engagement.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20CARO%202020%20Checklist%20Generator.%20I%20need%20help%20with%20statutory%20audit.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">WhatsApp a CA</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20CARO%202020%20Checklist%20Generator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">WhatsApp a CA</a>
         </div>
 
         <div class="sidebar-card">

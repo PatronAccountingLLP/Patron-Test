@@ -453,7 +453,7 @@
         </section>
 
         <div class="callout" style="background:linear-gradient(135deg,#EFF6FF,#F0F7FF);border-left-color:var(--primary);margin:0 0 32px;">
-            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need help with TDS return filing or payroll compliance?</strong> Our team of Chartered Accountants handles salary TDS computation, quarterly return filing, and Form 16 generation for businesses across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20TDS%20on%20Salary%20Calculator%20tool.%20I%20need%20help%20with%20TDS%20return%20filing.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
+            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need help with TDS return filing or payroll compliance?</strong> Our team of Chartered Accountants handles salary TDS computation, quarterly return filing, and Form 16 generation for businesses across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20TDS%20on%20Salary%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
         </div>
 
         <section class="content-section" id="faqs">
@@ -479,7 +479,7 @@
         <div class="cta-card">
             <h3>Need TDS &amp; Payroll Help?</h3>
             <p>Our Chartered Accountants handle TDS computation, return filing, and payroll compliance for businesses of all sizes across India.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20TDS%20on%20Salary%20Calculator%20tool.%20I%20need%20help%20with%20salary%20TDS%20and%20payroll%20compliance.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20TDS%20on%20Salary%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
         </div>
         <div class="sidebar-card">
             <h3>Related Services</h3>

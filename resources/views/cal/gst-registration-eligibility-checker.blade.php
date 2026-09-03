@@ -353,7 +353,7 @@
 
         <!-- CTA -->
         <div class="callout" style="background:linear-gradient(135deg,#EFF6FF,#F0F7FF);border-left-color:var(--primary);margin:0 0 32px;">
-            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need help with GST registration?</strong> Our Chartered Accountants handle the complete registration process &mdash; document preparation, portal filing, and post-registration compliance setup. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20GST%20Registration%20Eligibility%20Checker.%20I%20need%20help%20with%20GST%20registration.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
+            <p style="color:var(--primary-dark);font-size:15px;"><strong>Need help with GST registration?</strong> Our Chartered Accountants handle the complete registration process &mdash; document preparation, portal filing, and post-registration compliance setup. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GST%20Registration%20Eligibility%20Checker%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" style="color:var(--primary);font-weight:700;">Talk to a CA today &rarr;</a></p>
         </div>
 
         <!-- FAQs -->
@@ -368,7 +368,7 @@
         <div class="cta-card">
             <h3>Need GST Registration?</h3>
             <p>Our CAs handle the complete GST registration process &mdash; documents, filing, and compliance setup across India.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20GST%20registration.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GST%20Registration%20Eligibility%20Checker%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
         </div>
         <div class="sidebar-card">
             <h3>GST Services</h3>

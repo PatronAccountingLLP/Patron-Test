@@ -680,7 +680,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         <div class="body-cta">
             <h3>Need Help with Audit Sampling & SA 530 Documentation?</h3>
             <p>Patron Accounting LLP supports audit firms and audit committees with SA 530 sampling design, MUS implementation, working paper preparation, NFRA-compliant audit documentation, and CAATs deployment — for Pune, Mumbai, Delhi, Gurugram and pan-India clients.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Audit%20Sampling%20Calculator.%20I%20need%20help%20with%20SA%20530%20sampling%20design%20and%20documentation.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">Talk to a CA on WhatsApp</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Audit%20Sampling%20Size%20Calculator%20Sa%20530%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">Talk to a CA on WhatsApp</a>
         </div>
 
         <section class="content-section" id="faqs">
@@ -759,7 +759,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         <div class="cta-card">
             <h3>SA 530 Sampling Support</h3>
             <p>Sampling design, MUS implementation, working papers, NFRA-aligned documentation — fixed-fee.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Audit%20Sampling%20Calculator.%20I%20need%20help%20with%20SA%20530%20sampling%20design%20and%20documentation.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." class="cta-btn">WhatsApp a CA</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Audit%20Sampling%20Size%20Calculator%20Sa%20530%20page.%20I%20would%20like%20to%20know%20more%20about%20it." class="cta-btn">WhatsApp a CA</a>
         </div>
 
         <div class="sidebar-card">

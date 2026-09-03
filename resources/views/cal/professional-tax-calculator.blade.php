@@ -999,7 +999,7 @@
                 <p>Late payment attracts interest at 1-1.5% per month on the outstanding amount in most states. Additional penalties range from 10% to 100% of the PT due depending on the state and duration of default. In Maharashtra, the penalty can be up to &#8377;5 per day of delay. Persistent non-compliance can result in prosecution and suspension of business licences.</p>
 
                 <div class="callout">
-                    <p><strong>Multi-State PT Compliance?</strong> If your company has employees across multiple states, each state's PT must be calculated and deposited separately. Patron Accounting handles multi-state PT registration, computation, payment, and filing for businesses with distributed teams across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20Professional%20Tax%20compliance%20across%20multiple%20states.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get PT compliance help &rarr;</a></p>
+                    <p><strong>Multi-State PT Compliance?</strong> If your company has employees across multiple states, each state's PT must be calculated and deposited separately. Patron Accounting handles multi-state PT registration, computation, payment, and filing for businesses with distributed teams across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Professional%20Tax%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get PT compliance help &rarr;</a></p>
                 </div>
             </section>
 
@@ -1045,7 +1045,7 @@
             <div class="cta-card">
                 <h3>Need PT Compliance Help?</h3>
                 <p>Our team handles multi-state PT registration, computation, payment, and filing for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20Professional%20Tax%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Professional%20Tax%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>

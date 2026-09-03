@@ -354,11 +354,11 @@
                             <span class="play-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;color:#fff"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></span>
                             Call +91 945 945 6700
                         </a>
-                        <a href="mailto:sales@patronaccounting.com?subject=GSTAT%20Appeal%20Filing%20-%20Ahmedabad%20Bench%20Enquiry&body=Dear%20Patron%20Accounting%2C%0A%0AI%20need%20assistance%20with%20GSTAT%20appeal%20filing%20at%20the%20Ahmedabad%20bench.%0A%0APlease%20advise.%0A%0ARegards" class="btn-sample text-decoration-none">
+                        <a href="mailto:sales@patronaccounting.com?subject=GSTAT%20Appeal%20Filing%20-%20Ahmedabad%20Bench%20Enquiry&body=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Ahmedabad%20page.%20I%20would%20like%20to%20know%20more%20about%20it.%0A%0AThank%20you." class="btn-sample text-decoration-none">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
                             Email Us
                         </a>
-                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20GSTAT%20Appeal%20Filing%20at%20Ahmedabad%20bench.%20Please%20advise." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
+                        <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Ahmedabad%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" class="btn-sample text-decoration-none" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
                             WhatsApp Us
                         </a>
@@ -604,7 +604,7 @@
         <div class="text-content">
                 <h2 id="documents">Documents Required for Ahmedabad GSTAT Appeal</h2>
 <ul><li>Form APL-05 with cause title, GSTIN (prefix 24), and numbered grounds</li><li>Certified copy of impugned order (GSTN digital documents exempted during initial period)</li><li>Pre-deposit payment proof via Electronic Cash Ledger</li><li>GSTIN registration certificate (Gujarat, state code 24)</li><li>GSTR-1, GSTR-3B, GSTR-9 for disputed period</li><li>SCN and reply filed before adjudicating authority</li><li>Original adjudication order (DRC-07)</li><li>Vakalatnama and GSTAT FORM 04</li><li>Bharatkosh payment receipt for filing fee</li><li>Gujarat-specific: English translations with accuracy affidavit for Gujarati-language orders from Gujarat SGST authorities</li></ul>
-<p>Need help? <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20GSTAT%20documents%20for%20Ahmedabad%20bench.">WhatsApp us</a>.</p>
+<p>Need help? <a href="tel:+919459456700">Call +91 945 945 6700</a> or <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Ahmedabad%20page.%20I%20would%20like%20to%20know%20more%20about%20it.">WhatsApp us</a>.</p>
             </div>
     </div>
 </section>
@@ -637,7 +637,7 @@
 <tr><td>Registry Scrutiny</td><td>Lenient approach for initial 6 months (from Jan 2026) - substantive defects only</td></tr>
 <tr><td>Admission Hearing</td><td>Subject to bench listing as Ahmedabad bench commences operations</td></tr>
 <tr><td>Final Order</td><td>Within 30 days of final hearing</td></tr></tbody></table></div>
-<div style="background:var(--orange-lighter);border-radius:var(--radius-md);padding:20px 24px;margin-top:24px;"><p style="font-weight:700;color:var(--blue);margin-bottom:8px;">Get a Case-Specific Estimate</p><p>Our CA team assesses your demand order and advises on pre-deposit strategy. <a href="tel:+919459456700">Call +91 945 945 6700</a> | <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20a%20fee%20estimate%20for%20GSTAT%20Ahmedabad%20bench.">WhatsApp</a></p></div>
+<div style="background:var(--orange-lighter);border-radius:var(--radius-md);padding:20px 24px;margin-top:24px;"><p style="font-weight:700;color:var(--blue);margin-bottom:8px;">Get a Case-Specific Estimate</p><p>Our CA team assesses your demand order and advises on pre-deposit strategy. <a href="tel:+919459456700">Call +91 945 945 6700</a> | <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Ahmedabad%20page.%20I%20would%20like%20to%20know%20more%20about%20it.">WhatsApp</a></p></div>
             </div>
     </div>
 </section>
@@ -792,7 +792,7 @@
                 <h2 style="color:var(--orange);">Act Now - 3-Month Limitation Is a Statutory Bar</h2>
 <div class="highlight-box" style="background:var(--orange-lighter);border-left:4px solid var(--orange);border-radius:var(--radius-md);padding:20px 24px;margin-bottom:20px;"><p style="font-weight:700;color:var(--blue);">Failure to file within the 3-month limitation under S.112(1) permanently extinguishes appeal rights. Condonation is discretionary. Gujarat's active enforcement means simultaneous CGST and SGST demands. The initial 6-month lenient scrutiny window is time-limited - file now.</p></div>
 <p>Every day of delay increases pre-deposit complexity as interest compounds. The Ahmedabad bench is newly operational - early filers benefit from shorter listing times and reduced procedural rejection risk during the lenient scrutiny window.</p>
-<p><strong><a href="tel:+919459456700">Call +91 945 945 6700</a></strong> | <strong><a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20urgent%20help%20with%20GSTAT%20appeal%20at%20Ahmedabad%20bench.">WhatsApp us now</a></strong></p>
+<p><strong><a href="tel:+919459456700">Call +91 945 945 6700</a></strong> | <strong><a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Ahmedabad%20page.%20I%20would%20like%20to%20know%20more%20about%20it.">WhatsApp us now</a></strong></p>
             </div>
         </div>
     </div>
@@ -808,8 +808,8 @@
 <p>Patron Accounting's CA team and of-counsel GST litigation specialists provide end-to-end GSTAT appeal filing services. From case assessment through pre-deposit computation, APL-05 preparation, e-filing, and Ahmedabad bench representation, Patron coordinates every stage. With the 30 June 2026 staggered deadline and the 6-month lenient scrutiny window, act now.</p>
             <div class="conclusion-cta-row" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
                 <a href="tel:+919459456700" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--orange);color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#128222; Call +91 945 945 6700</a>
-                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20need%20help%20with%20GSTAT%20Appeal%20Filing%20at%20Ahmedabad%20bench.%20Please%20advise." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
-                <a href="mailto:sales@patronaccounting.com?subject=GSTAT%20Appeal%20Filing%20-%20Ahmedabad%20Bench%20Enquiry&body=Dear%20Patron%20Accounting%2C%0A%0AI%20need%20assistance%20with%20GSTAT%20appeal%20filing%20at%20the%20Ahmedabad%20bench.%0A%0APlease%20advise.%0A%0ARegards" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Ahmedabad%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#25D366;color:#fff;border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;" rel="noopener">&#128172; WhatsApp Us</a>
+                <a href="mailto:sales@patronaccounting.com?subject=GSTAT%20Appeal%20Filing%20-%20Ahmedabad%20Bench%20Enquiry&body=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Ahmedabad%20page.%20I%20would%20like%20to%20know%20more%20about%20it.%0A%0AThank%20you." style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.3);border-radius:50px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;">&#9993;&#65039; Email Us</a>
             </div>
             <p style="color:rgba(255,255,255,0.7);font-size:13px;margin-top:16px;">Book a Free Consultation - No Obligation.</p>
         </div>

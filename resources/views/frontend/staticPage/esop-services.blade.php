@@ -2086,7 +2086,7 @@
                                 </svg>
                             </a>
                             <a href="tel:+919459456700" class="btn-cp-secondary">Talk to a CA + CS</a>
-                            <a href="https://wa.me/919459456700?text=Hi%2C%20I%27m%20enquiring%20from%20the%20ESOP%20Services%20Hub%20at%20patronaccounting.com/esop-services.%20Please%20help%20me%20find%20the%20right%20plan."
+                            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20ESOP%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it."
                                 class="btn-cp-wa" rel="noopener" target="_blank">
                                 <svg viewBox="0 0 24 24" fill="currentColor">
                                     <path
@@ -2215,7 +2215,7 @@
                         </svg>
                         +91 945 945 6700
                     </a>
-                    <a href="https://wa.me/919459456700?text=Hi%2C%20I%27m%20enquiring%20from%20the%20ESOP%20Services%20Hub%20at%20patronaccounting.com/esop-services.%20Please%20help%20me%20find%20the%20right%20plan."
+                    <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20ESOP%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it."
                         class="btn-strip is-wa" rel="noopener" target="_blank">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
@@ -2469,7 +2469,7 @@
                         </svg>
                         +91 945 945 6700
                     </a>
-                    <a href="https://wa.me/919459456700?text=Hi%2C%20I%27m%20enquiring%20from%20the%20ESOP%20Services%20Hub%20at%20patronaccounting.com/esop-services.%20Please%20help%20me%20find%20the%20right%20plan."
+                    <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20ESOP%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it."
                         class="btn-strip is-wa" rel="noopener" target="_blank">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
@@ -2750,7 +2750,7 @@
                         </svg>
                         +91 945 945 6700
                     </a>
-                    <a href="https://wa.me/919459456700?text=Hi%2C%20I%27m%20enquiring%20from%20the%20ESOP%20Services%20Hub%20at%20patronaccounting.com/esop-services.%20Please%20help%20me%20find%20the%20right%20plan."
+                    <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20ESOP%20Services%20page.%20I%20would%20like%20to%20know%20more%20about%20it."
                         class="btn-strip is-wa" rel="noopener" target="_blank">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />

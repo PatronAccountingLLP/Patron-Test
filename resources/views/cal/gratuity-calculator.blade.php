@@ -995,7 +995,7 @@
                 <p>An employer cannot deny gratuity for poor performance, voluntary resignation after 5 years, retrenchment, or any reason other than the three specified grounds above. Employees who believe their gratuity has been wrongfully denied can file a complaint with the <a href="https://labour.gov.in/" target="_blank" rel="noopener">Controlling Authority (Assistant Labour Commissioner)</a> under Section 7 of the Act.</p>
 
                 <div class="callout">
-                    <p><strong>Need Gratuity Compliance Help?</strong> Patron Accounting handles gratuity computation, actuarial valuations (AS-15/Ind AS 19), Form I filing, and exit settlement processing for companies across India. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20gratuity%20calculation%20and%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert assistance &rarr;</a></p>
+                    <p><strong>Need Gratuity Compliance Help?</strong> Patron Accounting handles gratuity computation, actuarial valuations (AS-15/Ind AS 19), Form I filing, and exit settlement processing for companies across India. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Gratuity%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert assistance &rarr;</a></p>
                 </div>
             </section>
 
@@ -1023,7 +1023,7 @@
             <div class="cta-card">
                 <h3>Need Gratuity Help?</h3>
                 <p>Our team handles gratuity computation, actuarial valuations, and full payroll compliance for businesses across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20with%20gratuity%20calculation%20and%20compliance.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Gratuity%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
             <div class="sidebar-card">
                 <h3>Payroll Services</h3>

@@ -1084,7 +1084,7 @@
                 <p>TallyPrime Silver (single user) costs &#8377;600/month or &#8377;18,000 one-time. TallyPrime Gold (multi-user) is &#8377;1,800/month or &#8377;54,000 one-time. For businesses preferring cloud access, Zoho Books Professional at &#8377;1,499/month is cheaper than TallyPrime Gold and includes features like automated bank reconciliation that TallyPrime lacks. For offline-heavy businesses, TallyPrime remains more cost-effective long-term via the one-time licence. <a href="https://www.patronaccounting.com/migration-from-tally-to-zoho" target="_blank" rel="noopener">Learn about Tally to Zoho migration &rarr;</a></p>
 
                 <div class="callout">
-                    <p><strong>Need Help Choosing?</strong> Patron Accounting implements Zoho Books for businesses across India. We handle plan selection, data migration from Tally or other software, GST configuration, and team training. <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20choosing%20a%20Zoho%20Books%20plan%20and%20setting%20it%20up.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener">Get expert Zoho Books setup &rarr;</a></p>
+                    <p><strong>Need Help Choosing?</strong> Patron Accounting implements Zoho Books for businesses across India. We handle plan selection, data migration from Tally or other software, GST configuration, and team training. <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Zoho%20Books%20Pricing%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">Get expert Zoho Books setup &rarr;</a></p>
                 </div>
             </section>
 
@@ -1124,7 +1124,7 @@
             <div class="cta-card">
                 <h3>Need Zoho Books Setup?</h3>
                 <p>Our CAs handle plan selection, data migration, GST setup, and team training for Zoho Books across India.</p>
-                <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20need%20help%20setting%20up%20Zoho%20Books.%20Please%20connect%20me%20with%20a%20CA." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
+                <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20Zoho%20Books%20Pricing%20Calculator%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help &rarr;</a>
             </div>
 
             <div class="sidebar-card">

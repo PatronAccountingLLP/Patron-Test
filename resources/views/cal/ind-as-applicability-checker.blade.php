@@ -622,7 +622,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         <div class="body-cta">
             <h3>Need Help With Ind AS Transition or Compliance?</h3>
             <p>Patron's CAs handle Ind AS first-time adoption, transition adjustments, GAAP differences, IFRS-converged disclosures, statutory audits under Ind AS framework, and ongoing financial reporting compliance for companies and NBFCs.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Ind%20AS%20Applicability%20Checker.%20I%20need%20help%20with%20Ind%20AS%20transition%20and%20compliance.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." target="_blank" rel="noopener" class="cta-btn">Get CA Consultation →</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20IND%20As%20Applicability%20Checker%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get CA Consultation →</a>
         </div>
 
         <section class="content-section" id="amendments">
@@ -686,7 +686,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
         <div class="cta-card">
             <h3>Ind AS Transition &amp; Audit Support</h3>
             <p>Patron's CAs handle first-time adoption, transition adjustments, GAAP differences, and Ind AS statutory audits.</p>
-            <a href="https://wa.me/919459456700?text=Hi%20Patron%20Accounting%2C%20I%20found%20you%20through%20the%20Ind%20AS%20Applicability%20Checker.%20I%20need%20help%20with%20Ind%20AS%20transition%20and%20financial%20reporting.%20Please%20connect%20me%20with%20a%20Chartered%20Accountant." target="_blank" rel="noopener" class="cta-btn">Get Expert Help →</a>
+            <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20IND%20As%20Applicability%20Checker%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener" class="cta-btn">Get Expert Help →</a>
         </div>
 
         <div class="sidebar-card">

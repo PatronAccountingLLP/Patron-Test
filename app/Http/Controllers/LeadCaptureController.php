@@ -4,81 +4,67 @@ namespace App\Http\Controllers;
 
 use App\Models\Lead;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 
 /**
  * Every enquiry from partials/bigin-form.blade.php lands here.
  *
- * The form used to post straight to Zoho Bigin, which meant an enquiry existed
- * only if Zoho accepted it. It now posts to us, and the order below is the whole
- * point of the class:
+ *      1. write the lead to our `leads` table   <- server-side, cannot be lost
+ *      2. 307 back to Zoho                      <- the BROWSER delivers it
  *
- *      1. write the lead to our `leads` table          <- cannot be lost
- *      2. forward the identical body to Zoho           <- may fail, and that is survivable
- *      3. record what Zoho said                        <- so failures are visible
+ * Why the browser and not us.
  *
- * Nothing in step 2 or 3 is allowed to throw. A lead we hold but could not
- * forward is a phone call to make by hand; a lead we dropped on the floor is
- * gone forever, and that is the failure this class exists to prevent.
+ * This class used to forward the enquiry to Zoho itself. It looked right, and
+ * Zoho answered "Thanks for submitting the form" every time - but no lead ever
+ * arrived in Bigin. Proved by experiment: the identical payload, with identical
+ * browser-style headers, reaches the CRM when posted from a normal machine and
+ * does NOT when posted from the Render server. Zoho is refusing the datacentre
+ * origin, silently, while still returning its thank-you page. No change to the
+ * body or the headers can fix that, and several were tried.
  *
- * The response is rendered into the form's hidden iframe, so its body is only
- * seen by js/enquiry-form.js, which swaps the card for a thank-you on iframe
- * load. It must return 200 for that to happen.
+ * So the delivery goes back to where it worked: the visitor's own browser. A 307
+ * preserves both the method and the body, so the browser re-posts the identical
+ * submission to Zoho from its own address - which is exactly what the live site
+ * does, and the live site's leads arrive.
+ *
+ * We still write the row first, so the lead is banked before anything that can
+ * fail, which is the point of this route existing at all.
+ *
+ * What this costs, stated plainly: once the browser is talking to Zoho we can no
+ * longer see what Zoho did. That visibility was never real - Zoho thanks you
+ * whether it keeps the record or bins it - so nothing of substance is lost, but
+ * `zoho_status` can no longer claim delivery and does not pretend to.
  */
 class LeadCaptureController extends Controller
 {
     /** The real Zoho endpoint. NOT WebToRecordForm - that placeholder 400s. */
     private const ZOHO_ENDPOINT = 'https://bigin.zoho.in/crm/WebForm';
 
-    /** Zoho is normally sub-second. Past this we keep the lead and give up. */
-    private const ZOHO_TIMEOUT = 15;
-
     /**
-     * The exact field list the live site posts to Zoho, read off
-     * patronaccounting.com. Leads from that form do reach Bigin, so this set is
-     * known-good; anything outside it is ours and stays on our side.
-     *
-     * "Contacts.Email" is deliberately NOT here. The form collects it and we store
-     * it, but it is not added until the Email field exists on Bigin web form
-     * 208810000001209168 - sending a field the form was not built with is exactly
-     * the kind of difference that cannot be tested from outside, because Zoho
-     * thanks you either way.
+     * Handed to the visitor's browser to deliver. Not a claim that it arrived -
+     * see scopeNotInCrm, which does not treat this as either success or failure.
      */
-    private const ZOHO_FIELDS = [
-        'xnQsjsdp', 'xmIwtLD', 'actionType', 'returnURL', 'rmsg', 'zc_gad',
-        'Potential Name', 'Pipeline', 'Stage',
-        'Contacts.Description', 'Description', 'City',
-        'Contacts.Lead Source',
-        'Contacts.Last Name', 'Contacts.Mobile', 'Contacts.Mailing City',
-    ];
+    private const STATUS_BROWSER = 'browser';
 
     public function store(Request $request)
     {
         $lead = $this->record($request);
 
-        $crm    = $this->forwardToZoho($request, $lead);
-        $zohoOk = ($crm === 'ok');
-
-        // The enquiry is safe if EITHER store took it: our table is the record we
-        // control, Zoho is the one the team works in. Only when both failed has
-        // the enquiry actually gone nowhere, and the visitor has to be told - the
-        // form used to say "we will call you shortly" no matter what happened,
-        // because js/enquiry-form.js showed the thank-you on any frame load.
-        $captured = ($lead !== null) || $zohoOk;
-
-        if (!$captured) {
-            Log::critical('Enquiry lost: neither the database nor Zoho took it', [
+        if ($lead === null) {
+            // The row is our guarantee. Losing it means the log is the only copy,
+            // so it is written at a level nobody filters out.
+            Log::critical('Enquiry not saved to the leads table', [
                 'lead' => $request->except(['xnQsjsdp', 'xmIwtLD']),
             ]);
         }
 
-        return response($this->iframeBody($captured, $crm, $lead !== null), 200)
-            ->header('Content-Type', 'text/html; charset=UTF-8');
+        // 307, not 302: 302 would turn the browser's POST into a GET and drop the
+        // body, and Zoho would receive an empty request. 307 keeps both.
+        return redirect()->away(self::ZOHO_ENDPOINT, 307);
     }
 
     /**
-     * Step 1. Save whatever arrived, without judging it.
+     * Save whatever arrived, without judging it.
      *
      * There is deliberately no validate() here. A half-filled enquiry with a
      * phone number is worth a callback; rejecting it would recreate exactly the
@@ -98,16 +84,17 @@ class LeadCaptureController extends Controller
 
         try {
             return Lead::create([
-                'name'       => $this->clip($get('Contacts.Last Name'), 255),
-                'phone'      => $this->clip($get('Contacts.Mobile'), 32),
-                'email'      => $this->clip($get('Contacts.Email'), 255),
-                'city'       => $this->clip($get('Contacts.Mailing City'), 255),
-                'deal_name'  => $this->clip($get('Potential Name'), 255),
-                'service'    => $this->clip($this->serviceFromDealName($get('Potential Name')), 255),
-                'page_url'   => $this->clip($get('pa_page_url') ?: $request->headers->get('referer'), 2000),
-                'message'    => $this->clip($get('Contacts.Description'), 5000),
-                'ip'         => $this->clip($request->ip(), 45),
-                'user_agent' => $this->clip($request->userAgent(), 1000),
+                'name'        => $this->clip($get('Contacts.Last Name'), 255),
+                'phone'       => $this->clip($get('Contacts.Mobile'), 32),
+                'email'       => $this->clip($get('Contacts.Email'), 255),
+                'city'        => $this->clip($get('Contacts.Mailing City'), 255),
+                'deal_name'   => $this->clip($get('Potential Name'), 255),
+                'service'     => $this->clip($this->serviceFromDealName($get('Potential Name')), 255),
+                'page_url'    => $this->clip($get('pa_page_url') ?: $request->headers->get('referer'), 2000),
+                'message'     => $this->clip($get('Contacts.Description'), 5000),
+                'ip'          => $this->clip($request->ip(), 45),
+                'user_agent'  => $this->clip($request->userAgent(), 1000),
+                'zoho_status' => self::STATUS_BROWSER,
             ]);
         } catch (\Throwable $e) {
             // The database is the safety net, so if IT fails the log has to hold
@@ -119,147 +106,6 @@ class LeadCaptureController extends Controller
 
             return null;
         }
-    }
-
-    /**
-     * Step 2 and 3. Hand the enquiry to Zoho exactly as the form built it.
-     *
-     * The body is passed through untouched, including Zoho's own identity fields
-     * (xnQsjsdp / xmIwtLD / actionType), so from Zoho's side this is the same
-     * submission it has always received. Bigin still silently discards fields its
-     * web form was not built with; the difference now is that we kept a copy.
-     */
-    private function forwardToZoho(Request $request, ?Lead $lead): string
-    {
-        $status = 'error';
-        $code   = null;
-        $body   = null;
-
-        try {
-            // Forward EXACTLY the fields the live site posts, and nothing else.
-            //
-            // We used to pass the whole body through, which meant anything we
-            // added for our own purposes went to Zoho too. Bigin is documented as
-            // discarding fields its web form was not built with, but its response
-            // says "Thanks for submitting the form" whether it keeps a record or
-            // bins it, so that behaviour was never actually verifiable - and test
-            // leads stopped reaching the CRM at the point extra fields appeared.
-            //
-            // The live form's field list is proven to produce records. Match it.
-            // Adding one here is a deliberate act, to be done only after the field
-            // exists in Bigin's form builder - Contacts.Email is the pending one.
-            $fields = collect($request->except(['_token']))
-                ->only(self::ZOHO_FIELDS)
-                ->filter(fn ($v) => is_scalar($v) || is_null($v))
-                ->map(fn ($v) => (string) $v)
-                ->all();
-
-            // Redirects are NOT followed, deliberately.
-            //
-            // Zoho answers a web form with a 302, and where it sends you is the
-            // only clue about what it did. A submission it REJECTS redirects to
-            // https://www.zoho.in - Zoho's own marketing homepage - and following
-            // that lands on a cheerful HTTP 200. We used to follow it and record
-            // the lead as "sent to CRM", so a rejected enquiry looked identical to
-            // an accepted one and never appeared in the "Not in CRM" list. That is
-            // the same invisible-failure fault this whole class exists to remove,
-            // so we now keep the 302 and judge it.
-            $response = Http::asMultipart()
-                ->withoutRedirecting()
-                ->timeout(self::ZOHO_TIMEOUT)
-                ->withHeaders($this->browserHeaders($request, $fields))
-                ->post(self::ZOHO_ENDPOINT, $fields);
-
-            $code     = $response->status();
-            $location = $response->header('Location');
-            $body     = $location ? ('Location: '.$location) : $response->body();
-            $status   = $this->readZohoOutcome($response->status(), $location);
-
-            if ($status !== 'ok') {
-                Log::warning('Zoho did not confirm a lead', [
-                    'http' => $code, 'location' => $location,
-                    'status' => $status, 'lead_id' => $lead?->id,
-                ]);
-            }
-        } catch (\Throwable $e) {
-            $body = $e->getMessage();
-            Log::error('Zoho forward failed', ['error' => $e->getMessage(), 'lead_id' => $lead?->id]);
-        }
-
-        if ($lead) {
-            try {
-                $lead->update([
-                    'zoho_status'    => $status,
-                    'zoho_http_code' => $code,
-                    'zoho_response'  => $this->clip($body, 2000),
-                ]);
-            } catch (\Throwable $e) {
-                Log::error('Could not stamp Zoho outcome on lead', ['error' => $e->getMessage(), 'lead_id' => $lead->id]);
-            }
-        }
-
-        return $status;
-    }
-
-    /**
-     * Make our forward look like the browser submission it replaces.
-     *
-     * Until this form started posting through us, the visitor's own browser
-     * posted straight to Zoho, carrying a Referer and Origin from the page the
-     * form was on and the visitor's real User-Agent. Our server sent none of
-     * that, and a bot-shaped User-Agent besides. Zoho web forms are known to
-     * weigh exactly those signals, and a submission it quietly discards still
-     * answers "Thanks for submitting the form" - so the difference is invisible
-     * from our side and only shows up as leads never arriving in the CRM.
-     *
-     * Passing the visitor's own headers through costs nothing if that was not the
-     * cause, and restores the one thing that demonstrably used to work.
-     */
-    private function browserHeaders(Request $request, array $fields): array
-    {
-        $page = $fields['pa_page_url'] ?? $request->headers->get('referer') ?? url('/');
-        $parts = parse_url($page);
-        $origin = ($parts && !empty($parts['scheme']) && !empty($parts['host']))
-            ? $parts['scheme'].'://'.$parts['host']
-            : rtrim(url('/'), '/');
-
-        return [
-            'Referer'          => $page,
-            'Origin'           => $origin,
-            'User-Agent'       => $request->userAgent()
-                ?: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
-                   .'(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-            'Accept'           => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language'  => $request->headers->get('accept-language') ?: 'en-IN,en;q=0.9',
-        ];
-    }
-
-    /**
-     * What Zoho's answer means: 'ok' | 'rejected' | 'failed'.
-     *
-     * Measured against the live endpoint: posting without the form-identity
-     * fields returns 302 to https://www.zoho.in, i.e. "I do not know this form".
-     * A bare redirect to Zoho's own homepage therefore means the submission was
-     * thrown away.
-     *
-     * Any OTHER redirect is reported as 'ok' rather than guessed at. This form
-     * posts returnURL="null", so a confirmed submission's exact redirect has not
-     * been observed - and inventing a success contract we have not seen would
-     * either cry wolf on good leads or hide bad ones. The Location is recorded on
-     * every lead, so the first confirmed submission will show the real signature
-     * and this can be tightened to match it.
-     */
-    private function readZohoOutcome(int $status, ?string $location): string
-    {
-        if ($status >= 400) {
-            return 'failed';
-        }
-
-        if ($location && preg_match('~^https?://(www\.)?zoho\.(in|com)/?$~i', trim($location))) {
-            return 'rejected';
-        }
-
-        return 'ok';
     }
 
     /** "Website Enquiry - GST Registration - Pune" -> "GST Registration - Pune". */
@@ -281,36 +127,5 @@ class LeadCaptureController extends Controller
         $value = trim((string) $value);
 
         return $value === '' ? null : mb_substr($value, 0, $max);
-    }
-
-    /**
-     * Loaded into the hidden iframe. js/enquiry-form.js only listens for the
-     * iframe's load event, so the markup is irrelevant to it - but a visitor
-     * running without JavaScript never sees a thank-you, and this is the one
-     * place we can still say something to them.
-     */
-    private function iframeBody(bool $captured, string $crm, bool $saved): string
-    {
-        // The <meta> is the machine-readable part. The response now comes from our
-        // own domain, so js/enquiry-form.js can read this frame and only celebrate
-        // when the enquiry was actually taken - it used to show the thank-you on
-        // any frame load, error pages included.
-        $state = $captured ? 'captured' : 'failed';
-
-        $message = $captured
-            ? 'Thank you. Your enquiry has reached Patron Accounting and our CA/CS team will call you shortly.'
-            : 'Sorry, we could not record your enquiry. Please call us on +91 94594 56700.';
-
-        // pa-crm / pa-db say WHICH of the two stores took it. "captured" alone
-        // cannot tell "we saved it" from "Zoho took it", and that ambiguity has
-        // cost real diagnosis time - twice. Status words only, never lead data;
-        // this page is only ever loaded into the form's own hidden frame.
-        return '<!doctype html><html lang="en"><head><meta charset="utf-8">'
-             . '<meta name="pa-lead" content="'.$state.'">'
-             . '<meta name="pa-crm" content="'.e($crm).'">'
-             . '<meta name="pa-db" content="'.($saved ? 'saved' : 'not-saved').'">'
-             . '<title>Enquiry '.$state.'</title></head><body>'
-             . '<p>'.$message.'</p>'
-             . '</body></html>';
     }
 }

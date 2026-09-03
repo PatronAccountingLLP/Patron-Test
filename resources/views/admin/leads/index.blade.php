@@ -84,7 +84,12 @@
                                 <td>{{ $lead->city ?: '—' }}</td>
                                 <td>{{ $lead->service ?: '—' }}</td>
                                 <td>
-                                    @if($lead->zoho_status === 'ok')
+                                    @if($lead->zoho_status === 'browser')
+                                        {{-- The browser delivers to Zoho itself, so the
+                                             outcome is genuinely unknown to us. Saying
+                                             "sent" here would be a claim we cannot back. --}}
+                                        <span class="badge bg-secondary" title="Handed to the visitor's browser to deliver to Bigin; outcome not visible to this site">handed over</span>
+                                    @elseif($lead->zoho_status === 'ok')
                                         <span class="badge bg-success">sent</span>
                                     @elseif($lead->zoho_status === null)
                                         <span class="badge bg-secondary">pending</span>

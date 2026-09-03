@@ -38,11 +38,16 @@ class Lead extends Model
     ];
 
     /**
-     * Enquiries Zoho did not take. These are the ones a human must re-enter.
+     * Enquiries we know Zoho did not take.
      *
-     * 'rejected' is the important one: Zoho answered, but redirected to its own
-     * homepage, which is what it does with a submission it discards. Those used
-     * to be recorded as 'ok' because the redirect was followed to a 200.
+     * 'browser' is NOT here, and that is the honest position: the visitor's own
+     * browser delivers to Zoho now (see LeadCaptureController), so we hand the
+     * submission over and never learn the outcome. Listing those as failures
+     * would cry wolf on every single lead; listing them as delivered would be a
+     * claim we cannot support. They are simply unknown.
+     *
+     * The other values are left in place for rows written while this app posted
+     * to Zoho itself, so older leads still report what was seen at the time.
      */
     public function scopeNotInCrm($query)
     {

@@ -45,7 +45,13 @@
                 <tr><th>Message</th><td>{{ $lead->message ?: '—' }}</td></tr>
                 <tr><th>Sent to Zoho Bigin</th>
                     <td>
-                        @if($lead->zoho_status === 'ok')
+                        @if($lead->zoho_status === 'browser')
+                            <span class="badge bg-secondary">handed to the visitor's browser</span>
+                            <div class="text-muted small mt-1">
+                                The visitor's own browser posts to Bigin directly, so whether
+                                Bigin kept it is not visible from here. Check Bigin itself.
+                            </div>
+                        @elseif($lead->zoho_status === 'ok')
                             <span class="badge bg-success">yes</span>
                         @elseif($lead->zoho_status === null)
                             <span class="badge bg-secondary">not attempted</span>

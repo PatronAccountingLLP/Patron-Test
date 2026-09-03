@@ -28,12 +28,12 @@
     'use strict';
 
     var COUNTRIES = [
-        { name: 'India', code: '+91', flag: '🇮🇳', iso: 'IN' },
+        { name: 'India', code: '+91', flag: '🇮🇳', iso: 'IN', nsn: 10 },
         { name: 'United States', code: '+1', flag: '🇺🇸', iso: 'US' },
         { name: 'United Kingdom', code: '+44', flag: '🇬🇧', iso: 'GB' },
-        { name: 'United Arab Emirates', code: '+971', flag: '🇦🇪', iso: 'AE' },
+        { name: 'United Arab Emirates', code: '+971', flag: '🇦🇪', iso: 'AE', nsn: 9 },
         { name: 'Saudi Arabia', code: '+966', flag: '🇸🇦', iso: 'SA' },
-        { name: 'Singapore', code: '+65', flag: '🇸🇬', iso: 'SG' },
+        { name: 'Singapore', code: '+65', flag: '🇸🇬', iso: 'SG', nsn: 8 },
         { name: 'Australia', code: '+61', flag: '🇦🇺', iso: 'AU' },
         { name: 'Canada', code: '+1', flag: '🇨🇦', iso: 'CA' },
         { name: 'Germany', code: '+49', flag: '🇩🇪', iso: 'DE' },
@@ -54,10 +54,10 @@
         { name: 'Pakistan', code: '+92', flag: '🇵🇰', iso: 'PK' },
         { name: 'Sri Lanka', code: '+94', flag: '🇱🇰', iso: 'LK' },
         { name: 'Nepal', code: '+977', flag: '🇳🇵', iso: 'NP' },
-        { name: 'Qatar', code: '+974', flag: '🇶🇦', iso: 'QA' },
-        { name: 'Kuwait', code: '+965', flag: '🇰🇼', iso: 'KW' },
-        { name: 'Bahrain', code: '+973', flag: '🇧🇭', iso: 'BH' },
-        { name: 'Oman', code: '+968', flag: '🇴🇲', iso: 'OM' },
+        { name: 'Qatar', code: '+974', flag: '🇶🇦', iso: 'QA', nsn: 8 },
+        { name: 'Kuwait', code: '+965', flag: '🇰🇼', iso: 'KW', nsn: 8 },
+        { name: 'Bahrain', code: '+973', flag: '🇧🇭', iso: 'BH', nsn: 8 },
+        { name: 'Oman', code: '+968', flag: '🇴🇲', iso: 'OM', nsn: 8 },
         { name: 'New Zealand', code: '+64', flag: '🇳🇿', iso: 'NZ' },
         { name: 'Ireland', code: '+353', flag: '🇮🇪', iso: 'IE' },
         { name: 'Netherlands', code: '+31', flag: '🇳🇱', iso: 'NL' },
@@ -70,15 +70,17 @@
         { name: 'Egypt', code: '+20', flag: '🇪🇬', iso: 'EG' },
         { name: 'Turkey', code: '+90', flag: '🇹🇷', iso: 'TR' },
         { name: 'Israel', code: '+972', flag: '🇮🇱', iso: 'IL' },
-        { name: 'Hong Kong', code: '+852', flag: '🇭🇰', iso: 'HK' },
+        { name: 'Hong Kong', code: '+852', flag: '🇭🇰', iso: 'HK', nsn: 8 },
         { name: 'Taiwan', code: '+886', flag: '🇹🇼', iso: 'TW' },
         { name: 'Myanmar', code: '+95', flag: '🇲🇲', iso: 'MM' },
         { name: 'Afghanistan', code: '+93', flag: '🇦🇫', iso: 'AF' }
     ];
 
-    /* India is the only country we can length-check with confidence. Everything
-     * else just has to be a plausible international subscriber number, so the
-     * form never rejects a valid foreign lead it does not have a rule for. */
+    /* Callers may pass the country object or just its dial code. */
+    function asCountry(c) {
+        return (typeof c === 'string') ? { code: c } : (c || {});
+    }
+
     /* Two ways people write their own number that used to reach the CRM as
      * something undiallable, both of them normal outside India:
      *
@@ -87,24 +89,44 @@
      *      a zero once it is behind a country code, so leading zeros always go.
      *
      *   2. The country code typed into the number box as well as picked from the
-     *      dropdown - 971501234567 under +971, stored as +971971501234567. Only
-     *      stripped when the number is longer than 10 digits, which is what keeps
-     *      a plain 10-digit Indian mobile starting "91" (9198765432) intact: it
-     *      is not over the threshold, so the leading 91 is never mistaken for a
-     *      country code. Zeros go first, so 00447911123456 lands correctly too.
+     *      dropdown - 971501234567 under +971, stored as +971971501234567.
+     *
+     * Stripping (2) safely is the whole difficulty, because a national number can
+     * legitimately begin with its own country's digits. Two rules, in order:
+     *
+     *   nsn  - where a country's national number is a FIXED length we are sure of,
+     *          use it: strip only when the whole string is not already that length
+     *          AND what remains after the code is. This is what catches Singapore,
+     *          where +65 plus 8 digits totals exactly 10 and the length rule below
+     *          cannot see it.
+     *   >10  - everywhere else. Deliberately conservative: it keeps a plain
+     *          10-digit Indian mobile beginning "91" (9198765432) intact, and it
+     *          leaves Brazilian numbers in area code 55 alone, both of which a
+     *          looser threshold would mangle.
+     *
+     * Zeros go first, so 00447911123456 lands correctly too.
      */
-    function normalisePhone(raw, dialCode) {
+    function normalisePhone(raw, country) {
+        var c = asCountry(country);
         var digits = (raw || '').replace(/\D/g, '').replace(/^0+/, '');
-        var cc = (dialCode || '').replace('+', '');
-        if (cc && digits.length > 10 && digits.indexOf(cc) === 0 &&
-            (digits.length - cc.length) >= 6) {
+        var cc = (c.code || '').replace('+', '');
+
+        if (!cc || digits.indexOf(cc) !== 0) { return digits; }
+
+        var rest = digits.length - cc.length;
+
+        if (c.nsn) {
+            if (digits.length !== c.nsn && rest === c.nsn) { digits = digits.slice(cc.length); }
+        } else if (digits.length > 10 && rest >= 6) {
             digits = digits.slice(cc.length);
         }
+
         return digits;
     }
 
-    function validatePhone(raw, dialCode) {
-        var digits = normalisePhone(raw, dialCode);
+    function validatePhone(raw, country) {
+        var dialCode = asCountry(country).code;
+        var digits = normalisePhone(raw, country);
         if (!digits) { return { valid: false, message: 'Phone number is required' }; }
         if (dialCode === '+91') {
             if (digits.length !== 10) { return { valid: false, message: 'Enter a 10-digit mobile number' }; }
@@ -236,7 +258,7 @@
             });
             phone.addEventListener('blur', function () {
                 if (!this.value.trim()) { return; }
-                var r = validatePhone(this.value, selected.code);
+                var r = validatePhone(this.value, selected);
                 if (!r.valid && phoneError) {
                     if (phoneGroup) { phoneGroup.classList.add('input-error'); }
                     phoneError.textContent = r.message;
@@ -263,7 +285,7 @@
                 if (!field.value.trim()) { setError(field, field.getAttribute('data-req')); ok = false; }
             });
 
-            var r = validatePhone(phone ? phone.value : '', selected.code);
+            var r = validatePhone(phone ? phone.value : '', selected);
             if (!r.valid) {
                 if (phoneGroup) { phoneGroup.classList.add('input-error'); }
                 if (phoneError) { phoneError.textContent = r.message; phoneError.style.display = 'block'; }

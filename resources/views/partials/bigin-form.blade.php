@@ -205,7 +205,17 @@
         <input type="hidden" name="Description" value="{{ $paMsg }}"/>
         <input type="hidden" name="City" data-deal-city value="{{ $paCity }}"/>
 
-        <input type="hidden" name="Contacts.Lead Source" data-page-url value=""/>
+        {{-- Lead Source is a PICKLIST in Bigin. This used to be posted with the
+             page URL in it, which is not one of its options - Bigin threw the value
+             away and stored "Websites" regardless. Send the option it actually
+             stores, and keep the page address in a field of our own below. --}}
+        <input type="hidden" name="Contacts.Lead Source" value="Websites"/>
+
+        {{-- Ours, not Zoho's - Bigin discards it, LeadCaptureController reads it.
+             Rendered server-side so the page is recorded even when the script does
+             not run; the script overwrites it with the full URL including any query
+             string, which is what tells us which campaign a lead came from. --}}
+        <input type="hidden" name="pa_page_url" data-page-url value="{{ $paUrl }}"/>
 
         <div class="form-group">
             <label class="form-label" for="name{{ $uid }}">Full Name</label>
@@ -245,7 +255,7 @@
                      validatePhone() already reports "Phone number is required"
                      through [data-phone-error] below, which sits in the right place. --}}
             </div>
-            <div class="field-error-msg" data-phone-error style="display:none;"></div>
+            <div class="field-error-msg" data-phone-error role="alert" style="display:none;"></div>
         </div>
 
         {{-- Not required, and the label does not say so either - the business's

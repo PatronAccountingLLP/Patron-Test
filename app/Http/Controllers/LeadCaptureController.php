@@ -84,7 +84,7 @@ class LeadCaptureController extends Controller
                 'city'       => $this->clip($get('Contacts.Mailing City'), 255),
                 'deal_name'  => $this->clip($get('Potential Name'), 255),
                 'service'    => $this->clip($this->serviceFromDealName($get('Potential Name')), 255),
-                'page_url'   => $this->clip($get('Contacts.Lead Source') ?: $request->headers->get('referer'), 2000),
+                'page_url'   => $this->clip($get('pa_page_url') ?: $request->headers->get('referer'), 2000),
                 'message'    => $this->clip($get('Contacts.Description'), 5000),
                 'ip'         => $this->clip($request->ip(), 45),
                 'user_agent' => $this->clip($request->userAgent(), 1000),

@@ -432,7 +432,12 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 // app/Http/Middleware/VerifyCsrfToken.php: the form is on cacheable public pages
 // and a stale token would 419 and lose the enquiry, which is the exact failure
 // this route was added to prevent.
-Route::post('/lead-capture', [LeadCaptureController::class, 'store'])->name('lead.capture');
+// Throttled because this endpoint writes a row and calls Zoho on every hit, and
+// it is public with no CSRF token to slow anyone down. 20/minute per IP is far
+// above any real person filling a form in and well below a bot worth stopping.
+Route::post('/lead-capture', [LeadCaptureController::class, 'store'])
+    ->middleware('throttle:20,1')
+    ->name('lead.capture');
 
 // Post Categories Routes
 Route::prefix('post-categories')->name('frontend.post-categories.')->group(function () {

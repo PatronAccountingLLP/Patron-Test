@@ -125,6 +125,8 @@
             msg = document.createElement('div');
             msg.className = 'field-error-msg';
             msg.setAttribute('data-for-field', '');
+            // Without this a screen reader never hears why the form refused.
+            msg.setAttribute('role', 'alert');
             field.parentNode.appendChild(msg);
         }
         msg.textContent = message;
@@ -236,15 +238,25 @@
                 if (!this.value.trim()) { return; }
                 var r = validatePhone(this.value, selected.code);
                 if (!r.valid && phoneError) {
-                    phoneGroup.classList.add('input-error');
+                    if (phoneGroup) { phoneGroup.classList.add('input-error'); }
                     phoneError.textContent = r.message;
                     phoneError.style.display = 'block';
                 }
             });
         }
 
+        // The button's own wording. A page can pass its own CTA ("Find My ESOP
+        // Service"), and restoring a hard-coded "Get Free Quote" would silently
+        // rewrite it the first time a submission ran long.
+        var ctaLabel = submitBtn ? submitBtn.innerHTML : '';
+
         // ---- submit ----------------------------------------------------------
         form.addEventListener('submit', function (e) {
+            // One enquiry per submission. The button is disabled below, but Enter
+            // can fire twice before that lands, and the watchdog re-enables it -
+            // both routes used to be able to file the same lead twice.
+            if (form.__paInFlight) { e.preventDefault(); return false; }
+
             var ok = true;
 
             Array.prototype.forEach.call(form.querySelectorAll('[data-req]'), function (field) {
@@ -263,7 +275,11 @@
 
             if (!ok) {
                 e.preventDefault();
-                var bad = form.querySelector('.input-error');
+                // Focus the offending FIELD. .input-error also lands on
+                // .phone-group, a div, and focusing that moves the caret nowhere.
+                var bad = form.querySelector('input.input-error') ||
+                          form.querySelector('.input-error input') ||
+                          form.querySelector('.input-error');
                 if (bad && bad.focus) { bad.focus(); }
                 return false;
             }
@@ -301,18 +317,22 @@
             }
 
             // The iframe fires 'load' once for about:blank before any submit.
-            // This flag is what separates that from Zoho's actual answer.
+            // This flag is what separates that from the real answer.
             form.__paSubmitted = true;
+            form.__paInFlight  = true;
 
             if (submitBtn) {
                 submitBtn.disabled = true;
                 submitBtn.textContent = 'Submitting…';
-                // Zoho answers into the hidden iframe. If that never fires (offline,
-                // blocked third party), give the visitor the button back.
-                setTimeout(function () {
+                // Watchdog, for the case where the frame never loads at all
+                // (offline, connection dropped). It must outlast the server, which
+                // waits up to 15s for Zoho before answering - re-enabling at 8s
+                // handed the button back mid-flight and invited a duplicate.
+                form.__paTimer = setTimeout(function () {
+                    form.__paInFlight = false;
                     submitBtn.disabled = false;
-                    submitBtn.innerHTML = 'Get Free Quote →';
-                }, 8000);
+                    submitBtn.innerHTML = ctaLabel;
+                }, 20000);
             }
             return true;
         });
@@ -325,12 +345,17 @@
                 // the about:blank paint on page load is not.
                 if (!form.__paSubmitted) { return; }
 
+                // The answer arrived, so the watchdog must not fire later and hand
+                // the button back under a thank-you card.
+                form.__paInFlight = false;
+                if (form.__paTimer) { clearTimeout(form.__paTimer); form.__paTimer = null; }
+
                 // The answer now comes from our own domain, so we can read it and
                 // tell the truth. This used to celebrate on ANY load - a 500 page
                 // in this frame still said "we will call you shortly", which is how
                 // a lost enquiry looked identical to a captured one.
                 if (readLeadState(frame) === 'failed') {
-                    showFailure(form, submitBtn);
+                    showFailure(form, submitBtn, ctaLabel);
                     return;
                 }
 
@@ -356,10 +381,10 @@
 
     /* The enquiry reached neither our database nor Zoho. Keep the form on screen
      * with what they typed still in it, and give them a number to ring. */
-    function showFailure(form, submitBtn) {
+    function showFailure(form, submitBtn, ctaLabel) {
         if (submitBtn) {
             submitBtn.disabled = false;
-            submitBtn.innerHTML = 'Try again →';
+            submitBtn.innerHTML = ctaLabel ? 'Try again' : 'Try again';
         }
 
         var box = form.querySelector('[data-submit-error]');
@@ -367,6 +392,9 @@
             box = document.createElement('div');
             box.className = 'field-error-msg';
             box.setAttribute('data-submit-error', '');
+            // Announced to screen readers, which otherwise never learn that the
+            // submission failed - the visual message is the only signal.
+            box.setAttribute('role', 'alert');
             box.style.marginTop = '10px';
             form.appendChild(box);
         }

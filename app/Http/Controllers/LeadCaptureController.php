@@ -38,7 +38,8 @@ class LeadCaptureController extends Controller
     {
         $lead = $this->record($request);
 
-        $zohoOk = $this->forwardToZoho($request, $lead);
+        $crm    = $this->forwardToZoho($request, $lead);
+        $zohoOk = ($crm === 'ok');
 
         // The enquiry is safe if EITHER store took it: our table is the record we
         // control, Zoho is the one the team works in. Only when both failed has
@@ -53,7 +54,7 @@ class LeadCaptureController extends Controller
             ]);
         }
 
-        return response($this->iframeBody($captured), 200)
+        return response($this->iframeBody($captured, $crm, $lead !== null), 200)
             ->header('Content-Type', 'text/html; charset=UTF-8');
     }
 
@@ -109,7 +110,7 @@ class LeadCaptureController extends Controller
      * submission it has always received. Bigin still silently discards fields its
      * web form was not built with; the difference now is that we kept a copy.
      */
-    private function forwardToZoho(Request $request, ?Lead $lead): bool
+    private function forwardToZoho(Request $request, ?Lead $lead): string
     {
         $status = 'error';
         $code   = null;
@@ -165,7 +166,7 @@ class LeadCaptureController extends Controller
             }
         }
 
-        return $status === 'ok';
+        return $status;
     }
 
     /**
@@ -223,7 +224,7 @@ class LeadCaptureController extends Controller
      * running without JavaScript never sees a thank-you, and this is the one
      * place we can still say something to them.
      */
-    private function iframeBody(bool $captured): string
+    private function iframeBody(bool $captured, string $crm, bool $saved): string
     {
         // The <meta> is the machine-readable part. The response now comes from our
         // own domain, so js/enquiry-form.js can read this frame and only celebrate
@@ -235,8 +236,14 @@ class LeadCaptureController extends Controller
             ? 'Thank you. Your enquiry has reached Patron Accounting and our CA/CS team will call you shortly.'
             : 'Sorry, we could not record your enquiry. Please call us on +91 94594 56700.';
 
+        // pa-crm / pa-db say WHICH of the two stores took it. "captured" alone
+        // cannot tell "we saved it" from "Zoho took it", and that ambiguity has
+        // cost real diagnosis time - twice. Status words only, never lead data;
+        // this page is only ever loaded into the form's own hidden frame.
         return '<!doctype html><html lang="en"><head><meta charset="utf-8">'
              . '<meta name="pa-lead" content="'.$state.'">'
+             . '<meta name="pa-crm" content="'.e($crm).'">'
+             . '<meta name="pa-db" content="'.($saved ? 'saved' : 'not-saved').'">'
              . '<title>Enquiry '.$state.'</title></head><body>'
              . '<p>'.$message.'</p>'
              . '</body></html>';

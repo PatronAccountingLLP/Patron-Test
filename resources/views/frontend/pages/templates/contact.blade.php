@@ -1,417 +1,483 @@
 @extends('layouts.app')
 
-{{-- This page carries its own working Bigin form (the Hub v2 template), so the
-     site-wide band in the layout must stand down or the page shows two. --}}
-@php
-    config(['pa.enquiry_form_rendered' => true]);
-@endphp
+{{--
+    Contact Us  |  /contact-us  (DB page slug "contact-us", template "contact")
+    --------------------------------------------------------------------------
+    Rebuilt 2026-09-03. What this replaces and why:
+
+      - The old template dropped partials/bigin-form WITHOUT variant => 'bare'
+        inside its own .contact-form card, so the page rendered a card inside a
+        card and two headings ("Send us a Message" wrapping "Get Free
+        Consultation"). The partial documents 'bare' for exactly that case.
+      - Two stray </div> after that include closed .row and .container early, so
+        the offices, sidebar and map escaped the grid and the page scrolled
+        sideways.
+      - The FAQ form was fine and is kept: partials/bigin-form is meant to run
+        twice per page, full card in the hero and compact beside the FAQ.
+        Both are passed the same service so the page files under one entry.
+      - ~50 lines of commented-out <form> markup, plus a @push('scripts')
+        validator bound to document.querySelector('form') and to fields
+        (first_name, last_name) that had not existed for months. Both gone.
+        Nothing is pushed to the 'scripts' stack from here: layouts/app.blade.php
+        renders @stack('scripts') TWICE, so anything pushed runs twice.
+
+    The form is partials/bigin-form in its default 'card' variant, which is the
+    variant written for a hero column. Leads go to Zoho Bigin via
+    route('lead.capture'); this page files them under "General Enquiry".
+
+    Styling is scoped to .pa-cu-* so it cannot collide with the global
+    enquiry-form.css / faq.css contracts. The form card itself is styled by
+    /css/enquiry-form.css, which layouts/app loads on every page.
+--}}
+
 @section('title', $page->title)
+
+@section('schema')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@graph'   => [
+        [
+            '@type'      => 'ContactPage',
+            '@id'        => url()->current().'#webpage',
+            'url'        => url()->current(),
+            'name'       => $page->title,
+            'isPartOf'   => ['@id' => 'https://www.patronaccounting.com/#website'],
+            'about'      => ['@id' => 'https://www.patronaccounting.com/#organization'],
+            'publisher'  => ['@id' => 'https://www.patronaccounting.com/#organization'],
+        ],
+        [
+            '@type' => 'BreadcrumbList',
+            '@id'   => url()->current().'#breadcrumb',
+            'itemListElement' => [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',       'item' => 'https://www.patronaccounting.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Contact Us', 'item' => url()->current()],
+            ],
+        ],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endsection
 
 @push('styles')
 <style>
-    .contact-header {
-        /*background: linear-gradient(135deg, #28a745 0%, #20c997 100%);*/
-        /*color: white;*/
-        /*padding: 4rem 0;*/
-        /*margin-bottom: 2rem;*/
-    }
-    
-    .contact-form {
-        background: white;
-        border-radius: 1rem;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        padding: 3rem;
-        margin-top: -3rem;
-        position: relative;
-        z-index: 10;
-    }
-    
+/* ==========================================================================
+   Contact Us: scoped page styles (pa-cu = patron contact us)
+   ========================================================================== */
+.pa-cu { --navy:#14365F; --navy-deep:#0F2544; --orange:#F26522;
+         --ink:#47535F; --muted:#6B7683; --line:#DDE3EA; --wash:#F7F9FC; }
+.pa-cu-wrap { max-width:1200px; margin:0 auto; padding:0 20px; }
 
-    .pa-c-mainpages-head {
-        font-family: 'Barlow', sans-serif; font-weight: 700; color: #14365F;
-        font-size: 22px; margin-bottom: 16px;
-    }
-    .pa-c-mainpages { display: flex; flex-wrap: wrap; gap: 10px; }
-    .pa-c-mainpage {
-        display: inline-block; padding: 9px 16px; border-radius: 999px;
-        border: 1px solid #DDE3EA; background: #fff; color: #14365F;
-        font-size: 14px; font-weight: 600; text-decoration: none;
-        transition: border-color .2s ease, color .2s ease, background .2s ease;
-    }
-    .pa-c-mainpage:hover { border-color: #F26522; color: #F26522; background: #FFF7F3; }
+/* ---- Hero: copy + contact rails on the left, form card on the right ---- */
+.pa-cu-hero {
+    background:linear-gradient(135deg,#0F2544 0%,#1E3A63 55%,#24467A 100%);
+    color:#fff; padding:56px 0 64px; position:relative; overflow:hidden;
+}
+.pa-cu-hero::after {
+    content:''; position:absolute; inset:auto -80px -140px auto;
+    width:420px; height:420px; border-radius:50%;
+    background:radial-gradient(circle,rgba(242,101,34,.18) 0%,rgba(242,101,34,0) 70%);
+    pointer-events:none;
+}
+.pa-cu-hero-grid {
+    display:grid; grid-template-columns:minmax(0,1fr) 420px; gap:48px;
+    align-items:start; position:relative; z-index:1;
+}
+.pa-cu-eyebrow {
+    display:inline-block; font-size:12px; font-weight:700; letter-spacing:.10em;
+    text-transform:uppercase; color:#FFC9A8; margin-bottom:14px;
+}
+.pa-cu-h1 {
+    font-family:'Barlow',sans-serif; font-weight:700; color:#fff;
+    font-size:clamp(30px,4vw,46px); line-height:1.15; margin:0 0 16px;
+}
+.pa-cu-lead {
+    font-size:16px; line-height:1.7; color:#D6E0EE; margin:0 0 26px; max-width:60ch;
+}
+.pa-cu-trust { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:28px; }
+.pa-cu-chip {
+    display:inline-flex; align-items:center; gap:7px; padding:7px 13px;
+    border:1px solid rgba(255,255,255,.22); border-radius:999px;
+    background:rgba(255,255,255,.07); font-size:13px; font-weight:600; color:#EAF1F9;
+}
+.pa-cu-chip i { color:#FFB27A; }
 
-    .pa-c-link {
-        color: #F26522;
-        text-decoration: none;
-        font-weight: 600;
-        transition: color .2s ease;
-    }
-    .pa-c-link:hover { color: #14365F; text-decoration: underline; }
-    .contact-info-card .pa-c-link { display: inline-block; }
-    .pa-c-maps { display: block; margin-top: 10px; font-size: 13px; }
+/* Direct-contact rails: call / whatsapp / email */
+.pa-cu-rails { display:grid; gap:12px; max-width:520px; }
+.pa-cu-rail {
+    display:flex; align-items:center; gap:14px; padding:14px 16px;
+    border:1px solid rgba(255,255,255,.18); border-radius:12px;
+    background:rgba(255,255,255,.06); text-decoration:none; color:#fff;
+    transition:background .2s ease, border-color .2s ease, transform .2s ease;
+}
+.pa-cu-rail:hover {
+    background:rgba(255,255,255,.13); border-color:rgba(242,101,34,.55);
+    transform:translateY(-2px); color:#fff;
+}
+.pa-cu-rail-ico {
+    flex:0 0 42px; width:42px; height:42px; border-radius:10px;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(242,101,34,.18); color:#FFB27A; font-size:19px;
+}
+.pa-cu-rail-k { display:block; font-size:12px; color:#AFC1D6; margin-bottom:2px; }
+.pa-cu-rail-v { display:block; font-size:16px; font-weight:700; letter-spacing:.01em; }
+.pa-cu-rail-go { margin-left:auto; color:#FFB27A; font-size:18px; }
 
-    .pa-c-offices { margin-top: 32px; }
-    .pa-c-offices-head {
-        font-family: 'Barlow', sans-serif; font-weight: 700; color: #14365F;
-        font-size: 22px; margin-bottom: 18px;
-    }
-    .pa-c-off { height: 100%; display: flex; flex-direction: column; }
-    .pa-c-off-city {
-        font-family: 'Barlow', sans-serif; font-weight: 700; color: #14365F;
-        font-size: 17px; margin-bottom: 8px;
-    }
-    .pa-c-off-addr { font-size: 14px; line-height: 1.6; margin-bottom: 12px; flex: 1; }
-    .pa-c-off-bot {
-        display: flex; justify-content: space-between; align-items: center;
-        gap: 12px; font-size: 13px; flex-wrap: wrap;
-    }
-    .pa-c-off-hours { color: #6B7683; }
-    .pa-c-off-bot a { color: #F26522; text-decoration: none; font-weight: 600; }
-    .pa-c-off-bot a:hover { text-decoration: underline; }
+/* ---- "What happens next" strip ---- */
+.pa-cu-steps { background:var(--wash); border-bottom:1px solid var(--line); padding:36px 0; }
+.pa-cu-steps-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
+.pa-cu-step { display:flex; gap:14px; align-items:flex-start; }
+.pa-cu-step-n {
+    flex:0 0 34px; width:34px; height:34px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background:var(--navy); color:#fff; font-weight:700; font-size:14px;
+}
+.pa-cu-step-t {
+    font-family:'Barlow',sans-serif; font-weight:700; color:var(--navy);
+    font-size:16px; margin:5px 0 5px;
+}
+.pa-cu-step-d { font-size:14px; line-height:1.65; color:var(--muted); margin:0; }
 
-    .contact-info-card {
-        background: white;
-        border-radius: 1rem;
-        box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-        padding: 2rem;
-        text-align: center;
-        height: 100%;
-        transition: transform 0.3s ease;
-    }
-    
-    .contact-info-card:hover {
-        transform: translateY(-5px);
-    }
-    
-    .contact-icon {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto 1rem;
-        font-size: 1.8rem;
-    }
-    
-    .map-container {
-        border-radius: 1rem;
-        overflow: hidden;
-        box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    }
-    
-    .faq-section {
-        background: #f8f9fa;
-        border-radius: 1rem;
-        padding: 2rem;
-        margin-top: 2rem;
-    }
-    
-    .form-control:focus {
-        border-color: #28a745;
-        box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-    }
-    
-    .btn-contact {
-        background: linear-gradient(45deg, #28a745, #20c997);
-        border: none;
-        padding: 0.75rem 2rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-    }
-    .contact-header{
-        background: linear-gradient(135deg, #1E2A4A 0%, #2D3E66 100%)!important;
-    padding: 60px 20px 80px;
-    /*position: relative;*/
-    color:#fff;
-    overflow: hidden;
+/* ---- Section furniture ---- */
+.pa-cu-sec { padding:56px 0; }
+.pa-cu-sec--wash { background:var(--wash); }
+.pa-cu-sec-head { margin-bottom:30px; max-width:70ch; }
+.pa-cu-h2 {
+    font-family:'Barlow',sans-serif; font-weight:700; color:var(--navy);
+    font-size:clamp(22px,2.4vw,30px); margin:0 0 10px;
+}
+.pa-cu-sec-lead { font-size:15px; line-height:1.7; color:var(--muted); margin:0; }
 
-    }
+/* ---- Offices ---- */
+.pa-cu-offices { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+.pa-cu-off {
+    background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px;
+    display:flex; flex-direction:column; transition:border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+.pa-cu-off:hover {
+    border-color:rgba(242,101,34,.45); box-shadow:0 10px 26px rgba(20,54,95,.09);
+    transform:translateY(-3px);
+}
+.pa-cu-off--hq { border-color:rgba(242,101,34,.45); box-shadow:0 8px 22px rgba(20,54,95,.07); }
+.pa-cu-off-top { display:flex; align-items:center; gap:9px; margin-bottom:12px; }
+.pa-cu-off-city {
+    font-family:'Barlow',sans-serif; font-weight:700; color:var(--navy);
+    font-size:18px; margin:0;
+}
+.pa-cu-badge {
+    font-size:10px; font-weight:800; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--orange); background:#FFF1E8; border-radius:5px; padding:3px 7px;
+}
+.pa-cu-off-addr { font-size:14px; line-height:1.65; color:var(--ink); margin:0 0 14px; flex:1; }
+.pa-cu-off-foot {
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    flex-wrap:wrap; padding-top:13px; border-top:1px solid #EEF2F6; font-size:13px;
+}
+.pa-cu-off-hours { color:var(--muted); display:inline-flex; align-items:center; gap:6px; }
+.pa-cu-link { color:var(--orange); font-weight:600; text-decoration:none; }
+.pa-cu-link:hover { color:var(--navy); text-decoration:underline; }
+
+/* ---- Hours + map ---- */
+.pa-cu-split { display:grid; grid-template-columns:340px minmax(0,1fr); gap:26px; align-items:stretch; }
+.pa-cu-hours {
+    background:#fff; border:1px solid var(--line); border-radius:14px; padding:24px;
+}
+.pa-cu-hours h3 {
+    font-family:'Barlow',sans-serif; font-weight:700; color:var(--navy);
+    font-size:18px; margin:0 0 16px;
+}
+.pa-cu-hrow {
+    display:flex; justify-content:space-between; gap:12px; padding:10px 0;
+    border-bottom:1px dashed #E6EBF1; font-size:14px;
+}
+.pa-cu-hrow:last-of-type { border-bottom:0; }
+.pa-cu-hrow span:first-child { color:var(--ink); font-weight:600; }
+.pa-cu-hrow span:last-child { color:var(--muted); text-align:right; }
+.pa-cu-hnote {
+    margin:14px 0 0; font-size:12.5px; line-height:1.6; color:var(--muted);
+    background:var(--wash); border-left:3px solid var(--orange);
+    border-radius:0 8px 8px 0; padding:10px 12px;
+}
+.pa-cu-map { border-radius:14px; overflow:hidden; border:1px solid var(--line); min-height:360px; }
+.pa-cu-map iframe { display:block; width:100%; height:100%; min-height:360px; border:0; }
+
+/* ---- Service chips ---- */
+.pa-cu-links { display:flex; flex-wrap:wrap; gap:10px; }
+.pa-cu-pill {
+    display:inline-block; padding:9px 16px; border-radius:999px;
+    border:1px solid var(--line); background:#fff; color:var(--navy);
+    font-size:14px; font-weight:600; text-decoration:none;
+    transition:border-color .2s ease, color .2s ease, background .2s ease;
+}
+.pa-cu-pill:hover { border-color:var(--orange); color:var(--orange); background:#FFF7F3; }
+
+/* ---- Responsive ---- */
+@media (max-width:1024px) {
+    .pa-cu-hero-grid { grid-template-columns:1fr; gap:36px; }
+    .pa-cu-hero-form { justify-self:center; width:100%; max-width:420px; }
+    .pa-cu-offices { grid-template-columns:repeat(2,1fr); }
+    .pa-cu-split { grid-template-columns:1fr; }
+}
+@media (max-width:768px) {
+    .pa-cu-hero { padding:40px 0 48px; }
+    .pa-cu-steps-grid { grid-template-columns:1fr; gap:20px; }
+    .pa-cu-sec { padding:42px 0; }
+}
+@media (max-width:560px) {
+    .pa-cu-offices { grid-template-columns:1fr; }
+    .pa-cu-rail-v { font-size:15px; }
+}
+/* The hero form card fades in via enquiry-form.css; nothing here overrides it. */
 </style>
 @endpush
 
 @section('content')
-<!-- Contact Header -->
-<div class="contact-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1 class="display-4 mb-4" style="font-weight:700">{{ $page->title }}</h1>
-                @if($page->excerpt)
-                    <p class="lead mb-0" >{{ $page->excerpt }}</p>
-                @else
-                    <p class="lead mb-0">At Patron Accounting, we believe professional support should be accessible, responsive, and reliable. Whether you’re a startup, small business, NGO, or an established organisation, our experts are here to guide you with accurate accounting, taxation, and compliance solutions.</p>
-                @endif
+@php
+    // Single source for the page's contact points. Matches partials/header,
+    // partials/footer and the #organization schema. Change them together.
+    $paPhone     = '+919459456700';
+    $paPhoneShow = '+91 94594 56700';
+    $paMail      = 'sales@patronaccounting.com';
+    $paWa        = 'https://wa.me/919459456700';
+
+    $paOffices = [
+        [
+            'city'  => 'Pune', 'hq' => true,
+            'addr'  => 'Office No B4, RTC Silver,<br>Wagholi, Pune,<br>Maharashtra &ndash; 412207',
+            'hours' => 'Mon&ndash;Sat',
+            'map'   => 'https://www.google.com/maps/search/?api=1&query=Patron+Accounting+LLP+RTC+Silver+Sai+Satyam+Park+Wagholi+Pune+412207',
+        ],
+        [
+            'city'  => 'Mumbai', 'hq' => false,
+            'addr'  => '104, Rajshila Building,<br>597 J.S.S. Rd, Marine Lines,<br>Mumbai &ndash; 400002',
+            'hours' => 'Mon&ndash;Sat 9&ndash;5',
+            'map'   => 'https://www.google.com/maps/search/?api=1&query=Patron+Accounting+LLP+Rajshila+Building+597+JSS+Road+Marine+Lines+Mumbai+400002',
+        ],
+        [
+            'city'  => 'Delhi', 'hq' => false,
+            'addr'  => '3rd Floor, B-6/154-155,<br>Sector 5, Rohini,<br>Delhi &ndash; 110085',
+            'hours' => 'Open 24/7',
+            'map'   => 'https://www.google.com/maps/search/?api=1&query=Patron+Accounting+LLP+B-6+154-155+Sector+5+Rohini+Delhi+110085',
+        ],
+        [
+            'city'  => 'Gurugram', 'hq' => false,
+            'addr'  => 'Pioneer Urban Square, B109,<br>Golf Course Ext Rd, Sector 62,<br>Gurugram &ndash; 122098',
+            'hours' => 'Mon&ndash;Sun 9&ndash;7',
+            'map'   => 'https://www.google.com/maps/search/?api=1&query=Patron+Accounting+LLP+Pioneer+Urban+Square+B109+Golf+Course+Ext+Road+Sector+62+Gurugram+122098',
+        ],
+        [
+            'city'  => 'Ahmedabad', 'hq' => false,
+            'addr'  => 'Phoenix Tower, 1107,<br>near Commerce Six Road, Drive In Rd,<br>Navrangpura, Ahmedabad &ndash; 380009',
+            'hours' => '',
+            'map'   => 'https://www.google.com/maps/search/?api=1&query=Patron+Accounting+LLP+Phoenix+Tower+1107+Commerce+Six+Road+Drive+In+Road+Navrangpura+Ahmedabad+380009',
+        ],
+    ];
+@endphp
+
+<div class="pa-cu">
+
+    {{-- ================= HERO: copy + rails, form card alongside ============= --}}
+    <section class="pa-cu-hero">
+        <div class="pa-cu-wrap">
+            <div class="pa-cu-hero-grid">
+
+                <div class="pa-cu-hero-copy">
+                    <span class="pa-cu-eyebrow">Contact Patron Accounting</span>
+                    <h1 class="pa-cu-h1">{{ $page->title }}</h1>
+                    <p class="pa-cu-lead">
+                        @if($page->excerpt)
+                            {{ $page->excerpt }}
+                        @else
+                            At Patron Accounting, we believe professional support should be accessible,
+                            responsive and reliable. Whether you are a startup, a small business, an NGO
+                            or an established organisation, our CA and CS team is here to help with
+                            accounting, taxation and compliance.
+                        @endif
+                    </p>
+
+                    <div class="pa-cu-trust">
+                        <span class="pa-cu-chip"><i class="bi bi-star-fill"></i> 4.9 on Google</span>
+                        <span class="pa-cu-chip"><i class="bi bi-geo-alt-fill"></i> 5 offices across India</span>
+                        <span class="pa-cu-chip"><i class="bi bi-clock-fill"></i> Reply within 1 working day</span>
+                    </div>
+
+                    <div class="pa-cu-rails">
+                        <a class="pa-cu-rail" href="tel:{{ $paPhone }}">
+                            <span class="pa-cu-rail-ico"><i class="bi bi-telephone-fill"></i></span>
+                            <span>
+                                <span class="pa-cu-rail-k">Call us</span>
+                                <span class="pa-cu-rail-v">{{ $paPhoneShow }}</span>
+                            </span>
+                            <span class="pa-cu-rail-go"><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                        <a class="pa-cu-rail" href="{{ $paWa }}" target="_blank" rel="noopener">
+                            <span class="pa-cu-rail-ico"><i class="bi bi-whatsapp"></i></span>
+                            <span>
+                                <span class="pa-cu-rail-k">WhatsApp</span>
+                                <span class="pa-cu-rail-v">Chat with our team</span>
+                            </span>
+                            <span class="pa-cu-rail-go"><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                        <a class="pa-cu-rail" href="mailto:{{ $paMail }}">
+                            <span class="pa-cu-rail-ico"><i class="bi bi-envelope-fill"></i></span>
+                            <span>
+                                <span class="pa-cu-rail-k">Email us</span>
+                                <span class="pa-cu-rail-v">{{ $paMail }}</span>
+                            </span>
+                            <span class="pa-cu-rail-go"><i class="bi bi-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                {{-- The one enquiry form on this page. Default 'card' variant:
+                     it brings its own heading and shell, so it must NOT be
+                     wrapped in another card. --}}
+                <div class="pa-cu-hero-form" id="contact-form">
+                    @include('partials.bigin-form', [
+                        'service'  => 'General Enquiry',
+                        'title'    => 'Send us a message',
+                        'subtitle' => 'Tell us what you need and a CA or CS will call you back.',
+                    ])
+                </div>
+
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<div class="container">
-    <div class="row">
-        <!-- Contact Form -->
-        <div class="col-lg-8 mb-5">
-            <div class="contact-form">
-                <h3 class="mb-4"><i class="bi bi-envelope text-success"></i> Send us a Message</h3>
-                
-                <!--<form action="/contact" method="POST">-->
-                <!--    @csrf-->
-                <!--    <div class="row">-->
-                <!--        <div class="col-md-6 mb-3">-->
-                <!--            <label for="first_name" class="form-label">First Name *</label>-->
-                <!--            <input type="text" class="form-control" id="first_name" name="first_name" required>-->
-                <!--        </div>-->
-                <!--        <div class="col-md-6 mb-3">-->
-                <!--            <label for="last_name" class="form-label">Last Name *</label>-->
-                <!--            <input type="text" class="form-control" id="last_name" name="last_name" required>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                    
-                <!--    <div class="row">-->
-                <!--        <div class="col-md-6 mb-3">-->
-                <!--            <label for="email" class="form-label">Email Address *</label>-->
-                <!--            <input type="email" class="form-control" id="email" name="email" required>-->
-                <!--        </div>-->
-                <!--        <div class="col-md-6 mb-3">-->
-                <!--            <label for="phone" class="form-label">Phone Number</label>-->
-                <!--            <input type="tel" class="form-control" id="phone" name="phone">-->
-                <!--        </div>-->
-                <!--    </div>-->
-                    
-                <!--    <div class="mb-3">-->
-                <!--        <label for="subject" class="form-label">Subject *</label>-->
-                <!--        <select class="form-control" id="subject" name="subject" required>-->
-                <!--            <option value="">Choose a subject...</option>-->
-                <!--            <option value="general">General Inquiry</option>-->
-                <!--            <option value="support">Technical Support</option>-->
-                <!--            <option value="billing">Billing Question</option>-->
-                <!--            <option value="partnership">Partnership</option>-->
-                <!--            <option value="other">Other</option>-->
-                <!--        </select>-->
-                <!--    </div>-->
-                    
-                <!--    <div class="mb-4">-->
-                <!--        <label for="message" class="form-label">Message *</label>-->
-                <!--        <textarea class="form-control" id="message" name="message" rows="6" -->
-                <!--                  placeholder="Tell us how we can help you..." required></textarea>-->
-                <!--    </div>-->
-                    
-                <!--    <div class="form-check mb-4">-->
-                <!--        <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">-->
-                <!--        <label class="form-check-label" for="newsletter">-->
-                <!--            I'd like to receive updates and newsletters-->
-                <!--        </label>-->
-                <!--    </div>-->
-                    
-                <!--    <button type="submit" class="btn btn-success btn-contact btn-lg">-->
-                <!--        <i class="bi bi-send"></i> Send Message-->
-                <!--    </button>-->
-                <!--</form>-->
-                
-{{-- The Bigin form that stood here posted to webform 208810000000579045, the
-     TEST form, so its leads never reached the CRM. Removed rather than replaced:
-     this page already carries a working enquiry form posting to /contact, and the
-     FAQ block below renders partials/faq-enquiry-form. --}}
-        
-            </div>
-        
-                {{-- Our other offices. Fills the space left by the short form
-                     column, and puts the four non-HQ offices on a page that
-                     previously showed only Pune. --}}
-                <div class="pa-c-offices">
-                    <h4 class="pa-c-offices-head">Our Other Offices</h4>
-                    <div class="row g-4">
-                    <div class="col-md-6">
-                        <div class="contact-info-card pa-c-off">
-                            <h6 class="pa-c-off-city">Mumbai</h6>
-                            <p class="text-muted pa-c-off-addr">104, Rajshila Building, 597 J.S.S. Rd,<br>Marine Lines, Mumbai &ndash; 400002</p>
-                            <div class="pa-c-off-bot"><span class="pa-c-off-hours">Mon&ndash;Sat 9&ndash;5</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+Rajshila+Building+597+JSS+Road+Marine+Lines+Mumbai+400002" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="contact-info-card pa-c-off">
-                            <h6 class="pa-c-off-city">Delhi</h6>
-                            <p class="text-muted pa-c-off-addr">3rd Floor, B-6/154-155,<br>Sector 5, Rohini, Delhi &ndash; 110085</p>
-                            <div class="pa-c-off-bot"><span class="pa-c-off-hours">Open 24/7</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+B-6+154-155+Sector+5+Rohini+Delhi+110085" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="contact-info-card pa-c-off">
-                            <h6 class="pa-c-off-city">Gurugram</h6>
-                            <p class="text-muted pa-c-off-addr">Pioneer Urban Square, B109,<br>Golf Course Ext Rd, Sector 62, Gurugram &ndash; 122098</p>
-                            <div class="pa-c-off-bot"><span class="pa-c-off-hours">Mon&ndash;Sun 9&ndash;7</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+Pioneer+Urban+Square+B109+Golf+Course+Ext+Road+Sector+62+Gurugram+122098" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="contact-info-card pa-c-off">
-                            <h6 class="pa-c-off-city">Ahmedabad</h6>
-                            <p class="text-muted pa-c-off-addr">Phoenix Tower, 1107, near Commerce Six Road,<br>Drive In Rd, Navrangpura, Ahmedabad &ndash; 380009</p>
-                            <div class="pa-c-off-bot"><span></span><a href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+Phoenix+Tower+1107+Commerce+Six+Road+Drive+In+Road+Navrangpura+Ahmedabad+380009" target="_blank" rel="noopener">View on Maps &rarr;</a></div>
-                        </div>
-                    </div>
+    {{-- ================= WHAT HAPPENS NEXT ================================== --}}
+    <section class="pa-cu-steps">
+        <div class="pa-cu-wrap">
+            <div class="pa-cu-steps-grid">
+                <div class="pa-cu-step">
+                    <span class="pa-cu-step-n">1</span>
+                    <div>
+                        <h3 class="pa-cu-step-t">You send the details</h3>
+                        <p class="pa-cu-step-d">Use the form, call, or WhatsApp us. Tell us the service you need and where your business is based.</p>
                     </div>
                 </div>
-            </div>
-        
-        <!-- Contact Information -->
-        <div class="col-lg-4 mb-5">
-            <div class="row g-4">
-                <div class="col-12">
-                    <div class="contact-info-card">
-                        <div class="contact-icon bg-primary text-white">
-                            <i class="bi bi-geo-alt"></i>
-                        </div>
-                        <h5 class="mb-3">Head Office</h5>
-                        <p class="text-muted mb-0">
-                            <a class="pa-c-link" href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+RTC+Silver+Sai+Satyam+Park+Wagholi+Pune+412207" target="_blank" rel="noopener">
-                                Office No B4, <br>RTC Silver, Wagholi, <br>Pune, Maharashtra-412207
-                            </a>
-                            <span class="pa-c-maps"><a class="pa-c-link" href="https://www.google.com/maps/search/?api=1&amp;query=Patron+Accounting+LLP+RTC+Silver+Sai+Satyam+Park+Wagholi+Pune+412207" target="_blank" rel="noopener">View on Maps &rarr;</a></span>
-                        </p>
+                <div class="pa-cu-step">
+                    <span class="pa-cu-step-n">2</span>
+                    <div>
+                        <h3 class="pa-cu-step-t">A CA reviews it</h3>
+                        <p class="pa-cu-step-d">Your enquiry goes to the team that handles that service, not a call centre. We come back within one working day.</p>
                     </div>
                 </div>
-                
-                <div class="col-12">
-                    <div class="contact-info-card">
-                        <div class="contact-icon bg-success text-white">
-                            <i class="bi bi-telephone"></i>
-                        </div>
-                        <h5 class="mb-3">Phone & Email</h5>
-                        <p class="text-muted mb-2">
-<strong>Phone:</strong>
-<a class="pa-c-link" href="tel:+919459456700">
-  +91 9459456700
-</a><br>
-
-<strong>Email:</strong>
-<a class="pa-c-link" href="mailto:sales@patronaccounting.com">
-  sales@patronaccounting.com
-</a>
-
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12">
-                    <div class="contact-info-card">
-                        <div class="contact-icon bg-info text-white">
-                            <i class="bi bi-clock"></i>
-                        </div>
-                        <h5 class="mb-3">Business Hours</h5>
-                        <p class="text-muted mb-0">
-                            <strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br>
-                            <strong>Saturday:</strong> 10:00 AM - 4:00 PM<br> <span>(Closed on the 1st and 4th Saturday of each month)</span> <br>
-                            <strong>Sunday:</strong> Closed
-                        </p>
+                <div class="pa-cu-step">
+                    <span class="pa-cu-step-n">3</span>
+                    <div>
+                        <h3 class="pa-cu-step-t">You get a clear scope</h3>
+                        <p class="pa-cu-step-d">A written scope of work, the documents needed, timelines and a quote, before any work starts.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <!-- Page Content -->
-    <!--@if($page->content)-->
-    <!--    <div class="row mb-5">-->
-    <!--        <div class="col-12">-->
-    <!--            <div class="page-content">-->
-    <!--                {!! $page->content !!}-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--@endif-->
-    
-    <!-- Map Section -->
-    <div class="row mb-5">
-        <div class="col-12">
-            <h3 class="mb-4 text-center">Find Us on the Map</h3>
-            <div class="map-container">
-                <!-- Replace with actual Google Maps embed -->
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60509.59755125826!2d73.9638807!3d18.580807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c159ec4ca057%3A0xa3321f8b681f20cb!2sPatron%20Accounting%20LLP!5e0!3m2!1sen!2sin!4v1769110200524!5m2!1sen!2sin" 
-                    width="100%" 
-                    height="400" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </div>
-    </div>
-    
-    {{-- FAQ. Uses the sitewide expanded-FAQ partial (class contract in
-                 /css/faq.css, toggle in /js/faq-toggle.js) rather than the
-                 Bootstrap accordion this template shipped with, so it matches
-                 every other FAQ on the site and emits FAQPage schema. The
-                 partial renders its enquiry form in the left column. --}}
-            @include('partials.faq-section', [
-                    'faqs' => [
-                        ['question' => 'How quickly do you respond to messages?',
-                         'answer'   => 'We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly.'],
-                        ['question' => 'What information should I include in my message?',
-                         'answer'   => 'Please provide as much detail as possible about your inquiry, including your contact preferences and any relevant background information.'],
-                        ['question' => 'Do you offer phone consultations?',
-                         'answer'   => 'Yes! We offer phone consultations by appointment. Please mention in your message that you\'d prefer a phone consultation.'],
-                    ],
-                    'lead' => 'Quick answers to what we are asked most. Prefer to talk it through? Send the form and a CA will come back to you.',
-                    'sectionId' => 'contact-faq',
-                    'includeSchema' => true,
-                ])
+    </section>
 
-            {{-- Main service pages. Replaces the CMS "Related Topics" chips,
-                 which pointed at /page-categories/* — a listing route, not
-                 anywhere a visitor on the contact page wants to land. --}}
-            <div class="row mb-5">
-                    <div class="col-12">
-                        <h4 class="pa-c-mainpages-head">Explore our main services</h4>
-                        <div class="pa-c-mainpages">
-                            <a class="pa-c-mainpage" href="/accounting-bookkeeping-services">Accounting &amp; Bookkeeping</a>
-                            <a class="pa-c-mainpage" href="/business-registration-services">Company Registration</a>
-                            <a class="pa-c-mainpage" href="/gst-registration">GST Registration</a>
-                            <a class="pa-c-mainpage" href="/itr-services">ITR Filing</a>
-                            <a class="pa-c-mainpage" href="/payroll-services">Payroll &amp; EOR</a>
-                            <a class="pa-c-mainpage" href="/statutory-audit">Statutory Audit</a>
-                            <a class="pa-c-mainpage" href="/net-worth-certificate-by-ca">Net Worth Certificate</a>
-                            <a class="pa-c-mainpage" href="/trademark-registration">Trademark Registration</a>
+    {{-- ================= OFFICES =========================================== --}}
+    <section class="pa-cu-sec">
+        <div class="pa-cu-wrap">
+            <div class="pa-cu-sec-head">
+                <h2 class="pa-cu-h2">Our offices</h2>
+                <p class="pa-cu-sec-lead">Walk in at any of our five offices, or work with us entirely online. Most of our clients never need to visit.</p>
+            </div>
+            <div class="pa-cu-offices">
+                @foreach($paOffices as $off)
+                    <div class="pa-cu-off{{ $off['hq'] ? ' pa-cu-off--hq' : '' }}">
+                        <div class="pa-cu-off-top">
+                            <h3 class="pa-cu-off-city">{{ $off['city'] }}</h3>
+                            @if($off['hq'])<span class="pa-cu-badge">Head office</span>@endif
+                        </div>
+                        <p class="pa-cu-off-addr">{!! $off['addr'] !!}</p>
+                        <div class="pa-cu-off-foot">
+                            @if($off['hours'])
+                                <span class="pa-cu-off-hours"><i class="bi bi-clock"></i> {!! $off['hours'] !!}</span>
+                            @else
+                                <span></span>
+                            @endif
+                            <a class="pa-cu-link" href="{{ $off['map'] }}" target="_blank" rel="noopener">View on Maps &rarr;</a>
                         </div>
                     </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    {{-- ================= HOURS + MAP ======================================= --}}
+    <section class="pa-cu-sec pa-cu-sec--wash">
+        <div class="pa-cu-wrap">
+            <div class="pa-cu-sec-head">
+                <h2 class="pa-cu-h2">Business hours &amp; head office</h2>
+                <p class="pa-cu-sec-lead">Our Pune head office, and the hours the phone lines are staffed.</p>
+            </div>
+            <div class="pa-cu-split">
+                <div class="pa-cu-hours">
+                    <h3>When we are open</h3>
+                    <div class="pa-cu-hrow"><span>Monday &ndash; Friday</span><span>9:00 AM &ndash; 6:00 PM</span></div>
+                    <div class="pa-cu-hrow"><span>Saturday</span><span>10:00 AM &ndash; 4:00 PM</span></div>
+                    <div class="pa-cu-hrow"><span>Sunday</span><span>Closed</span></div>
+                    <p class="pa-cu-hnote">Closed on the 1st and 4th Saturday of each month. Outside these hours, send the form or WhatsApp us and we will pick it up the next working day.</p>
                 </div>
+                <div class="pa-cu-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60509.59755125826!2d73.9638807!3d18.580807!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c159ec4ca057%3A0xa3321f8b681f20cb!2sPatron%20Accounting%20LLP!5e0!3m2!1sen!2sin!4v1769110200524!5m2!1sen!2sin"
+                        width="100%" height="400" style="border:0;" allowfullscreen=""
+                        loading="lazy" title="Patron Accounting LLP head office on Google Maps"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- ================= FAQ ==============================================
+         The FAQ column carries the compact form, which is the sitewide pattern
+         (partials/bigin-form: "a page usually renders this twice, hero and FAQ.
+         Pass the SAME service to both"). enquiryService is passed explicitly so
+         both forms file under "General Enquiry" and the pipeline report does not
+         split this page in two.
+
+         Not passing ctaUrl/ctaText: faq-section computes them but never renders
+         them, so they would be dead weight here.
+    ==================================================================== --}}
+    @include('partials.faq-section', [
+        'faqs' => [
+            ['question' => 'How quickly do you respond to messages?',
+             'answer'   => 'We respond to enquiries within one working day. For anything urgent, call us on +91 94594 56700 during business hours and you will reach the team directly.'],
+            ['question' => 'What should I include in my message?',
+             'answer'   => 'The service you need, the city your business operates from, and your entity type (proprietorship, LLP, private limited, NGO, and so on). That is enough for us to come back with a scope and a quote rather than more questions.'],
+            ['question' => 'Do you offer phone or video consultations?',
+             'answer'   => 'Yes. Consultations are by appointment, on a call or over video. Mention your preference in the form and we will book a slot that suits you.'],
+            ['question' => 'Do I have to visit an office to work with you?',
+             'answer'   => 'No. Most of our clients work with us entirely online, with documents shared digitally and filings done electronically. Our offices in Pune, Mumbai, Delhi, Gurugram and Ahmedabad are there if you prefer to meet in person.'],
+        ],
+        'lead'           => 'Quick answers to what we are asked most. Prefer to talk it through? Leave your number and a CA will call you back.',
+        'sectionId'      => 'contact-faq',
+        'includeSchema'  => true,
+        'enquiryService' => 'General Enquiry',
+    ])
+
+    {{-- ================= SERVICE LINKS =====================================
+         Replaces the CMS "Related Topics" chips, which pointed at
+         /page-categories/*, a listing route and not somewhere a visitor on the
+         contact page wants to land.
+    ==================================================================== --}}
+    <section class="pa-cu-sec">
+        <div class="pa-cu-wrap">
+            <div class="pa-cu-sec-head">
+                <h2 class="pa-cu-h2">Not sure who to ask for?</h2>
+                <p class="pa-cu-sec-lead">Start with the service you need. Each page tells you what is included, what it costs and how long it takes.</p>
+            </div>
+            <div class="pa-cu-links">
+                <a class="pa-cu-pill" href="/accounting-bookkeeping-services">Accounting &amp; Bookkeeping</a>
+                <a class="pa-cu-pill" href="/business-registration-services">Company Registration</a>
+                <a class="pa-cu-pill" href="/gst-registration">GST Registration</a>
+                <a class="pa-cu-pill" href="/itr-services">ITR Filing</a>
+                <a class="pa-cu-pill" href="/payroll-services">Payroll &amp; EOR</a>
+                <a class="pa-cu-pill" href="/statutory-audit">Statutory Audit</a>
+                <a class="pa-cu-pill" href="/net-worth-certificate-by-ca">Net Worth Certificate</a>
+                <a class="pa-cu-pill" href="/trademark-registration">Trademark Registration</a>
+            </div>
+        </div>
+    </section>
 
 </div>
 @endsection
-
-@push('scripts')
-<script>
-// Form validation
-document.querySelector('form').addEventListener('submit', function(e) {
-    const requiredFields = ['first_name', 'last_name', 'email', 'subject', 'message'];
-    let isValid = true;
-    
-    requiredFields.forEach(field => {
-        const input = document.getElementById(field);
-        if (!input.value.trim()) {
-            input.classList.add('is-invalid');
-            isValid = false;
-        } else {
-            input.classList.remove('is-invalid');
-        }
-    });
-    
-    if (!isValid) {
-        e.preventDefault();
-        alert('Please fill in all required fields.');
-    }
-});
-
-// Remove invalid class on input
-document.querySelectorAll('input, select, textarea').forEach(field => {
-    field.addEventListener('input', function() {
-        this.classList.remove('is-invalid');
-    });
-});
-</script>
-
-
-
-@endpush

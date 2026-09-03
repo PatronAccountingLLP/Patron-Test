@@ -147,8 +147,18 @@
 
        The text is rawurlencode()d. It used to sit raw in the href, spaces, comma
        and all, on every page of the site. */
-    $paWaTopic = trim((string) config('pa.enquiry_topic', ''));
     $paWaPath  = trim((string) (parse_url(request()->getRequestUri(), PHP_URL_PATH) ?: ''), '/');
+    $paWaTopic = trim((string) config('pa.enquiry_topic', ''));
+
+    // Pages that render no enquiry form publish no name - the calculators, for
+    // one - so fall back to reading the name off the URL. Without this the
+    // floating button said "I just visited your website" on a page called
+    // Advance Tax Calculator, while the buttons beside it named it correctly.
+    // App\Support\PageTopic returns '' for the homepage, /contact-us and the
+    // hub and listing pages, which should keep the generic message.
+    if ($paWaTopic === '' || strcasecmp($paWaTopic, 'General Enquiry') === 0) {
+        $paWaTopic = \App\Support\PageTopic::fromPath($paWaPath);
+    }
 
     $paWaNamesPage = $paWaTopic !== ''
                   && strcasecmp($paWaTopic, 'General Enquiry') !== 0

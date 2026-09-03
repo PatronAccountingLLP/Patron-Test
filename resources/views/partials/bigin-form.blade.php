@@ -205,11 +205,15 @@
         <input type="hidden" name="Description" value="{{ $paMsg }}"/>
         <input type="hidden" name="City" data-deal-city value="{{ $paCity }}"/>
 
-        {{-- Lead Source is a PICKLIST in Bigin. This used to be posted with the
-             page URL in it, which is not one of its options - Bigin threw the value
-             away and stored "Websites" regardless. Send the option it actually
-             stores, and keep the page address in a field of our own below. --}}
-        <input type="hidden" name="Contacts.Lead Source" value="Websites"/>
+        {{-- Sent EMPTY, exactly as the live site sends it.
+
+             It briefly carried "Websites" here, on the strength of a note saying
+             that is what Bigin stores anyway. That was a guess about the contents
+             of a PICKLIST we cannot see, and an unknown picklist value is a way to
+             have a record refused - which is a candidate for why test leads stopped
+             arriving in the CRM. The live form posts this field empty and its leads
+             do arrive, so match it and change nothing we cannot verify. --}}
+        <input type="hidden" name="Contacts.Lead Source" value=""/>
 
         {{-- Ours, not Zoho's - Bigin discards it, LeadCaptureController reads it.
              Rendered server-side so the page is recorded even when the script does

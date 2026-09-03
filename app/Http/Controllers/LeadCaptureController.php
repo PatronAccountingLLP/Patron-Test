@@ -34,6 +34,25 @@ class LeadCaptureController extends Controller
     /** Zoho is normally sub-second. Past this we keep the lead and give up. */
     private const ZOHO_TIMEOUT = 15;
 
+    /**
+     * The exact field list the live site posts to Zoho, read off
+     * patronaccounting.com. Leads from that form do reach Bigin, so this set is
+     * known-good; anything outside it is ours and stays on our side.
+     *
+     * "Contacts.Email" is deliberately NOT here. The form collects it and we store
+     * it, but it is not added until the Email field exists on Bigin web form
+     * 208810000001209168 - sending a field the form was not built with is exactly
+     * the kind of difference that cannot be tested from outside, because Zoho
+     * thanks you either way.
+     */
+    private const ZOHO_FIELDS = [
+        'xnQsjsdp', 'xmIwtLD', 'actionType', 'returnURL', 'rmsg', 'zc_gad',
+        'Potential Name', 'Pipeline', 'Stage',
+        'Contacts.Description', 'Description', 'City',
+        'Contacts.Lead Source',
+        'Contacts.Last Name', 'Contacts.Mobile', 'Contacts.Mailing City',
+    ];
+
     public function store(Request $request)
     {
         $lead = $this->record($request);
@@ -117,7 +136,20 @@ class LeadCaptureController extends Controller
         $body   = null;
 
         try {
+            // Forward EXACTLY the fields the live site posts, and nothing else.
+            //
+            // We used to pass the whole body through, which meant anything we
+            // added for our own purposes went to Zoho too. Bigin is documented as
+            // discarding fields its web form was not built with, but its response
+            // says "Thanks for submitting the form" whether it keeps a record or
+            // bins it, so that behaviour was never actually verifiable - and test
+            // leads stopped reaching the CRM at the point extra fields appeared.
+            //
+            // The live form's field list is proven to produce records. Match it.
+            // Adding one here is a deliberate act, to be done only after the field
+            // exists in Bigin's form builder - Contacts.Email is the pending one.
             $fields = collect($request->except(['_token']))
+                ->only(self::ZOHO_FIELDS)
                 ->filter(fn ($v) => is_scalar($v) || is_null($v))
                 ->map(fn ($v) => (string) $v)
                 ->all();

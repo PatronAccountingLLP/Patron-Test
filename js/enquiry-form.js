@@ -28,52 +28,52 @@
     'use strict';
 
     var COUNTRIES = [
-        { name: 'India', code: '+91', flag: '🇮🇳', iso: 'IN', nsn: 10 },
-        { name: 'United States', code: '+1', flag: '🇺🇸', iso: 'US' },
-        { name: 'United Kingdom', code: '+44', flag: '🇬🇧', iso: 'GB' },
-        { name: 'United Arab Emirates', code: '+971', flag: '🇦🇪', iso: 'AE', nsn: 9 },
-        { name: 'Saudi Arabia', code: '+966', flag: '🇸🇦', iso: 'SA' },
-        { name: 'Singapore', code: '+65', flag: '🇸🇬', iso: 'SG', nsn: 8 },
-        { name: 'Australia', code: '+61', flag: '🇦🇺', iso: 'AU' },
-        { name: 'Canada', code: '+1', flag: '🇨🇦', iso: 'CA' },
-        { name: 'Germany', code: '+49', flag: '🇩🇪', iso: 'DE' },
-        { name: 'France', code: '+33', flag: '🇫🇷', iso: 'FR' },
-        { name: 'Japan', code: '+81', flag: '🇯🇵', iso: 'JP' },
-        { name: 'China', code: '+86', flag: '🇨🇳', iso: 'CN' },
-        { name: 'South Korea', code: '+82', flag: '🇰🇷', iso: 'KR' },
-        { name: 'Brazil', code: '+55', flag: '🇧🇷', iso: 'BR' },
-        { name: 'South Africa', code: '+27', flag: '🇿🇦', iso: 'ZA' },
-        { name: 'Nigeria', code: '+234', flag: '🇳🇬', iso: 'NG' },
-        { name: 'Kenya', code: '+254', flag: '🇰🇪', iso: 'KE' },
-        { name: 'Malaysia', code: '+60', flag: '🇲🇾', iso: 'MY' },
-        { name: 'Indonesia', code: '+62', flag: '🇮🇩', iso: 'ID' },
-        { name: 'Thailand', code: '+66', flag: '🇹🇭', iso: 'TH' },
-        { name: 'Vietnam', code: '+84', flag: '🇻🇳', iso: 'VN' },
-        { name: 'Philippines', code: '+63', flag: '🇵🇭', iso: 'PH' },
-        { name: 'Bangladesh', code: '+880', flag: '🇧🇩', iso: 'BD' },
-        { name: 'Pakistan', code: '+92', flag: '🇵🇰', iso: 'PK' },
-        { name: 'Sri Lanka', code: '+94', flag: '🇱🇰', iso: 'LK' },
-        { name: 'Nepal', code: '+977', flag: '🇳🇵', iso: 'NP' },
-        { name: 'Qatar', code: '+974', flag: '🇶🇦', iso: 'QA', nsn: 8 },
-        { name: 'Kuwait', code: '+965', flag: '🇰🇼', iso: 'KW', nsn: 8 },
-        { name: 'Bahrain', code: '+973', flag: '🇧🇭', iso: 'BH', nsn: 8 },
-        { name: 'Oman', code: '+968', flag: '🇴🇲', iso: 'OM', nsn: 8 },
-        { name: 'New Zealand', code: '+64', flag: '🇳🇿', iso: 'NZ' },
-        { name: 'Ireland', code: '+353', flag: '🇮🇪', iso: 'IE' },
-        { name: 'Netherlands', code: '+31', flag: '🇳🇱', iso: 'NL' },
-        { name: 'Italy', code: '+39', flag: '🇮🇹', iso: 'IT' },
-        { name: 'Spain', code: '+34', flag: '🇪🇸', iso: 'ES' },
-        { name: 'Switzerland', code: '+41', flag: '🇨🇭', iso: 'CH' },
-        { name: 'Sweden', code: '+46', flag: '🇸🇪', iso: 'SE' },
-        { name: 'Russia', code: '+7', flag: '🇷🇺', iso: 'RU' },
-        { name: 'Mexico', code: '+52', flag: '🇲🇽', iso: 'MX' },
-        { name: 'Egypt', code: '+20', flag: '🇪🇬', iso: 'EG' },
-        { name: 'Turkey', code: '+90', flag: '🇹🇷', iso: 'TR' },
-        { name: 'Israel', code: '+972', flag: '🇮🇱', iso: 'IL' },
-        { name: 'Hong Kong', code: '+852', flag: '🇭🇰', iso: 'HK', nsn: 8 },
-        { name: 'Taiwan', code: '+886', flag: '🇹🇼', iso: 'TW' },
-        { name: 'Myanmar', code: '+95', flag: '🇲🇲', iso: 'MM' },
-        { name: 'Afghanistan', code: '+93', flag: '🇦🇫', iso: 'AF' }
+        { name: 'India', code: '+91', flag: '🇮🇳', iso: 'IN', len: [10, 10] },
+        { name: 'United States', code: '+1', flag: '🇺🇸', iso: 'US', len: [10, 10] },
+        { name: 'United Kingdom', code: '+44', flag: '🇬🇧', iso: 'GB', len: [9, 10] },
+        { name: 'United Arab Emirates', code: '+971', flag: '🇦🇪', iso: 'AE', len: [8, 9] },
+        { name: 'Saudi Arabia', code: '+966', flag: '🇸🇦', iso: 'SA', len: [8, 9] },
+        { name: 'Singapore', code: '+65', flag: '🇸🇬', iso: 'SG', len: [8, 8] },
+        { name: 'Australia', code: '+61', flag: '🇦🇺', iso: 'AU', len: [8, 9] },
+        { name: 'Canada', code: '+1', flag: '🇨🇦', iso: 'CA', len: [10, 10] },
+        { name: 'Germany', code: '+49', flag: '🇩🇪', iso: 'DE', len: [6, 11] },
+        { name: 'France', code: '+33', flag: '🇫🇷', iso: 'FR', len: [9, 9] },
+        { name: 'Japan', code: '+81', flag: '🇯🇵', iso: 'JP', len: [9, 10] },
+        { name: 'China', code: '+86', flag: '🇨🇳', iso: 'CN', len: [10, 11] },
+        { name: 'South Korea', code: '+82', flag: '🇰🇷', iso: 'KR', len: [8, 10] },
+        { name: 'Brazil', code: '+55', flag: '🇧🇷', iso: 'BR', len: [10, 11] },
+        { name: 'South Africa', code: '+27', flag: '🇿🇦', iso: 'ZA', len: [9, 9] },
+        { name: 'Nigeria', code: '+234', flag: '🇳🇬', iso: 'NG', len: [8, 10] },
+        { name: 'Kenya', code: '+254', flag: '🇰🇪', iso: 'KE', len: [9, 9] },
+        { name: 'Malaysia', code: '+60', flag: '🇲🇾', iso: 'MY', len: [8, 10] },
+        { name: 'Indonesia', code: '+62', flag: '🇮🇩', iso: 'ID', len: [9, 12] },
+        { name: 'Thailand', code: '+66', flag: '🇹🇭', iso: 'TH', len: [8, 9] },
+        { name: 'Vietnam', code: '+84', flag: '🇻🇳', iso: 'VN', len: [9, 10] },
+        { name: 'Philippines', code: '+63', flag: '🇵🇭', iso: 'PH', len: [9, 10] },
+        { name: 'Bangladesh', code: '+880', flag: '🇧🇩', iso: 'BD', len: [9, 10] },
+        { name: 'Pakistan', code: '+92', flag: '🇵🇰', iso: 'PK', len: [9, 10] },
+        { name: 'Sri Lanka', code: '+94', flag: '🇱🇰', iso: 'LK', len: [9, 9] },
+        { name: 'Nepal', code: '+977', flag: '🇳🇵', iso: 'NP', len: [8, 10] },
+        { name: 'Qatar', code: '+974', flag: '🇶🇦', iso: 'QA', len: [8, 8] },
+        { name: 'Kuwait', code: '+965', flag: '🇰🇼', iso: 'KW', len: [8, 8] },
+        { name: 'Bahrain', code: '+973', flag: '🇧🇭', iso: 'BH', len: [8, 8] },
+        { name: 'Oman', code: '+968', flag: '🇴🇲', iso: 'OM', len: [8, 8] },
+        { name: 'New Zealand', code: '+64', flag: '🇳🇿', iso: 'NZ', len: [8, 10] },
+        { name: 'Ireland', code: '+353', flag: '🇮🇪', iso: 'IE', len: [7, 9] },
+        { name: 'Netherlands', code: '+31', flag: '🇳🇱', iso: 'NL', len: [9, 9] },
+        { name: 'Italy', code: '+39', flag: '🇮🇹', iso: 'IT', len: [6, 11] },
+        { name: 'Spain', code: '+34', flag: '🇪🇸', iso: 'ES', len: [9, 9] },
+        { name: 'Switzerland', code: '+41', flag: '🇨🇭', iso: 'CH', len: [9, 9] },
+        { name: 'Sweden', code: '+46', flag: '🇸🇪', iso: 'SE', len: [7, 9] },
+        { name: 'Russia', code: '+7', flag: '🇷🇺', iso: 'RU', len: [10, 10] },
+        { name: 'Mexico', code: '+52', flag: '🇲🇽', iso: 'MX', len: [10, 10] },
+        { name: 'Egypt', code: '+20', flag: '🇪🇬', iso: 'EG', len: [9, 10] },
+        { name: 'Turkey', code: '+90', flag: '🇹🇷', iso: 'TR', len: [10, 10] },
+        { name: 'Israel', code: '+972', flag: '🇮🇱', iso: 'IL', len: [8, 9] },
+        { name: 'Hong Kong', code: '+852', flag: '🇭🇰', iso: 'HK', len: [8, 8] },
+        { name: 'Taiwan', code: '+886', flag: '🇹🇼', iso: 'TW', len: [8, 9] },
+        { name: 'Myanmar', code: '+95', flag: '🇲🇲', iso: 'MM', len: [7, 10] },
+        { name: 'Afghanistan', code: '+93', flag: '🇦🇫', iso: 'AF', len: [9, 9] }
     ];
 
     /* Callers may pass the country object or just its dial code. */
@@ -94,18 +94,23 @@
      * Stripping (2) safely is the whole difficulty, because a national number can
      * legitimately begin with its own country's digits. Two rules, in order:
      *
-     *   nsn  - where a country's national number is a FIXED length we are sure of,
-     *          use it: strip only when the whole string is not already that length
-     *          AND what remains after the code is. This is what catches Singapore,
-     *          where +65 plus 8 digits totals exactly 10 and the length rule below
-     *          cannot see it.
-     *   >10  - everywhere else. Deliberately conservative: it keeps a plain
-     *          10-digit Indian mobile beginning "91" (9198765432) intact, and it
-     *          leaves Brazilian numbers in area code 55 alone, both of which a
-     *          looser threshold would mangle.
+     * Every country carries `len`, the min-max length of its national number, and
+     * the rule reads: strip the code only when the whole string is NOT already a
+     * plausible national number AND what remains after the code IS one.
+     *
+     * That ordering is what makes it safe. If the number already looks right for
+     * the country it is left alone, so a plain 10-digit Indian mobile beginning
+     * "91" (9198765432) and a Brazilian number in area code 55 both survive - a
+     * blunt "strip whenever it starts with the code" rule mangles both. It also
+     * catches Singapore, where +65 plus 8 digits totals exactly 10 and the old
+     * "only above 10 digits" threshold could not see it.
      *
      * Zeros go first, so 00447911123456 lands correctly too.
      */
+    function inNationalRange(len, c) {
+        return c.len ? (len >= c.len[0] && len <= c.len[1]) : (len >= 6 && len <= 15);
+    }
+
     function normalisePhone(raw, country) {
         var c = asCountry(country);
         var digits = (raw || '').replace(/\D/g, '').replace(/^0+/, '');
@@ -113,30 +118,54 @@
 
         if (!cc || digits.indexOf(cc) !== 0) { return digits; }
 
-        var rest = digits.length - cc.length;
-
-        if (c.nsn) {
-            if (digits.length !== c.nsn && rest === c.nsn) { digits = digits.slice(cc.length); }
-        } else if (digits.length > 10 && rest >= 6) {
+        if (!inNationalRange(digits.length, c) &&
+            inNationalRange(digits.length - cc.length, c)) {
             digits = digits.slice(cc.length);
         }
 
         return digits;
     }
 
+    /* Every country is now length-checked, not just India.
+     *
+     * Until now a number was only measured for +91; everywhere else anything from
+     * 6 to 15 digits was waved through. A UK visitor who mistyped seven digits got
+     * a thank-you and became a lead nobody could ever ring - which costs the
+     * enquiry just as surely as losing it, and without anyone noticing.
+     *
+     * The ranges are deliberately GENEROUS, covering mobile and landline formats,
+     * because refusing a real number is the worse mistake of the two. The visitor
+     * is told the length the country expects, so the fix is obvious.
+     */
     function validatePhone(raw, country) {
-        var dialCode = asCountry(country).code;
+        var c = asCountry(country);
         var digits = normalisePhone(raw, country);
+
         if (!digits) { return { valid: false, message: 'Phone number is required' }; }
-        if (dialCode === '+91') {
+
+        if (c.code === '+91') {
             if (digits.length !== 10) { return { valid: false, message: 'Enter a 10-digit mobile number' }; }
             if (!/^[6-9]/.test(digits)) { return { valid: false, message: 'Indian mobile numbers start with 6, 7, 8 or 9' }; }
             return { valid: true, digits: digits };
         }
-        if (digits.length < 6 || digits.length > 15) {
-            return { valid: false, message: 'Enter a valid phone number' };
+
+        if (!inNationalRange(digits.length, c)) {
+            return { valid: false, message: expectedLengthMessage(c) };
         }
+
         return { valid: true, digits: digits };
+    }
+
+    function expectedLengthMessage(c) {
+        if (!c.len) { return 'Enter a valid phone number'; }
+        var lo = c.len[0], hi = c.len[1];
+        // "an 8-digit", not "a 8-digit". 8 and 11 are the only openers here that
+        // take "an", and the message is read by every visitor who mistypes.
+        var article = (lo === 8 || lo === 11) ? 'an' : 'a';
+        var much = (lo === hi)
+            ? (article + ' ' + lo + '-digit')
+            : (article + ' ' + lo + ' to ' + hi + ' digit');
+        return 'Enter ' + much + ' number for ' + (c.name || 'this country');
     }
 
     function setError(field, message) {

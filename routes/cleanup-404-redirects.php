@@ -67,6 +67,7 @@ $cleanup404Redirects = [
     // entering India as a foreign company means registering a subsidiary
     ['/blog/foreign-company-india-entry', '/blog/foreign-subsidiary-registration-in-india'],
     ['/blog/gstat-appeal-procedure', '/blog/how-to-file-gstat-appeal'],
+    ['/ecommerce-accounting-services', '/accounting-services-for-e-commerce-industry'],
     ['/education-accounting-services', '/accounting-services-for-education-industry'],
     ['/eor-services', '/eor-india'],
     ['/esop-vs-bonus', '/esop-vs-profit-sharing-and-bonus'],

@@ -137,3 +137,23 @@ Route::get('/llp-compliance/{city}', function (string $city) {
  * code no longer contradicts this rule.
  */
 Route::permanentRedirect('/llp-compliance', '/pvt-llp-compliance');
+
+/*
+ * The industry accounting pages moved, and their Mumbai children did not.
+ *
+ * Six of the seven India pages were renamed and redirected. Laravel matches the
+ * whole path, so a rule on /education-accounting-services cannot catch
+ * /education-accounting-services/mumbai - the parent forwards while the child
+ * stays 200 on the old slug. cleanup-404-redirects.php already says this; these
+ * are the rules it was waiting for.
+ *
+ * Left as it stands, each service has two live Mumbai pages claiming to be
+ * themselves, competing for the same search.
+ *
+ * Only these three are moved. Healthcare, hospitality, NGO and trading have no
+ * Mumbai page under the new slug, so a redirect there would remove the Mumbai
+ * page rather than move it. They wait until the content is moved across.
+ */
+Route::permanentRedirect('/ecommerce-accounting-services/mumbai', '/accounting-services-for-e-commerce-industry/mumbai');
+Route::permanentRedirect('/education-accounting-services/mumbai', '/accounting-services-for-education-industry/mumbai');
+Route::permanentRedirect('/service-sector-accounting/mumbai', '/accounting-services-for-the-service-sector-industry/mumbai');

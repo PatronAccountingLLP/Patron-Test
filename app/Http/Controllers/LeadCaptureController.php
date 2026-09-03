@@ -38,9 +38,22 @@ class LeadCaptureController extends Controller
     {
         $lead = $this->record($request);
 
-        $this->forwardToZoho($request, $lead);
+        $zohoOk = $this->forwardToZoho($request, $lead);
 
-        return response($this->iframeBody(), 200)
+        // The enquiry is safe if EITHER store took it: our table is the record we
+        // control, Zoho is the one the team works in. Only when both failed has
+        // the enquiry actually gone nowhere, and the visitor has to be told - the
+        // form used to say "we will call you shortly" no matter what happened,
+        // because js/enquiry-form.js showed the thank-you on any frame load.
+        $captured = ($lead !== null) || $zohoOk;
+
+        if (!$captured) {
+            Log::critical('Enquiry lost: neither the database nor Zoho took it', [
+                'lead' => $request->except(['xnQsjsdp', 'xmIwtLD']),
+            ]);
+        }
+
+        return response($this->iframeBody($captured), 200)
             ->header('Content-Type', 'text/html; charset=UTF-8');
     }
 
@@ -96,7 +109,7 @@ class LeadCaptureController extends Controller
      * submission it has always received. Bigin still silently discards fields its
      * web form was not built with; the difference now is that we kept a copy.
      */
-    private function forwardToZoho(Request $request, ?Lead $lead): void
+    private function forwardToZoho(Request $request, ?Lead $lead): bool
     {
         $status = 'error';
         $code   = null;
@@ -125,19 +138,19 @@ class LeadCaptureController extends Controller
             Log::error('Zoho forward failed', ['error' => $e->getMessage(), 'lead_id' => $lead?->id]);
         }
 
-        if (!$lead) {
-            return;
+        if ($lead) {
+            try {
+                $lead->update([
+                    'zoho_status'    => $status,
+                    'zoho_http_code' => $code,
+                    'zoho_response'  => $this->clip($body, 2000),
+                ]);
+            } catch (\Throwable $e) {
+                Log::error('Could not stamp Zoho outcome on lead', ['error' => $e->getMessage(), 'lead_id' => $lead->id]);
+            }
         }
 
-        try {
-            $lead->update([
-                'zoho_status'    => $status,
-                'zoho_http_code' => $code,
-                'zoho_response'  => $this->clip($body, 2000),
-            ]);
-        } catch (\Throwable $e) {
-            Log::error('Could not stamp Zoho outcome on lead', ['error' => $e->getMessage(), 'lead_id' => $lead->id]);
-        }
+        return $status === 'ok';
     }
 
     /** "Website Enquiry - GST Registration - Pune" -> "GST Registration - Pune". */
@@ -167,12 +180,22 @@ class LeadCaptureController extends Controller
      * running without JavaScript never sees a thank-you, and this is the one
      * place we can still say something to them.
      */
-    private function iframeBody(): string
+    private function iframeBody(bool $captured): string
     {
+        // The <meta> is the machine-readable part. The response now comes from our
+        // own domain, so js/enquiry-form.js can read this frame and only celebrate
+        // when the enquiry was actually taken - it used to show the thank-you on
+        // any frame load, error pages included.
+        $state = $captured ? 'captured' : 'failed';
+
+        $message = $captured
+            ? 'Thank you. Your enquiry has reached Patron Accounting and our CA/CS team will call you shortly.'
+            : 'Sorry, we could not record your enquiry. Please call us on +91 94594 56700.';
+
         return '<!doctype html><html lang="en"><head><meta charset="utf-8">'
-             . '<title>Enquiry received</title></head><body>'
-             . '<p>Thank you. Your enquiry has reached Patron Accounting '
-             . 'and our CA/CS team will call you shortly.</p>'
+             . '<meta name="pa-lead" content="'.$state.'">'
+             . '<title>Enquiry '.$state.'</title></head><body>'
+             . '<p>'.$message.'</p>'
              . '</body></html>';
     }
 }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Lead;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Schema;
 
 /**
  * Our own record of every website enquiry - see LeadCaptureController.
@@ -17,6 +18,13 @@ class LeadController extends Controller
 {
     public function index(Request $request)
     {
+        // An environment whose migrations have not run has no `leads` table. Say
+        // so plainly - a 500 here would look exactly like "no enquiries yet", and
+        // that ambiguity is what this whole feature exists to remove.
+        if (!Schema::hasTable('leads')) {
+            return view('admin.leads.missing');
+        }
+
         $filter = $request->query('filter');
 
         $leads = Lead::query()

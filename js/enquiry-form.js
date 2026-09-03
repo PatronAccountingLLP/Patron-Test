@@ -321,12 +321,57 @@
         var frame = document.getElementById('biginFrame' + form.getAttribute('data-uid'));
         if (frame) {
             frame.addEventListener('load', function () {
-                // Only a load that follows a real submit is Zoho's answer;
+                // Only a load that follows a real submit is an answer;
                 // the about:blank paint on page load is not.
                 if (!form.__paSubmitted) { return; }
+
+                // The answer now comes from our own domain, so we can read it and
+                // tell the truth. This used to celebrate on ANY load - a 500 page
+                // in this frame still said "we will call you shortly", which is how
+                // a lost enquiry looked identical to a captured one.
+                if (readLeadState(frame) === 'failed') {
+                    showFailure(form, submitBtn);
+                    return;
+                }
+
                 showSuccess(card || form);
             });
         }
+    }
+
+    /* 'captured' | 'failed' | null when the frame cannot be read. Same-origin now,
+     * but a redirect elsewhere would throw, and an unreadable answer must NOT be
+     * treated as failure - better a wrong thank-you than scaring off a visitor
+     * whose enquiry actually landed. */
+    function readLeadState(frame) {
+        try {
+            var doc = frame.contentDocument || (frame.contentWindow && frame.contentWindow.document);
+            if (!doc) { return null; }
+            var meta = doc.querySelector('meta[name="pa-lead"]');
+            return meta ? meta.getAttribute('content') : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    /* The enquiry reached neither our database nor Zoho. Keep the form on screen
+     * with what they typed still in it, and give them a number to ring. */
+    function showFailure(form, submitBtn) {
+        if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = 'Try again →';
+        }
+
+        var box = form.querySelector('[data-submit-error]');
+        if (!box) {
+            box = document.createElement('div');
+            box.className = 'field-error-msg';
+            box.setAttribute('data-submit-error', '');
+            box.style.marginTop = '10px';
+            form.appendChild(box);
+        }
+        box.textContent = 'Sorry, we could not record your enquiry. Please call us on +91 94594 56700.';
+        box.style.display = 'block';
     }
 
     function showSuccess(target) {

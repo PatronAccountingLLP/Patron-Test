@@ -180,8 +180,17 @@
                        class="sidebar-nav-item {{ request()->routeIs('admin.leads.*') ? 'active' : '' }}">
                         <i class="bi bi-telephone-inbound"></i> Website Enquiries
                         @php
-                            $leadsNotInCrm = \App\Models\Lead::notInCrm()->count();
-                            $leadsUnread   = \App\Models\Lead::where('is_read', false)->count();
+                            // Guarded: this runs on EVERY admin page, so an
+                            // unavailable leads table (migration not yet run on a
+                            // given environment) would otherwise 500 the whole
+                            // backend rather than just hide two badges.
+                            try {
+                                $leadsNotInCrm = \App\Models\Lead::notInCrm()->count();
+                                $leadsUnread   = \App\Models\Lead::where('is_read', false)->count();
+                            } catch (\Throwable $e) {
+                                $leadsNotInCrm = 0;
+                                $leadsUnread   = 0;
+                            }
                         @endphp
                         @if($leadsNotInCrm > 0)
                             <span class="badge bg-danger rounded-pill ms-auto">{{ $leadsNotInCrm }}</span>

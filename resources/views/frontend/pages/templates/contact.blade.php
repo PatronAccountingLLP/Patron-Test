@@ -252,6 +252,42 @@
     $paMail      = 'sales@patronaccounting.com';
     $paWa        = 'https://wa.me/919459456700';
 
+    // Prefilled WhatsApp and email. Both open an editable draft in the person's
+    // own app, so nothing is sent without them seeing it.
+    //
+    // House style, taken from the 1,300+ WhatsApp links already on the site:
+    // "Hi, <what I need>. Please <ask>." No message anywhere on the site carries
+    // the sender's name, and this one does not either - WhatsApp already shows the
+    // sender's profile name in the chat, so it would be noise. The wording matches
+    // the floating WhatsApp button in partials/footer, which sits on this very page.
+    //
+    // Email is the exception, and the only mailto on the site with a prefill at
+    // all. An email arrives as a bare address, so the body names the sender and
+    // asks for the three things the FAQ below tells people to include. The name is
+    // filled in by the script at the foot of this file from the enquiry form.
+    //
+    // chr(13).chr(10) rather than an escape sequence: mail clients want a real CRLF
+    // between body lines, and this cannot be misread as a literal backslash-r.
+    $paCRLF = chr(13).chr(10);
+
+    $paWaText = 'Hi, I would like to know more about your services. Please help me get started.';
+
+    $paMailTail = $paCRLF.$paCRLF.'Service I need:'
+                 .$paCRLF.'City:'
+                 .$paCRLF.'Entity type (proprietorship / LLP / private limited / NGO):'
+                 .$paCRLF.$paCRLF.'Anything else that would help:'
+                 .$paCRLF.$paCRLF.'Thank you.';
+    $paMailPlain = 'Hi,'.$paCRLF.$paCRLF.'I would like to know more about your services.'.$paMailTail;
+    $paMailNamed = 'Hi,'.$paCRLF.$paCRLF.'I am __NAME__. I would like to know more about your services.'.$paMailTail;
+    $paMailSubjPlain = 'Enquiry from patronaccounting.com';
+    $paMailSubjNamed = 'Enquiry from __NAME__ (patronaccounting.com)';
+
+    $paWaLink   = $paWa.'?text='.rawurlencode($paWaText);
+    $paMailLink = 'mailto:'.$paMail.'?subject='.rawurlencode($paMailSubjPlain).'&body='.rawurlencode($paMailPlain);
+
+    // Handed to the script as JSON so this copy is written in exactly one place.
+    $paMsgCfg = ['mail' => ['to' => $paMail, 'named' => $paMailNamed, 'subject' => $paMailSubjNamed]];
+
     $paOffices = [
         [
             'city'  => 'Pune', 'hq' => true,
@@ -313,7 +349,7 @@
                     <div class="pa-cu-trust">
                         <span class="pa-cu-chip"><i class="bi bi-star-fill"></i> 4.9 on Google</span>
                         <span class="pa-cu-chip"><i class="bi bi-geo-alt-fill"></i> 5 offices across India</span>
-                        <span class="pa-cu-chip"><i class="bi bi-clock-fill"></i> Reply within 1 working day</span>
+                        <span class="pa-cu-chip"><i class="bi bi-globe"></i> Pan India Services</span>
                     </div>
 
                     <div class="pa-cu-rails">
@@ -325,7 +361,7 @@
                             </span>
                             <span class="pa-cu-rail-go"><i class="bi bi-arrow-right"></i></span>
                         </a>
-                        <a class="pa-cu-rail" href="{{ $paWa }}" target="_blank" rel="noopener">
+                        <a class="pa-cu-rail" href="{{ $paWaLink }}" target="_blank" rel="noopener">
                             <span class="pa-cu-rail-ico"><i class="bi bi-whatsapp"></i></span>
                             <span>
                                 <span class="pa-cu-rail-k">WhatsApp</span>
@@ -333,7 +369,7 @@
                             </span>
                             <span class="pa-cu-rail-go"><i class="bi bi-arrow-right"></i></span>
                         </a>
-                        <a class="pa-cu-rail" href="mailto:{{ $paMail }}">
+                        <a class="pa-cu-rail" id="paMailRail" href="{{ $paMailLink }}">
                             <span class="pa-cu-rail-ico"><i class="bi bi-envelope-fill"></i></span>
                             <span>
                                 <span class="pa-cu-rail-k">Email us</span>
@@ -374,7 +410,7 @@
                     <span class="pa-cu-step-n">2</span>
                     <div>
                         <h3 class="pa-cu-step-t">A CA reviews it</h3>
-                        <p class="pa-cu-step-d">Your enquiry goes to the team that handles that service, not a call centre. We come back within one working day.</p>
+                        <p class="pa-cu-step-d">Your enquiry goes to the team that handles that service, not a call centre, so the person who replies already knows the subject.</p>
                     </div>
                 </div>
                 <div class="pa-cu-step">
@@ -463,7 +499,7 @@
     @include('partials.faq-section', [
         'faqs' => [
             ['question' => 'How quickly do you respond to messages?',
-             'answer'   => 'We respond to enquiries within one working day. For anything urgent, call us on +91 94594 56700 during business hours and you will reach the team directly.'],
+             'answer'   => 'Enquiries are picked up during business hours, Monday to Saturday. If something is urgent, call us on +91 94594 56700 rather than waiting on a reply and you will reach the team directly.'],
             ['question' => 'What should I include in my message?',
              'answer'   => 'The service you need, the city your business operates from, and your entity type (proprietorship, LLP, private limited, NGO, and so on). That is enough for us to come back with a scope and a quote rather than more questions.'],
             ['question' => 'Do you offer phone or video consultations?',
@@ -500,6 +536,51 @@
             </div>
         </div>
     </section>
+
+    {{-- Carries the visitor's name from the enquiry form into the EMAIL draft, so
+         it opens "I am <name>." instead of anonymously. The name never leaves the
+         browser: it only rewrites this one href.
+
+         WhatsApp is deliberately left alone. No WhatsApp message on the site carries
+         a name, and WhatsApp already shows the sender's profile name in the chat.
+
+         Deliberately NOT in @push('scripts') - layouts/app.blade.php renders
+         @stack('scripts') twice, so anything pushed there executes twice. The
+         rendered href is the anonymous version, so with JavaScript off, or before
+         anyone types, the link still works; it just carries no name. --}}
+    <script type="application/json" id="paMsgCfg">{!! json_encode($paMsgCfg, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) !!}</script>
+    <script>
+    (function () {
+        var holder = document.getElementById('paMsgCfg');
+        var mail   = document.getElementById('paMailRail');
+        var form   = document.getElementById('contact-form');
+        if (!holder || !mail || !form) { return; }
+
+        var field = form.querySelector('input[name="Contacts.Last Name"]');
+        if (!field) { return; }
+
+        var cfg;
+        try { cfg = JSON.parse(holder.textContent); } catch (e) { return; }
+
+        var mailPlain = mail.getAttribute('href');
+
+        // A name, not an essay: collapse whitespace, trim, and cap it so a pasted
+        // paragraph cannot drag itself into the URL.
+        function clean(v) { return String(v || '').replace(/\s+/g, ' ').trim().slice(0, 60); }
+
+        function sync() {
+            var n = clean(field.value);
+            if (!n) { mail.href = mailPlain; return; }
+            mail.href = 'mailto:' + cfg.mail.to
+                      + '?subject=' + encodeURIComponent(cfg.mail.subject.replace('__NAME__', n))
+                      + '&body='    + encodeURIComponent(cfg.mail.named.replace('__NAME__', n));
+        }
+
+        field.addEventListener('input', sync);
+        field.addEventListener('change', sync);
+        sync();
+    })();
+    </script>
 
 </div>
 @endsection

@@ -135,7 +135,7 @@ class LeadCaptureController extends Controller
             $response = Http::asMultipart()
                 ->withoutRedirecting()
                 ->timeout(self::ZOHO_TIMEOUT)
-                ->withHeaders(['User-Agent' => 'PatronAccounting-LeadCapture/1.0'])
+                ->withHeaders($this->browserHeaders($request, $fields))
                 ->post(self::ZOHO_ENDPOINT, $fields);
 
             $code     = $response->status();
@@ -167,6 +167,39 @@ class LeadCaptureController extends Controller
         }
 
         return $status;
+    }
+
+    /**
+     * Make our forward look like the browser submission it replaces.
+     *
+     * Until this form started posting through us, the visitor's own browser
+     * posted straight to Zoho, carrying a Referer and Origin from the page the
+     * form was on and the visitor's real User-Agent. Our server sent none of
+     * that, and a bot-shaped User-Agent besides. Zoho web forms are known to
+     * weigh exactly those signals, and a submission it quietly discards still
+     * answers "Thanks for submitting the form" - so the difference is invisible
+     * from our side and only shows up as leads never arriving in the CRM.
+     *
+     * Passing the visitor's own headers through costs nothing if that was not the
+     * cause, and restores the one thing that demonstrably used to work.
+     */
+    private function browserHeaders(Request $request, array $fields): array
+    {
+        $page = $fields['pa_page_url'] ?? $request->headers->get('referer') ?? url('/');
+        $parts = parse_url($page);
+        $origin = ($parts && !empty($parts['scheme']) && !empty($parts['host']))
+            ? $parts['scheme'].'://'.$parts['host']
+            : rtrim(url('/'), '/');
+
+        return [
+            'Referer'          => $page,
+            'Origin'           => $origin,
+            'User-Agent'       => $request->userAgent()
+                ?: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                   .'(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+            'Accept'           => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language'  => $request->headers->get('accept-language') ?: 'en-IN,en;q=0.9',
+        ];
     }
 
     /**

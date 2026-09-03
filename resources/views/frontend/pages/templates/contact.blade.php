@@ -181,6 +181,7 @@
 .pa-cu-split { display:grid; grid-template-columns:340px minmax(0,1fr); gap:26px; align-items:stretch; }
 .pa-cu-hours {
     background:#fff; border:1px solid var(--line); border-radius:14px; padding:24px;
+    display:flex; flex-direction:column;
 }
 .pa-cu-hours h3 {
     font-family:'Barlow',sans-serif; font-weight:700; color:var(--navy);
@@ -193,11 +194,22 @@
 .pa-cu-hrow:last-of-type { border-bottom:0; }
 .pa-cu-hrow span:first-child { color:var(--ink); font-weight:600; }
 .pa-cu-hrow span:last-child { color:var(--muted); text-align:right; }
-.pa-cu-hnote {
-    margin:14px 0 0; font-size:12.5px; line-height:1.6; color:var(--muted);
-    background:var(--wash); border-left:3px solid var(--orange);
-    border-radius:0 8px 8px 0; padding:10px 12px;
+/* Head office block. margin-top:auto pushes it to the foot of the card, so
+   whatever height the map next to it settles at, the card fills rather than
+   ending in dead white space. */
+.pa-cu-hoff { margin-top:auto; padding-top:20px; }
+.pa-cu-hoff-t {
+    font-family:'Barlow',sans-serif; font-weight:700; color:var(--navy);
+    font-size:12px; letter-spacing:.08em; text-transform:uppercase; margin:0 0 8px;
 }
+.pa-cu-hoff-a { font-size:14px; line-height:1.65; color:var(--ink); margin:0 0 14px; }
+.pa-cu-hbtn {
+    display:inline-flex; align-items:center; gap:8px; padding:11px 18px;
+    border-radius:9px; background:var(--orange); color:#fff;
+    font-size:14px; font-weight:700; text-decoration:none;
+    transition:background .2s ease, transform .2s ease;
+}
+.pa-cu-hbtn:hover { background:#D9541A; color:#fff; transform:translateY(-1px); }
 .pa-cu-map { border-radius:14px; overflow:hidden; border:1px solid var(--line); min-height:360px; }
 .pa-cu-map iframe { display:block; width:100%; height:100%; min-height:360px; border:0; }
 
@@ -243,7 +255,7 @@
     $paOffices = [
         [
             'city'  => 'Pune', 'hq' => true,
-            'addr'  => 'Office No B4, RTC Silver,<br>Wagholi, Pune,<br>Maharashtra &ndash; 412207',
+            'addr'  => 'RTC Silver, B4-708, Sai Satyam Park,<br>Wagholi, Pune,<br>Maharashtra &ndash; 412207',
             'hours' => 'Mon&ndash;Sat',
             'map'   => 'https://www.google.com/maps/search/?api=1&query=Patron+Accounting+LLP+RTC+Silver+Sai+Satyam+Park+Wagholi+Pune+412207',
         ],
@@ -272,6 +284,9 @@
             'map'   => 'https://www.google.com/maps/search/?api=1&query=Patron+Accounting+LLP+Phoenix+Tower+1107+Commerce+Six+Road+Drive+In+Road+Navrangpura+Ahmedabad+380009',
         ],
     ];
+    // The head office, reused by the hours card below so the address is written
+    // once and the two can never drift apart.
+    $paHq = collect($paOffices)->firstWhere('hq', true);
 @endphp
 
 <div class="pa-cu">
@@ -412,10 +427,17 @@
             <div class="pa-cu-split">
                 <div class="pa-cu-hours">
                     <h3>When we are open</h3>
-                    <div class="pa-cu-hrow"><span>Monday &ndash; Friday</span><span>9:00 AM &ndash; 6:00 PM</span></div>
-                    <div class="pa-cu-hrow"><span>Saturday</span><span>10:00 AM &ndash; 4:00 PM</span></div>
+                    <div class="pa-cu-hrow"><span>Monday &ndash; Friday</span><span>9:30 AM &ndash; 6:30 PM</span></div>
+                    <div class="pa-cu-hrow"><span>Saturday</span><span>10:00 AM &ndash; 6:30 PM</span></div>
                     <div class="pa-cu-hrow"><span>Sunday</span><span>Closed</span></div>
-                    <p class="pa-cu-hnote">Closed on the 1st and 4th Saturday of each month. Outside these hours, send the form or WhatsApp us and we will pick it up the next working day.</p>
+
+                    <div class="pa-cu-hoff">
+                        <h4 class="pa-cu-hoff-t">Head office</h4>
+                        <p class="pa-cu-hoff-a">{!! $paHq['addr'] !!}</p>
+                        <a class="pa-cu-hbtn" href="{{ $paHq['map'] }}" target="_blank" rel="noopener">
+                            <i class="bi bi-geo-alt-fill"></i> Get directions
+                        </a>
+                    </div>
                 </div>
                 <div class="pa-cu-map">
                     <iframe

@@ -138,6 +138,9 @@
     config([
         'pa.enquiry_form_rendered' => true,
         'pa.enquiry_service'       => $paSvc,
+        // The topic without the "Glossary - " / "Blog - " prefix. partials/footer
+        // reads this to name the page in the floating WhatsApp button's message.
+        'pa.enquiry_topic'         => $paTopic,
         'pa.enquiry_city'          => $paCity,
         'pa.bigin_legacy_id_used'  => config('pa.bigin_legacy_id_used') || $paLegacyId,
     ]);

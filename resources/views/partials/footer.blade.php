@@ -130,11 +130,41 @@
 </footer>
 @endverbatim
 
-@verbatim
+@php
+    /* The sitewide WhatsApp message. Dynamic by page.
+
+       On a service page it names the service: "Hello, I just visited your GST
+       Registration page. I would like to know more about it." Everywhere else -
+       the homepage, /contact-us, anything with no service of its own - it asks
+       about the catalogue instead, because "I just visited your General Enquiry
+       page" is nonsense.
+
+       The service name comes from partials/bigin-form, which de-slugs the URL
+       ("/stock-audit-mumbai" -> "Stock Audit in Mumbai") and publishes the result
+       to config. The footer renders after the page content, so by the time this
+       runs the value is already set. Pages that render no form at all simply fall
+       through to the generic message.
+
+       The text is rawurlencode()d. It used to sit raw in the href, spaces, comma
+       and all, on every page of the site. */
+    $paWaTopic = trim((string) config('pa.enquiry_topic', ''));
+    $paWaPath  = trim((string) (parse_url(request()->getRequestUri(), PHP_URL_PATH) ?: ''), '/');
+
+    $paWaNamesPage = $paWaTopic !== ''
+                  && strcasecmp($paWaTopic, 'General Enquiry') !== 0
+                  && $paWaPath !== '';
+
+    $paWaMsg = $paWaNamesPage
+        ? 'Hello, I just visited your '.$paWaTopic.' page. I would like to know more about it.'
+        : 'Hello, I just visited your website. I would like to know more about your service catalogue and how you can help me.';
+
+    $paWaFloatHref = 'https://wa.me/919459456700?text='.rawurlencode($paWaMsg);
+@endphp
 <!-- Floating WhatsApp button (preserved from previous footer) -->
-<a href="https://wa.me/919459456700?text=Hi, I would like to know more about your services" target="_blank" rel="noopener noreferrer" class="pa-wa-float" aria-label="Chat on WhatsApp">
+<a href="{{ $paWaFloatHref }}" target="_blank" rel="noopener noreferrer" class="pa-wa-float" aria-label="Chat on WhatsApp">
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
 </a>
+@verbatim
 <!-- Back to Top -->
 <button id="paBackTop" class="pa-backtop" type="button" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f26522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 <style>

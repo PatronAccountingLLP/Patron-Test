@@ -255,38 +255,33 @@
     // Prefilled WhatsApp and email. Both open an editable draft in the person's
     // own app, so nothing is sent without them seeing it.
     //
-    // House style, taken from the 1,300+ WhatsApp links already on the site:
-    // "Hi, <what I need>. Please <ask>." No message anywhere on the site carries
-    // the sender's name, and this one does not either - WhatsApp already shows the
-    // sender's profile name in the chat, so it would be noise. The wording matches
-    // the floating WhatsApp button in partials/footer, which sits on this very page.
+    // Sitewide message standard. A service page says what it is; a page with no
+    // service of its own asks about the catalogue. This is one of the latter, so it
+    // uses the generic wording, identical to the one partials/footer builds for the
+    // floating WhatsApp button. Keep the two in step: if the wording changes here it
+    // changes there, or the same visitor gets two different openings on one page.
     //
-    // Email is the exception, and the only mailto on the site with a prefill at
-    // all. An email arrives as a bare address, so the body names the sender and
-    // asks for the three things the FAQ below tells people to include. The name is
-    // filled in by the script at the foot of this file from the enquiry form.
+    // Neither message carries the sender's name. No message anywhere on the site
+    // does, and both apps already supply it: WhatsApp shows the sender's profile
+    // name in the chat, and mail clients send a From display name and usually a
+    // signature. Verified against a real iPhone submission.
     //
     // chr(13).chr(10) rather than an escape sequence: mail clients want a real CRLF
     // between body lines, and this cannot be misread as a literal backslash-r.
     $paCRLF = chr(13).chr(10);
 
-    $paWaText = 'Hi, I would like to know more about your services. Please help me get started.';
+    $paWaText = 'Hello, I just visited your website. I would like to know more about your service catalogue and how you can help me.';
 
-    $paMailTail = $paCRLF.$paCRLF.'Service I need:'
+    $paMailSubject = 'Enquiry from patronaccounting.com';
+    $paMailBody = 'Hello, I just visited your website. I would like to know more about your service catalogue and how you can help me.'
+                 .$paCRLF.$paCRLF.'Service I need:'
                  .$paCRLF.'City:'
                  .$paCRLF.'Entity type (proprietorship / LLP / private limited / NGO):'
                  .$paCRLF.$paCRLF.'Anything else that would help:'
                  .$paCRLF.$paCRLF.'Thank you.';
-    $paMailPlain = 'Hi,'.$paCRLF.$paCRLF.'I would like to know more about your services.'.$paMailTail;
-    $paMailNamed = 'Hi,'.$paCRLF.$paCRLF.'I am __NAME__. I would like to know more about your services.'.$paMailTail;
-    $paMailSubjPlain = 'Enquiry from patronaccounting.com';
-    $paMailSubjNamed = 'Enquiry from __NAME__ (patronaccounting.com)';
 
     $paWaLink   = $paWa.'?text='.rawurlencode($paWaText);
-    $paMailLink = 'mailto:'.$paMail.'?subject='.rawurlencode($paMailSubjPlain).'&body='.rawurlencode($paMailPlain);
-
-    // Handed to the script as JSON so this copy is written in exactly one place.
-    $paMsgCfg = ['mail' => ['to' => $paMail, 'named' => $paMailNamed, 'subject' => $paMailSubjNamed]];
+    $paMailLink = 'mailto:'.$paMail.'?subject='.rawurlencode($paMailSubject).'&body='.rawurlencode($paMailBody);
 
     $paOffices = [
         [
@@ -369,7 +364,7 @@
                             </span>
                             <span class="pa-cu-rail-go"><i class="bi bi-arrow-right"></i></span>
                         </a>
-                        <a class="pa-cu-rail" id="paMailRail" href="{{ $paMailLink }}">
+                        <a class="pa-cu-rail" href="{{ $paMailLink }}">
                             <span class="pa-cu-rail-ico"><i class="bi bi-envelope-fill"></i></span>
                             <span>
                                 <span class="pa-cu-rail-k">Email us</span>
@@ -537,50 +532,6 @@
         </div>
     </section>
 
-    {{-- Carries the visitor's name from the enquiry form into the EMAIL draft, so
-         it opens "I am <name>." instead of anonymously. The name never leaves the
-         browser: it only rewrites this one href.
-
-         WhatsApp is deliberately left alone. No WhatsApp message on the site carries
-         a name, and WhatsApp already shows the sender's profile name in the chat.
-
-         Deliberately NOT in @push('scripts') - layouts/app.blade.php renders
-         @stack('scripts') twice, so anything pushed there executes twice. The
-         rendered href is the anonymous version, so with JavaScript off, or before
-         anyone types, the link still works; it just carries no name. --}}
-    <script type="application/json" id="paMsgCfg">{!! json_encode($paMsgCfg, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) !!}</script>
-    <script>
-    (function () {
-        var holder = document.getElementById('paMsgCfg');
-        var mail   = document.getElementById('paMailRail');
-        var form   = document.getElementById('contact-form');
-        if (!holder || !mail || !form) { return; }
-
-        var field = form.querySelector('input[name="Contacts.Last Name"]');
-        if (!field) { return; }
-
-        var cfg;
-        try { cfg = JSON.parse(holder.textContent); } catch (e) { return; }
-
-        var mailPlain = mail.getAttribute('href');
-
-        // A name, not an essay: collapse whitespace, trim, and cap it so a pasted
-        // paragraph cannot drag itself into the URL.
-        function clean(v) { return String(v || '').replace(/\s+/g, ' ').trim().slice(0, 60); }
-
-        function sync() {
-            var n = clean(field.value);
-            if (!n) { mail.href = mailPlain; return; }
-            mail.href = 'mailto:' + cfg.mail.to
-                      + '?subject=' + encodeURIComponent(cfg.mail.subject.replace('__NAME__', n))
-                      + '&body='    + encodeURIComponent(cfg.mail.named.replace('__NAME__', n));
-        }
-
-        field.addEventListener('input', sync);
-        field.addEventListener('change', sync);
-        sync();
-    })();
-    </script>
 
 </div>
 @endsection

@@ -1646,7 +1646,7 @@
 
         function formatCurrency(num) {
             const sign = num < 0 ? '(' : '';
-            const signEnd = num <script 0 ? ')' : '';
+            const signEnd = num < 0 ? ')' : '';
             const absNum = Math.abs(num);
             return sign + '&#8377;' + absNum.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + signEnd;
         }

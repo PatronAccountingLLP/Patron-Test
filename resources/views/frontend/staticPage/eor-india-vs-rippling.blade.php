@@ -1200,3 +1200,5 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
     var opts = { day: 'numeric', month: 'long', year: 'numeric' };
     var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
+</script>
+@endsection

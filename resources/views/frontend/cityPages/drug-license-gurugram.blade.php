@@ -899,6 +899,11 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
     var opts = { day: 'numeric', month: 'long', year: 'numeric' };
     var dateStr = new Date().toLocaleDateString('en-IN', opts);
     var el1 = document.getElementById('lastUpdated');
+    var el2 = document.getElementById('lastUpdatedFooter');
+    if (el1) { el1.textContent = dateStr; }
+    if (el2) { el2.textContent = dateStr; }
+})();
+</script>
 
 <!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

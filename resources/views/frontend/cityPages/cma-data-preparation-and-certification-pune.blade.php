@@ -1498,4 +1498,4 @@ window.addEventListener('scroll', function() {
     if (el1) { el1.textContent = dateStr; }
     if (el2) { el2.textContent = dateStr; }
 })();
-
+</script>
